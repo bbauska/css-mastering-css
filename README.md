@@ -15063,34 +15063,25 @@ height="3.1640616797900263in"}
 >
 > }
 
-###### And then give browserslist a value of last four versions : {#and-then-give-browserslist-a-value-of-last-four-versions .unnumbered}
+#### And then give browserslist a value of last four versions : and-then-give-browserslist-a-value-of-last-four-versions .unnumbered}
 
-> {
->
-> &#34;name&#34;: &#34;joeblow&#34;,
->
-> &#34;version&#34;: &#34;1.0.0&#34;,
->
-> []{#_bookmark325 .anchor}&#34;description&#34;: &#34;Joe Blow&#39;s web
-> portfolio&#34;, &#34;main&#34;: &#34;index.js&#34;,
->
-> &#34;scripts&#34;: {
->
-> &#34;sass&#34;: &#34;sass ./sass/main.scss:./public/css/style. css -w &#45;-style
-> compressed&#34;,
->
-> &#34;prefix&#34;: &#34;postcss ./public/css/style.css &#45;-use autoprefixer -d
-> ./public/css/prefixed/&#34;
->
-> },
->
-> &#34;author&#34;: &#34;&#34;,
->
-> &#34;license&#34;: &#34;ISC&#34;,
->
-> &#34;browserslist&#34;: &#34;last 4 versions&#34;
->
-> }
+```
+&#34;name&#34;: &#34;joeblow&#34;,
+&#34;version&#34;: &#34;1.0.0&#34;,
+[]{#_bookmark325 .anchor}&#34;description&#34;: &#34;Joe Blow&#39;s web
+portfolio&#34;, &#34;main&#34;: &#34;index.js&#34;,
+&#34;scripts&#34;: {
+&#34;sass&#34;: &#34;sass ./sass/main.scss:./public/css/style. css -w &#45;-style
+compressed&#34;,
+&#34;prefix&#34;: &#34;postcss ./public/css/style.css &#45;-use autoprefixer -d
+./public/css/prefixed/&#34;
+},
+&#34;author&#34;: &#34;&#34;,
+&#34;license&#34;: &#34;ISC&#34;,
+&#34;browserslist&#34;: &#34;last 4 versions&#34;
+}
+```
+
 
 ###### Now you are ready to autoprefix CSS! Let's move into the terminal and {#now-you-are-ready-to-autoprefix-css-lets-move-into-the-terminal-and .unnumbered}
 
@@ -15098,7 +15089,7 @@ height="3.1640616797900263in"}
 >
 > &#36; npm run prefix
 
-###### Take a look at the new, prefixed, CSS in your CSS file, a new block will be added: {#take-a-look-at-the-new-prefixed-css-in-your-css-file-a-new-block-will-be-added .unnumbered}
+###### Take a look at the new, prefixed, CSS in your CSS file, a new block will be added: 
 
 > .section {
 >
@@ -15198,29 +15189,23 @@ height="3.1640616797900263in"}
 >
 > }
 
-###### cssnext will transform the styles into this: {#cssnext-will-transform-the-styles-into-this .unnumbered}
+###### cssnext will transform the styles into this:
 
-> .box {
->
-> background-color: #F9EC31; color: rgb(255, 64, 159); display:
-> -webkit-box; display: -ms-flexbox; display: flex;
->
-> margin: auto;
->
-> }
->
-> .warn {
->
-> display: -webkit-box; display: -ms-flexbox; display: flex; margin:
-> auto;
->
-> }
->
-> This plugin is the Babel of CSS, it allows you to use modern CSS
-> features
->
-> and at the same time takes care of translating them into CSS that is
-> more digestible for older browsers:
+```
+.box {
+background-color: #F9EC31; color: rgb(255, 64, 159); display:
+-webkit-box; display: -ms-flexbox; display: flex;
+margin: auto;
+}
+.warn {
+display: -webkit-box; display: -ms-flexbox; display: flex; margin:
+auto;
+}
+```
+
+This plugin is the Babel of CSS, it allows you to use modern CSS
+features and at the same time takes care of translating them into CSS that is
+more digestible for older browsers:
 
 -   adds prefixes using Autoprefixer (so if you use this you don't need
     to use Autoprefixer directly).
@@ -15231,116 +15216,114 @@ height="3.1640616797900263in"}
 
 #### CSSnano {#cssnano .unnumbered}
 
-> cssnano minifies and compresses your CSS. It removes whitespace,
-> elimi- nates duplicate rules, outdated vendor prefixes, comments, and
-> performs a lot of other optimizations. Both cssnext and cssnano can be
-> configured to work according to specific needs.
->
-> []{#Installing_PostCSS,_the_PostCSS-CLI,_css .anchor}Installing
-> PostCSS, the PostCSS-CLI, cssnext, and cssnano
->
-> Using npm:
->
-> &#36; npm install &#45;-save-dev postcss postcss-cli postcss- cssnext
-> cssnano
+cssnano minifies and compresses your CSS. It removes whitespace,
+elimi- nates duplicate rules, outdated vendor prefixes, comments, and
+performs a lot of other optimizations. Both cssnext and cssnano can be
+configured to work according to specific needs.
+
+[]{#Installing_PostCSS,_the_PostCSS-CLI,_css .anchor}Installing
+PostCSS, the PostCSS-CLI, cssnext, and cssnano
+
+Using npm:
+
+&#36; npm install &#45;-save-dev postcss postcss-cli postcss- cssnext
+cssnano
 
 ###### Or through Yarn command: {#or-through-yarn-command .unnumbered}
 
-> &#36; yarn add postcss postcss-cli postcss-cssnext cssnano
->
-> &#45;-dev
+&#36; yarn add postcss postcss-cli postcss-cssnext cssnano
+&#45;-dev
 
 ###### Using the PostCSS-CLI {#using-the-postcss-cli .unnumbered}
 
-> You use the PostCSS command line (cmd) interface by giving the input,
-> output files, and PostCSS plugin(s) to use. It specifies the plugins
-> with the -- use flag, the output file with the -- output flag, and the
-> input file is pro- vided last without any flags using the below
-> command:
->
-> &#36; postcss &#45;-use postcss-cssnext &#45;-use cssnano &#45;-output
-> styles-out.css styles.css
+You use the PostCSS command line (cmd) interface by giving the input,
+output files, and PostCSS plugin(s) to use. It specifies the plugins
+with the -- use flag, the output file with the -- output flag, and the
+input file is pro- vided last without any flags using the below
+command:
 
-###### You can use the PostCSS CLI in watch mode, to listen for changes to the input file using the below command: {#you-can-use-the-postcss-cli-in-watch-mode-to-listen-for-changes-to-the-input-file-using-the-below-command .unnumbered}
+&#36; postcss &#45;-use postcss-cssnext &#45;-use cssnano &#45;-output
+styles-out.css styles.css
 
-> &#36; postcss &#45;-use postcss-cssnext &#45;-use cssnano &#45;-output
-> styles-out.css styles.css &#45;-watch
+###### You can use the PostCSS CLI in watch mode, to listen for changes to the input file using the below command: 
 
-###### You can specify more fine-grained configuration options in a json con- figuration file to specify the config file with the -- config flag: {#you-can-specify-more-fine-grained-configuration-options-in-a-json-con--figuration-file-to-specify-the-config-file-with-the-config-flag .unnumbered}
+```
+&#36; postcss &#45;-use postcss-cssnext &#45;-use cssnano &#45;-output
+styles-out.css styles.css &#45;-watch
+```
 
-> &#36; postcss &#45;-config postcss-config.json
+###### You can specify more fine-grained configuration options in a json con- figuration file to specify the config file with the -- config flag: 
+
+```
+&#36; postcss &#45;-config postcss-config.json
+```
 
 ###### Your config file will look like this: {#your-config-file-will-look-like-this .unnumbered}
 
-> {
->
-> &#34;use&#34;: &#91;&#34;postcss-cssnext&#34;, &#34;cssnano&#34;&#93;,
->
-> []{#_bookmark334 .anchor}&#34;input&#34;: &#34;styles.css&#34;, &#34;output&#34;:
-> &#34;styles-out.css&#34;
->
-> }
+```
+{
+&#34;use&#34;: &#91;&#34;postcss-cssnext&#34;, &#34;cssnano&#34;&#93;,
+[]{#_bookmark334 .anchor}&#34;input&#34;: &#34;styles.css&#34;, &#34;output&#34;:
+&#34;styles-out.css&#34;
+}
+```
 
 ###### npm Script {#npm-script .unnumbered}
 
-> To make your workflow run smooth, simply set up a postcss script in
-> your project's package.json file:
->
-> &#34;scripts&#34;: {
->
-> &#34;postcss&#34;: &#34;postcss &#45;-use postcss-cssnext &#45;-use cssnano &#45;-output
-> styles-out.css styles.css&#34;
->
-> }
+To make your workflow run smooth, simply set up a postcss script in
+your project's package.json file:
+
+```
+&#34;scripts&#34;: {
+&#34;postcss&#34;: &#34;postcss &#45;-use postcss-cssnext &#45;-use cssnano &#45;-output
+styles-out.css styles.css&#34;
+}
+```
 
 ###### Now all you have to do is run the following command: {#now-all-you-have-to-do-is-run-the-following-command .unnumbered}
 
-> &#36; npm run postcss
+&#36; npm run postcss
 
 #### PreCSS {#precss .unnumbered}
 
-###### It will let you use Sass-like markup and staged CSS features in CSS. This is the given example: {#it-will-let-you-use-sass-like-markup-and-staged-css-features-in-css.-this-is-the-given-example .unnumbered}
+###### It will let you use Sass-like markup and staged CSS features in CSS. This is the given example: 
 
-> &#36;blue: #056ef0;
->
-> &#36;column: 200px;
->
-> .menu {
->
-> width: calc(4 &#42; &#36;column);
->
-> }
->
-> .menu_link { background: &#36;blue; width: &#36;column;
->
-> }
+```
+&#36;blue: #056ef0;
+&#36;column: 200px;
+.menu {
+width: calc(4 &#42; &#36;column);
+}
+.menu_link { background: &#36;blue; width: &#36;column;
+}
+```
 
 ###### The result will be like this: {#the-result-will-be-like-this .unnumbered}
 
-> .menu {
->
-> width: calc(4 &#42; 200px);
->
-> }
->
-> .menu_link { background: #056ef0; width: 200px;
->
-> }
->
-> []{#_bookmark337 .anchor}It combines Sass-like syntactical suga like
-> variables, conditionals, and iterators, with emerging CSS features,
-> like logical and custom properties, media query ranges, and image
-> sets.
->
-> []{#_bookmark338 .anchor}Usage
->
-> You can add PreCSS to your build tool:
->
-> &#36; npm install precss &#45;-save-dev
->
-> []{#Other_Various_Plugins .anchor}Other Various Plugins
->
-> It has powered by the following plugins (in this order):
+```
+.menu {
+width: calc(4 &#42; 200px);
+}
+.menu_link { background: #056ef0; width: 200px;
+}
+```
+
+[]{#_bookmark337 .anchor}It combines Sass-like syntactical suga like
+variables, conditionals, and iterators, with emerging CSS features,
+like logical and custom properties, media query ranges, and image
+sets.
+
+[]{#_bookmark338 .anchor}Usage
+
+You can add PreCSS to your build tool:
+
+```
+&#36; npm install precss &#45;-save-dev
+```
+
+[]{#Other_Various_Plugins .anchor}Other Various Plugins
+
+It has powered by the following plugins (in this order):
 
 -   postcss-extend-rule: You can add this PostCSS Extend Rule to your
     project:
@@ -15351,64 +15334,70 @@ height="3.1640616797900263in"}
 
 ###### Use PostCSS Extend Rule to process your CSS: {#use-postcss-extend-rule-to-process-your-css .unnumbered}
 
-> const postcssExRule = require(&#39;postcss- extend-rule&#39;);
->
-> postcssExRule.process(CSS_CODE /&#42;, processOptions, pluginOptions
-> &#42;/);
+```
+const postcssExRule = require(&#39;postcss- extend-rule&#39;);
+postcssExRule.process(CSS_CODE /&#42;, processOptions, pluginOptions
+&#42;/);
+```
 
-###### There are various Options available in this plugins. {#there-are-various-options-available-in-this-plugins. .unnumbered}
+###### There are various Options available in this plugins. 
 
-> The name option determines the at-rule name being used to extend
-> selectors. By default, this name is extend, meaning &#64;extend rules are
-> parsed.
->
-> postcssExtend({ name: &#39;postcss-extend&#39; })
+The name option determines the at-rule name being used to extend
+selectors. By default, this name is extend, meaning &#64;extend rules are
+parsed.
 
-###### If the name option were changed to, say, postcss-extend, then only &#64;postcss-extend at-rules would be parsed. {#if-the-name-option-were-changed-to-say-postcss-extend-then-only-postcss-extend-at-rules-would-be-parsed. .unnumbered}
+```
+postcssExtend({ name: &#39;postcss-extend&#39; })
+```
 
-> main {
->
-> &#64;postcss-extend.some-rule;
->
-> }
+###### If the name option were changed to, say, postcss-extend, then only &#64;postcss-extend at-rules would be parsed. 
+
+```
+main {
+&#64;postcss-extend.some-rule;
+}
+```
 
 ###### postcss-advanced-variables: Its variables let you use Sass-like vari- ables, conditionals, and iterators in CSS.
 
-> You can add PostCSS advanced variables to your build tool:
->
-> &#36; npm install postcss-advanced-variables
->
-> &#45;-save-dev
+You can add PostCSS advanced variables to your build tool:
+
+```
+&#36; npm install postcss-advanced-variables
+&#45;-save-dev
+```
 
 ###### You can add PostCSS to your build tool: {#you-can-add-postcss-to-your-build-tool .unnumbered}
 
-> &#36; npm install postcss &#45;-save-dev
+&#36; npm install postcss &#45;-save-dev
 
 ###### Use PostCSS advanced variables as a plugin: {#use-postcss-advanced-variables-as-a-plugin .unnumbered}
 
-> postcss(&#91;
->
-> require(&#39;postcss-advanced-variables&#39;)(/&#42; options
->
-> &#42;/)
->
-> &#93;).process(YOUR_CSS);
+```
+postcss(&#91;
+require(&#39;postcss-advanced-variables&#39;)(/&#42; options
+&#42;/)
+&#93;).process(YOUR_CSS);
+```
 
 ###### postcss-preset-env: It lets us to convert modern CSS into something that most browsers can understand, determining the polyfills need based on targeted browsers or runtime environments.
 
-> &#36; npm install postcss-preset-env
+```
+&#36; npm install postcss-preset-env
+```
 
 ###### You can add PostCSS Preset Env into your project: {#you-can-add-postcss-preset-env-into-your-project .unnumbered}
 
-> &#36; npm install postcss-preset-env &#45;-save-dev (run this command in the
-> terminal)
+```
+&#36; npm install postcss-preset-env &#45;-save-dev (run this command in the
+terminal)
+```
 
 ###### Now use PostCSS Preset Env to process your CSS as given below: {#now-use-postcss-preset-env-to-process-your-css-as-given-below .unnumbered}
 
-> const postCSSPresetEnv = require(&#39;postcss- preset-env&#39;);
->
-> postCSSPresetEnv.process(YOUR_CSS /&#42;, processOptions, pluginOptions
-> &#42;/);
+const postCSSPresetEnv = require(&#39;postcss- preset-env&#39;);
+postCSSPresetEnv.process(YOUR_CSS /&#42;, processOptions, pluginOptions
+&#42;/);
 
 ###### Various Options {#various-options .unnumbered}
 
@@ -15416,13 +15405,13 @@ height="3.1640616797900263in"}
     based on the stability in the process of becoming implemented web
     standards.
 
-> postcssPresetEnv({ stage: 0 })
->
-> This stage can be 0 (experimental) through 4 (stable), or false. By
-> setting stage to false will disable all polyfill. This would be useful
-> if you intended to use the features option exclusively.
->
-> Without any configuration options, PostCSS allows Preset Env Stage.
+postcssPresetEnv({ stage: 0 })
+
+This stage can be 0 (experimental) through 4 (stable), or false. By
+setting stage to false will disable all polyfill. This would be useful
+if you intended to use the features option exclusively.
+
+Without any configuration options, PostCSS allows Preset Env Stage.
 
 2.  []{#_bookmark342 .anchor}**features:** The features enable or
     disable specific polyfills by ID. By passing true to a specific
@@ -15445,7 +15434,7 @@ height="3.1640616797900263in"}
 
 7.  postcssSelectorNot, and so on
 
-> You can use these IDs just by importing them in the code.
+You can use these IDs just by importing them in the code.
 
 3.  **insertBefore / insertAfter:** The insertBefore and insertAfter
     keys allow to insert other PostCSS plugins into the chain. This is
@@ -15457,86 +15446,82 @@ height="3.1640616797900263in"}
     will be passed to it automatically. It specifying the autoprefixer
     option enables passing additional options into autoprefixer.
 
-> postcssPresetEnv({ autoprefixer: { grid: true }
->
-> })
+```
+postcssPresetEnv({ autoprefixer: { grid: true }
+})
+```
 
 ###### postcss at-root: The &#64;at-root causes one or more rules to be emitted at the root of a document, rather than nested beneath their parent selectors:
 
-> .section {
->
-> &#8230;
->
-> &#64;at-root{
->
-> . div {&#8230;}
->
-> }
->
-> }
+```
+.section {
+&#8230;
+&#64;at-root{
+. div {&#8230;}
+}
+}
+```
 
 ###### The result will be as given below: {#the-result-will-be-as-given-below .unnumbered}
 
-> .child { &#8230; }
->
-> .parent { &#8230; }
+```
+.child { &#8230; }
+.parent { &#8230; }
+```
 
 ###### How to use it in code: {#how-to-use-it-in-code .unnumbered}
 
-> postcss(&#91; require(&#39;postcss-atroot&#39;)() &#93;)
+```
+postcss(&#91; require(&#39;postcss-atroot&#39;)() &#93;)
+```
 
 ###### postcss-property-lookup:PostCSS plugin that allows referencing property values without a variable, similar to Stylus.
 
-> .section {
->
-> margin-left: 20px;
->
-> margin-right: &#64;margin-left; color: red;
->
-> background: &#64;color url(&#39;test.png&#39;); line-height: 1.5;
->
-> font-size: @(line-height)em;
->
-> }
->
-> .section {
->
-> margin-left: 20px; margin-right: 20px; color: red;
->
-> background: red url(&#39;test.png&#39;); line-height: 1.5;
->
-> font-size: 1.5em;
->
-> }
+```
+.section {
+margin-left: 20px;
+margin-right: &#64;margin-left; color: red;
+background: &#64;color url(&#39;test.png&#39;); line-height: 1.5;
+font-size: @(line-height)em;
+}
+.section {
+margin-left: 20px; margin-right: 20px; color: red;
+background: red url(&#39;test.png&#39;); line-height: 1.5;
+font-size: 1.5em;
+}
+```
 
-###### How to use in code: {#how-to-use-in-code .unnumbered}
+###### How to use in code:
 
-> postcss(&#91; require(&#39;postcss-property-lookup&#39;) &#93;)
+```
+postcss(&#91; require(&#39;postcss-property-lookup&#39;) &#93;)
+```
 
 -   postcss-nested
 
-> []{#Install_Plugin .anchor}Install Plugin
+[]{#Install_Plugin .anchor}Install Plugin
 
 -   Step 1:
 
-> &#36; npm install &#45;-save-dev postcss postcss-nested
+```
+&#36; npm install &#45;-save-dev postcss postcss-nested
+```
 
 -   Step 2: Check your existing project for PostCSS config: postcss.con-
     fig.js in the project root, "postcss" section in package.json or
     postcss in bundle config.
 
-> If you don't use PostCSS, add it according to official docs and set
-> this plugin in settings.
+If you don't use PostCSS, add it according to official docs and set
+this plugin in settings.
 
 -   []{#_bookmark345 .anchor}Step 3: Add the plugin to plugins list:
 
-> module.exports = { plugins: &#91;
->
-> &#43; require(&#39;postcss-nested&#39;), require(&#39;autoprefixer&#39;)
->
-> &#93;
->
-> }
+```
+module.exports = { plugins: &#91;
+&#43; require(&#39;postcss-nested&#39;), require(&#39;autoprefixer&#39;)
+&#93;
+}
+```
 
 ###### There are various options available: {#there-are-various-options-available .unnumbered}
 
@@ -15544,167 +15529,159 @@ height="3.1640616797900263in"}
     supports at-rules. You can add custom at-rules to list by bubble
     option:
 
-> postcss(&#91; require(&#39;postcss-nested&#39;)({ bubble: &#91;&#39;phone&#39;&#93; }) &#93;)
+```
+postcss(&#91; require(&#39;postcss-nested&#39;)({ bubble: &#91;&#39;phone&#39;&#93; }) &#93;)
+```
 
 ###### unwrap: By default, plugin will unwrap the &#64;font-face, &#64;keyframes, and &#64;document at-rules. You can add custom at-rules to the list by unwrap option:
 
-> postcss(&#91; require(&#39;postcss-nested&#39;)({ unwrap: &#91;&#39;phone&#39;&#93; }) &#93;)
+```
+postcss(&#91; require(&#39;postcss-nested&#39;)({ unwrap: &#91;&#39;phone&#39;&#93; }) &#93;)
+```
 
 ##### Example: {#example-104 .unnumbered}
 
-> /&#42; Enter your CSS code &#42;/ a {
->
-> color: white; &#64;phone {
->
-> color: black;
->
-> }
->
-> }
->
-> /&#42; The output will be like this &#42;/ a {
->
-> color: white;
->
-> }
->
-> &#64;phone {
->
-> color: black;
->
-> }
+```
+/&#42; Enter your CSS code &#42;/ a {
+color: white; &#64;phone {
+color: black;
+}
+}
+/&#42; The output will be like this &#42;/ a {
+color: white;
+}
+
+&#64;phone {
+color: black;
+}
+```
 
 ###### preserveEmpty {#preserveempty .unnumbered}
 
-> By default, plugin will strip out any empty selector generated by
-> interme- diate nesting levels. You can set preserveEmpty to true to
-> preserve them.
->
-> .a {
->
-> .b {
->
-> color: black;
->
-> }
->
-> }
+By default, plugin will strip out any empty selector generated by
+interme- diate nesting levels. You can set preserveEmpty to true to
+preserve them.
+
+```
+.a {
+.b {
+color: black;
+}
+}
+```
 
 ###### It will be compiled as: {#it-will-be-compiled-as .unnumbered}
 
-a.  { }
-
-```{=html}
-<!-- -->
 ```
+a.  { }
 a.  .b {
+color: black;
+}
+```
 
-> color: black;
->
-> }
+###### You can install postcss-nested using the command. 
 
-###### You can install postcss-nested using the command. {#you-can-install-postcss-nested-using-the-command. .unnumbered}
+```
+&#36; npm i postcss-nested
+```
 
-> &#36; npm i postcss-nested
+### STYLELINT
 
-### STYLELINT {#stylelint .unnumbered}
+It is a mighty, modern CSS linter that helps to enforce consistency
+and avoid errors in your stylesheets.
 
-> It is a mighty, modern CSS linter that helps to enforce consistency
-> and avoid errors in your stylesheets.
->
-> []{#Installing_Stylelint .anchor}Installing Stylelint
->
-> First, ensure you have stylelint installed. It is an npm package which
-> can be installed by running the following command:
->
-> &#36; npm install -g stylelint
->
-> []{#Usage .anchor}Usage
->
-> After you have stylelint installed, you will want to create a
-> .stylelintrc.json file. This is where will configure all the lint
-> rules want stylelint to check for. Then take a look at the
-> documentation rules page for details of all the available rules.
->
-> Once have a . stylelintrc.json file set up with lint rules, you can
-> run stylelint on SCSS files with the following command. This assumes
-> that you are in the directory where .scss files are located. You can
-> update the path accordingly.
->
-> []{#_bookmark351 .anchor}It will look for a .stylelintrc.json file in
-> the present working directory. If any of your config file is not in
-> the present working directory, you can pass it along when run
-> stylelint with the config option.
->
-> stylelint &#34;&#42;&#42;/&#42;.scss&#34; &#45;-config foo/bar/.stylelintrc.json
+[]{#Installing_Stylelint .anchor}Installing Stylelint
 
-###### If you want to use stylelint with npm-scripts, use the below command: {#if-you-want-to-use-stylelint-with-npm-scripts-use-the-below-command .unnumbered}
+First, ensure you have stylelint installed. It is an npm package which
+can be installed by running the following command:
 
-> &#36; npm install stylelint -D
+&#36; npm install -g stylelint
+[]{#Usage .anchor}Usage
+After you have stylelint installed, you will want to create a
+.stylelintrc.json file. This is where will configure all the lint
+rules want stylelint to check for. Then take a look at the
+documentation rules page for details of all the available rules.
+Once have a . stylelintrc.json file set up with lint rules, you can
+run stylelint on SCSS files with the following command. This assumes
+that you are in the directory where .scss files are located. You can
+update the path accordingly.
+>
+[]{#_bookmark351 .anchor}It will look for a .stylelintrc.json file in
+the present working directory. If any of your config file is not in
+the present working directory, you can pass it along when run
+stylelint with the config option.
 
-#### PostCSS ASSETS {#postcss-assets .unnumbered}
+```
+stylelint &#34;&#42;&#42;/&#42;.scss&#34; &#45;-config foo/bar/.stylelintrc.json
+```
 
-###### A PostCSS Assets is an asset manager for CSS. It isolates stylesheets from environmental changes, gets image sizes and inlines files. {#a-postcss-assets-is-an-asset-manager-for-css.-it-isolates-stylesheets-from-environmental-changes-gets-image-sizes-and-inlines-files. .unnumbered}
+###### If you want to use stylelint with npm-scripts, use the below command: 
 
-> Installation:
->
-> &#36; npm install postcss-assets &#45;-save-dev
->
-> []{#Gulp_(gulp-postcss) .anchor}Gulp (gulp-postcss)
->
-> PostCSS gulp plugin to pipe CSS through several plugins, but parse CSS
-> only once.
->
-> Installation of gulp-postcss:
->
-> &#36; npm install &#45;-save-dev postcss gulp-postcss
->
-> *Basic*
+```
+&#36; npm install stylelint -D
+```
 
-###### The configuration is loaded by own from postcss.config.js as described here, so you don't have to specify any options. {#the-configuration-is-loaded-by-own-from-postcss.config.js-as-described-here-so-you-dont-have-to-specify-any-options. .unnumbered}
+#### PostCSS ASSETS
 
-> var postcss = require(&#39;gulp-postcss&#39;); var gulp = require(&#39;gulp&#39;);
->
-> gulp.task(&#39;css&#39;, function () { return gulp.src(&#39;./src/&#42;.css&#39;)
->
-> .pipe(postcss())
->
-> .pipe(gulp.dest(&#39;./dest&#39;));
->
-> });
+###### A PostCSS Assets is an asset manager for CSS. It isolates stylesheets from environmental changes, gets image sizes and inlines files. 
+
+Installation:
+
+```
+&#36; npm install postcss-assets &#45;-save-dev
+[]{#Gulp_(gulp-postcss) .anchor}Gulp (gulp-postcss)
+```
+
+PostCSS gulp plugin to pipe CSS through several plugins, but parse CSS
+only once.
+
+Installation of gulp-postcss:
+
+```
+&#36; npm install &#45;-save-dev postcss gulp-postcss
+```
+
+*Basic*
+
+###### The configuration is loaded by own from postcss.config.js as described here, so you don't have to specify any options. 
+
+```
+var postcss = require(&#39;gulp-postcss&#39;); var gulp = require(&#39;gulp&#39;);
+gulp.task(&#39;css&#39;, function () { return gulp.src(&#39;./src/&#42;.css&#39;)
+.pipe(postcss())
+.pipe(gulp.dest(&#39;./dest&#39;));
+});
+```
 
 ###### Passing plugins directly using gulp: {#passing-plugins-directly-using-gulp .unnumbered}
 
-> var postcss = require(&#39;gulp-postcss&#39;); var gulp = require(&#39;gulp&#39;);
->
-> []{#_bookmark354 .anchor}var autoprefixer = require(&#39;autoprefixer&#39;);
-> var cssnano = require(&#39;cssnano&#39;);
->
-> gulp.task(&#39;css&#39;, function () { var plugins = &#91;
->
-> autoprefixer({browsers: &#91;&#39;last 1 version&#39;&#93;}), cssnano()
->
-> &#93;;
->
-> return gulp.src(&#39;./src/&#42;.css&#39;)
->
-> .pipe(postcss(plugins))
->
-> .pipe(gulp.dest(&#39;./dest&#39;));
->
-> });
+```
+var postcss = require(&#39;gulp-postcss&#39;); var gulp = require(&#39;gulp&#39;);
+[]{#_bookmark354 .anchor}var autoprefixer = require(&#39;autoprefixer&#39;);
+var cssnano = require(&#39;cssnano&#39;);
+gulp.task(&#39;css&#39;, function () { var plugins = &#91;
+autoprefixer({browsers: &#91;&#39;last 1 version&#39;&#93;}), cssnano()
+&#93;;
+return gulp.src(&#39;./src/&#42;.css&#39;)
+.pipe(postcss(plugins))
+.pipe(gulp.dest(&#39;./dest&#39;));
+});
+```
 
 ###### Grunt {#grunt .unnumbered}
 
-> Now we will explain how to create a Gruntfile and install and use
-> Grunt plugins. Once you are familiar with that process, you can
-> install this plu- gin with this command:
->
-> &#36; npm install grunt-postcss &#45;-save-dev
+Now we will explain how to create a Gruntfile and install and use
+Grunt plugins. Once you are familiar with that process, you can
+install this plu- gin with this command:
 
-###### Once the plugin has been installed, then may enable inside Gruntfile with this line of JavaScript: {#once-the-plugin-has-been-installed-then-may-enable-inside-gruntfile-with-this-line-of-javascript .unnumbered}
+```
+&#36; npm install grunt-postcss &#45;-save-dev
+```
 
-> grunt.loadNpmTasks(&#39;grunt-postcss&#39;);
+###### Once the plugin has been installed, then may enable inside Gruntfile with this line of JavaScript: 
+```
+grunt.loadNpmTasks(&#39;grunt-postcss&#39;);
+```
 
 ###### How to use the plugins in the code: {#how-to-use-the-plugins-in-the-code .unnumbered}
 
@@ -15737,9 +15714,13 @@ Font Magician is a PostCSS plugin that magically generates all of your
 @ font-face rules. Never write a &#64;font-face rule again.
 Here is an example of font magician:
 Just use the font and font-family properties as if they were magic.
+
+```
 body {
 font-family: &#34;Alice&#34;;
 }
+```
+
 The output will be, 
 
 ```
@@ -15762,30 +15743,36 @@ font-family: &#34;Alice&#34;;
 
 ###### Installation: You can add Font Magician to your build tool: 
 
+```
 &#36; npm install postcss postcss-font-magician &#45;-save-dev
-
 yarn add postcss postcss-font-magician &#45;-dev
-LOST GRID {#lost-grid .unnumbered}
-ostGrid is a powerful grid system built in PostCSS that works with
+```
+
+LOST GRID
+LostGrid is a powerful grid system built in PostCSS that works with 
 any preprocessor and even vanilla CSS.
-Lost Grid is a great PostCSS plugin that provides an impressive CSS
-grid system that not only works with plain CSS but with preprocessor
-languages (Sass, LESS, Stylus). It uses the calc() function to create
-beautiful grids that can be easily used without spending much time
+Lost Grid is a great PostCSS plugin that provides an impressive CSS 
+grid system that not only works with plain CSS but with preprocessor 
+languages (Sass, LESS, Stylus). It uses the calc() function to create 
+beautiful grids that can be easily used without spending much time 
 with customization.
 You can do installation by using the below libraries:
 
 -   Gulp: First, you have to install NodeJs then install gulp globally
     using the below command:
 
+```
 &#36; npm install &#45;-global gulp
+```
 
-###### You can also install dependencies: {#you-can-also-install-dependencies .unnumbered}
+###### You can also install dependencies:
 
+```
 &#36; npm install &#45;-save-dev gulp gulp-postcss gulp- sourcemaps
 autoprefixer lost
+```
 
-###### Now create a gulpfile.js with the following code: {#now-create-a-gulpfile.js-with-the-following-code .unnumbered}
+###### Now create a gulpfile.js with the following code: 
 
 ```
 var gulp = require(&#39;gulp&#39;),
