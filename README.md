@@ -15708,256 +15708,185 @@ a.  .b {
 
 ###### How to use the plugins in the code: {#how-to-use-the-plugins-in-the-code .unnumbered}
 
-> &#36; npm install grunt-postcss pixrem autoprefixer cssnano
->
-> grunt.initConfig({ postcss: {
->
-> options: {
->
-> map: true, // inline sourcemaps
->
-> // or map: {
->
-> inline: false, // save all sourcemaps as separate files&#8230;
->
-> annotation: &#39;dist/css/maps/&#39; // &#8230;to the specified directory
->
-> },
->
-> []{#_bookmark356 .anchor}units
->
-> processors: &#91;
->
-> require(&#39;pixrem&#39;)(), // add fallbacks for rem
->
-> require(&#39;autoprefixer&#39;)({browsers: &#39;last 2
->
-> versions&#39;}), // add vendor prefixes require(&#39;cssnano&#39;)() // minify
-> the result
->
-> &#93;
->
-> },
->
-> dist: {
->
-> src: &#39;css/&#42;.css&#39;
->
-> }
->
-> }
->
-> });
+```
+&#36; npm install grunt-postcss pixrem autoprefixer cssnano
+grunt.initConfig({ postcss: {
+options: {
+map: true, // inline sourcemaps
+// or map: {
+inline: false, // save all sourcemaps as separate files&#8230;
+annotation: &#39;dist/css/maps/&#39; // &#8230;to the specified directory
+},
+[]{#_bookmark356 .anchor}units
+processors: &#91;
+require(&#39;pixrem&#39;)(), // add fallbacks for rem
+require(&#39;autoprefixer&#39;)({browsers: &#39;last 2
+versions&#39;}), // add vendor prefixes require(&#39;cssnano&#39;)() // minify
+the result
+&#93;
+},
+dist: {
+src: &#39;css/&#42;.css&#39;
+}
+}
+});
+```
 
-### FONT MAGICIAN {#font-magician .unnumbered}
+FONT MAGICIAN
+Font Magician is a PostCSS plugin that magically generates all of your
+@ font-face rules. Never write a &#64;font-face rule again.
+Here is an example of font magician:
+Just use the font and font-family properties as if they were magic.
+body {
+font-family: &#34;Alice&#34;;
+}
+The output will be, 
 
-> Font Magician is a PostCSS plugin that magically generates all of your
-> @ font-face rules. Never write a &#64;font-face rule again.
->
-> Here is an example of font magician:
->
-> Just use the font and font-family properties as if they were magic.
->
-> body {
->
-> font-family: &#34;Alice&#34;;
->
-> }
->
-> The output will be, &#64;font-face {
->
-> font-family: &#34;Alice&#34;; font-style: normal; font-weight: 400;
->
-> src: local(&#34;Alice&#34;), local(&#34;Alice-Regular&#34;),
-> url(&#34;<http://fonts.gstatic.com/s/alice/v7/>
->
-> sZyKh5NKrCk1xkCk_F1S8A.eot?#&#34;) format(&#34;eot&#34;),
-> url(&#34;<http://fonts.gstatic.com/s/alice/v7/>
->
-> l5RFQT5MQiajQkFxjDLySg.woff2&#34;) format(&#34;woff2&#34;),
-> url(&#34;<http://fonts.gstatic.com/s/alice/v7/_>
->
-> H4kMcdhHr0B8RDaQcqpTA.woff&#34;) format(&#34;woff&#34;),
-> url(&#34;<http://fonts.gstatic.com/s/alice/v7/>
->
-> acf9XsUhgp1k2j79ATk2cw.ttf&#34;) format(&#34;truetype&#34;)
->
-> }
->
-> []{#_bookmark358 .anchor}body {
->
-> font-family: &#34;Alice&#34;;
->
-> }
+```
+&#64;font-face {
+font-family: &#34;Alice&#34;; font-style: normal; font-weight: 400;
+src: local(&#34;Alice&#34;), local(&#34;Alice-Regular&#34;),
+url(&#34;<http://fonts.gstatic.com/s/alice/v7/>
+sZyKh5NKrCk1xkCk_F1S8A.eot?#&#34;) format(&#34;eot&#34;),
+url(&#34;<http://fonts.gstatic.com/s/alice/v7/>
+l5RFQT5MQiajQkFxjDLySg.woff2&#34;) format(&#34;woff2&#34;),
+url(&#34;<http://fonts.gstatic.com/s/alice/v7/_>
+H4kMcdhHr0B8RDaQcqpTA.woff&#34;) format(&#34;woff&#34;),
+url(&#34;<http://fonts.gstatic.com/s/alice/v7/>
+acf9XsUhgp1k2j79ATk2cw.ttf&#34;) format(&#34;truetype&#34;)
+}
+[]{#_bookmark358 .anchor}body {
+font-family: &#34;Alice&#34;;
+}
+```
 
-###### Installation: You can add Font Magician to your build tool: {#installation-you-can-add-font-magician-to-your-build-tool .unnumbered}
+###### Installation: You can add Font Magician to your build tool: 
 
-> &#36; npm install postcss postcss-font-magician &#45;-save-dev
+&#36; npm install postcss postcss-font-magician &#45;-save-dev
 
-###### or {#or-1 .unnumbered}
-
-> yarn add postcss postcss-font-magician &#45;-dev
-
-### LOST GRID {#lost-grid .unnumbered}
-
-> LostGrid is a powerful grid system built in PostCSS that works with
-> any preprocessor and even vanilla CSS.
->
-> Lost Grid is a great PostCSS plugin that provides an impressive CSS
-> grid system that not only works with plain CSS but with preprocessor
-> languages (Sass, LESS, Stylus). It uses the calc() function to create
-> beautiful grids that can be easily used without spending much time
-> with customization.
->
-> You can do installation by using the below libraries:
+yarn add postcss postcss-font-magician &#45;-dev
+LOST GRID {#lost-grid .unnumbered}
+ostGrid is a powerful grid system built in PostCSS that works with
+any preprocessor and even vanilla CSS.
+Lost Grid is a great PostCSS plugin that provides an impressive CSS
+grid system that not only works with plain CSS but with preprocessor
+languages (Sass, LESS, Stylus). It uses the calc() function to create
+beautiful grids that can be easily used without spending much time
+with customization.
+You can do installation by using the below libraries:
 
 -   Gulp: First, you have to install NodeJs then install gulp globally
     using the below command:
 
-> &#36; npm install &#45;-global gulp
+&#36; npm install &#45;-global gulp
 
 ###### You can also install dependencies: {#you-can-also-install-dependencies .unnumbered}
 
-> &#36; npm install &#45;-save-dev gulp gulp-postcss gulp- sourcemaps
-> autoprefixer lost
+&#36; npm install &#45;-save-dev gulp gulp-postcss gulp- sourcemaps
+autoprefixer lost
 
 ###### Now create a gulpfile.js with the following code: {#now-create-a-gulpfile.js-with-the-following-code .unnumbered}
 
-> var gulp = require(&#39;gulp&#39;),
->
-> postcss = require(&#39;gulp-postcss&#39;), sourcemaps =
-> require(&#39;gulp-sourcemaps&#39;), autoprefixer =
-> require(&#39;autoprefixer&#39;), lost = require(&#39;lost&#39;);
->
-> var paths = {
->
-> cssSource: &#39;src/css/&#39;, cssDestination: &#39;dist/css/&#39;
->
-> };
->
-> []{#_bookmark360 .anchor}gulp.task(&#39;styles&#39;, function() {
->
-> return gulp.src(paths.cssSource + &#39;&#42;&#42;/&#42;.css&#39;)
->
-> .pipe(sourcemaps.init())
->
-> .pipe(postcss(&#91; lost(), autoprefixer()
->
-> &#93;))
->
-> .pipe(sourcemaps.write(&#39;./&#39;))
->
-> .pipe(gulp.dest(paths.cssDestination));
->
-> });
->
-> gulp.watch(paths.cssSource + &#39;&#42;&#42;/&#42;.css&#39;, &#91;&#39;styles&#39;&#93;);
->
-> gulp.task(&#39;default&#39;, &#91;&#39;styles&#39;&#93;);
+```
+var gulp = require(&#39;gulp&#39;),
+postcss = require(&#39;gulp-postcss&#39;), sourcemaps =
+require(&#39;gulp-sourcemaps&#39;), autoprefixer =
+require(&#39;autoprefixer&#39;), lost = require(&#39;lost&#39;);
+var paths = {
+cssSource: &#39;src/css/&#39;, cssDestination: &#39;dist/css/&#39;
+};
+[]{#_bookmark360 .anchor}gulp.task(&#39;styles&#39;, function() {
+return gulp.src(paths.cssSource + &#39;&#42;&#42;/&#42;.css&#39;)
+.pipe(sourcemaps.init())
+.pipe(postcss(&#91; lost(), autoprefixer()
+&#93;))
+.pipe(sourcemaps.write(&#39;./&#39;))
+.pipe(gulp.dest(paths.cssDestination));
+});
+gulp.watch(paths.cssSource + &#39;&#42;&#42;/&#42;.css&#39;, &#91;&#39;styles&#39;&#93;);
+gulp.task(&#39;default&#39;, &#91;&#39;styles&#39;&#93;);
+```
 
-###### At last run gulp. {#at-last-run-gulp. .unnumbered}
+###### At last run gulp.
 
 -   Grunt: First, you have to install NodeJs then install Grunt using
     this command:
 
 > &#36; npm install &#45;-global grunt-cli
 
-###### Install dev dependencies: {#install-dev-dependencies .unnumbered}
+###### Install dev dependencies:
 
-> &#36; npm install &#45;-save-dev grunt grunt-postcss grunt-autoprefixer
-> grunt-contrib-watch lost
+&#36; npm install &#45;-save-dev grunt grunt-postcss grunt-autoprefixer
+grunt-contrib-watch lost
 
-###### Create a Gruntfile.js with the following code: {#create-a-gruntfile.js-with-the-following-code .unnumbered}
+###### Create a Gruntfile.js with the following code:
 
-> module.exports = function(grunt) { grunt.initConfig({
->
-> postcss: { options: {
->
-> map: true, processors: &#91;
->
-> require(&#39;lost&#39;)
->
-> &#93;
->
-> },
->
-> dist: {
->
-> src: &#39;src/css/style.css&#39;, dest: &#39;dist/css/style.css&#39;
->
-> }
->
-> },
->
-> autoprefixer: {
->
-> []{#_bookmark361 .anchor}single_file: {
->
-> src: &#39;dist/css/style.css&#39;, dest: &#39;dist/css/style.css&#39;
->
-> }
->
-> },
->
-> watch: {
->
-> files: &#91;&#39;src/css/style.css&#39;&#93;, tasks: &#91;&#39;postcss&#39;,
-> &#39;autoprefixer&#39;&#93;
->
-> }
->
-> });
->
-> grunt.loadNpmTasks(&#39;grunt-postcss&#39;);
-> grunt.loadNpmTasks(&#39;grunt-autoprefixer&#39;);
-> grunt.loadNpmTasks(&#39;grunt-contrib-watch&#39;);
-> grunt.registerTask(&#39;default&#39;, &#91;&#39;watch&#39;&#93;);
->
-> };
+```
+module.exports = function(grunt) { grunt.initConfig({
+postcss: { options: {
+map: true, processors: &#91;
+require(&#39;lost&#39;)
+&#93;
+},
+dist: {
+src: &#39;src/css/style.css&#39;, dest: &#39;dist/css/style.css&#39;
+}
+},
+autoprefixer: {
+[]{#_bookmark361 .anchor}single_file: {
+src: &#39;dist/css/style.css&#39;, dest: &#39;dist/css/style.css&#39;
+}
+},
+watch: {
+files: &#91;&#39;src/css/style.css&#39;&#93;, tasks: &#91;&#39;postcss&#39;,
+&#39;autoprefixer&#39;&#93;
+}
+});
+grunt.loadNpmTasks(&#39;grunt-postcss&#39;);
+grunt.loadNpmTasks(&#39;grunt-autoprefixer&#39;);
+grunt.loadNpmTasks(&#39;grunt-contrib-watch&#39;);
+grunt.registerTask(&#39;default&#39;, &#91;&#39;watch&#39;&#93;);
+};
+```
 
 ###### Brunch: First, you install NodeJS then install Brunch using this command:
 
-> &#36; npm install -g brunch
->
-> Create a new Brunch project brunch new
+&#36; npm install -g brunch
+
+Create a new Brunch project brunch new
 
 ###### Install PostCSS: {#install-postcss .unnumbered}
 
-> &#36; npm install &#45;-save postcss-brunch
+&#36; npm install &#45;-save postcss-brunch
 
 ###### Install Autoprefixer: {#install-autoprefixer .unnumbered}
 
-> &#36; npm install &#45;-save autoprefixer
+&#36; npm install &#45;-save autoprefixer
 
 ###### Install Lost: {#install-lost .unnumbered}
 
-> &#36; npm install &#45;-save lost
+&#36; npm install &#45;-save lost
 
 ###### Update brunch-config.coffee {#update-brunch-config.coffee .unnumbered}
 
-> This will be file of export given below:
->
-> exports.config = files:
->
-> javascripts: joinTo: &#39;app.js&#39;
->
-> stylesheets: joinTo: &#39;app.css&#39;
->
-> templates:
->
-> joinTo: &#39;app.js&#39;
->
-> []{#_bookmark362 .anchor}plugins: postcss:
->
-> processors: &#91; require(&#39;autoprefixer&#39;)(), require(&#39;lost&#39;)
->
-> &#93;
+This will be file of export given below:
+
+```
+exports.config = files:
+javascripts: joinTo: &#39;app.js&#39;
+stylesheets: joinTo: &#39;app.css&#39;
+templates:
+joinTo: &#39;app.js&#39;
+[]{#_bookmark362 .anchor}plugins: postcss:
+processors: &#91; require(&#39;autoprefixer&#39;)(), require(&#39;lost&#39;)
+&#93;
+```
 
 ###### Now run the brunch using this command: {#now-run-the-brunch-using-this-command .unnumbered}
 
-> brunch watch
->
-> There are also various options to install this plugin:
+brunch watch
+
+There are also various options to install this plugin:
 
 -   Stylus
 
@@ -15969,17 +15898,17 @@ a.  .b {
 
 #### PostCSS {#postcss .unnumbered}
 
-> PostCSS plugin generates spritesheets from your stylesheets.
->
-> It is a software development tool that uses JavaScript-based plugins
-> to automate routine CSS operations. It was previously designed by
-> Andrey Sitnik with the idea carrying its origin in his front-end work
-> for Evil Martians.
->
-> It is a framework to develop CSS tools. It can also be used to develop
-> a template language such as Sass and LESS.
->
-> The PostCSS has core components which are given as below:
+PostCSS plugin generates spritesheets from your stylesheets.
+
+It is a software development tool that uses JavaScript-based plugins
+to automate routine CSS operations. It was previously designed by
+Andrey Sitnik with the idea carrying its origin in his front-end work
+for Evil Martians.
+
+It is a framework to develop CSS tools. It can also be used to develop
+a template language such as Sass and LESS.
+
+The PostCSS has core components which are given as below:
 
 -   CSS parser generates an abstract syntax tree.
 
@@ -15990,24 +15919,24 @@ a.  .b {
 
 -   Code map generator for the changes made.
 
-> Features
->
-> Plugins are small programs working with a tree of objects. After the
-> core transforms the CSS string into a tree of objects, the plugins
-> parse and modify the tree. Then PostCSS will generate a new CSS string
-> for the tree changed by the plugin. PostCSS & its plugins are written
-> in JavaScript and installed through npm, which offers an API for
-> various low-level JavaScript operations.
->
-> []{#_bookmark365 .anchor}There are official tools that allow you to
-> use PostCSS with build systems such as Webpack, Gulp, and Grunt. A
-> console interface is also available. Browserify or Webpack can use to
-> open PostCSS in a browser. PostCSS plugins perform a variety of CSS
-> processing tasks, from parsing and sort- ing properties to
-> minification.
->
-> A full list of plugins can be found at postcss.parts with some
-> examples listed below:
+Features
+
+Plugins are small programs working with a tree of objects. After the
+core transforms the CSS string into a tree of objects, the plugins
+parse and modify the tree. Then PostCSS will generate a new CSS string
+for the tree changed by the plugin. PostCSS & its plugins are written
+in JavaScript and installed through npm, which offers an API for
+various low-level JavaScript operations.
+
+[]{#_bookmark365 .anchor}There are official tools that allow you to
+use PostCSS with build systems such as Webpack, Gulp, and Grunt. A
+console interface is also available. Browserify or Webpack can use to
+open PostCSS in a browser. PostCSS plugins perform a variety of CSS
+processing tasks, from parsing and sort- ing properties to
+minification.
+
+A full list of plugins can be found at postcss.parts with some
+examples listed below:
 
 -   Autoprefixer for adding and deleting browser prefixes. CSS modules
     for isolating CSS selectors and organizing code. It comes as part of
@@ -16032,38 +15961,38 @@ a.  .b {
 -   postcss-assets, postcss-inline-svg, and postcss-sprites for working
     with graphics.
 
-> We discuss some of the plugins in brief.
+We discuss some of the plugins in brief.
 
 ### POSTCSS-MODULES ( CSS MODULES ) {#postcss-modules-css-modules .unnumbered}
 
 ###### A CSS Module is a CSS file in which all class and animation names are scoped locally by default. All URLs (url(&#8230;)) and &#64;imports are in module request format (./xxx and . ./xxx means relative, xxx and xxx/yyy means in modules folder, i. e. in node_modules). {#a-css-module-is-a-css-file-in-which-all-class-and-animation-names-are-scoped-locally-by-default.-all-urls-url...-and-imports-are-in-module-request-format-.xxx-and-.-.xxx-means-relative-xxx-and-xxxyyy-means-in-modules-folder-i.-e.-in-node_modules. .unnumbered}
 
-> CSS Modules compile to a low-level interchange format called ICSS or
-> Interoperable CSS but are written like normal CSS files:
->
-> /&#42; style.css &#42;/
->
-> .className { color: green;
->
-> }
+CSS Modules compile to a low-level interchange format called ICSS or
+Interoperable CSS but are written like normal CSS files:
+
+```
+/&#42; style.css &#42;/
+.className { color: green;
+}
+```
 
 ###### When importing the CSS Module from a JS Module, it exports an object with all mappings from local names to global names. {#when-importing-the-css-module-from-a-js-module-it-exports-an-object-with-all-mappings-from-local-names-to-global-names. .unnumbered}
 
-> import styles from &#34;./style.css&#34;;
->
-> // import { className } from &#34;./style.css&#34;; element.innerHTML =
-> &#39;&lt;div class=&#34;&#39; + styles.className
->
-> &#43; &#39;&#34;&gt;&#39;;
+```
+import styles from &#34;./style.css&#34;;
+// import { className } from &#34;./style.css&#34;; element.innerHTML =
+&#39;&lt;div class=&#34;&#39; + styles.className
+&#43; &#39;&#34;&gt;&#39;;
+```
 
 ###### Naming (localsConvention) {#naming-localsconvention .unnumbered}
 
-> For local class names camelCase naming is recommended:
->
-> Type: String &#124; (originalClassName: string, generatedClassName:
-> string, inputFile: string) =&gt; className: string Default: null
->
-> Style of exported classnames, the keys in your json.
+For local class names camelCase naming is recommended:
+
+Type: String &#124; (originalClassName: string, generatedClassName:
+string, inputFile: string) =&gt; className: string Default: null
+
+Style of exported classnames, the keys in your json.
 
 1.  camelCase' - {String}: The class names should be camelized.
 
@@ -16088,533 +16017,309 @@ a.  .b {
 
 #### CSS MarqueeMenu PLUGIN {#css-marqueemenu-plugin .unnumbered}
 
-> It is a type of animation effect used in developing web pages for
-> getting attractive text or image scrolling in vertical or horizontal
-> directions.
->
-> Note: You can download the CSS MarqueeMenu plugin in the working
-> folder and include the required files in the head section of the HTML
-> code.
+It is a type of animation effect used in developing web pages for
+getting attractive text or image scrolling in vertical or horizontal
+directions.
+
+Note: You can download the CSS MarqueeMenu plugin in the working
+folder and include the required files in the head section of the HTML
+code.
 
 ##### Example: {#example-105 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
->
-> &lt;html lang=&#34;en&#34; class=&#34;no-js&#34;&gt;
->
-> &lt;head&gt;
->
-> &lt;meta charset=&#34;UTF-8&#34; /&gt;
->
-> &lt;meta name=&#34;viewport&#34; content=&#34;width=device- width,
-> initial-scale=1&#34;&gt;
->
-> &lt;title&gt;CSS-only Marquee Menu Effect &#124; Codrops
->
-> &lt;/title&gt;
->
-> &lt;meta name=&#34;description&#34; content=&#34;A menu with a css-only marquee
-> hover effect&#34; /&gt;
->
-> &lt;meta name=&#34;keywords&#34; content=&#34;marquee, css, animation, loop,
-> infinite, hover, menu, navigation&#34; /&gt;
->
-> &lt;meta name=&#34;author&#34; content=&#34;Codrops&#34; /&gt;
->
-> &lt;link rel=&#34;shortcut icon&#34; href=&#34;favicon.ico&#34;&gt;
->
-> &lt;link rel=&#34;stylesheet&#34; href=&#34;https://use.
-> typekit.net/zhq0vyf.css&#34;&gt;
->
-> &lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;style.css&#34; /&gt;
->
-> &lt;/head&gt;
->
-> &lt;body class=&#34;demo-1&#34;&gt;
->
-> &lt;main&gt;
->
-> &lt;nav class=&#34;menu&#34;&gt;
->
-> &lt;div class=&#34;menu item&#34;&gt;
->
-> &lt;a class=&#34;menu item-link&#34;&gt; Stratos (Font Family) &lt;/a&gt;
->
-> &lt;div class=&#34;marquee&#34;&gt;
->
-> &lt;div class=&#34;marquee inner&#34; aria-hidden=&#34;true&#34;&gt;
->
-> &lt;span&gt;Stratos &lt;/span&gt;
->
-> &lt;span&gt; Stratos &lt;/span&gt;
->
-> &lt;/div&gt;
->
-> &lt;/div&gt;
->
-> &lt;/div&gt;
->
-> &lt;/nav&gt;
->
-> &lt;/main&gt;
->
-> &lt;/body&gt;
->
-> &lt;/html&gt;
+```
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&#34;en&#34; class=&#34;no-js&#34;&gt;
+&lt;head&gt;
+&lt;meta charset=&#34;UTF-8&#34; /&gt;
+&lt;meta name=&#34;viewport&#34; content=&#34;width=device- width,
+initial-scale=1&#34;&gt;
+&lt;title&gt;CSS-only Marquee Menu Effect &#124; Codrops
+&lt;/title&gt;
+&lt;meta name=&#34;description&#34; content=&#34;A menu with a css-only marquee
+hover effect&#34; /&gt;
+&lt;meta name=&#34;keywords&#34; content=&#34;marquee, css, animation, loop,
+infinite, hover, menu, navigation&#34; /&gt;
+&lt;meta name=&#34;author&#34; content=&#34;Codrops&#34; /&gt;
+&lt;link rel=&#34;shortcut icon&#34; href=&#34;favicon.ico&#34;&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://use.
+typekit.net/zhq0vyf.css&#34;&gt;
+&lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;style.css&#34; /&gt;
+&lt;/head&gt;
+&lt;body class=&#34;demo-1&#34;&gt;
+&lt;main&gt;
+&lt;nav class=&#34;menu&#34;&gt;
+&lt;div class=&#34;menu item&#34;&gt;
+&lt;a class=&#34;menu item-link&#34;&gt; Stratos (Font Family) &lt;/a&gt;
+&lt;div class=&#34;marquee&#34;&gt;
+&lt;div class=&#34;marquee inner&#34; aria-hidden=&#34;true&#34;&gt;
+&lt;span&gt;Stratos &lt;/span&gt;
+&lt;span&gt; Stratos &lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/nav&gt;
+&lt;/main&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+```
 
-###### Style.css
+### Style.css
 
-> &#42;,
->
-> &#42;::after,
->
-> &#42;::before {
->
-> box-sizing: border-box;
->
-> }
->
-> :root {
->
-> font-size: 15px;
->
-> }
->
-> body {
->
-> margin: 0;
->
-> &#45;-color-text: #111;
->
-> &#45;-color-bg: #f8ecde;
->
-> &#45;-color-link: #b19e7f;
->
-> &#45;-color-link-hover: #000; color: var(&#45;-color-text);
->
-> background-color: var(&#45;-color-bg);
->
-> -webkit-font-smoothing: antialiased;
->
-> -moz-osx-font-smoothing: grayscale; font-family: stratos, sans-serif;
->
-> }
->
-> a {
->
-> text-decoration: none; color: var(&#45;-color-link); outline: none;
->
-> }
->
-> a:hover, a:focus {
->
-> color: var(&#45;-color-link-hover); outline: none;
->
-> }
->
-> .menu {
->
-> -webkit-touch-callout: none;
->
-> -webkit-user-select: none;
->
-> -moz-user-select: none;
->
-> -ms-user-select: none; user-select: none;
->
-> padding: 10vh 0 25vh;
->
-> &#45;-marquee-width: 100vw;
->
-> &#45;-offset: 20vw;
->
-> &#45;-move-initial: calc(-25% + var(&#45;-offset));
->
-> &#45;-move-final: calc(-50% + var(&#45;-offset));
->
-> &#45;-item-font-size: 10vw; counter-reset: menu;
->
-> }
->
-> .menu item {
->
-> cursor: default; position: relative; padding: 0 5vw;
->
-> }
->
-> .menu item-link { display: inline-block; cursor: pointer; position:
-> relative;
->
-> -webkit-text-stroke: 1.5px #000;
->
-> -webkit-text-fill-color: transparent; color: transparent;
->
-> transition: opacity 0.4s;
->
-> }
->
-> .menu item-link::before { all: initial;
->
-> font-family: sofia-pro, sans-serif; counter-increment: menu;
->
-> content: counter(menu); position: absolute; bottom: 60%;
->
-> left: 0;
->
-> pointer-events: none;
->
-> }
->
-> .menu item-link:hover { transition-duration: 0.1s; opacity: 0;
->
-> }
->
-> .menu item-link:hover +. menu item-img { opacity: 1;
->
-> transform: translate3d(calc(-100% - 6vw),-30%,0) rotate3d(0,0,1,4deg);
->
-> transition: all 0.4s;
->
-> }
->
-> .marquee {
->
-> position: absolute; top: 0;
->
-> left: 0;
->
-> width: var(&#45;-marquee-width); overflow: hidden;
->
-> pointer-events: none;
->
-> mix-blend-mode: color-burn;
->
-> }
->
-> .marquee inner { display: flex; position: relative;
->
-> transform: translate3d(var(&#45;-move-initial), 0, 0); animation: marquee
-> 5s linear infinite;
->
-> animation-play-state: paused; opacity: 0;
->
-> transition: opacity 0.1s;
->
-> }
->
-> .menu item-link:hover ∼. marquee .marquee inner {
-> animation-play-state: running;
->
-> opacity: 1;
->
-> transition-duration: 0.7s;
->
-> }
->
-> .marquee span {
->
-> text-align: center;
->
-> }
->
-> .menu item-link,
->
-> .marquee span {
->
-> white-space: nowrap;
->
-> font-size: var(&#45;-item-font-size); padding: 0 1vw;
->
-> font-weight: 900;
->
-> line-height: 1.15;
->
-> }
->
-> .marquee span {
->
-> font-style: italic;
->
-> }
->
-> &#64;keyframes marquee { 0% {
->
-> transform: translate3d(var(&#45;-move-initial), 0,
->
-> 0);
->
-> 0);
->
-> }
->
-> 100% {
->
-> transform: translate3d(var(&#45;-move-final), 0,
->
-> }
->
-> }
+```
+#42;,
+&#42;::after,
+&#42;::before {
+box-sizing: border-box;
+}
+:root {
+font-size: 15px;
+}
+body {
+margin: 0;
+&#45;-color-text: #111;
+&#45;-color-bg: #f8ecde;
+&#45;-color-link: #b19e7f;
+&#45;-color-link-hover: #000; color: var(&#45;-color-text);
+background-color: var(&#45;-color-bg);
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale; font-family: stratos, sans-serif;
+}
+a {
+text-decoration: none; color: var(&#45;-color-link); outline: none;
+}
+a:hover, a:focus {
+color: var(&#45;-color-link-hover); outline: none;
+}
+.menu {
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none; user-select: none;
+padding: 10vh 0 25vh;
+&#45;-marquee-width: 100vw;
+&#45;-offset: 20vw;
+&#45;-move-initial: calc(-25% + var(&#45;-offset));
+&#45;-move-final: calc(-50% + var(&#45;-offset));
+&#45;-item-font-size: 10vw; counter-reset: menu;
+}
+.menu item {
+cursor: default; position: relative; padding: 0 5vw;
+}
+.menu item-link { display: inline-block; cursor: pointer; position:
+relative;
+-webkit-text-stroke: 1.5px #000;
+-webkit-text-fill-color: transparent; color: transparent;
+transition: opacity 0.4s;
+}
+.menu item-link::before { all: initial;
+font-family: sofia-pro, sans-serif; counter-increment: menu;
+content: counter(menu); position: absolute; bottom: 60%;
+left: 0;
+pointer-events: none;
+}
+.menu item-link:hover { transition-duration: 0.1s; opacity: 0;
+}
+.menu item-link:hover +. menu item-img { opacity: 1;
+transform: translate3d(calc(-100% - 6vw),-30%,0) rotate3d(0,0,1,4deg);
+transition: all 0.4s;
+rquee {
+sition: absolute; top: 0;
+ft: 0;
+width: var(&#45;-marquee-width); overflow: hidden;
+pointer-events: none;
+mix-blend-mode: color-burn;
+}
+.marquee inner { display: flex; position: relative;
+transform: translate3d(var(&#45;-move-initial), 0, 0); animation: marquee
+5s linear infinite;
+animation-play-state: paused; opacity: 0;
+transition: opacity 0.1s;
+}
+.menu item-link:hover ∼. marquee .marquee inner {
+animation-play-state: running;
+opacity: 1;
+transition-duration: 0.7s;
+}
+.marquee span {
+text-align: center;
+}
+.menu item-link,
+.marquee span {
+white-space: nowrap;
+font-size: var(&#45;-item-font-size); padding: 0 1vw;
+font-weight: 900;
+line-height: 1.15;
+}
+.marquee span {
+font-style: italic;
+}
+&#64;keyframes marquee { 0% {
+transform: translate3d(var(&#45;-move-initial), 0,
+0);
+0);
+}
+100% {
+transform: translate3d(var(&#45;-move-final), 0,
+}
+}
+```
 
 ![](./images/image105.png){width="4.429687226596675in"
-height="1.5328116797900262in"}
-
-> CSS MarqueeMenu plugin.
->
-> When you paste this link in the chrome URL address bar
-> ([https://use.](https://use.typekit.net/)
-> [typekit.net/zhq0vyf.css](https://use.typekit.net/) ) after that you
-> will get this code on the page given below:
->
-> &#64;import url(&#34;https://p.typekit.net/p.css?s=1&k=zhq0vyf
-> &ht=tk&f=24537.24538.24539.24540.24547.38192.38197.381
->
-> 98.38199.38200&a=1494256&app=typekit&e=css&#34;);
->
-> &#64;font-face {
->
-> font-family:&#34;sofia-pro&#34;;
-> src:url(&#34;https://use.typekit.net/af/0c5f71/00000000000
-> 000003b9b1aa0/27/l?primer=7cdcb44be4a7db8877ffa5c0007b
-> 8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3&#34;)
->
-> format(&#34;woff2&#34;),url(&#34;https://use.typekit.net/af/0c5f71
->
-> /00000000000000003b9b1aa0/27/d?primer=7cdcb44be4a7db88
-> 77ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n 9&v=3&#34;)
-> format(&#34;woff&#34;),url(&#34;https://use.typekit.net/
-> af/0c5f71/00000000000000003b9b1aa0/27/a?primer=7cdcb44
-> be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9
-> 191&fvd=n9&v=3&#34;) format(&#34;opentype&#34;);
->
-> font-display:auto;font-style:normal;font-
-> weight:900;font-stretch:normal;
->
-> }
->
-> &#64;font-face {
->
-> font-family:&#34;sofia-pro&#34;;
-> src:url(&#34;https://use.typekit.net/af/5dd13e/00000000000
-> 000003b9b1a9f/27/l?primer=7cdcb44be4a7db8877ffa5c0007b
-> 8dd865b3bbc383831fe2ea177f62257a9191&fvd=i9&v=3&#34;)
-> format(&#34;woff2&#34;),url(&#34;https://use.typekit.net/af/5dd13e
->
-> /00000000000000003b9b1a9f/27/d?primer=7cdcb44be4a7db88
-> 77ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i 9&v=3&#34;)
-> format(&#34;woff&#34;),url(&#34;https://use.typekit.net/
-> af/5dd13e/00000000000000003b9b1a9f/27/a?primer=7cdcb44
-> be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9
-> 191&fvd=i9&v=3&#34;) format(&#34;opentype&#34;);
->
-> font-display:auto;font-style:italic;font-
-> weight:900;font-stretch:normal;
->
-> }
+ight="1.5328116797900262in"}
+SS MarqueeMenu plugin.
+When you paste this link in the chrome URL address bar
+([https://use.](https://use.typekit.net/)
+[typekit.net/zhq0vyf.css](https://use.typekit.net/) ) after that you
+will get this code on the page given below:
+&#64;import url(&#34;https://p.typekit.net/p.css?s=1&k=zhq0vyf
+&ht=tk&f=24537.24538.24539.24540.24547.38192.38197.381
+98.38199.38200&a=1494256&app=typekit&e=css&#34;);
+&#64;font-face {
+font-family:&#34;sofia-pro&#34;;
+src:url(&#34;https://use.typekit.net/af/0c5f71/00000000000
+000003b9b1aa0/27/l?primer=7cdcb44be4a7db8877ffa5c0007b
+8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3&#34;)
+format(&#34;woff2&#34;),url(&#34;https://use.typekit.net/af/0c5f71
+/00000000000000003b9b1aa0/27/d?primer=7cdcb44be4a7db88
+77ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n 9&v=3&#34;)
+format(&#34;woff&#34;),url(&#34;https://use.typekit.net/
+af/0c5f71/00000000000000003b9b1aa0/27/a?primer=7cdcb44
+be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9
+191&fvd=n9&v=3&#34;) format(&#34;opentype&#34;);
+font-display:auto;font-style:normal;font-
+weight:900;font-stretch:normal;
+}
+&#64;font-face {
+font-family:&#34;sofia-pro&#34;;
+src:url(&#34;https://use.typekit.net/af/5dd13e/00000000000
+000003b9b1a9f/27/l?primer=7cdcb44be4a7db8877ffa5c0007b
+8dd865b3bbc383831fe2ea177f62257a9191&fvd=i9&v=3&#34;)
+format(&#34;woff2&#34;),url(&#34;https://use.typekit.net/af/5dd13e
+/00000000000000003b9b1a9f/27/d?primer=7cdcb44be4a7db88
+77ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i 9&v=3&#34;)
+format(&#34;woff&#34;),url(&#34;https://use.typekit.net/
+af/5dd13e/00000000000000003b9b1a9f/27/a?primer=7cdcb44
+be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9
+191&fvd=i9&v=3&#34;) format(&#34;opentype&#34;);
+font-display:auto;font-style:italic;font-
+weight:900;font-stretch:normal;
+}
 
 ###### Another example:
 
-> &lt;!DOCTYPE html&gt;
->
-> &lt;html lang=&#34;en&#34; class=&#34;no-js&#34;&gt;
->
-> &lt;head&gt;
->
-> &lt;meta charset=&#34;UTF-8&#34; /&gt;
->
-> &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width,
-> initial-scale=1&#34;&gt;
->
-> &lt;title&gt;CSS-only Marquee Menu Effect &#124; Codrops&lt;/ title&gt;
->
-> &lt;meta name=&#34;description&#34; content=&#34;A menu with a css-only marquee
-> hover effect&#34; /&gt;
->
-> &lt;meta name=&#34;keywords&#34; content=&#34;marquee, css, animation, loop,
-> infinite, hover, menu, navigation&#34; /&gt;
->
-> &lt;meta name=&#34;author&#34; content=&#34;Codrops&#34; /&gt;
->
-> &lt;link rel=&#34;shortcut icon&#34; href=&#34;favicon.ico&#34;&gt;
->
-> &lt;style&gt;
->
-> &#42;{box-sizing: border-box;margin: 0}body{overflow-x:
-> hidden;}.content{padding-left: 20px;padding-bottom: 30px}h1{margin:
-> 50px 0 20px;font-family: roboto} p{margin-bottom: 20px}
->
-> .marquee {
->
-> &#45;-pos-x: 0; width: 100vw; display: flex;
->
-> overflow-x: hidden;
->
-> }
->
-> .marquee row {
->
-> &#45;-translateX: calc(var(&#45;-pos-x) &#42; 1px); flex-shrink: 0;
->
-> min-width: 100vw; display: flex;
->
-> justify-content: space-around;
->
-> transform: translateX(var(&#45;-translateX));
->
-> }
->
-> .marquee&#45;-text {
->
-> background-color: #89ff91;
->
-> }
->
-> .marquee item&#45;-text { margin: 0;
->
-> font-size: 65px; margin:. 2em. 4em;
->
-> }
->
-> .marquee&#45;-nezuko { background-color: pink;
->
-> }
->
-> .marquee item&#45;-nezuko {
->
-> &#45;-height: calc(100px + 50px &#42; ((var(&#45;-viewport)
->
-> &#45; 375) / 1065));
->
-> height: var(&#45;-height);
->
-> margin: calc(0.1 &#42; var(&#45;-height)) calc(0.3 &#42; var(&#45;-height));
->
-> }
->
-> &lt;/style&gt;
->
-> &lt;/head&gt;
->
-> &lt;body&gt;
->
-> &lt;div class=&#34;marquee marquee&#45;-text&#34; data-speed=&#34;25&#34;&gt;
->
-> &lt;div class=&#34;marquee row marquee row&#45;-text&#34;&gt;
->
-> &lt;p class=&#34;marquee item marquee item&#45;-
->
-> text&#34; data-clone=&#34;5&#34;&gt; CSS Marquee Menu Effect / &lt;/p&gt;
->
-> &lt;/div&gt;
->
-> &lt;/div&gt;
->
-> &lt;/body&gt;
->
-> &lt;script&gt;
->
-> const marqueeArr = document.querySelectorAll (&#39;.marquee&#39;);
->
-> marqueeArr.forEach(marquee =&gt; {
->
-> const marqueeRow = marquee.querySelector (&#39;.marquee row&#39;);
->
-> const marqueeItem = marqueeRow.querySelector (&#39;.marquee item&#39;);
->
-> const cloneNum = Number(marqueeItem.
-> getAttributeNode(&#39;data-clone&#39;).value); for (let i = 1; i &lt;
-> cloneNum; i++) {
->
-> const clone = marqueeItem.cloneNode(true);
-> marqueeRow.appendChild(clone);
->
-> }
->
-> for (let i = 0; i &lt; 2; i++) {
->
-> const clone = marqueeRow.cloneNode(true); marquee.appendChild(clone);
->
-> }
->
-> const marqueeMove = (dir) =&gt; {
->
-> const rows = marquee.querySelectorAll (&#39;.marquee row&#39;);
->
-> const rowWidth = rows&#91;0&#93;.getBoundingClientRect(). width;
->
-> let currentX = Number(getComputedStyle(marquee).
-> getPropertyValue(&#39;&#45;-pos-x&#39;));
->
-> let newX = 0; switch (dir) {
->
-> case &#39;left&#39;:
->
-> newX = currentX? (currentX - 1) : -rowWidth; (newX &lt; (-2 &#42;
-> rowWidth)) && (newX =
->
-> -rowWidth);
->
-> break; default:
->
-> newX = currentX? (currentX + 1) : -rowWidth; (newX &gt; 0) && (newX =
-> -rowWidth);
->
-> }
->
-> marquee.style.setProperty(&#39;&#45;-pos-x&#39;, newX);
->
-> };
->
-> let speed = Number(marquee.getAttributeNode(&#39;data- speed&#39;).value);
->
-> let direction = &#39;left&#39;;
->
-> let marqueeInterval = setInterval(marqueeMove, speed, direction);
->
-> marquee.onmouseenter = () =&gt; { clearInterval(marqueeInterval);
->
-> }
->
-> marquee.onmousemove = () =&gt; { clearInterval(marqueeInterval);
->
-> }
->
-> marquee.onmouseleave = () =&gt; { clearInterval(marqueeInterval);
->
-> marqueeInterval = setInterval(marqueeMove, speed, direction);
->
-> }
->
-> let posY = 0;
->
-> const changeDir = () =&gt; { clearInterval(marqueeInterval);
->
-> let scrollTop = document.documentElement. scrollTop;
->
-> direction = (scrollTop &gt; posY)? &#39;right&#39; : &#39;left&#39;;
-> marqueeMove(direction);
->
-> marqueeMove(direction);
->
-> marqueeInterval = setInterval(marqueeMove, speed, direction);
->
-> posY = scrollTop;
->
-> };
->
-> window.addEventListener(&#39;scroll&#39;, changeDir);
->
-> });
->
-> s
->
-> &lt;/script&gt;
->
-> &lt;/html&gt;
+```
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&#34;en&#34; class=&#34;no-js&#34;&gt;
+&lt;head&gt;
+&lt;meta charset=&#34;UTF-8&#34; /&gt;
+&lt;meta name=&#34;viewport&#34; content=&#34;width=device-width,
+initial-scale=1&#34;&gt;
+&lt;title&gt;CSS-only Marquee Menu Effect &#124; Codrops&lt;/ title&gt;
+&lt;meta name=&#34;description&#34; content=&#34;A menu with a css-only marquee
+hover effect&#34; /&gt;
+&lt;meta name=&#34;keywords&#34; content=&#34;marquee, css, animation, loop,
+infinite, hover, menu, navigation&#34; /&gt;
+&lt;meta name=&#34;author&#34; content=&#34;Codrops&#34; /&gt;
+&lt;link rel=&#34;shortcut icon&#34; href=&#34;favicon.ico&#34;&gt;
+&lt;style&gt;
+&#42;{box-sizing: border-box;margin: 0}body{overflow-x:
+hidden;}.content{padding-left: 20px;padding-bottom: 30px}h1{margin:
+50px 0 20px;font-family: roboto} p{margin-bottom: 20px}
+.marquee {
+&#45;-pos-x: 0; width: 100vw; display: flex;
+overflow-x: hidden;
+}
+.marquee row {
+45;-translateX: calc(var(&#45;-pos-x) &#42; 1px); flex-shrink: 0;
+n-width: 100vw; display: flex;
+stify-content: space-around;
+ansform: translateX(var(&#45;-translateX));
+marquee&#45;-text {
+background-color: #89ff91;
+}
+.marquee item&#45;-text { margin: 0;
+font-size: 65px; margin:. 2em. 4em;
+}
+.marquee&#45;-nezuko { background-color: pink;
+}
+.marquee item&#45;-nezuko {
+&#45;-height: calc(100px + 50px &#42; ((var(&#45;-viewport)
+&#45; 375) / 1065));
+height: var(&#45;-height);
+margin: calc(0.1 &#42; var(&#45;-height)) calc(0.3 &#42; var(&#45;-height));
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div class=&#34;marquee marquee&#45;-text&#34; data-speed=&#34;25&#34;&gt;
+&lt;div class=&#34;marquee row marquee row&#45;-text&#34;&gt;
+&lt;p class=&#34;marquee item marquee item&#45;-
+text&#34; data-clone=&#34;5&#34;&gt; CSS Marquee Menu Effect / &lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;script&gt;
+const marqueeArr = document.querySelectorAll (&#39;.marquee&#39;);
+marqueeArr.forEach(marquee =&gt; {
+const marqueeRow = marquee.querySelector (&#39;.marquee row&#39;);
+const marqueeItem = marqueeRow.querySelector (&#39;.marquee item&#39;);
+const cloneNum = Number(marqueeItem.
+getAttributeNode(&#39;data-clone&#39;).value); for (let i = 1; i &lt;
+cloneNum; i++) {
+const clone = marqueeItem.cloneNode(true);
+marqueeRow.appendChild(clone);
+}
+for (let i = 0; i &lt; 2; i++) {
+const clone = marqueeRow.cloneNode(true); marquee.appendChild(clone);
+}
+st marqueeMove = (dir) =&gt; {
+nst rows = marquee.querySelectorAll (&#39;.marquee row&#39;);
+st rowWidth = rows&#91;0&#93;.getBoundingClientRect(). width;
+let currentX = Number(getComputedStyle(marquee).
+getPropertyValue(&#39;&#45;-pos-x&#39;));
+let newX = 0; switch (dir) {
+case &#39;left&#39;:
+newX = currentX? (currentX - 1) : -rowWidth; (newX &lt; (-2 &#42;
+rowWidth)) && (newX =
+-rowWidth);
+break; default:
+newX = currentX? (currentX + 1) : -rowWidth; (newX &gt; 0) && (newX =
+-rowWidth);
+}
+marquee.style.setProperty(&#39;&#45;-pos-x&#39;, newX);
+};
+let speed = Number(marquee.getAttributeNode(&#39;data- speed&#39;).value);
+let direction = &#39;left&#39;;
+let marqueeInterval = setInterval(marqueeMove, speed, direction);
+marquee.onmouseenter = () =&gt; { clearInterval(marqueeInterval);
+}
+marquee.onmousemove = () =&gt; { clearInterval(marqueeInterval);
+}
+marquee.onmouseleave = () =&gt; { clearInterval(marqueeInterval);
+marqueeInterval = setInterval(marqueeMove, speed, direction);
+}
+let posY = 0;
+const changeDir = () =&gt; { clearInterval(marqueeInterval);
+let scrollTop = document.documentElement. scrollTop;
+direction = (scrollTop &gt; posY)? &#39;right&#39; : &#39;left&#39;;
+marqueeMove(direction);
+marqueeMove(direction);
+marqueeInterval = setInterval(marqueeMove, speed, direction);
+posY = scrollTop;
+};
+window.addEventListener(&#39;scroll&#39;, changeDir);
+});
+s
+&lt;/script&gt;
+>
+&lt;/html&gt;
+```
 
 ![](./images/image106.png){width="4.4259241032370955in"
 height="0.2784372265966754in"}
 
-> CSS MarqueeMenu plugin.
+CSS MarqueeMenu plugin.
 
 ### CHAPTER SUMMARY
 
@@ -16655,53 +16360,51 @@ font color and so on.
     -   It is the same content with different styles for different
         purposes.
 
-> DOI:
-> [10.1201/9781003358060-6](https://doi.org/10.1201/9781003358060-6)
->
-> **411**
->
-> []{#_bookmark373 .anchor}Your website may have thousands of pages that
-> look similar. With CSS, you store style information in common files
-> that everyone can share. When a user displays a web page, the browser
-> loads the style along with the content of the page. When a user prints
-> a webpage, you can provide infor- mation about a different style that
-> makes the printed page easy to read.
->
-> In general, HTML is used to describe the content of a document, not
-> its style; you use CSS to determine its style, not its content. Of
-> course, there are various exceptions to the rule, and HTML also
-> provides some ways to specify style. For example, in HTML you can use
-> the &lt;b&gt; tag to make text bold, and in its &lt;body&gt; tag you can
-> specify the background color of the page. When you use CSS, you
-> usually avoid using these HTML style fea- tures, so all of your
-> document's styling information is in one place.
->
-> CSS stands for Cascading Style Sheets. It is a language used to
-> stylize a web page. Also, changing the look and layout of a web page
-> using it is absolutely simple. You can also control how a website
-> appears on different screens of different devices such as mobile
-> phones, desktops, and tablets. You must have a thorough understanding
-> of style sheet language to use it properly.
->
-> You can set the font, color, and size for an entire web page or a
-> specific HTML element. However, a single CSS can be redirected to
-> multiple web pages, allowing you to change the look of multiple pages
-> at once. CSS is easy to learn and understand and provides a robust
-> command over view- ing an HTML document. Often CSS is combined with
-> markup languages, that is, HTML or XHTML.
+DOI:
+[10.1201/9781003358060-6](https://doi.org/10.1201/9781003358060-6)
+
+**411**
+
+[]{#_bookmark373 .anchor}Your website may have thousands of pages that
+look similar. With CSS, you store style information in common files
+that everyone can share. When a user displays a web page, the browser
+loads the style along with the content of the page. When a user prints
+a webpage, you can provide infor- mation about a different style that
+makes the printed page easy to read.
+In general, HTML is used to describe the content of a document, not
+its style; you use CSS to determine its style, not its content. Of
+course, there are various exceptions to the rule, and HTML also
+provides some ways to specify style. For example, in HTML you can use
+the &lt;b&gt; tag to make text bold, and in its &lt;body&gt; tag you can
+specify the background color of the page. When you use CSS, you
+usually avoid using these HTML style fea- tures, so all of your
+document's styling information is in one place.
+
+CSS stands for Cascading Style Sheets. It is a language used to
+stylize a web page. Also, changing the look and layout of a web page
+using it is absolutely simple. You can also control how a website
+appears on different screens of different devices such as mobile
+phones, desktops, and tablets. You must have a thorough understanding
+of style sheet language to use it properly.
+You can set the font, color, and size for an entire web page or a
+specific HTML element. However, a single CSS can be redirected to
+multiple web pages, allowing you to change the look of multiple pages
+at once. CSS is easy to learn and understand and provides a robust
+command over view- ing an HTML document. Often CSS is combined with
+markup languages, that is, HTML or XHTML.
 
 ### HOW CASCADING STYLE SHEETS WORK
 
-> Cascading Style Sheet has a completely different approach to a web
-> page style and layout. Every time an HTML document is viewed in a
-> browser, the content comes with style information. Basically, the HTML
-> file contains the content of a page and the style sheet contains
-> information about the style of a page. Therefore, the main purpose of
-> Cascade Style Sheets is to allow elements to appear in the HTML
-> document. And these specified standards guide how content will be
-> executed.
->
-> There are various versions of CSS such as:
+Cascading Style Sheet has a completely different approach to a web
+page style and layout. Every time an HTML document is viewed in a
+browser, the content comes with style information. Basically, the HTML
+file contains the content of a page and the style sheet contains
+information about the style of a page. Therefore, the main purpose of
+Cascade Style Sheets is to allow elements to appear in the HTML
+document. And these specified standards guide how content will be
+executed.
+
+There are various versions of CSS such as:
 
 -   CSS1
 
