@@ -1396,7 +1396,7 @@ However, it is worth knowing that these features exist and to
 understand the relationship []{#_bookmark53 .anchor}between the CSS
 you are using, browser support (see below), and details.
 
-### CSS MODULES {#css-modules .unnumbered}
+### CSS MODULES
 
 As there are many things you can style using CSS, the language is
 divided into modules. You will see a reference to these modules as
@@ -1418,7 +1418,7 @@ some- thing about HTML, then it is good; if not, let's have a brief
 introduction to HTML and how to link a CSS file with HTML for changing
 styles.
 
-### BASIC HTML {#basic-html .unnumbered}
+### BASIC HTML
 
 The following section provides an introduction to HTML. We cannot
 imagine web pages and the World Wide Web without HTML. It is the
@@ -1557,15 +1557,15 @@ to know where we can use it.
 -   FrontPage, Dreamweaver, and many other development tools sup- port
     HTML.
 
-### STARTING WITH A SPECIFIC HTML {#starting-with-a-specific-html .unnumbered}
+### STARTING WITH A SPECIFIC HTML
 
-###### HTML and CSS are two methods of tags (code), with their own unique syntax. There is a difference between the two. You can think of HTML as a page layout, while CSS gives HTML its own style. {#html-and-css-are-two-methods-of-tags-code-with-their-own-unique-syntax.-there-is-a-difference-between-the-two.-you-can-think-of-html-as-a-page-layout-while-css-gives-html-its-own-style. .unnumbered}
+###### HTML and CSS are two methods of tags (code), with their own unique syntax. There is a difference between the two. You can think of HTML as a page layout, while CSS gives HTML its own style. 
 
 HTML = structure CSS = style
 
-### LINKING YOUR HTML AND CSS FILES {#linking-your-html-and-css-files .unnumbered}
+### LINKING YOUR HTML AND CSS FILES
 
-###### Before we can write CSS, we have to go back to HTML. You need to write a new line to link the HTML file and CSS file together. So, open the HTML file and add the provided line "&lt;link href =" style.css "rel =" stylesheet "type =" text / CSS "/&gt;". Your file code looks like this, {#before-we-can-write-css-we-have-to-go-back-to-html.-you-need-to-write-a-new-line-to-link-the-html-file-and-css-file-together.-so-open-the-html-file-and-add-the-provided-line-link-href-style.css-rel-stylesheet-type-text-css-.-your-file-code-looks-like-this .unnumbered}
+###### Before we can write CSS, we have to go back to HTML. You need to write a new line to link the HTML file and CSS file together. So, open the HTML file and add the provided line "&lt;link href =" style.css "rel =" stylesheet "type =" text / CSS "/&gt;". Your file code looks like this, 
 
 ```
 &lt;!DOCTYPE html&gt;
@@ -1618,7 +1618,7 @@ index.html file. The rel attribute tells your browser that this is a
 style sheet. The attribute type tells the browser that the linked file
 should be translated as CSS syntax.
 
-### HOW CSS AND HTML WORK TOGETHER {#how-css-and-html-work-together .unnumbered}
+### HOW CSS AND HTML WORK TOGETHER
 
 CSS is only concerned with web page layout, while page content is
 defined using marker language such as HTML. The separation of style
@@ -1633,7 +1633,7 @@ recommended. CSS texts can be created in any text editor, such as Text
 Editor on Mac or Notepad for Windows, as well as many other free also
 paid options that you can download.
 
-### HOW DOES CSS WORK? {#how-does-css-work .unnumbered}
+### HOW DOES CSS WORK?
 
 CSS contains the rules and values that a web browser can use in the
 content of a web page to better display its content. For example, you
@@ -1647,36 +1647,34 @@ file -- such as setting body font in blue and section font in green.
 In this case, the effective rule will be the category font, because it
 is much clearer than the body font.
 
-### CSS SYNTAX {#css-syntax .unnumbered}
+### CSS SYNTAX
 
-###### Now move on to the original CSS. The first thing we do is make the paragraph content a different color. So the type or paste into your style file.css. {#now-move-on-to-the-original-css.-the-first-thing-we-do-is-make-the-paragraph-content-a-different-color.-so-the-type-or-paste-into-your-style-file.css. .unnumbered}
+###### Now move on to the original CSS. The first thing we do is make the paragraph content a different color. So the type or paste into your style file.css. 
 
+```
 p {color: blue; }
+```
 
-###### This looks different from the code in the HTML file because it is a dif- ferent syntax. I will add a white area and cut into that code as follows: {#this-looks-different-from-the-code-in-the-html-file-because-it-is-a-dif--ferent-syntax.-i-will-add-a-white-area-and-cut-into-that-code-as-follows .unnumbered}
+###### This looks different from the code in the HTML file because it is a dif- ferent syntax. I will add a white area and cut into that code as follows: 
 
-> p {
->
-> color: blue;
->
-> }
->
-> Both of the above examples are exactly the same about your browser.
->
-> But developers often write CSS as the latest example to differentiate
-> styles. CSS is a rule-based language -- defines rules by specifying
-> groups of styles to be applied to specific objects or groups of
-> objects on your web
->
-> []{#_bookmark67 .anchor}page. For example, you may decide that a major
-> topic on your page is shown as a red flag. The following code shows a
-> simple CSS rule.
->
-> p {
->
-> color: red; font-size: 5em;
->
-> }
+```
+p {
+color: blue;
+}
+```
+
+Both of the above examples are exactly the same about your browser.
+
+But developers often write CSS as the latest example to differentiate
+styles. CSS is a rule-based language -- defines rules by specifying
+groups of styles to be applied to specific objects or groups of
+objects on your web
+[]{#_bookmark67 .anchor}page. For example, you may decide that a major
+topic on your page is shown as a red flag. The following code shows a
+simple CSS rule.
+p {
+color: red; font-size: 5em;
+}
 
 -   For example, the CSS rule opens with a selector.
 
@@ -1695,88 +1693,84 @@ p {color: blue; }
     in this case), and then the value we would like to give the
     structure.
 
-> CSS layouts have different valid values, depending on the specified
-> format. In our example, we have a color package, which can take on
-> different color values. We also have a font size structure. This
-> structure can take units of various sizes as a value.
->
-> The CSS style sheet will contain many such rules, written in sequence.
->
-> p {
->
-> color: red; font-size: 5em;
->
-> }
->
-> []{#_bookmark68 .anchor}h2 {
->
-> color: black;
->
-> }
+CSS layouts have different valid values, depending on the specified
+format. In our example, we have a color package, which can take on
+different color values. We also have a font size structure. This
+structure can take units of various sizes as a value.
 
-### INHERITANCE CSS {#inheritance-css .unnumbered}
+The CSS style sheet will contain many such rules, written in sequence.
 
-> When you nest an element inside another, the nested element inherits
-> the properties assigned to the containing element. Unless you change
-> the val- ues of the inner items independently. For instance, a font
-> declared in the
->
-> []{#_bookmark69 .anchor}body is inherited by all text in the file,
-> regardless of the item it contains, unless you declare another font
-> for a particular nested item.
+```
+p {
+color: red; font-size: 5em;
+}
+[]{#_bookmark68 .anchor}h2 {
+color: black;
+}
+```
 
-##### Sample: {#sample .unnumbered}
+### INHERITANCE CSS
 
-> body {font-family: Verdana, serif;}
->
-> All text in the HTML file will now be set to the Verdana font family.
-> If you want to format certain text with another font like h1 or
-> paragraph, you can do the following.
+When you nest an element inside another, the nested element inherits
+the properties assigned to the containing element. Unless you change
+the val- ues of the inner items independently. For instance, a font
+declared in the
 
-##### Sample: {#sample-1 .unnumbered}
+[]{#_bookmark69 .anchor}body is inherited by all text in the file,
+regardless of the item it contains, unless you declare another font
+for a particular nested item.
 
-> p {font-family: Tahoma, serif;}, h1 {font- family: Georgia,
-> sans-serif;}
+##### Sample:
 
-### COMMENT TAGS {#comment-tags .unnumbered}
+```
+body {font-family: Verdana, serif;}
+```
 
-> Comments can be used to explain why you're adding certain selectors to
-> your CSS file. To help others who might see your file or remember what
-> we thought at a later date. You can add comments that would be ignored
-> by browsers as given below:
->
-> /&#42; This is a comment &#42;/ starts with / (slash), followed by &#42;
-> (asterisk), fol- lowed by the comment, followed by the closing tag
-> immediately after the opening tag &#42; (asterisks) followed by /
-> (slash).
->
-> Merge selectors.
->
-> You can combine items in a single selector as follows.
+All text in the HTML file will now be set to the Verdana font family.
+If you want to format certain text with another font like h1 or
+paragraph, you can do the following.
 
-##### Sample: {#sample-2 .unnumbered}
+##### Sample:
 
-> h1, h2, h3, h4, h5, h6
->
-> {
->
-> color: #009900;
->
-> font-family: Georgia, sans Serif;
->
-> }
->
-> As you can look on the code above, we've grouped all the header ele-
-> ments into a single selector. Each one is separated by a comma. The
-> final result of the above code will set all headers to green and to
-> the specified font. If the user doesn't have the first font we
-> declared, they will go for another sans-serif font.
+```
+p {font-family: Tahoma, serif;}, h1 {font- family: Georgia,
+sans-serif;}
+```
 
-### DIFFERENT TYPES OF CSS YOU CAN USE {#different-types-of-css-you-can-use .unnumbered}
+### COMMENT TAGS
 
-###### There are three ways to write CSS for a web page. You have to decide which one is better for you, but we recommend using an External Style Sheet, which is the third type we'll learn today. {#there-are-three-ways-to-write-css-for-a-web-page.-you-have-to-decide-which-one-is-better-for-you-but-we-recommend-using-an-external-style-sheet-which-is-the-third-type-well-learn-today. .unnumbered}
+Comments can be used to explain why you're adding certain selectors to
+your CSS file. To help others who might see your file or remember what
+we thought at a later date. You can add comments that would be ignored
+by browsers as given below:
+/&#42; This is a comment &#42;/ starts with / (slash), followed by &#42;
+(asterisk), fol- lowed by the comment, followed by the closing tag
+immediately after the opening tag &#42; (asterisks) followed by /
+(slash).
+Merge selectors.
+You can combine items in a single selector as follows.
 
-> Here are three ways to use CSS:
+##### Sample:
+
+```
+h1, h2, h3, h4, h5, h6
+{
+color: #009900;
+font-family: Georgia, sans Serif;
+}
+```
+
+As you can look on the code above, we've grouped all the header ele-
+ments into a single selector. Each one is separated by a comma. The
+final result of the above code will set all headers to green and to
+the specified font. If the user doesn't have the first font we
+declared, they will go for another sans-serif font.
+
+### DIFFERENT TYPES OF CSS YOU CAN USE
+
+###### There are three ways to write CSS for a web page. You have to decide which one is better for you, but we recommend using an External Style Sheet, which is the third type we'll learn today. 
+
+Here are three ways to use CSS:
 
 1.  **Inline styles:** It is placed inside HTML elements.
 
@@ -1786,7 +1780,7 @@ p {color: blue; }
 3.  **External Styles:** It is placed in the External Style Sheet, which
     is a separate page that links to the web page (recommended).
 
-> An explanation of CSS methods is given below:
+An explanation of CSS methods is given below:
 
 -   **External style sheet:** The external CSS file can be created using
     any text or HTML editor like "Notepad" or "Dreamweaver." A CSS file
@@ -1795,257 +1789,181 @@ p {color: blue; }
     of the following links in the head section of each (X)HTML file that
     you want to style with CSS file.
 
-> &lt;link type=&#34;text/css&#34; rel=&#34;stylesheet&#34; href=&#34;Path To
-> stylesheet.css&#34; /&gt;
->
-> You can also use the &#64;import method like &lt;style type=&#34;text/css&#34;&gt;
-> &#64;import url(&#39;Path_to stylesheet. css&#39;) &lt;/style&gt;.
+&lt;link type=&#34;text/css&#34; rel=&#34;stylesheet&#34; href=&#34;Path To
+stylesheet.css&#34; /&gt;
 
-##### Example: {#example .unnumbered}
 
-> &lt;head&gt;
->
-> &lt;title&gt; Title &lt;title&gt;
->
-> &lt;link type=&#34;text/CSS&#34; rel=&#34;stylesheet&#34; href=&#34;style.css&#34; /&gt;
->
-> &lt;/head&gt;
->
-> &lt;body&gt;
+You can also use the &#64;import method like &lt;style type=&#34;text/css&#34;&gt;
+&#64;import url(&#39;Path_to stylesheet. css&#39;) &lt;/style&gt;.
 
-###### or, {#or .unnumbered}
+## Example:
+lt;head&gt;
+&lt;title&gt; Title &lt;title&gt;
+&lt;link type=&#34;text/CSS&#34; rel=&#34;stylesheet&#34; href=&#34;style.css&#34; /&gt;
+&lt;/head&gt;
+&lt;body&gt;
 
-> &lt;head&gt;
->
-> &lt;title&gt; Title &lt;title&gt;
->
-> &lt;style type=&#34;text/css&#34;&gt; &#64;import url(&#39;Path of stylesheet.css&#39;)
-> &lt;/style&gt;
->
-> &lt;/head&gt;
->
-> &lt;body&gt;
+### or,
+lt;head&gt;
+&lt;title&gt; Title &lt;title&gt;
+&lt;style type=&#34;text/css&#34;&gt; &#64;import url(&#39;Path of stylesheet.css&#39;)
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
 
-##### Example: {#example-1 .unnumbered}
+##### Example:
 
-###### Index.html {#index.html .unnumbered}
+###### Index.html
 
-> &lt;!DOCTYPE html&gt;
->
-> &lt;html&gt;
->
-> &lt;head&gt;
->
-> &lt;title&gt;This is page title.&lt;/title&gt;
->
-> &lt;!&#45;- Here is the Internal Style &#45;-&gt;
->
-> &lt;link href=&#34;./styless.css&#34; rel=&#34;stylesheet&#34;&gt;
->
-> &lt;/head&gt;
->
-> &lt;body&gt;
->
-> &lt;div class=&#34;container&#34;&gt;
->
-> &lt;h1&gt; &lt;u&gt; The HTML for an internal stylesheet &lt;/u&gt; &lt;/h1&gt;
->
-> &lt;h2&gt; This is a heading element &lt;/h2&gt;
->
-> &lt;p&gt; This is a paragraph. &lt;/p&gt;
->
-> &lt;/div&gt;
->
-> &lt;/body&gt;
->
-> &lt;html&gt;
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;This is page title.&lt;/title&gt;
+&lt;!&#45;- Here is the Internal Style &#45;-&gt;
+&lt;link href=&#34;./styless.css&#34; rel=&#34;stylesheet&#34;&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div class=&#34;container&#34;&gt;
+&lt;h1&gt; &lt;u&gt; The HTML for an internal stylesheet &lt;/u&gt; &lt;/h1&gt;
+&lt;h2&gt; This is a heading element &lt;/h2&gt;
+&lt;p&gt; This is a paragraph. &lt;/p&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;html&gt;
 
-###### Styless.css {#styless.css .unnumbered}
+###### Styless.css
 
-> h2, p {
->
-> font-size: 32px;
->
-> color: lightseagreen;
->
-> text-shadow: 2px 2px black;
->
-> }
->
-> h1 {
->
-> font-size: 42px;
->
-> font-family: &#39;Franklin Gothic Medium&#39;, &#39;Arial Narrow&#39;, Arial,
-> sans-serif;
->
-> }
->
-> .container {
->
-> align-items: center; max-width: 800px; max-height: auto; margin: 280px
-> auto;
->
-> []{#_bookmark73 .anchor}border: 1px solid black; border-radius: 20px;
-> padding: 50px;
->
-> }
+```
+h2, p {
+font-size: 32px;
+color: lightseagreen;
+text-shadow: 2px 2px black;
+}
+h1 {
+font-size: 42px;
+font-family: &#39;Franklin Gothic Medium&#39;, &#39;Arial Narrow&#39;, Arial,
+sans-serif;
+}
+.container {
+align-items: center; max-width: 800px; max-height: auto; margin: 280px
+auto;
+[]{#_bookmark73 .anchor}border: 1px solid black; border-radius: 20px;
+padding: 50px;
+}
+```
 
 ![](./images/image008.png){width="3.4790616797900262in"
 height="1.3331244531933508in"}
 
-> The external style sheet.
+The external style sheet.
 
 ###### **Internal style sheet:** It is a way you are simply placing that CSS code within the &lt;head&gt; and &lt;/head&gt; tags of each HTML file you want to style with the CSS. The format is shown in the example below:
 
-> &lt;html&gt;
->
-> &lt;head&gt;
->
-> &lt;title&gt; Title - Webpage &lt;title&gt;
->
-> &lt;style type=&#34;text/CSS&#34;&gt;
->
-> &lt;body&gt;
->
-> CSS Content Goes Here
->
-> &lt;/style&gt;
->
-> &lt;/head&gt;
->
-> &lt;body&gt;
->
-> &lt;/html&gt;
->
-> With the above method, each HTML file contains the CSS styling code
-> needed to style the page. That means any changes you want to make to a
-> page, will have to be made to all. The method can be good if you need
-> to style only a page, or if you want other pages to have varying
-> styles.
+```
+lt;html&gt;
+&lt;head&gt;
+&lt;title&gt; Title - Webpage &lt;title&gt;
+&lt;style type=&#34;text/CSS&#34;&gt;
+&lt;body&gt;
+CSS Content Goes Here
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;/html&gt;
+```
 
-##### Example: {#example-2 .unnumbered}
+With the above method, each HTML file contains the CSS styling code
+needed to style the page. That means any changes you want to make to a
+page, will have to be made to all. The method can be good if you need
+to style only a page, or if you want other pages to have varying
+styles.
 
-> &lt;!DOCTYPE html&gt;
->
-> &lt;html&gt;
->
-> &lt;head&gt;
->
-> []{#_bookmark74 .anchor}&lt;title&gt;This is page title.&lt;/title&gt;
->
-> &lt;!&#45;- Here is the Internal Style &#45;-&gt;
->
-> &lt;style&gt;
->
-> h2, p {
->
-> font-size: 32px;
->
-> color: lightseagreen;
->
-> text-shadow: 2px 2px black;
->
-> }
->
-> h1 {
->
-> font-size: 42px;
->
-> font-family: &#39;Franklin Gothic Medium&#39;, &#39;Arial Narrow&#39;, Arial,
-> sans-serif;
->
-> }
->
-> . container {
->
-> align-items: center; max-width: 800px; max-height: auto; margin: 280px
-> auto;
->
-> border: 1px solid black; border-radius: 20px; padding: 50px;
->
-> }
->
-> &lt;/style&gt;
->
-> &lt;/head&gt;
->
-> &lt;body&gt;
->
-> &lt;div class=&#34;container&#34;&gt;
->
-> &lt;h1&gt; &lt;u&gt; The HTML for an internal stylesheet &lt;/u&gt; &lt;/h1&gt;
->
-> &lt;h2&gt; This is a heading element &lt;/h2&gt;
->
-> &lt;p&gt; This is a paragraph. &lt;/p&gt;
->
-> &lt;/div&gt;
->
-> &lt;/body&gt;
->
-> &lt;html&gt;
+##### Example:
+
+```
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+[]{#_bookmark74 .anchor}&lt;title&gt;This is page title.&lt;/title&gt;
+&lt;!&#45;- Here is the Internal Style &#45;-&gt;
+&lt;style&gt;
+h2, p {
+font-size: 32px;
+color: lightseagreen;
+text-shadow: 2px 2px black;
+}
+h1 {
+font-size: 42px;
+font-family: &#39;Franklin Gothic Medium&#39;, &#39;Arial Narrow&#39;, Arial,
+sans-serif;
+}
+. container {
+align-items: center; max-width: 800px; max-height: auto; margin: 280px
+auto;
+border: 1px solid black; border-radius: 20px; padding: 50px;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div class=&#34;container&#34;&gt;
+&lt;h1&gt; &lt;u&gt; The HTML for an internal stylesheet &lt;/u&gt; &lt;/h1&gt;
+&lt;h2&gt; This is a heading element &lt;/h2&gt;
+&lt;p&gt; This is a paragraph. &lt;/p&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;html&gt;
+```
 
 ![](./images/image009.png){width="3.2265616797900263in"
 height="1.2395833333333333in"}
 
-> The internal style sheet.
+The internal style sheet.
 
 ###### **Inline styles:** It is a defeat purpose of using CSS in the first place. Inline styles are defined well in the HTML file alongside the ele- ment you want to style. It may appear in the queue, next to the CSS text.
 
-> &lt;div style=&#34;background-color: yellow&#34;&gt; This is inline text
-> &lt;/div&gt;
->
-> &lt;p style=&#34;color: #ff0000;&#34;&gt; This a red text&lt;/p&gt;
+```
+&lt;div style=&#34;background-color: yellow&#34;&gt; This is inline text
+&lt;/div&gt;
 
-##### Example: {#example-3 .unnumbered}
+&lt;p style=&#34;color: #ff0000;&#34;&gt; This a red text&lt;/p&gt;
+```
 
-> &lt;!DOCTYPE html&gt;
->
-> &lt;html&gt;
->
-> &lt;head&gt;
->
-> &lt;title&gt;This is page title.&lt;/title&gt;
->
-> &lt;/head&gt;
->
-> &lt;body&gt;
->
-> &lt;div class=&#34;container&#34; style=&#34; padding: 50px; border-radius: 20px;
-> border: 1px solid black;
->
-> max-width:600px; max-width: auto;&#34;&gt;
->
-> &lt;h1&gt; &lt;u&gt; This is an example of Simple CSS &lt;/u&gt; &lt;/h1&gt;
->
-> &lt;!&#45;- Here is the Inline Style &#45;-&gt;
->
-> &lt;h2 style=&#34;color: red&#34;&gt; This is a heading element &lt;/h2&gt;
->
-> &lt;p style=&#34;color: purple&#34;&gt; Hello world, this is a paragraph. &lt;/p&gt;
->
-> &lt;/div&gt;
->
-> &lt;/body&gt;
->
-> &lt;html&gt;
+##### Example:
+
+```
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;This is page title.&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div class=&#34;container&#34; style=&#34; padding: 50px; border-radius: 20px;
+border: 1px solid black;
+max-width:600px; max-width: auto;&#34;&gt;
+&lt;h1&gt; &lt;u&gt; This is an example of Simple CSS &lt;/u&gt; &lt;/h1&gt;
+&lt;!&#45;- Here is the Inline Style &#45;-&gt;
+&lt;h2 style=&#34;color: red&#34;&gt; This is a heading element &lt;/h2&gt;
+&lt;p style=&#34;color: purple&#34;&gt; Hello world, this is a paragraph. &lt;/p&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;html&gt;
+```
 
 ![](./images/image010.png){width="3.6140780839895013in"
 height="1.35in"}
 
-> The inline style sheet.
->
-> []{#_bookmark75 .anchor}External style sheets contain CSS
-> instructions, and these are special files, and have a .css file
-> extension. If an external style sheet is installed on any web page,
-> the CSS file will control its sound and appearance.
->
-> Using an external style sheet, all your HTML files are linked to a
-> single CSS file to format the pages. This means that if you need to
-> change the design of all your pages, you only need to edit one .css
-> file to make general changes to your entire website. Here are a few
-> reasons why this is better.
+The inline style sheet.
+
+[]{#_bookmark75 .anchor}External style sheets contain CSS
+instructions, and these are special files, and have a .css file
+extension. If an external style sheet is installed on any web page,
+the CSS file will control its sound and appearance.
+
+Using an external style sheet, all your HTML files are linked to a
+single CSS file to format the pages. This means that if you need to
+change the design of all your pages, you only need to edit one .css
+file to make general changes to your entire website. Here are a few
+reasons why this is better.
 
 -   Easier Maintenance
 
@@ -2055,70 +1973,67 @@ height="1.35in"}
 
 -   Improved Flexibility
 
-### CSS CLASSES {#css-classes .unnumbered}
+### CSS CLASSES
 
-> The class selector lets you style elements in the same HTML element
-> dif- ferently. It's similar to what I mentioned in the introduction
-> about inline styles. Except for classes, the style can be overwritten
-> by changing the style sheets. You can use the same class selector over
-> and over in an HTML file.
->
-> To put it more simply, the sentence you are reading is defined in my
-> CSS file with the following.
+The class selector lets you style elements in the same HTML element
+dif- ferently. It's similar to what I mentioned in the introduction
+about inline styles. Except for classes, the style can be overwritten
+by changing the style sheets. You can use the same class selector over
+and over in an HTML file.
 
-##### Sample: {#sample-3 .unnumbered}
+To put it more simply, the sentence you are reading is defined in my
+CSS file with the following.
 
-> p
->
-> {
->
-> font-size: small; color: #333333
->
-> }
+##### Sample:
 
-###### It's pretty simple, but let's say we want to change the word "sentence" to green bold text and leave the rest of the sentence untouched. You would do the following to my HTML file. {#its-pretty-simple-but-lets-say-we-want-to-change-the-word-sentence-to-green-bold-text-and-leave-the-rest-of-the-sentence-untouched.-you-would-do-the-following-to-my-html-file. .unnumbered}
+```
+p
+{
+font-size: small; color: #333333
+}
+```
 
-> &lt;p&gt; In simple terms, this &lt;span class="text"&gt; You can write your
-> sen- tence here &lt;/span&gt; in my CSS file you are reading, it is
-> formatted as fol- lows. &lt;/p&gt; Then you add the following style
-> selector to my CSS file:
->
-> .text
->
-> {
->
-> font-size: small;
->
-> []{#_bookmark77 .anchor}color: #008080; font-weight: bold;
->
-> }
+###### It's pretty simple, but let's say we want to change the word "sentence" to green bold text and leave the rest of the sentence untouched. You would do the following to my HTML file. 
+
+&lt;p&gt; In simple terms, this &lt;span class="text"&gt; You can write your
+sen- tence here &lt;/span&gt; in my CSS file you are reading, it is
+formatted as fol- lows. &lt;/p&gt; Then you add the following style
+selector to my CSS file:
+
+```
+.text
+{
+font-size: small;
+[]{#_bookmark77 .anchor}color: #008080; font-weight: bold;
+}
+```
 
 #### CSS IDs {#css-ids .unnumbered}
 
-###### IDs are similar to classes. Suppose once a specific id has been declared, it cannot be used again within the same HTML file. We commonly use IDs to style the layout elements of a page that will only be needed once, whereas we use classes to style text and such that may be declared various times. The main container for the page is defined by the following example: {#ids-are-similar-to-classes.-suppose-once-a-specific-id-has-been-declared-it-cannot-be-used-again-within-the-same-html-file.-we-commonly-use-ids-to-style-the-layout-elements-of-a-page-that-will-only-be-needed-once-whereas-we-use-classes-to-style-text-and-such-that-may-be-declared-various-times.-the-main-container-for-the-page-is-defined-by-the-following-example .unnumbered}
+###### IDs are similar to classes. Suppose once a specific id has been declared, it cannot be used again within the same HTML file. We commonly use IDs to style the layout elements of a page that will only be needed once, whereas we use classes to style text and such that may be declared various times. The main container for the page is defined by the following example: 
 
-> &lt;div id=&#34;container&#34;&gt;
+```
+&lt;div id=&#34;container&#34;&gt;
+```
 
-###### It is everything within my document is inside this division. &lt;/div&gt;. You have chosen the id selector for the "container" division over a class because you only need to use it one time within this file. Then in my CSS file, you will have the following example: {#it-is-everything-within-my-document-is-inside-this-division.-div.-you-have-chosen-the-id-selector-for-the-container-division-over-a-class-because-you-only-need-to-use-it-one-time-within-this-file.-then-in-my-css-file-you-will-have-the-following-example .unnumbered}
+###### It is everything within my document is inside this division. &lt;/div&gt;. You have chosen the id selector for the "container" division over a class because you only need to use it one time within this file. Then in my CSS file, you will have the following example: 
 
-> #container { width: 60%; margin: auto; padding: 10px;
->
-> border: 2px solid #666; background: #ffffff;
->
-> }
->
-> You will get notice that the id selector should begin with a (#)
-> number
->
-> sign instead of a (.) period, as the class selector does.
+```
+#container { width: 60%; margin: auto; padding: 10px;
+border: 2px solid #666; background: #ffffff;
+}
+```
 
-### WHAT IS THE DIFFERENCE BETWEEN ID AND CLASS? {#what-is-the-difference-between-id-and-class .unnumbered}
+You will get notice that the id selector should begin with a (#)
+number sign instead of a (.) period, as the class selector does.
 
-> We use IDs and Classes to target a particular HTML element to render
-> differently from other similar elements via CSS, but what is the
-> difference?
->
-> Ids are of the "Unique" type:
+### WHAT IS THE DIFFERENCE BETWEEN ID AND CLASS?
+
+We use IDs and Classes to target a particular HTML element to render
+differently from other similar elements via CSS, but what is the
+difference?
+
+Ids are of the "Unique" type:
 
 -   Only one ID can be set for each Item.
 
@@ -2128,11 +2043,13 @@ You should use the id when you have only one element on the page that
 you want to render. Your code cannot pass the validation test, which
 is important for web developers.
 
-##### Sample: {#sample-4 .unnumbered}
+##### Sample:
 
+```
 &lt;div id=&#34;main-header&#34;&gt; text &lt;/div&gt;
+```
 
-### CSS DIVISION {#css-division .unnumbered}
+### CSS DIVISION
 
 Previously, you've learned the basics of CSS, how syntax works, and a
 little bit about classes and ids here. We'll now take a short break
@@ -2143,7 +2060,7 @@ including additional sections, spans, images, text, etc. You define a
 section within an HTML file by placing the following between &lt;body&gt;
 &lt;/body&gt;.
 
-##### Sample: {#sample-5 .unnumbered}
+##### Sample:
 
 ```
 &lt;body&gt;
@@ -2151,7 +2068,7 @@ section within an HTML file by placing the following between &lt;body&gt;
 &lt;/body&gt;
 ```
 
-###### You will most likely want to add some style to it. You can do this in the example below: {#you-will-most-likely-want-to-add-some-style-to-it.-you-can-do-this-in-the-example-below .unnumbered}
+###### You will most likely want to add some style to it. You can do this in the example below: 
 
 ```
 &lt;div id="container"&gt; Site content go here &lt;/div&gt; The CSS file
@@ -2168,7 +2085,7 @@ Now everything in this section will be formatted according to the
 file. A split creates a line break by default. You can use both
 classes and sections of your website.
 
-### HOW TO USE CSS PROPERTIES {#how-to-use-css-properties .unnumbered}
+### HOW TO USE CSS PROPERTIES
 
 CSS layouts are used to apply styles to structured documents, such as
 those created in HTML or XML. CSS layouts are specified at the CSS
@@ -2182,7 +2099,7 @@ well as a declaration block.
 
 CSS features are used within the ad with the corresponding value.
 
-##### Example: {#example-4 .unnumbered}
+##### Example:
 
 ```
 section {
@@ -2206,15 +2123,14 @@ color: orangered;
 Let's discuss various CSS properties in short. We have a separate
 chap- ter for each of the properties.
 
-### CSS COLORS {#css-colors .unnumbered}
+### CSS COLORS
 
 Colors are specified using predefined color names, RGB, HEX, HSL,
 RGBA, HSLA values.
 
-###### Names {#names .unnumbered}
+###### Names
 
-In CSS, a color can be specified by using a pre-defined color name,
-such as,
+In CSS, a color can be specified by using a pre-defined color name, such as,
 
 1.  Tomato
 
@@ -2232,7 +2148,7 @@ such as,
 
 8.  LightGray
 
-###### List of Color Values {#list-of-color-values .unnumbered}
+###### List of Color Values
 
 Here's a list of color values that can be used with CSS.
 
@@ -2311,7 +2227,7 @@ browsers given below:
 
 23. Ivory
 
-### RGB COLOR {#rgb-color .unnumbered}
+### RGB COLOR
 
 There are different colors that add a different atmosphere to various
 designs. The right choice of colors can make designs and creations
@@ -2327,7 +2243,7 @@ impact, so you have to put some effort into getting them right.
 colors and color systems. They range from named colors to hexagonal
 colors, RGB() colors, hsl col- ors, and more.
 
-###### How to Use RGB Colors in HTML {#how-to-use-rgb-colors-in-html .unnumbered}
+###### How to Use RGB Colors in HTML
 
 The easiest way to apply color to your HTML elements is to write your
 HTML in a .html file. Then, in that file, simply associate your .css
@@ -2337,7 +2253,7 @@ It makes code easier to read and removes any considered best practice
 concerns. We can have an about.html file with some HTML code like
 this:
 
-##### Example: {#example-5 .unnumbered}
+##### Example:
 
 ```
 &lt;!DOCTYPE html&gt;
@@ -2381,432 +2297,233 @@ fames ac turpis egestas. &lt;/h2&gt;
 ![](./images/image011.png){width="4.4240791776028in"
 height="1.828124453193351in"}
 
-> Use of RGB in CSS.
+Use of RGB in CSS.
 
-###### These are the common color user in CSS, you can change its value to create a new color. {#these-are-the-common-color-user-in-css-you-can-change-its-value-to-create-a-new-color. .unnumbered}
+###### These are the common color user in CSS, you can change its value to create a new color. 
 
-> **Color Value in RGB Color Name**
->
-> RGB(0, 255, 255)
->
-> RGB(0, 0, 0)
->
-> RGB(0, 0, 255)
->
-> RGB(255, 0, 255)
->
-> RGB(128, 128, 128)
->
-> RGB(0, 128, 0)
->
-> RGB(0, 255, 0)
->
-> RGB(128, 0, 0)
->
-> RGB(0, 0, 128)
->
-> aqua black blue fuchsia gray green lime maroon navy
->
-> *(Continued)*
->
-> []{#_bookmark92 .anchor}**Color Value in RGB Color Name**
->
-> RGB(128, 128, 0)
->
-> RGB(128, 0, 128)
->
-> RGB(255, 0, 0)
->
-> RGB(192, 192, 192)
->
-> RGB(0, 128, 128)
->
-> RGB(255, 255, 255)
->
-> RGB(255, 255, 0)
->
-> olive purple red silver teal white yellow
-
-###### Extended Color Keywords {#extended-color-keywords .unnumbered}
-
-> The following table lists the color keywords defined in the CSS3
-> specification.
->
-> **Color Name RGB Value**
->
-> aliceblue antique white aqua aquamarine azure
->
-> beige bisque black
->
-> blanchedalmond blue
->
-> blueviolet brown burlywood cadet blue chartreuse chocolate coral
->
-> cornflower blue cornsilk crimson
->
-> cyan darkblue dark cyan
->
-> darkgoldenrod darkgray darkgreen dark khaki dark magenta
-> darkolivegreen dark orange dark orchid
->
-> RGB(240, 248, 255)
->
-> RGB(250, 235, 215)
->
-> RGB(0, 255, 255)
->
-> RGB(127, 255, 212)
->
-> RGB(1240, 255, 255)
->
-> RGB(245, 245, 220)
->
-> RGB(255, 228, 196)
->
-> RGB(0, 0, 0)
->
-> RGB(255, 235, 205)
->
-> RGB(0, 0, 255)
->
-> RGB(138, 43, 226)
->
-> RGB(165, 42, 42)
->
-> RGB(222, 184, 135)
->
-> RGB(95, 158, 160)
->
-> RGB(95, 158, 160)
->
-> RGB(210, 105, 30)
->
-> RGB(255, 127, 80)
->
-> RGB(100, 149, 237)
->
-> RGB(255, 248, 220)
->
-> RGB(220, 20, 60)
->
-> RGB(0, 255, 255)
->
-> RGB(0, 0, 139)
->
-> RGB(0, 139, 139)
->
-> RGB(184, 134, 11)
->
-> RGB(169, 169, 169)
->
-> RGB(0, 100, 0)
->
-> RGB(189, 183, 107)
->
-> RGB(139, 0, 139)
->
-> RGB(85, 107, 47)
->
-> RGB(255, 140, 0)
->
-> RGB(153, 50, 204)
->
-> *(Continued)*
->
-> **Color Name RGB Value**
->
-> darkred darksalmon darkseagreen darkslateblue darkslategray dark
-> turquoise dark violet deeppink deepskyblue dim gray dodgerblue
-> firebrick floralwhite forest green fuchsia gainsboro ghostwhite gold
-> goldenrod gray
->
-> green greenyellow honeydew hotpink indianred indigo Ivory
->
-> khaki lavender lavender blush lawngreen lemon chiffon lightblue
->
-> light coral light cyan
->
-> lightgoldenrodyellow lightgreen
->
-> light grey lightpink light salmon lightseagreen lightskyblue
-> lightslategray lightsteelblue light yellow lime limegreen
->
-> RGB(139, 0, 0)
->
-> RGB(233, 150, 122)
->
-> RGB(143, 188, 143)
->
-> RGB(72, 61, 139)
->
-> RGB(47, 79, 79)
->
-> RGB(0, 206, 209)
->
-> RGB(148, 0, 211)
->
-> RGB(255, 20, 147)
->
-> RGB(0, 191, 255)
->
-> RGB(0, 191, 255)
->
-> RGB(30, 144, 255)
->
-> RGB(178, 34, 34)
->
-> RGB(255, 250, 240)
->
-> RGB(34, 139, 34)
->
-> RGB(255, 0, 255)
->
-> RGB(220, 220, 220)
->
-> RGB(248, 248, 255)
->
-> RGB(255, 215, 0)
->
-> RGB(218, 165, 32)
->
-> RGB(127, 127, 127)
->
-> RGB(0, 128, 0)
->
-> RGB(173, 255, 47)
->
-> RGB(240, 255, 240)
->
-> RGB(255, 105, 180)
->
-> RGB(205, 92, 92)
->
-> RGB(75, 0, 130)
->
-> RGB(255, 255, 240)
->
-> RGB(240, 230, 140)
->
-> RGB(230, 230, 250)
->
-> RGB(255, 240, 245)
->
-> RGB(124, 252, 0)
->
-> RGB(255, 250, 205)
->
-> RGB(173, 216, 230)
->
-> RGB(240, 128, 128)
->
-> RGB(224, 255, 255)
->
-> RGB(250, 250, 210)
->
-> RGB(144, 238, 144)
->
-> RGB(211, 211, 211)
->
-> RGB(255, 182, 193)
->
-> RGB(255, 160, 122)
->
-> RGB(32, 178, 170)
->
-> RGB(135, 206, 250)
->
-> RGB(119, 136, 153)
->
-> RGB(176, 196, 222)
->
-> RGB(255, 255, 224)
->
-> RGB(0, 255, 0)
->
-> RGB(50, 205, 50)
->
-> *(Continued)*
->
-> **Color Name RGB Value**
->
-> linen magenta maroon
->
-> medium aquamarine mediumblue medium orchid medium purple
-> mediumseagreen mediumslateblue mediumspringgreen mediumturquoise
-> mediumvioletred midnight blue
->
-> mint cream misty rose moccasin navajowhite navy
->
-> navy blue oldlace olive olive drab orange
->
-> orangered orchid
->
-> pale goldenrod palegreen
->
-> pale turquoise palevioletred papayawhip peachpuff Peru
->
-> pink plum
->
-> powderblue purple
->
-> red rosybrown royalblue saddle brown salmon sandy brown sea green
-> seashell sienna
->
-> silver skyblue
->
-> RGB(250, 240, 230)
->
-> RGB(255, 0, 255)
->
-> RGB(128, 0, 0)
->
-> RGB(102, 205, 170)
->
-> RGB(0, 0, 205)
->
-> RGB(186, 85, 211)
->
-> RGB(147, 112, 219)
->
-> RGB(60, 179, 113)
->
-> RGB(123, 104, 238)
->
-> RGB(0, 250, 154)
->
-> RGB(72, 209, 204)
->
-> RGB(199, 21, 133)
->
-> RGB(25, 25, 112)
->
-> RGB(245, 255, 250)
->
-> RGB(255, 228, 225)
->
-> RGB(255, 228, 181)
->
-> RGB(255, 222, 173)
->
-> RGB(0, 0, 128)
->
-> RGB(159, 175, 223)
->
-> RGB(253, 245, 230)
->
-> RGB(128, 128, 0)
->
-> RGB(107, 142, 35)
->
-> RGB(255, 165, 0)
->
-> RGB(255, 69, 0)
->
-> RGB(218, 112, 214)
->
-> RGB(238, 232, 170)
->
-> RGB(152, 251, 152)
->
-> RGB(175, 238, 238)
->
-> RGB(219, 112, 147)
->
-> RGB(255, 239, 213)
->
-> RGB(255, 218, 185)
->
-> RGB(205, 133, 63)
->
-> RGB(255, 192, 203)
->
-> RGB(221, 160, 221)
->
-> RGB(176, 224, 230)
->
-> RGB(128, 0, 128)
->
-> RGB(255, 0, 0)
->
-> RGB(188, 143, 143)
->
-> RGB(65, 105, 225)
->
-> RGB(139, 69, 19)
->
-> RGB(250, 128, 114)
->
-> RGB(244, 164, 96)
->
-> RGB(46, 139, 87)
->
-> RGB(255, 245, 238)
->
-> RGB(160, 82, 45)
->
-> RGB(192, 192, 192)
->
-> RGB(135, 206, 235)
->
-> *(Continued)*
->
-> []{#_bookmark94 .anchor}**Color Name RGB Value**
->
-> slate blue slate gray snow
->
-spring green steelblue
-
-tan teal thistle tomato
-
-turquoise violet wheat white
-
-WhiteSmoke yellow yellowgreen
-
-RGB(106, 90, 205)
-
-RGB(112, 128, 144)
-
-RGB(255, 250, 250)
-
-RGB(0, 255, 127)
-
-RGB(70, 130, 180)
-
-RGB(210, 180, 140)
-
+```
+**Color Value in RGB Color Name**
+RGB(0, 255, 255)
+RGB(0, 0, 0)
+RGB(0, 0, 255)
+RGB(255, 0, 255)
+RGB(128, 128, 128)
+RGB(0, 128, 0)
+RGB(0, 255, 0)
+RGB(128, 0, 0)
+RGB(0, 0, 128)
+aqua black blue fuchsia gray green lime maroon navy
+RGB(128, 128, 0)
+RGB(128, 0, 128)
+RGB(255, 0, 0)
+RGB(192, 192, 192)
 RGB(0, 128, 128)
-
-RGB(216, 191, 216)
-
-RGB(255, 99, 71)
-
-RGB(64, 224, 208)
-
-RGB(238, 130, 238)
-
-RGB(245, 222, 179)
-
 RGB(255, 255, 255)
-
-RGB(245, 245, 245)
-
 RGB(255, 255, 0)
+olive purple red silver teal white yellow
+```
 
+###### Extended Color Keywords
+
+The following table lists the color keywords defined in the CSS3
+specification.
+
+**Color Name RGB Value**
+
+```
+aliceblue antique white aqua aquamarine azure
+beige bisque black
+blanchedalmond blue
+blueviolet brown burlywood cadet blue chartreuse chocolate coral
+cornflower blue cornsilk crimson
+cyan darkblue dark cyan
+darkgoldenrod darkgray darkgreen dark khaki dark magenta
+darkolivegreen dark orange dark orchid
+RGB(240, 248, 255)
+>
+RGB(250, 235, 215)
+RGB(0, 255, 255)
+RGB(127, 255, 212)
+RGB(1240, 255, 255)
+RGB(245, 245, 220)
+RGB(255, 228, 196)
+RGB(0, 0, 0)
+RGB(255, 235, 205)
+RGB(0, 0, 255)
+RGB(138, 43, 226)
+RGB(165, 42, 42)
+RGB(222, 184, 135)
+RGB(95, 158, 160)
+RGB(95, 158, 160)
+RGB(210, 105, 30)
+RGB(255, 127, 80)
+RGB(100, 149, 237)
+RGB(255, 248, 220)
+RGB(220, 20, 60)
+RGB(0, 255, 255)
+RGB(0, 0, 139)
+RGB(0, 139, 139)
+RGB(184, 134, 11)
+RGB(169, 169, 169)
+RGB(0, 100, 0)
+RGB(189, 183, 107)
+RGB(139, 0, 139)
+RGB(85, 107, 47)
+RGB(255, 140, 0)
+RGB(153, 50, 204)
+darkred darksalmon darkseagreen darkslateblue darkslategray dark
+turquoise dark violet deeppink deepskyblue dim gray dodgerblue
+rebrick floralwhite forest green fuchsia gainsboro ghostwhite gold
+ldenrod gray
+een greenyellow honeydew hotpink indianred indigo Ivory
+khaki lavender lavender blush lawngreen lemon chiffon lightblue
+light coral light cyan
+lightgoldenrodyellow lightgreen
+light grey lightpink light salmon lightseagreen lightskyblue
+lightslategray lightsteelblue light yellow lime limegreen
+RGB(139, 0, 0)
+RGB(233, 150, 122)
+RGB(143, 188, 143)
+RGB(72, 61, 139)
+RGB(47, 79, 79)
+RGB(0, 206, 209)
+RGB(148, 0, 211)
+RGB(255, 20, 147)
+RGB(0, 191, 255)
+RGB(0, 191, 255)
+RGB(30, 144, 255)
+RGB(178, 34, 34)
+RGB(255, 250, 240)
+RGB(34, 139, 34)
+RGB(255, 0, 255)
+RGB(220, 220, 220)
+RGB(248, 248, 255)
+RGB(255, 215, 0)
+RGB(218, 165, 32)
+RGB(127, 127, 127)
+RGB(0, 128, 0)
+RGB(173, 255, 47)
+RGB(240, 255, 240)
+RGB(255, 105, 180)
+RGB(205, 92, 92)
+RGB(75, 0, 130)
+RGB(255, 255, 240)
+RGB(240, 230, 140)
+RGB(230, 230, 250)
+RGB(255, 240, 245)
+RGB(124, 252, 0)
+RGB(255, 250, 205)
+RGB(173, 216, 230)
+RGB(240, 128, 128)
+RGB(224, 255, 255)
+RGB(250, 250, 210)
+RGB(144, 238, 144)
+RGB(211, 211, 211)
+RGB(255, 182, 193)
+RGB(255, 160, 122)
+RGB(32, 178, 170)
+RGB(135, 206, 250)
+RGB(119, 136, 153)
+RGB(176, 196, 222)
+RGB(255, 255, 224)
+RGB(0, 255, 0)
+RGB(50, 205, 50)
+linen magenta maroon
+medium aquamarine mediumblue medium orchid medium purple
+mediumseagreen mediumslateblue mediumspringgreen mediumturquoise
+mediumvioletred midnight blue
+mint cream misty rose moccasin navajowhite navy
+navy blue oldlace olive olive drab orange
+orangered orchid
+pale goldenrod palegreen
+pale turquoise palevioletred papayawhip peachpuff Peru
+pink plum
+powderblue purple
+red rosybrown royalblue saddle brown salmon sandy brown sea green
+seashell sienna
+silver skyblue
+RGB(250, 240, 230)
+RGB(255, 0, 255)
+RGB(128, 0, 0)
+RGB(102, 205, 170)
+RGB(0, 0, 205)
+RGB(186, 85, 211)
+RGB(147, 112, 219)
+RGB(60, 179, 113)
+RGB(123, 104, 238)
+RGB(0, 250, 154)
+RGB(72, 209, 204)
+RGB(199, 21, 133)
+RGB(25, 25, 112)
+RGB(245, 255, 250)
+RGB(255, 228, 225)
+RGB(255, 228, 181)
+RGB(255, 222, 173)
+RGB(0, 0, 128)
+RGB(159, 175, 223)
+RGB(253, 245, 230)
+RGB(128, 128, 0)
+RGB(107, 142, 35)
+RGB(255, 165, 0)
+RGB(255, 69, 0)
+RGB(218, 112, 214)
+RGB(238, 232, 170)
+RGB(152, 251, 152)
+RGB(175, 238, 238)
+RGB(219, 112, 147)
+RGB(255, 239, 213)
+RGB(255, 218, 185)
+RGB(205, 133, 63)
+RGB(255, 192, 203)
+RGB(221, 160, 221)
+RGB(176, 224, 230)
+RGB(128, 0, 128)
+RGB(255, 0, 0)
+RGB(188, 143, 143)
+RGB(65, 105, 225)
+RGB(139, 69, 19)
+RGB(250, 128, 114)
+RGB(244, 164, 96)
+RGB(46, 139, 87)
+RGB(255, 245, 238)
+RGB(160, 82, 45)
+RGB(192, 192, 192)
+RGB(135, 206, 235)
+slate blue slate gray snow
+spring green steelblue
+tan teal thistle tomato
+turquoise violet wheat white
+WhiteSmoke yellow yellowgreen
+RGB(106, 90, 205)
+RGB(112, 128, 144)
+RGB(255, 250, 250)
+RGB(0, 255, 127)
+RGB(70, 130, 180)
+RGB(210, 180, 140)
+RGB(0, 128, 128)
+RGB(216, 191, 216)
+RGB(255, 99, 71)
+RGB(64, 224, 208)
+RGB(238, 130, 238)
+RGB(245, 222, 179)
+RGB(255, 255, 255)
+RGB(245, 245, 245)
+RGB(255, 255, 0)
 RGB(139, 205, 50)
 ```
 
-### DIFFERENT TYPES OF SELECTORS {#different-types-of-selectors .unnumbered}
+### DIFFERENT TYPES OF SELECTORS
 
-> There are many different selectors. The examples above use item
-> selectors that select all items of a given type. But we can also make
-> more specific choices. Here are some of the common types of selectors:
+There are many different selectors. The examples above use item
+selectors that select all items of a given type. But we can also make
+more specific choices. Here are some of the common types of selectors:
 
-###### Selector Name {#selector-name .unnumbered}
+###### Selector Name
 
 -   The CSS element selector: This element selector selects HTML ele-
     ments based on the element name.
 
-##### Syntax: {#syntax .unnumbered}
+##### Syntax:
 
 &lt;p&gt;
 
@@ -2816,7 +2533,7 @@ RGB(139, 205, 50)
     particular element with an id, write a hash (#) symbol, followed by
     the id of the element.
 
-##### Syntax: {#syntax-1 .unnumbered}
+##### Syntax:
 
 &lt;p id=&#34;my-id&#34;&gt; or &lt;a id=&#34;my-id&#34;&gt;
 
@@ -2825,7 +2542,7 @@ RGB(139, 205, 50)
     particular class, write a dot (.) character, followed by the class
     name.
 
-##### Syntax: {#syntax-2 .unnumbered}
+##### Syntax:
 
 &lt;p class=&#34;my-class&#34;&gt; Add Some text &lt;/p&gt; and
 
@@ -2834,7 +2551,7 @@ RGB(139, 205, 50)
 -   Attribute selector: The elements on the page with the particular
     attribute.
 
-##### Syntax: {#syntax-3 .unnumbered}
+##### Syntax:
 
 &lt;img src=&#34;myimage.png&#34;/&gt;
 
@@ -2842,11 +2559,11 @@ RGB(139, 205, 50)
     ments on the page. To select these elements with a specific class,
     write an asterisk (&#42;) character, followed by the tag name.
 
-##### Syntax: {#syntax-4 .unnumbered}
+##### Syntax:
 
 &#42;
 
-##### Example: {#example-6 .unnumbered}
+##### Example:
 
 ```
 {
@@ -2862,19 +2579,19 @@ color: blue;
 -   Pseudo-class selector: The specified elements, but only when in a
     cer- tain state. (For instance, when a cursor hovers over a link.)
 
-##### Syntax: {#syntax-5 .unnumbered}
+##### Syntax:
 
 []{#_bookmark98 .anchor}a:hover
 
 selects &lt;a&gt;, works when the mouse pointer is hovering over the link.
 
-### CSS BACKGROUND {#css-background .unnumbered}
+### CSS BACKGROUND
 
 The background property allows to control the background of the
 element. It is a property, which means that it allows to write what
 would be multiple CSS properties in one.
 
-##### Example: {#example-7 .unnumbered}
+##### Example:
 
 ```
 body {
@@ -2911,9 +2628,9 @@ below:
 You can use any of the combinations of these properties that you love
 to use, in almost any order
 
-### MULTIPLE BACKGROUNDS {#multiple-backgrounds .unnumbered}
+### MULTIPLE BACKGROUNDS
 
-###### CSS3 added support for various backgrounds, which layer over the top of each other. Any property related to the backgrounds can take a comma (,) separated list, like this: {#css3-added-support-for-various-backgrounds-which-layer-over-the-top-of-each-other.-any-property-related-to-the-backgrounds-can-take-a-comma-separated-list-like-this .unnumbered}
+###### CSS3 added support for various backgrounds, which layer over the top of each other. Any property related to the backgrounds can take a comma (,) separated list, like this: 
 
 ```
 .tagname {
@@ -2922,9 +2639,9 @@ repeat-x, no-repeat;
 }
 ```
 
-### CSS BORDER {#css-border .unnumbered}
+### CSS BORDER
 
-###### The border property is a syntax in CSS that accepts multiple values for drawing a line around the element it is applied to: {#the-border-property-is-a-syntax-in-css-that-accepts-multiple-values-for-drawing-a-line-around-the-element-it-is-applied-to .unnumbered}
+###### The border property is a syntax in CSS that accepts multiple values for drawing a line around the element it is applied to: 
 
 ```
 .container{
@@ -2933,7 +2650,7 @@ width: 200px;
 }
 ```
 
-###### Border {#border .unnumbered}
+###### Border
 
 The border property accepts more than one of the following values in
 combination:
@@ -2976,14 +2693,14 @@ element, including:
 border-color: It specifies the color of the border and accepts all
 valid color values.
 
-### CSS BORDER WIDTH AND COLOR {#css-border-width-and-color .unnumbered}
+### CSS BORDER WIDTH AND COLOR
 
 The border-width property defines the width of the four borders. The
 width can also be set as a specific size (such as in px, pt, cm, em,
 etc.) or by using the three pre-defined values such as thin, medium,
 or thick.
 
-##### Example: {#example-8 .unnumbered}
+##### Example:
 
 ```
 p.one {
@@ -3007,7 +2724,7 @@ The color can be set by:
 
 -   Transparent
 
-### CSS MARGINS {#css-margins .unnumbered}
+### CSS MARGINS
 
 CSS genetic features are used to create space around elements, without
 any defined parameters. With CSS, you have full control over margins.
@@ -3034,7 +2751,7 @@ All genetic features can have the following values:
 -   inheritance -- it specifies that the margin should inherit from the
     parent.
 
-### CSS PADDING {#css-padding .unnumbered}
+### CSS PADDING
 
 CSS finishing features are used to generate space near element
 content, within any defined parameters. With CSS, you have complete
@@ -3060,7 +2777,7 @@ All completion buildings may have the following values:
 -   inheritance -- It specifies that padding should inherit from the
     parent element.
 
-### CSS BOX MODEL {#css-box-model .unnumbered}
+### CSS BOX MODEL
 
 This model is a box that wraps everything HTML contains: margins, bor-
 ders, padding, and original content. In CSS, the term "box model" is
@@ -3079,7 +2796,7 @@ used when referring to design and structure.
 -   Margin -- It can clear an area outside of the border. The margin is
     clear.
 
-### CSS TABLES {#css-tables .unnumbered}
+### CSS TABLES
 
 The table in CSS is used to apply various style elements to HTML Table
 ele- ments to organize data in rows and columns or in a more complex
@@ -3090,11 +2807,11 @@ feature is used pri- marily to set the algorithm used to edit
 
 Border: Used to specify parameters in a table.
 
-##### Syntax: {#syntax-6 .unnumbered}
+##### Syntax:
 
 border: table_width table_color;
 
-### CSS FONTS {#css-fonts .unnumbered}
+### CSS FONTS
 
 The four sides of an element can be set side by side such as
 margin-top, margin-right, margin-bottom, margin-left, padding-top,
@@ -3117,7 +2834,7 @@ font properties of an element:
 -   The font property is used to specify the number of other font
     properties.
 
-### [CSS TEXT]{.underline}  {#css-text .unnumbered}
+### [CSS TEXT]
 
 -   The property color is used to set the color of a text.
 
@@ -3145,7 +2862,7 @@ font properties of an element:
 
 -   The text-shadow property is used to set text shadow around a text.
 
-### CSS FUNCTIONS {#css-functions .unnumbered}
+### CSS FUNCTIONS
 
 CSS functions are used as a number of different CSS structures. For
 exam- ple, you can use RGB () function to assign a color value
@@ -3270,7 +2987,7 @@ Here is a list of CSS functions in CSS3.
 
 -   var()
 
-### WHY FLEXBOX? {#why-flexbox .unnumbered}
+### WHY FLEXBOX?
 
 For a long time, the only reliable browser-compatible tools available
 for creating layouts were features such as floats and positioning.
@@ -3287,7 +3004,7 @@ with such tools in any form of simple, flexible approach:
 -   Making all columns in a multiple-column layout with the same height
     even if it contains a different amount of content.
 
-### CSS FLEXBOX {#css-flexbox .unnumbered}
+### CSS FLEXBOX
 
 The flexbox CSS layout allows you to easily format HTML. Flexbox makes
 it easy to direct objects horizontally and horizontally using lines
@@ -3316,9 +3033,9 @@ The flex container properties are:
 
 -   align-content
 
-## CSS MEDIA TYPES {#css-media-types .unnumbered}
+## CSS MEDIA TYPES
 
-### INTRODUCTION TO MEDIA TYPES {#introduction-to-media-types .unnumbered}
+### INTRODUCTION TO MEDIA TYPES
 
 One of the most important features of stylesheets is that you can
 specify different style sheets for different types of media. This is a
@@ -3338,9 +3055,9 @@ easy to read on screen, while serif fonts are famous for printing. It
 is therefore necessary to clarify that a style sheet, or set of style
 rules, applies to certain types of media.
 
-### METHOD 1: USING &#64;MEDIA AT-RULES {#method-1-using-media-at-rules .unnumbered}
+### METHOD 1: USING &#64;MEDIA AT-RULES
 
-###### The &#64;media rule is used to define different style rules for different media in a single style sheet. It is followed by a comma separated list of media types and a CSS declaration block containing targeted media style rules. {#the-media-rule-is-used-to-define-different-style-rules-for-different-media-in-a-single-style-sheet.-it-is-followed-by-a-comma-separated-list-of-media-types-and-a-css-declaration-block-containing-targeted-media-style-rules. .unnumbered}
+###### The &#64;media rule is used to define different style rules for different media in a single style sheet. It is followed by a comma separated list of media types and a CSS declaration block containing targeted media style rules. 
 
 **Example:** The style tells the browser to display body content in 14
 pixels Arial font on the screen, but when printing it will be in Times
@@ -3361,13 +3078,13 @@ line-length: 1;
 }
 ```
 
-### METHOD 2: USING &#64;IMPORT AT-RULES {#method-2-using-import-at-rules .unnumbered}
+### METHOD 2: USING &#64;IMPORT AT-RULES
 
 The &#64;import rule is another way to specify specific media style
 details -- It just specifies comma separated media types after the URL
 of the imported style sheets.
 
-##### Example: {#example-9 .unnumbered}
+##### Example:
 
 ```
 &#64;import URL (&#34;CSS / screen.css&#34;) screen; &#64;import URL (&#34;CSS /
@@ -3376,17 +3093,17 @@ background: &#35; f5f5f5; line length: 1.2;
 }
 ```
 
-#### METHOD 3: USING THE &lt;link&gt; ELEMENT {#method-3-using-the-link-element .unnumbered}
+#### METHOD 3: USING THE &lt;link&gt; ELEMENT
 
-###### The media attribute in the &lt;link&gt; feature is used to specify targeted media on an external style sheet within an HTML document. {#the-media-attribute-in-the-link-feature-is-used-to-specify-targeted-media-on-an-external-style-sheet-within-an-html-document. .unnumbered}
-
+###### The media attribute in the &lt;link&gt; feature is used to specify targeted media on an external style sheet within an HTML document.
+ 
 &lt;link rel = &#34;stylesheet&#34; href = &#34;css / common.css&#34; media =
 &#34;all&#34;&gt;
 
 &lt;link rel = &#34;stylesheet&#34; href = &#34;css / print.css&#34; media =
 &#34;print&#34;&gt;
 
-### DIFFERENT MEDIA TYPES {#different-media-types .unnumbered}
+### DIFFERENT MEDIA TYPES
 
 The following lists the various media types that are used to target
 various types of devices such as printers, devices, computer screens,
@@ -3417,7 +3134,7 @@ etc.
 -   tv: It is used for television-type devices with low resolution,
     color, limited scrollability screens, and sound available.
 
-## MEDIA QUESTIONS AND RESPONSIVE WEB DESIGN {#media-questions-and-responsive-web-design .unnumbered}
+## MEDIA QUESTIONS AND RESPONSIVE WEB DESIGN
 
 Media queries allow to customize the presentation of web pages to a
 spe- cific range of devices such as mobile phones, tablets, desktops,
@@ -3426,9 +3143,9 @@ and zero or more expressions such as the type and conditions of
 certain media features such as device width or screen resolution.
 Here's a simple example of a typical media query for standard devices.
 
-### MEDIA QUERIES {#media-queries .unnumbered}
+### MEDIA QUERIES
 
-###### Responsive design was able to emerge due to media query. The definition of Media Queries Level 3 was Candidate Recommendations in 2009, which means it was considered ready for implementation in browsers. Media queries allow us to create a series of tests and apply CSS by choosing to customize the page style to the user's needs. {#responsive-design-was-able-to-emerge-due-to-media-query.-the-definition-of-media-queries-level-3-was-candidate-recommendations-in-2009-which-means-it-was-considered-ready-for-implementation-in-browsers.-media-queries-allow-us-to-create-a-series-of-tests-and-apply-css-by-choosing-to-customize-the-page-style-to-the-users-needs. .unnumbered}
+###### Responsive design was able to emerge due to media query. The definition of Media Queries Level 3 was Candidate Recommendations in 2009, which means it was considered ready for implementation in browsers. Media queries allow us to create a series of tests and apply CSS by choosing to customize the page style to the user's needs. 
 
 For example, the following media quiz questions to see if the current
 web page is displayed as screen media (so it is not a printed
@@ -3470,7 +3187,7 @@ document) and the viewing area is 800 pixels wide. CSS selector
 /&#42; styles &#42;/
 }
 
-### BENEFITS YOU MAY KNOW {#benefits-you-may-know .unnumbered}
+### BENEFITS YOU MAY KNOW
 
 Let's learn more about CSS benefits such as:
 
@@ -3511,11 +3228,11 @@ Let's learn more about CSS benefits such as:
     due to fast loading time. Here, a little time ensures the good
     performance of the designer.
 
-### CSS CONS {#css-cons .unnumbered}
+### CSS CONS
 
-> There are a few drops while using CSS. One has to be aware of these
-> bad sit- uations in order to know and take care of them while
-> designing a website.
+There are a few drops while using CSS. One has to be aware of these
+bad sit- uations in order to know and take care of them while
+designing a website.
 
 1.  Confusion due to too many CSS levels: Beginners are at high risk in
     this regard. They may be confused when choosing to read CSS as there
@@ -3534,23 +3251,21 @@ Let's learn more about CSS benefits such as:
     As a result of testing developer compatibility in different
     browsers, their workload is growing.
 
-> All in all, we can say that if you like web development, try learning
-> HTML and CSS. For device compatibility, read the Bootstrap framework.
-> While you may see some disadvantages of CSS, many of the benefits are
-> counter- productive and make sure your web development process is
-> smooth and efficient.
+All in all, we can say that if you like web development, try learning
+HTML and CSS. For device compatibility, read the Bootstrap framework.
+While you may see some disadvantages of CSS, many of the benefits are
+counter- productive and make sure your web development process is
+smooth and efficient.
 
-### CHAPTER SUMMARY {#chapter-summary .unnumbered}
+### CHAPTER SUMMARY
 
-###### Here we have covered all the basic concepts of CSS that everyone can use to make their pages attractive. So important thing for working with CSS is just only practice, once you start practicing it, you will get to the point eas- ily. Then in the coming chapter, you will learn CSS properties that make your work so easy. {#here-we-have-covered-all-the-basic-concepts-of-css-that-everyone-can-use-to-make-their-pages-attractive.-so-important-thing-for-working-with-css-is-just-only-practice-once-you-start-practicing-it-you-will-get-to-the-point-eas--ily.-then-in-the-coming-chapter-you-will-learn-css-properties-that-make-your-work-so-easy. .unnumbered}
+###### Here we have covered all the basic concepts of CSS that everyone can use to make their pages attractive. So important thing for working with CSS is just only practice, once you start practicing it, you will get to the point eas- ily. Then in the coming chapter, you will learn CSS properties that make your work so easy. 
 
-######  {#section .unnumbered}
+[]{#CHAPTER_2:_CSS_Properties .anchor}CHA P T E R 2
 
-> []{#CHAPTER_2:_CSS_Properties .anchor}CHA P T E R 2
+# CSS Properties
 
-# CSS Properties {#css-properties .unnumbered}
-
-### [IN THIS CHAPTER]{.underline}  {#in-this-chapter-1 .unnumbered}
+### [IN THIS CHAPTER]
 
 -   Introduction
 
@@ -3564,633 +3279,359 @@ Let's learn more about CSS benefits such as:
 
 -   CSS Border Properties
 
-> In the last chapter, we learned about the basics of CSS, its history,
-> types, versions, and other properties such as how to add CSS on
-> classes, id, commenting out code, basic HTML, and linking HTML with
-> CSS. Now here we are going to discuss various important properties of
-> CSS such as display, positioning, border, grid, flex height, width,
-> color, font, and so on.
->
-> You style HTML elements via CSS properties. Different HTML ele- ments
-> may have different CSS layouts to set. CSS layouts can be organized
-> into CSS rules. CSS rule binds a set of CSS layouts together, and
-> applies all the elements to HTML elements that match the CSS rule.
-> This document will include both CSS layouts and CSS rules in more
-> detail.
->
-> In CSS, there are various properties; below you will get the list of
-> all attributes and then we separate those properties into different
-> sections.
->
-> DOI:
-> [10.1201/9781003358060-2](https://doi.org/10.1201/9781003358060-2)
-> **47**
+In the last chapter, we learned about the basics of CSS, its history,
+types, versions, and other properties such as how to add CSS on
+classes, id, commenting out code, basic HTML, and linking HTML with
+CSS. Now here we are going to discuss various important properties of
+CSS such as display, positioning, border, grid, flex height, width,
+color, font, and so on.
+
+You style HTML elements via CSS properties. Different HTML ele- ments
+may have different CSS layouts to set. CSS layouts can be organized
+into CSS rules. CSS rule binds a set of CSS layouts together, and
+applies all the elements to HTML elements that match the CSS rule.
+This document will include both CSS layouts and CSS rules in more
+detail.
+
+In CSS, there are various properties; below you will get the list of
+all attributes and then we separate those properties into different
+sections.
+
+DOI:
+[10.1201/9781003358060-2](https://doi.org/10.1201/9781003358060-2)
+**47**
 
 1.  align-content
-
 2.  align-items
-
 3.  align-self
-
 4.  all
-
 5.  animation
-
 6.  animation-delay
-
 7.  animation-direction
-
 8.  animation-duration
-
 9.  animation-fill-mode
-
 10. animation-iteration-count
-
 11. animation-name
-
 12. animation-play-state
-
 13. animation-timing-function
-
 14. azimuth
-
 15. backface-visibility
-
 16. background-attachment
-
 17. background-blend-mode
-
 18. background-clip
-
 19. background-color
-
 20. background-image
-
 21. background-origin
-
 22. background-position
-
 23. background-repeat
-
 24. background-size
-
 25. background
-
 26. bleed
-
 27. border-bottom-color
-
 28. border-bottom-left-radius
-
 29. border-bottom-right-radius
-
 30. border-bottom-style
-
 31. border-bottom-width
-
 32. border-bottom
-
 33. border-collapse
-
 34. border-color
-
 35. border-image
-
 36. border-image-outset
-
 37. border-image-repeat
-
 38. border-image-source
-
 39. border-image-slice
-
 40. border-image-width
-
 41. border-left-color
-
 42. border-left-style
-
 43. border-left-width
-
 44. border-left
-
 45. border-radius
-
 46. border-right-color
-
 47. border-right-style
-
 48. border-right-width
-
 49. border-right
-
 50. border-spacing
-
 51. border-style
-
 52. border-top-color
-
 53. border-top-left-radius
-
 54. border-top-right-radius
-
 55. border-top-style
-
 56. border-top-width
-
 57. border-top
-
 58. border-width
-
 59. border
-
 60. bottom
-
 61. box-decoration-break
-
 62. box-shadow
-
 63. box-sizing
-
 64. break-after
-
 65. break-before
-
 66. break-inside
-
 67. caption-side
-
 68. caret-color
-
 69. clear
-
 70. clip
-
 71. color
-
 72. color-interpolation-filters
-
 73. columns
-
 74. column-count
-
 75. column-fill
-
 76. column-gap
-
 77. column-rule
-
 78. column-rule-color
-
 79. column-rule-style
-
 80. column-rule-width
-
 81. column-span
-
 82. column-width
-
 83. content
-
 84. counter-increment
-
 85. counter-reset
-
 86. cue-after
-
 87. cue-before
-
 88. cue
-
 89. cursor
-
 90. direction
-
 91. display
-
 92. elevation
-
 93. empty-cells
-
 94. filter
-
 95. flex
-
 96. flex-basis
-
-> *(Continued)*
-
 97. flex-direction
-
 98. flex-flow
-
 99. flex-grow
-
 100. flex-shrink
-
 101. flex-wrap
-
 102. float
-
 103. flood-color
-
 104. flood-opacity
-
 105. font-family
-
 106. font-feature-settings
-
 107. font-kerning
-
 108. font-language-override
-
 109. font-size-adjust
-
 110. font-size
-
 111. font-stretch
-
 112. font-style
-
 113. font-synthesis
-
 114. font-variant
-
 115. font-variant-alternates
-
 116. font-variant-caps
-
 117. font-variant-east-asian
-
 118. font-variant-ligatures
-
 119. font-variant-numeric
-
 120. font-variant-position
-
 121. font-weight
-
 122. font
-
 123. gap
-
 124. grid-area
-
 125. grid-auto-columns
-
 126. grid-auto-flow
-
 127. grid-auto-rows
-
 128. grid-column-end
-
 129. grid-column-gap
-
 130. grid-column-start
-
 131. grid-column
-
 132. grid-gap
-
 133. grid-row-end
-
 134. grid-row-gap
-
 135. grid-row-start
-
 136. grid-row
-
 137. grid-template-areas
-
 138. grid-template-columns
-
 139. grid-template-rows
-
 140. grid-template
-
 141. grid
-
 142. hanging-punctuation
-
 143. height
-
 144. hyphens
-
 145. image-rendering
-
 146. isolation
-
 147. justify-content
-
 148. justify-items
-
 149. justify-self
-
 150. left
-
 151. letter-spacing
-
 152. lighting-color
-
 153. line-break
-
 154. line-height
-
 155. list-style-image
-
 156. list-style-position
-
 157. list-style-type
-
 158. list-style
-
 159. margin-bottom
-
 160. margin-left
-
 161. margin-right
-
 162. margin-top
-
 163. margin
-
 164. marker-offset
-
 165. marks
-
 166. max-height
-
 167. max-width
-
 168. min-height
-
 169. min-width
-
 170. mix-blend-mode
-
 171. nav-up
-
 172. nav-down
-
 173. nav-left
-
 174. nav-right
-
 175. object-fit
-
 176. object-position
-
 177. opacity
-
 178. order
-
 179. orphans
-
 180. outline-color
-
 181. outline-offset
-
 182. outline-style
-
 183. outline-width
-
 184. outline
-
 185. overflow
-
 186. overflow-wrap
-
 187. overflow-x
-
 188. overflow-y
-
 189. padding-bottom
-
 190. padding-left
-
 191. padding-right
-
 192. padding-top
-
 193. padding
-
 194. page-break-after
-
-> *(Continued)*
-
 195. []{#_bookmark137 .anchor}page-break-before
-
 196. page-break-inside
-
 197. page
-
 198. pause-after
-
 199. pause-before
-
 200. pause
-
 201. perspective
-
 202. perspective-origin
-
 203. pitch-range
-
 204. pitch
-
 205. place-content
-
 206. place-items
-
 207. place-self
-
 208. play-during
-
 209. position
-
 210. quotes
-
 211. resize
-
 212. rest-after
-
 213. rest-before
-
 214. rest
-
 215. richness
-
 216. right
-
 217. row-gap
-
 218. size
-
 219. speak-header
-
 220. speak-numeral
-
 221. speak-punctuation
-
 222. speak
-
 223. speech-rate
-
 224. stress
-
 225. tab-size
-
 226. table-layout
-
 227. text-align
-
 228. text-align-all
-
 229. text-align-last
-
 230. text-combine-upright
-
 231. text-decoration
-
 232. text-decoration-color
-
 233. text-decoration-line
-
 234. []{#_bookmark138 .anchor}text-decoration-skip
-
 235. text-decoration-style
-
 236. text-justify
-
 237. text-indent
-
 238. text-orientation
-
 239. text-overflow
-
 240. text-shadow
-
 241. text-transform
-
 242. text-underline-position
-
 243. top
-
 244. transform
-
 245. transform-box
-
 246. transform-origin
-
 247. transform-style
-
 248. transition
-
 249. transition-delay
-
 250. transition-duration
-
 251. transition-property
-
 252. transition-timing- function
-
 253. unicode-bidi
-
 254. vertical-align
-
 255. visibility
-
 256. voice-balance
-
 257. voice-duration
-
 258. voice-family
-
 259. voice-pitch
-
 260. voice-range
-
 261. voice-rate
-
 262. voice-stress
-
 263. voice-volume
-
 264. volume
-
 265. white-space
-
 266. widows
-
 267. width
-
 268. will-change
-
 269. word-break
-
 270. word-spacing
-
 271. word-wrap
-
 272. writing-mode
-
 273. z-index
 
-### CSS LAYOUTS (PROPERTIES) {#css-layouts-properties .unnumbered}
+### CSS LAYOUTS (PROPERTIES)
 
-###### The CSS feature is used to set the style of HTML objects. The CSS layout consists of two parts, the name of the property and the value of the prop- erty. Property value included between two (""quotes). {#the-css-feature-is-used-to-set-the-style-of-html-objects.-the-css-layout-consists-of-two-parts-the-name-of-the-property-and-the-value-of-the-prop--erty.-property-value-included-between-two-quotes. .unnumbered}
+###### The CSS feature is used to set the style of HTML objects. The CSS layout consists of two parts, the name of the property and the value of the prop- erty. Property value included between two (""quotes). 
 
-######  {#section-1 .unnumbered}
+[]{#_bookmark139 .anchor}CSS style styles are part of the HTML object.
+Here are a few examples:
 
-> []{#_bookmark139 .anchor}CSS style styles are part of the HTML object.
-> Here are a few examples:
->
-> &lt;div style = &#34;border: 1px solid black; font size: 18px; &#34;&gt; Style
-> is an attribute of division tag &lt;/div&gt;
+&lt;div style = &#34;border: 1px solid black; font size: 18px; &#34;&gt; Style
+is an attribute of division tag &lt;/div&gt;
 
-###### In this example, two CSS features are used in the div feature: border and font size structures. {#in-this-example-two-css-features-are-used-in-the-div-feature-border-and-font-size-structures. .unnumbered}
+###### In this example, two CSS features are used in the div feature: border and font size structures. 
 
-> The CSS layout declaration contains the layout name and layout value.
-> The name of the structure comes first, then the colon, then the value.
-> Here a common pattern for the following CSS property-value is given
-> below:
->
-> Property-name: property-value
+The CSS layout declaration contains the layout name and layout value.
+The name of the structure comes first, then the colon, then the value.
+Here a common pattern for the following CSS property-value is given
+below:
 
-###### If you specify more than one CSS property, each word -- the cooked value is divided into a semicolon as follows: {#if-you-specify-more-than-one-css-property-each-word-the-cooked-value-is-divided-into-a-semicolon-as-follows .unnumbered}
+```
+Property-name: property-value
+```
 
-> property1: property-value; property2: property-value;
->
-> The final local declaration does not have to end with a semicolon, but
-> it makes it easy to add more CSS features without forgetting to add
-> that extra semicolon. There are many CSS features that you can specify
-> in different HTML elements. These CSS layouts are covered in their
-> text.
+###### If you specify more than one CSS property, each word -- the cooked value is divided into a semicolon as follows: 
 
-### CSS RULES {#css-rules .unnumbered}
+```
+property1: property-value; property2: property-value;
+```
 
-> CSS rule is a set of one or more CSS elements to be applied to one or
-> more targeted HTML elements. CSS rule contains a CSS selector and a
-> set of CSS layouts. The CSS selector determines which HTML elements
-> should be targeted by the CSS rule. CSS features specify what styles
-> of HTML objects are intended.
->
-> This example creates a CSS rule that governs all div features, as well
-> as a set of CSS locations and font size for target objects. The part
-> of the CSS selector CSS rule is the front part {. In the above
-> example, it is part of the div of the CSS rule. CSS layouts are listed
-> within the block {&#8230;}. CSS rules must be specified within the style
-> element or within the external CSS file.
->
-> Here is an example of CSS rule:
->
-> div {
->
-> border: 1px solid black; font size: 18px;
->
-> }
+The final local declaration does not have to end with a semicolon, but
+it makes it easy to add more CSS features without forgetting to add
+that extra semicolon. There are many CSS features that you can specify
+in different HTML elements. These CSS layouts are covered in their
+text.
 
-###### The following section consists of the complete list of standard CSS properties belonging to the latest CSS3 specifications. All the properties are grouped into categories given below: {#the-following-section-consists-of-the-complete-list-of-standard-css-properties-belonging-to-the-latest-css3-specifications.-all-the-properties-are-grouped-into-categories-given-below .unnumbered}
+### CSS RULES
+
+CSS rule is a set of one or more CSS elements to be applied to one or
+more targeted HTML elements. CSS rule contains a CSS selector and a
+set of CSS layouts. The CSS selector determines which HTML elements
+should be targeted by the CSS rule. CSS features specify what styles
+of HTML objects are intended.
+
+This example creates a CSS rule that governs all div features, as well
+as a set of CSS locations and font size for target objects. The part
+of the CSS selector CSS rule is the front part {. In the above
+example, it is part of the div of the CSS rule. CSS layouts are listed
+within the block {&#8230;}. CSS rules must be specified within the style
+element or within the external CSS file.
+
+Here is an example of CSS rule:
+
+```
+div {
+border: 1px solid black; font size: 18px;
+}
+```
+
+###### The following section consists of the complete list of standard CSS properties belonging to the latest CSS3 specifications. All the properties are grouped into categories given below: 
 
 -   CSS animation properties: The animation property is a CSS prop- erty
     for animation-name, animation-duration, animation-direction,
@@ -4198,79 +3639,78 @@ Let's learn more about CSS benefits such as:
     count, animation-fill-mode, and animation-play-state. Here is the
     default value of the animation property:
 
-> none 0 ease 0 1 with normal none running
+```
+none 0 ease 0 1 with normal none running
+```
 
-###### It applies to all elements, before and ::after (other pseudo-elements). The following table describes the values of animation property. {#it-applies-to-all-elements-before-and-after-other-pseudo-elements.-the-following-table-describes-the-values-of-animation-property. .unnumbered}
+###### It applies to all elements, before and ::after (other pseudo-elements). The following table describes the values of animation property. 
 
 1.  animation-name property: The animation-name CSS property defines the
     name of &#64;keyframes defined animations that should be applied to the
     selected element. The syntax of the property is given below:
 
-> animation-name: keyframe name &#124; none &#124; initial &#124; inherit
+animation-name: keyframe name &#124; none &#124; initial &#124; inherit
 
 ###### animation-duration property: The animation-duration CSS property defines the number of seconds or milliseconds animation must take to complete one cycle. The syntax of this property is given as:
 
-> animation-duration: time &#124; initial &#124; inherit
+animation-duration: time &#124; initial &#124; inherit
 
 ###### animation-timing-function property: : The animation-timing- function CSS property specifies how a CSS animation should prog- ress over the duration of each cycle. The syntax of this property is given as:
 
-> animation-timing-function: linear &#124; ease &#124; ease-in
->
-> &#124; ease-out &#124; ease-in-out &#124; cubic-bezier(n,n,n,n) &#124; initial &#124;
-> inherit
+animation-timing-function: linear &#124; ease &#124; ease-in
+
+&#124; ease-out &#124; ease-in-out &#124; cubic-bezier(n,n,n,n) &#124; initial &#124;
+inherit
 
 ###### animation-delay: It specifies a delay before the animation will start. The animation-delay CSS property defines when the animation will start. The value of this property can be specified in seconds (s) or milliseconds (ms).
 
-######  {#section-2 .unnumbered}
+[]{#_bookmark142 .anchor}The syntax of this property is given as:
 
-> []{#_bookmark142 .anchor}The syntax of this property is given as:
->
-> animation-delay: time &#124; initial &#124; inherit
+```
+animation-delay: time &#124; initial &#124; inherit
+```
 
 ###### animation-iteration-count property: The animation iteration count property defines the number of times an animation cycle should play before stopping.
 
-> The syntax of this property is given as:
->
-> animation-iteration-count: number &#124; infinite &#124; initial &#124; inherit
+The syntax of this property is given as:
+
+animation-iteration-count: number &#124; infinite &#124; initial &#124; inherit
 
 ###### animation-direction property: The animation-direction CSS prop- erty specifies whether the animation should be played in reverse on alternate cycles or not.
 
-> The syntax of this property is given as:
->
-> animation-direction: normal &#124; reverse &#124; alternate
->
-> &#124; alternate-reverse &#124; initial &#124; inherit
+The syntax of this property is given as:
+
+animation-direction: normal &#124; reverse &#124; alternate
+&#124; alternate-reverse &#124; initial &#124; inherit
 
 ###### animation-fill-mode property: The animation-fill-mode property defines how a CSS animation should apply styles to the target before and after it is executing.
 
-> The syntax of this property is given as:
->
-> animation-fill-mode: none &#124; backwards &#124; forwards
->
-> &#124; both &#124; initial &#124; inherit
+The syntax of this property is given as:
 
-###### The following table defines the values of this property: {#the-following-table-defines-the-values-of-this-property .unnumbered}
+animation-fill-mode: none &#124; backwards &#124; forwards
 
-> **Value Description**
->
-> none The animation will not apply to the target before or after it is
-> executing. forwards After the animation ends, the animation will apply
-> the values for the
->
-> time the animation ended.
->
-> backwards The animation will apply the values defined in the keyframe
-> that will start the 1st iteration of the animation, during the period
-> defined by the property. Either the values of the from keyframe or to
-> those of the to keyframe.
+&#124; both &#124; initial &#124; inherit
+
+###### The following table defines the values of this property: 
+**Value Description**
+
+none The animation will not apply to the target before or after it is
+executing. forwards After the animation ends, the animation will apply
+the values for the time the animation ended.
+
+backwards The animation will apply the values defined in the keyframe
+that will start the 1st iteration of the animation, during the period
+defined by the property. Either the values of the from keyframe or to
+those of the to keyframe.
 
 ###### animation-play-state property: The animation-play-state property specifies whether an animation is playing or paused.
 
-> The syntax of this property is given as:
->
-> animation-play-state: paused &#124; running &#124; initial
->
-> &#124; inherit
+The syntax of this property is given as:
+
+```
+animation-play-state: paused &#124; running &#124; initial
+&#124; inherit
+```
 
 2.  []{#_bookmark143 .anchor}initial: It sets the property to its
     default value.
@@ -4278,12 +3718,12 @@ Let's learn more about CSS benefits such as:
 3.  inherit: If it specifies, the associated element takes the
     calculated value of its parent element's animation property.
 
-### THE &#64;KEYFRAMES RULE {#the-keyframes-rule .unnumbered}
+### THE &#64;KEYFRAMES RULE
 
-> When we specify CSS styles inside the &#64;keyframes rule, the animation
-> will change from the current style to new style at certain times.
+When we specify CSS styles inside the &#64;keyframes rule, the animation
+will change from the current style to new style at certain times.
 
-##### Example: {#example-10 .unnumbered}
+##### Example:
 
 ```
 &lt;html&gt;
@@ -4366,14 +3806,14 @@ transform: translateY(-800px) rotate(360deg); opacity: 0;
 &lt;/html&gt;
 ```
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below .unnumbered}
+###### The output of the code is given below:
 
 ![](./images/image012.png){width="4.265624453193351in"
 height="1.9554155730533684in"}
 
 CSS animation property.
 
-##### Another example: {#another-example .unnumbered}
+##### Another example:
 
 ```
 &lt;!DOCTYPE html&gt;
@@ -4387,18 +3827,10 @@ background-color: red; animation-name: example; animation-duration:
 &#64;keyframes example {
 ```
 
-+------+-----------------------------+-------------+-------+----------+
-| > 0% | {background-color:          | rgb(248,    | 169,  | > 169);} |
-+======+=============================+=============+=======+==========+
-| >    | {background-color:          | rgb(197,    | 197,  | > 92);}  |
-|  25% |                             |             |       |          |
-+------+-----------------------------+-------------+-------+----------+
-| >    | {background-color:          | rgb(118,    | 118,  | > 193);} |
-|  50% |                             |             |       |          |
-+------+-----------------------------+-------------+-------+----------+
-| >    | {background-color:          | rgb(135,    | 245,  | > 135);} |
-| 100% |                             |             |       |          |
-+------+-----------------------------+-------------+-------+----------+
+| &gt; 0% | {background-color:          | rgb(248,    | 169,  | &gt; 169);} |
+| &gt; 25%   | {background-color:          | rgb(197,    | 197,  | &gt; 92);}  |
+| &gt; 50%   | {background-color:          | rgb(118,    | 118,  | &gt; 193);} |
+| &gt; 100%   | {background-color:          | rgb(135,    | 245,  | &gt; 135);} |
 
 ```
 }
@@ -4412,15 +3844,14 @@ background-color: red; animation-name: example; animation-duration:
 &lt;/html&gt;
 ```
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-1 .unnumbered}
+###### The output of the code is given below:
 
 ![](./images/image013.png){width="1.518228346456693in"
 height="1.518228346456693in"}
 
 CSS animation property (second example).
 
-###### Now in the below example, we are going to use animation with its prop- erties that we discussed above. {#now-in-the-below-example-we-are-going-to-use-animation-with-its-prop--erties-that-we-discussed-above. .unnumbered}
-
+###### Now in the below example, we are going to use animation with its prop- erties that we discussed above. 
 ```
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
@@ -16731,7 +16162,7 @@ a.  .b {
 >
 > &lt;/html&gt;
 
-###### Style.css {#style.css .unnumbered}
+###### Style.css
 
 > &#42;,
 >
@@ -16980,7 +16411,7 @@ height="1.5328116797900262in"}
 >
 > }
 
-###### Another example: {#another-example-4 .unnumbered}
+###### Another example:
 
 > &lt;!DOCTYPE html&gt;
 >
@@ -17185,33 +16616,33 @@ height="0.2784372265966754in"}
 
 > CSS MarqueeMenu plugin.
 
-### CHAPTER SUMMARY {#chapter-summary-3 .unnumbered}
+### CHAPTER SUMMARY
 
-> In this chapter, we looked at various CSS plugins. It improves the
-> coding functionality by adding these to your plugins.
+In this chapter, we looked at various CSS plugins. It improves the
+coding functionality by adding these to your plugins.
 
-# Appraisal {#appraisal .unnumbered}
+# Appraisal
 
-> If you want to be a front end developer, you should have a good qual-
-> ity book, which makes you the developer from scratch to advance. We
-> believe, nowadays the development is on the peek. You might have seen
-> that many biggest companies start their work from scratch by
-> developing new technologies. They all start learning and implementing
-> them in their products. So first, with time, the fundamentals of front
-> end development skills include only some web technologies like HTML,
-> CSS, JavaScript, and many more. You can now extend their functionality
-> by using the third parties packages. Second, the world of technology
-> is constantly changing. With the growing demand of technologies to
-> provide the effective code product, various companies introduce all
-> the new technologies.
->
-> To make or look at your website, we use HTML with CSS. Basically, CSS
-> is used to design any page or website.
->
-> CSS makes the front end of a website clean and it also creates a great
-> user experience. Without CSS, websites could be less attractive to
-> others. In addition to layout and format, CSS is only responsible for
-> font color and so on.
+If you want to be a front end developer, you should have a good qual-
+ity book, which makes you the developer from scratch to advance. We
+believe, nowadays the development is on the peek. You might have seen
+that many biggest companies start their work from scratch by
+developing new technologies. They all start learning and implementing
+them in their products. So first, with time, the fundamentals of front
+end development skills include only some web technologies like HTML,
+CSS, JavaScript, and many more. You can now extend their functionality
+by using the third parties packages. Second, the world of technology
+is constantly changing. With the growing demand of technologies to
+provide the effective code product, various companies introduce all
+the new technologies.
+
+To make or look at your website, we use HTML with CSS. Basically, CSS
+is used to design any page or website.
+
+CSS makes the front end of a website clean and it also creates a great
+user experience. Without CSS, websites could be less attractive to
+others. In addition to layout and format, CSS is only responsible for
+font color and so on.
 
 -   CSS helps to keep the informational content of a document separate.
 
@@ -17259,7 +16690,7 @@ height="0.2784372265966754in"}
 > command over view- ing an HTML document. Often CSS is combined with
 > markup languages, that is, HTML or XHTML.
 
-### HOW CASCADING STYLE SHEETS WORK {#how-cascading-style-sheets-work .unnumbered}
+### HOW CASCADING STYLE SHEETS WORK
 
 > Cascading Style Sheet has a completely different approach to a web
 > page style and layout. Every time an HTML document is viewed in a
@@ -17288,7 +16719,7 @@ height="0.2784372265966754in"}
 
 -   Import CSS (link tag)
 
-### [WHY SHOULD SOMEONE LEARN CSS?]{.underline}  {#why-should-someone-learn-css .unnumbered}
+### [WHY SHOULD SOMEONE LEARN CSS?]
 
 -   It is must to learn the language for web development.
 
@@ -17309,7 +16740,7 @@ height="0.2784372265966754in"}
 -   If you learn and understand, you can learn and work with many
     CSS-based frameworks like Bootstrap.
 
-### [PROPERTIES OF CSS]{.underline}  {#properties-of-css .unnumbered}
+### [PROPERTIES OF CSS]
 
 -   Knowledge of CSS and HTML is essential if anyone wants to pursue a
     career in web design professionally.
@@ -17379,10 +16810,10 @@ height="0.2784372265966754in"}
 -   CSS Print Version: You can use CSS to apply a separate style to the
     printed version of your web pages.
 
-> ![](./images/image6.png){width="3.6393208661417322in"
-> height="0.9622911198600175in"}
+![](./images/image6.png){width="3.6393208661417322in"
+height="0.9622911198600175in"}
 
-# Bibliography {#bibliography .unnumbered}
+# Bibliography
 
 1.  HTML & CSS --
     [https://www.w3.org/standards/webdesign/htmlcss](https://www.w3.org/),
@@ -17618,7 +17049,7 @@ height="0.2784372265966754in"}
 > ![](./images/image6.png){width="3.6393208661417322in"
 > height="0.9622911198600175in"}
 
-# Index {#index .unnumbered}
+# Index
 
 > A
 >
@@ -18551,220 +17982,131 @@ Pseudo-classes (:any-link), [201--203](#Cover)
 >
 > animation-delay property,
 > [52--53](#the-following-section-consists-of-the-complete-list-of-standard-css-properties-belonging-to-the-latest-css3-specifications.-all-the-properties-are-grouped-into-categories-given-below)
->
-> animation-direction property, [53](#_bookmark142)
->
-> animation-duration property,
-> [52](#the-following-section-consists-of-the-complete-list-of-standard-css-properties-belonging-to-the-latest-css3-specifications.-all-the-properties-are-grouped-into-categories-given-below)
->
-> animation-fill-mode property, [53](#_bookmark142)
->
-> animation-iteration-count property, [53](#_bookmark142)
->
-> animation-name property,
-> [52](#the-following-section-consists-of-the-complete-list-of-standard-css-properties-belonging-to-the-latest-css3-specifications.-all-the-properties-are-grouped-into-categories-given-below)
->
-> animation-play-state property, [53](#_bookmark142)
-> animation-timing-function property,
->
-> [52](#the-following-section-consists-of-the-complete-list-of-standard-css-properties-belonging-to-the-latest-css3-specifications.-all-the-properties-are-grouped-into-categories-given-below)
->
-> inherit, [54](#_bookmark143)
->
-> initial, [54](#_bookmark143)
->
-> S
->
-> saturate() function, [352--354](#saturate)
->
-> scale() function, [257](#Cover),
-> [354--356](#the-output-of-the-code-is-given-below-78)
->
-> scale3d() function, [357--358](#scale3d)
->
-> scaleX() function, [359--361](#scalex)
->
-> scaleY() function, [361--364](#_bookmark307)
->
-> scaleZ() function,
-> [364--367](#the-output-of-the-code-is-given-below-82)
->
-> Selectors, [177](#CHAPTER_3:_CSS_Selectors)
->
-> attribute selectors (&#91;&#93;), [186--187](#Cover) attribute selectors (
-> .classname ),
->
-> [183--184](#the-output-of-the-code-is-given-below-50)
->
-> attribute selectors ( &#91;attr="value"&#93; ), [187--188](#Cover)
->
-> attribute selectors ( &#91;attr="value"&#93; case- sensitive),
-> [189--190](#Cover)
->
-> attribute selectors ( &#91; foo&#36;="bar" &#93; ), [193--195](#Cover)
->
-> attribute selectors ( &#91; foo&#42;="bar" &#93; ), [195--197](#Cover)
->
-> attribute selectors ( &#91; foo&#94;="bar" &#93; ), [192--193](#Cover)
->
-> attribute selectors ( &#91; foo&#124;="bar" &#93; ), [198--199](#Cover)
->
-> attribute selectors ( &#91; foo&#126;="bar"&#93;), [190--191](#Cover)
->
-> attribute selectors ( id), [184--186](#_bookmark235) combinators
-> selectors (E + F), [250--252](#Cover) combinators selectors (E &gt; F),
-> [248--250](#Cover) combinators selectors (E F), [246--248](#Cover)
-> general sibling selector (&#126;), [252--254](#Cover) grid-structural
-> selectors (:nth-col()),
->
-> [254--256](#Cover)
->
-> logical combinations selectors ( :not ), [181--183](#_bookmark229)
->
-> pseudo-classes (:any-link), [201--203](#Cover)
->
-> pseudo-classes (:blank), [234--235](#Cover)
->
-> pseudo-classes (:checked), [221--223](#Cover)
->
-> pseudo-classes (:default), [219--221](#Cover) pseudo-classes
-> (:dir(ltr) or :dir(rtl)),
->
-> [199--201](#Cover)
->
-> pseudo-classes (:empty), [233--234](#Cover) pseudo-classes (:enabled
-> and :disabled),
->
-> [214--215](#Cover)
->
-> pseudo-classes (:first-child), [239--240](#Cover) pseudo-classes
-> (:first-of-type, nth-
->
-> of-type, nth-last-of-type(3)), [244--246](#Cover)
->
-> pseudo-classes (:focus), [212--213](#Cover)
->
-> pseudo-classes (:hover), [210--212](#Cover) pseudo-classes
-> (:indeterminate),
->
-> [223--225](#Cover)
->
-> pseudo-classes (:in-range and :out-of- range), [227--228](#Cover)
->
-> pseudo-classes (:link), [203--205](#Cover)
->
-> pseudo-classes (:nth-child), [236--237](#Cover) pseudo-classes
-> (:nth-last-child),
->
-> [237--238](#Cover)
->
-> pseudo-classes (:nth-of-type(odd or even), [243--244](#Cover)
->
-> pseudo-classes (:nth-of-type(odd), [241--242](#Cover)
->
-> pseudo-classes (:only-child), [240--241](#Cover)
->
-> pseudo-classes (:optionaL), [230--231](#Cover) pseudo-classes
-> (:placeholder-shown),
->
-> [218--219](#Cover)
->
-> pseudo-classes (:read-only and :read- write), [215--217](#Cover)
->
-> pseudo-classes (:required), [229--230](#Cover) pseudo-classes (
-> :root), [232--233](#Cover) pseudo-classes (:scope), [207--208](#Cover)
->
-> pseudo-classes (:target), [205--207](#Cover),
->
-> [208--210](#Cover)
->
-> pseudo-classes (:valid and :invalid), [225--226](#Cover)
->
-> types of, [30--31](#_bookmark94)
->
-> universal selector (&#42;), [179--180](#_bookmark225) universal selector
-> (elements),
->
-> [180--181](#the-output-of-the-code-is-given-below-48)
->
-> skew() function, [367--370](#the-output-of-the-code-is-given-below-83)
->
-> skewX() function, [371--373](#skewx)
->
-> Specification, CSS, [5](#_bookmark51)
->
-> Stage option, [387](#you-can-add-postcss-to-your-build-tool)
->
-> stylelint, [391](#preserveempty)
->
-> installing, [391](#preserveempty)
->
-> usage, [391--392](#preserveempty)
->
-> Syntax, [11--12](#_bookmark64)
->
-> T
->
-> Table properties, [144](#_bookmark203)
->
-> border-collapse property, [144--146](#_bookmark203)
->
-> border-spacing property,
-> [147--148](#border-spacing-property-the-border-spacing-css-property-sets-the-spacing-between-the-borders-of-adjacent-cells-using-the-border-model.-if-the-border-model-is-used-the-property-is-ignored.-here-see-the-border-collapse-property.)
->
-> caption-side property,
-> [149--151](#caption-side-property-the-caption-side-css-property-sets-the-verti--cal-position-of-the-table-caption-box.-to-align-caption-text-horizon--tally-within-the-caption-box-use-the-text-align-property.)
->
-> empty-cells property,
-> [151--153](#the-output-of-the-code-is-given-below-38) Tables in CSS,
-> [36](#_bookmark110)
->
-> Text, [37](#css-text)
->
-> Text properties, [154](#css-text-properties)
->
-> text-align property and text-align-all property,
-> [154--156](#css-text-properties)
->
-> text-decoration property,
-> [156--159](#the-output-of-the-code-is-given-below-40)
->
-> text-orientation property, [160--161](#_bookmark211)
->
-> text-overflow property,
-> [161--162](#the-output-of-the-code-is-given-below-42)
->
-> text-shadow property, [163--164](#_bookmark213) 3D transform
-> functions, [169--173](#_bookmark217) Transform properties,
-> [164](#_bookmark214)
->
-> 3D transform functions, [169--173](#_bookmark217) 2D transform
-> functions, [164--169](#_bookmark214)
->
-> Transitions properties,
-> [173--174](#the-output-of-the-code-is-given-below-46)
->
-> translate() function, [257](#Cover)
->
-> 2D transform functions, [164--169](#_bookmark214) Types of CSS,
-> [14--19](#different-types-of-css-you-can-use)
->
-> U
->
-> Universal selector (&#42;), [179--180](#_bookmark225) Universal selector
-> (elements),
->
-> [180--181](#the-output-of-the-code-is-given-below-48)
->
-> Unwrap option, [390](#_bookmark345)
->
-> V
->
-> :valid selector, [225--226](#Cover) Versions of CSS, [4](#_bookmark48)
->
-> W
->
-> W3C, *see* [World Wide Web Consortium](#_bookmark378) Working of CSS,
-> [11](#_bookmark64)
->
-> World Wide Web Consortium (W3C), [2](#_bookmark43)
+animation-direction property, [53](#_bookmark142)
+animation-duration property,
+[52](#the-following-section-consists-of-the-complete-list-of-standard-css-properties-belonging-to-the-latest-css3-specifications.-all-the-properties-are-grouped-into-categories-given-below)
+animation-fill-mode property, [53](#_bookmark142)
+animation-iteration-count property, [53](#_bookmark142)
+animation-name property,
+[52](#the-following-section-consists-of-the-complete-list-of-standard-css-properties-belonging-to-the-latest-css3-specifications.-all-the-properties-are-grouped-into-categories-given-below)
+animation-play-state property, [53](#_bookmark142)
+animation-timing-function property,
+[52]the-following-section-consists-of-the-complete-list-of-standard-css-properties-belonging-to-the-latest-cs-specifications.-all-the-properties-are-grouped-into-categories-given-below)
+inherit, [54](#_bookmark143)
+initial, [54](#_bookmark143)
+S
+saturate() function, [352--354](#saturate)
+scale() function, [257](#Cover),
+[354--356](#the-output-of-the-code-is-given-below-78)
+scale3d() function, [357--358](#scale3d)
+scaleX() function, [359--361](#scalex)
+scaleY() function, [361--364](#_bookmark307)
+scaleZ() function,
+[364--367](#the-output-of-the-code-is-given-below-82)
+Selectors, [177](#CHAPTER_3:_CSS_Selectors)
+attribute selectors (&#91;&#93;), [186--187](#Cover) attribute selectors (
+.classname ),
+[183--184](#the-output-of-the-code-is-given-below-50)
+attribute selectors ( &#91;attr="value"&#93; ), [187--188](#Cover)
+attribute selectors ( &#91;attr="value"&#93; case- sensitive),
+[189--190](#Cover)
+attribute selectors ( &#91; foo&#36;="bar" &#93; ), [193--195](#Cover)
+attribute selectors ( &#91; foo&#42;="bar" &#93; ), [195--197](#Cover)
+attribute selectors ( &#91; foo&#94;="bar" &#93; ), [192--193](#Cover)
+attribute selectors ( &#91; foo&#124;="bar" &#93; ), [198--199](#Cover)
+attribute selectors ( &#91; foo&#126;="bar"&#93;), [190--191](#Cover)
+attribute selectors ( id), [184--186](#_bookmark235) combinators
+selectors (E + F), [250--252](#Cover) combinators selectors (E &gt; F),
+[248--250](#Cover) combinators selectors (E F), [246--248](#Cover)
+general sibling selector (&#126;), [252--254](#Cover) grid-structural
+selectors (:nth-col()),
+[254--256](#Cover)
+logical combinations selectors ( :not ), [181--183](#_bookmark229)
+pseudo-classes (:any-link), [201--203](#Cover)
+pseudo-classes (:blank), [234--235](#Cover)
+pseudo-classes (:checked), [221--223](#Cover)
+pseudo-classes (:default), [219--221](#Cover) pseudo-classes
+(:dir(ltr) or :dir(rtl)),
+[199--201](#Cover)
+pseudo-classes (:empty), [233--234](#Cover) pseudo-classes (:enabled
+and :disabled),
+[214--215](#Cover)
+pseudo-classes (:first-child), [239--240](#Cover) pseudo-classes
+(:first-of-type, nth-
+of-type, nth-last-of-type(3)), [244--246](#Cover)
+pseudo-classes (:focus), [212--213](#Cover)
+pseudo-classes (:hover), [210--212](#Cover) pseudo-classes
+(:indeterminate),
+[223--225](#Cover)
+pseudo-classes (:in-range and :out-of- range), [227--228](#Cover)
+pseudo-classes (:link), [203--205](#Cover)
+pseudo-classes (:nth-child), [236--237](#Cover) pseudo-classes
+(:nth-last-child),
+[237--238](#Cover)
+pseudo-classes (:nth-of-type(odd or even), [243--244](#Cover)
+pseudo-classes (:nth-of-type(odd), [241--242](#Cover)
+pseudo-classes (:only-child), [240--241](#Cover)
+pseudo-classes (:optionaL), [230--231](#Cover) pseudo-classes
+(:placeholder-shown),
+[218--219](#Cover)
+pseudo-classes (:read-only and :read- write), [215--217](#Cover)
+pseudo-classes (:required), [229--230](#Cover) pseudo-classes (
+:root), [232--233](#Cover) pseudo-classes (:scope), [207--208](#Cover)
+pseudo-classes (:target), [205--207](#Cover),
+[208--210](#Cover)
+pseudo-classes (:valid and :invalid), [225--226](#Cover)
+types of, [30--31](#_bookmark94)
+universal selector (&#42;), [179--180](#_bookmark225) universal selector
+(elements),
+[180--181](#the-output-of-the-code-is-given-below-48)
+skew() function, [367--370](#the-output-of-the-code-is-given-below-83)
+skewX() function, [371--373](#skewx)
+Specification, CSS, [5](#_bookmark51)
+Stage option, [387](#you-can-add-postcss-to-your-build-tool)
+>
+stylelint, [391](#preserveempty)
+installing, [391](#preserveempty)
+usage, [391--392](#preserveempty)
+Syntax, [11--12](#_bookmark64)
+T
+Table properties, [144](#_bookmark203)
+border-collapse property, [144--146](#_bookmark203)
+border-spacing property,
+[147--148](#border-spacing-property-the-border-spacing-css-property-sets-the-spacing-between-the-borders-of-adjacent-cells-using-the-border-model.-if-the-border-model-is-used-the-property-is-ignored.-here-see-the-border-collapse-property.)
+
+caption-side property,
+[149--151](#caption-side-property-the-caption-side-css-property-sets-the-verti--cal-position-of-the-table-caption-box.-to-align-caption-text-horizon--tally-within-the-caption-box-use-the-text-align-property.)
+
+empty-cells property,
+[151--153](#the-output-of-the-code-is-given-below-38) Tables in CSS,
+[36](#_bookmark110)
+Text, [37](#css-text)
+Text properties, [154](#css-text-properties)
+text-align property and text-align-all property,
+[154--156](#css-text-properties)
+text-decoration property,
+[156--159](#the-output-of-the-code-is-given-below-40)
+text-orientation property, [160--161](#_bookmark211)
+text-overflow property,
+[161--162](#the-output-of-the-code-is-given-below-42)
+text-shadow property, [163--164](#_bookmark213) 3D transform
+functions, [169--173](#_bookmark217) Transform properties,
+[164](#_bookmark214)
+3D transform functions, [169--173](#_bookmark217) 2D transform
+functions, [164--169](#_bookmark214)
+Transitions properties,
+[173--174](#the-output-of-the-code-is-given-below-46)
+translate() function, [257](#Cover)
+2D transform functions, [164--169](#_bookmark214) Types of CSS,
+[14--19](#different-types-of-css-you-can-use)
+U
+Universal selector (&#42;), [179--180](#_bookmark225) Universal selector
+(elements),
+[180--181](#the-output-of-the-code-is-given-below-48)
+Unwrap option, [390](#_bookmark345)
+V
+:valid selector, [225--226](#Cover) Versions of CSS, [4](#_bookmark48)
+W
+W3C, *see* [World Wide Web Consortium](#_bookmark378) Working of CSS,
+[11](#_bookmark64)
+World Wide Web Consortium (W3C), [2](#_bookmark43)
