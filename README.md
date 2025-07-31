@@ -32,7 +32,7 @@ create a website. Af- ter finishing this book, readers will quickly
 build their website with absolute ease, even if they were utterly
 oblivious to it before.
 
-## About the Series {#about-the-series .unnumbered}
+## About the Series
 
 The *Mastering Computer Science* covers a wide range of topics,
 spanning programming languages as well as modern-day technologies and
@@ -165,7 +165,7 @@ by KnowledgeWorks Global Ltd.
 ![](./images/image006.png){width="3.6393208661417322in"
 height="0.9622911198600175in"}
 
-# Contents {#contents .unnumbered}
+# Contents
 
 +-------------------------------------------------------------------+---+---+
 | [About the Editor, xv](#about-the-editor) [Acknowledgments,       |   |   |
@@ -1082,7 +1082,7 @@ height="0.9622911198600175in"}
 
 [INDEX, 421](#index)
 
-# About the Editor {#about-the-editor .unnumbered}
+# About the Editor
 
 **Sufyan bin Uzayr** is a writer, coder, and entrepreneur having over
 a decade of experience in the industry. He has authored several books
@@ -1108,7 +1108,7 @@ Learn more at [sufyanism.com](https://sufyanism.com/)
 
 **xv**
 
-# Acknowledgments {#acknowledgments .unnumbered}
+# Acknowledgments
 
 There are many people who deserve being on this page because this book
 would not have come into existence without their support. That said,
@@ -1136,11 +1136,11 @@ some names deserve a special mention, and I am genuinely grateful to:
 -   The programming community in general, and the web development
     community in particular, for all their hard work and efforts.
 
-##### Sufyan bin Uzayr {#sufyan-bin-uzayr .unnumbered}
+##### Sufyan bin Uzayr
 
 **xvi**
 
-# Zeba Academy -- Mastering Computer Science {#zeba-academy-mastering-computer-science .unnumbered}
+# Zeba Academy -- Mastering Computer Science
 
 The "Mastering Computer Science" series of books are authored by the
 Zeba Academy team members, led by Sufyan bin Uzayr, consisting of:
@@ -1175,13 +1175,13 @@ For more info, please visit
 ![](./images/image006.png){width="3.6393208661417322in"
 height="0.9622911198600175in"}
 
-[]{#CHAPTER_1:_CSS:_Introduction .anchor}CHA P T E R 1
+CHAPTER 1
 
-# CSS {#css .unnumbered}
+# CSS
 
 *Introduction*
 
-### IN THIS CHAPTER {#in-this-chapter .unnumbered}
+### IN THIS CHAPTER
 
 -   Introduction
 
@@ -1201,15 +1201,12 @@ page with CSS files. The other concepts like modules, selectors, ids,
 borders, attributes, tables, form, colors, etc. will also be covered
 in this whole les- son. So let's get started with the basics of CSS.
 
-### INTRODUCTION {#introduction .unnumbered}
+### INTRODUCTION
 
-###### A document is usually a text file created using tag language -- HTML is the common markup language, but you can also merge with other tag lan- guages such as SVG or XML. It is presenting a document to other user means converting it into a form used by your audience. The other browsers, {#a-document-is-usually-a-text-file-created-using-tag-language-html-is-the-common-markup-language-but-you-can-also-merge-with-other-tag-lan--guages-such-as-svg-or-xml.-it-is-presenting-a-document-to-other-user-means-converting-it-into-a-form-used-by-your-audience.-the-other-browsers .unnumbered}
-
-DOI:
-[10.1201/9781003358060-1](https://doi.org/10.1201/9781003358060-1)
-**1**
-
-[]{#_bookmark43 .anchor}such as Firefox, Chrome, or Edge, are designed
+###### A document is usually a text file created using tag language -- HTML is the common 
+markup language, but you can also merge with other tag lan- guages such as SVG or XML. It 
+is presenting a document to other user means converting it into a form used by your 
+audience. The other browsers, such as Firefox, Chrome, or Edge, are designed
 to deliver text by a view, for example, on a computer screen,
 projector, or printer.
 
@@ -1227,7 +1224,7 @@ a structure, for example, to convert a single column of text into a
 structure with the main content area and a different bar for related
 information. It can be used for effects such as animation.
 
-### HISTORY {#history .unnumbered}
+### HISTORY
 
 CSS is highly regarded by the Norwegian Håkon Wium Lie, who in 1994
 wanted to create a standard style sheet for the World Wide Web. The
@@ -1256,9 +1253,7 @@ Alternatively, some developers may choose to use titles and subtitle
 styles to ensure that words appear on the page or alter or redesign
 the existing web page. Perhaps the best way to describe what CSS does
 is to explain that the page would like to be free to use CSS. Without
-CSS web
-
-[]{#_bookmark45 .anchor}pages are clear and far from inspiring. Words
+CSS web pages are clear and far from inspiring. Words
 scroll through the page and read hard. But, before CSS that was
 exactly what web pages looked like. The introduction of CSS is
 responsible in part for what the web looks like and feels today. And,
@@ -1268,7 +1263,7 @@ Since the introduction of CSS, he has appealed to major technology
 players like Microsoft and other browsers to support the standard web
 standards and continue to improve.
 
-### WHY DO WE NEED CSS? {#why-do-we-need-css .unnumbered}
+### WHY DO WE NEED CSS?
 
 First, applying CSS ensures that your web pages are consistent. If
 your website has 100 pages, now imagine that you have to enter a code
@@ -1308,7 +1303,7 @@ can be a smartphone, PC, or laptop. For this purpose, websites are
 required to be compatible with the device. CSS ensures smooth
 operation by providing better alignment.
 
-[]{#_bookmark48 .anchor}You can change the location of the HTML tag
+You can change the location of the HTML tag
 with the help of CSS. You can set things as an image on any part of a
 web page as needed.
 
@@ -1338,16 +1333,9 @@ CSS3 is the latest standard for CSS earlier versions (CSS2). The main
 differences between CSS2 and CSS3 are as follows:
 
 -   Media Queries
-
 -   Namespaces
-
 -   Selectors Level 3
-
--   []{#_bookmark50 .anchor}Color
-
-```{=html}
-<!-- -->
-```
+-   Color
 -   CSS4 has never become an official version.
 
 ### MAJOR DIFFERENCES BETWEEN CSS, CSS2, AND CSS3 {#major-differences-between-css-css2-and-css3 .unnumbered}
@@ -1356,9 +1344,7 @@ CSS was originally released in 1996 and contains features to add font
 lay- outs such as typeface and text color emphasis, background, and
 other fea- tures. CSS2 was released in 1998 with additional styles for
 other media types to be used to design page layouts. CSS3 was released
-in 1999 and
-
-[]{#_bookmark51 .anchor}presentation style structures were added to
+in 1999 and presentation style structures were added to
 it, allowing you to create a pre- sentation from documents.
 
 With CSS3, designers can now use special fonts, such as those found on
@@ -1393,7 +1379,7 @@ it is intended for developers to apply feature support to user agents,
 not for web developers to learn to understand CSS. Many experienced
 developers would prefer to look at MDN documents or other courses.
 However, it is worth knowing that these features exist and to
-understand the relationship []{#_bookmark53 .anchor}between the CSS
+understand the relationship between the CSS
 you are using, browser support (see below), and details.
 
 ### CSS MODULES
@@ -1405,7 +1391,7 @@ module. For exam- ple, you can refer to the MDN reference in the
 Background and Boundaries module to find out what its purpose is with
 the properties and features it contains
 
-[]{#_bookmark54 .anchor}In this section, you do not need to worry much
+In this section, you do not need to worry much
 about how CSS is cre- ated; however, it may be easier to get
 information if, for example, you know that a certain place may be
 found among other things, therefore, it is almost in the same
@@ -1444,8 +1430,8 @@ angular tags and end with corresponding angular tags.
 Html code starts just after the &lt;html&gt; angular marker and ends with
 &lt;/html&gt; not seen in the screenshot above.
 
-It usually has two major parts, namely the head and the body. Each
-[]{#_bookmark56 .anchor}category has its set of requirements related
+It usually has two major parts, namely the head and the body. Each 
+category has its set of requirements related
 to requirements. You will get various sections in HTML structure.
 Let's discuss each.
 Head Section
@@ -1455,7 +1441,7 @@ The header tag represents a web document header that you can tag
 &lt;/head&gt;. It has parts of the title inside. For example, &lt;title&gt;
 This will be your webpage title. &lt;/li&gt;&gt;.
 
-[]{#Body_Section .anchor}Body Section
+Body Section
 
 It represents the body of a web document that usually contains titles,
 text, and sections. Topics start with &lt;title&gt; and end with
@@ -1588,7 +1574,7 @@ font-family: &#39;Franklin Gothic Medium&#39;,
 align-items: center; max-width: 600px; max-height: auto; margin: 280px
 auto;
 border: 1px solid black; border-radius: 20px;
-[]{#_bookmark62 .anchor}padding: 50px;
+padding: 50px;
 }
 &lt;/style&gt;
 &lt;/head&gt;
@@ -1613,7 +1599,7 @@ Example of simple CSS.
 Above line of code links a new CSS file to your HTML file. Let's split
 it: the href attribute specifies the link associated with the CSS
 file. We'll get to the links later, for now, just make sure that
-style.css file is in the same []{#_bookmark63 .anchor}folder as
+style.css file is in the same folder as
 index.html file. The rel attribute tells your browser that this is a
 style sheet. The attribute type tells the browser that the linked file
 should be translated as CSS syntax.
@@ -1625,7 +1611,7 @@ defined using marker language such as HTML. The separation of style
 and content has various advantages, among them improved accessibility,
 and more control over web design.
 
-[]{#_bookmark64 .anchor}CSS documents are used to define a web page
+CSS documents are used to define a web page
 style, then linked to an HTML document (or document in a different tag
 language) that con- tains the content and layout of the page. Setting
 the style directly to the HTML document is possible but not
@@ -1668,8 +1654,7 @@ Both of the above examples are exactly the same about your browser.
 But developers often write CSS as the latest example to differentiate
 styles. CSS is a rule-based language -- defines rules by specifying
 groups of styles to be applied to specific objects or groups of
-objects on your web
-[]{#_bookmark67 .anchor}page. For example, you may decide that a major
+objects on your webpage. For example, you may decide that a major
 topic on your page is shown as a red flag. The following code shows a
 simple CSS rule.
 p {
@@ -1704,7 +1689,7 @@ The CSS style sheet will contain many such rules, written in sequence.
 p {
 color: red; font-size: 5em;
 }
-[]{#_bookmark68 .anchor}h2 {
+h2 {
 color: black;
 }
 ```
@@ -1716,7 +1701,7 @@ the properties assigned to the containing element. Unless you change
 the val- ues of the inner items independently. For instance, a font
 declared in the
 
-[]{#_bookmark69 .anchor}body is inherited by all text in the file,
+body is inherited by all text in the file,
 regardless of the item it contains, unless you declare another font
 for a particular nested item.
 
@@ -1847,7 +1832,7 @@ sans-serif;
 .container {
 align-items: center; max-width: 800px; max-height: auto; margin: 280px
 auto;
-[]{#_bookmark73 .anchor}border: 1px solid black; border-radius: 20px;
+border: 1px solid black; border-radius: 20px;
 padding: 50px;
 }
 ```
@@ -1884,7 +1869,7 @@ styles.
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
-[]{#_bookmark74 .anchor}&lt;title&gt;This is page title.&lt;/title&gt;
+&lt;title&gt;This is page title.&lt;/title&gt;
 &lt;!&#45;- Here is the Internal Style &#45;-&gt;
 &lt;style&gt;
 h2, p {
@@ -1954,7 +1939,7 @@ height="1.35in"}
 
 The inline style sheet.
 
-[]{#_bookmark75 .anchor}External style sheets contain CSS
+External style sheets contain CSS
 instructions, and these are special files, and have a .css file
 extension. If an external style sheet is installed on any web page,
 the CSS file will control its sound and appearance.
@@ -2004,7 +1989,7 @@ selector to my CSS file:
 .text
 {
 font-size: small;
-[]{#_bookmark77 .anchor}color: #008080; font-weight: bold;
+color: #008080; font-weight: bold;
 }
 ```
 
@@ -2081,7 +2066,7 @@ border: 1px solid #666; background: #ffffff;
 ```
 
 Now everything in this section will be formatted according to the
-"con- []{#_bookmark82 .anchor}tainer" style rule I defined in my CSS
+"container" style rule I defined in my CSS
 file. A split creates a line break by default. You can use both
 classes and sections of your website.
 
@@ -2091,9 +2076,7 @@ CSS layouts are used to apply styles to structured documents, such as
 those created in HTML or XML. CSS layouts are specified at the CSS
 level. Each property has a set of some possible values. Some
 properties can affect the type of element, while others apply only to
-certain groups of
-
-[]{#_bookmark83 .anchor}elements. The style sheet consists of a list
+certain groups of elements. The style sheet consists of a list
 of rules. Each rule or set of rule contains one or more selectors, as
 well as a declaration block.
 
@@ -2133,19 +2116,12 @@ RGBA, HSLA values.
 In CSS, a color can be specified by using a pre-defined color name, such as,
 
 1.  Tomato
-
 2.  Orange
-
 3.  Dodger Blue
-
 4.  Medium Sea Green
-
-5.  []{#_bookmark86 .anchor}Gray
-
+5.  Gray
 6.  SlateBlue
-
 7.  Violet
-
 8.  LightGray
 
 ###### List of Color Values
@@ -2153,78 +2129,44 @@ In CSS, a color can be specified by using a pre-defined color name, such as,
 Here's a list of color values that can be used with CSS.
 
 -   Named Colors
-
 -   transparent Keyword
-
 -   CS current color Keyword
-
 -   3-Digit Hex Codes
-
 -   4-Digit Hex Codes
-
 -   6-Digit Hex Codes
-
 -   CSS 8-Digit Hex Codes
-
 -   RGB() Function
-
 -   rgba() Function
-
 -   HSL() Function
-
 -   hsla() Function
-
 -   hwb() Function
-
 -   System Colors
 
 Here is the complete list of names of colors that are supported by all
 browsers given below:
 
 1.  Alice blue
-
 2.  antique white
-
 3.  Aqua
-
 4.  Aquamarine
-
-5.  []{#_bookmark88 .anchor}Azure
-
+5.  Azure
 6.  Beige
-
 7.  Bisque
-
 8.  Black
-
 9.  dark orchid
-
 10. DarkRed
-
 11. DarkSalmon
-
 12. dark turquoise
-
 13. DarkViolet
-
 14. DeepPink
-
 15. DeepSkyBlue
-
 16. Fuchsia
-
 17. Gainsboro
-
 18. GhostWhite
-
 19. Gold
-
 20. HotPink
-
 21. Indian
-
 22. Indigo
-
 23. Ivory
 
 ### RGB COLOR
@@ -2239,7 +2181,7 @@ The color of the border (border), background (background color), or
 foreground (color) -- the text decorations on the page have a huge
 impact, so you have to put some effort into getting them right.
 
-[]{#_bookmark90 .anchor}CSS lets you use a wide variety of different
+CSS lets you use a wide variety of different
 colors and color systems. They range from named colors to hexagonal
 colors, RGB() colors, hsl col- ors, and more.
 
@@ -2581,7 +2523,9 @@ color: blue;
 
 ##### Syntax:
 
-[]{#_bookmark98 .anchor}a:hover
+```
+a:hover
+```
 
 selects &lt;a&gt;, works when the mouse pointer is hovering over the link.
 
@@ -2610,19 +2554,12 @@ There are eight other properties available under the background given
 below:
 
 -   background-repeat
-
 -   background-attachment
-
 -   background-image
-
 -   background-clip
-
 -   background-color
-
 -   background-position
-
 -   background-size
-
 -   background-origin
 
 You can use any of the combinations of these properties that you love
@@ -2658,40 +2595,28 @@ combination:
 border-width: It defines the thickness of the border.
 
 -   thin
-
 -   medium
-
 -   thick
 
 border-style: It specifies the type of the line drawn around the
 element, including:
 
 -   dotted -- It defines a dotted border.
-
 -   dashed -- It defines a dashed border.
-
 -   solid -- It defines a solid border.
-
 -   double -- It defines a double border.
-
 -   groove -- It defines a 3D grooved border. The effect depends on the
     border-color value.
-
 -   ridge -- It defines a 3D ridged border. The effect depends on the
     bor- der-color value.
-
 -   inset -- It defines a 3D inset border. The effect depends on the
     border- color value.
-
 -   outset -- It defines a 3D outset border. The effect depends on the
     bor- der-color value.
-
--   []{#_bookmark104 .anchor}none -- It defines no border.
-
+-   none -- It defines no border.
 -   hidden -- It defines a hidden border.
 
-border-color: It specifies the color of the border and accepts all
-valid color values.
+border-color: It specifies the color of the border and accepts all valid color values.
 
 ### CSS BORDER WIDTH AND COLOR
 
@@ -2715,13 +2640,9 @@ borders.
 The color can be set by:
 
 -   name -- It specifies a color name, like "red."
-
 -   HEX -- It specifies a HEX value, like "#ff0000."
-
 -   RGB -- It specifies an RGB value, like "rgb(255,0,0)."
-
 -   HSL -- It specifies an HSL value, like "hsl(0, 90%, 50%)."
-
 -   Transparent
 
 ### CSS MARGINS
@@ -2733,23 +2654,16 @@ element such as top, right, bottom, and left. CSS has features that
 specify a margin for each element:
 
 -   margin-top
-
 -   margin-right
-
--   []{#_bookmark107 .anchor}margin-bottom
-
+-   margin-bottom
 -   margin-left
 
 All genetic features can have the following values:
 
 -   default -- The browser calculates limit.
-
 -   length -- It specifies margin in px, pt, cm, etc.
-
 -   &#37; -- It specifies margin in% of the width of the content.
-
--   inheritance -- it specifies that the margin should inherit from the
-    parent.
+-   inheritance -- it specifies that the margin should inherit from the parent.
 
 ### CSS PADDING
 
@@ -2771,7 +2685,7 @@ All completion buildings may have the following values:
 
 -   length -- It specifies padding in px, pt, cm, etc.
 
--   []{#_bookmark109 .anchor}% -- It specifies padding in% of the width
+-   % -- It specifies padding in% of the width
     of the content.
 
 -   inheritance -- It specifies that padding should inherit from the
@@ -2783,7 +2697,7 @@ This model is a box that wraps everything HTML contains: margins, bor-
 ders, padding, and original content. In CSS, the term "box model" is
 used when referring to design and structure.
 
-[]{#_bookmark110 .anchor}Description of different parts:
+Description of different parts:
 
 -   Content -- The contents of the box, in which the text and images
     appear.
@@ -3072,7 +2986,7 @@ color: black; font-size: 12px;
 color: &#35; fff; font-size: 10pt;
 }
 }
-[]{#_bookmark123 .anchor}&#64;media screen, print { body {
+&#64;media screen, print { body {
 line-length: 1;
 }
 }
@@ -3120,7 +3034,7 @@ etc.
 -   handheld: It is used for small or handheld devices small screen
     devices such as mobile phones or PDAs.
 
--   []{#_bookmark127 .anchor}print: It is used for printers.
+-   print: It is used for printers.
 
 -   projection: It is used for projected presentations, for example,
     projectors.
@@ -3160,7 +3074,7 @@ document) and the viewing area is 800 pixels wide. CSS selector
 &#64;media screen and (max-width: 320px){
 /&#42; styles &#42;/
 }
-[]{#_bookmark130 .anchor}/&#42; Smartphones (landscape) &#42;/
+&#42; Smartphones (landscape) &#42;/
 
 &#64;media screen and (min-width: 321px){
 /&#42; styles &#42;/
@@ -3203,7 +3117,7 @@ Let's learn more about CSS benefits such as:
     of time when it comes to conversions. It also checks and verifies
     that each page is consistent with the CSS benefits.
 
-3.  []{#_bookmark132 .anchor}W3C works with the goal of making the
+3.  W3C works with the goal of making the
     entire website equally acces- sible to disabled users the way normal
     users use it. First CSS gains access by creating layout and document
     making it easy for any screen reader to read content accurately.
@@ -3261,7 +3175,7 @@ smooth and efficient.
 
 ###### Here we have covered all the basic concepts of CSS that everyone can use to make their pages attractive. So important thing for working with CSS is just only practice, once you start practicing it, you will get to the point eas- ily. Then in the coming chapter, you will learn CSS properties that make your work so easy. 
 
-[]{#CHAPTER_2:_CSS_Properties .anchor}CHA P T E R 2
+CHAPTER 2
 
 # CSS Properties
 
@@ -3298,8 +3212,6 @@ all attributes and then we separate those properties into different
 sections.
 
 DOI:
-[10.1201/9781003358060-2](https://doi.org/10.1201/9781003358060-2)
-**47**
 
 1.  align-content
 2.  align-items
@@ -3495,7 +3407,7 @@ DOI:
 192. padding-top
 193. padding
 194. page-break-after
-195. []{#_bookmark137 .anchor}page-break-before
+195. page-break-before
 196. page-break-inside
 197. page
 198. pause-after
@@ -3534,7 +3446,7 @@ DOI:
 231. text-decoration
 232. text-decoration-color
 233. text-decoration-line
-234. []{#_bookmark138 .anchor}text-decoration-skip
+234. text-decoration-skip
 235. text-decoration-style
 236. text-justify
 237. text-indent
@@ -3579,7 +3491,7 @@ DOI:
 
 ###### The CSS feature is used to set the style of HTML objects. The CSS layout consists of two parts, the name of the property and the value of the prop- erty. Property value included between two (""quotes). 
 
-[]{#_bookmark139 .anchor}CSS style styles are part of the HTML object.
+CSS style styles are part of the HTML object.
 Here are a few examples:
 
 &lt;div style = &#34;border: 1px solid black; font size: 18px; &#34;&gt; Style
@@ -3664,7 +3576,7 @@ inherit
 
 ###### animation-delay: It specifies a delay before the animation will start. The animation-delay CSS property defines when the animation will start. The value of this property can be specified in seconds (s) or milliseconds (ms).
 
-[]{#_bookmark142 .anchor}The syntax of this property is given as:
+The syntax of this property is given as:
 
 ```
 animation-delay: time &#124; initial &#124; inherit
@@ -3712,7 +3624,7 @@ animation-play-state: paused &#124; running &#124; initial
 &#124; inherit
 ```
 
-2.  []{#_bookmark143 .anchor}initial: It sets the property to its
+2.  initial: It sets the property to its
     default value.
 
 3.  inherit: If it specifies, the associated element takes the
@@ -4085,7 +3997,7 @@ border: 6px dashed #333; background: url(&#34;/images-1.jpg&#34;) no-repeat;
 background-size: cover;
 background-origin: padding-box ;
 }
-[]{#_bookmark149 .anchor}&lt;/style&gt;
+&lt;/style&gt;
 &lt;/head&gt;
 &lt;body&gt;
 &lt;div class=&#34;demo_container&#34;&gt;
@@ -4120,53 +4032,33 @@ background-position: &#91; percentage &#124; length &#124; left
 
 ##### Example: {#example-13 .unnumbered}
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html&gt;
-
 &lt;head&gt;
-
 &lt;style&gt;
 .demo_container{
->
 text-align: center;
->
 }
->
 .parent { display: flex;
->
 align-items: center; justify-content: center;
->
 }
->
 .child {
->
 border: 6px dashed #333; background: url(&#34;/images-1.jpg&#34;) no-repeat;
->
 background-position: 50% center;
->
 }
->
 &lt;/style&gt;
->
 &lt;/head&gt;
->
 &lt;body&gt;
->
 &lt;div class=&#34;demo_container&#34;&gt;
->
 &lt;div class=&#34;parent&#34;&gt;
->
 &lt;div class=&#34;child&#34;&gt; &lt;h1&gt;CSS Background Position - 50% center
 &lt;/h1&gt;&lt;/div&gt;
->
 &lt;/div&gt;
->
 &lt;/div&gt;
->
 &lt;/body&gt;
->
 &lt;/html&gt;
+```
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-7 .unnumbered}
 
@@ -4270,413 +4162,389 @@ attribute&#124; inherit attribute
 
 ##### Example: {#example-15 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
->
-> &lt;html&gt;
->
-> &lt;head&gt;
->
-> &lt;style&gt;
->
-> .demo_container{
->
-> text-align: center;
->
-> }
->
-> .parent { display: flex;
->
-> align-items: center; justify-content: center;
->
-> }
->
-> .child-1 { width:500px; height:500px;
->
-> border: 6px dashed #333; background: url(&#34;/images-1.jpg&#34;) no-repeat;
-> background-size: contain;
->
-> }
->
-> .child-2 { width:500px; height:500px;
->
-> border: 6px dashed #333; background: url(&#34;/images-1.jpg&#34;) no-repeat;
-> background-size: cover;
->
-> }
->
-> &lt;/style&gt;
->
-> &lt;/head&gt;
->
-> &lt;body&gt;
->
-> &lt;div class=&#34;demo_container&#34;&gt;
->
-> &lt;div class=&#34;parent&#34;&gt;
->
-> &lt;div class=&#34;child-1&#34;&gt; &lt;h1&gt;CSS Background Size - Contain
-> &lt;/h1&gt;&lt;/div&gt;
->
-> &lt;div class=&#34;child-2&#34;&gt; &lt;h1&gt;CSS Background Size - Cover
-> &lt;/h1&gt;&lt;/div&gt;
->
-> &lt;/div&gt;
->
-> []{#_bookmark152 .anchor}&lt;/div&gt;
->
-> &lt;/body&gt;
->
-> &lt;/html&gt;
+```
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;style&gt;
+.demo_container{
+text-align: center;
+}
+.parent { display: flex;
+align-items: center; justify-content: center;
+}
+.child-1 { width:500px; height:500px;
+border: 6px dashed #333; background: url(&#34;/images-1.jpg&#34;) no-repeat;
+background-size: contain;
+}
+.child-2 { width:500px; height:500px;
+border: 6px dashed #333; background: url(&#34;/images-1.jpg&#34;) no-repeat;
+background-size: cover;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;parent&#34;&gt;
+&lt;div class=&#34;child-1&#34;&gt; &lt;h1&gt;CSS Background Size - Contain
+&lt;/h1&gt;&lt;/div&gt;
+&lt;div class=&#34;child-2&#34;&gt; &lt;h1&gt;CSS Background Size - Cover
+&lt;/h1&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+```
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-10 .unnumbered}
 
 ![](./images/image022.png){width="3.6093744531933507in"
 height="1.815in"}
 
-> CSS background size -- contained cover and full cover.
+CSS background size -- contained cover and full cover.
 
 ### CSS BORDER PROPERTIES {#css-border-properties .unnumbered}
 
 ###### The border property sets the width, style, and color for all four sides of an element's border. It is a shorthand property for setting the individual border properties, that is, border-width, border-style, and border-color in a single declaration. {#the-border-property-sets-the-width-style-and-color-for-all-four-sides-of-an-elements-border.-it-is-a-shorthand-property-for-setting-the-individual-border-properties-that-is-border-width-border-style-and-border-color-in-a-single-declaration. .unnumbered}
 
-> The syntax of the property is given as:
+The syntax of the property is given as:
 >
-> border: &#91; border-width border-style border-color &#93; &#124; initial &#124;
-> inherit
+border: &#91; border-width border-style border-color &#93; &#124; initial &#124;
+inherit
 
 ##### Example: {#example-16 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> .demo_container{
+.demo_container{
 >
-> text-align: center; display: flex;
+text-align: center; display: flex;
 >
-> justify-content: center; align-items: center;
+justify-content: center; align-items: center;
 >
-> }
+}
 >
-> .child-1 { width:500px; height:500px;
+.child-1 { width:500px; height:500px;
 >
-> border: 5px solid rgb(209, 21, 21);
+border: 5px solid rgb(209, 21, 21);
 >
-> background-color: rgb(226, 230, 12); color:white;
+background-color: rgb(226, 230, 12); color:white;
 >
-> justify-content: center; align-items: center; font-size: 32px;
+justify-content: center; align-items: center; font-size: 32px;
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;div class=&#34;child-1&#34;&gt; &lt;h1&gt;CSS Border &lt;/h1&gt;
+&lt;div class=&#34;child-1&#34;&gt; &lt;h1&gt;CSS Border &lt;/h1&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-11 .unnumbered}
 
 ![](./images/image023.png){width="2.7343744531933507in"
 height="2.7343744531933507in"}
 
-> CSS border property.
+CSS border property.
 
 ###### border-width property: The border-width CSS property is a short- hand property for setting a singleborder width property, that is, border-top-width, border-right-width, border-bottom-width, and border-left-width in a single declaration. The syntax of this property is given as:
 
-> border-width : &#91; thin &#124; medium &#124; thick &#124; length &#93;
+border-width : &#91; thin &#124; medium &#124; thick &#124; length &#93;
 >
-> 1 to 4 values &#124; inherit
+1 to 4 values &#124; inherit
 
 ##### Example: {#example-17 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> .demo_container{ width:500px; margin:0 auto;
+.demo_container{ width:500px; margin:0 auto;
 >
-> text-align: center; justify-content: center; align-items: center;
+text-align: center; justify-content: center; align-items: center;
 >
-> }
+}
 >
-> p.one {
+p.one {
 >
-> border-color: rgb(221, 104, 104); border-style: solid;
+border-color: rgb(221, 104, 104); border-style: solid;
 >
-> border-width: 2px;
+border-width: 2px;
 >
-> }
+}
 >
-> p.two {
+p.two {
 >
-> border-color: rgb(193, 221, 90); border-style: solid;
+border-color: rgb(193, 221, 90); border-style: solid;
 >
-> border-width: 2px 5px;
+border-width: 2px 5px;
 >
-> }
+}
 >
-> p.three {
+p.three {
 >
-> border-color: rgb(93, 231, 109); border-style: solid;
+border-color: rgb(93, 231, 109); border-style: solid;
 >
-> border-width: 2px 5px 7px;
+border-width: 2px 5px 7px;
 >
-> }
+}
 >
-> p.four {
+p.four {
 >
-> border-color: rgb(212, 106, 241); border-style: solid;
+border-color: rgb(212, 106, 241); border-style: solid;
 >
-> border-width: medium 5px thick 5px;
+border-width: medium 5px thick 5px;
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;h1&gt; CSS Border Property- Width &lt;/h1&gt;
+&lt;h1&gt; CSS Border Property- Width &lt;/h1&gt;
 >
-> &lt;p class=&#34;one&#34;&gt; &lt;strong&gt; Having one-value syntax:&lt;/strong&gt;
-> Here is the single value sets the width of four border sides.&lt;/p&gt;
+&lt;p class=&#34;one&#34;&gt; &lt;strong&gt; Having one-value syntax:&lt;/strong&gt;
+Here is the single value sets the width of four border sides.&lt;/p&gt;
 >
-> &lt;p class=&#34;two&#34;&gt; &lt;strong&gt; Having two-value syntax:&lt;/strong&gt; the
-> first value sets as the width of the top & bottom border, while the
-> second value sets the width the right and left sides border.&lt;/p&gt;
+&lt;p class=&#34;two&#34;&gt; &lt;strong&gt; Having two-value syntax:&lt;/strong&gt; the
+first value sets as the width of the top & bottom border, while the
+second value sets the width the right and left sides border.&lt;/p&gt;
 >
-> &lt;p class=&#34;three&#34;&gt; &lt;strong&gt; Having three-value syntax:&lt;/strong&gt;
-> the first value as sets the width of the top border, the second value
-> sets the width of right and left border, the third value sets width of
-> the the bottom border.&lt;/p&gt;
+&lt;p class=&#34;three&#34;&gt; &lt;strong&gt; Having three-value syntax:&lt;/strong&gt;
+the first value as sets the width of the top border, the second value
+sets the width of right and left border, the third value sets width of
+the the bottom border.&lt;/p&gt;
 >
-> &lt;p class=&#34;four&#34;&gt; &lt;strong&gt; Here having four- value
-> syntax:&lt;/strong&gt; each value sets the width of the border
-> individually in the order top, right, bottom, and left.&lt;/p&gt;&lt;/div&gt;
+&lt;p class=&#34;four&#34;&gt; &lt;strong&gt; Here having four- value
+syntax:&lt;/strong&gt; each value sets the width of the border
+individually in the order top, right, bottom, and left.&lt;/p&gt;&lt;/div&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-12 .unnumbered}
 
 ![](./images/image024.png){width="3.5833366141732284in"
 height="2.1848950131233598in"}
 
-> CSS border property-width.
+CSS border property-width.
 
 ###### border-bottom property: The border-bottom CSS property sets the width, style, and color of the bottom border of an element. It is a property for setting the individual bottom border properties, that is, border-bottom-width, border-bottom-style, and border-bottom- color at once. The syntax of this property is given as:
 
-> border-bottom: &#91; border-bottom-width border- bottom-style
-> border-bottom-color &#93; &#124; initial &#124; inherit
+border-bottom: &#91; border-bottom-width border- bottom-style
+border-bottom-color &#93; &#124; initial &#124; inherit
 
 ##### Example: {#example-18 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> .demo_container{ width:400px; margin:0 auto;
+.demo_container{ width:400px; margin:0 auto;
 >
-> text-align: center; justify-content: center; align-items: center;
+text-align: center; justify-content: center; align-items: center;
 >
-> }
+}
 >
-> .text-1 {
+.text-1 {
 >
-> border-left: 4px solid #ee2525;
+border-left: 4px solid #ee2525;
 >
-> }
+}
 >
-> .text-2{
+.text-2{
 >
-> border-right: 3px solid #26e126;
+border-right: 3px solid #26e126;
 >
-> }
+}
 >
-> .text-3{
+.text-3{
 >
-> border-top: 4px solid #d42323;
+border-top: 4px solid #d42323;
 >
-> }
+}
 >
-> .text-4{
+.text-4{
 >
-> border-bottom: 3px solid #24d024;
+border-bottom: 3px solid #24d024;
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;h1&gt; CSS Border Property - Left, Bottom, Right, Top &lt;/h1&gt;
+&lt;h1&gt; CSS Border Property - Left, Bottom, Right, Top &lt;/h1&gt;
 >
-> &lt;p class=&#34;text-1&#34;&gt;Lorem dolor sit amet consectetur adipisicing
-> elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae
-> consequuntur voluptatum laborum numquam blanditiis harum quisquam eius
-> sed odit fugiat iusto fuga praesentium optio, eaque rerum!&lt;/h1&gt;
+&lt;p class=&#34;text-1&#34;&gt;Lorem dolor sit amet consectetur adipisicing
+elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae
+consequuntur voluptatum laborum numquam blanditiis harum quisquam eius
+sed odit fugiat iusto fuga praesentium optio, eaque rerum!&lt;/h1&gt;
 >
-> &lt;br&gt;
+&lt;br&gt;
 >
-> &lt;br&gt;
+&lt;br&gt;
 >
-> &lt;p class=&#34;text-2&#34;&gt; Provident similique accusantium nemo autem.
-> Veritatis obcaecati tenetur iure eius earum ut molestias architecto
-> voluptate aliquam nhil, eveniet aliquid culpa officia aut! .&lt;/p&gt;
-> &lt;br&gt;
+&lt;p class=&#34;text-2&#34;&gt; Provident similique accusantium nemo autem.
+Veritatis obcaecati tenetur iure eius earum ut molestias architecto
+voluptate aliquam nhil, eveniet aliquid culpa officia aut! .&lt;/p&gt;
+&lt;br&gt;
 >
-> &lt;br&gt;
+&lt;br&gt;
 >
-> &lt;p class=&#34;text-3&#34;&gt;Lorem ipsum dolor sit amet consectetur
-> adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi
-> repudiandae consequuntur voluptatum laborum numquam blanditiis harum
-> quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque
-> rerum!&lt;/h1&gt;
+&lt;p class=&#34;text-3&#34;&gt;Lorem ipsum dolor sit amet consectetur
+adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi
+repudiandae consequuntur voluptatum laborum numquam blanditiis harum
+quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque
+rerum!&lt;/h1&gt;
 >
-> &lt;br&gt;
+&lt;br&gt;
 >
-> &lt;br&gt;
+&lt;br&gt;
 >
-> &lt;p class=&#34;text-4&#34;&gt; Provident similique accusantium nemo autem.
-> Veritatis obcaecati tenetur iure eius earum ut molestias architecto
-> voluptate aliquam nihil, eveniet aliquid culpa officia aut!
-> .&lt;/p&gt;&lt;br&gt;
+&lt;p class=&#34;text-4&#34;&gt; Provident similique accusantium nemo autem.
+Veritatis obcaecati tenetur iure eius earum ut molestias architecto
+voluptate aliquam nihil, eveniet aliquid culpa officia aut!
+.&lt;/p&gt;&lt;br&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-13 .unnumbered}
 
 ![](./images/image025.png){width="3.5187489063867017in"
 height="4.55in"}
 
-> CSS border property -- left, bottom, right, top.
+CSS border property -- left, bottom, right, top.
 
 ###### border-bottom-color property: The border-bottom color property sets the color of an element's bottom border individually. However, in other cases the shorthand properties like border color or border bottom are more convenient to use and preferable. The syntax of this property is given as:
 
-> border-bottom-color: color &#124; transparent &#124; inherit
+border-bottom-color: color &#124; transparent &#124; inherit
 
 ##### Example: {#example-19 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> .demo_container{ width:400px; margin:0 auto;
+.demo_container{ width:400px; margin:0 auto;
 >
-> text-align: center; justify-content: center; align-items: center;
+text-align: center; justify-content: center; align-items: center;
 >
-> }
+}
 >
-> .text-1 {
+.text-1 {
 >
-> border-style: solid;
+border-style: solid;
 >
-> border-bottom-color: #d83838;
+border-bottom-color: #d83838;
 >
-> }
+}
 >
-> .text-2{
+.text-2{
 >
-> border-style: solid;
+border-style: solid;
 >
-> border-left-color: #aec730;
+border-left-color: #aec730;
 >
-> }
+}
 >
-> .text-3{
+.text-3{
 >
-> border-style: solid;
+border-style: solid;
 >
-> border-right-color: #e12424;
+border-right-color: #e12424;
 >
-> }
+}
 >
-> .text-4{
+.text-4{
 >
-> border-style: solid; border-top-color: #ffaa00;
+border-style: solid; border-top-color: #ffaa00;
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;h1&gt; CSS Border Bottom Property - Left, Bottom, Right, Top &lt;/h1&gt;
+&lt;h1&gt; CSS Border Bottom Property - Left, Bottom, Right, Top &lt;/h1&gt;
 >
-> &lt;p class=&#34;text-1&#34;&gt;Lorem ipsum dolor sit amet consectetur
-> adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi
-> repudiandae consequuntur voluptatum laborum numquam blanditiis
+&lt;p class=&#34;text-1&#34;&gt;Lorem ipsum dolor sit amet consectetur
+adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi
+repudiandae consequuntur voluptatum laborum numquam blanditiis
 >
-> []{#_bookmark157 .anchor}harum quisquam eius sed odit fugiat iusto
-> fuga praesentium optio, eaque rerum!&lt;/h1&gt; &lt;br&gt;
+[]{#_bookmark157 .anchor}harum quisquam eius sed odit fugiat iusto
+fuga praesentium optio, eaque rerum!&lt;/h1&gt; &lt;br&gt;
 >
-> &lt;br&gt;
+&lt;br&gt;
 >
-> &lt;p class=&#34;text-2&#34;&gt; Provident similique accusantium nemo autem.
-> Veritatis obcaecati tenetur iure eius earum ut molestias architecto
-> voluptate aliquam nhil, eveniet aliquid culpa officia aut! .&lt;/p&gt;
-> &lt;br&gt;
+&lt;p class=&#34;text-2&#34;&gt; Provident similique accusantium nemo autem.
+Veritatis obcaecati tenetur iure eius earum ut molestias architecto
+voluptate aliquam nhil, eveniet aliquid culpa officia aut! .&lt;/p&gt;
+&lt;br&gt;
 >
-> &lt;br&gt;
+&lt;br&gt;
 >
-> &lt;p class=&#34;text-3&#34;&gt;Lorem ipsum dolor sit amet consectetur
-> adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi
-> repudiandae consequuntur voluptatum laborum numquam blanditiis harum
-> quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque
-> rerum!&lt;/h1&gt; &lt;br&gt;
+&lt;p class=&#34;text-3&#34;&gt;Lorem ipsum dolor sit amet consectetur
+adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi
+repudiandae consequuntur voluptatum laborum numquam blanditiis harum
+quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque
+rerum!&lt;/h1&gt; &lt;br&gt;
 >
-> &lt;br&gt;
+&lt;br&gt;
 >
-> &lt;p class=&#34;text-4&#34;&gt; Provident similique accusantium nemo autem.
-> Veritatis obcaecati tenetur iure eius earum ut molestias architecto
-> voluptate aliquam nihil, eveniet aliquid culpa officia aut!
-> .&lt;/p&gt;&lt;br&gt;
+&lt;p class=&#34;text-4&#34;&gt; Provident similique accusantium nemo autem.
+Veritatis obcaecati tenetur iure eius earum ut molestias architecto
+voluptate aliquam nihil, eveniet aliquid culpa officia aut!
+.&lt;/p&gt;&lt;br&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 1.  border-bottom-left-radius property: The border-bottom-left-radius
     property sets the rounded shape for the "bottom-left" corner of an
@@ -4684,1102 +4552,1019 @@ height="4.55in"}
 
 ##### Example: {#example-20 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> .demo_container{ width:400px; margin:0 auto;
+.demo_container{ width:400px; margin:0 auto;
 >
-> text-align: center; justify-content: center; align-items: center;
+text-align: center; justify-content: center; align-items: center;
 >
-> }
+}
 >
-> .text-1 {
+.text-1 {
 >
-> border-style: solid;
+border-style: solid;
 >
-> border-bottom-left-radius: 20px;
+border-bottom-left-radius: 20px;
 >
-> }
+}
 >
-> .text-2{
+.text-2{
 >
-> border-style: solid;
+border-style: solid;
 >
-> border-bottom-right-radius: 20px;
+border-bottom-right-radius: 20px;
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;h1&gt; CSS Border Bottom Left Property - Left, Right &lt;/h1&gt;
+&lt;h1&gt; CSS Border Bottom Left Property - Left, Right &lt;/h1&gt;
 >
-> &lt;p class=&#34;text-1&#34;&gt; Lorem sit amet consectetur adipisicing elit.
-> Maxime mollitia, molestiae quas vel sint commodi repudiandae
-> consequuntur voluptatum laborum numquam blanditiis harum quisquam eius
-> sed odit fugiat iusto fuga praesentium optio, eaque rerum!&lt;/h1&gt;
-> &lt;br&gt;
+&lt;p class=&#34;text-1&#34;&gt; Lorem sit amet consectetur adipisicing elit.
+Maxime mollitia, molestiae quas vel sint commodi repudiandae
+consequuntur voluptatum laborum numquam blanditiis harum quisquam eius
+sed odit fugiat iusto fuga praesentium optio, eaque rerum!&lt;/h1&gt;
+&lt;br&gt;
 >
-> &lt;br&gt;
+&lt;br&gt;
 >
-> &lt;p class=&#34;text-2&#34;&gt; Provident similique accusantium nemo autem.
-> Veritatis obcaecati tenetur iure eius earum ut molestias architecto
-> voluptate aliquam nhil, eveniet aliquid culpa officia aut! .&lt;/p&gt;
-> &lt;br&gt;
+&lt;p class=&#34;text-2&#34;&gt; Provident similique accusantium nemo autem.
+Veritatis obcaecati tenetur iure eius earum ut molestias architecto
+voluptate aliquam nhil, eveniet aliquid culpa officia aut! .&lt;/p&gt;
+&lt;br&gt;
 >
-> &lt;br&gt;
+&lt;br&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-14 .unnumbered}
 
 ![](./images/image026.png){width="3.4499978127734034in"
 height="4.925in"}
 
-> CSS border bottom left property -- left, right.
+CSS border bottom left property -- left, right.
 
 ###### border-bottom-style property: The border-bottom style property sets the style of an element's bottom border individually. However, in other cases the shorthand properties like border style or border bot- tom are more convenient to use and preferable.
 
-> The syntax of this property is given as:
+The syntax of this property is given as:
 >
-> border-bottom-style: none &#124; hidden &#124; dashed &#124; dotted &#124;solid &#124;
-> double &#124; groove &#124; ridge &#124; inset &#124; outset &#124; initial &#124; inherit.
+border-bottom-style: none &#124; hidden &#124; dashed &#124; dotted &#124;solid &#124;
+double &#124; groove &#124; ridge &#124; inset &#124; outset &#124; initial &#124; inherit.
 
 ##### Example: {#example-21 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+```
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;style&gt;
+.demo_container{ width:400px; margin:0 auto;
+text-align: center; justify-content: center; align-items: center;
+}
+.none {
+border-bottom-style: none;
+}
+.dotted {
+border-bottom-style: dotted;
+}
+.dashed {
+border-bottom-style: dashed;
+}
+.solid {
+border-bottom-style: solid;
+}
+.double {
+
+border-bottom-style: double;
+}
 >
-> &lt;html&gt;
+.groove {
 >
-> &lt;head&gt;
+border-bottom-style: groove;
 >
-> &lt;style&gt;
+}
 >
-> .demo_container{ width:400px; margin:0 auto;
+.ridge {
 >
-> text-align: center; justify-content: center; align-items: center;
+border-bottom-style: ridge;
 >
-> }
+}
 >
-> .none {
+.inset {
 >
-> border-bottom-style: none;
+border-bottom-style: inset;
 >
-> }
+}
 >
-> .dotted {
+.outset {
 >
-> border-bottom-style: dotted;
+border-bottom-style: outset;
 >
-> }
+}
 >
-> .dashed {
+&lt;/style&gt;
 >
-> border-bottom-style: dashed;
+&lt;/style&gt;
 >
-> }
+&lt;/head&gt;
 >
-> .solid {
+&lt;body&gt;
 >
-> border-bottom-style: solid;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> }
+&lt;h1&gt; CSS Various Border style &lt;/h1&gt;
 >
-> .double {
+&lt;p class=&#34;none&#34;&gt;Lorem dolor sit amet consectetur adipisicing
+elit.esentium optio, eaque rerum!&lt;/h1&gt; &lt;br&gt;
 >
-> border-bottom-style: double;
+&lt;br&gt;
 >
-> }
+&lt;p class=&#34;dotted&#34;&gt;Lorem ipsum dolor sit amet consectetur
+adipisicing elit.esentium optio, eaque rerum!&lt;/h1&gt; &lt;br&gt;
 >
-> .groove {
+&lt;br&gt;
 >
-> border-bottom-style: groove;
+&lt;p class=&#34;none&#34;&gt;Lorem dolor sit amet consectetur adipisicing
+elit.esentium optio, eaque rerum!&lt;/h1&gt; &lt;br&gt;
 >
-> }
+&lt;br&gt;
 >
-> .ridge {
+&lt;p class=&#34;dashed&#34;&gt;Lorem ipsum dolor sit amet consectetur
+adipisicing elit.esentium optio, eaque rerum!&lt;/h1&gt; &lt;br&gt;
 >
-> border-bottom-style: ridge;
+&lt;br&gt;
 >
-> }
+&lt;p class=&#34;solid&#34;&gt;Lorem ipsum dolor sit amet consectetur
+adipisicing elit.esentium optio, eaque rerum!&lt;/h1&gt; &lt;br&gt;
 >
-> .inset {
+&lt;br&gt;
 >
-> border-bottom-style: inset;
+&lt;p class=&#34;double&#34;&gt;Lorem ipsum dolor sit amet consectetur
+adipisicing elit.esentium optio, eaque rerum!&lt;/h1&gt; &lt;br&gt;
 >
-> }
+&lt;br&gt;
 >
-> .outset {
+&lt;p class=&#34;groove&#34;&gt;Lorem ipsum dolor sit amet consectetur
+adipisicing elit.esentium optio, eaque rerum!&lt;/h1&gt; &lt;br&gt;
 >
-> border-bottom-style: outset;
+&lt;br&gt;
 >
-> }
+&lt;p class=&#34;ridge&#34;&gt;Lorem ipsum dolor sit amet consectetur
+adipisicing elit.esentium optio, eaque rerum!&lt;/h1&gt; &lt;br&gt;
 >
-> &lt;/style&gt;
+&lt;br&gt;
 >
-> &lt;/style&gt;
+&lt;p class=&#34;inset&#34;&gt;Lorem ipsum dolor sit amet consectetur
+adipisicing elit.esentium optio, eaque rerum!&lt;/h1&gt; &lt;br&gt;
 >
-> &lt;/head&gt;
+&lt;br&gt;
 >
-> &lt;body&gt;
+[]{#_bookmark159 .anchor}&lt;p class=&#34;outset&#34;&gt;Lorem ipsum dolor sit
+amet consectetur adipisicing elit.esentium optio, eaque rerum!&lt;/h1&gt;
+&lt;br&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;br&gt;
 >
-> &lt;h1&gt; CSS Various Border style &lt;/h1&gt;
+&lt;/body&gt;
 >
-> &lt;p class=&#34;none&#34;&gt;Lorem dolor sit amet consectetur adipisicing
-> elit.esentium optio, eaque rerum!&lt;/h1&gt; &lt;br&gt;
->
-> &lt;br&gt;
->
-> &lt;p class=&#34;dotted&#34;&gt;Lorem ipsum dolor sit amet consectetur
-> adipisicing elit.esentium optio, eaque rerum!&lt;/h1&gt; &lt;br&gt;
->
-> &lt;br&gt;
->
-> &lt;p class=&#34;none&#34;&gt;Lorem dolor sit amet consectetur adipisicing
-> elit.esentium optio, eaque rerum!&lt;/h1&gt; &lt;br&gt;
->
-> &lt;br&gt;
->
-> &lt;p class=&#34;dashed&#34;&gt;Lorem ipsum dolor sit amet consectetur
-> adipisicing elit.esentium optio, eaque rerum!&lt;/h1&gt; &lt;br&gt;
->
-> &lt;br&gt;
->
-> &lt;p class=&#34;solid&#34;&gt;Lorem ipsum dolor sit amet consectetur
-> adipisicing elit.esentium optio, eaque rerum!&lt;/h1&gt; &lt;br&gt;
->
-> &lt;br&gt;
->
-> &lt;p class=&#34;double&#34;&gt;Lorem ipsum dolor sit amet consectetur
-> adipisicing elit.esentium optio, eaque rerum!&lt;/h1&gt; &lt;br&gt;
->
-> &lt;br&gt;
->
-> &lt;p class=&#34;groove&#34;&gt;Lorem ipsum dolor sit amet consectetur
-> adipisicing elit.esentium optio, eaque rerum!&lt;/h1&gt; &lt;br&gt;
->
-> &lt;br&gt;
->
-> &lt;p class=&#34;ridge&#34;&gt;Lorem ipsum dolor sit amet consectetur
-> adipisicing elit.esentium optio, eaque rerum!&lt;/h1&gt; &lt;br&gt;
->
-> &lt;br&gt;
->
-> &lt;p class=&#34;inset&#34;&gt;Lorem ipsum dolor sit amet consectetur
-> adipisicing elit.esentium optio, eaque rerum!&lt;/h1&gt; &lt;br&gt;
->
-> &lt;br&gt;
->
-> []{#_bookmark159 .anchor}&lt;p class=&#34;outset&#34;&gt;Lorem ipsum dolor sit
-> amet consectetur adipisicing elit.esentium optio, eaque rerum!&lt;/h1&gt;
-> &lt;br&gt;
->
-> &lt;br&gt;
->
-> &lt;/body&gt;
->
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-15 .unnumbered}
 
 ![](./images/image027.png){width="2.9249989063867017in"
 height="5.31in"}
 
-> CSS various border style.
+CSS various border style.
 
 ###### border-image property: The border-image CSS property speci- fies how an image is to be used in place of the border styles. This is a property for setting border-image-source, border-image- width, border-image-slice, border-image-outset, and border- image-repeat properties at once. The syntax of this property is given as:
 
-> border-image: &#91; source slice width outset repeat &#93;
+border-image: &#91; source slice width outset repeat &#93;
 >
-> &#124; initial &#124; inherit
+&#124; initial &#124; inherit
 
 ##### Example: {#example-22 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> .demo_container{ width:400px; margin:0 auto;
+.demo_container{ width:400px; margin:0 auto;
 >
-> text-align: center; justify-content: center; align-items: center;
+text-align: center; justify-content: center; align-items: center;
 >
-> }
+}
 >
-> .box {
+.box {
 >
-> width: 300px; height: 150px;
+width: 300px; height: 150px;
 >
-> border: 15px solid transparent;
+border: 15px solid transparent;
 >
-> border-image: url(&#34;/images-1.jpg&#34;) 30 30 round;
+border-image: url(&#34;/images-1.jpg&#34;) 30 30 round;
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;h1&gt; CSS border-image Property &lt;/h1&gt;
+&lt;h1&gt; CSS border-image Property &lt;/h1&gt;
 >
-> &lt;div class=&#34;box&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;box&#34;&gt;&lt;/div&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-16 .unnumbered}
 
 ![](./images/image028.png){width="2.4524989063867015in"
 height="1.4625in"}
 
-> CSS border-image property.
+CSS border-image property.
 
 ### CSS COLOR PROPERTIES {#css-color-properties .unnumbered}
 
-> The CSS color feature sets the color of the text element content. All
-> mod- ern web browsers support different colors to maintain a colorful
-> display. In CSS, colors can be represented in several ways and even
-> use a color word such as "color: blue." However, this method only
-> supports names for cer- tain colors. Therefore, in CSS, other advanced
-> methods are used to display colors such as RGB, HSL, HEX, etc.
+The CSS color feature sets the color of the text element content. All
+mod- ern web browsers support different colors to maintain a colorful
+display. In CSS, colors can be represented in several ways and even
+use a color word such as "color: blue." However, this method only
+supports names for cer- tain colors. Therefore, in CSS, other advanced
+methods are used to display colors such as RGB, HSL, HEX, etc.
 
-##### Example: {#example-23 .unnumbered}
+##### Example:
 
-> &lt;!DOCTYPE html&gt;
->
-> &lt;html&gt;
->
-> &lt;head&gt;
->
-> &lt;style&gt;
->
-> .demo_container{ width:400px; margin:0 auto;
->
-> text-align: center; justify-content: center; align-items: center;
-> color:red
->
-> }
->
-> .c1{
->
-> color: black;
->
-> }
->
-> .c2 {
->
-> []{#_bookmark162 .anchor}color:green
->
-> }
->
-> &lt;/style&gt;
->
-> &lt;/style&gt;
->
-> &lt;/head&gt;
->
-> &lt;body&gt;
->
-> &lt;div class=&#34;demo_container&#34;&gt;
->
-> &lt;h1&gt; CSS Color Propterty &lt;/h1&gt;
->
-> &lt;p class=&#34;c1&#34;&gt;Here we use color with Simple color code (Black).
-> &lt;/h1&gt; &lt;br&gt;
->
-> &lt;br&gt;
->
-> &lt;p class=&#34;c2&#34;&gt; Here we use color with Simple color code (Green).
-> &lt;/h1&gt; &lt;br&gt;
->
-> &lt;br&gt;
->
-> &lt;/body&gt;
->
-> &lt;/html&gt;
+```
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;style&gt;
+.demo_container{ width:400px; margin:0 auto;
+text-align: center; justify-content: center; align-items: center;
+color:red
+}
+.c1{
+color: black;
+}
+.c2 {
+#color:green
+}
+&lt;/style&gt;
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
+&lt;h1&gt; CSS Color Propterty &lt;/h1&gt;
+&lt;p class=&#34;c1&#34;&gt;Here we use color with Simple color code (Black).
+&lt;/h1&gt; &lt;br&gt;
+&lt;br&gt;
+&lt;p class=&#34;c2&#34;&gt; Here we use color with Simple color code (Green).
+&lt;/h1&gt; &lt;br&gt;
+&lt;br&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+```
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-17 .unnumbered}
 
 ![](./images/image029.png){width="2.5396872265966755in"
 height="0.945in"}
 
-> CSS color property (color).
+CSS color property (color).
 
 ###### RGB Colors {#rgb-colors .unnumbered}
 
-> RGB is a combination of three colors (red, green, and blue) which are
-> used in all computer programs to display colors. As we know, these are
-> the basic colors, and by combining them, we can find any color that
-> appears in the color spectrum.
+RGB is a combination of three colors (red, green, and blue) which are
+used in all computer programs to display colors. As we know, these are
+the basic colors, and by combining them, we can find any color that
+appears in the color spectrum.
 
 ##### Example: {#example-24 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
->
-> &lt;html&gt;
->
-> &lt;head&gt;
->
-> &lt;style&gt;
->
-> .demo_container{ width:400px;
->
-> []{#_bookmark164 .anchor}margin:0 auto;
->
-> text-align: center; justify-content: center; align-items: center;
->
-> }
->
-> .c1{
->
-> color: rgb(205, 92, 92) ;
->
-> }
->
-> .c2 {
->
-> color:rgb(100, 149, 237)
->
-> }
->
-> &lt;/style&gt;
->
-> &lt;/style&gt;
->
-> &lt;/head&gt;
->
-> &lt;body&gt;
->
-> &lt;div class=&#34;demo_container&#34;&gt;
->
-> &lt;h1&gt; CSS Color Property (RGB) &lt;/h1&gt;
->
-> &lt;p class=&#34;c1&#34;&gt;Here we use color with RGB color code (rgb(205, 92,
-> 92)). &lt;/h1&gt; &lt;br&gt;
->
-> &lt;br&gt;
->
-> &lt;p class=&#34;c2&#34;&gt; Here we use color with RGB color code (rgb(100,
-> 149, 237)). &lt;/h1&gt; &lt;br&gt;
->
-> &lt;br&gt;
->
-> &lt;/body&gt;
->
-> &lt;/html&gt;
+```
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;style&gt;
+.demo_container{ width:400px;
+[]{#_bookmark164 .anchor}margin:0 auto;
+text-align: center; justify-content: center; align-items: center;
+}
+.c1{
+color: rgb(205, 92, 92) ;
+}
+.c2 {
+color:rgb(100, 149, 237)
+}
+&lt;/style&gt;
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
+&lt;h1&gt; CSS Color Property (RGB) &lt;/h1&gt;
+&lt;p class=&#34;c1&#34;&gt;Here we use color with RGB color code (rgb(205, 92,
+92)). &lt;/h1&gt; &lt;br&gt;
+&lt;br&gt;
+&lt;p class=&#34;c2&#34;&gt; Here we use color with RGB color code (rgb(100,
+149, 237)). &lt;/h1&gt; &lt;br&gt;
+&lt;br&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+```
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-18 .unnumbered}
 
 ![](./images/image030.png){width="3.06in" height="0.945in"}
 
-> []{#_bookmark165 .anchor}CSS color property (RGB).
+[]{#_bookmark165 .anchor}CSS color property (RGB).
 
 ###### RGBA Colors {#rgba-colors .unnumbered}
 
-> In CSS, RGBA is also a color display format with Alpha extension. The
-> structure of this color work is given below:
+In CSS, RGBA is also a color display format with Alpha extension. The
+structure of this color work is given below:
 >
-> rgba (Red, Green, Blue, Alpha)
+rgba (Red, Green, Blue, Alpha)
 
 ###### In this work, Alpha is used to express color blurring. In CSS opacity, the area is used to set the color brightness and its width is between 0.0 and 1.0, where 0.0 stands for absolute transparency and 1.0 represents absolute opaque. You will understand better in the example provided. {#in-this-work-alpha-is-used-to-express-color-blurring.-in-css-opacity-the-area-is-used-to-set-the-color-brightness-and-its-width-is-between-0.0-and-1.0-where-0.0-stands-for-absolute-transparency-and-1.0-represents-absolute-opaque.-you-will-understand-better-in-the-example-provided. .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> .demo_container{ width:400px; margin:0 auto;
+.demo_container{ width:400px; margin:0 auto;
 >
-> text-align: center; justify-content: center; align-items: center;
+text-align: center; justify-content: center; align-items: center;
 >
-> }
+}
 
 +------------------------------+-------------+------+-----+-------+---+
-| > .c1{                       | rgba(11,    | 156, | 49, | 0.2)  | > |
-| >                            |             |      |     |       |   |
-| > background-color:          |             |      |     |       | ; |
+| .c1{                       | rgba(11,    | 156, | 49, | 0.2)  | |
+|                            |             |      |     |       |   |
+| background-color:          |             |      |     |       | ; |
 +==============================+=============+======+=====+=======+===+
-| > }                          |             |      |     |       |   |
+| }                          |             |      |     |       |   |
 +------------------------------+-------------+------+-----+-------+---+
-| > .c2 {                      |             |      |     |       |   |
+| .c2 {                      |             |      |     |       |   |
 +------------------------------+-------------+------+-----+-------+---+
-| background-color:            | RGBA(11,    | 156, | 49, | 0.4)  | > |
+| background-color:            | RGBA(11,    | 156, | 49, | 0.4)  | |
 |                              |             |      |     |       |   |
 |                              |             |      |     |       | ; |
 +------------------------------+-------------+------+-----+-------+---+
-| > }                          |             |      |     |       |   |
+| }                          |             |      |     |       |   |
 +------------------------------+-------------+------+-----+-------+---+
-| > .c3{                       |             |      |     |       |   |
+| .c3{                       |             |      |     |       |   |
 +------------------------------+-------------+------+-----+-------+---+
-| background-color:            | rgba(11,    | 156, | 49, | 0.6)  | > |
+| background-color:            | rgba(11,    | 156, | 49, | 0.6)  | |
 |                              |             |      |     |       |   |
 |                              |             |      |     |       | ; |
 +------------------------------+-------------+------+-----+-------+---+
-| > }                          |             |      |     |       |   |
+| }                          |             |      |     |       |   |
 +------------------------------+-------------+------+-----+-------+---+
-| > .c4 {                      |             |      |     |       |   |
+| .c4 {                      |             |      |     |       |   |
 +------------------------------+-------------+------+-----+-------+---+
-| background-color:            | RGBA(11,    | 156, | 49, | 0.8)  | > |
+| background-color:            | RGBA(11,    | 156, | 49, | 0.8)  | |
 |                              |             |      |     |       |   |
 |                              |             |      |     |       | ; |
 +------------------------------+-------------+------+-----+-------+---+
-| > }                          |             |      |     |       |   |
+| }                          |             |      |     |       |   |
 +------------------------------+-------------+------+-----+-------+---+
 
-> .c5{
+.c5{
 >
-> background-color: rgba(11, 156, 49, 1) ;
+background-color: rgba(11, 156, 49, 1) ;
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;h1&gt; CSS Color Property (RGBA) &lt;/h1&gt;
+&lt;h1&gt; CSS Color Property (RGBA) &lt;/h1&gt;
 >
-> []{#_bookmark166 .anchor}&lt;p class=&#34;c1&#34;&gt;Here we use color with RGBA
-> color code (rgba(11, 156, 49, 0.2). &lt;/h1&gt; &lt;br&gt;
+[]{#_bookmark166 .anchor}&lt;p class=&#34;c1&#34;&gt;Here we use color with RGBA
+color code (rgba(11, 156, 49, 0.2). &lt;/h1&gt; &lt;br&gt;
 >
-> &lt;br&gt;
+&lt;br&gt;
 >
-> &lt;p class=&#34;c2&#34;&gt; Here we use color with RGBA color code (RGBA(11,
-> 156, 49, 0.4)). &lt;/h1&gt; &lt;br&gt;
+&lt;p class=&#34;c2&#34;&gt; Here we use color with RGBA color code (RGBA(11,
+156, 49, 0.4)). &lt;/h1&gt; &lt;br&gt;
 >
-> &lt;br&gt;
+&lt;br&gt;
 >
-> &lt;p class=&#34;c3&#34;&gt;Here we use color with RGBA color code (rgba(11,
-> 156, 49, 0.6)). &lt;/h1&gt; &lt;br&gt;
+&lt;p class=&#34;c3&#34;&gt;Here we use color with RGBA color code (rgba(11,
+156, 49, 0.6)). &lt;/h1&gt; &lt;br&gt;
 >
-> &lt;br&gt;
+&lt;br&gt;
 >
-> &lt;p class=&#34;c4&#34;&gt; Here we use color with RGBA color code RGBA(11,
-> 156, 49, 0.8) ). &lt;/h1&gt; &lt;br&gt;
+&lt;p class=&#34;c4&#34;&gt; Here we use color with RGBA color code RGBA(11,
+156, 49, 0.8) ). &lt;/h1&gt; &lt;br&gt;
 >
-> &lt;br&gt;
+&lt;br&gt;
 >
-> &lt;p class=&#34;c5&#34;&gt;Here we use color with RGBA color code (rgba(11,
-> 156, 49, 1)). &lt;/h1&gt; &lt;br&gt;
+&lt;p class=&#34;c5&#34;&gt;Here we use color with RGBA color code (rgba(11,
+156, 49, 1)). &lt;/h1&gt; &lt;br&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-19 .unnumbered}
 
 ![](./images/image031.png){width="3.1049978127734033in"
 height="2.8575in"}
 
-> []{#_bookmark167 .anchor}CSS color property (RGBA).
+[]{#_bookmark167 .anchor}CSS color property (RGBA).
 
 ###### CSS HEX Colors {#css-hex-colors .unnumbered}
 
-> CSS colors can also be defined by hexadecimal values, which is another
-> way of representing colors. In CSS, it is the most common way to
-> define
+CSS colors can also be defined by hexadecimal values, which is another
+way of representing colors. In CSS, it is the most common way to
+define
 >
-> []{#_bookmark168 .anchor}color using hexadecimal values with a "#"
-> symbol such as #RRGGBB. Although, R, G, B codes red, green, and blue,
-> respectively.
+[]{#_bookmark168 .anchor}color using hexadecimal values with a "#"
+symbol such as #RRGGBB. Although, R, G, B codes red, green, and blue,
+respectively.
 >
-> Hexadecimal numbers with a combination of 0-9 and A-F are used to
-> represent color in CSS. Some examples of HEX basic colors are given
-> below.
+Hexadecimal numbers with a combination of 0-9 and A-F are used to
+represent color in CSS. Some examples of HEX basic colors are given
+below.
 >
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> .demo_container{ width:400px; margin:0 auto;
+.demo_container{ width:400px; margin:0 auto;
 >
-> text-align: center; justify-content: center; align-items: center;
-> color:red
+text-align: center; justify-content: center; align-items: center;
+color:red
 >
-> }
+}
 >
-> .c1{
+.c1{
 >
-> color: #6495ed ;
+color: #6495ed ;
 >
-> }
+}
 >
-> .c2 {
+.c2 {
 >
-> color:#b22222
+color:#b22222
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;h1&gt; CSS Color Property (HEX) &lt;/h1&gt;
+&lt;h1&gt; CSS Color Property (HEX) &lt;/h1&gt;
 >
-> &lt;p class=&#34;c1&#34;&gt;Here we use color with HEX color code (#6495ed).
-> &lt;/h1&gt; &lt;br&gt;
+&lt;p class=&#34;c1&#34;&gt;Here we use color with HEX color code (#6495ed).
+&lt;/h1&gt; &lt;br&gt;
 >
-> &lt;br&gt;
+&lt;br&gt;
 >
-> &lt;p class=&#34;c2&#34;&gt; Here we use color with HEX color code (#b22222).
-> &lt;/h1&gt; &lt;br&gt;
+&lt;p class=&#34;c2&#34;&gt; Here we use color with HEX color code (#b22222).
+&lt;/h1&gt; &lt;br&gt;
 >
-> &lt;br&gt;
+&lt;br&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### The output of the code given below: {#the-output-of-the-code-given-below .unnumbered}
 
 ![](./images/image032.png){width="2.88in"
 height="0.9449989063867017in"}
 
-> CSS color property (HEX).
+CSS color property (HEX).
 
 ###### opacity property: The opacity property specifies the transparency of an element. The syntax of this property is given as:
 
-> opacity: alphavalue &#124; initial &#124; inherit
+```
+opacity: alphavalue &#124; initial &#124; inherit
+```
 
 ##### Example: {#example-25 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
->
-> &lt;html&gt;
->
-> &lt;head&gt;
->
-> &lt;style&gt;
->
-> .demo_container{ width:400px; margin:0 auto;
->
-> text-align: center; justify-content: center; align-items: center;
->
-> }
->
-> .c1{
->
-> opacity: 0.4;
->
-> }
->
-> img{
->
-> background-image: url(&#39;/images-1.jpg&#39;); width: &#34;300px&#34;;
->
-> height: &#34;300px&#34;; opacity: 0.5;
->
-> }
->
-> &lt;/style&gt;
->
-> &lt;/style&gt;
->
-> &lt;/head&gt;
->
-> []{#_bookmark169 .anchor}&lt;body&gt;
->
-> &lt;div class=&#34;demo_container&#34;&gt;
->
-> &lt;h1&gt; CSS Color Opacity Property &lt;/h1&gt;
->
-> &lt;h2 class=&#34;c1&#34;&gt;Here we use color with Opacity code. &lt;/h2&gt; &lt;br&gt;
->
-> &lt;img src=&#34;/images-1.jpg&#34; alt=&#34;image&#34; width=&#34;200px&#34;
-> height=&#34;200px&#34;&gt;
->
-> &lt;/body&gt;
->
-> &lt;/html&gt;
+```
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;style&gt;
+.demo_container{ width:400px; margin:0 auto;
+text-align: center; justify-content: center; align-items: center;
+}
+.c1{
+opacity: 0.4;
+}
+img{
+background-image: url(&#39;/images-1.jpg&#39;); width: &#34;300px&#34;;
+height: &#34;300px&#34;; opacity: 0.5;
+}
+&lt;/style&gt;
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
+&lt;h1&gt; CSS Color Opacity Property &lt;/h1&gt;
+&lt;h2 class=&#34;c1&#34;&gt;Here we use color with Opacity code. &lt;/h2&gt; &lt;br&gt;
+&lt;img src=&#34;/images-1.jpg&#34; alt=&#34;image&#34; width=&#34;200px&#34;
+height=&#34;200px&#34;&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+```
 
 ###### The output of the code is given below:
 
 ![](./images/image033.png){width="2.489165573053368in"
 height="2.0058333333333334in"}
 
-> CSS color opacity property.
+CSS color opacity property.
 
 ### [CSS DIMENSION PROPERTIES]{.underline}  {#css-dimension-properties .unnumbered}
 
 ###### height property: The height CSS property specifies the height of the content area of an element. The content area does not include pad- ding, borders, or margins.
 
-> The syntax of this property is given as:
+The syntax of this property is given as:
 >
-> height: length &#124; percentage &#124; auto &#124; initial &#124; inherit
+height: length &#124; percentage &#124; auto &#124; initial &#124; inherit
 
 ##### Example: {#example-26 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> .demo_container{ width:300px; margin:0 auto;
+.demo_container{ width:300px; margin:0 auto;
 >
-> text-align: center; justify-content: center; align-items: center;
+text-align: center; justify-content: center; align-items: center;
 >
-> }
+}
 >
-> .c1{
+.c1{
 >
-> background-color: palevioletred; height: 200px;
+background-color: palevioletred; height: 200px;
 >
-> width:300px;
+width:300px;
 >
-> }
+}
 >
-> img{
+img{
 >
-> background-image: url(&#39;/images-1.jpg&#39;); width: 300px;
+background-image: url(&#39;/images-1.jpg&#39;); width: 300px;
 >
-> height: 300px;
+height: 300px;
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;h1&gt; CSS Dimension Property - Height, Width &lt;/ h1&gt;
+&lt;h1&gt; CSS Dimension Property - Height, Width &lt;/ h1&gt;
 >
-> &lt;h2 class=&#34;c1&#34;&gt;Having height &#34;200&#34; and width &#34;300&#34; &lt;/h2&gt;
-> &lt;br&gt;
+&lt;h2 class=&#34;c1&#34;&gt;Having height &#34;200&#34; and width &#34;300&#34; &lt;/h2&gt;
+&lt;br&gt;
 >
-> &lt;img src=&#34;/images-1.jpg&#34; alt=&#34;image&#34; width=&#34;200px&#34;
-> height=&#34;200px&#34;&gt;
+&lt;img src=&#34;/images-1.jpg&#34; alt=&#34;image&#34; width=&#34;200px&#34;
+height=&#34;200px&#34;&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-21 .unnumbered}
 
 ![](./images/image034.png){width="1.6396872265966753in"
 height="3.6196872265966755in"}
 
-> CSS dimension property -- height, width.
+CSS dimension property -- height, width.
 
 1.  max-height and max-width property: The max-height CSS property
     specifies the maximum height of the content area of an element. This
     maximum height does not include padding, borders, or margins.
 
-> The max-width property defines the max width of the content area of an
-> element. This maximum width does not include padding, bor- ders, or
-> margins
+The max-width property defines the max width of the content area of an
+element. This maximum width does not include padding, bor- ders, or
+margins
 >
-> The syntax of this property is given as:
+The syntax of this property is given as:
 >
-> max-height: length &#124; percentage &#124; none &#124; initial
+max-height: length &#124; percentage &#124; none &#124; initial
 >
-> &#124; inherit
+&#124; inherit
 
 ###### The syntax of this property is given as: {#the-syntax-of-this-property-is-given-as .unnumbered}
 
-> max-width: length &#124; percentage &#124; none &#124; initial &#124; inherit
+max-width: length &#124; percentage &#124; none &#124; initial &#124; inherit
 
 ##### Example: {#example-27 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> .demo_container{ width:500px; height:500px; margin:0 auto;
+.demo_container{ width:500px; height:500px; margin:0 auto;
 >
-> text-align: center; justify-content: center; align-items: center;
+text-align: center; justify-content: center; align-items: center;
 >
-> }
+}
 >
-> .c1{
+.c1{
 >
-> background-color: palevioletred; max-height: 300px;
+background-color: palevioletred; max-height: 300px;
 >
-> max-width:300px;
+max-width:300px;
 >
-> }
+}
 >
-> img{
+img{
 >
-> background-image: url(&#39;/images-1.jpg&#39;); max-height: 200px;
+background-image: url(&#39;/images-1.jpg&#39;); max-height: 200px;
 >
-> max-width:300px;
+max-width:300px;
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;h1&gt; CSS Dimension Property - Height, Width
+&lt;h1&gt; CSS Dimension Property - Height, Width
 >
-> &lt;/h1&gt;
+&lt;/h1&gt;
 >
-> &lt;p class=&#34;c1&#34;&gt;Having max-height &#34;200&#34; and max-width &#34;300&#34;
-> &lt;/p&gt; &lt;br&gt;
+&lt;p class=&#34;c1&#34;&gt;Having max-height &#34;200&#34; and max-width &#34;300&#34;
+&lt;/p&gt; &lt;br&gt;
 >
-> &lt;img src=&#34;/images-1.jpg&#34; alt=&#34;image&#34; width=&#34;200px&#34;
-> height=&#34;200px&#34;&gt;
+&lt;img src=&#34;/images-1.jpg&#34; alt=&#34;image&#34; width=&#34;200px&#34;
+height=&#34;200px&#34;&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-22 .unnumbered}
 
 ![](./images/image035.png){width="4.088541119860017in"
 height="1.75in"}
 
-> CSS dimension property -- max-height, max-width.
+CSS dimension property -- max-height, max-width.
 
 ###### min-height property: The min-height CSS property specifies the minimum height of the content area of an element. This minimum height does not include padding, borders, or margins.
 
-> The syntax of this property is given as:
+The syntax of this property is given as:
 >
-> min-height: length &#124; percentage &#124; initial &#124; inherit
+min-height: length &#124; percentage &#124; initial &#124; inherit
 
 ##### Example: {#example-28 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> .demo_container{ width:800px; height:500px; margin:0 auto;
+.demo_container{ width:800px; height:500px; margin:0 auto;
 >
-> text-align: center; justify-content: center; align-items: center;
+text-align: center; justify-content: center; align-items: center;
 >
-> }
+}
 >
-> .c1{
+.c1{
 >
-> background-color: palevioletred; min-height: 200px;
+background-color: palevioletred; min-height: 200px;
 >
-> min-width:200px;
+min-width:200px;
 >
-> }
+}
 >
-> []{#_bookmark173 .anchor}img{
+[]{#_bookmark173 .anchor}img{
 >
-> background-image: url(&#39;/images-1.jpg&#39;); min-height: 200px;
+background-image: url(&#39;/images-1.jpg&#39;); min-height: 200px;
 >
-> min-width:200px;
+min-width:200px;
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;h1&gt; CSS Dimension Property - Min-Height, Min-Width &lt;/h1&gt;
+&lt;h1&gt; CSS Dimension Property - Min-Height, Min-Width &lt;/h1&gt;
 >
-> &lt;p class=&#34;c1&#34;&gt;Having min-height &#34;200&#34; and min-width &#34;300&#34;
-> &lt;/p&gt; &lt;br&gt;
+&lt;p class=&#34;c1&#34;&gt;Having min-height &#34;200&#34; and min-width &#34;300&#34;
+&lt;/p&gt; &lt;br&gt;
 >
-> &lt;img src=&#34;/images-1.jpg&#34; alt=&#34;image&#34; width=&#34;200px&#34;
-> height=&#34;200px&#34;&gt;
+&lt;img src=&#34;/images-1.jpg&#34; alt=&#34;image&#34; width=&#34;200px&#34;
+height=&#34;200px&#34;&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ### [CSS GENERATED CONTENT PROPERTIES]{.underline}  {#css-generated-content-properties .unnumbered}
 
 ###### content property: The content CSS property is used in combination with the ::before and ::after pseudo-elements to generate content in an element. The syntax of this property is given as:
 
-> content: normal &#124; none &#124; counter &#124; string &#124; url(url) &#124;
-> attr(attribute) &#124; open-quote &#124; close- quote &#124; no-open-quote &#124;
-> no-close-quote &#124; initial &#124; inherit
+content: normal &#124; none &#124; counter &#124; string &#124; url(url) &#124;
+attr(attribute) &#124; open-quote &#124; close- quote &#124; no-open-quote &#124;
+no-close-quote &#124; initial &#124; inherit
 
 ##### Example: {#example-29 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> .demo_container{ width:800px;
+.demo_container{ width:800px;
 >
-> height:500px; margin:0 auto;
+height:500px; margin:0 auto;
 >
-> text-align: center; justify-content: center; align-items: center;
+text-align: center; justify-content: center; align-items: center;
 >
-> }
+}
 >
-> .before::before{ content: &#34;Hi! &#34;; display: inline;
+.before::before{ content: &#34;Hi! &#34;; display: inline;
 >
-> background-color: rgb(211, 81, 81);
+background-color: rgb(211, 81, 81);
 >
-> }
+}
 >
-> .after::after{ content: &#34;Bye! &#34;; display: inline;
+.after::after{ content: &#34;Bye! &#34;; display: inline;
 >
-> background-color: rgb(224, 79, 79);
+background-color: rgb(224, 79, 79);
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;h1&gt; CSS Content Property &lt;/h1&gt;
+&lt;h1&gt; CSS Content Property &lt;/h1&gt;
 >
-> &lt;p class=&#34;before&#34;&gt; The text will be added before every paragraph
-> in your code &lt;/p&gt;
+&lt;p class=&#34;before&#34;&gt; The text will be added before every paragraph
+in your code &lt;/p&gt;
 >
-> &lt;p class=&#34;after&#34;&gt; The text will be added before every paragraph in
-> your code &lt;/p&gt;
+&lt;p class=&#34;after&#34;&gt; The text will be added before every paragraph in
+your code &lt;/p&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-23 .unnumbered}
 
 ![](./images/image036.png){width="3.550025153105862in"
 height="0.8843744531933508in"}
 
-> CSS content property.
+CSS content property.
 
 ###### quotes property: The quotes CSS property specifies the quotation marks for the embedded quotations. The quotes characters specified for this property are used for the open-quote and close-quote values of the content property.
 
-> The syntax of this property is given as:
+The syntax of this property is given as:
 >
-> quotes: &#91;string string&#93;one or more pairs &#124; none
+quotes: &#91;string string&#93;one or more pairs &#124; none
 >
-> &#124; initial &#124; inherit
+&#124; initial &#124; inherit
 
 ##### Example: {#example-30 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> .demo_container{ width:800px; height:500px; margin:0 auto;
+.demo_container{ width:800px; height:500px; margin:0 auto;
 >
-> text-align: center; justify-content: center; align-items: center;
+text-align: center; justify-content: center; align-items: center;
 >
-> }
+}
 >
-> q{
+q{
 >
-> quotes: &#39;&#91;&#39; &#39;&#93;&#39; &#39;&#34;&#39; &#39;&#34;&#39;;
+quotes: &#39;&#91;&#39; &#39;&#93;&#39; &#39;&#34;&#39; &#39;&#34;&#39;;
 >
-> }
+}
 >
-> .q::before {
+.q::before {
 >
-> content: open-quote;
+content: open-quote;
 >
-> }
+}
 >
-> .q::after {
+.q::after {
 >
-> content: close-quote;
+content: close-quote;
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;h1&gt; CSS Content Property &lt;/h1&gt;
+&lt;h1&gt; CSS Content Property &lt;/h1&gt;
 >
-> &lt;p class=&#34;before&#34;&gt; &lt;q&gt; The text will be added before every
-> paragraph in your code with &lt;q&gt; embedded qutations&lt;/q&gt;&lt;/q&gt;
-> &lt;/p&gt;
+&lt;p class=&#34;before&#34;&gt; &lt;q&gt; The text will be added before every
+paragraph in your code with &lt;q&gt; embedded qutations&lt;/q&gt;&lt;/q&gt;
+&lt;/p&gt;
 >
-> []{#_bookmark176 .anchor}&lt;p class=&#34;after&#34;&gt; The text will be added
-> before every paragraph in your code &lt;q&gt; embedded qutations &lt;/q&gt;
-> &lt;/p&gt;
+[]{#_bookmark176 .anchor}&lt;p class=&#34;after&#34;&gt; The text will be added
+before every paragraph in your code &lt;q&gt; embedded qutations &lt;/q&gt;
+&lt;/p&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### counter-reset property: The counter-reset CSS property is used in combination with the counter-increment property for creating auto- incrementing counters, and with the content property to display the generated counter values.
 
-> The syntax of the property is given as:
+The syntax of the property is given as:
 >
-> counter-reset: &#91; identifier integer &#93;1 or more pairs &#124; none &#124;
-> initial &#124; inherit
+counter-reset: &#91; identifier integer &#93;1 or more pairs &#124; none &#124;
+initial &#124; inherit
 
 ##### Example: {#example-31 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> .demo_container{ width:800px; height:500px; margin:0 auto;
+.demo_container{ width:800px; height:500px; margin:0 auto;
 >
-> text-align: center; justify-content: center; align-items: center;
+text-align: center; justify-content: center; align-items: center;
 >
-> }
+}
 >
-> h1 {
+h1 {
 
 }
 
-> counter-reset: category;
+counter-reset: category;
 >
-> .before::before {
+.before::before {
 >
-> counter-increment: section;
+counter-increment: section;
 >
-> content: &#34;Section &#34; counter(section) &#34;. &#34;;
+content: &#34;Section &#34; counter(section) &#34;. &#34;;
 >
-> }
+}
 >
-> .after::before {
+.after::before {
 >
-> counter-increment: category; content: counter(section) &#34;.&#34;
+counter-increment: category; content: counter(section) &#34;.&#34;
 >
-> counter(category) &#34; &#34;;
+counter(category) &#34; &#34;;
 >
-> }
+}
 >
-> []{#_bookmark177 .anchor}li{
+[]{#_bookmark177 .anchor}li{
 >
-> list-style-type: none;
+list-style-type: none;
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;h1&gt; CSS Counter Reset Property &lt;/h1&gt;
+&lt;h1&gt; CSS Counter Reset Property &lt;/h1&gt;
 >
-> &lt;ul class=&#34;before&#34;&gt;
+&lt;ul class=&#34;before&#34;&gt;
 >
-> &lt;li&gt;A&lt;/li&gt;
+&lt;li&gt;A&lt;/li&gt;
 >
-> &lt;/ul&gt;
+&lt;/ul&gt;
 >
-> &lt;ul class=&#34;after&#34;&gt;
+&lt;ul class=&#34;after&#34;&gt;
 >
-> &lt;li&gt;B&lt;/li&gt;
+&lt;li&gt;B&lt;/li&gt;
 >
-> &lt;/ul&gt;
+&lt;/ul&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### The output of the code given below: {#the-output-of-the-code-given-below-1 .unnumbered}
 
 ![](./images/image037.png){width="3.015in"
 height="1.0462489063867018in"}
 
-> CSS counter-reset property.
+CSS counter-reset property.
 
 ### CSS FLEXIBLE BOX LAYOUT {#css-flexible-box-layout .unnumbered}
 
-> The alignment-content feature changes the behavior of the flex-wrap
-> structure. Aligns dynamic lines. Used to specify alignment between
-> lines within a flexible container. This feature describes how each
-> flexible line is aligned within the flexbox and only works if the
-> flex-wrap: wrap is used, that is, when multiple flexbox lines are
-> present.
+The alignment-content feature changes the behavior of the flex-wrap
+structure. Aligns dynamic lines. Used to specify alignment between
+lines within a flexible container. This feature describes how each
+flexible line is aligned within the flexbox and only works if the
+flex-wrap: wrap is used, that is, when multiple flexbox lines are
+present.
 >
-> List of content alignment items:
+List of content alignment items:
 
 1.  center : In this, the items are positioned at the center of the flex
     container.
@@ -5807,719 +5592,719 @@ height="1.0462489063867018in"}
 8.  Inherit : If specified, the element takes the calculated value of
     its par- ent element's align-content property.
 
-> The syntax of this property is given as:
+The syntax of this property is given as:
 >
-> align-content: center &#124; flex-start &#124; flex-end &#124; space- between &#124;
-> space-around &#124; stretch &#124; initial &#124; inherit
+align-content: center &#124; flex-start &#124; flex-end &#124; space- between &#124;
+space-around &#124; stretch &#124; initial &#124; inherit
 
 ##### Example: {#example-32 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> .flex-container { display: flex;
+.flex-container { display: flex;
 >
-> flex-flow: wrap; justify-content: center;
+flex-flow: wrap; justify-content: center;
 >
-> padding: 0;
+padding: 0;
 >
-> margin: 0;
+margin: 0;
 >
-> list-style: none;
+list-style: none;
 >
-> }
+}
 >
-> .flex-item { background: tomato; padding: 5px; width: 200px; height:
-> 150px; margin-top: 10px; line-height: 150px; color: white;
+.flex-item { background: tomato; padding: 5px; width: 200px; height:
+150px; margin-top: 10px; line-height: 150px; color: white;
 >
-> font-weight: bold; font-size: 3em; text-align: center;
+font-weight: bold; font-size: 3em; text-align: center;
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 >
-> &lt;h1&gt; CSS Flexbox Layout &lt;/h1&gt;
+&lt;h1&gt; CSS Flexbox Layout &lt;/h1&gt;
 >
-> &lt;ul class=&#34;flex-container&#34;&gt;
+&lt;ul class=&#34;flex-container&#34;&gt;
 >
-> &lt;li class=&#34;flex-item&#34;&gt;1&lt;/li&gt;
+&lt;li class=&#34;flex-item&#34;&gt;1&lt;/li&gt;
 >
-> &lt;li class=&#34;flex-item&#34;&gt;2&lt;/li&gt;
+&lt;li class=&#34;flex-item&#34;&gt;2&lt;/li&gt;
 >
-> &lt;li class=&#34;flex-item&#34;&gt;3&lt;/li&gt;
+&lt;li class=&#34;flex-item&#34;&gt;3&lt;/li&gt;
 >
-> &lt;li class=&#34;flex-item&#34;&gt;4&lt;/li&gt;
+&lt;li class=&#34;flex-item&#34;&gt;4&lt;/li&gt;
 >
-> &lt;li class=&#34;flex-item&#34;&gt;5&lt;/li&gt;
+&lt;li class=&#34;flex-item&#34;&gt;5&lt;/li&gt;
 >
-> &lt;li class=&#34;flex-item&#34;&gt;6&lt;/li&gt;
+&lt;li class=&#34;flex-item&#34;&gt;6&lt;/li&gt;
 >
-> &lt;/ul&gt;
+&lt;/ul&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-24 .unnumbered}
 
 ![](./images/image038.png){width="3.3020833333333335in"
 height="1.9791666666666667in"}
 
-> CSS Flexible Layout.
+CSS Flexible Layout.
 
 ### CSS FONT PROPERTIES {#css-font-properties .unnumbered}
 
 ###### The font property sets the style, variant, boldness, line-height, and the font family for an element's text content. It is a property for setting the individ- ual font properties, that is, font-style, font-variant, font-weight, font-size, line-height, and font-family in a single declaration. {#the-font-property-sets-the-style-variant-boldness-line-height-and-the-font-family-for-an-elements-text-content.-it-is-a-property-for-setting-the-individ--ual-font-properties-that-is-font-style-font-variant-font-weight-font-size-line-height-and-font-family-in-a-single-declaration. .unnumbered}
 
-> The syntax of the property is given as:
+The syntax of the property is given as:
 >
-> font: &#91; font-style font-variant line-height font- family &#93; &#124;
-> caption &#124; icon &#124; menu &#124; message-box &#124; small-caption &#124; status-bar
-> &#124; initial &#124; inherit
+font: &#91; font-style font-variant line-height font- family &#93; &#124;
+caption &#124; icon &#124; menu &#124; message-box &#124; small-caption &#124; status-bar
+&#124; initial &#124; inherit
 
 ##### Example: {#example-33 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> .demo_container{ width:800px; height:500px; margin:0 auto;
+.demo_container{ width:800px; height:500px; margin:0 auto;
 >
-> text-align: center; justify-content: center; align-items: center;
+text-align: center; justify-content: center; align-items: center;
 >
-> }
+}
 >
-> .before{
+.before{
 >
-> font: bold 2.5em &#34;Times New Roman&#34;, Times, serif;
+font: bold 2.5em &#34;Times New Roman&#34;, Times, serif;
 >
-> }
+}
 >
-> .after{
+.after{
 >
-> font: normal 1.2em Arial, Helvetica, sans-serif;
+font: normal 1.2em Arial, Helvetica, sans-serif;
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;h1&gt; CSS Font Property &lt;/h1&gt;
+&lt;h1&gt; CSS Font Property &lt;/h1&gt;
 >
-> []{#_bookmark181 .anchor}&lt;p class=&#34;before&#34;&gt; The text will be in
-> font ( font: bold 2.5em &#34;Times New Roman&#34;, Times, serif; ) &lt;/p&gt;
+[]{#_bookmark181 .anchor}&lt;p class=&#34;before&#34;&gt; The text will be in
+font ( font: bold 2.5em &#34;Times New Roman&#34;, Times, serif; ) &lt;/p&gt;
 >
-> &lt;p class=&#34;after&#34;&gt; The text will be in font
+&lt;p class=&#34;after&#34;&gt; The text will be in font
 >
-> ( font: normal 1.2em Arial, Helvetica, sans- serif; ) &lt;/p&gt;
+( font: normal 1.2em Arial, Helvetica, sans- serif; ) &lt;/p&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-25 .unnumbered}
 
 ![](./images/image039.png){width="2.626874453193351in"
 height="0.8268744531933508in"}
 
-> CSS font style property.
+CSS font style property.
 
 ###### font-size property: The font-size CSS property sets the font size for the element's text content. The syntax of the property is given as:
 
-> font-size: xx-small &#124; x-small &#124; small &#124; medium &#124; large &#124; x-large
-> &#124; xx-large &#124; smaller &#124; larger &#124; length &#124; percentage &#124; initial &#124;
-> inherit
+font-size: xx-small &#124; x-small &#124; small &#124; medium &#124; large &#124; x-large
+&#124; xx-large &#124; smaller &#124; larger &#124; length &#124; percentage &#124; initial &#124;
+inherit
 
 ##### Example: {#example-34 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> .demo_container{ width:400px; margin:0 auto;
+.demo_container{ width:400px; margin:0 auto;
 >
-> text-align: center; justify-content: center; align-items: center;
+text-align: center; justify-content: center; align-items: center;
 >
-> }
+}
 >
-> .a{
+.a{
 >
-> font-size: xx-small
+font-size: xx-small
 >
-> }
+}
 >
-> .b{
+.b{
 >
-> font-size: x-small
+font-size: x-small
 >
-> }
+}
 >
-> .c{
+.c{
 >
-> font-size: small
+font-size: small
 >
-> }
+}
 >
-> .d{
+.d{
 >
-> font-size: medium
+font-size: medium
 >
-> }
+}
 >
-> .e{
+.e{
 >
-> font-size: x-large
+font-size: x-large
 >
-> }
+}
 >
-> .f{
+.f{
 >
-> font-size: xx-large
+font-size: xx-large
 >
-> }
+}
 >
-> .g{
+.g{
 >
-> font-size: smaller
+font-size: smaller
 >
-> }
+}
 >
-> .h{
+.h{
 >
-> font-size: larger
+font-size: larger
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;h1&gt; CSS Font Size Property &lt;/h1&gt;
+&lt;h1&gt; CSS Font Size Property &lt;/h1&gt;
 >
-> &lt;p class=&#34;a&#34;&gt; The text will be in font ( font-size: xx-small )
-> &lt;/p&gt;
+&lt;p class=&#34;a&#34;&gt; The text will be in font ( font-size: xx-small )
+&lt;/p&gt;
 >
-> &lt;p class=&#34;b&#34;&gt; The text will be in font ( font-size: x-small )
-> &lt;/p&gt;
+&lt;p class=&#34;b&#34;&gt; The text will be in font ( font-size: x-small )
+&lt;/p&gt;
 >
-> &lt;p class=&#34;c&#34;&gt; The text will be in font ( font-size: small ) &lt;/p&gt;
+&lt;p class=&#34;c&#34;&gt; The text will be in font ( font-size: small ) &lt;/p&gt;
 >
-> &lt;p class=&#34;d&#34;&gt; The text will be in font ( font-size: xx-small )
-> &lt;/p&gt;
+&lt;p class=&#34;d&#34;&gt; The text will be in font ( font-size: xx-small )
+&lt;/p&gt;
 >
-> &lt;p class=&#34;e&#34;&gt; The text will be in font ( font-size: x-large )
-> &lt;/p&gt;
+&lt;p class=&#34;e&#34;&gt; The text will be in font ( font-size: x-large )
+&lt;/p&gt;
 >
-> &lt;p class=&#34;f&#34;&gt; The text will be in font ( font-size: xx-large )
-> &lt;/p&gt;
+&lt;p class=&#34;f&#34;&gt; The text will be in font ( font-size: xx-large )
+&lt;/p&gt;
 >
-> []{#_bookmark182 .anchor}&lt;p class=&#34;g&#34;&gt; The text will be in font (
-> font-size: smaller ) &lt;/p&gt;
+[]{#_bookmark182 .anchor}&lt;p class=&#34;g&#34;&gt; The text will be in font (
+font-size: smaller ) &lt;/p&gt;
 >
-> &lt;p class=&#34;h&#34;&gt; The text will be in font ( font-size: larger )
-> &lt;/p&gt;
+&lt;p class=&#34;h&#34;&gt; The text will be in font ( font-size: larger )
+&lt;/p&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-26 .unnumbered}
 
 ![](./images/image040.png){width="2.9446872265966753in"
 height="3.2231244531933507in"}
 
-> CSS font size property.
+CSS font size property.
 
 1.  font-size-adjust property: The CSS feature of the font size
     adjustment specifies that the font size should be selected based on
     lowercase characters than uppercase.
 
-> If the original font family selection mentioned by the author is not
-> available when font back occurs, that may result in a large or small
-> font size. The font size change feature is a way to keep text readings
-> in such a state. It does this by adjusting the font size so that the x
-> length is the same regardless of the font used.
+If the original font family selection mentioned by the author is not
+available when font back occurs, that may result in a large or small
+font size. The font size change feature is a way to keep text readings
+in such a state. It does this by adjusting the font size so that the x
+length is the same regardless of the font used.
 
 ### [CSS LIST PROPERTIES]{.underline}  {#css-list-properties .unnumbered}
 
 ###### list-style property: The list-style CSS property defines the display style for list items. It is a shorthand property for setting the indi- vidual list properties, that is, list-style-type, list-style-position, and list-style-image in a single declaration.
 
-> The syntax of the property is given as:
+The syntax of the property is given as:
 >
-> list-style: &#91; list-style-type list-style-position list-style-image &#93;
-> &#124; initial &#124; inherit
+list-style: &#91; list-style-type list-style-position list-style-image &#93;
+&#124; initial &#124; inherit
 
 ##### Example: {#example-35 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> .demo_container{ width:400px; margin:0 auto;
+.demo_container{ width:400px; margin:0 auto;
 >
-> text-align: center; justify-content: center; align-items: center;
+text-align: center; justify-content: center; align-items: center;
 >
-> }
+}
 >
-> ul {
+ul {
 
 }
 
-> list-style: circle inside;
+list-style: circle inside;
 >
-> ol {
+ol {
 >
-> list-style: upper-latin outside;
+list-style: upper-latin outside;
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;h1&gt; CSS list-style Property &lt;/h1&gt;
+&lt;h1&gt; CSS list-style Property &lt;/h1&gt;
 >
-> &lt;h2&gt; Unordered List (Inside) &lt;/h2&gt;
+&lt;h2&gt; Unordered List (Inside) &lt;/h2&gt;
 >
-> &lt;ul&gt;
+&lt;ul&gt;
 >
-> &lt;li&gt; Item 1 &lt;/li&gt;
+&lt;li&gt; Item 1 &lt;/li&gt;
 >
-> &lt;li&gt; Item 2 &lt;/li&gt;
+&lt;li&gt; Item 2 &lt;/li&gt;
 >
-> &lt;li&gt; Item 3 &lt;/li&gt;
+&lt;li&gt; Item 3 &lt;/li&gt;
 >
-> &lt;/ul&gt;
+&lt;/ul&gt;
 >
-> []{#_bookmark185 .anchor}&lt;h2&gt; Ordered List (Outside) &lt;/h2&gt;
+[]{#_bookmark185 .anchor}&lt;h2&gt; Ordered List (Outside) &lt;/h2&gt;
 >
-> &lt;ol&gt;
+&lt;ol&gt;
 >
-> &lt;li&gt; Item 1 &lt;/li&gt;
+&lt;li&gt; Item 1 &lt;/li&gt;
 >
-> &lt;li&gt; Item 2 &lt;/li&gt;
+&lt;li&gt; Item 2 &lt;/li&gt;
 >
-> &lt;li&gt; Item 3 &lt;/li&gt;
+&lt;li&gt; Item 3 &lt;/li&gt;
 >
-> &lt;/ol&gt;
+&lt;/ol&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-27 .unnumbered}
 
 ![](./images/image041.png){width="2.3146872265966754in"
 height="1.6509372265966755in"}
 
-> CSS list-style property.
+CSS list-style property.
 
 ###### list-style-type property: The list-style-type CSS property specifies the type of marker for the list-items.
 
-> list-style-type: disc &#124; circle &#124; square &#124; decimal&#124; lower-roman &#124;
-> upper-roman &#124; lower-greek &#124; lower-latin &#124; upper-latin &#124; georgian
-> &#124; lower-alpha
+list-style-type: disc &#124; circle &#124; square &#124; decimal&#124; lower-roman &#124;
+upper-roman &#124; lower-greek &#124; lower-latin &#124; upper-latin &#124; georgian
+&#124; lower-alpha
 >
-> &#124; upper-alpha &#124; none &#124; initial &#124; inherit
+&#124; upper-alpha &#124; none &#124; initial &#124; inherit
 
 ##### Example: {#example-36 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> .demo_container{ width:400px; margin:0 auto;
+.demo_container{ width:400px; margin:0 auto;
 >
-> }
+}
 
 ol {
 
-> list-style-type: decimal-leading-zero
+list-style-type: decimal-leading-zero
 >
-> inside;
+inside;
 >
-> }
+}
 >
-> ul {
+ul {
 >
-> list-style-type: square;
+list-style-type: square;
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;h2&gt; Unordered List ( decimal-leading-zero inside ) &lt;/h2&gt;
+&lt;h2&gt; Unordered List ( decimal-leading-zero inside ) &lt;/h2&gt;
 >
-> &lt;ul&gt;
+&lt;ul&gt;
 >
-> &lt;li&gt; Item 1 &lt;/li&gt;
+&lt;li&gt; Item 1 &lt;/li&gt;
 >
-> &lt;li&gt; Item 2 &lt;/li&gt;
+&lt;li&gt; Item 2 &lt;/li&gt;
 >
-> &lt;li&gt; Item 3 &lt;/li&gt;
+&lt;li&gt; Item 3 &lt;/li&gt;
 >
-> &lt;/ul&gt;
+&lt;/ul&gt;
 >
-> &lt;h2&gt; Ordered List ( square ) &lt;/h2&gt;
+&lt;h2&gt; Ordered List ( square ) &lt;/h2&gt;
 >
-> &lt;ol&gt;
+&lt;ol&gt;
 >
-> &lt;li&gt; Item 1 &lt;/li&gt;
+&lt;li&gt; Item 1 &lt;/li&gt;
 >
-> &lt;li&gt; Item 2 &lt;/li&gt;
+&lt;li&gt; Item 2 &lt;/li&gt;
 >
-> &lt;li&gt; Item 3 &lt;/li&gt;
+&lt;li&gt; Item 3 &lt;/li&gt;
 >
-> &lt;/ol&gt;
+&lt;/ol&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-28 .unnumbered}
 
 ![](./images/image042.png){width="2.789054024496938in"
 height="2.1197911198600177in"}
 
-> CSS list-style-type property.
+CSS list-style-type property.
 
 ###### Here you will get various values of list-style-type property. {#here-you-will-get-various-values-of-list-style-type-property. .unnumbered}
 
-> **Value Description**
+**Value Description**
 >
-> disc circle square
+disc circle square
 >
-> The marker is a filled circle.
+The marker is a filled circle.
 >
-> The marker is a filled hollow circle.
+The marker is a filled hollow circle.
 >
-> decimal The marker is as a decimal number Beginning with 1.
+decimal The marker is as a decimal number Beginning with 1.
 >
-> decimal-leading-zero The marker is as a decimal number
+decimal-leading-zero The marker is as a decimal number
 >
-> Padded by initial zero
+Padded by initial zero
 >
-> For example, 01, 02, 03, &#8230; 10, 11
+For example, 01, 02, 03, &#8230; 10, 11
 >
-> lower-greek The marker is a lowercase Greek letters alpha, beta,
-> gamma, &#8230;
+lower-greek The marker is a lowercase Greek letters alpha, beta,
+gamma, &#8230;
 >
-> For example, α, β, γ, &#8230;
+For example, α, β, γ, &#8230;
 >
-> upper-roman The marker is as uppercase Roman numerals
+upper-roman The marker is as uppercase Roman numerals
 >
-> For example, I, II, III, IV, V, &#8230;
+For example, I, II, III, IV, V, &#8230;
 >
-> lower-roman The marker is as lowercase Roman numerals
+lower-roman The marker is as lowercase Roman numerals
 >
-> For example, i, ii, iii, iv, v, &#8230;
+For example, i, ii, iii, iv, v, &#8230;
 >
-> lower-greek The marker is as lowercase Greek letters alpha, beta,
-> gamma, &#8230;
+lower-greek The marker is as lowercase Greek letters alpha, beta,
+gamma, &#8230;
 >
-> For example, α, β, γ, &#8230;
+For example, α, β, γ, &#8230;
 >
-> lower-Latin The marker is as lowercase Latin letters For example, a,
-> b, c, &#8230; z
+lower-Latin The marker is as lowercase Latin letters For example, a,
+b, c, &#8230; z
 >
-> upper-Latin The marker is as uppercase Latin letters
+upper-Latin The marker is as uppercase Latin letters
 >
-> For example, A, B, C, &#8230; Z
+For example, A, B, C, &#8230; Z
 >
-> lower-alpha The marker is as uppercase Latin letters For example, a,
-> b, c, &#8230; z
+lower-alpha The marker is as uppercase Latin letters For example, a,
+b, c, &#8230; z
 >
-> upper-alpha The marker is as uppercase Latin letters
+upper-alpha The marker is as uppercase Latin letters
 >
-> For example, A, B, C, &#8230; Z
+For example, A, B, C, &#8230; Z
 >
-> Armenian The marker is as traditional Armenian numbering such as
+Armenian The marker is as traditional Armenian numbering such as
 >
-> For example, ayb/ayp, ben/pen, gim/keem, &#8230;
+For example, ayb/ayp, ben/pen, gim/keem, &#8230;
 >
-> Georgian The marker is as traditional of the Georgian numbering
+Georgian The marker is as traditional of the Georgian numbering
 >
-> For example, an, ban, gan, &#8230; he, tan, in &#8230;
+For example, an, ban, gan, &#8230; he, tan, in &#8230;
 
 ###### list-style-image property: The list-style-image property specifies an image to be used as a list-item marker.
 
-> The syntax of the property is given as:
+The syntax of the property is given as:
 >
-> such as URL &#124; none &#124; initial &#124; inherit
+such as URL &#124; none &#124; initial &#124; inherit
 
 ##### Example: {#example-37 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> []{#_bookmark187 .anchor}.demo_container{ width:400px; margin:0 auto;
+[]{#_bookmark187 .anchor}.demo_container{ width:400px; margin:0 auto;
 >
-> }
+}
 >
-> ul {
+ul {
 >
-> list-style-image: url(&#34;/images-1.jpg&#34;);
+list-style-image: url(&#34;/images-1.jpg&#34;);
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;h1&gt; CSS list-style-image Property &lt;/h1&gt;
+&lt;h1&gt; CSS list-style-image Property &lt;/h1&gt;
 >
-> &lt;h2&gt; Unordered List &lt;/h2&gt;
+&lt;h2&gt; Unordered List &lt;/h2&gt;
 >
-> &lt;ul&gt;
+&lt;ul&gt;
 >
-> &lt;li&gt; Item 1 &lt;/li&gt;
+&lt;li&gt; Item 1 &lt;/li&gt;
 >
-> &lt;li&gt; Item 2 &lt;/li&gt;
+&lt;li&gt; Item 2 &lt;/li&gt;
 >
-> &lt;li&gt; Item 3 &lt;/li&gt;
+&lt;li&gt; Item 3 &lt;/li&gt;
 >
-> &lt;/ul&gt;
+&lt;/ul&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### list-style-position property: The list-style-position CSS property defines the position of the list-item marker with respect to the list item's block box. The syntax of this property is given as:
 
-> list-style-position: inside &#124; outside &#124; initial &#124; inherit
+list-style-position: inside &#124; outside &#124; initial &#124; inherit
 
 ##### Example: {#example-38 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> .demo_container{ width:400px; margin:0 auto;
+.demo_container{ width:400px; margin:0 auto;
 >
-> }
+}
 >
-> ol {
+ol {
 
 }
 
-> list-style-position: inside;
+list-style-position: inside;
 >
-> ul {
+ul {
 >
-> list-style-position: outside;
+list-style-position: outside;
 >
-> }
+}
 >
-> ol li, ul li{
+ol li, ul li{
 >
-> background: #d8bfd8;
+background: #d8bfd8;
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;h1&gt; CSS list-style-position Property &lt;/h1&gt;
+&lt;h1&gt; CSS list-style-position Property &lt;/h1&gt;
 >
-> &lt;h2&gt; List Marker Positioned Inside &lt;/h2&gt;
+&lt;h2&gt; List Marker Positioned Inside &lt;/h2&gt;
 >
-> &lt;ol&gt;
+&lt;ol&gt;
 >
-> &lt;li&gt; Item 1 &lt;/li&gt;
+&lt;li&gt; Item 1 &lt;/li&gt;
 >
-> &lt;li&gt; Item 2 &lt;/li&gt;
+&lt;li&gt; Item 2 &lt;/li&gt;
 >
-> &lt;li&gt; Item 3 &lt;/li&gt;
+&lt;li&gt; Item 3 &lt;/li&gt;
 >
-> &lt;/ol&gt;
+&lt;/ol&gt;
 >
-> &lt;h2&gt; List Marker Positioned Outside &lt;/h2&gt;
+&lt;h2&gt; List Marker Positioned Outside &lt;/h2&gt;
 >
-> &lt;ul&gt;
+&lt;ul&gt;
 >
-> &lt;li&gt; Item 1 &lt;/li&gt;
+&lt;li&gt; Item 1 &lt;/li&gt;
 >
-> &lt;li&gt; Item 2 &lt;/li&gt;
+&lt;li&gt; Item 2 &lt;/li&gt;
 >
-> &lt;li&gt; Item 3 &lt;/li&gt;
+&lt;li&gt; Item 3 &lt;/li&gt;
 >
-> &lt;/ul&gt;
+&lt;/ul&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-29 .unnumbered}
 
 ![](./images/image043.png){width="2.984583333333333in"
 height="2.3183333333333334in"}
 
-> CSS list-style-position property.
+CSS list-style-position property.
 
 ### CSS MARGIN PROPERTIES {#css-margin-properties .unnumbered}
 
 ###### The margin property sets the margin on all four sides of the element. It is a shorthand property for margin-top, margin-right, margin-bottom, and margin-left property. {#the-margin-property-sets-the-margin-on-all-four-sides-of-the-element.-it-is-a-shorthand-property-for-margin-top-margin-right-margin-bottom-and-margin-left-property. .unnumbered}
 
-> The syntax of this property is given as:
+The syntax of this property is given as:
 >
-> margin: &#91; length &#124; percentage &#124; auto &#93; 1 to 4 values
+margin: &#91; length &#124; percentage &#124; auto &#93; 1 to 4 values
 >
-> &#124; initial &#124; inherit
+&#124; initial &#124; inherit
 
 ##### Example: {#example-39 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> .demo_container{ width:600px; margin:0 auto;
+.demo_container{ width:600px; margin:0 auto;
 >
-> text-align: center; justify-content: center; border:1px solid red ;
-> align-items: center;
+text-align: center; justify-content: center; border:1px solid red ;
+align-items: center;
 >
-> }
+}
 >
-> .text-1 {
+.text-1 {
 >
-> border-style: solid;
+border-style: solid;
 >
-> margin: 25px;
+margin: 25px;
 >
-> }
+}
 >
-> .text-2{
+.text-2{
 >
-> border-style: solid;
+border-style: solid;
 >
-> margin: 20px 20px 20px 20px;
+margin: 20px 20px 20px 20px;
 >
-> }
+}
 >
-> .text-3{
+.text-3{
 >
-> border-style: solid; margin: 30px 30px;
+border-style: solid; margin: 30px 30px;
 >
-> }
+}
 >
-> .text-4{
+.text-4{
 >
-> border-style: solid; margin: 30px 0px 30px 0px ;
+border-style: solid; margin: 30px 0px 30px 0px ;
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;h1&gt;CSS margin Property &lt;/h1&gt;
+&lt;h1&gt;CSS margin Property &lt;/h1&gt;
 >
-> &lt;p class=&#34;text-1&#34;&gt; Lorem ipsum sit amet consectetur adipisicing
-> elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae
-> consequuntur voluptatum laborum numquam blanditiis harum quisquam eius
-> sed odit fugiat iusto fuga praesentium optio, eaque rerum!&lt;/h1&gt;
-> &lt;br&gt;
+&lt;p class=&#34;text-1&#34;&gt; Lorem ipsum sit amet consectetur adipisicing
+elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae
+consequuntur voluptatum laborum numquam blanditiis harum quisquam eius
+sed odit fugiat iusto fuga praesentium optio, eaque rerum!&lt;/h1&gt;
+&lt;br&gt;
 >
-> &lt;br&gt;
+&lt;br&gt;
 >
-> &lt;p class=&#34;text-2&#34;&gt; Provident similique accusantium nemo autem.
-> Veritatis obcaecati tenetur iure eius earum ut molestias architecto
-> voluptate aliquam nhil, eveniet aliquid culpa officia aut! .&lt;/p&gt;
-> &lt;br&gt;
+&lt;p class=&#34;text-2&#34;&gt; Provident similique accusantium nemo autem.
+Veritatis obcaecati tenetur iure eius earum ut molestias architecto
+voluptate aliquam nhil, eveniet aliquid culpa officia aut! .&lt;/p&gt;
+&lt;br&gt;
 >
-> &lt;br&gt;
+&lt;br&gt;
 >
-> &lt;p class=&#34;text-3&#34;&gt;Lorem ipsum dolor sit consectetur adipisicing
-> elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae
-> consequuntur voluptatum laborum numquam blanditiis harum quisquam eius
-> sed odit fugiat iusto fuga praesentium optio, eaque rerum!&lt;/h1&gt;
-> &lt;br&gt;
+&lt;p class=&#34;text-3&#34;&gt;Lorem ipsum dolor sit consectetur adipisicing
+elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae
+consequuntur voluptatum laborum numquam blanditiis harum quisquam eius
+sed odit fugiat iusto fuga praesentium optio, eaque rerum!&lt;/h1&gt;
+&lt;br&gt;
 >
-> &lt;br&gt;
+&lt;br&gt;
 >
-> &lt;p class=&#34;text-4&#34;&gt; Provident similique accusantium autem.
-> Veritatis obcaecati tenetur iure earum ut molestias architecto
-> voluptate aliquam nihil, eveniet culpa officia aut!
+&lt;p class=&#34;text-4&#34;&gt; Provident similique accusantium autem.
+Veritatis obcaecati tenetur iure earum ut molestias architecto
+voluptate aliquam nihil, eveniet culpa officia aut!
 >
-> .&lt;/p&gt;&lt;br&gt;
+.&lt;/p&gt;&lt;br&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 >
-> This notation can take one, two, three, or four whitespace-separated
-> values.
+This notation can take one, two, three, or four whitespace-separated
+values.
 
 1.  If set one value, then margin applies to all four sides.
 
@@ -6532,211 +6317,211 @@ height="2.3183333333333334in"}
 4.  If set four values, then to the top, right, bottom, left side in the
     same order.
 
-> Instead of margin, you should use other various margin-top, margin-
-> right, margin-bottom, and margin-left.
+Instead of margin, you should use other various margin-top, margin-
+right, margin-bottom, and margin-left.
 
 ##### Example: {#example-40 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> .demo_container{ width:600px; margin:0 auto;
+.demo_container{ width:600px; margin:0 auto;
 >
-> text-align: center; justify-content: center; border: 2px solid black;
-> align-items: center;
+text-align: center; justify-content: center; border: 2px solid black;
+align-items: center;
 >
-> }
+}
 >
-> .text-1 {
+.text-1 {
 >
-> border:1px solid red ; margin-top: 25px;
+border:1px solid red ; margin-top: 25px;
 >
-> }
+}
 >
-> .text-2{
+.text-2{
 >
-> border:1px solid red ; margin-right: 20px ;
+border:1px solid red ; margin-right: 20px ;
 >
-> }
+}
 >
-> .text-3{
+.text-3{
 >
-> border:1px solid red ; margin-bottom: 20px;
+border:1px solid red ; margin-bottom: 20px;
 >
-> }
+}
 >
-> .text-4{
+.text-4{
 >
-> border:1px solid red ;
+border:1px solid red ;
 >
-> margin-left: 30px ;
+margin-left: 30px ;
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;h1&gt; CSS margin - Property (margin top, margin right, margin-bottom,
-> margin-left) &lt;/h1&gt;
+&lt;h1&gt; CSS margin - Property (margin top, margin right, margin-bottom,
+margin-left) &lt;/h1&gt;
 >
-> &lt;p class=&#34;text-1&#34;&gt;Lorem dolor sit amet consectetur adipisicing
-> elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae
-> consequuntur voluptatum laborum numquam blanditiis harum quisquam eius
-> sed odit fugiat iusto fuga praesentium optio, eaque rerum!&lt;/h1&gt;
-> &lt;br&gt;
+&lt;p class=&#34;text-1&#34;&gt;Lorem dolor sit amet consectetur adipisicing
+elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae
+consequuntur voluptatum laborum numquam blanditiis harum quisquam eius
+sed odit fugiat iusto fuga praesentium optio, eaque rerum!&lt;/h1&gt;
+&lt;br&gt;
 >
-> &lt;br&gt;
+&lt;br&gt;
 >
-> &lt;p class=&#34;text-2&#34;&gt; Provident similique accusantium nemo autem.
-> obcaecati tenetur iure eius earum ut molestias architecto voluptate
-> aliquam nhil, eveniet aliquid culpa officia aut!
+&lt;p class=&#34;text-2&#34;&gt; Provident similique accusantium nemo autem.
+obcaecati tenetur iure eius earum ut molestias architecto voluptate
+aliquam nhil, eveniet aliquid culpa officia aut!
 >
-> .&lt;/p&gt; &lt;br&gt;
+.&lt;/p&gt; &lt;br&gt;
 >
-> &lt;br&gt;
+&lt;br&gt;
 >
-> &lt;p class=&#34;text-3&#34;&gt;Lorem ipsum dolor sit amet consectetur
-> adipisicing. Maxime mollitia, molestiae quas vel sint commodi
-> repudiandae consequuntur voluptatum laborum numquam blanditiis harum
-> quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque
-> rerum!&lt;/h1&gt; &lt;br&gt;
+&lt;p class=&#34;text-3&#34;&gt;Lorem ipsum dolor sit amet consectetur
+adipisicing. Maxime mollitia, molestiae quas vel sint commodi
+repudiandae consequuntur voluptatum laborum numquam blanditiis harum
+quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque
+rerum!&lt;/h1&gt; &lt;br&gt;
 >
-> &lt;br&gt;
+&lt;br&gt;
 >
-> &lt;p class=&#34;text-4&#34;&gt; Provident similique accusantium nemo autem.
-> Veritatis tenetur iure eius earum ut molestias architecto voluptate
-> aliquam nihil, eveniet aliquid culpa officia aut!
+&lt;p class=&#34;text-4&#34;&gt; Provident similique accusantium nemo autem.
+Veritatis tenetur iure eius earum ut molestias architecto voluptate
+aliquam nihil, eveniet aliquid culpa officia aut!
 >
-> .&lt;/p&gt;&lt;br&gt;
+.&lt;/p&gt;&lt;br&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-30 .unnumbered}
 
 ![](./images/image044.png){width="4.4128116797900265in"
 height="3.5521872265966756in"}
 
-> CSS margin -- property (margin-top, margin-right, margin-bottom,
-> margin-left).
+CSS margin -- property (margin-top, margin-right, margin-bottom,
+margin-left).
 
 ### [CSS MULTI-COLUMN LAYOUT PROPERTIES]{.underline}  {#css-multi-column-layout-properties .unnumbered}
 
 ###### CSS3 column-count property: The column count property defines the number of columns in a multi-column element.
 
-> The syntax of this Property is given as:
+The syntax of this Property is given as:
 >
-> column-count: number &#124; auto &#124; initial &#124; inherit
+column-count: number &#124; auto &#124; initial &#124; inherit
 
 ##### Example: {#example-41 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html lang=&#34;en&#34;&gt;
+&lt;html lang=&#34;en&#34;&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;meta charset=&#34;utf-8&#34;&gt;
+&lt;meta charset=&#34;utf-8&#34;&gt;
 >
-> &lt;title&gt;Example of CSS3 column-count Property
+&lt;title&gt;Example of CSS3 column-count Property
 >
-> &lt;/title&gt;
+&lt;/title&gt;
 >
-> &lt;style&gt; p {
+&lt;style&gt; p {
 >
-> }
+}
 >
-> column-count: 2; /&#42; Standard syntax &#42;/
+column-count: 2; /&#42; Standard syntax &#42;/
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 >
-> &lt;h1&gt; CSS3 column-count Property &lt;/h1&gt;
+&lt;h1&gt; CSS3 column-count Property &lt;/h1&gt;
 >
-> &lt;p&gt;Lorem ipsum dolor amet, adipiscing elit.
+&lt;p&gt;Lorem ipsum dolor amet, adipiscing elit.
 >
-> Ut nisi egestas suscipit gravida. Sed velit nisl, sed dui mollis,
-> porta tempus ligula. vel orci vel arcu pellentesque fermentum. Duis
-> bibendum metus arcu. Aliquam tortor vulputate, sollicitudin felis a,
-> mollis libero. Aliquam consequat sapien, id blandit lectus. ac nibh ac
-> nulla tincidunt accumsan sit amet sit amet risus. Integer id nisl
-> urna. In a elementum, auctor justo quis, tincidunt augue. Donec dui,
-> congue non neque quis, semper aliquam felis.
+Ut nisi egestas suscipit gravida. Sed velit nisl, sed dui mollis,
+porta tempus ligula. vel orci vel arcu pellentesque fermentum. Duis
+bibendum metus arcu. Aliquam tortor vulputate, sollicitudin felis a,
+mollis libero. Aliquam consequat sapien, id blandit lectus. ac nibh ac
+nulla tincidunt accumsan sit amet sit amet risus. Integer id nisl
+urna. In a elementum, auctor justo quis, tincidunt augue. Donec dui,
+congue non neque quis, semper aliquam felis.
 >
-> Praesent efficitur massa vel convallis euismod. metus lectus,
-> consectetur sit amet justo in, venenatis faucibus nunc. Aenean
-> faucibus, id egestas convallis, felis mattis est, in ultricies est
-> urna ac nisl.
+Praesent efficitur massa vel convallis euismod. metus lectus,
+consectetur sit amet justo in, venenatis faucibus nunc. Aenean
+faucibus, id egestas convallis, felis mattis est, in ultricies est
+urna ac nisl.
 >
-> Cras placerat quis tortor quis. Nullam imperdiet gravida velit eget
-> sollicitudin. dictum pretium justo vel congue. Praesent auctor leo
-> maximus aliquam, eget vehicula tortor.
+Cras placerat quis tortor quis. Nullam imperdiet gravida velit eget
+sollicitudin. dictum pretium justo vel congue. Praesent auctor leo
+maximus aliquam, eget vehicula tortor.
 >
-> Vestibulum finibus venenatis dui, nec lobortis mauris convallis id.
-> Maecenas porttitor erat, at vulputate eros euismod a. In aliquam,
-> dolor et bibendum consequat, eros felis ultricies lorem, ac fermentum
-> arcu metus in. Integer
+Vestibulum finibus venenatis dui, nec lobortis mauris convallis id.
+Maecenas porttitor erat, at vulputate eros euismod a. In aliquam,
+dolor et bibendum consequat, eros felis ultricies lorem, ac fermentum
+arcu metus in. Integer
 >
-> sapien a porta, et suscipit sapien sollicitudin. Maecenas vel
-> hendrerit. Curabitur convallis interdum ornare. Curabitur justo nibh,
-> pretium ac vitae, consectetur sit amet orci. Nunc non enim non ligula
-> efficitur venenatis et at metus. Duis turpis velit, lacinia interdum
-> purus ac, venenatis semper lacus. mattis fermentum odio ut suscipit.
+sapien a porta, et suscipit sapien sollicitudin. Maecenas vel
+hendrerit. Curabitur convallis interdum ornare. Curabitur justo nibh,
+pretium ac vitae, consectetur sit amet orci. Nunc non enim non ligula
+efficitur venenatis et at metus. Duis turpis velit, lacinia interdum
+purus ac, venenatis semper lacus. mattis fermentum odio ut suscipit.
 >
-> vehicula lobortis diam et pretium. Duis in aliquet tellus. Phasellus
-> tincidunt odio id faucibus malesuada. Cum sociis natoiique penatibus
-> et magnis dis montes, nascetur ridiculus mus. Integer euismod porta
-> nibh sit amet efficitur. Phasellus blandit porta vulputate. Proin
-> placerat efficitur cursus.
+vehicula lobortis diam et pretium. Duis in aliquet tellus. Phasellus
+tincidunt odio id faucibus malesuada. Cum sociis natoiique penatibus
+et magnis dis montes, nascetur ridiculus mus. Integer euismod porta
+nibh sit amet efficitur. Phasellus blandit porta vulputate. Proin
+placerat efficitur cursus.
 >
-> Fusce blandit tristique urna mollis. Duis erat, nec tellus eu, laoreet
-> augue. Maecenas in nisi mauris. In vitae justo posuere, tincidunt a,
-> ultrices dui. Sed id bibendum metus. Vestibulum at tincidunt felis, in
-> efficitur libero.
+Fusce blandit tristique urna mollis. Duis erat, nec tellus eu, laoreet
+augue. Maecenas in nisi mauris. In vitae justo posuere, tincidunt a,
+ultrices dui. Sed id bibendum metus. Vestibulum at tincidunt felis, in
+efficitur libero.
 >
-> Mauris risus non condimentum gravida. sed dictum augue, sit amet
-> sollicitudin massa. sed hendrerit nisi. Nulla eget lacinia tortor, id
-> sollicitudin risus. In hac habitasse platea dictumst. Mauris lorem
-> dui, venenatis et massa eget, auctor risus. Nulla congue bibendum
-> hendrerit. Phasellus nec lorem in ipsum scelerisque. Duis quis massa
-> metus. Pellentesque commodo metus non bibendum aliquet. Duis
-> pellentesque tempus posuere. interdum massa vel sodales.
+Mauris risus non condimentum gravida. sed dictum augue, sit amet
+sollicitudin massa. sed hendrerit nisi. Nulla eget lacinia tortor, id
+sollicitudin risus. In hac habitasse platea dictumst. Mauris lorem
+dui, venenatis et massa eget, auctor risus. Nulla congue bibendum
+hendrerit. Phasellus nec lorem in ipsum scelerisque. Duis quis massa
+metus. Pellentesque commodo metus non bibendum aliquet. Duis
+pellentesque tempus posuere. interdum massa vel sodales.
 >
-> Curabitur feugiat, magna quis ultricies, felis leo varius nulla, ut
-> blandit libero quis. Morbi sollicitudin odio purus, ut mauris feugiat
-> sit amet. placerat scelerisque turpis. erat.
+Curabitur feugiat, magna quis ultricies, felis leo varius nulla, ut
+blandit libero quis. Morbi sollicitudin odio purus, ut mauris feugiat
+sit amet. placerat scelerisque turpis. erat.
 >
-> Vestibulum blandit vitae a sodales. Integer semper tristique risus
-> eget lobortis. luctus sed justo vel. Nunc sit nulla eu est fringilla
-> euismod sed orci. Sed massa lorem, blandit sed massa, condimentum
-> ornare purus.&lt;/p&gt;
+Vestibulum blandit vitae a sodales. Integer semper tristique risus
+eget lobortis. luctus sed justo vel. Nunc sit nulla eu est fringilla
+euismod sed orci. Sed massa lorem, blandit sed massa, condimentum
+ornare purus.&lt;/p&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-31 .unnumbered}
 
 ![](./images/image045.png){width="2.9006211723534556in"
 height="2.7056244531933507in"}
 
-> CSS3 column-count property.
+CSS3 column-count property.
 >
-> The column count property is as follows:
+The column count property is as follows:
 
 i.  number It specifies the number of columns in the multi-col- umn
     element. If the column width is also set to a non auto value, it may
@@ -6755,208 +6540,208 @@ ii. auto It is determined by other CSS properties, like column- width.
     height or, just take up the room as much as the content needed, when
     using the value auto.
 
-> The syntax of this Property is given as:
+The syntax of this Property is given as:
 >
-> column-fill: auto &#124; balance &#124; initial &#124; inherit
+column-fill: auto &#124; balance &#124; initial &#124; inherit
 
 ##### Example: {#example-42 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html lang=&#34;en&#34;&gt;
+&lt;html lang=&#34;en&#34;&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;meta charset=&#34;utf-8&#34;&gt;
+&lt;meta charset=&#34;utf-8&#34;&gt;
 >
-> &lt;title&gt;Example of CSS3 column-fill Property&lt;/ title&gt;
+&lt;title&gt;Example of CSS3 column-fill Property&lt;/ title&gt;
 >
-> &lt;style&gt; p.columns {
+&lt;style&gt; p.columns {
 >
-> column-count: 4; column-fill: auto;
+column-count: 4; column-fill: auto;
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 >
-> &lt;h1&gt; CSS column-fill property &lt;/h1&gt;
+&lt;h1&gt; CSS column-fill property &lt;/h1&gt;
 >
-> &lt;p class=&#34;columns&#34;&gt;Lorem ipsum sit amet, consectetur adipiscing
-> elit. Ut bibendum nisi egestas suscipit. Sed velit, tristique sed dui
-> mollis, tempus ligula. Phasellus vel orci vel arcu pellentesque. Duis
-> bibendum metus arcu. eget tortor vulputate, felis a, mollis libero.
+&lt;p class=&#34;columns&#34;&gt;Lorem ipsum sit amet, consectetur adipiscing
+elit. Ut bibendum nisi egestas suscipit. Sed velit, tristique sed dui
+mollis, tempus ligula. Phasellus vel orci vel arcu pellentesque. Duis
+bibendum metus arcu. eget tortor vulputate, felis a, mollis libero.
 >
-> Aliquam vitae consequat sapien, id blandit lectus. Integer ac nibh
-> nulla tincidunt sit sit amet risus. Integer id nisl urna. In a enim
-> elementum, auctor quis, tincidunt augue. Donec
+Aliquam vitae consequat sapien, id blandit lectus. Integer ac nibh
+nulla tincidunt sit sit amet risus. Integer id nisl urna. In a enim
+elementum, auctor quis, tincidunt augue. Donec
 >
-> nibh dui, non neque quis, semper aliquam felis. Praesent efficitur vel
-> convallis euismod. metus lectus, sit amet justo in, venenatis faucibus
-> nunc. Aenean faucibus, enim id egestas convallis, felis mattis est, in
-> ultricies est urna ac nisl.
+nibh dui, non neque quis, semper aliquam felis. Praesent efficitur vel
+convallis euismod. metus lectus, sit amet justo in, venenatis faucibus
+nunc. Aenean faucibus, enim id egestas convallis, felis mattis est, in
+ultricies est urna ac nisl.
 >
-> Cras placerat quis tortor quis molestie. imperdiet gravida velit eget
-> sollicitudin. Nunc dictum pretium justo vel congue. Praesent auctor
-> leo maximus leo aliquam, eget vehicula tortor tincidunt. finibus
-> venenatis dui, nec lobortis mauris convallis id. Maecenas porttitor
-> erat tellus, at vulputate eros euismod a. In aliquam, dolor et
-> bibendum, eros felis ultricies lorem, ac fermentum arcu metus in
-> magna. Integer auctor sapien a massa porta, et suscipit sapien
-> sollicitudin. Maecenas vel hendrerit nibh.
+Cras placerat quis tortor quis molestie. imperdiet gravida velit eget
+sollicitudin. Nunc dictum pretium justo vel congue. Praesent auctor
+leo maximus leo aliquam, eget vehicula tortor tincidunt. finibus
+venenatis dui, nec lobortis mauris convallis id. Maecenas porttitor
+erat tellus, at vulputate eros euismod a. In aliquam, dolor et
+bibendum, eros felis ultricies lorem, ac fermentum arcu metus in
+magna. Integer auctor sapien a massa porta, et suscipit sapien
+sollicitudin. Maecenas vel hendrerit nibh.
 >
-> Curabitur convallis interdum ornare. Curabitur justo nibh, pretium ac
-> convallis vitae, consectetur sit amet orci. Nunc non enim non
+Curabitur convallis interdum ornare. Curabitur justo nibh, pretium ac
+convallis vitae, consectetur sit amet orci. Nunc non enim non
 >
-> ligula efficitur venenatis et at metus. Duis turpis velit, lacinia
-> interdum ac, venenatis semper lacus. Aenean mattis fermentum odio ut
-> suscipit.
+ligula efficitur venenatis et at metus. Duis turpis velit, lacinia
+interdum ac, venenatis semper lacus. Aenean mattis fermentum odio ut
+suscipit.
 >
-> Vestibulum vehicula diam et pretium. Duis in aliquet tellus. Phasellus
-> tincidunt odio id faucibus malesuada. Cum sociis natoque penatibus et
-> parturient montes, nascetur ridiculus mus.
+Vestibulum vehicula diam et pretium. Duis in aliquet tellus. Phasellus
+tincidunt odio id faucibus malesuada. Cum sociis natoque penatibus et
+parturient montes, nascetur ridiculus mus.
 >
-> Integer euismod porta nibh sit amet efficitur. Phasellus blandit porta
-> vulputate. Proin placerat efficitur cursus. Fusce blandit tristique
-> urna quis mollis. Duis erat lectus, gravida nec tellus eu, cursus
-> laoreet augue. in nisi. In vitae justo posuere, tincidunt neque a,
-> ultrices dui. Sed id bibendum metus.
+Integer euismod porta nibh sit amet efficitur. Phasellus blandit porta
+vulputate. Proin placerat efficitur cursus. Fusce blandit tristique
+urna quis mollis. Duis erat lectus, gravida nec tellus eu, cursus
+laoreet augue. in nisi. In vitae justo posuere, tincidunt neque a,
+ultrices dui. Sed id bibendum metus.
 >
-> Vestibulum at tincidunt felis, in efficitur libero.
+Vestibulum at tincidunt felis, in efficitur libero.
 >
-> Mauris risus non condimentum gravida.
+Mauris risus non condimentum gravida.
 >
-> Praesent sed dictum augue, sit amet sollicitudin massa. Curabitur sed
-> hendrerit nisi. Nulla eget lacinia tortor, id sollicitudin risus. In
-> hac habitasse platea. Mauris lorem dui, venenatis et massa eget,
-> pretium auctor risus. Nulla congue hendrerit. Phasellus nec lorem in
-> ipsum facilisis scelerisque. Duis quis massa metus. commodo metus non
-> bibendum aliquet. Duis tempus posuere. Mauris interdum lobortis massa
-> vel sodales.
+Praesent sed dictum augue, sit amet sollicitudin massa. Curabitur sed
+hendrerit nisi. Nulla eget lacinia tortor, id sollicitudin risus. In
+hac habitasse platea. Mauris lorem dui, venenatis et massa eget,
+pretium auctor risus. Nulla congue hendrerit. Phasellus nec lorem in
+ipsum facilisis scelerisque. Duis quis massa metus. commodo metus non
+bibendum aliquet. Duis tempus posuere. Mauris interdum lobortis massa
+vel sodales.
 >
-> Curabitur feugiat, magna quis ultricies dignissim, felis leo varius
-> nulla, ut blandit arcu libero quis. Morbi sollicitudin odio purus, ut
-> feugiat sit amet. Fusce placerat scelerisque turpis. Aliquam erat
-> volutpat.
+Curabitur feugiat, magna quis ultricies dignissim, felis leo varius
+nulla, ut blandit arcu libero quis. Morbi sollicitudin odio purus, ut
+feugiat sit amet. Fusce placerat scelerisque turpis. Aliquam erat
+volutpat.
 >
-> Vestibulum blandit vitae erat a sodales. Integer semper tristique
-> risus eget. luctus justo vel auctor. Nunc sit amet nulla eu est
-> fringilla euismod ac orci. Sed massa lorem, blandit sed quis,
-> condimentum ornare purus.&lt;/p&gt;
+Vestibulum blandit vitae erat a sodales. Integer semper tristique
+risus eget. luctus justo vel auctor. Nunc sit amet nulla eu est
+fringilla euismod ac orci. Sed massa lorem, blandit sed quis,
+condimentum ornare purus.&lt;/p&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### The output of the code given below: {#the-output-of-the-code-given-below-2 .unnumbered}
 
 ![](./images/image046.png){width="4.42125in" height="1.17in"}
 
-> CSS column-fill property.
+CSS column-fill property.
 
 ###### column-gap property: The column-gap CSS property specifies the gap in the columns in a multi-column element. If there is a column rule between the columns, it appear in the middle of the gap.
 
-> The syntax of the property is given as:
+The syntax of the property is given as:
 >
-> column-gap: length &#124; normal &#124; initial &#124; inherit
+column-gap: length &#124; normal &#124; initial &#124; inherit
 
 ##### Example: {#example-43 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html lang=&#34;en&#34;&gt;
+&lt;html lang=&#34;en&#34;&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;meta charset=&#34;utf-8&#34;&gt;
+&lt;meta charset=&#34;utf-8&#34;&gt;
 >
-> &lt;title&gt;Example of CSS3 column-gap Property
+&lt;title&gt;Example of CSS3 column-gap Property
 >
-> &lt;/title&gt;
+&lt;/title&gt;
 >
-> &lt;style&gt; p {
+&lt;style&gt; p {
 >
-> column-count: 3; column-gap: 15px;
+column-count: 3; column-gap: 15px;
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 >
-> &lt;h1&gt; CSS3 column-gap Property &lt;/h1&gt;
+&lt;h1&gt; CSS3 column-gap Property &lt;/h1&gt;
 >
-> &lt;p&gt;Lorem ipsum dolor sit, consectetur adipiscing elit. Ut bibendum
-> nisi egestas suscipit gravida. Sed velit nisl, tristique sed dui
-> mollis, porta tempus ligula. Phasellus vel orci vel arcu pellentesque
-> fermentum. Duis bibendum metus arcu. Aliquam eget tortor vulputate,
-> sollicitudin felis a, mollis libero.
+&lt;p&gt;Lorem ipsum dolor sit, consectetur adipiscing elit. Ut bibendum
+nisi egestas suscipit gravida. Sed velit nisl, tristique sed dui
+mollis, porta tempus ligula. Phasellus vel orci vel arcu pellentesque
+fermentum. Duis bibendum metus arcu. Aliquam eget tortor vulputate,
+sollicitudin felis a, mollis libero.
 >
-> Aliquam vitae consequat sapien, id blandit lectus. Integer ac nibh ac
-> nulla tincidunt accumsan sit amet sit amet risus. Integer id nisl
-> urna. In a enim elementum, auctor justo quis, tincidunt augue. Donec
-> nibh dui, congue non neque quis, semper aliquam felis. Praesent
-> efficitur massa vel convallis euismod. Quisque metus lectus,
-> consectetur sit amet justo in, venenatis faucibus nunc. Aenean
-> faucibus, enim id egestas convallis, felis magna mattis est, in
-> ultricies est urna ac nisl.
+Aliquam vitae consequat sapien, id blandit lectus. Integer ac nibh ac
+nulla tincidunt accumsan sit amet sit amet risus. Integer id nisl
+urna. In a enim elementum, auctor justo quis, tincidunt augue. Donec
+nibh dui, congue non neque quis, semper aliquam felis. Praesent
+efficitur massa vel convallis euismod. Quisque metus lectus,
+consectetur sit amet justo in, venenatis faucibus nunc. Aenean
+faucibus, enim id egestas convallis, felis magna mattis est, in
+ultricies est urna ac nisl.
 >
-> Cras placerat quis tortor quis molestie.
+Cras placerat quis tortor quis molestie.
 >
-> Nullam imperdiet gravida velit eget sollicitudin. Nunc dictum pretium
-> justo vel congue. Praesent auctor leo maximus leo aliquam, eget
-> vehicula tortor tincidunt. Vestibulum finibus venenatis dui, nec
-> lobortis mauris convallis id. Maecenas porttitor erat tellus, at
-> vulputate eros euismod a. In aliquam, dolor et bibendum consequat,
-> eros felis ultricies lorem, ac fermentum arcu metus in magna. Integer
-> auctor sapien a massa porta, et suscipit sapien sollicitudin. Maecenas
-> vel hendrerit nibh.
+Nullam imperdiet gravida velit eget sollicitudin. Nunc dictum pretium
+justo vel congue. Praesent auctor leo maximus leo aliquam, eget
+vehicula tortor tincidunt. Vestibulum finibus venenatis dui, nec
+lobortis mauris convallis id. Maecenas porttitor erat tellus, at
+vulputate eros euismod a. In aliquam, dolor et bibendum consequat,
+eros felis ultricies lorem, ac fermentum arcu metus in magna. Integer
+auctor sapien a massa porta, et suscipit sapien sollicitudin. Maecenas
+vel hendrerit nibh.
 >
-> Curabitur convallis interdum ornare. Curabitur justo nibh, pretium ac
-> convallis vitae, consectetur sit amet orci. Nunc non enim non ligula
-> efficitur venenatis et at metus. Duis turpis velit, lacinia interdum
-> purus ac, venenatis semper lacus. Aenean mattis fermentum odio ut
-> suscipit.
+Curabitur convallis interdum ornare. Curabitur justo nibh, pretium ac
+convallis vitae, consectetur sit amet orci. Nunc non enim non ligula
+efficitur venenatis et at metus. Duis turpis velit, lacinia interdum
+purus ac, venenatis semper lacus. Aenean mattis fermentum odio ut
+suscipit.
 >
-> Vestibulum vehicula lobortis diam et pretium. Duis in aliquet tellus.
-> Phasellus tincidunt odio id faucibus malesuada. Cum sociis natoque et
-> magnis diss parturient montes, nascetur ridiculus mus. Integer euismod
-> porta nibh sit amet efficitur. Phasellus porta vulputate. Proin
-> placerat efficitur cursus. blandit tristique urna quis mollis. Duis
-> erat lectus, gravida nec tellus eu, cursus laoreet.
+Vestibulum vehicula lobortis diam et pretium. Duis in aliquet tellus.
+Phasellus tincidunt odio id faucibus malesuada. Cum sociis natoque et
+magnis diss parturient montes, nascetur ridiculus mus. Integer euismod
+porta nibh sit amet efficitur. Phasellus porta vulputate. Proin
+placerat efficitur cursus. blandit tristique urna quis mollis. Duis
+erat lectus, gravida nec tellus eu, cursus laoreet.
 >
-> Maecenas in nisi mauris. In vitae justo posuere, tincidunt neque
-> aultrices dui. Sed id bibendum
+Maecenas in nisi mauris. In vitae justo posuere, tincidunt neque
+aultrices dui. Sed id bibendum
 >
-> []{#_bookmark194 .anchor}metus. Vestibulum at tincidunt felis, in
-> efficitur libero.
+[]{#_bookmark194 .anchor}metus. Vestibulum at tincidunt felis, in
+efficitur libero.
 >
-> Mauris bibendum risus non condimentum gravida. Praesent sed dictum
-> augue, sit amet massa. Curabitur sed hendrerit nisi. Nulla eget
-> lacinia tortor, id sollicitudin risus. In hac habitasse dictumst.
-> Mauris lorem dui, venenatis et eget, pretium auctor risus. Nulla
-> congue bibendum. Phasellus nec lorem in ipsum facilisis scelerisque.
-> Duis quis massa metus.
+Mauris bibendum risus non condimentum gravida. Praesent sed dictum
+augue, sit amet massa. Curabitur sed hendrerit nisi. Nulla eget
+lacinia tortor, id sollicitudin risus. In hac habitasse dictumst.
+Mauris lorem dui, venenatis et eget, pretium auctor risus. Nulla
+congue bibendum. Phasellus nec lorem in ipsum facilisis scelerisque.
+Duis quis massa metus.
 >
-> Pellentesque commodo metus non bibendum aliquet. Duis pellentesque
-> tempus. Mauris interdum lobortis massa vel sodales.
+Pellentesque commodo metus non bibendum aliquet. Duis pellentesque
+tempus. Mauris interdum lobortis massa vel sodales.
 >
-> Curabitur feugiat, magna quis ultricies, felis leo varius nulla, ut
-> blandit libero quis urna. Morbi odio purus, ut elementum mauris sit
-> amet. Fusce placerat scelerisque. Aliquam erat volutpat. Vestibulum
-> blandit vitae erat a sodales. Integer tristique risus eget lobortis.
-> Aliquam luctus sed justo vel auctor. Nunc sit nulla eu est fringilla
-> euismod sed orci. Sed massa lorem, blandit sed massa, condimentum
-> ornare purus.&lt;/p&gt;
+Curabitur feugiat, magna quis ultricies, felis leo varius nulla, ut
+blandit libero quis urna. Morbi odio purus, ut elementum mauris sit
+amet. Fusce placerat scelerisque. Aliquam erat volutpat. Vestibulum
+blandit vitae erat a sodales. Integer tristique risus eget lobortis.
+Aliquam luctus sed justo vel auctor. Nunc sit nulla eu est fringilla
+euismod sed orci. Sed massa lorem, blandit sed massa, condimentum
+ornare purus.&lt;/p&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-32 .unnumbered}
 
@@ -6965,557 +6750,557 @@ ii. auto It is determined by other CSS properties, like column- width.
     prop- erty for setting the individual properties, that is,
     column-rule-width, column-rule-style, and column-rule-color at once.
 
-> column-rule: &#91; column-rule-width column-rule-style column-rule-color
-> &#93; &#124; initial &#124; inherit
+column-rule: &#91; column-rule-width column-rule-style column-rule-color
+&#93; &#124; initial &#124; inherit
 
 ##### Example: {#example-44 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html lang=&#34;en&#34;&gt;
+&lt;html lang=&#34;en&#34;&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;meta charset=&#34;utf-8&#34;&gt;
+&lt;meta charset=&#34;utf-8&#34;&gt;
 >
-> &lt;title&gt;Example of CSS3 column-rule Property
+&lt;title&gt;Example of CSS3 column-rule Property
 >
-> &lt;/title&gt;
+&lt;/title&gt;
 >
-> &lt;style&gt; p {
+&lt;style&gt; p {
 >
-> column-count: 3; column-gap: 100px;
+column-count: 3; column-gap: 100px;
 >
-> column-rule: 2px solid red;
+column-rule: 2px solid red;
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 >
-> &lt;h1&gt; CSS column-rule Property &lt;/h1&gt;
+&lt;h1&gt; CSS column-rule Property &lt;/h1&gt;
 >
-> &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-> bibendum nisi egestas suscipit gravida. Sed velit nisl, tristique sed
-> dui mollis, porta tempus ligula. Phasellus vel orci vel arcu
-> pellentesque fermentum. Duis bibendum metus arcu. Aliquam eget tortor
-> vulputate, sollicitudin felis a, mollis libero. Aliquam vitae
-> consequat, id blandit lectus.
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+bibendum nisi egestas suscipit gravida. Sed velit nisl, tristique sed
+dui mollis, porta tempus ligula. Phasellus vel orci vel arcu
+pellentesque fermentum. Duis bibendum metus arcu. Aliquam eget tortor
+vulputate, sollicitudin felis a, mollis libero. Aliquam vitae
+consequat, id blandit lectus.
 >
-> Integer ac nibh ac nulla tincidunt accumsan sit amet sit amet risus.
-> Integer id nisl urna. In a enim elementum, auctor justo quis,
-> tincidunt augue. Donec nibh dui, congue non neque quis, semper aliquam
-> felis. Praesent efficitur massa vel convallis euismod. metus lectus,
-> consectetur sit amet justo in, venenatis faucibus nunc. faucibus, id
-> egestas convallis, felis magna mattis est, in ultricies est urna ac
-> nisl.
+Integer ac nibh ac nulla tincidunt accumsan sit amet sit amet risus.
+Integer id nisl urna. In a enim elementum, auctor justo quis,
+tincidunt augue. Donec nibh dui, congue non neque quis, semper aliquam
+felis. Praesent efficitur massa vel convallis euismod. metus lectus,
+consectetur sit amet justo in, venenatis faucibus nunc. faucibus, id
+egestas convallis, felis magna mattis est, in ultricies est urna ac
+nisl.
 >
-> Cras placerat quis tortor quis molestie. Nullam gravida velit eget
-> sollicitudin. Nunc dictum pretium justo vel. auctor leo maximus leo
-> aliquam, eget vehicula tortor tincidunt. Vestibulum finibus venenatis
-> dui, nec lobortis mauris convallis id. Maecenas porttitor erat tellus,
-> at vulputate eros euismod a. In aliquam, et bibendum consequat, eros
-> felis ultricies lorem, ac fermentum arcu in. Integer auctor sapien a
-> massa, et suscipit sapien sollicitudin. Maecenas vel hendrerit nibh.
+Cras placerat quis tortor quis molestie. Nullam gravida velit eget
+sollicitudin. Nunc dictum pretium justo vel. auctor leo maximus leo
+aliquam, eget vehicula tortor tincidunt. Vestibulum finibus venenatis
+dui, nec lobortis mauris convallis id. Maecenas porttitor erat tellus,
+at vulputate eros euismod a. In aliquam, et bibendum consequat, eros
+felis ultricies lorem, ac fermentum arcu in. Integer auctor sapien a
+massa, et suscipit sapien sollicitudin. Maecenas vel hendrerit nibh.
 >
-> Curabitur convallis interdum ornare. Curabitur justo nibh, pretium ac
-> vitae, consectetur sit amet orci. Nunc non enim non ligula efficitur
-> venenatis et at metus. Duis turpis velit, lacinia interdum purus ac,
-> semper. Aenean mattis fermentum ut suscipit.
+Curabitur convallis interdum ornare. Curabitur justo nibh, pretium ac
+vitae, consectetur sit amet orci. Nunc non enim non ligula efficitur
+venenatis et at metus. Duis turpis velit, lacinia interdum purus ac,
+semper. Aenean mattis fermentum ut suscipit.
 >
-> Vestibulum vehicula lobortis diam et pretium. Duis in aliquet tellus.
-> Phasellus tincidunt odio id faucibus malesuada. Cum sociis natoque
-> magnis dis parturient montes, nascetur ridiculus mus. Integer porta
-> nibh sit amet efficitur. blandit porta vulputate. Proin placerat
-> efficitur cursus. Fusce blandit tristique urna quis mollisDuis erat
-> lectus, gravida nec tellus eu, cursus laoreet augue.
+Vestibulum vehicula lobortis diam et pretium. Duis in aliquet tellus.
+Phasellus tincidunt odio id faucibus malesuada. Cum sociis natoque
+magnis dis parturient montes, nascetur ridiculus mus. Integer porta
+nibh sit amet efficitur. blandit porta vulputate. Proin placerat
+efficitur cursus. Fusce blandit tristique urna quis mollisDuis erat
+lectus, gravida nec tellus eu, cursus laoreet augue.
 >
-> Maecenas in nisi mauris. In vitae justo posuere, tincidunt neque a,
-> ultrices dui. Sed id bibendum metus. Vestibulum at tincidunt felis, in
-> efficitur libero.
+Maecenas in nisi mauris. In vitae justo posuere, tincidunt neque a,
+ultrices dui. Sed id bibendum metus. Vestibulum at tincidunt felis, in
+efficitur libero.
 >
-> Mauris bibendum risus non condimentum gravida. Praesent sed dictum
-> augue, sit amet sollicitudin massa. Curabitur sed hendrerit nisi.
-> Nulla eget lacinia tortor, id sollicitudin risus. In hac habitasse
-> platea dictumst. Mauris lorem dui, venenatis et massa eget, pretium
-> auctor risus. Nulla congue bibendum hendrerit.
+Mauris bibendum risus non condimentum gravida. Praesent sed dictum
+augue, sit amet sollicitudin massa. Curabitur sed hendrerit nisi.
+Nulla eget lacinia tortor, id sollicitudin risus. In hac habitasse
+platea dictumst. Mauris lorem dui, venenatis et massa eget, pretium
+auctor risus. Nulla congue bibendum hendrerit.
 >
-> Phasellus nec lorem in ipsum facilisis scelerisque. Duis quis massa
-> metus. Pellentesque commodo metus non bibendum aliquet. Duis
-> pellentesque tempus posuere. Mauris interdum lobortis massa vel
-> sodales.
+Phasellus nec lorem in ipsum facilisis scelerisque. Duis quis massa
+metus. Pellentesque commodo metus non bibendum aliquet. Duis
+pellentesque tempus posuere. Mauris interdum lobortis massa vel
+sodales.
 >
-> Curabitur feugiat, magna quis ultricies dignissim, felis leo varius
-> nulla, ut blandit arcu libero quis urna. sollicitudin odio purus, ut
-> elementum mauris feugiat sit amet. Fusce placerat scelerisque turpis.
-> Aliquam erat volutpat. Vestibulum blandit vitae erat a.
+Curabitur feugiat, magna quis ultricies dignissim, felis leo varius
+nulla, ut blandit arcu libero quis urna. sollicitudin odio purus, ut
+elementum mauris feugiat sit amet. Fusce placerat scelerisque turpis.
+Aliquam erat volutpat. Vestibulum blandit vitae erat a.
 >
-> Integer semper tristique risus eget lobortis. Aliquam luctus sed justo
-> vel auctor. Nunc sit nulla eu est fringilla euismod sed ac. Sed
+Integer semper tristique risus eget lobortis. Aliquam luctus sed justo
+vel auctor. Nunc sit nulla eu est fringilla euismod sed ac. Sed
 >
-> []{#_bookmark195 .anchor}massa lorem, blandit sed massa quis,
-> condimentum ornare purus.&lt;/p&gt;
+[]{#_bookmark195 .anchor}massa lorem, blandit sed massa quis,
+condimentum ornare purus.&lt;/p&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### The output of the code given is below: {#the-output-of-the-code-given-is-below .unnumbered}
 
 ![](./images/image047.png){width="4.091145013123359in"
 height="1.2005205599300088in"}
 
-> CSS column-rule property.
+CSS column-rule property.
 
 ###### column-rule-width property: The column-rule width property sets the width of the rule drawn between columns in a multi-column layout.
 
-> The syntax of this property is given as:
+The syntax of this property is given as:
 >
-> column-rule-width: length &#124; medium &#124; thin &#124; thick
+column-rule-width: length &#124; medium &#124; thin &#124; thick
 >
-> &#124; initial &#124; inherit
+&#124; initial &#124; inherit
 
 ###### column-rule-style property: This Property sets the style of the rule set between columns in a multi-column layout.
 
-> The syntax of this property is given as:
+The syntax of this property is given as:
 >
-> column-rule-style: none &#124; hidden &#124;dashed &#124;dotted
+column-rule-style: none &#124; hidden &#124;dashed &#124;dotted
 >
-> &#124; solid &#124; double &#124; groove &#124; ridge &#124; inset &#124; outset
+&#124; solid &#124; double &#124; groove &#124; ridge &#124; inset &#124; outset
 >
-> &#124; initial &#124; inherit
+&#124; initial &#124; inherit
 
 ###### column-rule-color property: The column-rule-color property sets the color of all the rules drawn between columns in a multi-column layout.
 
-> The syntax of this property is given as:
+The syntax of this property is given as:
 >
-> column-rule-color: color &#124; initial &#124; inherit
+column-rule-color: color &#124; initial &#124; inherit
 
 ##### Example: {#example-45 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html lang=&#34;en&#34;&gt;
+&lt;html lang=&#34;en&#34;&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;meta charset=&#34;utf-8&#34;&gt;
+&lt;meta charset=&#34;utf-8&#34;&gt;
 >
-> &lt;title&gt; &lt;/title&gt;
+&lt;title&gt; &lt;/title&gt;
 >
-> &lt;style&gt; p {
+&lt;style&gt; p {
 >
-> column-count: 3; column-gap: 100px;
+column-count: 3; column-gap: 100px;
 >
-> column-rule-color: red; column-rule-width: 2px; column-rule-style:
-> solid;
+column-rule-color: red; column-rule-width: 2px; column-rule-style:
+solid;
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 >
-> &lt;h1&gt;
+&lt;h1&gt;
 >
-> CSS3 column-rule-width,column-rule-color, column-rule-style Property
+CSS3 column-rule-width,column-rule-color, column-rule-style Property
 >
-> &lt;/h1&gt;
+&lt;/h1&gt;
 >
-> &lt;p&gt;Lorem ipsum dolor sit amet, adipiscing elit. Ut bibendum nisi
-> egestas suscipit gravida. velit nisl, tristique sed dui mollis, porta
-> tempus ligula. Phasellus vel orci vel arcu pellentesque fermentum.
-> Duis bibendum metus arcu. Aliquam eget tortor vulputate, sollicitudin
-> a, mollis libero. Aliquam vitae sapien, id blandit lectus. Integer ac
-> nibh ac nulla tincidunt accumsan sit amet sit amet risus. Integer id
-> nisl urna. In a enim elementum, auctor justo quis, tincidunt augue.
+&lt;p&gt;Lorem ipsum dolor sit amet, adipiscing elit. Ut bibendum nisi
+egestas suscipit gravida. velit nisl, tristique sed dui mollis, porta
+tempus ligula. Phasellus vel orci vel arcu pellentesque fermentum.
+Duis bibendum metus arcu. Aliquam eget tortor vulputate, sollicitudin
+a, mollis libero. Aliquam vitae sapien, id blandit lectus. Integer ac
+nibh ac nulla tincidunt accumsan sit amet sit amet risus. Integer id
+nisl urna. In a enim elementum, auctor justo quis, tincidunt augue.
 >
-> Donec nibh dui, congue non neque quis, aliquam felis. Praesent
-> efficitur massa vel convallis euismod. Quisque metus lectus,
-> consectetur sit amet justo in, venenatis faucibus nunc. Aenean
-> faucibus, enim id egestas convallis, felis magna mattis est, in
-> ultricies est urna ac nisl.
+Donec nibh dui, congue non neque quis, aliquam felis. Praesent
+efficitur massa vel convallis euismod. Quisque metus lectus,
+consectetur sit amet justo in, venenatis faucibus nunc. Aenean
+faucibus, enim id egestas convallis, felis magna mattis est, in
+ultricies est urna ac nisl.
 >
-> Cras placerat quis tortor quis molestie.
+Cras placerat quis tortor quis molestie.
 >
-> Nullam imperdiet gravida velit eget sollicitudin. Nunc dictum pretium
-> justo vel congue. Praesent auctor leo maximus leo aliquam, eget
-> vehicula tortor tincidunt. Vestibulum finibus venenatis dui, nec
-> lobortis mauris convallis id. Maecenas porttitor erat tellus, at
+Nullam imperdiet gravida velit eget sollicitudin. Nunc dictum pretium
+justo vel congue. Praesent auctor leo maximus leo aliquam, eget
+vehicula tortor tincidunt. Vestibulum finibus venenatis dui, nec
+lobortis mauris convallis id. Maecenas porttitor erat tellus, at
 >
-> vulputate eros euismod a. In aliquam, dolor et bibendum consequat,
-> eros felis ultricies lorem, ac fermentum arcu metus in magna. Integer
-> auctor sapien a massa porta, et suscipit sapien sollicitudin. Maecenas
-> vel hendrerit nibh.
+vulputate eros euismod a. In aliquam, dolor et bibendum consequat,
+eros felis ultricies lorem, ac fermentum arcu metus in magna. Integer
+auctor sapien a massa porta, et suscipit sapien sollicitudin. Maecenas
+vel hendrerit nibh.
 >
-> Curabitur convallis interdum ornare. Curabitur justo nibh, pretium ac
-> convallis vitae, consectetur sit amet orci. Nunc non enim non ligula
-> efficitur venenatis et at metus. Duis turpis velit, lacinia interdum
-> purus ac, venenatis semper lacus. Aenean mattis fermentum odio ut
-> suscipit.
+Curabitur convallis interdum ornare. Curabitur justo nibh, pretium ac
+convallis vitae, consectetur sit amet orci. Nunc non enim non ligula
+efficitur venenatis et at metus. Duis turpis velit, lacinia interdum
+purus ac, venenatis semper lacus. Aenean mattis fermentum odio ut
+suscipit.
 >
-> Vestibulum vehicula lobortis diam et pretium. Duis in aliquet tellus.
-> Phasellus tincidunt odio id faucibus malesuada. Cum sociis natoque
-> magnis dis parturient montes, nascetur ridiculus mus. Integer euismod
-> porta nibh sit amet efficitur. Phasellus blandit porta vulputate.
-> Proin placerat efficitur cursus.
+Vestibulum vehicula lobortis diam et pretium. Duis in aliquet tellus.
+Phasellus tincidunt odio id faucibus malesuada. Cum sociis natoque
+magnis dis parturient montes, nascetur ridiculus mus. Integer euismod
+porta nibh sit amet efficitur. Phasellus blandit porta vulputate.
+Proin placerat efficitur cursus.
 >
-> Fusce blandit tristique urna quis mollis. Duis erat lectus, gravida
-> nec tellus eu, cursus laoreet augue. Maecenas in nisi mauris. In vitae
-> justo posuere, tincidunt neque a, ultrices dui. Sed id bibendum metus.
-> Vestibulum at tincidunt felis, in efficitur libero.
+Fusce blandit tristique urna quis mollis. Duis erat lectus, gravida
+nec tellus eu, cursus laoreet augue. Maecenas in nisi mauris. In vitae
+justo posuere, tincidunt neque a, ultrices dui. Sed id bibendum metus.
+Vestibulum at tincidunt felis, in efficitur libero.
 >
-> Mauris bibendum risus non condimentum gravida. Praesent sed dictum
-> augue, sit amet sollicitudin massa. Curabitur sed hendrerit nisi.
-> Nulla eget lacinia tortor, id sollicitudin risus. In hac habitasse
-> platea dictumst. Mauris lorem dui, venenatis et massa eget, pretium
-> auctor risus. Nulla congue bibendum hendrerit.
+Mauris bibendum risus non condimentum gravida. Praesent sed dictum
+augue, sit amet sollicitudin massa. Curabitur sed hendrerit nisi.
+Nulla eget lacinia tortor, id sollicitudin risus. In hac habitasse
+platea dictumst. Mauris lorem dui, venenatis et massa eget, pretium
+auctor risus. Nulla congue bibendum hendrerit.
 >
-> Phasellus nec lorem in ipsum facilisis scelerisque. Duis quis massa
-> metus. Pellentesque commodo metus non bibendum aliquet. Duis
-> pellentesque tempus posuere. Mauris interdum lobortis massa vel
-> sodales.
+Phasellus nec lorem in ipsum facilisis scelerisque. Duis quis massa
+metus. Pellentesque commodo metus non bibendum aliquet. Duis
+pellentesque tempus posuere. Mauris interdum lobortis massa vel
+sodales.
 >
-> Curabitur feugiat, magna quis ultricies dignissim, felis leo varius
-> nulla, ut blandit arcu libero quis urna. Morbi sollicitudin odio
+Curabitur feugiat, magna quis ultricies dignissim, felis leo varius
+nulla, ut blandit arcu libero quis urna. Morbi sollicitudin odio
 >
-> []{#_bookmark196 .anchor}purus, ut elementum mauris feugiat sit amet.
-> Fusce placerat scelerisque turpis. erat volutpat. Vestibulum blandit
-> vitae erat a sodales. Integer semper tristique risus eget lobortis.
-> Aliquam luctus sed justo vel auctor. Nunc sit amet nulla eu est
-> fringilla euismod sed ac orci. Sed massa lorem, blandit sed massa
-> quis, condimentum ornare purus.&lt;/p&gt;
+[]{#_bookmark196 .anchor}purus, ut elementum mauris feugiat sit amet.
+Fusce placerat scelerisque turpis. erat volutpat. Vestibulum blandit
+vitae erat a sodales. Integer semper tristique risus eget lobortis.
+Aliquam luctus sed justo vel auctor. Nunc sit amet nulla eu est
+fringilla euismod sed ac orci. Sed massa lorem, blandit sed massa
+quis, condimentum ornare purus.&lt;/p&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-33 .unnumbered}
 
 ![](./images/image048.png){width="4.415624453193351in"
 height="1.2909372265966754in"}
 
-> CSS various column property.
+CSS various column property.
 
 ### [CSS OUTLINE PROPERTIES]{.underline}  {#css-outline-properties .unnumbered}
 
 ###### outline property: The outline property sets the width, style, and color for all four sides of an element's outline. It is a property for set- ting the individual outline, that is, outline-width, outline-style, and outline-color in a single declaration.
 
-> The syntax of this property is given as:
+The syntax of this property is given as:
 >
-> outline: &#91; outline-width outline-style outline- color &#93; &#124; initial
-> &#124; inherit
+outline: &#91; outline-width outline-style outline- color &#93; &#124; initial
+&#124; inherit
 
 ##### Example: {#example-46 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html lang=&#34;en&#34;&gt;
+&lt;html lang=&#34;en&#34;&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;meta charset=&#34;utf-8&#34;&gt;
+&lt;meta charset=&#34;utf-8&#34;&gt;
 >
-> &lt;title&gt; &lt;/title&gt;
+&lt;title&gt; &lt;/title&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> .demo_container{ width:500px; margin:0 auto;
+.demo_container{ width:500px; margin:0 auto;
 >
-> text-align: center; justify-content: center; align-items: center;
+text-align: center; justify-content: center; align-items: center;
 >
-> }
+}
 >
-> p.one {
+p.one {
 >
-> outline: 5px solid #ff0000;
+outline: 5px solid #ff0000;
 >
-> }
+}
 >
-> p.two {
+p.two {
 >
-> color: #00ff00; outline: 5px solid;
+color: #00ff00; outline: 5px solid;
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;h1&gt;
+&lt;h1&gt;
 >
-> CSS outline Property
+CSS outline Property
 >
-> &lt;/h1&gt;
+&lt;/h1&gt;
 >
-> &lt;p class=&#34;one&#34;&gt;Lorem ipsum sit amet, consectetur adipiscing elit.
-> Ut nisi egestas suscipit
+&lt;p class=&#34;one&#34;&gt;Lorem ipsum sit amet, consectetur adipiscing elit.
+Ut nisi egestas suscipit
 >
-> gravida. Sed velit nisl, sed dui, porta tempus ligula.
+gravida. Sed velit nisl, sed dui, porta tempus ligula.
 >
-> Phasellus vel arcu .Duis bibendum metus
+Phasellus vel arcu .Duis bibendum metus
 >
-> arcu.
+arcu.
 >
-> &lt;/p&gt;
+&lt;/p&gt;
 >
-> &lt;p class=&#34;two&#34;&gt;
+&lt;p class=&#34;two&#34;&gt;
 >
-> Lorem ipsum dolor amet, consectetur
+Lorem ipsum dolor amet, consectetur
 >
-> adipiscing elit. Ut bibendum nisi egestas suscipit
+adipiscing elit. Ut bibendum nisi egestas suscipit
 >
-> .Sed velit nisl, tristique sed dui, porta tempus ligula.
+.Sed velit nisl, tristique sed dui, porta tempus ligula.
 >
-> Phasellus vel orci vel arcu fermentum.
+Phasellus vel orci vel arcu fermentum.
 >
-> Duis bibendum metus arcu.
+Duis bibendum metus arcu.
 >
-> &lt;/p&gt;
+&lt;/p&gt;
 >
-> &lt;/p&gt;
+&lt;/p&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-34 .unnumbered}
 
 ![](./images/image049.png){width="3.7734372265966756in"
 height="1.61in"}
 
-> CSS outline property.
+CSS outline property.
 
 ###### outline-width property: The outline-width CSS property sets the width of the outline of an element. However, in many cases the shorthand CSS properties outline is more convenient to use and preferable.
 
-> The syntax of the property is given as:
+The syntax of the property is given as:
 >
-> outline-width: thin &#124; medium &#124; thick &#124; length &#124; initial &#124; inherit
+outline-width: thin &#124; medium &#124; thick &#124; length &#124; initial &#124; inherit
 
 ###### outline-style property: The outline style property sets style of the outline of an element. However, in many cases the shorthand prop- erties outline is more convenient to use and preferable.
 
-> The syntax of this property is given as:
+The syntax of this property is given as:
 >
-> outline-style: none &#124; dotted &#124; dashed &#124; double &#124; groove &#124; ridge
-> &#124; inset &#124; outset &#124; initial &#124; inherit
+outline-style: none &#124; dotted &#124; dashed &#124; double &#124; groove &#124; ridge
+&#124; inset &#124; outset &#124; initial &#124; inherit
 
 ##### Example: {#example-47 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html lang=&#34;en&#34;&gt;
+&lt;html lang=&#34;en&#34;&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;meta charset=&#34;utf-8&#34;&gt;
+&lt;meta charset=&#34;utf-8&#34;&gt;
 >
-> &lt;title&gt; &lt;/title&gt;
+&lt;title&gt; &lt;/title&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> .demo_container{ width:500px; margin:0 auto;
+.demo_container{ width:500px; margin:0 auto;
 >
-> text-align: center; justify-content: center; align-items: center;
+text-align: center; justify-content: center; align-items: center;
 >
-> }
+}
 >
-> p.one {
+p.one {
 >
-> outline-style: dotted; outline-width: thick;
+outline-style: dotted; outline-width: thick;
 >
-> }
+}
 >
-> p.two {
+p.two {
 >
-> outline-style: dotted; outline-width: medium;
+outline-style: dotted; outline-width: medium;
 >
-> }
+}
 >
-> p.three {
+p.three {
 >
-> outline-color: red; outline-style: dotted; outline-width: thin ;
+outline-color: red; outline-style: dotted; outline-width: thin ;
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;h1&gt;
+&lt;h1&gt;
 >
-> CSS outline-width Property
+CSS outline-width Property
 >
-> &lt;/h1&gt;
+&lt;/h1&gt;
 >
-> &lt;p class=&#34;one&#34;&gt;Lorem ipsum dolor sit, consectetur adipiscing elit.
-> Ut bibendum nisi egestas suscipit
+&lt;p class=&#34;one&#34;&gt;Lorem ipsum dolor sit, consectetur adipiscing elit.
+Ut bibendum nisi egestas suscipit
 >
-> .Sed velit nisl, tristique dui mollis, tempus ligula.
+.Sed velit nisl, tristique dui mollis, tempus ligula.
 >
-> orci vel arcu pellentesque fermentum.
+orci vel arcu pellentesque fermentum.
 >
-> Duis bibendum metus arcu.
+Duis bibendum metus arcu.
 >
-> &lt;/p&gt;
+&lt;/p&gt;
 >
-> &lt;h1&gt;
+&lt;h1&gt;
 >
-> CSS outline-style Property
+CSS outline-style Property
 >
-> &lt;/h1&gt;
+&lt;/h1&gt;
 >
-> &lt;p class=&#34;two&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipiscing
-> elit. Ut bibendum nisi egestas suscipit
+&lt;p class=&#34;two&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipiscing
+elit. Ut bibendum nisi egestas suscipit
 >
-> .Sed velit, tristique sed dui, porta tempus ligula.
+.Sed velit, tristique sed dui, porta tempus ligula.
 >
-> Phasellus vel orci vel arcu fermentum. Duis metus arcu.
+Phasellus vel orci vel arcu fermentum. Duis metus arcu.
 >
-> &lt;/p&gt;
+&lt;/p&gt;
 >
-> &lt;h1&gt;
+&lt;h1&gt;
 >
-> CSS outline-color Property
+CSS outline-color Property
 >
-> &lt;/h1&gt;
+&lt;/h1&gt;
 >
-> &lt;p class=&#34;three&#34;&gt;Lorem ipsum dolor sit amet, consectetur
-> adipiscing elit. Ut bibendum nisi egestas suscipit
+&lt;p class=&#34;three&#34;&gt;Lorem ipsum dolor sit amet, consectetur
+adipiscing elit. Ut bibendum nisi egestas suscipit
 >
-> gravida. Sed velit nisl, tristique sed dui mollis, porta tempus
-> ligula.
+gravida. Sed velit nisl, tristique sed dui mollis, porta tempus
+ligula.
 >
-> Phasellus vel orci vel arcu pellentesque fermentum. Duis bibendum
-> metus arcu.
+Phasellus vel orci vel arcu pellentesque fermentum. Duis bibendum
+metus arcu.
 >
-> &lt;/p&gt;
+&lt;/p&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-35 .unnumbered}
 
 ![](./images/image050.png){width="4.125in" height="3.465in"}
 
-> CSS various outline property.
+CSS various outline property.
 
 ### CSS PADDING {#css-padding-1 .unnumbered}
 
 ###### The padding CSS property sets the margin on all four sides of the element. It is a property used for padding-top, padding-right, padding-bottom, and padding-left properties. {#the-padding-css-property-sets-the-margin-on-all-four-sides-of-the-element.-it-is-a-property-used-for-padding-top-padding-right-padding-bottom-and-padding-left-properties. .unnumbered}
 
-> The syntax of this property is given as:
+The syntax of this property is given as:
 >
-> padding : &#91; length &#124; percentage &#124; auto &#93; 1 to 4 values
+padding : &#91; length &#124; percentage &#124; auto &#93; 1 to 4 values
 >
-> &#124; initial &#124; inherit
+&#124; initial &#124; inherit
 
 ##### Example: {#example-48 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> .demo_container{ width:600px; margin:0 auto;
+.demo_container{ width:600px; margin:0 auto;
 >
-> text-align: center; justify-content: center; border:1px solid red ;
-> align-items: center;
+text-align: center; justify-content: center; border:1px solid red ;
+align-items: center;
 >
-> }
+}
 >
-> .text-1 {
+.text-1 {
 >
-> border-style: solid;
+border-style: solid;
 >
-> padding: 25px;
+padding: 25px;
 >
-> }
+}
 >
-> .text-2{
+.text-2{
 >
-> border-style: solid;
+border-style: solid;
 >
-> padding: 20px 20px 20px 20px;
+padding: 20px 20px 20px 20px;
 >
-> }
+}
 >
-> .text-3{
+.text-3{
 >
-> border-style: solid; padding: 30px 30px;
+border-style: solid; padding: 30px 30px;
 >
-> }
+}
 >
-> .text-4{
+.text-4{
 >
-> border-style: solid; padding: 30px 0px 30px 0px ;
+border-style: solid; padding: 30px 0px 30px 0px ;
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;h1&gt;CSS padding Property &lt;/h1&gt;
+&lt;h1&gt;CSS padding Property &lt;/h1&gt;
 >
-> &lt;p class=&#34;text-1&#34;&gt;Lorem dolor sit amet consectetur adipisicing
-> elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae
-> consequuntur voluptatum laborum numquam blanditiis harum quisquam eius
-> sed odit fugiat iusto fuga praesentium optio, eaque rerum!&lt;/h1&gt;
-> &lt;br&gt;
+&lt;p class=&#34;text-1&#34;&gt;Lorem dolor sit amet consectetur adipisicing
+elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae
+consequuntur voluptatum laborum numquam blanditiis harum quisquam eius
+sed odit fugiat iusto fuga praesentium optio, eaque rerum!&lt;/h1&gt;
+&lt;br&gt;
 >
-> &lt;br&gt;
+&lt;br&gt;
 >
-> &lt;p class=&#34;text-2&#34;&gt; Provident similique accusantium nemo autem.
-> obcaecati tenetur iure eius earum ut molestias architecto voluptate
-> aliquam nhil, eveniet aliquid culpa officia aut!.
+&lt;p class=&#34;text-2&#34;&gt; Provident similique accusantium nemo autem.
+obcaecati tenetur iure eius earum ut molestias architecto voluptate
+aliquam nhil, eveniet aliquid culpa officia aut!.
 >
-> &lt;/p&gt; &lt;br&gt;
+&lt;/p&gt; &lt;br&gt;
 >
-> &lt;br&gt;
+&lt;br&gt;
 >
-> &lt;p class=&#34;text-3&#34;&gt;Lorem ipsum dolor sit amet adipisicing elit.
-> Maxime mollitia, molestiae quas vel sint commodi repudiandae
-> consequuntur voluptatum laborum numquam blanditiis harum quisquam eius
-> sed odit fugiat iusto fuga praesentium optio, eaque rerum!&lt;/h1&gt;
-> &lt;br&gt;
+&lt;p class=&#34;text-3&#34;&gt;Lorem ipsum dolor sit amet adipisicing elit.
+Maxime mollitia, molestiae quas vel sint commodi repudiandae
+consequuntur voluptatum laborum numquam blanditiis harum quisquam eius
+sed odit fugiat iusto fuga praesentium optio, eaque rerum!&lt;/h1&gt;
+&lt;br&gt;
 >
-> &lt;br&gt;
+&lt;br&gt;
 >
-> &lt;p class=&#34;text-4&#34;&gt; similique accusantium nemo autem. Veritatis
-> tenetur iure eius earum ut molestias architecto voluptate aliquam
-> nihil, eveniet aliquid culpa aut!. &lt;/p&gt;&lt;br&gt;
+&lt;p class=&#34;text-4&#34;&gt; similique accusantium nemo autem. Veritatis
+tenetur iure eius earum ut molestias architecto voluptate aliquam
+nihil, eveniet aliquid culpa aut!. &lt;/p&gt;&lt;br&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 >
-> This notation can take one, two, three, or four whitespace-separated
-> values.
+This notation can take one, two, three, or four whitespace-separated
+values.
 
 1.  If we set one value, then margin applies to all four sides.
 
@@ -7528,178 +7313,178 @@ height="1.61in"}
 4.  If we set four values, then values apply to the top, right, bottom,
     left sides in that order.
 
-> Instead of padding, you can use other various margin-top, padding-
-> right, padding-bottom, padding-left.
+Instead of padding, you can use other various margin-top, padding-
+right, padding-bottom, padding-left.
 
 ##### Example: {#example-49 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> .demo_container{ width:600px; margin:0 auto;
+.demo_container{ width:600px; margin:0 auto;
 >
-> text-align: center; justify-content: center; border: 2px solid black;
-> align-items: center;
+text-align: center; justify-content: center; border: 2px solid black;
+align-items: center;
 >
-> }
+}
 >
-> .text-1 {
+.text-1 {
 >
-> border:1px solid red ; padding-top: 25px;
+border:1px solid red ; padding-top: 25px;
 >
-> }
+}
 >
-> .text-2{
+.text-2{
 >
-> border:1px solid red ; padding-right: 20px ;
+border:1px solid red ; padding-right: 20px ;
 >
-> }
+}
 >
-> .text-3{
+.text-3{
 >
-> border:1px solid red ; padding-bottom: 20px;
+border:1px solid red ; padding-bottom: 20px;
 >
-> }
+}
 >
-> .text-4{
+.text-4{
 >
-> border:1px solid red ; padding-left: 30px ;
+border:1px solid red ; padding-left: 30px ;
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;h1&gt; CSS margin - Property (padding top, padding right, padding
-> bottom, padding-left) &lt;/h1&gt;
+&lt;h1&gt; CSS margin - Property (padding top, padding right, padding
+bottom, padding-left) &lt;/h1&gt;
 >
-> &lt;p class=&#34;text-1&#34;&gt;Lorem ipsum sit amet consectetur adipisicing
-> elit. Maxime mollitia,
+&lt;p class=&#34;text-1&#34;&gt;Lorem ipsum sit amet consectetur adipisicing
+elit. Maxime mollitia,
 >
-> []{#_bookmark201 .anchor}molestiae quas vel sint commodi repudiandae
-> consequuntur voluptatum laborum numquam blanditiis harum quisquam eius
-> sed odit fugiat iusto fuga praesentium optio, eaque rerum!&lt;/h1&gt;
-> &lt;br&gt;
+[]{#_bookmark201 .anchor}molestiae quas vel sint commodi repudiandae
+consequuntur voluptatum laborum numquam blanditiis harum quisquam eius
+sed odit fugiat iusto fuga praesentium optio, eaque rerum!&lt;/h1&gt;
+&lt;br&gt;
 >
-> &lt;br&gt;
+&lt;br&gt;
 >
-> &lt;p class=&#34;text-2&#34;&gt; Provident similique accusantium autem.
-> obcaecati tenetur eius
+&lt;p class=&#34;text-2&#34;&gt; Provident similique accusantium autem.
+obcaecati tenetur eius
 >
-> earum ut molestias architecto voluptate aliquam nhil, eveniet aliquid
-> culpa officia aut!.
+earum ut molestias architecto voluptate aliquam nhil, eveniet aliquid
+culpa officia aut!.
 >
-> &lt;/p&gt; &lt;br&gt;
+&lt;/p&gt; &lt;br&gt;
 >
-> &lt;br&gt;
+&lt;br&gt;
 >
-> &lt;p class=&#34;text-3&#34;&gt;Lorem ipsum dolor sit consectetur adipisicing
-> elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae
-> consequuntur voluptatum laborum numquam blanditiis harum quisquam eius
-> sed odit fugiat iusto fuga praesentium optio, eaque rerum!&lt;/h1&gt;
-> &lt;br&gt;
+&lt;p class=&#34;text-3&#34;&gt;Lorem ipsum dolor sit consectetur adipisicing
+elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae
+consequuntur voluptatum laborum numquam blanditiis harum quisquam eius
+sed odit fugiat iusto fuga praesentium optio, eaque rerum!&lt;/h1&gt;
+&lt;br&gt;
 >
-> &lt;br&gt;
+&lt;br&gt;
 >
-> &lt;p class=&#34;text-4&#34;&gt; Provident similique nemo autem. Veritatis
-> tenetur iure eius earum ut molestias architecto voluptate aliquam
-> nihil, eveniet culpa officia aut! .&lt;/p&gt;&lt;br&gt;
+&lt;p class=&#34;text-4&#34;&gt; Provident similique nemo autem. Veritatis
+tenetur iure eius earum ut molestias architecto voluptate aliquam
+nihil, eveniet culpa officia aut! .&lt;/p&gt;&lt;br&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ### [CSS PRINT PROPERTIES]{.underline}  {#css-print-properties .unnumbered}
 
 ###### page-break-after property: The page-break-after CSS property inserts page breaks after an element when printing a document. This property applies to block-level elements that generate a box. It won't apply on an empty &lt;p&gt; that won't generate a box. The syntax of this Property is given as:
 
-> page-break-after: auto &#124; always &#124; avoid &#124; left &#124; right &#124; initial
-> &#124; inherit
+page-break-after: auto &#124; always &#124; avoid &#124; left &#124; right &#124; initial
+&#124; inherit
 
 ##### Example: {#example-50 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;meta charset=&#34;utf-8&#34;&gt;
+&lt;meta charset=&#34;utf-8&#34;&gt;
 >
-> &lt;title&gt;Example of page-break-after property
+&lt;title&gt;Example of page-break-after property
 >
-> &lt;/title&gt;
+&lt;/title&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> &#64;media print{
+&#64;media print{
 >
-> p.footnotes {
+p.footnotes {
 >
-> page-break-after: always; text-align: center;
+page-break-after: always; text-align: center;
 >
-> }
+}
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 >
-> &lt;h1&gt; CSS page-break-after Property &lt;/h1&gt;
+&lt;h1&gt; CSS page-break-after Property &lt;/h1&gt;
 >
-> &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If you open theprint (or print
-> preview) the page, you will see there is always a page break after the
-> footnotes.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If you open theprint (or print
+preview) the page, you will see there is always a page break after the
+footnotes.&lt;/p&gt;
 >
-> &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-> egestas lacinia dolor vel semper. Curabitur auctor pulvinar erat, et
-> sollicitudin augue cursus ut. Fusce eget erat at sem fermentum mattis
-> porta id dui. Donec accumsan ligula sit amet diam ultrices iaculis
-> sagittis felis vulputate. Vestibulum eget magna ut libero adipiscing
-> congue vel quis quam. In dui dolor, placerat imperdiet molestie ut,
-> tristique a dui. Duis consectetur nunc id lectus interdum imperdiet.
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+egestas lacinia dolor vel semper. Curabitur auctor pulvinar erat, et
+sollicitudin augue cursus ut. Fusce eget erat at sem fermentum mattis
+porta id dui. Donec accumsan ligula sit amet diam ultrices iaculis
+sagittis felis vulputate. Vestibulum eget magna ut libero adipiscing
+congue vel quis quam. In dui dolor, placerat imperdiet molestie ut,
+tristique a dui. Duis consectetur nunc id lectus interdum imperdiet.
 >
-> Sed sit amet nulla tempus erat suscipit dictum. Morbi vitae fringilla
-> sapien. Morbi ac leo quis nisl volutpat rhoncus. Donec adipiscing
-> neque ut lectus congue imperdiet sit amet sed mauris. Suspendisse orci
-> urna, vestibulum eget lacinia quis, varius vitae nibh.&lt;/p&gt;
+Sed sit amet nulla tempus erat suscipit dictum. Morbi vitae fringilla
+sapien. Morbi ac leo quis nisl volutpat rhoncus. Donec adipiscing
+neque ut lectus congue imperdiet sit amet sed mauris. Suspendisse orci
+urna, vestibulum eget lacinia quis, varius vitae nibh.&lt;/p&gt;
 >
-> Proin lectus lacus, feugiat sed pharetra molestie, iaculis nec leo.
-> Integer vulputate scelerisque dui, vel tincidunt purus pharetra nec.
-> Donec quis sapien nisl. Ut interdum lobortis tempus. Aenean dictum
-> suscipit risus. Aliquam ac consequat neque. Suspendisse et sapien ac
-> leo vestibulum ornare. Mauris mattis
+Proin lectus lacus, feugiat sed pharetra molestie, iaculis nec leo.
+Integer vulputate scelerisque dui, vel tincidunt purus pharetra nec.
+Donec quis sapien nisl. Ut interdum lobortis tempus. Aenean dictum
+suscipit risus. Aliquam ac consequat neque. Suspendisse et sapien ac
+leo vestibulum ornare. Mauris mattis
 >
-> []{#_bookmark203 .anchor}cursus nibh, euismod vestibulum ipsum
-> lobortis sit amet. Sed sagittis tellus ac tellus suscipit commodo.
-> Integer molestie, orci id gravida mollis, ante lectus bibendum enim,
-> dictum fermentum ipsum arcu et tellus.&lt;/p&gt;
+[]{#_bookmark203 .anchor}cursus nibh, euismod vestibulum ipsum
+lobortis sit amet. Sed sagittis tellus ac tellus suscipit commodo.
+Integer molestie, orci id gravida mollis, ante lectus bibendum enim,
+dictum fermentum ipsum arcu et tellus.&lt;/p&gt;
 >
-> &lt;p class=&#34;footnotes&#34;&gt;-: The End :-&lt;/p&gt;
+&lt;p class=&#34;footnotes&#34;&gt;-: The End :-&lt;/p&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### The result of the code is given below: {#the-result-of-the-code-is-given-below .unnumbered}
 
 ![](./images/image051.png){width="4.101561679790026in"
 height="2.598957786526684in"}
 
-> page-break-after property.
+page-break-after property.
 
 I.  We have two more properties in the print section, they are:
     page-break-before property
@@ -7717,375 +7502,375 @@ II. page-break-inside property
 
     -   Collapsing border model
 
-> The syntax of this property is given as:
+The syntax of this property is given as:
 >
-> border-collapse: separate &#124; collapse &#124; initial &#124; inherit
+border-collapse: separate &#124; collapse &#124; initial &#124; inherit
 
 ##### Example: {#example-51 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> .demo_container{ width:400px; margin:0 auto;
+.demo_container{ width:400px; margin:0 auto;
 >
-> text-align: center; justify-content: center; align-items: center;
+text-align: center; justify-content: center; align-items: center;
 >
-> }
+}
 >
-> .table-1 {
+.table-1 {
 >
-> border-collapse: collapse;
+border-collapse: collapse;
 >
-> }
+}
 >
-> table .table-2 {
+table .table-2 {
 >
-> border-collapse: collapse;
+border-collapse: collapse;
 >
-> }
+}
 >
-> table, th, td {
+table, th, td {
 >
-> border: 1px solid black;
+border: 1px solid black;
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;h1&gt; CSS Border Collapse - With &lt;/h1&gt;
+&lt;h1&gt; CSS Border Collapse - With &lt;/h1&gt;
 >
-> &lt;table class=&#34;table-1&#34;&gt;
+&lt;table class=&#34;table-1&#34;&gt;
 >
-> &lt;tr&gt;
+&lt;tr&gt;
 >
-> &lt;th&gt;Name&lt;/th&gt;
+&lt;th&gt;Name&lt;/th&gt;
 >
-> &lt;th&gt;Email&lt;/th&gt;
+&lt;th&gt;Email&lt;/th&gt;
 >
-> &lt;/tr&gt;
+&lt;/tr&gt;
 >
-> &lt;tr&gt;
+&lt;tr&gt;
 >
-> &lt;td&gt;Alax&lt;/td&gt;
+&lt;td&gt;Alax&lt;/td&gt;
 >
-> &lt;td&gt;<alax@example.com>&lt;/td&gt;
+&lt;td&gt;<alax@example.com>&lt;/td&gt;
 >
-> &lt;/tr&gt;
+&lt;/tr&gt;
 >
-> &lt;tr&gt;
+&lt;tr&gt;
 >
-> &lt;td&gt;Joy&lt;/td&gt;
+&lt;td&gt;Joy&lt;/td&gt;
 >
-> &lt;td&gt;<joy@example.com>&lt;/td&gt;
+&lt;td&gt;<joy@example.com>&lt;/td&gt;
 >
-> &lt;/tr&gt;
+&lt;/tr&gt;
 >
-> &lt;/table&gt;
+&lt;/table&gt;
 >
-> &lt;h1&gt; CSS Border Collapse - Without &lt;/h1&gt;
+&lt;h1&gt; CSS Border Collapse - Without &lt;/h1&gt;
 >
-> &lt;table class=&#34;table-2&#34;&gt;
+&lt;table class=&#34;table-2&#34;&gt;
 >
-> &lt;tr&gt;
+&lt;tr&gt;
 >
-> &lt;th&gt;Name&lt;/th&gt;
+&lt;th&gt;Name&lt;/th&gt;
 >
-> &lt;th&gt;Email&lt;/th&gt;
+&lt;th&gt;Email&lt;/th&gt;
 >
-> &lt;/tr&gt;
+&lt;/tr&gt;
 >
-> &lt;tr&gt;
+&lt;tr&gt;
 >
-> &lt;td&gt;Alax&lt;/td&gt;
+&lt;td&gt;Alax&lt;/td&gt;
 >
-> &lt;td&gt;<alax@example.com>&lt;/td&gt;
+&lt;td&gt;<alax@example.com>&lt;/td&gt;
 >
-> &lt;/tr&gt;
+&lt;/tr&gt;
 >
-> &lt;tr&gt;
+&lt;tr&gt;
 >
-> &lt;td&gt;Joy&lt;/td&gt;
+&lt;td&gt;Joy&lt;/td&gt;
 >
-> &lt;td&gt;<joy@example.com>&lt;/td&gt;
+&lt;td&gt;<joy@example.com>&lt;/td&gt;
 >
-> &lt;/tr&gt;
+&lt;/tr&gt;
 >
-> &lt;/table&gt;
+&lt;/table&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-36 .unnumbered}
 
 ![](./images/image052.png){width="2.7890616797900263in"
 height="2.2031244531933507in"}
 
-> CSS border collapse -- with and without.
+CSS border collapse -- with and without.
 
 ###### border-spacing property: The border-spacing CSS property sets the spacing between the borders of adjacent cells using the border model. If the border model is used, the property is ignored. Here see the border-collapse property.
 
-> The syntax of this property is given as:
+The syntax of this property is given as:
 >
-> border-spacing: &#91; length &#93; 1 or 2 values &#124; initial &#124; inherit
+border-spacing: &#91; length &#93; 1 or 2 values &#124; initial &#124; inherit
 
 ##### Example: {#example-52 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> .demo_container{ width:400px; margin:0 auto;
+.demo_container{ width:400px; margin:0 auto;
 >
-> text-align: center; justify-content: center; align-items: center;
+text-align: center; justify-content: center; align-items: center;
 >
-> }
+}
 >
-> table {
+table {
 
 }
 
-> border-collapse: separate;
+border-collapse: separate;
 >
-> table, th, td {
+table, th, td {
 >
-> border: 1px solid black;
+border: 1px solid black;
 >
-> }
+}
 >
-> table.one {
+table.one {
 >
-> border-spacing: 25px;
+border-spacing: 25px;
 >
-> }
+}
 >
-> table.two {
+table.two {
 >
-> border-spacing: 10px 20px;
+border-spacing: 10px 20px;
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;h1&gt; CSS Border-spacing Propterty &lt;/h1&gt;
+&lt;h1&gt; CSS Border-spacing Propterty &lt;/h1&gt;
 >
-> &lt;table class=&#34;one&#34;&gt;
+&lt;table class=&#34;one&#34;&gt;
 >
-> &lt;tr&gt;
+&lt;tr&gt;
 >
-> &lt;th&gt;Name&lt;/th&gt;
+&lt;th&gt;Name&lt;/th&gt;
 >
-> &lt;th&gt;Email&lt;/th&gt;
+&lt;th&gt;Email&lt;/th&gt;
 >
-> &lt;/tr&gt;
+&lt;/tr&gt;
 >
-> &lt;tr&gt;
+&lt;tr&gt;
 >
-> &lt;td&gt;ABC Carter&lt;/td&gt;
+&lt;td&gt;ABC Carter&lt;/td&gt;
 >
-> &lt;td&gt;<abcd@mail.com>&lt;/td&gt;
+&lt;td&gt;<abcd@mail.com>&lt;/td&gt;
 >
-> &lt;/tr&gt;
+&lt;/tr&gt;
 >
-> &lt;/table&gt;
+&lt;/table&gt;
 >
-> &lt;p&gt;&lt;strong&gt;One-value syntax:&lt;/strong&gt; the single value sets the
-> both horizontal and vertical border spacing.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;One-value syntax:&lt;/strong&gt; the single value sets the
+both horizontal and vertical border spacing.&lt;/p&gt;
 >
-> &lt;br&gt;
+&lt;br&gt;
 >
-> &lt;table class=&#34;two&#34;&gt;
+&lt;table class=&#34;two&#34;&gt;
 >
-> &lt;tr&gt;
+&lt;tr&gt;
 >
-> &lt;th&gt;Name&lt;/th&gt;
+&lt;th&gt;Name&lt;/th&gt;
 >
-> &lt;th&gt;Email&lt;/th&gt;
+&lt;th&gt;Email&lt;/th&gt;
 >
-> &lt;/tr&gt;
+&lt;/tr&gt;
 >
-> &lt;tr&gt;
+&lt;tr&gt;
 >
-> &lt;td&gt; ABC Parker&lt;/td&gt;
+&lt;td&gt; ABC Parker&lt;/td&gt;
 >
-> &lt;td&gt;<abc@mail.com>&lt;/td&gt;
+&lt;td&gt;<abc@mail.com>&lt;/td&gt;
 >
-> &lt;/tr&gt;
+&lt;/tr&gt;
 >
-> &lt;/table&gt;
+&lt;/table&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-37 .unnumbered}
 
 ![](./images/image053.png){width="2.46125in"
 height="2.527707786526684in"}
 
-> CSS border-spacing property.
+CSS border-spacing property.
 
 ###### caption-side property: The caption-side CSS property sets the verti- cal position of the table caption box. To align caption text horizon- tally within the caption box, use the text-align property.
 
-> The syntax of this property is given as:
+The syntax of this property is given as:
 >
-> caption-side: top &#124; bottom &#124; initial &#124; inherit
+caption-side: top &#124; bottom &#124; initial &#124; inherit
 
 ##### Example: {#example-53 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> .demo_container{ width:400px; margin:0 auto;
+.demo_container{ width:400px; margin:0 auto;
 >
-> text-align: center; justify-content: center; align-items: center;
+text-align: center; justify-content: center; align-items: center;
 >
-> }
+}
 >
-> table {
+table {
 
 }
 
-> border-collapse: separate; width:100%
+border-collapse: separate; width:100%
 >
-> table, th, td {
+table, th, td {
 >
-> border: 1px solid black;
+border: 1px solid black;
 >
-> }
+}
 >
-> table.one {
+table.one {
 >
-> border-spacing: 25px;
+border-spacing: 25px;
 >
-> }
+}
 >
-> table.two {
+table.two {
 >
-> border-spacing: 10px 20px;
+border-spacing: 10px 20px;
 >
-> }
+}
 >
-> caption.one {
+caption.one {
 >
-> caption-side: bottom; font-size: 24px;
+caption-side: bottom; font-size: 24px;
 >
-> border-bottom: 1px purple solid; padding: 20px
+border-bottom: 1px purple solid; padding: 20px
 >
-> }
+}
 >
-> caption.two { caption-side: top; font-size: 24px;
+caption.two { caption-side: top; font-size: 24px;
 >
-> border-bottom: 1px purple solid; padding: 20px
+border-bottom: 1px purple solid; padding: 20px
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;h1&gt; CSS caption Property &lt;/h1&gt;
+&lt;h1&gt; CSS caption Property &lt;/h1&gt;
 >
-> &lt;table class=&#34;one&#34;&gt;
+&lt;table class=&#34;one&#34;&gt;
 >
-> &lt;caption class=&#34;one&#34;&gt;Table 1 - User Details (Bottom)&lt;/caption&gt;
+&lt;caption class=&#34;one&#34;&gt;Table 1 - User Details (Bottom)&lt;/caption&gt;
 >
-> &lt;tr&gt;
+&lt;tr&gt;
 >
-> &lt;th&gt;Name&lt;/th&gt;
+&lt;th&gt;Name&lt;/th&gt;
 >
-> &lt;th&gt;Email&lt;/th&gt;
+&lt;th&gt;Email&lt;/th&gt;
 >
-> &lt;/tr&gt;
+&lt;/tr&gt;
 >
-> &lt;tr&gt;
+&lt;tr&gt;
 >
-> &lt;td&gt;ABC Carter&lt;/td&gt;
+&lt;td&gt;ABC Carter&lt;/td&gt;
 >
-> &lt;td&gt;<abcd@mail.com>&lt;/td&gt;
+&lt;td&gt;<abcd@mail.com>&lt;/td&gt;
 >
-> &lt;/tr&gt;
+&lt;/tr&gt;
 >
-> &lt;/table&gt;
+&lt;/table&gt;
 >
-> &lt;br&gt;
+&lt;br&gt;
 >
-> &lt;table class=&#34;two&#34;&gt;
+&lt;table class=&#34;two&#34;&gt;
 >
-> &lt;caption class=&#34;two&#34;&gt;Table 1 - User Details (Top)&lt;/caption&gt;
+&lt;caption class=&#34;two&#34;&gt;Table 1 - User Details (Top)&lt;/caption&gt;
 >
-> &lt;tr&gt;
+&lt;tr&gt;
 >
-> &lt;th&gt;Name&lt;/th&gt;
+&lt;th&gt;Name&lt;/th&gt;
 >
-> &lt;th&gt;Email&lt;/th&gt;
+&lt;th&gt;Email&lt;/th&gt;
 >
-> &lt;/tr&gt;
+&lt;/tr&gt;
 >
-> &lt;tr&gt;
+&lt;tr&gt;
 >
-> &lt;td&gt; ABC Parker&lt;/td&gt;
+&lt;td&gt; ABC Parker&lt;/td&gt;
 >
-> &lt;td&gt;<abc@mail.com>&lt;/td&gt;
+&lt;td&gt;<abc@mail.com>&lt;/td&gt;
 >
-> &lt;/tr&gt;
+&lt;/tr&gt;
 >
-> &lt;/table&gt;
+&lt;/table&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-38 .unnumbered}
 
 ![](./images/image054.png){width="2.0587489063867017in"
 height="2.2190616797900264in"}
 
-> CSS caption property.
+CSS caption property.
 
 ###### empty-cells property: The empty-cells CSS property shows or hides borders and backgrounds of table cells that have no visible content. A non-breaking space (&nbsp;) is considered as a visible content.
 
-> The syntax of this property is given as:
+The syntax of this property is given as:
 >
-> empty-cells: show &#124; hide &#124; initial &#124; inherit
+empty-cells: show &#124; hide &#124; initial &#124; inherit
 >
-> The description values are as follows:
+The description values are as follows:
 
 i.  show It is borders and backgrounds that are drawn around empty cells
     like normal cells. This is the default value.
@@ -8094,258 +7879,258 @@ ii. hide There are no borders or backgrounds drawn around empty cells.
 
 ##### Example: {#example-54 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> .demo_container{ width:400px; margin:0 auto;
+.demo_container{ width:400px; margin:0 auto;
 >
-> text-align: center;
+text-align: center;
 >
-> justify-content: center; align-items: center;
+justify-content: center; align-items: center;
 >
-> }
+}
 >
-> table {
+table {
 >
-> border-collapse: separate; width:100%
+border-collapse: separate; width:100%
 >
-> }
+}
 >
-> table, th, td {
+table, th, td {
 >
-> border: 1px solid black;
+border: 1px solid black;
 >
-> }
+}
 >
-> table.one {
+table.one {
 >
-> border-spacing: 25px;
+border-spacing: 25px;
 >
-> }
+}
 >
-> table.two {
+table.two {
 >
-> border-spacing: 10px 20px;
+border-spacing: 10px 20px;
 >
-> }
+}
 >
-> table.one {
+table.one {
 >
-> empty-cells: show;
+empty-cells: show;
 >
-> }
+}
 >
-> table.two {
+table.two {
 >
-> empty-cells: hide;
+empty-cells: hide;
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;h1&gt; CSS empty-cell Property &lt;/h1&gt;
+&lt;h1&gt; CSS empty-cell Property &lt;/h1&gt;
 >
-> &lt;h2&gt; Table 1 &lt;/h2&gt;
+&lt;h2&gt; Table 1 &lt;/h2&gt;
 >
-> &lt;table class=&#34;one&#34;&gt;
+&lt;table class=&#34;one&#34;&gt;
 >
-> &lt;tr&gt;
+&lt;tr&gt;
 >
-> &lt;th&gt;A&lt;/th&gt;
+&lt;th&gt;A&lt;/th&gt;
 >
-> &lt;th&gt;B&lt;/th&gt;
+&lt;th&gt;B&lt;/th&gt;
 >
-> &lt;th&gt;C&lt;/th&gt;
+&lt;th&gt;C&lt;/th&gt;
 >
-> &lt;/tr&gt;
+&lt;/tr&gt;
 >
-> &lt;tr&gt;
+&lt;tr&gt;
 >
-> &lt;th&gt;AA&lt;/th&gt;
+&lt;th&gt;AA&lt;/th&gt;
 >
-> &lt;th&gt;BB&lt;/th&gt;
+&lt;th&gt;BB&lt;/th&gt;
 >
-> &lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
 >
-> &lt;/tr&gt;
+&lt;/tr&gt;
 >
-> &lt;/table&gt;
+&lt;/table&gt;
 >
-> &lt;br&gt;
+&lt;br&gt;
 >
-> &lt;h2&gt; Table 2 &lt;/h1&gt;
+&lt;h2&gt; Table 2 &lt;/h1&gt;
 >
-> &lt;table class=&#34;two&#34;&gt;
+&lt;table class=&#34;two&#34;&gt;
 >
-> &lt;tr&gt;
+&lt;tr&gt;
 >
-> &lt;th&gt;A&lt;/th&gt;
+&lt;th&gt;A&lt;/th&gt;
 >
-> &lt;th&gt;B&lt;/th&gt;
+&lt;th&gt;B&lt;/th&gt;
 >
-> &lt;th&gt;C&lt;/th&gt;
+&lt;th&gt;C&lt;/th&gt;
 >
-> &lt;/tr&gt;
+&lt;/tr&gt;
 >
-> &lt;tr&gt;
+&lt;tr&gt;
 >
-> &lt;th&gt;AA&lt;/th&gt;
+&lt;th&gt;AA&lt;/th&gt;
 >
-> &lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
 >
-> &lt;th&gt;CC&lt;/th&gt;
+&lt;th&gt;CC&lt;/th&gt;
 >
-> &lt;/tr&gt;
+&lt;/tr&gt;
 >
-> &lt;/table&gt;
+&lt;/table&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-39 .unnumbered}
 
 ![](./images/image055.png){width="2.8541655730533684in"
 height="2.9296872265966756in"}
 
-> CSS empty-cell property.
+CSS empty-cell property.
 
 ### [CSS TEXT PROPERTIES]{.underline}  {#css-text-properties .unnumbered}
 
 ###### text-align property and text-align-all property: The text-decoration property is aproperty forsettingtext-decoration-line, text-decoration- style, and text-decoration-color in one declaration.
 
-> The syntax of text-align is given as:
+The syntax of text-align is given as:
 >
-> text-align: start &#124; end &#124; right &#124; left &#124; center &#124; justify &#124;
-> match-parent &#124; justify-all
+text-align: start &#124; end &#124; right &#124; left &#124; center &#124; justify &#124;
+match-parent &#124; justify-all
 
 ###### The syntax for text-align-all is given as: {#the-syntax-for-text-align-all-is-given-as .unnumbered}
 
-> text-align-all: start &#124; end &#124; left &#124; right &#124; center &#124; justify &#124;
-> match-parent
+text-align-all: start &#124; end &#124; left &#124; right &#124; center &#124; justify &#124;
+match-parent
 
 ##### Example: {#example-55 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> .demo_container{ width:600px; margin:0 auto;
+.demo_container{ width:600px; margin:0 auto;
 >
-> text-align: center; justify-content: center; border:1px solid red ;
-> align-items: center;
+text-align: center; justify-content: center; border:1px solid red ;
+align-items: center;
 >
-> }
+}
 >
-> .div1 {
+.div1 {
 >
-> border: 10px solid gold; text-align: center;
+border: 10px solid gold; text-align: center;
 >
-> }
+}
 >
-> .div2 {
+.div2 {
 >
-> border: 10px solid green; text-align: center;
+border: 10px solid green; text-align: center;
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 >
-> &lt;div class=&#34;demo_container div1&#34;&gt;
+&lt;div class=&#34;demo_container div1&#34;&gt;
 >
-> &lt;h1&gt; CSS text-align property &lt;/h1&gt;
+&lt;h1&gt; CSS text-align property &lt;/h1&gt;
 >
-> &lt;p&gt;The CSS text-align property is used for aligning elements left,
-> right, center etc.&lt;/p&gt;
+&lt;p&gt;The CSS text-align property is used for aligning elements left,
+right, center etc.&lt;/p&gt;
 >
-> &lt;p class=&#34;text-1&#34;&gt;
+&lt;p class=&#34;text-1&#34;&gt;
 >
-> orem ipsum sit amet consectetur adipisicing elit. Maxime mollitia,
-> molestiae quas vel sint commodi repudiandae consequuntur voluptatum
-> laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto
-> fuga praesentium optio, eaque rerum!&lt;/h1&gt;
+orem ipsum sit amet consectetur adipisicing elit. Maxime mollitia,
+molestiae quas vel sint commodi repudiandae consequuntur voluptatum
+laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto
+fuga praesentium optio, eaque rerum!&lt;/h1&gt;
 >
-> &lt;br&gt; &lt;br&gt;
+&lt;br&gt; &lt;br&gt;
 >
-> &lt;p class=&#34;text-2&#34;&gt; Provident similique accusantium nemo autem.
-> irirr Veritatis obcaecati tenetur iure eius earum ut molestias
-> architecto voluptate aliquam nhil,
+&lt;p class=&#34;text-2&#34;&gt; Provident similique accusantium nemo autem.
+irirr Veritatis obcaecati tenetur iure eius earum ut molestias
+architecto voluptate aliquam nhil,
 >
-> eveniet aliquid culpa officia aut! .&lt;/p&gt;
+eveniet aliquid culpa officia aut! .&lt;/p&gt;
 >
-> &lt;br&gt;
+&lt;br&gt;
 >
-> &lt;/p&gt;
+&lt;/p&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;div class=&#34;demo_container div2&#34;&gt;
+&lt;div class=&#34;demo_container div2&#34;&gt;
 >
-> &lt;h1&gt; CSS text-align-all property &lt;/h1&gt;
+&lt;h1&gt; CSS text-align-all property &lt;/h1&gt;
 >
-> &lt;p&gt;The text-align-all property is longhand for the text-align
-> property.&lt;/p&gt;
+&lt;p&gt;The text-align-all property is longhand for the text-align
+property.&lt;/p&gt;
 >
-> &lt;p class=&#34;text-1&#34;&gt;
+&lt;p class=&#34;text-1&#34;&gt;
 >
-> orem ipsum sit amet consectetur adipisicing elit. Maxime mollitia,
-> molestiae quas vel sint commodi repudiandae consequuntur voluptatum
-> laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto
-> fuga praesentium optio, eaque rerum!&lt;/h1&gt;
+orem ipsum sit amet consectetur adipisicing elit. Maxime mollitia,
+molestiae quas vel sint commodi repudiandae consequuntur voluptatum
+laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto
+fuga praesentium optio, eaque rerum!&lt;/h1&gt;
 >
-> &lt;br&gt; &lt;br&gt;
+&lt;br&gt; &lt;br&gt;
 >
-> &lt;p class=&#34;text-2&#34;&gt; Provident similique accusantium nemo autem.
-> irur Veritatis obcaecati tenetur iure eius earum ut molestias
-> architecto voluptate aliquam nhil, eveniet aliquid culpa officia aut!
-> .&lt;/p&gt;
+&lt;p class=&#34;text-2&#34;&gt; Provident similique accusantium nemo autem.
+irur Veritatis obcaecati tenetur iure eius earum ut molestias
+architecto voluptate aliquam nhil, eveniet aliquid culpa officia aut!
+.&lt;/p&gt;
 >
-> &lt;br&gt;
+&lt;br&gt;
 >
-> &lt;/p&gt;
+&lt;/p&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-40 .unnumbered}
 
 ![](./images/image056.png){width="4.429686132983377in"
 height="4.494374453193351in"}
 
-> CSS text-align and text-align-all property.
+CSS text-align and text-align-all property.
 
 ###### CSS text-decoration property: The text-decoration property is a property for setting text-decoration-line, text-decoration-style, and text-decoration-color in one declaration.
 
-> The syntax of the text-decoration is given as:
+The syntax of the text-decoration is given as:
 >
-> text-decoration: &lt;text-decoration-line&gt; &#124;&#124; &lt;text-
-> decoration-style&gt; &#124;&#124; &lt;text-decoration-color&gt;
+text-decoration: &lt;text-decoration-line&gt; &#124;&#124; &lt;text-
+decoration-style&gt; &#124;&#124; &lt;text-decoration-color&gt;
 >
-> Here are some possible values under &lt;text-decoration-line&gt;
+Here are some possible values under &lt;text-decoration-line&gt;
 
 i.  none: It is neither produces nor inhibits text decoration.
 
@@ -8358,7 +8143,7 @@ iv. line-through: In each line of text has a line through the middle.
 v.  blink: The text blinks means the alternates between visible and
     invisible.
 
-> Here are some possible values under &lt;text-decoration-style&gt;
+Here are some possible values under &lt;text-decoration-style&gt;
 
 i.  solid: It is a solid line.
 
@@ -8370,7 +8155,7 @@ iv. dashed: It is a line consisting of dashes.
 
 v.  double: It is a double solid line.
 
-> Here are some possible values under &lt;text-decoration-color&gt;
+Here are some possible values under &lt;text-decoration-color&gt;
 
 I.  initial: It represents the value specified as the property&#39;s ini-
     tial value.
@@ -8390,192 +8175,192 @@ III. unset: It is a value that acts as either initial, depending on
 
 ##### Example: {#example-56 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> .demo_container{ width:600px; margin:0 auto;
+.demo_container{ width:600px; margin:0 auto;
 >
-> justify-content: center; align-items: center;
+justify-content: center; align-items: center;
 >
-> }
+}
 >
-> .div1 &gt;h3{
+.div1 &gt;h3{
 >
-> text-align: center;
+text-align: center;
 >
-> text-decoration: underline;
+text-decoration: underline;
 >
-> text-decoration-color: yellowgreen; font-size: 28px;
+text-decoration-color: yellowgreen; font-size: 28px;
 >
-> }
+}
 >
-> .div2 &gt; h3{
+.div2 &gt; h3{
 >
-> text-align: center;
+text-align: center;
 >
-> text-decoration: underline; text-decoration-color: green; font-size:
-> 28px;
+text-decoration: underline; text-decoration-color: green; font-size:
+28px;
 >
-> }
+}
 >
-> .div3 &gt;h3 {
+.div3 &gt;h3 {
 >
-> font-size: 28px; text-align: center;
+font-size: 28px; text-align: center;
 >
-> text-decoration-line: underline; text-decoration-style: wavy;
+text-decoration-line: underline; text-decoration-style: wavy;
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;h2&gt; Seperate use of color, line, style property of CSS
-> text-decoration&lt;/h2&gt;
+&lt;h2&gt; Seperate use of color, line, style property of CSS
+text-decoration&lt;/h2&gt;
 >
-> &lt;div class=&#34;div1&#34;&gt;
+&lt;div class=&#34;div1&#34;&gt;
 >
-> &lt;h3&gt; CSS text-decoration-color property
+&lt;h3&gt; CSS text-decoration-color property
 >
-> &lt;/h3&gt;
+&lt;/h3&gt;
 >
-> &lt;p class=&#34;text-1&#34;&gt;
+&lt;p class=&#34;text-1&#34;&gt;
 >
-> Lorem ipsum sit amet consectetur
+Lorem ipsum sit amet consectetur
 >
-> adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi
-> repudiandae consequuntur voluptatum laborum numquam blanditiis harum
-> quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque
-> rerum!&lt;/h1&gt;
+adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi
+repudiandae consequuntur voluptatum laborum numquam blanditiis harum
+quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque
+rerum!&lt;/h1&gt;
 >
-> &lt;/p&gt;
+&lt;/p&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;div class=&#34; div2&#34;&gt;
+&lt;div class=&#34; div2&#34;&gt;
 >
-> &lt;h3&gt; CSS text-decoration-line property &lt;/h3&gt;
+&lt;h3&gt; CSS text-decoration-line property &lt;/h3&gt;
 >
-> &lt;p class=&#34;text-1&#34;&gt;
+&lt;p class=&#34;text-1&#34;&gt;
 >
-> Lorem ipsum sit amet consectetur adipisicing elit. Maxime mollitia,
-> molestiae quas vel sint commodi repudiandae consequuntur voluptatum
-> laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto
-> fuga praesentium optio, eaque rerum!&lt;/h1&gt;
+Lorem ipsum sit amet consectetur adipisicing elit. Maxime mollitia,
+molestiae quas vel sint commodi repudiandae consequuntur voluptatum
+laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto
+fuga praesentium optio, eaque rerum!&lt;/h1&gt;
 >
-> &lt;/p&gt;
+&lt;/p&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;div class=&#34; div3&#34;&gt;
+&lt;div class=&#34; div3&#34;&gt;
 >
-> &lt;h3&gt; CSS text-decoration-style property &lt;/h3&gt;
+&lt;h3&gt; CSS text-decoration-style property &lt;/h3&gt;
 >
-> &lt;p class=&#34;text-1&#34;&gt;
+&lt;p class=&#34;text-1&#34;&gt;
 >
-> Lorem ipsum sit amet consectetur adipisicing elit. Maxime mollitia,
-> molestiae quas vel sint commodi repudiandae consequuntur voluptatum
-> laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto
-> fuga praesentium optio, eaque rerum!&lt;/h1&gt;
+Lorem ipsum sit amet consectetur adipisicing elit. Maxime mollitia,
+molestiae quas vel sint commodi repudiandae consequuntur voluptatum
+laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto
+fuga praesentium optio, eaque rerum!&lt;/h1&gt;
 >
-> &lt;/p&gt;
+&lt;/p&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-41 .unnumbered}
 
 ![](./images/image057.png){width="3.1171872265966756in"
 height="2.565in"}
 
-> CSS text-decoration property.
+CSS text-decoration property.
 
 2.  []{#_bookmark211 .anchor}CSS text-orientation property.
 
 ##### Example: {#example-57 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> .demo_container{ width:600px; margin:0 auto;
+.demo_container{ width:600px; margin:0 auto;
 >
-> justify-content: center; align-items: center;
+justify-content: center; align-items: center;
 >
-> }
+}
 >
-> p {
+p {
 >
-> writing-mode: vertical-rl; font-size: 2em;
+writing-mode: vertical-rl; font-size: 2em;
 >
-> float: left;
+float: left;
 >
-> }
+}
 >
-> .mixed {
+.mixed {
 >
-> text-orientation: mixed;
+text-orientation: mixed;
 >
-> }
+}
 >
-> .upright {
+.upright {
 >
-> text-orientation: upright;
+text-orientation: upright;
 >
-> }
+}
 >
-> .sideways {
+.sideways {
 >
-> text-orientation: sideways;
+text-orientation: sideways;
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;h2&gt; CSS text-orientation property &lt;/h2&gt;
+&lt;h2&gt; CSS text-orientation property &lt;/h2&gt;
 >
-> &lt;p class=&#34;mixed&#34;&gt; You are learning CSS &lt;/p&gt;
+&lt;p class=&#34;mixed&#34;&gt; You are learning CSS &lt;/p&gt;
 >
-> &lt;p class=&#34;upright&#34;&gt; You are learning CSS &lt;/p&gt;
+&lt;p class=&#34;upright&#34;&gt; You are learning CSS &lt;/p&gt;
 >
-> &lt;p class=&#34;sideways&#34;&gt; You are learning CSS &lt;/p&gt;
+&lt;p class=&#34;sideways&#34;&gt; You are learning CSS &lt;/p&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-42 .unnumbered}
 
 ![](./images/image058.png){width="1.1446806649168855in"
 height="2.2921872265966754in"}
 
-> CSS text-orientation property.
+CSS text-orientation property.
 
 3.  CSS text-overflow property: It specifies how text should be treated
     when it has been clipped due to it being too large to fit within its
@@ -8583,76 +8368,76 @@ height="2.2921872265966754in"}
 
 ##### Example: {#example-58 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> .demo_container{ width:600px; margin:0 auto;
+.demo_container{ width:600px; margin:0 auto;
 >
-> justify-content: center; align-items: center;
+justify-content: center; align-items: center;
 >
-> }
+}
 >
-> .text-1 { width: 16em;
+.text-1 { width: 16em;
 >
-> overflow: hidden; white-space: nowrap; background: gold;
+overflow: hidden; white-space: nowrap; background: gold;
 >
-> }
+}
 >
-> .text-2{
+.text-2{
 >
-> text-overflow: ellipsis;
+text-overflow: ellipsis;
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 
 &lt;div class=&#34;demo_container&#34;&gt;
 
 &lt;div class=&#34;div1&#34;&gt;
 
-> &lt;h1&gt; CSS text-overflow property &lt;/h1&gt;
+&lt;h1&gt; CSS text-overflow property &lt;/h1&gt;
 >
-> &lt;p class=&#34;text-1&#34;&gt;
+&lt;p class=&#34;text-1&#34;&gt;
 >
-> Lorem ipsum sit amet consectetur adipisicing elit. Maxime mollitia,
-> molestiae quas vel sint commodi repudiandae consequuntur voluptatum
-> laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto
-> fuga praesentium optio, eaque rerum!&lt;/h1&gt;
+Lorem ipsum sit amet consectetur adipisicing elit. Maxime mollitia,
+molestiae quas vel sint commodi repudiandae consequuntur voluptatum
+laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto
+fuga praesentium optio, eaque rerum!&lt;/h1&gt;
 >
-> &lt;/p&gt;
+&lt;/p&gt;
 >
-> &lt;p class=&#34;text-2&#34;&gt;
+&lt;p class=&#34;text-2&#34;&gt;
 >
-> Lorem ipsum sit amet consectetur adipisicing elit. Maxime mollitia,
-> molestiae quas vel sint commodi repudiandae consequuntur voluptatum
-> laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto
-> fuga praesentium optio, eaque rerum!&lt;/h1&gt;
+Lorem ipsum sit amet consectetur adipisicing elit. Maxime mollitia,
+molestiae quas vel sint commodi repudiandae consequuntur voluptatum
+laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto
+fuga praesentium optio, eaque rerum!&lt;/h1&gt;
 >
-> &lt;/p&gt;
+&lt;/p&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-43 .unnumbered}
 
 ![](./images/image059.png){width="4.101561679790026in"
 height="1.0in"}
 
-> CSS text-overflow property.
+CSS text-overflow property.
 
 4.  []{#_bookmark213 .anchor}CSS text-shadow property: The text-shadow
     property is used for applying shadow effects to text. You can also
@@ -8662,603 +8447,603 @@ height="1.0in"}
 
 ##### Example: {#example-59 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> .demo_container{ width:600px; margin:0 auto;
+.demo_container{ width:600px; margin:0 auto;
 >
-> justify-content: center; align-items: center;
+justify-content: center; align-items: center;
 >
-> }
+}
 >
-> .text-1 {
+.text-1 {
 >
-> text-shadow: 2px 2px 5px red; font-size: 30px;
+text-shadow: 2px 2px 5px red; font-size: 30px;
 >
-> }
+}
 >
-> .text-2{
+.text-2{
 >
-> text-shadow: 2px 2px red; font-size: 30px;
+text-shadow: 2px 2px red; font-size: 30px;
 >
-> }
+}
 >
-> .text-3{
+.text-3{
 >
-> text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff; font-size: 30px;
+text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff; font-size: 30px;
 >
-> }
+}
 >
-> .text-4{
+.text-4{
 >
-> color: white;
+color: white;
 >
-> text-shadow: 1px 1px 2px black, 0 0 25px blue,
+text-shadow: 1px 1px 2px black, 0 0 25px blue,
 >
-> 0 0 5px darkblue; font-size: 30px;
+0 0 5px darkblue; font-size: 30px;
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 >
-> []{#_bookmark214 .anchor}&lt;div class=&#34;demo_container&#34;&gt;
+[]{#_bookmark214 .anchor}&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;div class=&#34;div1&#34;&gt;
+&lt;div class=&#34;div1&#34;&gt;
 >
-> &lt;h1&gt; CSS text-overflow property &lt;/h1&gt;
+&lt;h1&gt; CSS text-overflow property &lt;/h1&gt;
 >
-> &lt;p class=&#34;text-1&#34;&gt;
+&lt;p class=&#34;text-1&#34;&gt;
 >
-> You are learning CSS.
+You are learning CSS.
 >
-> &lt;/p&gt;
+&lt;/p&gt;
 >
-> &lt;p class=&#34;text-2&#34;&gt;
+&lt;p class=&#34;text-2&#34;&gt;
 >
-> You are learning CSS.
+You are learning CSS.
 >
-> &lt;/p&gt;
+&lt;/p&gt;
 >
-> &lt;p class=&#34;text-3&#34;&gt;
+&lt;p class=&#34;text-3&#34;&gt;
 >
-> You are learning CSS.
+You are learning CSS.
 >
-> &lt;/p&gt;
+&lt;/p&gt;
 >
-> &lt;p class=&#34;text-4&#34;&gt;
+&lt;p class=&#34;text-4&#34;&gt;
 >
-> You are learning CSS.
+You are learning CSS.
 >
-> &lt;/p&gt;
+&lt;/p&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-44 .unnumbered}
 
 ![](./images/image060.png){width="1.8697911198600174in"
 height="1.518228346456693in"}
 
-> CSS text-shadow property.
+CSS text-shadow property.
 
 ### CSS TRANSFORM PROPERTIES {#css-transform-properties .unnumbered}
 
-> The transform property is used to transform an element in two-dimen-
-> sional (2D) or thre-dimensional (3D) spaces. For example, rotate
-> elements, scale them, skew them, and more.
+The transform property is used to transform an element in two-dimen-
+sional (2D) or thre-dimensional (3D) spaces. For example, rotate
+elements, scale them, skew them, and more.
 
 ###### 2D Transform Functions {#d-transform-functions .unnumbered}
 
-> The transform property accepts a list of "transform functions" as
-> values. These functions have names such as scale(), rotate(), skew(),
-> etc, which
+The transform property accepts a list of "transform functions" as
+values. These functions have names such as scale(), rotate(), skew(),
+etc, which
 >
-> take parameters to determine the level of transformation (e.g., the
-> angle to rotate an element).
+take parameters to determine the level of transformation (e.g., the
+angle to rotate an element).
 >
-> The syntax of transform is given below:
+The syntax of transform is given below:
 >
-> transform: none &#124; &lt;transform-function&gt; &#91; &lt;transform- function&gt;
-> &#93;
+transform: none &#124; &lt;transform-function&gt; &#91; &lt;transform- function&gt;
+&#93;
 >
-> These are grouped by 2D (two-dimensional) and 3D (three-dimen- sional)
-> functions.
+These are grouped by 2D (two-dimensional) and 3D (three-dimen- sional)
+functions.
 >
-> **matrix():** It specifies a 2D transformation in the form of a matrix
-> of the six values a-f.
+**matrix():** It specifies a 2D transformation in the form of a matrix
+of the six values a-f.
 >
-> The syntax of matrix is given below:
+The syntax of matrix is given below:
 >
-> matrix() = matrix( &lt;number&gt; &#91;,&lt;number&gt; &#93;{5,5} )
+matrix() = matrix( &lt;number&gt; &#91;,&lt;number&gt; &#93;{5,5} )
 
 ###### **translate():** It moves the position of the element. It specifies a 2D trans- lation by the vector &#91;x, y&#93;, where tx is the first translation-value parameter and y is the optional second translation-value parameter. {#translate-it-moves-the-position-of-the-element.-it-specifies-a-2d-trans--lation-by-the-vector-x-y-where-tx-is-the-first-translation-value-parameter-and-y-is-the-optional-second-translation-value-parameter. .unnumbered}
 
-> The syntax of translate is given below:
+The syntax of translate is given below:
 >
-> translate( &lt;translation-value&gt;&#91;, &lt;translation-value&gt;&#93;? )
+translate( &lt;translation-value&gt;&#91;, &lt;translation-value&gt;&#93;? )
 
 ###### **translateX():** It moves the element horizontally. It specifies a transla- tion by the given amount in the X direction. {#translatex-it-moves-the-element-horizontally.-it-specifies-a-transla--tion-by-the-given-amount-in-the-x-direction. .unnumbered}
 
-> The syntax of translateX is given below:
+The syntax of translateX is given below:
 >
-> translateX( &lt;translation-value&gt; )
+translateX( &lt;translation-value&gt; )
 
 ###### **translateY()**: It moves the element vertically. It specifies a translation by the amount in the Y direction. {#translatey-it-moves-the-element-vertically.-it-specifies-a-translation-by-the-amount-in-the-y-direction. .unnumbered}
 
-> The syntax of translateY is given below:
+The syntax of translateY is given below:
 >
-> translateY( &lt;translation-value&gt; )
+translateY( &lt;translation-value&gt; )
 
 ###### **scale():** It modifies the size of the element. It specifies a 2D scale opera- tion by the &#91;sx,sy&#93; vector described by two parameters. {#scale-it-modifies-the-size-of-the-element.-it-specifies-a-2d-scale-opera--tion-by-the-sxsy-vector-described-by-two-parameters. .unnumbered}
 
-> The syntax of scale is given below:
+The syntax of scale is given below:
 >
-> scale( &lt;number&gt;&#91;, &lt;number&gt;&#93;? )
+scale( &lt;number&gt;&#91;, &lt;number&gt;&#93;? )
 
 ###### **scaleX():** It specifies a 2D scale operation using the &#91;sx,1&#93; vector, where sx is given as the parameter. {#scalex-it-specifies-a-2d-scale-operation-using-the-sx1-vector-where-sx-is-given-as-the-parameter. .unnumbered}
 
-> The syntax of scaleX is given below:
+The syntax of scaleX is given below:
 >
-> scaleX( &lt;number&gt;&#91;, &lt;number&gt;&#93;? )
+scaleX( &lt;number&gt;&#91;, &lt;number&gt;&#93;? )
 
 ###### **scaleY():** It specifies a 2D scale operation using the &#91;1,sy&#93; vector, where sy is given as the parameter. {#scaley-it-specifies-a-2d-scale-operation-using-the-1sy-vector-where-sy-is-given-as-the-parameter. .unnumbered}
 
-> The syntax of scaleY is given below:
+The syntax of scaleY is given below:
 >
-> scaleY( &lt;number&gt;&#91;, &lt;number&gt;&#93;? )
+scaleY( &lt;number&gt;&#91;, &lt;number&gt;&#93;? )
 
 ###### **rotate():** It specifies a 2D rotation by the angle specified parameter about the origin, as defined by the transform-origin property. {#rotate-it-specifies-a-2d-rotation-by-the-angle-specified-parameter-about-the-origin-as-defined-by-the-transform-origin-property. .unnumbered}
 
-> The syntax of rotate is given below:
+The syntax of rotate is given below:
 >
-> rotate( &lt;angle&gt; )
+rotate( &lt;angle&gt; )
 
 ###### **skew():** It specifies a 2D skew transformation along the X and Y axis by the given angles. If the second parameter is not provided, it has a zero value. {#skew-it-specifies-a-2d-skew-transformation-along-the-x-and-y-axis-by-the-given-angles.-if-the-second-parameter-is-not-provided-it-has-a-zero-value. .unnumbered}
 
-> The syntax of skew is given below:
+The syntax of skew is given below:
 >
-> skew( &lt;angle&gt; &#91;, &lt;angle&gt; &#93;? )
+skew( &lt;angle&gt; &#91;, &lt;angle&gt; &#93;? )
 
 ###### **skewX():** It specifies a 2D transformation along the X-axis by the given angle. {#skewx-it-specifies-a-2d-transformation-along-the-x-axis-by-the-given-angle. .unnumbered}
 
-> The syntax of skewX is given below:
+The syntax of skewX is given below:
 >
-> skewX( &lt;angle&gt; )
+skewX( &lt;angle&gt; )
 
 ###### **skewY()**: It specifies a 2D transformation along the Y axis by the given angle. {#skewy-it-specifies-a-2d-transformation-along-the-y-axis-by-the-given-angle. .unnumbered}
 
-> The syntax of skewY is given below:
+The syntax of skewY is given below:
 >
-> skewY( &lt;angle&gt; )
+skewY( &lt;angle&gt; )
 
 ##### Example: {#example-60 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> body{
+body{
 >
-> width: 90%;
+width: 90%;
 >
-> margin: 0 auto;
+margin: 0 auto;
 >
-> font-family: sans-serif;
+font-family: sans-serif;
 >
-> }
+}
 >
-> .wrap {
+.wrap {
 >
-> display: inline-block;
+display: inline-block;
 >
-> background: rgba(228, 225, 228, .6); width: 250px;
+background: rgba(228, 225, 228, .6); width: 250px;
 >
-> height: 250px; margin: 60px 30px;
+height: 250px; margin: 60px 30px;
 >
-> }
+}
 >
-> .box {
+.box {
 >
-> border: 2px solid #444; line-height: 150px; font-size: .9em;
+border: 2px solid #444; line-height: 150px; font-size: .9em;
 >
-> font-weight: bold; text-align: center;
+font-weight: bold; text-align: center;
 >
-> }
+}
 >
-> .box1 { background: red;
+.box1 { background: red;
 >
-> transform: matrix(1, 0, 0, 1, 80, 80);
+transform: matrix(1, 0, 0, 1, 80, 80);
 >
-> }
+}
 >
-> .box2 {
+.box2 {
 >
-> background: #909;
+background: #909;
 >
-> transform: translate(80px,80px);
+transform: translate(80px,80px);
 >
-> }
+}
 >
-> .box3 {
+.box3 {
 >
-> background: yellow;
+background: yellow;
 >
-> transform: matrix(.7, 0, 0, 1.3, 0, 0);
+transform: matrix(.7, 0, 0, 1.3, 0, 0);
 >
-> }
+}
 >
-> .box4 {
+.box4 {
 >
-> background: green; transform: scale(.7, 1.3);
+background: green; transform: scale(.7, 1.3);
 >
-> }
+}
 >
-> .box5 {
+.box5 {
 >
-> background: pink;
+background: pink;
 >
-> transform: matrix(1, 0, -0.5, 1, 0, 0);
+transform: matrix(1, 0, -0.5, 1, 0, 0);
 >
-> }
+}
 >
-> .box6 {
+.box6 {
 >
-> background: lightblue; transform: skew(-30deg);
+background: lightblue; transform: skew(-30deg);
 >
-> }
+}
 >
-> .box7 {
+.box7 {
 >
-> background: #f0f;
+background: #f0f;
 >
-> transform: matrix(.71, -.71,.71, 0.71, 0, 0);
+transform: matrix(.71, -.71,.71, 0.71, 0, 0);
 >
-> }
+}
 >
-> .box8 {
+.box8 {
 >
-> background: #098; transform: rotate(-45deg);
+background: #098; transform: rotate(-45deg);
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 >
-> &lt;h1&gt;2D Transform Functions&lt;/h1&gt;
+&lt;h1&gt;2D Transform Functions&lt;/h1&gt;
 >
-> &lt;div class=&#34;wrap&#34;&gt;
+&lt;div class=&#34;wrap&#34;&gt;
 >
-> &lt;div class=&#34;box box1&#34;&gt;matrix(1, 0, 0, 1, 80, 80)&lt;/div&gt;
+&lt;div class=&#34;box box1&#34;&gt;matrix(1, 0, 0, 1, 80, 80)&lt;/div&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;div class=&#34;wrap&#34;&gt;
+&lt;div class=&#34;wrap&#34;&gt;
 >
-> &lt;div class=&#34;box box2&#34;&gt;translate(80px,80px)
+&lt;div class=&#34;box box2&#34;&gt;translate(80px,80px)
 >
-> &lt;/div&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/div&gt;
 >
-> &lt;div class=&#34;wrap&#34;&gt;
+&lt;div class=&#34;wrap&#34;&gt;
 >
-> &lt;div class=&#34;box box3&#34;&gt;matrix(.7, 0, 0, 1.3, 0, 0)&lt;/div&gt;
+&lt;div class=&#34;box box3&#34;&gt;matrix(.7, 0, 0, 1.3, 0, 0)&lt;/div&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;div class=&#34;wrap&#34;&gt;
+&lt;div class=&#34;wrap&#34;&gt;
 >
-> &lt;div class=&#34;box box4&#34;&gt;scale(.7, 1.3)&lt;/div&gt;
+&lt;div class=&#34;box box4&#34;&gt;scale(.7, 1.3)&lt;/div&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;div class=&#34;wrap&#34;&gt;
+&lt;div class=&#34;wrap&#34;&gt;
 >
-> &lt;div class=&#34;box box5&#34;&gt;matrix(1, 0, -0.5, 1, 0, 0)&lt;/div&gt;
+&lt;div class=&#34;box box5&#34;&gt;matrix(1, 0, -0.5, 1, 0, 0)&lt;/div&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;div class=&#34;wrap&#34;&gt;
+&lt;div class=&#34;wrap&#34;&gt;
 >
-> &lt;div class=&#34;box box6&#34;&gt;skew(-30deg)&lt;/div&gt;
+&lt;div class=&#34;box box6&#34;&gt;skew(-30deg)&lt;/div&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;div class=&#34;wrap&#34;&gt;
+&lt;div class=&#34;wrap&#34;&gt;
 >
-> &lt;div class=&#34;box box7&#34;&gt;matrix(.71, -.71,.71, 0.71, 0, 0);&lt;/div&gt;
+&lt;div class=&#34;box box7&#34;&gt;matrix(.71, -.71,.71, 0.71, 0, 0);&lt;/div&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;div class=&#34;wrap&#34;&gt;
+&lt;div class=&#34;wrap&#34;&gt;
 >
-> []{#_bookmark217 .anchor}&lt;div class=&#34;box
-> box8&#34;&gt;rotate(-45deg)&lt;/div&gt;
+[]{#_bookmark217 .anchor}&lt;div class=&#34;box
+box8&#34;&gt;rotate(-45deg)&lt;/div&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-45 .unnumbered}
 
 ![](./images/image061.png){width="4.429687226596675in"
 height="2.041874453193351in"}
 
-> 2D transform functions.
+2D transform functions.
 
 ###### 3D Transform Functions {#d-transform-functions-1 .unnumbered}
 
-> It allows to apply transformations along three axes: x, y, and z axes,
-> as demonstrated by a three-dimensional Cartesian coordinate system.
-> The 3D transform functions available in CSS are given below.
+It allows to apply transformations along three axes: x, y, and z axes,
+as demonstrated by a three-dimensional Cartesian coordinate system.
+The 3D transform functions available in CSS are given below.
 >
-> **matrix3d():** It specifies a 3D transformation as a 4x4 same matrix
-> of 16 values in column-major order.
+**matrix3d():** It specifies a 3D transformation as a 4x4 same matrix
+of 16 values in column-major order.
 >
-> The syntax of matrix3d is given below:
+The syntax of matrix3d is given below:
 >
-> matrix3d() = matrix3d( &lt;number&gt; &#91;, &lt;number&gt; &#93;{15,15} )
+matrix3d() = matrix3d( &lt;number&gt; &#91;, &lt;number&gt; &#93;{15,15} )
 
 ###### **translate3d():** It specifies a 3D translation by the vector &#91;tx,ty,tz&#93;, tx, ty, and tz will be the first, second, and third translation value parameters, respectively. {#translate3d-it-specifies-a-3d-translation-by-the-vector-txtytz-tx-ty-and-tz-will-be-the-first-second-and-third-translation-value-parameters-respectively. .unnumbered}
 
-> The syntax of translate3d is given below:
+The syntax of translate3d is given below:
 >
-> translate3d() = translate3d( &lt;translation-value&gt;,
+translate3d() = translate3d( &lt;translation-value&gt;,
 >
-> &lt;translation-value&gt;, &lt;length&gt; )
+&lt;translation-value&gt;, &lt;length&gt; )
 
 ###### **translateZ():** It specifies a 3D translation by the vector &#91;0,0,tz&#93; with the given amount in the Z direction. {#translatez-it-specifies-a-3d-translation-by-the-vector-00tz-with-the-given-amount-in-the-z-direction. .unnumbered}
 
-> The syntax of translate3d is given below:
+The syntax of translate3d is given below:
 >
-> translateZ() = translateZ( &lt;length&gt; )
+translateZ() = translateZ( &lt;length&gt; )
 
 ###### **scale3d():** It specifies a 3D scale operation by the &#91;sx,sy,sz&#93; vector described by the three parameters. {#scale3d-it-specifies-a-3d-scale-operation-by-the-sxsysz-vector-described-by-the-three-parameters. .unnumbered}
 
-> scale3d() = scale3d( &lt;number&gt;, &lt;number&gt;, &lt;number&gt; )
+scale3d() = scale3d( &lt;number&gt;, &lt;number&gt;, &lt;number&gt; )
 
 ###### **scaleZ():** It specifies a 3D scale operation using the &#91;1,1,sz&#93; vector, where sz is given as the parameter. {#scalez-it-specifies-a-3d-scale-operation-using-the-11sz-vector-where-sz-is-given-as-the-parameter. .unnumbered}
 
-> The syntax of translate3d is given below:
+The syntax of translate3d is given below:
 >
-> scaleZ() = scaleZ( &lt;number&gt; )
+scaleZ() = scaleZ( &lt;number&gt; )
 
 ###### **rotate3d():** It specifies a 3D rotation by the angle specified in the last parameter about the &#91;x,y,z&#93; vector described by the first three parameters. {#rotate3d-it-specifies-a-3d-rotation-by-the-angle-specified-in-the-last-parameter-about-the-xyz-vector-described-by-the-first-three-parameters. .unnumbered}
 
-> The syntax of translate3d is given below:
+The syntax of translate3d is given below:
 >
-> rotate3d() = rotate3d( &lt;number&gt;, &lt;number&gt;, &lt;number&gt;,
+rotate3d() = rotate3d( &lt;number&gt;, &lt;number&gt;, &lt;number&gt;,
 >
-> &lt;number&gt; )
+&lt;number&gt; )
 
 ###### **rotateX():** This is the same as rotate3d(1, 0, 0, &lt;angle&gt;). The syntax of rotateX is given below: {#rotatex-this-is-the-same-as-rotate3d1-0-0-angle.-the-syntax-of-rotatex-is-given-below .unnumbered}
 
-> rotateX() = rotateX( &lt;angle&gt; )
+rotateX() = rotateX( &lt;angle&gt; )
 
 ###### **rotateY():** This is the same as rotate3d(0, 1, 0, &lt;angle&gt;). The syntax of rotateY is given below: {#rotatey-this-is-the-same-as-rotate3d0-1-0-angle.-the-syntax-of-rotatey-is-given-below .unnumbered}
 
-> rotateY() = rotateY( &lt;angle&gt; )
+rotateY() = rotateY( &lt;angle&gt; )
 
 ###### **rotateZ():** The same as rotate3d(0, 0, 1, &lt;angle&gt;) (which is also the same as rotate( &lt;angle&gt; ). {#rotatez-the-same-as-rotate3d0-0-1-angle-which-is-also-the-same-as-rotate-angle-. .unnumbered}
 
-> The syntax of rotateZ is given below:
+The syntax of rotateZ is given below:
 >
-> rotateZ() = rotateZ( &lt;angle&gt; )
+rotateZ() = rotateZ( &lt;angle&gt; )
 
 ###### **perspective():** It defines the distance between the z=0 plane and the user in order to give to the 3D-positioned element some perspective. {#perspective-it-defines-the-distance-between-the-z0-plane-and-the-user-in-order-to-give-to-the-3d-positioned-element-some-perspective. .unnumbered}
 
 ######  {#section-3 .unnumbered}
 
-> The syntax of perspective is given below:
+The syntax of perspective is given below:
 >
-> perspective() = perspective( &lt;length&gt; )
+perspective() = perspective( &lt;length&gt; )
 
 ##### Example: {#example-61 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> body { font-family: sans-serif; }
+body { font-family: sans-serif; }
 >
-> .scene {
+.scene {
 >
-> width: 200px; height: 200px;
+width: 200px; height: 200px;
 >
-> border: 1px solid #CCC; display: inline-block; width: 200px;
+border: 1px solid #CCC; display: inline-block; width: 200px;
 >
-> height: 200px;
+height: 200px;
 >
-> margin: 60px 60px 60px 0; perspective: 600px;
+margin: 60px 60px 60px 0; perspective: 600px;
 >
-> }
+}
 >
-> .panel { width: 100%;
+.panel { width: 100%;
 >
-> height: 100%;
+height: 100%;
 >
-> background: hsla(0, 100%, 50%, 0.7); line-height: 200px;
+background: hsla(0, 100%, 50%, 0.7); line-height: 200px;
 >
-> color: white; font-size: 18px;
+color: white; font-size: 18px;
 >
-> text-align: center;
+text-align: center;
 >
-> }
+}
 >
-> .panel&#45;-translate-neg-z { transform: translateZ(-200px);
+.panel&#45;-translate-neg-z { transform: translateZ(-200px);
 >
-> }
+}
 >
-> .panel&#45;-translate-pos-z { transform: translateZ(200px);
+.panel&#45;-translate-pos-z { transform: translateZ(200px);
 >
-> }
+}
 >
-> .panel&#45;-rotate-x { transform: rotateX(45deg);
+.panel&#45;-rotate-x { transform: rotateX(45deg);
 >
-> }
+}
 >
-> .panel&#45;-rotate-y { transform: rotateY(45deg);
+.panel&#45;-rotate-y { transform: rotateY(45deg);
 >
-> }
+}
 >
-> .panel&#45;-rotate-z { transform: rotateZ(45deg);
+.panel&#45;-rotate-z { transform: rotateZ(45deg);
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 >
-> &lt;h1&gt; 3D Transform Functions&lt;/h1&gt;
+&lt;h1&gt; 3D Transform Functions&lt;/h1&gt;
 >
-> &lt;div class=&#34;scene&#34;&gt;
+&lt;div class=&#34;scene&#34;&gt;
 >
-> &lt;div class=&#34;panel panel&#45;-translate-neg-
-> z&#34;&gt;translateZ(-200px)&lt;/div&gt;
+&lt;div class=&#34;panel panel&#45;-translate-neg-
+z&#34;&gt;translateZ(-200px)&lt;/div&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;div class=&#34;scene&#34;&gt;
+&lt;div class=&#34;scene&#34;&gt;
 >
-> &lt;div class=&#34;panel panel&#45;-translate-pos-
-> z&#34;&gt;translateZ(200px)&lt;/div&gt;
+&lt;div class=&#34;panel panel&#45;-translate-pos-
+z&#34;&gt;translateZ(200px)&lt;/div&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;div class=&#34;scene&#34;&gt;
+&lt;div class=&#34;scene&#34;&gt;
 >
-> &lt;div class=&#34;panel panel&#45;-rotate- x&#34;&gt;rotateX(45deg)&lt;/div&gt;
+&lt;div class=&#34;panel panel&#45;-rotate- x&#34;&gt;rotateX(45deg)&lt;/div&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;div class=&#34;scene&#34;&gt;
+&lt;div class=&#34;scene&#34;&gt;
 >
-> &lt;div class=&#34;panel panel&#45;-rotate- y&#34;&gt;rotateY(45deg)&lt;/div&gt;
+&lt;div class=&#34;panel panel&#45;-rotate- y&#34;&gt;rotateY(45deg)&lt;/div&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;div class=&#34;scene&#34;&gt;
+&lt;div class=&#34;scene&#34;&gt;
 >
-> &lt;div class=&#34;panel panel&#45;-rotate- z&#34;&gt;rotateZ(45deg)&lt;/div&gt;
+&lt;div class=&#34;panel panel&#45;-rotate- z&#34;&gt;rotateZ(45deg)&lt;/div&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-46 .unnumbered}
 
 ![](./images/image062.png){width="4.426909448818898in"
 height="1.2375in"}
 
-> 3D transform functions.
+3D transform functions.
 
 ### CSS TRANSITIONS PROPERTIES {#css-transitions-properties .unnumbered}
 
-> CSS transition property is a property for defining CSS transitions
-> that com- bines the four transition properties into one single
-> property. The transition property combines the following properties
-> such as transition-property, transition-duration,
-> transition-timing-function, and transition-delay.
+CSS transition property is a property for defining CSS transitions
+that com- bines the four transition properties into one single
+property. The transition property combines the following properties
+such as transition-property, transition-duration,
+transition-timing-function, and transition-delay.
 
 ##### Example: {#example-62 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> .demo_container{ width:600px; margin:0 auto;
+.demo_container{ width:600px; margin:0 auto;
 >
-> justify-content: center; align-items: center;
+justify-content: center; align-items: center;
 >
-> }
+}
 >
-> .transition {
+.transition {
 >
-> background-color: yellow-green; color: RGB(77, 145, 213);
+background-color: yellow-green; color: RGB(77, 145, 213);
 >
-> width: 30%; height: 30px; padding: 10px; font-size: 1.5em;
+width: 30%; height: 30px; padding: 10px; font-size: 1.5em;
 >
-> font-family: sans-serif;
+font-family: sans-serif;
 >
-> transition: width 0.5s cubic-bezier(0.25, 0.1, 0.25, 1.4) 0s, height
-> 0.5s cubic-bezier(0.25, 0.1,
+transition: width 0.5s cubic-bezier(0.25, 0.1, 0.25, 1.4) 0s, height
+0.5s cubic-bezier(0.25, 0.1,
 >
-> 0.25, 1.4) 0s, font-size 0.5s cubic-bezier(0.25,
+0.25, 1.4) 0s, font-size 0.5s cubic-bezier(0.25,
 >
-> 0.1, 0.25, 1.4) 0s;
+0.1, 0.25, 1.4) 0s;
 >
-> }
+}
 >
-> .transition:hover { width: 60%; height: 180px; font-size: 2em;
-> font-weight: bold;
+.transition:hover { width: 60%; height: 180px; font-size: 2em;
+font-weight: bold;
 >
-> background-color: beige;
+background-color: beige;
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;div class=&#34;div1&#34;&gt;
+&lt;div class=&#34;div1&#34;&gt;
 >
-> &lt;h1&gt; CSS transition Properties &lt;/h1&gt;
+&lt;h1&gt; CSS transition Properties &lt;/h1&gt;
 >
-> &lt;div class=&#34;transition&#34;&gt; Drage over me&#8230;
+&lt;div class=&#34;transition&#34;&gt; Drage over me&#8230;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-47 .unnumbered}
 
 ![](./images/image063.png){width="3.7734372265966756in"
 height="2.120311679790026in"}
 
-> CSS transition properties.
+CSS transition properties.
 
 ### CHAPTER SUMMARY {#chapter-summary-1 .unnumbered}
 
@@ -9266,10 +9051,10 @@ height="2.120311679790026in"}
 
 ######  {#section-4 .unnumbered}
 
-> ![](./images/image006.png){width="3.6393208661417322in"
-> height="0.9622911198600175in"}
+![](./images/image006.png){width="3.6393208661417322in"
+height="0.9622911198600175in"}
 >
-> []{#CHAPTER_3:_CSS_Selectors .anchor}CHA P T E R 3
+[]{#CHAPTER_3:_CSS_Selectors .anchor}CHA P T E R 3
 
 # CSS Selectors {#css-selectors .unnumbered}
 
@@ -9287,16 +9072,16 @@ height="2.120311679790026in"}
 
 -   Combinators Selectors
 
-> In the last chapter, we discussed various CSS properties, and now we
-> have another important CSS: Selector. The selector means that the user
-> can select any of the properties like classes, id, or tag names using
-> the selector. The code can have various classes, but only unique id in
-> it.
+In the last chapter, we discussed various CSS properties, and now we
+have another important CSS: Selector. The selector means that the user
+can select any of the properties like classes, id, or tag names using
+the selector. The code can have various classes, but only unique id in
+it.
 
 ### INTRODUCTION {#introduction-1 .unnumbered}
 
-> Here is the list of the most common and well-supported CSS selectors.
-> There are many more, but these are the ones you should know well.
+Here is the list of the most common and well-supported CSS selectors.
+There are many more, but these are the ones you should know well.
 
 -   Type Selector: a { }
 
@@ -9306,10 +9091,10 @@ height="2.120311679790026in"}
 
 -   Descendant Selector: a b { }
 
-> DOI:
-> [10.1201/9781003358060-3](https://doi.org/10.1201/9781003358060-3)
+DOI:
+[10.1201/9781003358060-3](https://doi.org/10.1201/9781003358060-3)
 >
-> **177**
+**177**
 
 -   Selector list : a,b
 
@@ -9364,134 +9149,134 @@ height="2.120311679790026in"}
 
 -   Attribute Wildcard Selector: &#91;for&#42;="x"&#93; { }
 
-> []{#_bookmark225 .anchor}Let's have the example of each of the
-> selectors with simple explanations, and the numbering can be changed
-> from the above given selectors:
+[]{#_bookmark225 .anchor}Let's have the example of each of the
+selectors with simple explanations, and the numbering can be changed
+from the above given selectors:
 
 ### [UNIVERSAL SELECTOR (&#42;)]{.underline}  {#universal-selector .unnumbered}
 
 ##### Example: {#example-63 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> .demo_container{ width:400px; margin:0 auto;
+.demo_container{ width:400px; margin:0 auto;
 >
-> text-align: center; justify-content: center; align-items: center;
+text-align: center; justify-content: center; align-items: center;
 >
-> }
+}
 >
-> &#42; {
+&#42; {
 >
-> background-color: #f13;
+background-color: #f13;
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;h1&gt; Universal Selectors (&#42;) &lt;/h1&gt;
+&lt;h1&gt; Universal Selectors (&#42;) &lt;/h1&gt;
 >
-> Lorem ipsum sit amet, consectetur adipiscing elit.
+Lorem ipsum sit amet, consectetur adipiscing elit.
 >
-> Aenean accumsan velit id lorem tempus iaculis. Praesent placerat
-> lectus lorem. Quisque lacinia,
+Aenean accumsan velit id lorem tempus iaculis. Praesent placerat
+lectus lorem. Quisque lacinia,
 >
-> metus sit amet tristique lacinia, nisi erat pharetra lectus, in
+metus sit amet tristique lacinia, nisi erat pharetra lectus, in
 >
-> consequat turpis eros a erat. Cras blandit vehicula arcu ac porta.
+consequat turpis eros a erat. Cras blandit vehicula arcu ac porta.
 >
-> Donec gravida massa vel odio pretium dignissim. In id congue erat,
+Donec gravida massa vel odio pretium dignissim. In id congue erat,
 >
-> quis fermentum nulla.
+quis fermentum nulla.
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-48 .unnumbered}
 
 ![](./images/image064.png){width="4.429714566929134in"
 height="2.0559372265966753in"}
 
-> Universal selector (&#42;).
+Universal selector (&#42;).
 
 #### [UNIVERSAL SELECTOR (elements )]{.underline}  {#universal-selector-elements .unnumbered}
 
 ##### Example: {#example-64 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> .demo_container{ width:600px; margin:0 auto;
+.demo_container{ width:600px; margin:0 auto;
 >
-> text-align: center; justify-content: center; align-items: center;
+text-align: center; justify-content: center; align-items: center;
 >
-> }
+}
 >
-> div {
+div {
 >
-> background-color: #f13;
+background-color: #f13;
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> []{#_bookmark229 .anchor}&lt;body&gt;
+[]{#_bookmark229 .anchor}&lt;body&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;h1&gt; Universal Selectors (p, div, h1, aside, section, article)
-> &lt;/h1&gt;
+&lt;h1&gt; Universal Selectors (p, div, h1, aside, section, article)
+&lt;/h1&gt;
 >
-> Lorem ipsum sit amet, consectetur adipiscing elit.
+Lorem ipsum sit amet, consectetur adipiscing elit.
 >
-> Aenean accumsan velit id lorem tempus iaculis. Praesent placerat
-> lectus lorem. Quisque lacinia,
+Aenean accumsan velit id lorem tempus iaculis. Praesent placerat
+lectus lorem. Quisque lacinia,
 >
-> metus sit amet tristique lacinia, nisi erat pharetra lectus, in
+metus sit amet tristique lacinia, nisi erat pharetra lectus, in
 >
-> consequat turpis eros a erat. Cras blandit vehicula arcu ac porta.
+consequat turpis eros a erat. Cras blandit vehicula arcu ac porta.
 >
-> Donec gravida massa vel odio pretium dignissim. In id congue erat,
+Donec gravida massa vel odio pretium dignissim. In id congue erat,
 >
-> quis fermentum nulla.
+quis fermentum nulla.
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-49 .unnumbered}
 
 ![](./images/image065.png){width="4.429687226596675in"
 height="1.38375in"}
 
-> Universal selector (elements/tags).
+Universal selector (elements/tags).
 
 ## LOGICAL COMBINATIONS SELECTORS {#logical-combinations-selectors .unnumbered}
 
@@ -9499,72 +9284,72 @@ height="1.38375in"}
 
 ##### Example: {#example-65 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> .demo_container{ width:600px; margin:0 auto;
+.demo_container{ width:600px; margin:0 auto;
 >
-> text-align: center; justify-content: center; align-items: center;
+text-align: center; justify-content: center; align-items: center;
 >
-> }
+}
 >
-> div {
+div {
 >
-> background-color: #f13;
+background-color: #f13;
 >
-> }
+}
 >
-> p:not(div,h1) { background-color: yellow;
+p:not(div,h1) { background-color: yellow;
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;h1&gt; Logical Selectors ( :not ) &lt;/h1&gt;
+&lt;h1&gt; Logical Selectors ( :not ) &lt;/h1&gt;
 >
-> Lorem ipsum sit amet, consectetur adipiscing elit.
+Lorem ipsum sit amet, consectetur adipiscing elit.
 >
-> Aenean accumsan velit id lorem tempus iaculis.
+Aenean accumsan velit id lorem tempus iaculis.
 >
-> Praesent placerat lectus lorem. Quisque lacinia,
+Praesent placerat lectus lorem. Quisque lacinia,
 >
-> &lt;p&gt; metus sit amet tristique lacinia, nisi erat pharetra lectus, in
+&lt;p&gt; metus sit amet tristique lacinia, nisi erat pharetra lectus, in
 >
-> consequat turpis eros a erat. Cras blandit vehicula arcu ac porta.
+consequat turpis eros a erat. Cras blandit vehicula arcu ac porta.
 >
-> &lt;/p&gt;
+&lt;/p&gt;
 >
-> &lt;p&gt; metus sit amet tristique lacinia, nisi erat pharetra lectus, in
+&lt;p&gt; metus sit amet tristique lacinia, nisi erat pharetra lectus, in
 >
-> consequat turpis eros a erat. Cras blandit vehicula arcu ac porta.
+consequat turpis eros a erat. Cras blandit vehicula arcu ac porta.
 >
-> &lt;/p&gt;
+&lt;/p&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-50 .unnumbered}
 
 ![](./images/image066.png){width="4.429687226596675in"
 height="1.4821872265966753in"}
 
-> Logical selectors ( :not ).
+Logical selectors ( :not ).
 
 ## ATTRIBUTE SELECTORS {#attribute-selectors .unnumbered}
 
@@ -9572,1732 +9357,1732 @@ height="1.4821872265966753in"}
 
 ##### Example: {#example-66 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> .demo_container{ width:600px; margin:0 auto;
+.demo_container{ width:600px; margin:0 auto;
 >
-> text-align: center; justify-content: center; align-items: center;
+text-align: center; justify-content: center; align-items: center;
 >
-> }
+}
 >
-> p.p1{
+p.p1{
 >
-> background-color: yellow;
+background-color: yellow;
 >
-> }
+}
 >
-> p.p2{
+p.p2{
 >
-> background-color: pink;
+background-color: pink;
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> []{#_bookmark235 .anchor}&lt;body&gt;
+[]{#_bookmark235 .anchor}&lt;body&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;h1&gt; Attribute Selectors (.classname ) &lt;/h1&gt;
+&lt;h1&gt; Attribute Selectors (.classname ) &lt;/h1&gt;
 >
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 >
-> Aenean accumsan velit id lorem tempus iaculis.
+Aenean accumsan velit id lorem tempus iaculis.
 >
-> Praesent placerat lectus lorem. Quisque lacinia,
+Praesent placerat lectus lorem. Quisque lacinia,
 >
-> &lt;p class=&#34;p2&#34;&gt; metus sit amet tristique lacinia, nisi erat
-> pharetra lectus, in
+&lt;p class=&#34;p2&#34;&gt; metus sit amet tristique lacinia, nisi erat
+pharetra lectus, in
 >
-> consequat turpis eros a erat. Cras blandit vehicula arcu ac porta.
+consequat turpis eros a erat. Cras blandit vehicula arcu ac porta.
 >
-> &lt;/p&gt;
+&lt;/p&gt;
 >
-> &lt;p class=&#34;p1&#34;&gt; metus sit amet tristique lacinia, nisi erat
-> pharetra lectus, in
+&lt;p class=&#34;p1&#34;&gt; metus sit amet tristique lacinia, nisi erat
+pharetra lectus, in
 >
-> consequat turpis eros a erat. Cras blandit vehicula arcu ac porta.
+consequat turpis eros a erat. Cras blandit vehicula arcu ac porta.
 >
-> &lt;/p&gt;
+&lt;/p&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-51 .unnumbered}
 
 ![](./images/image067.png){width="4.42972987751531in"
 height="1.4259372265966754in"}
 
-> []{#_bookmark236 .anchor}Attribute selectors (.classname).
+[]{#_bookmark236 .anchor}Attribute selectors (.classname).
 
 #### [ATTRIBUTE SELECTORS ( id)]{.underline}  {#attribute-selectors-id .unnumbered}
 
 ##### Example: {#example-67 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 
 #### brightness() {#brightness .unnumbered}
 
 ###### The brightness() function is used to adjust an image's brightness. {#the-brightness-function-is-used-to-adjust-an-images-brightness. .unnumbered}
 
-> The syntax of the brightness() function is as follows:
+The syntax of the brightness() function is as follows:
 >
-> brightness() = brightness( &#91; &lt;number&gt; &#124; &lt;percentage&gt; &#93; )
+brightness() = brightness( &#91; &lt;number&gt; &#124; &lt;percentage&gt; &#93; )
 >
-> Explanation: The brightness() function accepts a number or also per-
-> centage as its argument. It determines the brightness level of the
-> image. A value of 0% in the image will be completely black. A value of
-> 100% in an image will be unchanged. The value above 100% produces a
-> brighter image. A number value of 0.2 has the same effect as the
-> percentage value of 20%. The negative values are not allowed. It is
-> used with the filter prop- erty to adjust the brightness of an image.
-> The function applies a linear multiplier to the input image, making it
-> appear more or less bright. It requires an argument to be passed to
-> it. It determines the brightness level that is applied to the image.
-> The argument can be either a % value or a number.
+Explanation: The brightness() function accepts a number or also per-
+centage as its argument. It determines the brightness level of the
+image. A value of 0% in the image will be completely black. A value of
+100% in an image will be unchanged. The value above 100% produces a
+brighter image. A number value of 0.2 has the same effect as the
+percentage value of 20%. The negative values are not allowed. It is
+used with the filter prop- erty to adjust the brightness of an image.
+The function applies a linear multiplier to the input image, making it
+appear more or less bright. It requires an argument to be passed to
+it. It determines the brightness level that is applied to the image.
+The argument can be either a % value or a number.
 
 ##### Example: {#example-68 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> &#42; { padding:0; margin:0;
+&#42; { padding:0; margin:0;
 >
-> box-sizing: border-box;
+box-sizing: border-box;
 >
-> }
+}
 >
-> .demo_container{ padding:20px; width:800px; margin:0 auto;
+.demo_container{ padding:20px; width:800px; margin:0 auto;
 >
-> justify-content: center; align-items: center;
+justify-content: center; align-items: center;
 >
-> }
+}
 >
-> img{
+img{
 >
-> width:100%; height:250px;
+width:100%; height:250px;
 >
-> }
+}
 >
-> .row{
+.row{
 >
-> display: flex;
+display: flex;
 >
-> }
+}
 >
-> .col{
+.col{
 >
-> width:100%
+width:100%
 >
-> }
+}
 >
-> .image-1 {
+.image-1 {
 >
-> filter: brightness(50%);
+filter: brightness(50%);
 >
-> }
+}
 >
-> .image-2 {
+.image-2 {
 >
-> filter: brightness(150%);
+filter: brightness(150%);
 >
-> }
+}
 >
-> .image-3 {
+.image-3 {
 >
-> filter: brightness(2.5);
+filter: brightness(2.5);
 >
-> }
+}
 >
-> p{
+p{
 >
-> padding-top: 20px; font-size:20px
+padding-top: 20px; font-size:20px
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;h2&gt; The blur() function will blur the given image. &lt;/h2&gt;
+&lt;h2&gt; The blur() function will blur the given image. &lt;/h2&gt;
 >
-> &lt;div class=&#34;row&#34;&gt;
+&lt;div class=&#34;row&#34;&gt;
 >
-> &lt;div class=&#34;col&#34;&gt;
+&lt;div class=&#34;col&#34;&gt;
 >
-> &lt;p&gt; Normal Image &lt;/p&gt;
+&lt;p&gt; Normal Image &lt;/p&gt;
 >
-> &lt;img src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
+&lt;img src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
 >
-> &lt;p&gt; 50% Brightness Image &lt;/p&gt;
+&lt;p&gt; 50% Brightness Image &lt;/p&gt;
 >
-> &lt;img class=&#34;image-1&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
+&lt;img class=&#34;image-1&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;div class=&#34;col&#34;&gt;
+&lt;div class=&#34;col&#34;&gt;
 >
-> &lt;p&gt; 150% Brightness Image &lt;/p&gt;
+&lt;p&gt; 150% Brightness Image &lt;/p&gt;
 >
-> &lt;img class=&#34;image-2&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
+&lt;img class=&#34;image-2&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
 >
-> []{#_bookmark239 .anchor}&lt;p&gt; 50% Brightness Image &lt;/p&gt;
+[]{#_bookmark239 .anchor}&lt;p&gt; 50% Brightness Image &lt;/p&gt;
 >
-> &lt;img class=&#34;image-3&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
+&lt;img class=&#34;image-3&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
-###### The output of the above code is given below: {#the-output-of-the-above-code-is-given-below .unnumbered}
+###### The output of the above code is given below:
 
 ![](./images/image068.png){width="4.429687226596675in"
 height="3.5775in"}
 
-> []{#_bookmark240 .anchor}CSS function ( :blur() ).
+CSS function ( :blur() ).
 
-#### calc() {#calc .unnumbered}
+#### calc()
 
-> The CSS calc() function allows the use of calculations within CSS
-> prop- erty values. The calc() can be used in place of other unit types
-> when setting widths, heights, angles, frequencies, etc. The exact
-> value that the browser uses will be a result of the calculation
-> performed by the calc() function.
+The CSS calc() function allows the use of calculations within CSS
+prop- erty values. The calc() can be used in place of other unit types
+when setting widths, heights, angles, frequencies, etc. The exact
+value that the browser uses will be a result of the calculation
+performed by the calc() function.
 
-##### Example: {#example-69 .unnumbered}
+##### Example:
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> &#42; { padding:0; margin:0;
+&#42; { padding:0; margin:0;
 >
-> box-sizing: border-box;
+box-sizing: border-box;
 >
-> }
+}
 >
-> .demo_container{ width:800px; margin:0 auto;
+.demo_container{ width:800px; margin:0 auto;
 >
-> justify-content: center; align-items: center;
+justify-content: center; align-items: center;
 >
-> }
+}
 >
-> nav {
+nav {
 >
-> width: 180px; float: left; background: gold;
+width: 180px; float: left; background: gold;
 >
-> }
+}
 >
-> article {
+article {
 >
-> width: calc(90% - 100px); float: right;
+width: calc(90% - 100px); float: right;
 >
-> background: orange;
+background: orange;
 >
-> }
+}
 >
-> article, nav { color: white; padding: 30px;
+article, nav { color: white; padding: 30px;
 >
-> box-sizing: border-box;
+box-sizing: border-box;
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;h1&gt; The calc() function allows to use calculations within CSS
-> property values. &lt;/h1&gt;
+&lt;h1&gt; The calc() function allows to use calculations within CSS
+property values. &lt;/h1&gt;
 >
-> &lt;br&gt;
+&lt;br&gt;
 >
-> &lt;nav&gt;
+&lt;nav&gt;
 >
-> &lt;h1&gt; Width:100px &lt;/h1&gt;
+&lt;h1&gt; Width:100px &lt;/h1&gt;
 >
-> &lt;/nav&gt;
+&lt;/nav&gt;
 >
-> []{#_bookmark241 .anchor}&lt;article&gt;
+&lt;article&gt;
 >
-> &lt;h1&gt; Width: calc(100% - 100px);&lt;/h1&gt;
+&lt;h1&gt; Width: calc(100% - 100px);&lt;/h1&gt;
 >
-> &lt;/article&gt;
+&lt;/article&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### The output of the above code is given below: {#the-output-of-the-above-code-is-given-below-1 .unnumbered}
 
 ![](./images/image069.png){width="4.265624453193351in"
 height="0.9208333333333333in"}
 
-> CSS function ( :calc () ).
+CSS function ( :calc () ).
 
 #### circle() {#circle .unnumbered}
 
 ###### The circle() is a basic shape value that is the part of the CSS shapes mod- ule. Basic shapes such as circle() can be used as a value for properties such as shape-outside to control the flow of content (code) around the element and clip-path to clip the element's contents to the basic shape. It means that you have text flowing around the element in the shape of a circle, has an image clipped to the shape of a circle. {#the-circle-is-a-basic-shape-value-that-is-the-part-of-the-css-shapes-mod--ule.-basic-shapes-such-as-circle-can-be-used-as-a-value-for-properties-such-as-shape-outside-to-control-the-flow-of-content-code-around-the-element-and-clip-path-to-clip-the-elements-contents-to-the-basic-shape.-it-means-that-you-have-text-flowing-around-the-element-in-the-shape-of-a-circle-has-an-image-clipped-to-the-shape-of-a-circle. .unnumbered}
 
-> The syntax of the circle() function is as follows:
+The syntax of the circle() function is as follows:
 >
-> circle() = circle( &#91;&lt;shape-radius&gt;&#93;? &#91;at &lt;position&gt;&#93;? )
+circle() = circle( &#91;&lt;shape-radius&gt;&#93;? &#91;at &lt;position&gt;&#93;? )
 
 ###### How to Position the Circle {#how-to-position-the-circle .unnumbered}
 
-> You can specify a position for the circle by various radius argument
-> with a valid CSS position. It specifies the circle's center. It just
-> separates the radius and the position like this:
+You can specify a position for the circle by various radius argument
+with a valid CSS position. It specifies the circle's center. It just
+separates the radius and the position like this:
 >
-> shape-outside: circle(100px at 10px 150px);
+shape-outside: circle(100px at 10px 150px);
 
 ##### Example: {#example-70 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> &#42; { padding:0; margin:0;
+&#42; { padding:0; margin:0;
 >
-> box-sizing: border-box;
+box-sizing: border-box;
 >
-> }
+}
 >
-> .demo_container{ width:800px; margin:0 auto;
+.demo_container{ width:800px; margin:0 auto;
 >
-> justify-content: center; align-items: center;
+justify-content: center; align-items: center;
 >
-> }
+}
 >
-> .section-1 { float: left; width: 200px; height: 150px;
+.section-1 { float: left; width: 200px; height: 150px;
 >
-> shape-outside: circle();
+shape-outside: circle();
 >
-> }
+}
 >
-> .section-2 { float: left; width: 200px; height: 150px;
+.section-2 { float: left; width: 200px; height: 150px;
 >
-> shape-outside: circle(100px at 0px 150px);
+shape-outside: circle(100px at 0px 150px);
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;h1&gt; The circle() is a CSS shape value that&#39;s part of the CSS
-> Shapes module circle(with no background-color). &lt;/h1&gt; &lt;br&gt;
+&lt;h1&gt; The circle() is a CSS shape value that&#39;s part of the CSS
+Shapes module circle(with no background-color). &lt;/h1&gt; &lt;br&gt;
 >
-> &lt;section class=&#34;section-1&#34;&gt; &lt;/section&gt;
+&lt;section class=&#34;section-1&#34;&gt; &lt;/section&gt;
 >
-> &lt;p&gt;Ornare quam viver raorci sagittis eu volutpat odio. Viverra
-> adipiscing at inellus integer feugiat scelerisque.
+&lt;p&gt;Ornare quam viver raorci sagittis eu volutpat odio. Viverra
+adipiscing at inellus integer feugiat scelerisque.
 >
-> Adipiscing biben dum est ultricies integer quis auctor. Massa
-> tincidunt dui utornare lectus sit amet.
+Adipiscing biben dum est ultricies integer quis auctor. Massa
+tincidunt dui utornare lectus sit amet.
 >
-> Pellentesque eliteget gravida cum sociis natoque penatibus et. Sed
-> vulputate odio ut enim blandit volutpat maecenas volutpat.
+Pellentesque eliteget gravida cum sociis natoque penatibus et. Sed
+vulputate odio ut enim blandit volutpat maecenas volutpat.
 >
-> Purus viverra accumsan in nisl nisi. Dignissim enim sit amet venenatis
-> urnacu rsus eget. Ornare arcuo dio ut sem nullap haretra diam sit.
+Purus viverra accumsan in nisl nisi. Dignissim enim sit amet venenatis
+urnacu rsus eget. Ornare arcuo dio ut sem nullap haretra diam sit.
 >
-> Vitae justo eget magna fermentum iaculis.&lt;/p&gt;
+Vitae justo eget magna fermentum iaculis.&lt;/p&gt;
 >
-> &lt;/div&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt;
+&lt;/div&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;h1&gt; The circle() is a CSS shape value that&#39;s part of the CSS
-> Shapes module (with background- color). &lt;/h1&gt; &lt;br&gt;
+&lt;h1&gt; The circle() is a CSS shape value that&#39;s part of the CSS
+Shapes module (with background- color). &lt;/h1&gt; &lt;br&gt;
 >
-> &lt;section class=&#34;section-2&#34;&gt;&lt;/section&gt;
+&lt;section class=&#34;section-2&#34;&gt;&lt;/section&gt;
 >
-> &lt;p&gt;Ornare quam viverra orci sagittis euvo lutpat odio. Viverra
-> adipiscing at int ellus integer feugiat scelerisque.
+&lt;p&gt;Ornare quam viverra orci sagittis euvo lutpat odio. Viverra
+adipiscing at int ellus integer feugiat scelerisque.
 >
-> Adipiscing bibendum est ultricies integ erquis auctor. Massa tincidunt
-> du iut ornare lectus sit amet.
+Adipiscing bibendum est ultricies integ erquis auctor. Massa tincidunt
+du iut ornare lectus sit amet.
 >
-> Pellentesque eli teget gravi dacum sociis natoque penatibus et. Sed
-> vulputate odio utenim blandit volutpat maecenas volutpat.
+Pellentesque eli teget gravi dacum sociis natoque penatibus et. Sed
+vulputate odio utenim blandit volutpat maecenas volutpat.
 >
-> Purus viverraac cumsan in nisl nisi.
+Purus viverraac cumsan in nisl nisi.
 >
-> Dignissim eni msit amet venenatis urna cursus eget. Orna rearcu odio
-> ut sem nulla pharetra diam sit.
+Dignissim eni msit amet venenatis urna cursus eget. Orna rearcu odio
+ut sem nulla pharetra diam sit.
 >
-> Vitae justoeget magna fermentum iaculis.&lt;/p&gt;
+Vitae justoeget magna fermentum iaculis.&lt;/p&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-52 .unnumbered}
 
 ![](./images/image070.png){width="4.101581364829396in"
 height="2.5208333333333335in"}
 
-> CSS function ( :circle() ).
+CSS function ( :circle() ).
 
 ##### Another example: {#another-example-2 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> &#42; { padding:0; margin:0;
+&#42; { padding:0; margin:0;
 >
-> box-sizing: border-box;
+box-sizing: border-box;
 >
-> }
+}
 >
-> .demo_container{ width:800px; margin:0 auto;
+.demo_container{ width:800px; margin:0 auto;
 >
-> justify-content: center; align-items: center;
+justify-content: center; align-items: center;
 >
-> }
+}
 >
-> .section-1 { float: left; width: 200px; height: 150px;
+.section-1 { float: left; width: 200px; height: 150px;
 >
-> shape-outside: circle();
+shape-outside: circle();
 >
-> }
+}
 >
-> .section-2 { float: left; width: 200px; height: 150px;
+.section-2 { float: left; width: 200px; height: 150px;
 >
-> /&#42; shape-outside: circle(100px at 0px 150px); &#42;/ background: brown;
+/&#42; shape-outside: circle(100px at 0px 150px); &#42;/ background: brown;
 >
-> clip-path: circle();
+clip-path: circle();
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;h1&gt; The circle() is a CSS shape value that&#39;s part of the CSS
-> Shapes module clip-path: circle() &lt;/h1&gt; &lt;br&gt;
+&lt;h1&gt; The circle() is a CSS shape value that&#39;s part of the CSS
+Shapes module clip-path: circle() &lt;/h1&gt; &lt;br&gt;
 >
-> &lt;section class=&#34;section-2&#34;&gt;&lt;/section&gt;
+&lt;section class=&#34;section-2&#34;&gt;&lt;/section&gt;
 >
-> &lt;p&gt;Ornare quam viver raorci sagittis eu volutpat odio. Viverra
-> adipiscing at in tell usinteger feugiat scelerisque.
+&lt;p&gt;Ornare quam viver raorci sagittis eu volutpat odio. Viverra
+adipiscing at in tell usinteger feugiat scelerisque.
 >
-> Adipiscing bibendum esult ricies integer quisauctor. Massa tincidunt
-> dui ut ornare sit amet.
+Adipiscing bibendum esult ricies integer quisauctor. Massa tincidunt
+dui ut ornare sit amet.
 >
-> Pellentesque elite get gravida cum sociis natoque et. Sed vulputate
-> odio ut enim blandit volutpat maecenas volutpat.
+Pellentesque elite get gravida cum sociis natoque et. Sed vulputate
+odio ut enim blandit volutpat maecenas volutpat.
 >
-> Purus viverra accumsan innisl nisi. Dignissim enim sitamet venenatis
-> urna cursus eget. Ornare arc uodio ut sem nulla pharetra diam sit.
+Purus viverra accumsan innisl nisi. Dignissim enim sitamet venenatis
+urna cursus eget. Ornare arc uodio ut sem nulla pharetra diam sit.
 >
-> &lt;p&gt;Faucibus ornare suspendisse sed nisi lacus viverra tellus.
+&lt;p&gt;Faucibus ornare suspendisse sed nisi lacus viverra tellus.
 >
-> Rhoncus est pellentesque elit ullamcorper dignissim cras. Sodales ut
-> etiam sit ame tisl purus in mollis nunc.
+Rhoncus est pellentesque elit ullamcorper dignissim cras. Sodales ut
+etiam sit ame tisl purus in mollis nunc.
 >
-> Hendrerit gravi darutrum quisque nontel lus orci ac auctor. Enim ut
-> sem viverra eget. Eu nisl nunc mi ipsum faucibus.
+Hendrerit gravi darutrum quisque nontel lus orci ac auctor. Enim ut
+sem viverra eget. Eu nisl nunc mi ipsum faucibus.
 >
-> Enim facilisis gravida neque convallis a cras semper auctor neque.
+Enim facilisis gravida neque convallis a cras semper auctor neque.
 >
-> Sit amet mauris commodo quis imperdiet tincidunt nunc.&lt;/p&gt;
+Sit amet mauris commodo quis imperdiet tincidunt nunc.&lt;/p&gt;
 >
-> Vitae justo eget magna fermentum iaculis.&lt;/p&gt;
+Vitae justo eget magna fermentum iaculis.&lt;/p&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-53 .unnumbered}
 
 ![](./images/image071.png){width="4.101573709536308in"
 height="2.4166666666666665in"}
 
-> CSS function ( :circle() ).
+CSS function ( :circle() ).
 
 ##### Another example: {#another-example-3 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> &#42; { padding:0; margin:0;
+&#42; { padding:0; margin:0;
 >
-> box-sizing: border-box;
+box-sizing: border-box;
 >
-> }
+}
 >
-> .demo_container{ width:800px; margin:0 auto;
+.demo_container{ width:800px; margin:0 auto;
 >
-> justify-content: center; align-items: center;
+justify-content: center; align-items: center;
 >
-> }
+}
 >
-> .section-1 { float: left; width: 200px; height: 150px;
+.section-1 { float: left; width: 200px; height: 150px;
 >
-> shape-outside: circle();
+shape-outside: circle();
 >
-> }
+}
 >
-> .section-2 { float: left; width: 200px; height: 150px;
+.section-2 { float: left; width: 200px; height: 150px;
 >
-> background: brown; clip-path: circle();
+background: brown; clip-path: circle();
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;h1&gt; The circle() is a CSS shape value that&#39;s part of the CSS
-> Shapes module clip-path: circle() &lt;/h1&gt; &lt;br&gt;
+&lt;h1&gt; The circle() is a CSS shape value that&#39;s part of the CSS
+Shapes module clip-path: circle() &lt;/h1&gt; &lt;br&gt;
 >
-> &lt;section class=&#34;section-2&#34;&gt;&lt;/section&gt;
+&lt;section class=&#34;section-2&#34;&gt;&lt;/section&gt;
 >
-> &lt;p&gt;Ornare quam viverra orci sagit tiseu volutpat odio. Viverra
-> adipiscing atin tellus integer feugiat scelerisque.
+&lt;p&gt;Ornare quam viverra orci sagit tiseu volutpat odio. Viverra
+adipiscing atin tellus integer feugiat scelerisque.
 >
-> Adipiscing bibendum estul tricies integer quis auctor. Massa tincidunt
-> dui utornare lectus sit amet.
+Adipiscing bibendum estul tricies integer quis auctor. Massa tincidunt
+dui utornare lectus sit amet.
 >
-> Pellentesque elit egetgravida cum sociis natoque penatibus et. Sed
-> vulputate odio ut enim blandit volutpat maecenas volutpat.
+Pellentesque elit egetgravida cum sociis natoque penatibus et. Sed
+vulputate odio ut enim blandit volutpat maecenas volutpat.
 >
-> Purus viverra accumsan in nisl nisi.
+Purus viverra accumsan in nisl nisi.
 >
-> Dignissim enim sitamet venenatis urna cursus egt. Ornare arcu odio uts
-> em nulla pharetra diam sit.
+Dignissim enim sitamet venenatis urna cursus egt. Ornare arcu odio uts
+em nulla pharetra diam sit.
 >
-> &lt;p&gt;Faucibus ornare suspendisse sednisi lacus sed viverra tellus.
+&lt;p&gt;Faucibus ornare suspendisse sednisi lacus sed viverra tellus.
 >
-> Rhoncus est pellentesque elit ullamcorper dignissim cras. Sodales ut
-> etiam sit amet nisl puruin mollis nunc.
+Rhoncus est pellentesque elit ullamcorper dignissim cras. Sodales ut
+etiam sit amet nisl puruin mollis nunc.
 >
-> Hendrerit gravida rutrum quisque non tellus orciac auctor. Enim ut sem
-> viverra aliquet eget. Eu nisl nunc mi ipsum faucibus.
+Hendrerit gravida rutrum quisque non tellus orciac auctor. Enim ut sem
+viverra aliquet eget. Eu nisl nunc mi ipsum faucibus.
 >
-> Enim facilisis gravida neque convallis acras semper auctor neque.
+Enim facilisis gravida neque convallis acras semper auctor neque.
 >
-> Sit amet mauris commodo quis imperdiet massa tinci dunt nunc.&lt;/p&gt;
+Sit amet mauris commodo quis imperdiet massa tinci dunt nunc.&lt;/p&gt;
 >
-> Vitae justo eget magna fermentum iaculis.&lt;/p&gt;
+Vitae justo eget magna fermentum iaculis.&lt;/p&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-54 .unnumbered}
 
 ![](./images/image072.png){width="4.429687226596675in"
 height="1.665in"}
 
-> CSS function ( :circle() ).
+CSS function ( :circle() ).
 
 #### contrast() {#contrast .unnumbered}
 
 ###### The CSS contrast() is used with the filter property to adjust the contrast of an image. The contrast() requires an argument to be passed to it. It deter- mines the contrast level that's applied to the image. The argument can be either a % value or a number. {#the-css-contrast-is-used-with-the-filter-property-to-adjust-the-contrast-of-an-image.-the-contrast-requires-an-argument-to-be-passed-to-it.-it-deter--mines-the-contrast-level-thats-applied-to-the-image.-the-argument-can-be-either-a-value-or-a-number. .unnumbered}
 
-> The syntax of the contrast() function is as follows:
+The syntax of the contrast() function is as follows:
 >
-> contrast() = contrast( &#91; &lt;number&gt; &#124; &lt;percentage&gt; &#93; )
+contrast() = contrast( &#91; &lt;number&gt; &#124; &lt;percentage&gt; &#93; )
 
 ##### Example: {#example-71 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> &#42; { padding:0; margin:0;
+&#42; { padding:0; margin:0;
 >
-> box-sizing: border-box;
+box-sizing: border-box;
 >
-> }
+}
 >
-> .demo_container{ padding:20px; width:800px; margin:0 auto;
+.demo_container{ padding:20px; width:800px; margin:0 auto;
 >
-> justify-content: center; align-items: center;
+justify-content: center; align-items: center;
 >
-> }
+}
 >
-> img{
+img{
 >
-> width:100%; height:250px;
+width:100%; height:250px;
 >
-> }
+}
 >
-> .row{
+.row{
 >
-> display: flex;
+display: flex;
 >
-> }
+}
 >
-> .col{
+.col{
 >
-> width:100%
+width:100%
 >
-> }
+}
 >
-> .image-1 {
+.image-1 {
 >
-> filter: contrast(140%);
+filter: contrast(140%);
 >
-> }
+}
 >
-> .image-2 {
+.image-2 {
 >
-> filter: contrast(40%);
+filter: contrast(40%);
 >
-> }
+}
 >
-> .image-3 {
+.image-3 {
 >
-> filter: contrast(2.5);
+filter: contrast(2.5);
 >
-> }
+}
 >
-> p{
+p{
 >
-> font-size:20px
+font-size:20px
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;h3&gt; The contrast() functionused with the filter property to adjust
-> the contrast on given image. &lt;/h3&gt;
+&lt;h3&gt; The contrast() functionused with the filter property to adjust
+the contrast on given image. &lt;/h3&gt;
 >
-> &lt;div class=&#34;row&#34;&gt;
+&lt;div class=&#34;row&#34;&gt;
 >
-> &lt;div class=&#34;col&#34;&gt;
+&lt;div class=&#34;col&#34;&gt;
 >
-> &lt;p&gt; Normal Image &lt;/p&gt;
+&lt;p&gt; Normal Image &lt;/p&gt;
 >
-> &lt;img src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
+&lt;img src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
 >
-> &lt;p&gt; 140% Contrast Image &lt;/p&gt;
+&lt;p&gt; 140% Contrast Image &lt;/p&gt;
 >
-> &lt;img class=&#34;image-1&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
+&lt;img class=&#34;image-1&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;div class=&#34;col&#34;&gt;
+&lt;div class=&#34;col&#34;&gt;
 >
-> &lt;p&gt; 40% Contrast Image &lt;/p&gt;
+&lt;p&gt; 40% Contrast Image &lt;/p&gt;
 >
-> &lt;img class=&#34;image-2&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
+&lt;img class=&#34;image-2&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
 >
-> &lt;p&gt; 2.5 Contrast Image &lt;/p&gt;
+&lt;p&gt; 2.5 Contrast Image &lt;/p&gt;
 >
-> &lt;img class=&#34;image-3&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
+&lt;img class=&#34;image-3&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-55 .unnumbered}
 
 ![](./images/image073.png){width="4.429687226596675in"
 height="3.3046872265966756in"}
 
-> CSS function ( :contrast() ).
+CSS function ( :contrast() ).
 
 #### counter() {#counter .unnumbered}
 
-> The counter() allows you to display the counter that was generated by
-> the element. Each element has a collection of multiple counters that
-> are inher- ited from the document tree much like property values. You
-> can create and manipulate counters using the counter increment,
-> counter reset, and counter set properties. They have no visible effect
-> by themselves but can be used with the counter() and counters()
-> functions to display counter values in a specified format.
+The counter() allows you to display the counter that was generated by
+the element. Each element has a collection of multiple counters that
+are inher- ited from the document tree much like property values. You
+can create and manipulate counters using the counter increment,
+counter reset, and counter set properties. They have no visible effect
+by themselves but can be used with the counter() and counters()
+functions to display counter values in a specified format.
 >
-> For example, you can use the counter() to output an element's coun-
-> ter in Upper Roman, Decimal, Georgian, etc. You can also specify
-> Unicode code points to specify special symbols or icons to use as mark
-> representations.
+For example, you can use the counter() to output an element's coun-
+ter in Upper Roman, Decimal, Georgian, etc. You can also specify
+Unicode code points to specify special symbols or icons to use as mark
+representations.
 >
-> **Syntax:** The counter() function has two forms such as:
-> counter(name) or counter(name, style). The text is the value of the
-> innermost counter of the given name in scope at the pseudo-element; it
-> is formatted in the indi- cated style (decimal by default).
+**Syntax:** The counter() function has two forms such as:
+counter(name) or counter(name, style). The text is the value of the
+innermost counter of the given name in scope at the pseudo-element; it
+is formatted in the indi- cated style (decimal by default).
 >
-> The syntax of the counter() function is as follows:
+The syntax of the counter() function is as follows:
 >
-> counter( &lt;ident&gt; &#91;, &#91; &lt;counter-style&gt; &#124; none &#93; &#93;? )
+counter( &lt;ident&gt; &#91;, &#91; &lt;counter-style&gt; &#124; none &#93; &#93;? )
 
 ##### Example: {#example-72 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> &#42; { padding:0; margin:0;
+&#42; { padding:0; margin:0;
 >
-> box-sizing: border-box;
+box-sizing: border-box;
 >
-> }
+}
 >
-> .demo_container{ padding:20px; width:800px; margin:0 auto;
+.demo_container{ padding:20px; width:800px; margin:0 auto;
 >
-> justify-content: center; align-items: center;
+justify-content: center; align-items: center;
 >
-> }
+}
 >
-> section {
+section {
 >
-> line-height: 0.8em; counter-reset: myCounter;
+line-height: 0.8em; counter-reset: myCounter;
 >
-> }
+}
 >
-> h1 {
+h1 {
 >
-> font-size: 18px;
+font-size: 18px;
 >
-> }
+}
 >
-> p:before {
+p:before {
 >
-> content: counter(myCounter) &#34;. &#34;; counter-increment: myCounter;
+content: counter(myCounter) &#34;. &#34;; counter-increment: myCounter;
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> []{#_bookmark248 .anchor}&lt;body&gt;
+&lt;body&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;h3&gt; The counter() enables to display the counter that has been
-> generated by an element. &lt;/h3&gt;
+&lt;h3&gt; The counter() enables to display the counter that has been
+generated by an element. &lt;/h3&gt;
 >
-> &lt;section&gt;
+&lt;section&gt;
 >
-> The list of programming is given below:
+The list of programming is given below:
 >
-> &lt;p&gt;HTML&lt;/p&gt;
+&lt;p&gt;HTML&lt;/p&gt;
 >
-> &lt;p&gt;PHP&lt;/p&gt;
+&lt;p&gt;PHP&lt;/p&gt;
 >
-> &lt;p&gt;JavaScript&lt;/p&gt;
+&lt;p&gt;JavaScript&lt;/p&gt;
 >
-> &lt;p&gt;Ruby&lt;/p&gt;
+&lt;p&gt;Ruby&lt;/p&gt;
 
 &lt;/section&gt;
 
 &lt;/div&gt;
 
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-56 .unnumbered}
 
 ![](./images/image074.png){width="4.429721128608924in"
 height="0.5625in"}
 
-> CSS function ( :counter() ).
+CSS function ( :counter() ).
 
 #### counters() {#counters .unnumbered}
 
-> The counters() enables you to display nested counters that have been
-> gen- erated by an element and its parent/s.
+The counters() enables you to display nested counters that have been
+gen- erated by an element and its parent/s.
 >
-> Every element has a collection of more counters, which are inherited
-> from the document tree in a way similar to property values. You can
-> cre- ate and manipulate counters with the counter-increment,
-> counter-reset, counter-set properties. It has no visible effect by
-> itself, but it can be used with the counters() and counter()
-> functions, which allow the values of counters to be displayed, in the
-> format you specify.
+Every element has a collection of more counters, which are inherited
+from the document tree in a way similar to property values. You can
+cre- ate and manipulate counters with the counter-increment,
+counter-reset, counter-set properties. It has no visible effect by
+itself, but it can be used with the counters() and counter()
+functions, which allow the values of counters to be displayed, in the
+format you specify.
 >
-> The counters() have two forms: counters(name, string) or counters(such
-> as name, string, style). The text is the value of the counters with
-> the given name in scope at pseudo-element, from outermost to innermost
-> by the specified string. The counters are rendered in the indicated
-> style (decimal by default).
+The counters() have two forms: counters(name, string) or counters(such
+as name, string, style). The text is the value of the counters with
+the given name in scope at pseudo-element, from outermost to innermost
+by the specified string. The counters are rendered in the indicated
+style (decimal by default).
 >
-> The syntax of the counters() function is as follows:
+The syntax of the counters() function is as follows:
 >
-> counters( &lt;ident&gt;, &lt;string&gt; &#91;, &#91; &lt;counter-style&gt; &#124; none &#93;
-> &#93;? )
+counters( &lt;ident&gt;, &lt;string&gt; &#91;, &#91; &lt;counter-style&gt; &#124; none &#93;
+&#93;? )
 
 ##### Example: {#example-73 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> &#42; { padding:0; margin:0;
+&#42; { padding:0; margin:0;
 >
-> box-sizing: border-box;
+box-sizing: border-box;
 >
-> }
+}
 >
-> .demo_container{ padding:20px; width:800px; margin:0 auto;
+.demo_container{ padding:20px; width:800px; margin:0 auto;
 >
-> justify-content: center; align-items: center;
+justify-content: center; align-items: center;
 >
-> }
+}
 >
-> ul {
+ul {
 >
-> list-style: none;
+list-style: none;
 >
-> counter-reset: nestedCounter;
+counter-reset: nestedCounter;
 >
-> }
+}
 >
-> ul li {
+ul li {
 >
-> counter-increment: nestedCounter; line-height: 1.4;
+counter-increment: nestedCounter; line-height: 1.4;
 >
-> }
+}
 >
-> ul li:before {
+ul li:before {
 >
-> content: counters(nestedCounter, &#34;.&#34;) &#34; - &#34;; font-weight: bold;
+content: counters(nestedCounter, &#34;.&#34;) &#34; - &#34;; font-weight: bold;
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;h3&gt; The counter() function enables to display nested counters that
-> have been generated by an element and its parent/s. &lt;/h3&gt;
+&lt;h3&gt; The counter() function enables to display nested counters that
+have been generated by an element and its parent/s. &lt;/h3&gt;
 >
-> &lt;ul&gt;
+&lt;ul&gt;
 >
-> &lt;li&gt;Fruit
+&lt;li&gt;Fruit
 >
-> &lt;ul&gt;
+&lt;ul&gt;
 >
-> &lt;li&gt;Apples
+&lt;li&gt;Apples
 >
-> &lt;ul&gt;
+&lt;ul&gt;
 >
-> &lt;li&gt;Green ones&lt;/li&gt;
+&lt;li&gt;Green ones&lt;/li&gt;
 >
-> &lt;li&gt;Red ones&lt;/li&gt;
+&lt;li&gt;Red ones&lt;/li&gt;
 >
-> &lt;/ul&gt;
+&lt;/ul&gt;
 >
-> &lt;/li&gt;
+&lt;/li&gt;
 >
-> &lt;li&gt;Oranges
+&lt;li&gt;Oranges
 >
-> &lt;ul&gt;
+&lt;ul&gt;
 >
-> &lt;li&gt;Small ones&lt;/li&gt;
+&lt;li&gt;Small ones&lt;/li&gt;
 >
-> &lt;li&gt;Big ones&lt;/li&gt;
+&lt;li&gt;Big ones&lt;/li&gt;
 >
-> &lt;/ul&gt;
+&lt;/ul&gt;
 >
-> &lt;/li&gt;
+&lt;/li&gt;
 >
-> &lt;/ul&gt;
+&lt;/ul&gt;
 >
-> &lt;/li&gt;
+&lt;/li&gt;
 >
-> &lt;li&gt;Vegetables
+&lt;li&gt;Vegetables
 >
-> &lt;ul&gt;
+&lt;ul&gt;
 >
-> &lt;li&gt;Carrots
+&lt;li&gt;Carrots
 >
-> &lt;ul&gt;
+&lt;ul&gt;
 >
-> &lt;li&gt;Orange ones&lt;/li&gt;
+&lt;li&gt;Orange ones&lt;/li&gt;
 >
-> &lt;li&gt;Purple ones&lt;/li&gt;
+&lt;li&gt;Purple ones&lt;/li&gt;
 >
-> &lt;/ul&gt;
+&lt;/ul&gt;
 >
-> &lt;/li&gt;
+&lt;/li&gt;
 >
-> &lt;li&gt;Potatoes
+&lt;li&gt;Potatoes
 >
-> &lt;ul&gt;
+&lt;ul&gt;
 >
-> &lt;li&gt;Fresh ones&lt;/li&gt;
+&lt;li&gt;Fresh ones&lt;/li&gt;
 >
-> &lt;li&gt;Rotten ones&lt;/li&gt;
+&lt;li&gt;Rotten ones&lt;/li&gt;
 >
-> &lt;/ul&gt;
+&lt;/ul&gt;
 >
-> &lt;/li&gt;
+&lt;/li&gt;
 >
-> &lt;/ul&gt;
+&lt;/ul&gt;
 >
-> &lt;/li&gt;
+&lt;/li&gt;
 >
-> &lt;li&gt;Fish
+&lt;li&gt;Fish
 >
-> &lt;ul&gt;
+&lt;ul&gt;
 >
-> &lt;li&gt;Big Ones
+&lt;li&gt;Big Ones
 >
-> &lt;ul&gt;
+&lt;ul&gt;
 >
-> &lt;li&gt;Mekong Catfish&lt;/li&gt;
+&lt;li&gt;Mekong Catfish&lt;/li&gt;
 >
-> &lt;/ul&gt;
+&lt;/ul&gt;
 >
-> &lt;/li&gt;
+&lt;/li&gt;
 >
-> &lt;li&gt;Small Ones
+&lt;li&gt;Small Ones
 >
-> &lt;ul&gt;
+&lt;ul&gt;
 >
-> &lt;li&gt;Piranha&lt;/li&gt;
+&lt;li&gt;Piranha&lt;/li&gt;
 >
-> &lt;li&gt;Gold Fish&lt;/li&gt;
+&lt;li&gt;Gold Fish&lt;/li&gt;
 >
-> &lt;li&gt;Black Molly&lt;/li&gt;
+&lt;li&gt;Black Molly&lt;/li&gt;
 >
-> &lt;/ul&gt;
+&lt;/ul&gt;
 >
-> &lt;/li&gt;
+&lt;/li&gt;
 >
-> &lt;/ul&gt;
+&lt;/ul&gt;
 >
-> &lt;/li&gt;
+&lt;/li&gt;
 >
-> &lt;/ul&gt;
+&lt;/ul&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-57 .unnumbered}
 
 ![](./images/image075.png){width="4.429687226596675in"
 height="3.16125in"}
 
-> CSS function ( :counters() ).
+CSS function ( :counters() ).
 
 #### cubic-bezier() {#cubic-bezier .unnumbered}
 
-> The cubic-bezier() can be used with the transition timing function
-> prop- erty to control how a transition will change speed over its
-> duration. The property accepts an easing function which describes how
-> the intermediate values used during a transition will be calculated.
+The cubic-bezier() can be used with the transition timing function
+prop- erty to control how a transition will change speed over its
+duration. The property accepts an easing function which describes how
+the intermediate values used during a transition will be calculated.
 >
-> The cubic-bezier() is an easing function that can provide a value for
-> the transition-timing-function property. Some of the other various
-> easing functions include ease-in, ease-out, linear, etc. However, the
-> cubic-bezier() can be used to provide your own custom curve.
+The cubic-bezier() is an easing function that can provide a value for
+the transition-timing-function property. Some of the other various
+easing functions include ease-in, ease-out, linear, etc. However, the
+cubic-bezier() can be used to provide your own custom curve.
 
 ##### Example: {#example-74 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> &#42; { padding:0; margin:0;
+&#42; { padding:0; margin:0;
 >
-> box-sizing: border-box;
+box-sizing: border-box;
 >
-> }
+}
 >
-> .demo_container{ padding:20px; width:800px; margin:0 auto;
+.demo_container{ padding:20px; width:800px; margin:0 auto;
 >
-> justify-content: center; align-items: center;
+justify-content: center; align-items: center;
 >
-> }
+}
 >
-> .ease {
+.ease {
 >
-> transition: width 1s ease;
+transition: width 1s ease;
 >
-> }
+}
 >
-> .cubic-bezier { transition: width 1s
+.cubic-bezier { transition: width 1s
 >
-> cubic-bezier(.63,.05,.43,1.7);
+cubic-bezier(.63,.05,.43,1.7);
 >
-> }
+}
 >
-> .ease:hover,
+.ease:hover,
 >
-> .cubic-bezier: hover { width: 80%;
+.cubic-bezier: hover { width: 80%;
 >
-> }
+}
 >
-> []{#_bookmark252 .anchor}.ease, .cubic-bezier { background: orange;
-> color: white;
+.ease, .cubic-bezier { background: orange;
+color: white;
 >
-> width: 90px; margin: 10px; padding: 10px;
+width: 90px; margin: 10px; padding: 10px;
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;h3&gt; The cubic-bezier() is used in CSS transitions to create a
-> custom cubic Bézier curve.
+&lt;h3&gt; The cubic-bezier() is used in CSS transitions to create a
+custom cubic Bézier curve.
 >
-> &lt;/h3&gt;
+&lt;/h3&gt;
 >
-> &lt;div class=&#34;ease&#34;&gt; ease transition &lt;/div&gt;
+&lt;div class=&#34;ease&#34;&gt; ease transition &lt;/div&gt;
 >
-> &lt;br&gt;
+&lt;br&gt;
 >
-> &lt;div class=&#34;cubic-bezier&#34;&gt;cubic-bezier() function &lt;/div&gt;
+&lt;div class=&#34;cubic-bezier&#34;&gt;cubic-bezier() function &lt;/div&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-58 .unnumbered}
 
 ![](./images/image076.png){width="4.429680664916885in"
 height="1.0349989063867016in"}
 
-> CSS function (cubic-bezier() ).
+CSS function (cubic-bezier() ).
 
 #### drop-shadow() {#drop-shadow .unnumbered}
 
-> It uses the drop-shadow() to apply a drop-shadow effect to an image.
-> The CSS drop-shadow() is used with the filter property to add a
-> drop-shadow effect to an image. A drop shadow is a blurred, offset
-> version of the input image's alpha mask drawn in a particular color,
-> composited below the image.
+It uses the drop-shadow() to apply a drop-shadow effect to an image.
+The CSS drop-shadow() is used with the filter property to add a
+drop-shadow effect to an image. A drop shadow is a blurred, offset
+version of the input image's alpha mask drawn in a particular color,
+composited below the image.
 >
-> The CSS drop-shadow() accepts multiple arguments that determine the
-> drop shadow's offset, its blur, and its color.
+The CSS drop-shadow() accepts multiple arguments that determine the
+drop shadow's offset, its blur, and its color.
 
 ##### Example: {#example-75 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> &#42; { padding:0; margin:0;
+&#42; { padding:0; margin:0;
 >
-> box-sizing: border-box;
+box-sizing: border-box;
 >
-> }
+}
 >
-> .demo_container{ padding:20px; width:800px; margin:0 auto;
+.demo_container{ padding:20px; width:800px; margin:0 auto;
 >
-> justify-content: center; align-items: center;
+justify-content: center; align-items: center;
 >
-> }
+}
 >
-> img{
+img{
 >
-> width:100%; height:250px;
+width:100%; height:250px;
 >
-> }
+}
 >
-> .row{
+.row{
 >
-> display: flex;
+display: flex;
 >
-> }
+}
 >
-> .col{
+.col{
 >
-> width:80%
+width:80%
 >
-> }
+}
 >
-> .image-1 {
+.image-1 {
 >
-> filter: drop-shadow(5px 5px 10px gray);
+filter: drop-shadow(5px 5px 10px gray);
 >
-> }
+}
 >
-> .image-2 {
+.image-2 {
 >
-> filter: drop-shadow(0px 0px 10px orange); margin: 10px;
+filter: drop-shadow(0px 0px 10px orange); margin: 10px;
 >
-> }
+}
 >
-> .image-3 {
+.image-3 {
 >
-> filter: drop-shadow(5px 5px 0 orange);
+filter: drop-shadow(5px 5px 0 orange);
 >
-> }
+}
 >
-> p{
+p{
 >
-> line-height: 2; font-size:20px
+line-height: 2; font-size:20px
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;h3&gt; The contrast() functionused with the filter property to adjust
-> the contrast on given image.
+&lt;h3&gt; The contrast() functionused with the filter property to adjust
+the contrast on given image.
 >
-> &lt;/h3&gt;
+&lt;/h3&gt;
 >
-> &lt;div class=&#34;row&#34;&gt;
+&lt;div class=&#34;row&#34;&gt;
 >
-> &lt;div class=&#34;col&#34;&gt;
+&lt;div class=&#34;col&#34;&gt;
 >
-> &lt;p&gt; Normal Image &lt;/p&gt;
+&lt;p&gt; Normal Image &lt;/p&gt;
 >
-> &lt;img src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
+&lt;img src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
 >
-> &lt;p&gt; drop-shadow(5px 5px 10px gray) Image
+&lt;p&gt; drop-shadow(5px 5px 10px gray) Image
 >
-> &lt;/p&gt;
+&lt;/p&gt;
 >
-> &lt;img class=&#34;image-1&#34; src=&#34;/images-1.jpg&#34;
+&lt;img class=&#34;image-1&#34; src=&#34;/images-1.jpg&#34;
 >
-> alt=&#34;Sample image&#34;&gt;
+alt=&#34;Sample image&#34;&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;div class=&#34;col&#34;&gt;
+&lt;div class=&#34;col&#34;&gt;
 >
-> &lt;p&gt;drop-shadow(0px 0px 10px orange) Image
+&lt;p&gt;drop-shadow(0px 0px 10px orange) Image
 >
-> &lt;/p&gt;
+&lt;/p&gt;
 >
-> &lt;img class=&#34;image-2&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
+&lt;img class=&#34;image-2&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
 >
-> &lt;p&gt; drop-shadow(5px 5px 0 orange) Image
+&lt;p&gt; drop-shadow(5px 5px 0 orange) Image
 >
-> &lt;/p&gt;
+&lt;/p&gt;
 >
-> &lt;img class=&#34;image-3&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
+&lt;img class=&#34;image-3&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-59 .unnumbered}
 
 ![](./images/image077.png){width="4.407188320209974in"
 height="3.42in"}
 
-> CSS function ( :drop-shadow() ).
+CSS function ( :drop-shadow() ).
 
 #### ellipse() {#ellipse .unnumbered}
 
 ###### The ellipse() function is a CSS basic shape value that's part of the CSS shapes module. The basic shapes such as ellipse() can be used as a value for properties such as shape-outside to control the f low of content (code) around the element, and clip-path to clip the element's contents to the basic shape. It means you can have text f lowing around the ele- ment in the shape of an ellipse, have an image clipped to the shape of an ellipse, etc. {#the-ellipse-function-is-a-css-basic-shape-value-thats-part-of-the-css-shapes-module.-the-basic-shapes-such-as-ellipse-can-be-used-as-a-value-for-properties-such-as-shape-outside-to-control-the-f-low-of-content-code-around-the-element-and-clip-path-to-clip-the-elements-contents-to-the-basic-shape.-it-means-you-can-have-text-f-lowing-around-the-ele--ment-in-the-shape-of-an-ellipse-have-an-image-clipped-to-the-shape-of-an-ellipse-etc. .unnumbered}
 
-> The syntax of the ellipse() function is as follows:
+The syntax of the ellipse() function is as follows:
 >
-> ellipse() = ellipse( &#91;&lt;shape-radius&gt;{2}&#93;? &#91;at
+ellipse() = ellipse( &#91;&lt;shape-radius&gt;{2}&#93;? &#91;at
 >
-> &lt;position&gt;&#93;? )
+&lt;position&gt;&#93;? )
 
 ###### The syntax for &lt;position&gt; is: {#the-syntax-for-position-is .unnumbered}
 
-> &lt;position&gt; = &#91;
+&lt;position&gt; = &#91;
 >
-> &#91; left &#124; center &#124; right &#124; top &#124; bottom &#124; &lt;length- percentage&gt;
-> &#93;
+&#91; left &#124; center &#124; right &#124; top &#124; bottom &#124; &lt;length- percentage&gt;
+&#93;
 >
-> &#124;
+&#124;
 >
-> &#91; left &#124; center &#124; right &#124; &lt;length-percentage&gt; &#93; &#91; top &#124;
-> center &#124; bottom &#124; &lt;length-percentage&gt; &#93;
+&#91; left &#124; center &#124; right &#124; &lt;length-percentage&gt; &#93; &#91; top &#124;
+center &#124; bottom &#124; &lt;length-percentage&gt; &#93;
 >
-> &#124;
+&#124;
 >
-> &#91; center &#124; &#91; left &#124; right &#93; &lt;length-percentage&gt;? &#93;
+&#91; center &#124; &#91; left &#124; right &#93; &lt;length-percentage&gt;? &#93;
 >
-> &&
+&&
 >
-> &#91; center &#124; &#91; top &#124; bottom &#93; &lt;length-percentage&gt;? &#93;
+&#91; center &#124; &#91; top &#124; bottom &#93; &lt;length-percentage&gt;? &#93;
 >
-> &#93;
+&#93;
 
 ##### Example: {#example-76 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> &#42; { padding:0; margin:0;
+&#42; { padding:0; margin:0;
 >
-> box-sizing: border-box;
+box-sizing: border-box;
 >
-> }
+}
 >
-> .demo_container{ width:800px; margin:0 auto;
+.demo_container{ width:800px; margin:0 auto;
 >
-> justify-content: center; align-items: center;
+justify-content: center; align-items: center;
 >
-> }
+}
 >
-> .section-1 { float: left; width: 200px; height: 150px;
+.section-1 { float: left; width: 200px; height: 150px;
 >
-> shape-outside: ellipse();
+shape-outside: ellipse();
 >
-> }
+}
 >
-> .section-2 { float: left; width: 200px; height: 150px;
+.section-2 { float: left; width: 200px; height: 150px;
 >
-> shape-outside: ellipse(); background: yellow;
+shape-outside: ellipse(); background: yellow;
 >
-> }
+}
 >
-> .section-3 { float: left; width: 200px; height: 150px;
+.section-3 { float: left; width: 200px; height: 150px;
 >
-> shape-outside: ellipse(30% 50%); background: yellow;
+shape-outside: ellipse(30% 50%); background: yellow;
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;h1&gt; The ellipse() is a CSS shape value that&#39;s part of the CSS
-> Shapes module circle(with no background-color). &lt;/h1&gt; &lt;br&gt;
+&lt;h1&gt; The ellipse() is a CSS shape value that&#39;s part of the CSS
+Shapes module circle(with no background-color). &lt;/h1&gt; &lt;br&gt;
 >
-> &lt;section class=&#34;section-1&#34;&gt; &lt;/section&gt;
+&lt;section class=&#34;section-1&#34;&gt; &lt;/section&gt;
 >
-> &lt;p&gt;Ornare quam viverra orci sagittis euvolutpat odio. Viverra
-> adipiscing at intellus integer feugiat scelerisque.
+&lt;p&gt;Ornare quam viverra orci sagittis euvolutpat odio. Viverra
+adipiscing at intellus integer feugiat scelerisque.
 >
-> Adipiscing bibendum esttultricies integer quis auctor. Massa tincidunt
-> duiut ornare lectus sit amet.
+Adipiscing bibendum esttultricies integer quis auctor. Massa tincidunt
+duiut ornare lectus sit amet.
 >
-> Pellentesque elit egetg ravida cum sociis natoque penatibus et. Sed
-> vulputateodio ut enim blandit volutpat maecenas volutpat.
+Pellentesque elit egetg ravida cum sociis natoque penatibus et. Sed
+vulputateodio ut enim blandit volutpat maecenas volutpat.
 >
-> Purus viverra accumsan in nisl nisi.
+Purus viverra accumsan in nisl nisi.
 >
-> Dignissim enimsit amet venenatis urna cursus eget. Ornare arcu odiouut
-> sem nulla pharetra diam sit.
+Dignissim enimsit amet venenatis urna cursus eget. Ornare arcu odiouut
+sem nulla pharetra diam sit.
 >
-> Vitae justo eget magna fermentum iaculis.&lt;/p&gt;
+Vitae justo eget magna fermentum iaculis.&lt;/p&gt;
 >
-> &lt;/div&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt;
+&lt;/div&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;h1&gt; The ellipse() is a CSS shape value that&#39;s part of the CSS
-> Shapes module (with background- color). &lt;/h1&gt; &lt;br&gt;
+&lt;h1&gt; The ellipse() is a CSS shape value that&#39;s part of the CSS
+Shapes module (with background- color). &lt;/h1&gt; &lt;br&gt;
 >
-> &lt;section class=&#34;section-2&#34;&gt;&lt;/section&gt;
+&lt;section class=&#34;section-2&#34;&gt;&lt;/section&gt;
 >
-> &lt;p&gt;Ornare quam viverra orci sagittis euvolutpat odio. Viverra
-> adipiscing at intellus integer feugiat scelerisque.
+&lt;p&gt;Ornare quam viverra orci sagittis euvolutpat odio. Viverra
+adipiscing at intellus integer feugiat scelerisque.
 >
-> Adipiscing bibed ndum est ultricies integer quis auctor. Massa ieltd
-> tincidunt duiut ornare lectus sit amet.
+Adipiscing bibed ndum est ultricies integer quis auctor. Massa ieltd
+tincidunt duiut ornare lectus sit amet.
 >
-> Pellentesque elit eget gravidacum sociis natoque penatibus et. Sed
-> vulputate odio ut enim blandit volutpat maecenas volutpat.
+Pellentesque elit eget gravidacum sociis natoque penatibus et. Sed
+vulputate odio ut enim blandit volutpat maecenas volutpat.
 >
-> Purus viverra accumsan inn nisl ntlisi. Dignissim enim sit amet
-> venenatis urnac ursus eget. Ornare arcu odio utssem nulla pharetra
-> diam sit.
+Purus viverra accumsan inn nisl ntlisi. Dignissim enim sit amet
+venenatis urnac ursus eget. Ornare arcu odio utssem nulla pharetra
+diam sit.
 >
-> Vitae justo egetert magna fermentum iaculis.&lt;/p&gt;
+Vitae justo egetert magna fermentum iaculis.&lt;/p&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;br&gt; &lt;br&gt; &lt;br&gt;
+&lt;br&gt; &lt;br&gt; &lt;br&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;h1&gt; The ellipse() is a CSS shape value that&#39;s part of the CSS
-> Shapes module shape-outside: ellipse(30% 50%) &lt;/h1&gt; &lt;br&gt;
+&lt;h1&gt; The ellipse() is a CSS shape value that&#39;s part of the CSS
+Shapes module shape-outside: ellipse(30% 50%) &lt;/h1&gt; &lt;br&gt;
 >
-> &lt;section class=&#34;section-3&#34;&gt;&lt;/section&gt;
+&lt;section class=&#34;section-3&#34;&gt;&lt;/section&gt;
 >
-> &lt;p&gt;Ornare quam viverra orci sagittis euvolutpat odio. Viverra
-> adipiscing at in tellustels integer feugiat scelerisque.
+&lt;p&gt;Ornare quam viverra orci sagittis euvolutpat odio. Viverra
+adipiscing at in tellustels integer feugiat scelerisque.
 >
-> Adipiscing bibendum estultricies integer quis auctor. Massa tinc idunt
-> dui uttornare lectus sit amet.
+Adipiscing bibendum estultricies integer quis auctor. Massa tinc idunt
+dui uttornare lectus sit amet.
 >
-> Pellentesque eliteget gravida cum sociis natoque penatibus et. Sed
-> vulput ateodio ut enim blandit volutpat maecenas volutpat.
+Pellentesque eliteget gravida cum sociis natoque penatibus et. Sed
+vulput ateodio ut enim blandit volutpat maecenas volutpat.
 >
-> Purus viverra accumsan in nisl nisi. Dignissieim sitamet venenatis
-> urna cursus eget. Ornare arcu odiout sem nulla pharetra diam sit.
+Purus viverra accumsan in nisl nisi. Dignissieim sitamet venenatis
+urna cursus eget. Ornare arcu odiout sem nulla pharetra diam sit.
 >
-> Vitae juso eget magna fermentum iaculis.&lt;/p&gt;
+Vitae juso eget magna fermentum iaculis.&lt;/p&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-60 .unnumbered}
 
 ![](./images/image078.png){width="4.429687226596675in"
 height="4.32in"}
 
-> CSS function ( : ellipse () ).
+CSS function ( : ellipse () ).
 
 ##### Example: {#example-77 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> &#42; { padding:0; margin:0;
+&#42; { padding:0; margin:0;
 >
-> box-sizing: border-box;
+box-sizing: border-box;
 >
-> }
+}
 >
-> .demo_container{ width:800px; margin:0 auto;
+.demo_container{ width:800px; margin:0 auto;
 >
-> justify-content: center; align-items: center;
+justify-content: center; align-items: center;
 >
-> }
+}
 >
-> .section-1 { float: left; width: 200px; height: 150px;
+.section-1 { float: left; width: 200px; height: 150px;
 >
-> clip-path: ellipse(); background-color: brown;
+clip-path: ellipse(); background-color: brown;
 >
-> }
+}
 >
-> .section-2 { float: left; width: 200px; height: 150px;
+.section-2 { float: left; width: 200px; height: 150px;
 >
-> clip-path: ellipse(farthest-side closest-side at 50px 100px);
+clip-path: ellipse(farthest-side closest-side at 50px 100px);
 >
-> background-color: brown;
+background-color: brown;
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;h1&gt; The ellipse() is a CSS shape value that&#39;s part of the CSS
-> Shapes module clip-path: ellipse() &lt;/h1&gt; &lt;br&gt;
+&lt;h1&gt; The ellipse() is a CSS shape value that&#39;s part of the CSS
+Shapes module clip-path: ellipse() &lt;/h1&gt; &lt;br&gt;
 >
-> &lt;section class=&#34;section-1&#34;&gt; &lt;/section&gt;
+&lt;section class=&#34;section-1&#34;&gt; &lt;/section&gt;
 >
-> &lt;p&gt;Ornare quam viverra orci sagittis euvolutpat odio. Viverra
-> adipiscing attin tellus integer feugiat scelerisque.
+&lt;p&gt;Ornare quam viverra orci sagittis euvolutpat odio. Viverra
+adipiscing attin tellus integer feugiat scelerisque.
 >
-> Adipiscing bibendum est ultricies integer quisauctor. Massa tincidunt
-> dui ut ornar lectus sit amet.
+Adipiscing bibendum est ultricies integer quisauctor. Massa tincidunt
+dui ut ornar lectus sit amet.
 >
-> []{#_bookmark256 .anchor}Pellentesque eliteget gravida cumsociis
-> natoque penatibus et. Sed vul putate odio ut enim blandit volutpat
-> maecenas volutpat.
+Pellentesque eliteget gravida cumsociis
+natoque penatibus et. Sed vul putate odio ut enim blandit volutpat
+maecenas volutpat.
 >
-> Purus viverra accumsan in nisl nisi. Diggnissim enim sit amet
-> venenatis urna cursus eget. Ornare arcu odioutsem nulla pharetra diam
-> sit.
+Purus viverra accumsan in nisl nisi. Diggnissim enim sit amet
+venenatis urna cursus eget. Ornare arcu odioutsem nulla pharetra diam
+sit.
 >
-> Vitae justo eget magna fermentum iaculis.&lt;/p&gt;
+Vitae justo eget magna fermentum iaculis.&lt;/p&gt;
 >
-> &lt;/br&gt; &lt;br&gt; &lt;br&gt;
+&lt;/br&gt; &lt;br&gt; &lt;br&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;h1&gt; The ellipse() is a CSS shape value that&#39;s part of the CSS
-> Shapes module, clip-path: ellipse(farthest-side closest-side at 50px
-> 100px); &lt;/h1&gt; &lt;br&gt;
+&lt;h1&gt; The ellipse() is a CSS shape value that&#39;s part of the CSS
+Shapes module, clip-path: ellipse(farthest-side closest-side at 50px
+100px); &lt;/h1&gt; &lt;br&gt;
 >
-> &lt;section class=&#34;section-2&#34;&gt; &lt;/section&gt;
+&lt;section class=&#34;section-2&#34;&gt; &lt;/section&gt;
 >
-> &lt;p&gt;Ornare quam viverra orci sagittis euuili volutpat odio. Viverra
-> adi piscing atin tellus integer feugiat scelerisque.
+&lt;p&gt;Ornare quam viverra orci sagittis euuili volutpat odio. Viverra
+adi piscing atin tellus integer feugiat scelerisque.
 >
-> Adipiscing bibendum est ultricies integquis auctor. Massa tincidunt
-> duiiut ornare lectus sit amet.
+Adipiscing bibendum est ultricies integquis auctor. Massa tincidunt
+duiiut ornare lectus sit amet.
 >
-> Pelle ntesque elit eget gravida cummsociis natoque penatibus et. Sed
-> vulputate odiout enim blandit volutpat maecenas volutpat.
+Pelle ntesque elit eget gravida cummsociis natoque penatibus et. Sed
+vulputate odiout enim blandit volutpat maecenas volutpat.
 >
-> Purus viverra accumsan in nisl nisi.
+Purus viverra accumsan in nisl nisi.
 >
-> Dignissim enim sit amet venenatis urcursus eget. Ornare arcu odio ut
-> sem nulla pharetra diamsit.
+Dignissim enim sit amet venenatis urcursus eget. Ornare arcu odio ut
+sem nulla pharetra diamsit.
 >
-> Vitae justo egetm magna fermentum iaculis.&lt;/p&gt;
+Vitae justo egetm magna fermentum iaculis.&lt;/p&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> []{#_bookmark257 .anchor}&lt;/html&gt;
+&lt;/html&gt;
 
 #### filter() {#filter .unnumbered}
 
-> The filter() function is used to apply a filter to an image. The
-> filter() func- tion allows you to apply filters to images. It's
-> similar to the filter property, except that it's a function, and
-> therefore can be used as a value itself. For example, you can use it
-> with the background-image property to apply a filter to the background
-> image.
+The filter() function is used to apply a filter to an image. The
+filter() func- tion allows you to apply filters to images. It's
+similar to the filter property, except that it's a function, and
+therefore can be used as a value itself. For example, you can use it
+with the background-image property to apply a filter to the background
+image.
 >
-> The filter() function accepts two arguments. The first argument is the
-> image and the second argument is a list of filter functions to apply
-> to that image.
+The filter() function accepts two arguments. The first argument is the
+image and the second argument is a list of filter functions to apply
+to that image.
 >
-> The filter functions that it accepts are the same as those accepted by
-> the filter property. You can provide multiple filter functions if
-> required.
+The filter functions that it accepts are the same as those accepted by
+the filter property. You can provide multiple filter functions if
+required.
 
 ##### Example: {#example-78 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> &#42; { padding:0; margin:0;
+&#42; { padding:0; margin:0;
 >
-> box-sizing: border-box;
+box-sizing: border-box;
 >
-> }
+}
 >
-> .demo_container{ padding:20px; width:800px; margin:0 auto;
+.demo_container{ padding:20px; width:800px; margin:0 auto;
 >
-> justify-content: center; align-items: center;
+justify-content: center; align-items: center;
 >
-> }
+}
 >
-> div {
+div {
 >
-> background-size: cover; border: 1px solid black; height: 40vw;
+background-size: cover; border: 1px solid black; height: 40vw;
 >
-> width: 40vw; margin: 0 2vw; float: left;
+width: 40vw; margin: 0 2vw; float: left;
 >
-> }
+}
 >
-> .unfiltered {
+.unfiltered {
 >
-> background-image: url(&#39;/images-1.jpg&#39;); height:200px;
+background-image: url(&#39;/images-1.jpg&#39;); height:200px;
 >
-> width:200px
+width:200px
 >
-> }
+}
 >
-> []{#_bookmark258 .anchor}.filtered {
+.filtered {
 >
-> background-image: filter(url(&#39;/images-1.jpg&#39;), hue-rotate(180deg));
+background-image: filter(url(&#39;/images-1.jpg&#39;), hue-rotate(180deg));
 >
-> height:200px; width:200px
+height:200px; width:200px
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 >
-> &lt;section class=&#34;demo_container&#34;&gt;
+&lt;section class=&#34;demo_container&#34;&gt;
 >
-> &lt;h2&gt; The filter() function is used to apply a filter to an
-> image.&lt;/h2&gt;
+&lt;h2&gt; The filter() function is used to apply a filter to an
+image.&lt;/h2&gt;
 >
-> &lt;div class=&#34;unfiltered&#34;&gt; Original Image
+&lt;div class=&#34;unfiltered&#34;&gt; Original Image
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;div class=&#34;filtered&#34;&gt; Filtered Image
+&lt;div class=&#34;filtered&#34;&gt; Filtered Image
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/section&gt;
+&lt;/section&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-61 .unnumbered}
 
 ![](./images/image079.png){width="4.409998906386702in"
 height="1.7325in"}
 
-> []{#_bookmark259 .anchor}CSS function ( filter() ).
+CSS function ( filter() ).
 
 #### grayscale() {#grayscale .unnumbered}
 
-> Use the grayscale() function to convert an image to grayscale. The CSS
-> grayscale() is used with the filter property to convert an image to
-> grayscale.
+Use the grayscale() function to convert an image to grayscale. The CSS
+grayscale() is used with the filter property to convert an image to
+grayscale.
 >
-> The grayscale() requires an argument to be passed to it. It determines
-> the proportion of the conversion that's applied to the image. The
-> argument can be either a % value or a number.
+The grayscale() requires an argument to be passed to it. It determines
+the proportion of the conversion that's applied to the image. The
+argument can be either a % value or a number.
 >
-> The syntax of the grayscale() function is as follows:
+The syntax of the grayscale() function is as follows:
 >
-> grayscale() = grayscale( &#91; &lt;number&gt; &#124; &lt;percentage&gt; &#93; )
+grayscale() = grayscale( &#91; &lt;number&gt; &#124; &lt;percentage&gt; &#93; )
 
 ##### Example: {#example-79 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> &#42; { padding:0; margin:0;
+&#42; { padding:0; margin:0;
 >
-> box-sizing: border-box;
+box-sizing: border-box;
 >
-> }
+}
 >
-> .demo_container{ padding:20px; width:800px; margin:0 auto;
+.demo_container{ padding:20px; width:800px; margin:0 auto;
 >
-> justify-content: center; align-items: center;
+justify-content: center; align-items: center;
 >
-> }
+}
 >
-> img{
+img{
 >
-> width:100%; height:250px;
+width:100%; height:250px;
 >
-> }
+}
 >
-> .row{
+.row{
 >
-> display: flex;
+display: flex;
 >
-> }
+}
 >
-> .col{
+.col{
 >
-> width:80%
+width:80%
 >
-> }
+}
 >
-> .image-1 {
+.image-1 {
 >
-> filter: grayscale(100%);
+filter: grayscale(100%);
 >
-> }
+}
 >
-> .image-2 {
+.image-2 {
 >
-> filter: grayscale(50%);
+filter: grayscale(50%);
 >
-> }
+}
 >
-> .image-3 {
+.image-3 {
 >
-> filter: grayscale(0.8);
+filter: grayscale(0.8);
 >
-> }
+}
 >
-> p{
+p{
 >
-> line-height: 2; font-size:20px
+line-height: 2; font-size:20px
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;h2&gt; The grayscale() function to convert an image to grayscale.
-> &lt;/h2&gt;
+&lt;h2&gt; The grayscale() function to convert an image to grayscale.
+&lt;/h2&gt;
 >
-> &lt;div class=&#34;row&#34;&gt;
+&lt;div class=&#34;row&#34;&gt;
 >
-> &lt;div class=&#34;col&#34;&gt;
+&lt;div class=&#34;col&#34;&gt;
 >
-> &lt;p&gt; Normal Image &lt;/p&gt;
+&lt;p&gt; Normal Image &lt;/p&gt;
 >
-> &lt;img src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
+&lt;img src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
 >
-> &lt;p&gt; grayscale(100%) Image &lt;/p&gt;
+&lt;p&gt; grayscale(100%) Image &lt;/p&gt;
 >
-> &lt;img class=&#34;image-1&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
+&lt;img class=&#34;image-1&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;div class=&#34;col&#34;&gt;
+&lt;div class=&#34;col&#34;&gt;
 >
-> &lt;p&gt; grayscale(50%) Image &lt;/p&gt;
+&lt;p&gt; grayscale(50%) Image &lt;/p&gt;
 >
-> &lt;img class=&#34;image-2&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
+&lt;img class=&#34;image-2&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
 >
-> &lt;p&gt; grayscale(0.8) Image &lt;/p&gt;
+&lt;p&gt; grayscale(0.8) Image &lt;/p&gt;
 >
-> &lt;img class=&#34;image-3&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
+&lt;img class=&#34;image-3&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-62 .unnumbered}
 
 ![](./images/image080.png){width="4.429687226596675in"
 height="3.5325in"}
 
-> CSS function ( grayscale() ).
+CSS function ( grayscale() ).
 
 #### hsl() {#hsl .unnumbered}
 
-> The hsl() function can be used to provide a color value when using
-> CSS. It allows to specify that value by specifying the hue,
-> saturation, and light components of the color.
+The hsl() function can be used to provide a color value when using
+CSS. It allows to specify that value by specifying the hue,
+saturation, and light components of the color.
 >
-> HSL (stands for Hue Saturation Lightness) is a hue-based
-> representation of the RGB color space of computer graphics.
+HSL (stands for Hue Saturation Lightness) is a hue-based
+representation of the RGB color space of computer graphics.
 >
-> The HSL model is considered to be more intuitive than the RGB model.
-> The HSL model allows to select a base hue, and then adjust its
-> saturation and lightness as desired. It accepts the HSL value as a
-> parameter. The HSL value is provided as comma-separated three values
-> that provide the hue, saturation, and light components, respectively.
-> The hue can be identified by looking at the color circle.
+The HSL model is considered to be more intuitive than the RGB model.
+The HSL model allows to select a base hue, and then adjust its
+saturation and lightness as desired. It accepts the HSL value as a
+parameter. The HSL value is provided as comma-separated three values
+that provide the hue, saturation, and light components, respectively.
+The hue can be identified by looking at the color circle.
 >
-> Here's an example for displaying blue:
+Here's an example for displaying blue:
 >
-> HSL(240, 100%, 50%)
+HSL(240, 100%, 50%)
 >
-> []{#How_to_Pick_a_Color .anchor}How to Pick a Color
+How to Pick a Color
 >
-> Here are few steps to picking a color. If you know the color, you can
-> write it out in one step. However, if you are searching for a suitable
-> color, following these steps can help others to find it in a
-> methodical way.
+Here are few steps to picking a color. If you know the color, you can
+write it out in one step. However, if you are searching for a suitable
+color, following these steps can help others to find it in a
+methodical way.
 
 1.  Adjust the hue
 
@@ -11307,284 +11092,284 @@ height="3.5325in"}
 
 ##### Example: {#example-80 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> &#42; { padding:0; margin:0;
+&#42; { padding:0; margin:0;
 >
-> box-sizing: border-box;
+box-sizing: border-box;
 >
-> }
+}
 >
-> .demo_container{ padding:20px; width:800px; margin:0 auto;
+.demo_container{ padding:20px; width:800px; margin:0 auto;
 >
-> justify-content: center; align-items: center;
+justify-content: center; align-items: center;
 >
-> }
+}
 >
-> img{
+img{
 >
-> width:100%; height:250px;
+width:100%; height:250px;
 >
-> }
+}
 >
-> .image-1 {
+.image-1 {
 >
-> background-color: HSL(240, 100%, 50%) ; width:100%;
+background-color: HSL(240, 100%, 50%) ; width:100%;
 >
-> height:200px; color:white; padding:20px; font-size:20px
+height:200px; color:white; padding:20px; font-size:20px
 >
-> }
+}
 >
-> .image-2 {
+.image-2 {
 >
-> background-color: HSL(240, 10%, 50%) ; width:100%;
+background-color: HSL(240, 10%, 50%) ; width:100%;
 >
-> height:200px; color:white; padding:20px; font-size:20px
+height:200px; color:white; padding:20px; font-size:20px
 >
-> }
+}
 >
-> .image-3 {
+.image-3 {
 >
-> background-color: HSL(240, 100%, 30%) ; width:100%;
+background-color: HSL(240, 100%, 30%) ; width:100%;
 >
-> height:200px; color:white; padding:20px; font-size:20px
+height:200px; color:white; padding:20px; font-size:20px
 >
-> }
+}
 >
-> p{
+p{
 >
-> line-height: 2; font-size:20px
+line-height: 2; font-size:20px
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;h2&gt; The hsl() function allows to specify a color value by
-> specifying the hue, saturation, light components of the color. &lt;/h2&gt;
+&lt;h2&gt; The hsl() function allows to specify a color value by
+specifying the hue, saturation, light components of the color. &lt;/h2&gt;
 >
-> &lt;div class=&#34;row&#34;&gt;
+&lt;div class=&#34;row&#34;&gt;
 >
-> &lt;p&gt; hsl(240, 100%, 50%) Background &lt;/p&gt;
+&lt;p&gt; hsl(240, 100%, 50%) Background &lt;/p&gt;
 >
-> &lt;div class=&#34;image-1&#34; alt=&#34;Sample image&#34;&gt;
+&lt;div class=&#34;image-1&#34; alt=&#34;Sample image&#34;&gt;
 >
-> Lorem ipsum dolorit amet, consectetur adipiscing elit. Vivamus mauris
-> dolor, semper porta eros et, fermentum rhoncus erat.
+Lorem ipsum dolorit amet, consectetur adipiscing elit. Vivamus mauris
+dolor, semper porta eros et, fermentum rhoncus erat.
 >
-> Cras facilisis mauris sit amet venenatis aliquet. Suspendisse potent.
+Cras facilisis mauris sit amet venenatis aliquet. Suspendisse potent.
 
 &lt;/div&gt;
 
-> &lt;p&gt; hsl(240, 10%, 50%) Background &lt;/p&gt;
+&lt;p&gt; hsl(240, 10%, 50%) Background &lt;/p&gt;
 >
-> &lt;div class=&#34;image-2&#34; alt=&#34;Sample image&#34;&gt;
+&lt;div class=&#34;image-2&#34; alt=&#34;Sample image&#34;&gt;
 >
-> Lorem ipsum dolorit amet, consectetur adipiscing elit. Vivamus mauris
-> dolor, semper porta eros et, fermentum rhoncus erat.
+Lorem ipsum dolorit amet, consectetur adipiscing elit. Vivamus mauris
+dolor, semper porta eros et, fermentum rhoncus erat.
 >
-> Cras facilisis mauris sit amet venenatis aliquet. Suspendisse potent.
+Cras facilisis mauris sit amet venenatis aliquet. Suspendisse potent.
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> []{#_bookmark264 .anchor}&lt;p&gt; hsl(240, 100%, 30%) Background &lt;/p&gt;
+&lt;p&gt; hsl(240, 100%, 30%) Background &lt;/p&gt;
 >
-> &lt;div class=&#34;image-3&#34; alt=&#34;Sample image&#34;&gt;
+&lt;div class=&#34;image-3&#34; alt=&#34;Sample image&#34;&gt;
 >
-> Lorem ipsum dolorit amet, consectetur adipiscing elit. Vivamus mauris
-> dolor, semper porta eros et, fermentum rhoncus erat.
+Lorem ipsum dolorit amet, consectetur adipiscing elit. Vivamus mauris
+dolor, semper porta eros et, fermentum rhoncus erat.
 >
-> Cras facilisis mauris sit amet venenatis aliquet. Suspendisse potent.
+Cras facilisis mauris sit amet venenatis aliquet. Suspendisse potent.
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-63 .unnumbered}
 
 ![](./images/image081.png){width="3.6093744531933507in"
 height="3.6483333333333334in"}
 
-> []{#_bookmark265 .anchor}CSS function ( HSL() ).
+CSS function ( HSL() ).
 
 #### hsla() {#hsla .unnumbered}
 
-> The CSS hsla() can be used to add transparency to a color when using
-> the HSL model. It allows to specify a color value by specifying the
-> hue, satura- tion, and light components of the color, as well as an
-> alpha layer.
+The CSS hsla() can be used to add transparency to a color when using
+the HSL model. It allows to specify a color value by specifying the
+hue, satura- tion, and light components of the color, as well as an
+alpha layer.
 >
-> The hsla() is based on the HSL color model. HSL (that stands for Hue
-> Saturation Lightness) is a hue-based representation of the RGB color.
+The hsla() is based on the HSL color model. HSL (that stands for Hue
+Saturation Lightness) is a hue-based representation of the RGB color.
 >
-> The hsla() accepts the HSLA value as a parameter. It is provided as a
-> comma-separated four values. The three HSL values (that provide the
-> hue, saturation, and lightness components, respectively), and a fourth
-> value, which provides the alpha channel.
+The hsla() accepts the HSLA value as a parameter. It is provided as a
+comma-separated four values. The three HSL values (that provide the
+hue, saturation, and lightness components, respectively), and a fourth
+value, which provides the alpha channel.
 >
-> Here's an example:
+Here's an example:
 >
-> hsla(30, 100%, 50%, 0.5);
+hsla(30, 100%, 50%, 0.5);
 
 ##### Example: {#example-81 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> &#42; { padding:0; margin:0;
+&#42; { padding:0; margin:0;
 >
-> box-sizing: border-box;
+box-sizing: border-box;
 >
-> }
+}
 >
-> .demo_container{ padding:20px; width:800px; margin:0 auto;
+.demo_container{ padding:20px; width:800px; margin:0 auto;
 >
-> justify-content: center; align-items: center;
+justify-content: center; align-items: center;
 >
-> }
+}
 >
-> img{
+img{
 >
-> width:100%; height:250px;
+width:100%; height:250px;
 >
-> }
+}
 >
-> .image-1 {
+.image-1 {
 >
-> background-color: hsla(240, 100%, 50%, 1) ; width:100%;
+background-color: hsla(240, 100%, 50%, 1) ; width:100%;
 >
-> height:200px; color:white; padding:20px; font-size:20px
+height:200px; color:white; padding:20px; font-size:20px
 >
-> }
+}
 >
-> .image-2 {
+.image-2 {
 >
-> background-color:hsla(240, width:100%;
+background-color:hsla(240, width:100%;
 
 +-------------------+----------------+------------------+-------+-----+
-| 100%,             | 50%,           | > 0.5)           |       | > ; |
+| 100%,             | 50%,           | 0.5)           |       | ; |
 +===================+================+==================+=======+=====+
-| 100%,             | 50%,           | > 0&#41;            | > ;   |     |
+| 100%,             | 50%,           | 0&#41;            | ;   |     |
 +-------------------+----------------+------------------+-------+-----+
 
-> height:200px; color:white; padding:20px; font-size:20px
+height:200px; color:white; padding:20px; font-size:20px
 >
-> }
+}
 >
-> .image-3 {
+.image-3 {
 >
-> background-color:hsla(240, width:100%;
+background-color:hsla(240, width:100%;
 >
-> height:200px; color:white; padding:20px; font-size:20px;
+height:200px; color:white; padding:20px; font-size:20px;
 >
-> border:1px solid black;
+border:1px solid black;
 >
-> }
+}
 >
-> p{
+p{
 >
-> line-height: 2; font-size:20px
+line-height: 2; font-size:20px
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;h2&gt;The hsla() function can be used to add transparency to a color
-> when using the HSL model. &lt;/h2&gt;
+&lt;h2&gt;The hsla() function can be used to add transparency to a color
+when using the HSL model. &lt;/h2&gt;
 >
-> &lt;div class=&#34;row&#34;&gt;
+&lt;div class=&#34;row&#34;&gt;
 >
-> &lt;p&gt; hsla(240, 100%, 50%, 1) Background &lt;/p&gt;
+&lt;p&gt; hsla(240, 100%, 50%, 1) Background &lt;/p&gt;
 >
-> &lt;div class=&#34;image-1&#34; alt=&#34;Sample image&#34;&gt;
+&lt;div class=&#34;image-1&#34; alt=&#34;Sample image&#34;&gt;
 >
-> Lorem ipsum dolor sitamet, consectetur adipiscing elit. Vivamus mauris
-> dolor, semper porta eros et, fermentum rhoncus erat.
+Lorem ipsum dolor sitamet, consectetur adipiscing elit. Vivamus mauris
+dolor, semper porta eros et, fermentum rhoncus erat.
 >
-> Cras facilisis mauris sit amet venenatis aliquet. Suspendisse potent.
+Cras facilisis mauris sit amet venenatis aliquet. Suspendisse potent.
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;p&gt; hsla(240, 100%, 50%, 0.5) Background &lt;/p&gt;
+&lt;p&gt; hsla(240, 100%, 50%, 0.5) Background &lt;/p&gt;
 >
-> &lt;div class=&#34;image-2&#34; alt=&#34;Sample image&#34;&gt;
+&lt;div class=&#34;image-2&#34; alt=&#34;Sample image&#34;&gt;
 >
-> Lorem ipsum dolor siamet, consectetur adipiscing elit. Vivamus mauris
-> dolor, semper porta eros et, fermentum rhoncus erat.
+Lorem ipsum dolor siamet, consectetur adipiscing elit. Vivamus mauris
+dolor, semper porta eros et, fermentum rhoncus erat.
 >
-> Cras facilisis mauris sit amet venenatis aliquet. Suspendisse potent.
+Cras facilisis mauris sit amet venenatis aliquet. Suspendisse potent.
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;p&gt; hsla(240, 100%, 50%, 0) Background &lt;/p&gt;
+&lt;p&gt; hsla(240, 100%, 50%, 0) Background &lt;/p&gt;
 >
-> &lt;div class=&#34;image-3&#34; alt=&#34;Sample image&#34;&gt;
+&lt;div class=&#34;image-3&#34; alt=&#34;Sample image&#34;&gt;
 >
-> Lorem ipsum dolor siamet, consectetur adipiscing elit. Vivamus mauris
-> dolor, semper porta eros et, fermentum rhoncus erat.
+Lorem ipsum dolor siamet, consectetur adipiscing elit. Vivamus mauris
+dolor, semper porta eros et, fermentum rhoncus erat.
 >
-> Cras facilisis mauris sit amet venenatis aliquet. Suspendisse potent.
+Cras facilisis mauris sit amet venenatis aliquet. Suspendisse potent.
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-64 .unnumbered}
 
 ![](./images/image082.png){width="4.101561679790026in"
 height="4.145833333333333in"}
 
-> CSS function ( hsla() ).
+CSS function ( hsla() ).
 
 #### hue-rotate() {#hue-rotate .unnumbered}
 
 ###### Use the hue-rotate() to apply a hue rotation on an image. The CSS hue- rotate() is used with the filter property to apply a hue rotation to an image. Where you specify an angle around the color circle that the input samples will be adjusted by. The hue-rotate() requires an argument to tell it how much to rotate the hue by. {#use-the-hue-rotate-to-apply-a-hue-rotation-on-an-image.-the-css-hue--rotate-is-used-with-the-filter-property-to-apply-a-hue-rotation-to-an-image.-where-you-specify-an-angle-around-the-color-circle-that-the-input-samples-will-be-adjusted-by.-the-hue-rotate-requires-an-argument-to-tell-it-how-much-to-rotate-the-hue-by. .unnumbered}
 
-> The syntax of the hue-rotate() function is as follows:
+The syntax of the hue-rotate() function is as follows:
 >
-> hue-rotate() = hue-rotate( &#91; &lt;angle&gt; &#124; &lt;zero&gt; &#93;? )
+hue-rotate() = hue-rotate( &#91; &lt;angle&gt; &#124; &lt;zero&gt; &#93;? )
 >
-> []{#How_Does_Hue_Rotation_Work? .anchor}How Does Hue Rotation Work?
+How Does Hue Rotation Work?
 >
-> HSL (stands for Hue Saturation Lightness) is a hue-based
-> representation of the RGB color space of computer graphics. The HSL
-> model is considered to be more intuitive than the RGB model because,
-> the HSL model allows to select a base hue, and then adjust its
-> saturation and lightness as desired.
+HSL (stands for Hue Saturation Lightness) is a hue-based
+representation of the RGB color space of computer graphics. The HSL
+model is considered to be more intuitive than the RGB model because,
+the HSL model allows to select a base hue, and then adjust its
+saturation and lightness as desired.
 
 ##### Example: {#example-82 .unnumbered}
 
@@ -11667,15 +11452,15 @@ line-height: 2; font-size:20px
 ![](./images/image083.png){width="4.265624453193351in"
 height="3.38in"}
 
-> CSS function ( hue-rotate() ).
+CSS function ( hue-rotate() ).
 
 #### inset() {#inset .unnumbered}
 
-> The inset() is a CSS basic shape value that is part of the CSS shapes
-> mod- ule. The shapes such as inset() can be used as a value for
-> properties such as shape-outside to control the flow of content around
-> the element and clip- path to clip the element's contents to the basic
-> shape.
+The inset() is a CSS basic shape value that is part of the CSS shapes
+mod- ule. The shapes such as inset() can be used as a value for
+properties such as shape-outside to control the flow of content around
+the element and clip- path to clip the element's contents to the basic
+shape.
 
 ##### Example: {#example-83 .unnumbered}
 
@@ -11687,79 +11472,79 @@ height="3.38in"}
 >
 >&lt;style&gt;
 >
-> &#42; { padding:0; margin:0;
+&#42; { padding:0; margin:0;
 >
-> box-sizing: border-box;
+box-sizing: border-box;
 >
-> }
+}
 >
-> .demo_container{ width:800px; margin:0 auto;
+.demo_container{ width:800px; margin:0 auto;
 >
-> justify-content: center; align-items: center;
+justify-content: center; align-items: center;
 >
-> }
+}
 >
-> .section-1 { float: left; width: 200px; height: 150px;
+.section-1 { float: left; width: 200px; height: 150px;
 >
-> shape-outside: inset(50px);
+shape-outside: inset(50px);
 >
-> }
+}
 >
-> .section-2 { float: left; width: 200px; height: 150px;
+.section-2 { float: left; width: 200px; height: 150px;
 >
-> shape-outside: inset(50px); background: yellow;
+shape-outside: inset(50px); background: yellow;
 >
-> }
+}
 >
 >&lt;/style&gt;
 >
 >&lt;div class=&#34;demo_container&#34;&gt;
 >
 >&lt;h1&gt; The inset() function is a CSS basic shape value part of the CSS
-> Shapes module. inset(50px) no background&lt;/h1&gt;&lt;br&gt;
+Shapes module. inset(50px) no background&lt;/h1&gt;&lt;br&gt;
 >
 >&lt;section class=&#34;section-1&#34;&gt;&lt;/section&gt;
 >
 >&lt;p&gt;Ornare quam viverra orci sagittis euolutpat odio. Viverra
-> adipiscing atin tellus integer feugiat scelerisque.
+adipiscing atin tellus integer feugiat scelerisque.
 >
-> Adipiscing bibendum est ultricies integer quiauctor. Massa tincidunt
-> duiut ornare lectus sit amet.
+Adipiscing bibendum est ultricies integer quiauctor. Massa tincidunt
+duiut ornare lectus sit amet.
 >
-> Pellente sque elit eget gravida cum sociinatoque penatibus et. Sed
-> vulputaoo ut enim blandit volutpat maecenas volutpat.
+Pellente sque elit eget gravida cum sociinatoque penatibus et. Sed
+vulputaoo ut enim blandit volutpat maecenas volutpat.
 >
-> Purus viverra accumsan in nisl nisi.
+Purus viverra accumsan in nisl nisi.
 >
-> Dignissim enisit amet venenatis urna cursus eget. Ornare arcu odio
-> uttsem nulla pharetra diam sit.
+Dignissim enisit amet venenatis urna cursus eget. Ornare arcu odio
+uttsem nulla pharetra diam sit.
 >
-> Vitae justo eget magna fermentum iaculis.&lt;/p&gt;
+Vitae justo eget magna fermentum iaculis.&lt;/p&gt;
 >
 >&lt;/br&gt;&lt;br&gt;&lt;br&gt;
 >
 >&lt;div class=&#34;demo_container&#34;&gt;
 >
 >&lt;h1&gt; The inset() function is a CSS basic shape value part of the CSS
-> Shapes
+Shapes
 >
-> module. inset(50px) with background&lt;/h1&gt;&lt;br&gt;
+module. inset(50px) with background&lt;/h1&gt;&lt;br&gt;
 >
 >&lt;section class=&#34;section-2&#34;&gt;&lt;/section&gt;
 >
 >&lt;p&gt;Ornare quam viverra orci sagittis euvolutpat odio. Viverra
-> adipiscing atin tellus integer feugiat scelerisque.
+adipiscing atin tellus integer feugiat scelerisque.
 >
-> Adipiscing bibendum est ultricies integer quis auctor. Massa tincidunt
-> duiut ornare lectus sit amet.
+Adipiscing bibendum est ultricies integer quis auctor. Massa tincidunt
+duiut ornare lectus sit amet.
 >
-> Pellentesque eleget gravida cum sociis natoque penatibus et. Sed
-> vulputate odio ut enim blandit volutpat maecenas volutpat.
+Pellentesque eleget gravida cum sociis natoque penatibus et. Sed
+vulputate odio ut enim blandit volutpat maecenas volutpat.
 >
-> Purus accumsan in nislnisi. Dignissim enim sit amet venenatis urna cur
-> sus eget. Ornare arcu odio utsem nulla pharetra diam sit.
+Purus accumsan in nislnisi. Dignissim enim sit amet venenatis urna cur
+sus eget. Ornare arcu odio utsem nulla pharetra diam sit.
 >
-> Vitae justo eget magna fermentum iaculis.&lt;/p&gt;
+Vitae justo eget magna fermentum iaculis.&lt;/p&gt;
 >
 >&lt;/div&gt;
 >
@@ -11774,298 +11559,203 @@ height="3.38in"}
 ![](./images/image084.png){width="4.265624453193351in"
 height="2.6433333333333335in"}
 
-> CSS function ( inset() ).
+CSS function ( inset() ).
 
 #### linear-gradient() {#linear-gradient .unnumbered}
 
-> The linear-gradient() function allows to create a linear-gradient
-> using CSS. CSS gradients allow to apply multiple background colors to
-> an ele- ment that blend from one color to the next.
->
-> To create a linear-gradient, use the linear-gradient() as a value to
-> any property that accepts images (such as background-image,
-> background, or border-image properties). Linear-gradients use these
-> properties to build an image of the specified gradient.
->
-> These are gradients that run in a straight line. Linear-gradients can
-> go in any direction such as up, down, sideways, 50 degrees, 73
-> degrees, or any other angle you like.
->
-> These gradients are created by establishing an axis called the
-> gradient line. The color stops are placed along that gradient to
-> create a gradient that runs between each color.
->
-> []{#How_to_Set_the_Angle_of_a_Gradient .anchor}How to Set the Angle of
-> a Gradient
->
-> You can also set the angle so that it runs along that angle. You can
-> specify with an angle value (e.g., 45deg, 90deg, and 180deg) or with
-> the keywords for specifying the angle (such as to top, to bottom, to
-> top left, etc).
+The linear-gradient() function allows to create a linear-gradient
+using CSS. CSS gradients allow to apply multiple background colors to
+an ele- ment that blend from one color to the next.
 
-##### Example: {#example-84 .unnumbered}
+To create a linear-gradient, use the linear-gradient() as a value to
+any property that accepts images (such as background-image,
+background, or border-image properties). Linear-gradients use these
+properties to build an image of the specified gradient.
 
->&lt;!DOCTYPE html&gt;
->
->&lt;html&gt;
->
->&lt;head&gt;
->
->&lt;style&gt;
->
-> &#42; { padding:0; margin:0;
->
-> box-sizing: border-box;
->
-> }
->
-> .demo_container{ padding:20px; width:900px;
->
-> margin:0 auto;
->
-> justify-content: center; align-items: center;
->
-> }
->
-> .row{
->
-> display: flex;
->
-> flex-direction:row;
->
-> }
->
-> .col{
->
-> height:100px; width:100%
->
-> }
->
-> .image-1 {
->
-> background: linear-gradient(purple, yellow); color: white;
->
-> padding: 30px; height: 300px;
->
-> }
->
-> .image-2 {
->
-> background: linear-gradient(to bottom right, purple, yellow);
->
-> color: white; padding: 30px; height: 300px;
->
-> }
->
-> .image-3{
->
-> background: linear-gradient(to right, red 5%, green 0%, yellow 5%);
->
-> color: white; padding: 30px; height: 300px;
->
-> }
->
-> .image-4{
->
-> background: linear-gradient(to right, red, green, yellow);
->
-> color: white; padding: 30px; height: 300px;
->
-> }
->
-> p{
->
-> line-height: 2; font-size:20px;
->
-> margin-bottom:30px
->
-> }
->
->&lt;/style&gt;
->
->&lt;/head&gt;
->
->&lt;body&gt;
->
->&lt;div class=&#34;demo_container&#34;&gt;
->
->&lt;h2&gt;The linear-gradient() function allows you to create a linear
-> gradient using CSS.&lt;/h2&gt;
->
->&lt;div class=&#34;row&#34;&gt;
->
->&lt;div class=&#34;col&#34;&gt;
->
->&lt;p&gt; Default Angle, linear-gradient(purple, yellow)&lt;/p&gt;
->
->&lt;div class=&#34;image-1&#34;&gt;&lt;/div&gt;
->
->&lt;p&gt; Two color, linear-gradient(to bottom right, purple, yellow)
->&lt;/p&gt;
->
->&lt;div class=&#34;image-2&#34;&gt;&lt;/div&gt;
->
->&lt;/div&gt;
->
->&lt;div class=&#34;col&#34;&gt;
->
->&lt;p&gt; Positioning the Color, linear- gradient(to right, red 5%, green
-> 30%, yellow 75%)
->
->&lt;/p&gt;
->
->&lt;div class=&#34;image-3&#34;&gt;&lt;/div&gt;
->
->&lt;p&gt; Three color, linear-gradient(to right, red, green, yellow)
->&lt;/p&gt;
->
->&lt;div class=&#34;image-4&#34;&gt;&lt;/div&gt;
->
->&lt;/div&gt;
->
->&lt;/div&gt;
->
->&lt;/div&gt;
->
->&lt;/body&gt;
->
->&lt;/html&gt;
+These are gradients that run in a straight line. Linear-gradients can
+go in any direction such as up, down, sideways, 50 degrees, 73
+degrees, or any other angle you like.
+
+These gradients are created by establishing an axis called the
+gradient line. The color stops are placed along that gradient to
+create a gradient that runs between each color.
+
+How to Set the Angle of a Gradient
+
+You can also set the angle so that it runs along that angle. You can
+specify with an angle value (e.g., 45deg, 90deg, and 180deg) or with
+the keywords for specifying the angle (such as to top, to bottom, to
+top left, etc).
+
+##### Example:
+
+```
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;style&gt;
+&#42; { padding:0; margin:0;
+box-sizing: border-box;
+}
+.demo_container{ padding:20px; width:900px;
+margin:0 auto;
+justify-content: center; align-items: center;
+}
+.row{
+display: flex;
+flex-direction:row;
+}
+.col{
+height:100px; width:100%
+}
+.image-1 {
+background: linear-gradient(purple, yellow); color: white;
+padding: 30px; height: 300px;
+}
+.image-2 {
+background: linear-gradient(to bottom right, purple, yellow);
+color: white; padding: 30px; height: 300px;
+}
+.image-3{
+background: linear-gradient(to right, red 5%, green 0%, yellow 5%);
+color: white; padding: 30px; height: 300px;
+}
+.image-4{
+background: linear-gradient(to right, red, green, yellow);
+color: white; padding: 30px; height: 300px;
+}
+p{
+line-height: 2; font-size:20px;
+margin-bottom:30px
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
+&lt;h2&gt;The linear-gradient() function allows you to create a linear
+gradient using CSS.&lt;/h2&gt;
+&lt;div class=&#34;row&#34;&gt;
+&lt;div class=&#34;col&#34;&gt;
+&lt;p&gt; Default Angle, linear-gradient(purple, yellow)&lt;/p&gt;
+&lt;div class=&#34;image-1&#34;&gt;&lt;/div&gt;
+&lt;p&gt; Two color, linear-gradient(to bottom right, purple, yellow)
+&lt;/p&gt;
+&lt;div class=&#34;image-2&#34;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;col&#34;&gt;
+&lt;p&gt; Positioning the Color, linear- gradient(to right, red 5%, green
+30%, yellow 75%)
+&lt;/p&gt;
+&lt;div class=&#34;image-3&#34;&gt;&lt;/div&gt;
+&lt;p&gt; Three color, linear-gradient(to right, red, green, yellow)
+&lt;/p&gt;
+&lt;div class=&#34;image-4&#34;&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+```
 
 ###### The output of the ode is given below: {#the-output-of-the-ode-is-given-below .unnumbered}
 
 ![](./images/image085.png){width="4.096353893263342in"
 height="4.143228346456693in"}
 
-> CSS function linear-gradient().
+CSS function linear-gradient().
 
 #### matrix() {#matrix .unnumbered}
 
-> The CSS matrix() can be used with CSS transforms to style elements in
-> a two-dimensional space.
+The CSS matrix() can be used with CSS transforms to style elements in
+a two-dimensional space.
 >
-> The matrix() is an alternative to the two-dimensional transform func-
-> tions rotate(), skew(), scale(), and translate().
+The matrix() is an alternative to the two-dimensional transform func-
+tions rotate(), skew(), scale(), and translate().
 
 ##### Example: {#example-85 .unnumbered}
 
->&lt;!DOCTYPE html&gt;
->
->&lt;html&gt;
->
->&lt;head&gt;
->
->&lt;style&gt;
->
-> &#42; { padding:0; margin:0;
->
-> box-sizing: border-box;
->
-> }
->
-> .demo_container{ padding:20px; width:900px; margin:0 auto;
->
-> justify-content: center; align-items: center;
->
-> }
->
-> .matrix-1{
->
-> transform-origin: 0 0;
->
-> transform: matrix(0.707107, 0.707107,
->
-> -0.707107, 0.707107, 150, 0);
->
-> padding: 20px; width: 300px; height:300px;
->
-> background: lime green; color: white;
->
-> font-family: sans-serif;
->
-> }
->
-> .matrix-2 {
->
-> transform-origin: 0 0;
->
-> transform: matrix(2, 0, 0, 2, 0, 0); padding: 20px;
->
-> width: 120px; background: lime green; color: white;
->
-> font-family: sans-serif;
->
-> }
->
-> .row{
->
-> display: flex;
->
-> }
->
-> .col{
->
-> width:100%
->
-> }
->
->&lt;/style&gt;
->
->&lt;/head&gt;
->
->&lt;body&gt;
->
->&lt;div class=&#34;demo_container&#34;&gt;
->
->&lt;h1&gt;The matrix() function can be used with CSS transforms to style
-> elements in a two-dimensional space.&lt;/h1&gt;
->
->&lt;div class=&#34;row&#34;&gt;
->
->&lt;div class=&#34;col&#34;&gt;
->
->&lt;div class=&#34;matrix-1&#34;&gt; Scaled and moved with&lt;code&gt;matrix()
-> function = transform: matrix(0.707107, 0.707107, -0.707107, 0.707107,
->
-> 150, 0);&lt;/code&gt;&lt;/div&gt;
->
->&lt;/div&gt;
->
->&lt;div class=&#34;col&#34;&gt;
->
->&lt;div class=&#34;matrix-2&#34;&gt; Scaled and moved with
->
->&lt;code&gt;matrix() function = transform: matrix(2, 0, 0, 2, 0, 0);
->
->&lt;/div&gt;
->
->&lt;/div&gt;
->
->&lt;/code&gt;
->
->&lt;/div&gt;
->
->&lt;/div&gt;
->
->&lt;/body&gt;
->
->&lt;/html&gt;
+```
+&lt;!DOCTYPE html&gt;
+
+&lt;html&gt;
+
+&lt;head&gt;
+
+&lt;style&gt;
+
+&#42; { padding:0; margin:0;
+
+box-sizing: border-box;
+
+}
+
+.demo_container{ padding:20px; width:900px; margin:0 auto;
+
+justify-content: center; align-items: center;
+
+}
+
+.matrix-1{
+transform-origin: 0 0;
+transform: matrix(0.707107, 0.707107,
+-0.707107, 0.707107, 150, 0);
+padding: 20px; width: 300px; height:300px;
+background: lime green; color: white;
+font-family: sans-serif;
+}
+.matrix-2 {
+transform-origin: 0 0;
+transform: matrix(2, 0, 0, 2, 0, 0); padding: 20px;
+
+idth: 120px; background: lime green; color: white;
+font-family: sans-serif;
+}
+.row{
+display: flex;
+}
+.col{
+width:100%
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
+&lt;h1&gt;The matrix() function can be used with CSS transforms to style
+elements in a two-dimensional space.&lt;/h1&gt;
+&lt;div class=&#34;row&#34;&gt;
+&lt;div class=&#34;col&#34;&gt;
+&lt;div class=&#34;matrix-1&#34;&gt; Scaled and moved with&lt;code&gt;matrix()
+function = transform: matrix(0.707107, 0.707107, -0.707107, 0.707107,
+150, 0);&lt;/code&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;col&#34;&gt;
+&lt;div class=&#34;matrix-2&#34;&gt; Scaled and moved with
+&lt;code&gt;matrix() function = transform: matrix(2, 0, 0, 2, 0, 0);
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/code&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+```
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-67 .unnumbered}
 
 ![](./images/image086.png){width="4.429687226596675in"
 height="2.559374453193351in"}
 
-> CSS function- matrix().
+CSS function- matrix().
 
-#### matrix3d() {#matrix3d .unnumbered}
+#### matrix3d()
 
-> The CSS matrix3d() can be used with CSS transforms to style elements
-> in a three-dimensional space. The matrix3d() is an alternative to the
-> three- dimensional transform functions rotate3d(), rotateX(),
-> rotateY(), rotateZ(), translate3d(), translateZ(), scale3d(),
-> scaleZ(), and perspective().
+The CSS matrix3d() can be used with CSS transforms to style elements
+in a three-dimensional space. The matrix3d() is an alternative to the
+three- dimensional transform functions rotate3d(), rotateX(),
+rotateY(), rotateZ(), translate3d(), translateZ(), scale3d(),
+scaleZ(), and perspective().
 
-##### Example: {#example-86 .unnumbered}
+##### Example:
 
 >&lt;!DOCTYPE html&gt;
 >
@@ -12075,57 +11765,57 @@ height="2.559374453193351in"}
 >
 >&lt;style&gt;
 >
-> &#42; { padding:0; margin:0;
+&#42; { padding:0; margin:0;
 >
-> box-sizing: border-box;
+box-sizing: border-box;
 >
-> }
+}
 >
-> .demo_container{ padding:20px; width:900px; margin:0 auto;
+.demo_container{ padding:20px; width:900px; margin:0 auto;
 >
-> justify-content: center; align-items: center;
+justify-content: center; align-items: center;
 >
-> }
+}
 >
-> .matrix-1{
+.matrix-1{
 >
-> transform-origin: 0 0; padding: 20px;
+transform-origin: 0 0; padding: 20px;
 >
-> width: 300px; height:300px; background: lime green; color: white;
+width: 300px; height:300px; background: lime green; color: white;
 >
-> font-family: sans-serif;
+font-family: sans-serif;
 >
-> }
+}
 >
-> .matrix-2 {
+.matrix-2 {
 >
-> transform-origin: 0 0;
+transform-origin: 0 0;
 >
-> transform: matrix3d(0.583333, 0.186887, 0.9044,
+transform: matrix3d(0.583333, 0.186887, 0.9044,
 >
-> 0, -0.52022, 0.833333, 0.186887, 0, -0.623773,
+0, -0.52022, 0.833333, 0.186887, 0, -0.623773,
 >
-> -0.52022, 0.583333, 0, 0, 0, 0, 1); padding:
+-0.52022, 0.583333, 0, 0, 0, 0, 1); padding:
 >
-> 20px;
+20px;
 >
-> width: 300px; height:250px; background: lime green; color: white;
+width: 300px; height:250px; background: lime green; color: white;
 >
-> font-family: sans-serif;
+font-family: sans-serif;
 >
-> }
+}
 >
-> .row{
+.row{
 >
-> display: flex;
+display: flex;
 >
-> }
+}
 >
-> .col{
+.col{
 >
-> width:100%
+width:100%
 >
-> }
+}
 >
 >&lt;/style&gt;
 >
@@ -12136,16 +11826,16 @@ height="2.559374453193351in"}
 >&lt;div class=&#34;demo_container&#34;&gt;
 >
 >&lt;h1&gt;The CSS matrix3d() function can be used with CSS transforms to
-> style elements in a three- dimensional space.&lt;/h1&gt;
+style elements in a three- dimensional space.&lt;/h1&gt;
 >
 >&lt;div class=&#34;row&#34;&gt;
 >
 >&lt;div class=&#34;col&#34;&gt;
 >
 >&lt;div class=&#34;matrix-1&#34;&gt; Scaled and moved with&lt;code&gt;matrix()
-> function = transform: matrix(0.707107, 0.707107, -0.707107, 0.707107,
+function = transform: matrix(0.707107, 0.707107, -0.707107, 0.707107,
 >
-> 150, 0);&lt;/code&gt;&lt;/div&gt;
+150, 0);&lt;/code&gt;&lt;/div&gt;
 >
 >&lt;/div&gt;
 >
@@ -12174,16 +11864,16 @@ height="2.559374453193351in"}
 ![](./images/image087.png){width="4.429693788276466in"
 height="1.8618744531933509in"}
 
-> CSS function-matrix3d().
+CSS function-matrix3d().
 
 #### opacity() {#opacity .unnumbered}
 
-> Use the opacity() function to make an image partially or completely
-> trans- parent. The opacity() is used with the filter property to apply
-> transpar- ency to the samples in an image. The opacity() requires an
-> argument to be passed to it. Also, it determines the proportion of the
-> transparency that's applied to the image. The argument can be either a
-> value or a number.
+Use the opacity() function to make an image partially or completely
+trans- parent. The opacity() is used with the filter property to apply
+transpar- ency to the samples in an image. The opacity() requires an
+argument to be passed to it. Also, it determines the proportion of the
+transparency that's applied to the image. The argument can be either a
+value or a number.
 
 ##### Example: {#example-87 .unnumbered}
 
@@ -12299,308 +11989,308 @@ height="1.8618744531933509in"}
 ![](./images/image088.png){width="3.7734372265966756in"
 height="2.9947911198600177in"}
 
-> CSS function-opacity().
+CSS function-opacity().
 
 #### perspective() {#perspective .unnumbered}
 
 ###### The perspective() function defines the distance between the z=0 plane and the user in order to give the 3D-positioned element some perspective. {#the-perspective-function-defines-the-distance-between-the-z0-plane-and-the-user-in-order-to-give-the-3d-positioned-element-some-perspective. .unnumbered}
 
-> The perspective() function works like this:
+The perspective() function works like this:
 >
-> perspective(l)
+perspective(l)
 >
-> The l parameter specifies the distance from the ones to the z=0 plane.
-> The argument is also specified as a length value (e.g., 1px, 1vw,
-> etc). The greater the length, the less pronounced the "3D effect" will
-> be.
+The l parameter specifies the distance from the ones to the z=0 plane.
+The argument is also specified as a length value (e.g., 1px, 1vw,
+etc). The greater the length, the less pronounced the "3D effect" will
+be.
 
 ##### Example: {#example-88 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> &#42; { padding:0; margin:0;
+&#42; { padding:0; margin:0;
 >
-> box-sizing: border-box;
+box-sizing: border-box;
 >
-> }
+}
 >
-> .demo_container{ padding:20px; width:800px; margin:0 auto;
+.demo_container{ padding:20px; width:800px; margin:0 auto;
 >
-> justify-content: center; align-items: center;
+justify-content: center; align-items: center;
 >
-> }
+}
 >
-> img{
+img{
 >
-> width:100%; height:250px;
+width:100%; height:250px;
 >
-> }
+}
 >
-> .row{
+.row{
 >
-> display: flex;
+display: flex;
 >
-> }
+}
 >
-> .col{
+.col{
 >
-> width:80%
+width:80%
 >
-> }
+}
 >
-> .image-1 {
+.image-1 {
 >
-> transform: perspective(400px) rotateY(70deg); width:100px;
+transform: perspective(400px) rotateY(70deg); width:100px;
 >
-> height:100px
+height:100px
 >
-> }
+}
 >
-> .image-2 {
+.image-2 {
 >
-> transform: perspective(200px) rotateY(60deg); width:100px;
+transform: perspective(200px) rotateY(60deg); width:100px;
 >
-> height:100px
+height:100px
 >
-> }
+}
 >
-> .image-3 {
+.image-3 {
 >
-> transform: perspective(130px) rotateY(-60deg); width:100px;
+transform: perspective(130px) rotateY(-60deg); width:100px;
 >
-> height:100px
+height:100px
 >
-> }
+}
 >
-> p{
+p{
 >
-> line-height: 2; font-size:20px
+line-height: 2; font-size:20px
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;h2&gt; It defines the distance between the z=0 plane and the user in
-> order to give the
+&lt;h2&gt; It defines the distance between the z=0 plane and the user in
+order to give the
 >
-> 3D-positioned element some perspective &lt;/h2&gt;
+3D-positioned element some perspective &lt;/h2&gt;
 >
-> &lt;div class=&#34;row&#34;&gt;
+&lt;div class=&#34;row&#34;&gt;
 >
-> &lt;div class=&#34;col&#34;&gt;
+&lt;div class=&#34;col&#34;&gt;
 >
-> &lt;p&gt; Normal Image &lt;/p&gt;
+&lt;p&gt; Normal Image &lt;/p&gt;
 >
-> &lt;img src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
+&lt;img src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
 >
-> &lt;p&gt; perspective(400px) rotateY(70deg) Image
+&lt;p&gt; perspective(400px) rotateY(70deg) Image
 >
-> &lt;/p&gt;
+&lt;/p&gt;
 >
-> &lt;img class=&#34;image-1&#34; src=&#34;/images-1.jpg&#34;
+&lt;img class=&#34;image-1&#34; src=&#34;/images-1.jpg&#34;
 >
-> alt=&#34;Sample image&#34;&gt;
+alt=&#34;Sample image&#34;&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;div class=&#34;col&#34;&gt;
+&lt;div class=&#34;col&#34;&gt;
 >
-> &lt;p&gt; perspective(200px) rotateY(60deg) Image
+&lt;p&gt; perspective(200px) rotateY(60deg) Image
 >
-> &lt;/p&gt;
+&lt;/p&gt;
 >
-> &lt;img class=&#34;image-2&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
+&lt;img class=&#34;image-2&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
 >
-> []{#_bookmark282 .anchor}&lt;p&gt; perspective(130px) rotateY(-60deg)
-> Image &lt;/p&gt;
+&lt;p&gt; perspective(130px) rotateY(-60deg)
+Image &lt;/p&gt;
 >
-> &lt;img class=&#34;image-3&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
+&lt;img class=&#34;image-3&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-70 .unnumbered}
 
 ![](./images/image089.png){width="4.426874453193351in"
 height="2.896874453193351in"}
 
-> CSS function ( perspective() ).
+CSS function ( perspective() ).
 
 #### radial-gradient() {#radial-gradient .unnumbered}
 
-> The radial-gradient() function allows to create a radial gradient
-> using CSS.
+The radial-gradient() function allows to create a radial gradient
+using CSS.
 >
-> CSS gradients allow to apply multiple background colors to an element
-> that blend from one color to the next.
+CSS gradients allow to apply multiple background colors to an element
+that blend from one color to the next.
 
 ##### Example: {#example-89 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> &#42; { padding:0; margin:0;
+&#42; { padding:0; margin:0;
 >
-> box-sizing: border-box;
+box-sizing: border-box;
 >
-> }
+}
 >
-> .demo_container{ padding:20px; width:900px; margin:0 auto;
+.demo_container{ padding:20px; width:900px; margin:0 auto;
 >
-> justify-content: center; align-items: center;
+justify-content: center; align-items: center;
 >
-> }
+}
 >
-> .row{
+.row{
 >
-> display: flex;
+display: flex;
 >
-> flex-direction:row;
+flex-direction:row;
 >
-> }
+}
 >
-> .col{
+.col{
 >
-> height:100px; width:100%
+height:100px; width:100%
 >
-> }
+}
 >
-> .image-1 {
+.image-1 {
 >
-> background: radial-gradient(yellow, red); color: white;
+background: radial-gradient(yellow, red); color: white;
 >
-> padding: 30px; height: 300px;
+padding: 30px; height: 300px;
 >
-> }
+}
 >
-> .image-2 {
+.image-2 {
 >
-> background: radial-gradient(ellipse, black, lime);
+background: radial-gradient(ellipse, black, lime);
 >
-> color: white; padding: 30px; height: 300px;
+color: white; padding: 30px; height: 300px;
 >
-> }
+}
 >
-> .image-3{
+.image-3{
 >
-> background: radial-gradient(circle, black, lime);
+background: radial-gradient(circle, black, lime);
 >
-> color: white; padding: 30px; height: 300px;
+color: white; padding: 30px; height: 300px;
 >
-> }
+}
 >
-> .image-4{
+.image-4{
 >
-> background: radial-gradient(at bottom right, yellow, red);
+background: radial-gradient(at bottom right, yellow, red);
 >
-> color: white; padding: 30px; height: 300px;
+color: white; padding: 30px; height: 300px;
 >
-> }
+}
 >
-> p{
+p{
 >
-> line-height: 2; font-size:20px;
+line-height: 2; font-size:20px;
 >
-> margin-bottom:30px
+margin-bottom:30px
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;h2&gt;The linear-gradient() function allows you to create a linear
-> gradient using CSS.&lt;/h2&gt;
+&lt;h2&gt;The linear-gradient() function allows you to create a linear
+gradient using CSS.&lt;/h2&gt;
 >
-> &lt;div class=&#34;row&#34;&gt;
+&lt;div class=&#34;row&#34;&gt;
 >
-> &lt;div class=&#34;col&#34;&gt;
+&lt;div class=&#34;col&#34;&gt;
 >
-> &lt;p&gt; Default Angle, radial-gradient(yellow, red) &lt;/p&gt;
+&lt;p&gt; Default Angle, radial-gradient(yellow, red) &lt;/p&gt;
 >
-> &lt;div class=&#34;image-1&#34;&gt; &lt;/div&gt;
+&lt;div class=&#34;image-1&#34;&gt; &lt;/div&gt;
 >
-> &lt;p&gt; Ellipse shape, radial-gradient(ellipse, black, lime) &lt;/p&gt;
+&lt;p&gt; Ellipse shape, radial-gradient(ellipse, black, lime) &lt;/p&gt;
 >
-> &lt;div class=&#34;image-2&#34;&gt; &lt;/div&gt;
+&lt;div class=&#34;image-2&#34;&gt; &lt;/div&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;div class=&#34;col&#34;&gt;
+&lt;div class=&#34;col&#34;&gt;
 >
-> &lt;p&gt; Circle, radial-gradient(circle, black, lime)&lt;/p&gt;
+&lt;p&gt; Circle, radial-gradient(circle, black, lime)&lt;/p&gt;
 >
-> &lt;div class=&#34;image-3&#34;&gt; &lt;/div&gt;
+&lt;div class=&#34;image-3&#34;&gt; &lt;/div&gt;
 >
-> []{#_bookmark284 .anchor}&lt;p&gt; Gradient Position, radial-gradient(at
-> bottom right, yellow, red) &lt;/p&gt;
+&lt;p&gt; Gradient Position, radial-gradient(at
+bottom right, yellow, red) &lt;/p&gt;
 >
-> &lt;div class=&#34;image-4&#34;&gt; &lt;/div&gt;
+&lt;div class=&#34;image-4&#34;&gt; &lt;/div&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-71 .unnumbered}
 
 ![](./images/image090.png){width="4.429687226596675in"
 height="4.1315616797900265in"}
 
-> []{#_bookmark285 .anchor}CSS Function (radial-gradient() () )
+CSS Function (radial-gradient() () )
 
 #### repeating-linear-gradient() {#repeating-linear-gradient .unnumbered}
 
-> The CSS repeating-linear-gradient() allows to create a linear gradient
-> that repeats over and over again infinitely in both directions. The
-> gradients allow to apply multiple background colors to an element that
-> blend from
+The CSS repeating-linear-gradient() allows to create a linear gradient
+that repeats over and over again infinitely in both directions. The
+gradients allow to apply multiple background colors to an element that
+blend from
 >
-> one color to the next. These gradients are linear gradients where the
-> color stops are repeated infinitely in both directions. It is
-> repeating linear gra- dients work the same way that (are
-> non-repeating) linear gradients work.
+one color to the next. These gradients are linear gradients where the
+color stops are repeated infinitely in both directions. It is
+repeating linear gra- dients work the same way that (are
+non-repeating) linear gradients work.
 >
-> Syntax: The repeating-linear-gradient() function accepts the following
-> values:
+Syntax: The repeating-linear-gradient() function accepts the following
+values:
 
 -   angle: It specifies an angle for the direction of the gradient. For
     example, 45deg.
 
-> The following keywords specify to point the gradient-line given below:
+The following keywords specify to point the gradient-line given below:
 
 -   to top
 
@@ -12610,7 +12300,7 @@ height="4.1315616797900265in"}
 
 -   to left
 
-> The following keywords specify to point the gradient-line given below:
+The following keywords specify to point the gradient-line given below:
 
 -   to top left
 
@@ -12624,139 +12314,139 @@ height="4.1315616797900265in"}
 
 ##### Example: {#example-90 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> &#42; { padding:0; margin:0;
+&#42; { padding:0; margin:0;
 >
-> box-sizing: border-box;
+box-sizing: border-box;
 >
-> }
+}
 >
-> .demo_container{ padding:20px; width:900px; margin:0 auto;
+.demo_container{ padding:20px; width:900px; margin:0 auto;
 >
-> justify-content: center; align-items: center;
+justify-content: center; align-items: center;
 >
-> }
+}
 >
-> .row{
+.row{
 >
-> display: flex;
+display: flex;
 >
-> flex-direction:row;
+flex-direction:row;
 >
-> }
+}
 >
-> .col{
+.col{
 >
-> height:100px; width:100%
+height:100px; width:100%
 >
-> }
+}
 >
-> .image-1 {
+.image-1 {
 >
-> background: repeating-linear-gradient(gold 15%,
+background: repeating-linear-gradient(gold 15%,
 >
-> orange 30%);
+orange 30%);
 >
-> color: white; padding: 30px; height: 300px;
+color: white; padding: 30px; height: 300px;
 >
-> }
+}
 >
-> .image-2 {
+.image-2 {
 >
-> background: repeating-linear-gradient(to top right, gold 16%, orange
-> 30%);
+background: repeating-linear-gradient(to top right, gold 16%, orange
+30%);
 >
-> color: white; padding: 30px; height: 300px;
+color: white; padding: 30px; height: 300px;
 >
-> }
+}
 >
-> .image-3{
+.image-3{
 >
-> background: repeating-linear-gradient(to top right, orange, gold 16%,
-> orange 30%);
+background: repeating-linear-gradient(to top right, orange, gold 16%,
+orange 30%);
 >
-> color: white; padding: 30px; height: 300px;
+color: white; padding: 30px; height: 300px;
 >
-> }
+}
 >
-> .image-4{
+.image-4{
 >
-> background: repeating-linear-gradient(155deg, gold, gold 50px, orange
-> 60px, orange 120px);
+background: repeating-linear-gradient(155deg, gold, gold 50px, orange
+60px, orange 120px);
 >
-> color: white;
+color: white;
 >
-> padding: 30px; height: 300px;
+padding: 30px; height: 300px;
 >
-> }
+}
 >
-> p{
+p{
 >
-> line-height: 2; font-size:20px;
+line-height: 2; font-size:20px;
 >
-> margin-bottom:30px
+margin-bottom:30px
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;h2&gt;The repeating-linear-gradient() function allows you to create a
-> linear gradient that repeats over and over again infinitely in both
-> directions.&lt;/h2&gt;
+&lt;h2&gt;The repeating-linear-gradient() function allows you to create a
+linear gradient that repeats over and over again infinitely in both
+directions.&lt;/h2&gt;
 >
-> &lt;div class=&#34;row&#34;&gt;
+&lt;div class=&#34;row&#34;&gt;
 >
-> &lt;div class=&#34;col&#34;&gt;
+&lt;div class=&#34;col&#34;&gt;
 >
-> &lt;p&gt; Default Angle, radial-gradient(yellow, red) &lt;/p&gt;
+&lt;p&gt; Default Angle, radial-gradient(yellow, red) &lt;/p&gt;
 >
-> &lt;div class=&#34;image-1&#34;&gt; &lt;/div&gt;
+&lt;div class=&#34;image-1&#34;&gt; &lt;/div&gt;
 >
-> &lt;p&gt; Angle of a Repeating, repeating-linear- gradient( top right,
-> orange, gold 15%, orange 30%)
+&lt;p&gt; Angle of a Repeating, repeating-linear- gradient( top right,
+orange, gold 15%, orange 30%)
 >
-> &lt;/p&gt;
+&lt;/p&gt;
 >
-> &lt;div class=&#34;image-2&#34;&gt; &lt;/div&gt;
+&lt;div class=&#34;image-2&#34;&gt; &lt;/div&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;div class=&#34;col&#34;&gt;
+&lt;div class=&#34;col&#34;&gt;
 >
-> &lt;p&gt; Smooth Transitions, repeating-linear- gradient( top right,
-> orange, gold 15%, orange 30%)
+&lt;p&gt; Smooth Transitions, repeating-linear- gradient( top right,
+orange, gold 15%, orange 30%)
 >
-> &lt;/p&gt;
+&lt;/p&gt;
 >
-> &lt;div class=&#34;image-3&#34;&gt; &lt;/div&gt;
+&lt;div class=&#34;image-3&#34;&gt; &lt;/div&gt;
 >
-> &lt;p&gt;Creating Stripes, repeating-linear- gradient(165deg, gold, gold
-> 60px, orange 60px, orange 120px)&lt;/p&gt;
+&lt;p&gt;Creating Stripes, repeating-linear- gradient(165deg, gold, gold
+60px, orange 60px, orange 120px)&lt;/p&gt;
 >
-> &lt;div class=&#34;image-4&#34;&gt; &lt;/div&gt;
+&lt;div class=&#34;image-4&#34;&gt; &lt;/div&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-72 .unnumbered}
 
@@ -12771,21 +12461,21 @@ CSS function (repeating-linear -gradient() () ).
 
 ######  {#section-5 .unnumbered}
 
-> **Syntax:** This function uses the same syntax as the
-> radial-gradient() function, which is as follows:
+**Syntax:** This function uses the same syntax as the
+radial-gradient() function, which is as follows:
 >
-> &lt;radial-gradient&gt; = radial-gradient(
+&lt;radial-gradient&gt; = radial-gradient(
 >
-> &#91; &#91; &lt;shape&gt; &#124;&#124; &lt;size&gt; &#93; &#91; at &lt;position&gt; &#93;?, &#124; at
-> &lt;position&gt;,
+&#91; &#91; &lt;shape&gt; &#124;&#124; &lt;size&gt; &#93; &#91; at &lt;position&gt; &#93;?, &#124; at
+&lt;position&gt;,
 >
-> &#93;?
+&#93;?
 >
-> &lt;color-stop&gt; &#91;, &lt;color-stop&gt; &#93;+
+&lt;color-stop&gt; &#91;, &lt;color-stop&gt; &#93;+
 >
-> )
+)
 >
-> The repeating-radial-gradient() function accepts the following values:
+The repeating-radial-gradient() function accepts the following values:
 
 -   shape: It specifies the shape of the gradient. It can be either
     circle or ellipse.
@@ -12820,384 +12510,384 @@ CSS function (repeating-linear -gradient() () ).
 
 ##### Example: {#example-91 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> &#42; { padding:0; margin:0;
+&#42; { padding:0; margin:0;
 >
-> box-sizing: border-box;
+box-sizing: border-box;
 >
-> }
+}
 >
-> .demo_container{ padding:20px; width:900px; margin:0 auto;
+.demo_container{ padding:20px; width:900px; margin:0 auto;
 >
-> justify-content: center; align-items: center;
+justify-content: center; align-items: center;
 >
-> }
+}
 >
-> .row{
+.row{
 >
-> display: flex; flex-wrap: wrap;
+display: flex; flex-wrap: wrap;
 >
-> flex-direction: row;
+flex-direction: row;
 >
-> }
+}
 >
-> .col{ width:50%
+.col{ width:50%
 >
-> }
+}
 >
-> p{
+p{
 >
-> height:50px
+height:50px
 >
-> }
+}
 >
-> .image-1 {
+.image-1 {
 >
-> background: repeating-radial-gradient(ellipse, green 20%, lime 40%) ;
+background: repeating-radial-gradient(ellipse, green 20%, lime 40%) ;
 >
-> color: white; padding: 30px; height: 300px;
+color: white; padding: 30px; height: 300px;
 >
-> }
+}
 >
-> .image-2 {
+.image-2 {
 >
-> background: repeating-radial-gradient(circle, green 20%, lime 40%);
+background: repeating-radial-gradient(circle, green 20%, lime 40%);
 >
-> color: white;
+color: white;
 >
-> padding: 30px; height: 300px;
+padding: 30px; height: 300px;
 >
-> }
+}
 >
-> .image-3{
+.image-3{
 >
-> background:repeating-radial-gradient(circle at top left, green 30%,
-> lime 40%);
+background:repeating-radial-gradient(circle at top left, green 30%,
+lime 40%);
 >
-> color: white; padding: 30px; height: 300px;
+color: white; padding: 30px; height: 300px;
 >
-> }
+}
 >
-> .image-4{
+.image-4{
 >
-> background: repeating-radial-gradient(circle at top left, lightgreen
-> 10%, green 45%, lime 60%);
+background: repeating-radial-gradient(circle at top left, lightgreen
+10%, green 45%, lime 60%);
 >
-> color: white; padding: 30px; height: 300px;
+color: white; padding: 30px; height: 300px;
 >
-> }
+}
 >
-> .image-5{
+.image-5{
 >
-> background: repeating-radial-gradient(circle at top left, lime, green
-> 30%, lime 40%);
+background: repeating-radial-gradient(circle at top left, lime, green
+30%, lime 40%);
 >
-> color: white; padding: 30px; height: 300px;
+color: white; padding: 30px; height: 300px;
 >
-> }
+}
 >
-> .image-6{
+.image-6{
 >
-> background: repeating-radial-gradient(closest- side at 25px 35px,
-> orange 25%, gold 40%);
+background: repeating-radial-gradient(closest- side at 25px 35px,
+orange 25%, gold 40%);
 >
-> background-size:50px 50px; height: 200px;
+background-size:50px 50px; height: 200px;
 >
-> color: white; padding: 30px; height: 300px;
+color: white; padding: 30px; height: 300px;
 >
-> }
+}
 >
-> p{
+p{
 >
-> line-height: 2; font-size:20px;
+line-height: 2; font-size:20px;
 >
-> margin-bottom:30px
+margin-bottom:30px
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;h2&gt;CSS repeating radial gradient() function allows you to create a
-> radial gradient that repeats over and over again infinitely.&lt;/h2&gt;
+&lt;h2&gt;CSS repeating radial gradient() function allows you to create a
+radial gradient that repeats over and over again infinitely.&lt;/h2&gt;
 >
-> &lt;div class=&#34;row&#34;&gt;
+&lt;div class=&#34;row&#34;&gt;
 >
-> &lt;div class=&#34;col&#34;&gt;
+&lt;div class=&#34;col&#34;&gt;
 >
-> &lt;p&gt; Ellipse, repeating-radial- gradient(ellipse, green 20%, lime
-> 40%) &lt;/p&gt;
+&lt;p&gt; Ellipse, repeating-radial- gradient(ellipse, green 20%, lime
+40%) &lt;/p&gt;
 >
-> &lt;div class=&#34;image-1&#34;&gt; &lt;/div&gt;
+&lt;div class=&#34;image-1&#34;&gt; &lt;/div&gt;
 >
-> &lt;p&gt;Circle, repeating radial gradient(circle, green 20%, lime 40%)
-> &lt;/p&gt;
+&lt;p&gt;Circle, repeating radial gradient(circle, green 20%, lime 40%)
+&lt;/p&gt;
 >
-> &lt;div class=&#34;image-2&#34;&gt; &lt;/div&gt;
+&lt;div class=&#34;image-2&#34;&gt; &lt;/div&gt;
 >
-> &lt;p&gt;Gradient Position, repeating-radial- gradient(circle at top left,
-> green 20%, lime 40%)&lt;/p&gt;
+&lt;p&gt;Gradient Position, repeating-radial- gradient(circle at top left,
+green 20%, lime 40%)&lt;/p&gt;
 >
-> &lt;div class=&#34;image-3&#34;&gt; &lt;/div&gt;
+&lt;div class=&#34;image-3&#34;&gt; &lt;/div&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;div class=&#34;col&#34;&gt;
+&lt;div class=&#34;col&#34;&gt;
 >
-> &lt;p&gt;Three Color Stops, repeating-radial- gradient(circle at top left,
-> lightgreen 20%, green 55%, lime 60%)&lt;/p&gt;
+&lt;p&gt;Three Color Stops, repeating-radial- gradient(circle at top left,
+lightgreen 20%, green 55%, lime 60%)&lt;/p&gt;
 >
-> &lt;div class=&#34;image-4&#34;&gt; &lt;/div&gt;
+&lt;div class=&#34;image-4&#34;&gt; &lt;/div&gt;
 >
-> &lt;p&gt; Smooth Transitions, repeating-radial- gradient(circle at top
-> left, lime, green 20%, lime 40%)&lt;/p&gt;
+&lt;p&gt; Smooth Transitions, repeating-radial- gradient(circle at top
+left, lime, green 20%, lime 40%)&lt;/p&gt;
 >
-> &lt;div class=&#34;image-5&#34;&gt; &lt;/div&gt;
+&lt;div class=&#34;image-5&#34;&gt; &lt;/div&gt;
 >
-> &lt;p&gt;Patterns with Gradients, repeating radial gradient(closest-side
-> at 25px 35px, orange 15%, gold 40%)&lt;/p&gt;
+&lt;p&gt;Patterns with Gradients, repeating radial gradient(closest-side
+at 25px 35px, orange 15%, gold 40%)&lt;/p&gt;
 >
-> &lt;div class=&#34;image-6&#34;&gt; &lt;/div&gt;
+&lt;div class=&#34;image-6&#34;&gt; &lt;/div&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-73 .unnumbered}
 
 ![](./images/image092.png){width="4.265624453193351in"
 height="5.893332239720035in"}
 
-> []{#_bookmark289 .anchor}CSS function (repeating-radial -gradient() ).
+CSS function (repeating-radial -gradient() ).
 
 #### rgb() {#rgb .unnumbered}
 
-> The rgb() function can be used to provide a value when using CSS. It
-> allows to specify an RGB color value by specifying the red, green, and
-> blue channels directly.
+The rgb() function can be used to provide a value when using CSS. It
+allows to specify an RGB color value by specifying the red, green, and
+blue channels directly.
 >
-> RGB (stands for Red, Green, Blue) is a color model in which red,
-> green, and blue light can be added together to reproduce a color.
+RGB (stands for Red, Green, Blue) is a color model in which red,
+green, and blue light can be added together to reproduce a color.
 >
-> The RGB() accepts the RGB value as a parameter. The RGB function is
-> provided as comma-separated three values. It provides red, green, and
-> blue hues, respectively.
+The RGB() accepts the RGB value as a parameter. The RGB function is
+provided as comma-separated three values. It provides red, green, and
+blue hues, respectively.
 >
-> Each of the three values can be provided as an integer or as a
-> percentage.
+Each of the three values can be provided as an integer or as a
+percentage.
 
 ##### Example: {#example-92 .unnumbered}
 
-> RGB(255,0,0) RGB(100%,0%,0%)
+RGB(255,0,0) RGB(100%,0%,0%)
 >
-> We can use the property on any element.
+We can use the property on any element.
 
 ##### Example: {#example-93 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> &#42; { padding:0; margin:0;
+&#42; { padding:0; margin:0;
 >
-> box-sizing: border-box;
+box-sizing: border-box;
 >
-> }
+}
 >
-> .demo_container{ padding:20px; width:900px; margin:0 auto;
+.demo_container{ padding:20px; width:900px; margin:0 auto;
 >
-> justify-content: center; align-items: center;
+justify-content: center; align-items: center;
 >
-> }
+}
 >
-> .row{
+.row{
 >
-> display: flex; flex-wrap: wrap;
+display: flex; flex-wrap: wrap;
 >
-> flex-direction: row;
+flex-direction: row;
 >
-> }
+}
 >
-> .col{ width:50%
+.col{ width:50%
 >
-> }
+}
 >
-> p{
+p{
 >
-> height:50px
+height:50px
 >
-> }
+}
 >
-> .image-1 {
+.image-1 {
 >
-> background: RGB(255,69,0); color: white;
+background: RGB(255,69,0); color: white;
 >
-> padding: 30px; height: 100px;
+padding: 30px; height: 100px;
 >
-> }
+}
 >
-> .image-2 {
+.image-2 {
 >
-> background: RGB(0,255,0); color: white;
+background: RGB(0,255,0); color: white;
 >
-> padding: 30px; height: 100px;
+padding: 30px; height: 100px;
 >
-> }
+}
 >
-> .image-3{
+.image-3{
 >
-> background: RGB(0,0,128); color: white;
+background: RGB(0,0,128); color: white;
 >
-> padding: 30px; height: 100px;
+padding: 30px; height: 100px;
 >
-> }
+}
 >
-> .image-4{
+.image-4{
 >
-> background: RGB(128,128,0); color: white;
+background: RGB(128,128,0); color: white;
 >
-> padding: 30px; height: 100px;
+padding: 30px; height: 100px;
 >
-> }
+}
 >
-> .image-5{
+.image-5{
 >
-> background: RGB(255,0,0); color: white;
+background: RGB(255,0,0); color: white;
 >
-> padding: 30px; height: 100px;
+padding: 30px; height: 100px;
 >
-> }
+}
 >
-> .image-6{
+.image-6{
 >
-> background: RGB(128,0,128); height: 100px;
+background: RGB(128,0,128); height: 100px;
 >
-> color: white; padding: 30px;
+color: white; padding: 30px;
 >
-> }
+}
 >
-> .image-7{
+.image-7{
 >
-> background: RGB(255,0,70); height: 100px;
+background: RGB(255,0,70); height: 100px;
 >
-> color: white; padding: 30px;
+color: white; padding: 30px;
 >
-> }
+}
 >
-> .image-8{
+.image-8{
 >
-> background: RGB(230,255,0); height: 100px;
+background: RGB(230,255,0); height: 100px;
 >
-> color: white; padding: 30px;
+color: white; padding: 30px;
 >
-> }
+}
 >
-> p{
+p{
 >
-> line-height: 2; font-size:24px;
+line-height: 2; font-size:24px;
 >
-> margin-bottom:10px
+margin-bottom:10px
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;h2&gt;The rgb() function can be used to provide a color value when
-> using CSS&lt;/h2&gt;
+&lt;h2&gt;The rgb() function can be used to provide a color value when
+using CSS&lt;/h2&gt;
 >
-> &lt;div class=&#34;row&#34;&gt;
+&lt;div class=&#34;row&#34;&gt;
 >
-> &lt;div class=&#34;col&#34;&gt;
+&lt;div class=&#34;col&#34;&gt;
 >
-> &lt;p&gt; rgb(255,69,0) &lt;/p&gt;
+&lt;p&gt; rgb(255,69,0) &lt;/p&gt;
 >
-> &lt;div class=&#34;image-1&#34;&gt; &lt;/div&gt;
+&lt;div class=&#34;image-1&#34;&gt; &lt;/div&gt;
 >
-> &lt;p&gt; rgb(0,255,0) &lt;/p&gt;
+&lt;p&gt; rgb(0,255,0) &lt;/p&gt;
 >
-> &lt;div class=&#34;image-2&#34;&gt; &lt;/div&gt;
+&lt;div class=&#34;image-2&#34;&gt; &lt;/div&gt;
 >
-> &lt;p&gt; rgb(0,0,128) &lt;/p&gt;
+&lt;p&gt; rgb(0,0,128) &lt;/p&gt;
 >
-> &lt;div class=&#34;image-3&#34;&gt; &lt;/div&gt;
+&lt;div class=&#34;image-3&#34;&gt; &lt;/div&gt;
 >
-> &lt;p&gt; rgb(230,255,0) &lt;/p&gt;
+&lt;p&gt; rgb(230,255,0) &lt;/p&gt;
 >
-> &lt;div class=&#34;image-8&#34;&gt; &lt;/div&gt;
+&lt;div class=&#34;image-8&#34;&gt; &lt;/div&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;div class=&#34;col&#34;&gt;
+&lt;div class=&#34;col&#34;&gt;
 >
-> &lt;p&gt; rgb(128,128,0) &lt;/p&gt;
+&lt;p&gt; rgb(128,128,0) &lt;/p&gt;
 >
-> &lt;div class=&#34;image-4&#34;&gt; &lt;/div&gt;
+&lt;div class=&#34;image-4&#34;&gt; &lt;/div&gt;
 >
-> &lt;p&gt; rgb(255,0,0) &lt;/p&gt;
+&lt;p&gt; rgb(255,0,0) &lt;/p&gt;
 >
-> &lt;div class=&#34;image-5&#34;&gt; &lt;/div&gt;
+&lt;div class=&#34;image-5&#34;&gt; &lt;/div&gt;
 >
-> []{#_bookmark290 .anchor}&lt;p&gt; rgb(128,0,128)&lt;/p&gt;
+&lt;p&gt; rgb(128,0,128)&lt;/p&gt;
 >
-> &lt;div class=&#34;image-6&#34;&gt; &lt;/div&gt;
+&lt;div class=&#34;image-6&#34;&gt; &lt;/div&gt;
 >
-> &lt;p&gt; rgb(255,0,70) &lt;/p&gt;
+&lt;p&gt; rgb(255,0,70) &lt;/p&gt;
 >
-> &lt;div class=&#34;image-7&#34;&gt; &lt;/div&gt;
+&lt;div class=&#34;image-7&#34;&gt; &lt;/div&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-74 .unnumbered}
+###### The output of the code is given below:
 
 ![](./images/image093.png){width="4.429692694663167in"
 height="3.3975in"}
 
-> []{#_bookmark291 .anchor}CSS function (RGB () ).
+CSS function (RGB () ).
 
 #### rotate() {#rotate .unnumbered}
 
-> The CSS rotate() is used to rotate elements in two-dimensional space.
-> The rotate() rotates an element based on the angle that you provide as
-> an argument. You can also provide the angle using any valid CSS angle
-> value.
+The CSS rotate() is used to rotate elements in two-dimensional space.
+The rotate() rotates an element based on the angle that you provide as
+an argument. You can also provide the angle using any valid CSS angle
+value.
 >
-> There are various properties used in rotate such as:
+There are various properties used in rotate such as:
 
 1.  Degrees
 
@@ -13207,176 +12897,176 @@ height="3.3975in"}
 
 ##### Example: {#example-94 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> &#42; { padding:0; margin:0;
+&#42; { padding:0; margin:0;
 >
-> box-sizing: border-box;
+box-sizing: border-box;
 >
-> }
+}
 >
-> .demo_container{ padding:20px; width:900px; margin:0 auto;
+.demo_container{ padding:20px; width:900px; margin:0 auto;
 >
-> justify-content: center; align-items: center;
+justify-content: center; align-items: center;
 >
-> }
+}
 >
-> .row{
+.row{
 >
-> display: flex; flex-wrap: wrap;
+display: flex; flex-wrap: wrap;
 >
-> flex-direction: row;
+flex-direction: row;
 >
-> }
+}
 >
-> .col{ width:50%
+.col{ width:50%
 >
-> }
+}
 >
-> p{
+p{
 >
-> height:50px
+height:50px
 >
-> }
+}
 >
-> .image-1 {
+.image-1 {
 >
-> background: RGB(255,69,0); color: white;
+background: RGB(255,69,0); color: white;
 >
-> padding: 30px; height: 50px; width:100px
+padding: 30px; height: 50px; width:100px
 >
-> }
+}
 >
-> .image-2 {
+.image-2 {
 >
-> background: RGB(0,255,0); transform: rotate(15deg); color: white;
+background: RGB(0,255,0); transform: rotate(15deg); color: white;
 >
-> padding: 30px; height: 50px; width:100px
+padding: 30px; height: 50px; width:100px
 >
-> }
+}
 >
-> .image-3{
+.image-3{
 >
-> transform: rotate(20grad); background: rgb(230,255,0); color: white;
+transform: rotate(20grad); background: rgb(230,255,0); color: white;
 >
-> padding: 30px; height: 50px; width:100px
+padding: 30px; height: 50px; width:100px
 >
-> }
+}
 >
-> .image-4{
+.image-4{
 >
-> background: RGB(128,128,0); transform: rotate(.4turn); color: white;
+background: RGB(128,128,0); transform: rotate(.4turn); color: white;
 >
-> padding: 30px; height: 50px; width:100px
+padding: 30px; height: 50px; width:100px
 >
-> }
+}
 >
-> .image-5{
+.image-5{
 >
-> background: #ff0000; transform: rotate(-15deg); color: white;
+background: #ff0000; transform: rotate(-15deg); color: white;
 >
-> padding: 30px; height: 50px; width: 100px
+padding: 30px; height: 50px; width: 100px
 >
-> }
+}
 >
-> .image-6{
+.image-6{
 >
-> background: RGB(128,0,128); transform-origin: 90% 90%; transform:
-> rotate(15deg);
+background: RGB(128,0,128); transform-origin: 90% 90%; transform:
+rotate(15deg);
 >
-> height: 50px; width:100px; color: white; padding: 30px;
+height: 50px; width:100px; color: white; padding: 30px;
 >
-> }
+}
 >
-> p{
+p{
 >
-> line-height: 2; font-size:24px;
+line-height: 2; font-size:24px;
 >
-> margin-bottom:10px
+margin-bottom:10px
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;h2&gt;The rotate() function is used to rotate elements in a
-> two-dimensional space.&lt;/h2&gt;
+&lt;h2&gt;The rotate() function is used to rotate elements in a
+two-dimensional space.&lt;/h2&gt;
 >
-> &lt;div class=&#34;row&#34;&gt;
+&lt;div class=&#34;row&#34;&gt;
 >
-> &lt;div class=&#34;col&#34;&gt;
+&lt;div class=&#34;col&#34;&gt;
 >
-> &lt;p&gt; Not rotated &lt;/p&gt;
+&lt;p&gt; Not rotated &lt;/p&gt;
 >
-> &lt;div class=&#34;image-1&#34;&gt; &lt;/div&gt;
+&lt;div class=&#34;image-1&#34;&gt; &lt;/div&gt;
 >
-> &lt;p&gt; Degrees (rotate(15deg)) &lt;/p&gt;
+&lt;p&gt; Degrees (rotate(15deg)) &lt;/p&gt;
 >
-> &lt;div class=&#34;image-2&#34;&gt; &lt;/div&gt;
+&lt;div class=&#34;image-2&#34;&gt; &lt;/div&gt;
 >
-> &lt;p&gt; Gradians rotate(20grad) &lt;/p&gt;
+&lt;p&gt; Gradians rotate(20grad) &lt;/p&gt;
 >
-> &lt;div class=&#34;image-3&#34;&gt; &lt;/div&gt;
+&lt;div class=&#34;image-3&#34;&gt; &lt;/div&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;div class=&#34;col&#34;&gt;
+&lt;div class=&#34;col&#34;&gt;
 >
-> &lt;p&gt;Turns (rotate(.4turn)) &lt;/p&gt;
+&lt;p&gt;Turns (rotate(.4turn)) &lt;/p&gt;
 >
-> &lt;div class=&#34;image-4&#34;&gt; &lt;/div&gt;
+&lt;div class=&#34;image-4&#34;&gt; &lt;/div&gt;
 >
-> &lt;p&gt; Negative Values (rotate(-15deg))&lt;/p&gt;
+&lt;p&gt; Negative Values (rotate(-15deg))&lt;/p&gt;
 >
-> &lt;div class=&#34;image-5&#34;&gt; &lt;/div&gt;
+&lt;div class=&#34;image-5&#34;&gt; &lt;/div&gt;
 >
-> &lt;p&gt; Adding transform-origin &lt;/p&gt;
+&lt;p&gt; Adding transform-origin &lt;/p&gt;
 >
-> &lt;div class=&#34;image-6&#34;&gt; &lt;/div&gt;
+&lt;div class=&#34;image-6&#34;&gt; &lt;/div&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-75 .unnumbered}
 
 ![](./images/image094.png){width="4.429687226596675in"
 height="2.2725in"}
 
-> CSS function (rotate() ).
+CSS function (rotate() ).
 
 #### rotate3d() {#rotate3d .unnumbered}
 
 ###### The rotate3d() function is used to rotate elements in three-dimensional space. The rotate3d() function rotates the element along the x, y, and z axes using the angle provided as an argument. {#the-rotate3d-function-is-used-to-rotate-elements-in-three-dimensional-space.-the-rotate3d-function-rotates-the-element-along-the-x-y-and-z-axes-using-the-angle-provided-as-an-argument. .unnumbered}
 
-> The syntax of the rotate3d() function is as follows:
+The syntax of the rotate3d() function is as follows:
 >
-> rotate3d() = rotate3d( &lt;number&gt;, &lt;number&gt;, &lt;number&gt;,
+rotate3d() = rotate3d( &lt;number&gt;, &lt;number&gt;, &lt;number&gt;,
 >
-> &lt;angle&gt; ).
+&lt;angle&gt; ).
 >
-> The first three parameters describe the &#91;x, y, z&#93; direction vectors.
-> The fourth parameter specifies the angle to be used. It works like
-> this:
+The first three parameters describe the &#91;x, y, z&#93; direction vectors.
+The fourth parameter specifies the angle to be used. It works like
+this:
 >
-> rotate3d(x, y, z, a)
+rotate3d(x, y, z, a)
 
 -   x: It describes the x-coordinate of the vector denoting the axis of
     rotation.
@@ -13401,368 +13091,224 @@ height="2.2725in"}
 
 -   turn: It is turns. There is one turn in a circle.
 
-##### Example: {#example-95 .unnumbered}
+##### Example:
 
-> &lt;html&gt;
->
-> &lt;head&gt;
->
-> &lt;style&gt;
->
-> &#42; { padding:0; margin:0;
->
-> box-sizing: border-box;
->
-> }
->
-> .demo_container{ padding:20px; width:900px; margin:0 auto;
->
-> justify-content: center; align-items: center;
->
-> }
->
-> .row{
->
-> display: flex; flex-wrap: wrap;
->
-> flex-direction: row;
->
-> }
->
-> .col{ width:50%
->
-> }
->
-> p{
->
-> height:50px
->
-> }
->
-> .image-1 {
->
-> background: RGB(255,69,0); color: white;
->
-> padding: 30px;
->
-> height: 50px; width:100px
->
-> }
->
-> .image-2 {
->
-> background: RGB(0,255,0); transform: rotate3d(1, 0, 0, 60deg);
->
-> color: white; padding: 30px; height: 50px; width:100px
->
-> }
->
-> .image-4{
->
-> background: RGB(128,128,0); transform: rotate3d(1, 5, 1, 60deg);
-> color: white;
->
-> padding: 30px; height: 50px; width:100px
->
-> }
->
-> .image-5{
->
-> background: RGB(255,0,0);
->
-> transform: rotate3d(1, -5, 1, -60deg); color: white;
->
-> padding: 30px; height: 50px; width:100px
->
-> }
->
-> p{
->
-> line-height: 2; font-size:24px;
->
-> margin-bottom:10px
->
-> }
->
-> &lt;/style&gt;
->
-> &lt;/head&gt;
->
-> &lt;body&gt;
->
-> &lt;div class=&#34;demo_container&#34;&gt;
->
-> &lt;h2&gt;The rotate3d() function is used to rotate elements in a
-> three-dimensional space.&lt;/h2&gt;
->
-> &lt;div class=&#34;row&#34;&gt;
->
-> []{#_bookmark294 .anchor}&lt;div class=&#34;col&#34;&gt;
->
-> &lt;p&gt; Not rotated &lt;/p&gt;
->
-> &lt;div class=&#34;image-1&#34;&gt; &lt;/div&gt;
->
-> &lt;p&gt; Rotate along the x Axis &lt;/p&gt;
->
-> &lt;div class=&#34;image-2&#34;&gt; &lt;/div&gt;
->
-> &lt;/div&gt;
->
-> &lt;div class=&#34;col&#34;&gt;
->
-> &lt;p&gt; Rotate along all Axes &lt;/p&gt;
->
-> &lt;div class=&#34;image-4&#34;&gt; &lt;/div&gt;
->
-> &lt;p&gt; Negative Values &lt;/p&gt;
->
-> &lt;div class=&#34;image-5&#34;&gt; &lt;/div&gt;
->
-> &lt;/div&gt;
->
-> &lt;/div&gt;
->
-> &lt;/div&gt;
->
-> &lt;/body&gt;
->
-> &lt;/html&gt;
+```
+&lt;html&gt;
+&lt;head&gt;
+&lt;style&gt;
+&#42; { padding:0; margin:0;
+box-sizing: border-box;
+}
+.demo_container{ padding:20px; width:900px; margin:0 auto;
+justify-content: center; align-items: center;
+}
+.row{
+display: flex; flex-wrap: wrap;
+flex-direction: row;
+.col{ width:50%
+}
+p{
+height:50px
+}
+.image-1 {
+background: RGB(255,69,0); color: white;
+padding: 30px;
+height: 50px; width:100px
+}
+.image-2 {
+background: RGB(0,255,0); transform: rotate3d(1, 0, 0, 60deg);
+color: white; padding: 30px; height: 50px; width:100px
+}
+.image-4{
+background: RGB(128,128,0); transform: rotate3d(1, 5, 1, 60deg);
+color: white;
+padding: 30px; height: 50px; width:100px
+}
+.image-5{
+background: RGB(255,0,0);
+transform: rotate3d(1, -5, 1, -60deg); color: white;
+padding: 30px; height: 50px; width:100px
+}
+p{
+line-height: 2; font-size:24px;
+margin-bottom:10px
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
+&lt;h2&gt;The rotate3d() function is used to rotate elements in a
+three-dimensional space.&lt;/h2&gt;
+&lt;div class=&#34;row&#34;&gt;
+&lt;div class=&#34;col&#34;&gt;
+&lt;p&gt; Not rotated &lt;/p&gt;
+&lt;div class=&#34;image-1&#34;&gt; &lt;/div&gt;
+&lt;p&gt; Rotate along the x Axis &lt;/p&gt;
+&lt;div class=&#34;image-2&#34;&gt; &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;col&#34;&gt;
+&lt;p&gt; Rotate along all Axes &lt;/p&gt;
+&lt;div class=&#34;image-4&#34;&gt; &lt;/div&gt;
+&lt;p&gt; Negative Values &lt;/p&gt;
+&lt;div class=&#34;image-5&#34;&gt; &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+```
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-76 .unnumbered}
 
 ![](./images/image095.png){width="4.42969050743657in"
 height="1.845in"}
 
-> CSS function (rotate3d () ).
+CSS function (rotate3d () ).
 
 #### rotateX() {#rotatex .unnumbered}
 
 ###### The CSS rotateX() is used to rotate elements around the x-axis in three- dimensional space. The rotateX() is used in 3D-transforms. It's used with the transform property to rotate an element around the x-axis. It can be used in other rotation functions such as rotateY(), rotateZ() to rotate the element around the y and z axes if required. {#the-css-rotatex-is-used-to-rotate-elements-around-the-x-axis-in-three--dimensional-space.-the-rotatex-is-used-in-3d-transforms.-its-used-with-the-transform-property-to-rotate-an-element-around-the-x-axis.-it-can-be-used-in-other-rotation-functions-such-as-rotatey-rotatez-to-rotate-the-element-around-the-y-and-z-axes-if-required. .unnumbered}
 
-> The syntax of the rotateX() function is as follows:
->
-> rotateX() = rotateX( &lt;angle&gt; )
->
-> []{#_bookmark296 .anchor}The angle can be represented with the
-> following unit identifiers:
+The syntax of the rotateX() function is as follows:
+
+```
+rotateX() = rotateX( &lt;angle&gt; )
+```
+
+The angle can be represented with the following unit identifiers:
 
 -   deg
-
 -   grad
-
 -   rad
-
 -   turn
 
 #### rotateY() {#rotatey .unnumbered}
 
 ###### The CSS rotateY() is used to rotate elements around the x-axis in three- dimensional space. The rotateY() function is used in 3D-transforms. It is used with the transform property to rotate an element around the x-axis. {#the-css-rotatey-is-used-to-rotate-elements-around-the-x-axis-in-three--dimensional-space.-the-rotatey-function-is-used-in-3d-transforms.-it-is-used-with-the-transform-property-to-rotate-an-element-around-the-x-axis. .unnumbered}
 
-> The syntax of the rotateY() function is as follows:
->
-> rotateY() = rotateY( &lt;angle&gt; )
->
-> The angle can be represented with any of the following identifiers:
+The syntax of the rotateY() function is as follows:
+
+```
+rotateY() = rotateY( &lt;angle&gt; )
+```
+
+The angle can be represented with any of the following identifiers:
 
 -   deg
-
 -   grad
-
 -   rad
-
 -   turn
 
 #### rotateZ() {#rotatez .unnumbered}
 
-###### The CSS rotateZX() function is used to rotate elements around the x-axis in three-dimensional space. The rotateZ() is used in 3D-transforms. It's used with the transform property to rotate an element around the y-axis. {#the-css-rotatezx-function-is-used-to-rotate-elements-around-the-x-axis-in-three-dimensional-space.-the-rotatez-is-used-in-3d-transforms.-its-used-with-the-transform-property-to-rotate-an-element-around-the-y-axis. .unnumbered}
+###### The CSS rotateZX() function is used to rotate elements around the x-axis in three-dimensional 
+space. The rotateZ() is used in 3D-transforms. It's used with the transform property to rotate an element around the y-axis. 
 
-> The syntax of the rotateZ() function is as follows:
->
-> rotateZ() = rotateZ( &lt;angle&gt; )
->
-> The angle can be represented with any of the following identifiers:
+The syntax of the rotateZ() function is as follows:
+
+```
+rotateZ() = rotateZ( &lt;angle&gt; )
+```
+
+The angle can be represented with any of the following identifiers:
 
 -   deg
-
 -   grad
-
 -   rad
-
 -   turn
 
-> Example of rotateX(), rotateY(), rotateZ():
->
-> &lt;html&gt;
->
-> &lt;head&gt;
->
-> &lt;style&gt;
->
-> &#42; { padding:0; margin:0;
->
-> box-sizing: border-box;
->
-> }
->
-> .demo_container{ padding:20px; width:900px; margin:0 auto;
->
-> justify-content: center; align-items: center;
->
-> }
->
-> .row{
->
-> display: flex; flex-wrap: wrap;
->
-> flex-direction: row;
->
-> }
->
-> .col{ width:50%
->
-> }
->
-> p{
->
-> height:50px
->
-> }
->
-> .image-1 {
->
-> background: RGB(255,69,0); transform: rotateX(10deg); color: white;
->
-> padding: 10px; height: 50px; width:100px
->
-> }
->
-> .image-2 {
->
-> background: RGB(0,255,0); transform: rotateX(-60deg);
->
-> color: white; height: 50px; width:100px; padding: 10px;
->
-> }
->
-> .image-3 {
->
-> background: RGB(255,69,0); transform: rotateY(10deg); color: white;
->
-> padding: 10px; height: 50px; width:100px
->
-> }
->
-> .image-4 {
->
-> background: RGB(0,255,0); transform: rotateY(-60deg); color: white;
->
-> height: 50px; width:100px; padding: 10px;
->
-> }
->
-> .image-5 {
->
-> background: RGB(255,69,0); transform: rotateZ(10deg); color: white;
->
-> padding: 10px; height: 50px; width:100px
->
-> }
->
-> .image-6 {
->
-> background: RGB(0,255,0); transform: rotateZ(-60deg); color: white;
->
-> height: 50px; width:100px; padding: 10px;
->
-> }
->
-> p{
->
-> line-height: 2; font-size:24px;
->
-> margin-bottom:10px
->
-> }
->
-> &lt;/style&gt;
->
-> &lt;/head&gt;
->
-> &lt;bo&gt;
->
-> &lt;div class=&#34;demo_container&#34;&gt;
->
-> &lt;h2&gt; The rotateX() function is used to rotate elements around the
-> x-axis in a three-dimensional space.&lt;/h2&gt;
->
-> &lt;div class=&#34;row&#34;&gt;
->
-> &lt;div class=&#34;col&#34;&gt;
->
-> &lt;p&gt; rotateX() &lt;/p&gt;
->
-> &lt;div class=&#34;image-1&#34;&gt; rotateX(10deg) &lt;/div&gt;
->
-> &lt;p&gt; Negative Values &lt;/p&gt;
->
-> &lt;div class=&#34;image-2&#34;&gt; rotateX(-60deg) &lt;/div&gt;
->
-> &lt;/div&gt;
->
-> &lt;/div&gt;
->
-> &lt;/div&gt;
->
-> &lt;div class=&#34;demo_container&#34;&gt;
->
-> &lt;h2&gt; The rotateY() function is used to rotate elements around the
-> y-axis in a three-dimensional space.&lt;/h2&gt;
->
-> &lt;div class=&#34;row&#34;&gt;
->
-> &lt;div class=&#34;col&#34;&gt;
->
-> &lt;p&gt; rotateX() &lt;/p&gt;
->
-> &lt;div class=&#34;image-3&#34;&gt; rotateY(10deg) &lt;/div&gt;
->
-> &lt;p&gt; Negative Values &lt;/p&gt;
->
-> &lt;div class=&#34;image-4&#34;&gt; rotateY(-60deg) &lt;/div&gt;
->
-> &lt;/div&gt;
->
-> &lt;/div&gt;
->
-> &lt;/div&gt;
->
-> &lt;div class=&#34;demo_container&#34;&gt;
->
-> &lt;h2&gt; The rotateZ() function is used to rotate elements around the
-> z-axis in a three-dimensional space.&lt;/h2&gt;
->
-> &lt;div class=&#34;row&#34;&gt;
->
-> &lt;div class=&#34;col&#34;&gt;
->
-> &lt;p&gt; rotateZ() &lt;/p&gt;
->
-> &lt;div class=&#34;image-5&#34;&gt; rotateZ(10deg) &lt;/div&gt;
->
-> &lt;p&gt; Negative Values &lt;/p&gt;
->
-> &lt;div class=&#34;image-6&#34;&gt; rotateZ(-60deg) &lt;/div&gt;
->
-> &lt;/div&gt;
->
-> &lt;/div&gt;
->
-> &lt;/div&gt;
->
-> &lt;/body&gt;
->
-> &lt;/html&gt;
+Example of rotateX(), rotateY(), rotateZ():
+
+```
+&lt;html&gt;
+&lt;head&gt;
+&lt;style&gt;
+&#42; { padding:0; margin:0;
+box-sizing: border-box;
+}
+.demo_container{ padding:20px; width:900px; margin:0 auto;
+justify-content: center; align-items: center;
+}
+.row{
+display: flex; flex-wrap: wrap;
+flex-direction: row;
+}
+.col{ width:50%
+}
+p{
+height:50px
+}
+.image-1 {
+background: RGB(255,69,0); transform: rotateX(10deg); color: white;
+padding: 10px; height: 50px; width:100px
+}
+.image-2 {
+background: RGB(0,255,0); transform: rotateX(-60deg);
+color: white; height: 50px; width:100px; padding: 10px;
+}
+.image-3 {
+background: RGB(255,69,0); transform: rotateY(10deg); color: white;
+padding: 10px; height: 50px; width:100px
+}
+.image-4 {
+background: RGB(0,255,0); transform: rotateY(-60deg); color: white;
+height: 50px; width:100px; padding: 10px;
+}
+.image-5 {
+background: RGB(255,69,0); transform: rotateZ(10deg); color: white;
+padding: 10px; height: 50px; width:100px
+}
+.image-6 {
+background: RGB(0,255,0); transform: rotateZ(-60deg); color: white;
+height: 50px; width:100px; padding: 10px;
+}
+p{
+line-height: 2; font-size:24px;
+margin-bottom:10px
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;bo&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
+&lt;h2&gt; The rotateX() function is used to rotate elements around the
+x-axis in a three-dimensional space.&lt;/h2&gt;
+&lt;div class=&#34;row&#34;&gt;
+&lt;div class=&#34;col&#34;&gt;
+&lt;p&gt; rotateX() &lt;/p&gt;
+&lt;div class=&#34;image-1&#34;&gt; rotateX(10deg) &lt;/div&gt;
+&lt;p&gt; Negative Values &lt;/p&gt;
+&lt;div class=&#34;image-2&#34;&gt; rotateX(-60deg) &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
+&lt;h2&gt; The rotateY() function is used to rotate elements around the
+y-axis in a three-dimensional space.&lt;/h2&gt;
+&lt;div class=&#34;row&#34;&gt;
+&lt;div class=&#34;col&#34;&gt;
+&lt;p&gt; rotateX() &lt;/p&gt;
+&lt;div class=&#34;image-3&#34;&gt; rotateY(10deg) &lt;/div&gt;
+&lt;p&gt; Negative Values &lt;/p&gt;
+&lt;div class=&#34;image-4&#34;&gt; rotateY(-60deg) &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
+&lt;h2&gt; The rotateZ() function is used to rotate elements around the
+z-axis in a three-dimensional space.&lt;/h2&gt;
+&lt;div class=&#34;row&#34;&gt;
+&lt;div class=&#34;col&#34;&gt;
+&lt;p&gt; rotateZ() &lt;/p&gt;
+&lt;div class=&#34;image-5&#34;&gt; rotateZ(10deg) &lt;/div&gt;
+&lt;p&gt; Negative Values &lt;/p&gt;
+&lt;div class=&#34;image-6&#34;&gt; rotateZ(-60deg) &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+```
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-77 .unnumbered}
 
@@ -13775,120 +13321,120 @@ CSS function (rotateX(), rotateY (), rotateZ() ).
 
 ###### The saturate() function is used to adjust the saturation of an image. This function is used with the filter to adjust the saturation levels in an image. {#the-saturate-function-is-used-to-adjust-the-saturation-of-an-image.-this-function-is-used-with-the-filter-to-adjust-the-saturation-levels-in-an-image. .unnumbered}
 
-> The syntax of the saturate() function is as follows:
+The syntax of the saturate() function is as follows:
 >
-> saturate() = saturate( &#91; &lt;number&gt; &#124; &lt;percentage&gt; &#93; )
+saturate() = saturate( &#91; &lt;number&gt; &#124; &lt;percentage&gt; &#93; )
 
 ##### Example: {#example-96 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> &#42; { padding:0; margin:0;
+&#42; { padding:0; margin:0;
 >
-> box-sizing: border-box;
+box-sizing: border-box;
 >
-> }
+}
 >
-> .demo_container{ padding:20px; width:800px; margin:0 auto;
+.demo_container{ padding:20px; width:800px; margin:0 auto;
 >
-> justify-content: center; align-items: center;
+justify-content: center; align-items: center;
 >
-> }
+}
 >
-> img{
+img{
 >
-> width:100%; height:250px;
+width:100%; height:250px;
 >
-> }
+}
 >
-> .row{
+.row{
 >
-> display: flex;
+display: flex;
 >
-> }
+}
 >
-> .col{ width:100%
+.col{ width:100%
 >
-> }
+}
 >
-> .image-1 {
+.image-1 {
 >
-> filter: saturate(700%);
+filter: saturate(700%);
 >
-> }
+}
 >
-> .image-2 {
+.image-2 {
 >
-> filter: saturate(2.5);
+filter: saturate(2.5);
 >
-> }
+}
 >
-> p{
+p{
 >
-> padding-top: 20px; font-size:20px
+padding-top: 20px; font-size:20px
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;h2&gt; The saturate() function to adjust the saturation of an image.
-> &lt;/h2&gt;
+&lt;h2&gt; The saturate() function to adjust the saturation of an image.
+&lt;/h2&gt;
 >
-> &lt;div class=&#34;row&#34;&gt;
+&lt;div class=&#34;row&#34;&gt;
 >
-> &lt;div class=&#34;col&#34;&gt;
+&lt;div class=&#34;col&#34;&gt;
 >
-> &lt;p&gt; Normal Image &lt;/p&gt;
+&lt;p&gt; Normal Image &lt;/p&gt;
 >
-> &lt;img src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
+&lt;img src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
 >
-> &lt;p&gt; 700% Saturate Image &lt;/p&gt;
+&lt;p&gt; 700% Saturate Image &lt;/p&gt;
 >
-> &lt;img class=&#34;image-1&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
+&lt;img class=&#34;image-1&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;div class=&#34;col&#34;&gt;
+&lt;div class=&#34;col&#34;&gt;
 >
-> &lt;p&gt; 2.5 Saturate Image &lt;/p&gt;
+&lt;p&gt; 2.5 Saturate Image &lt;/p&gt;
 >
-> &lt;img class=&#34;image-2&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
+&lt;img class=&#34;image-2&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-78 .unnumbered}
 
 ![](./images/image097.png){width="4.429687226596675in"
 height="3.5775in"}
 
-> CSS function ( saturate() ).
+CSS function ( saturate() ).
 
 #### scale() {#scale .unnumbered}
 
-> The CSS scale() is used to scale elements in two-dimensional space.
-> The scale() scales an element based on the number that provides as an
-> argu- ment. You can scale in the direction of the x-axis, the y-axis,
-> or both. The scale() function works like this:
+The CSS scale() is used to scale elements in two-dimensional space.
+The scale() scales an element based on the number that provides as an
+argu- ment. You can scale in the direction of the x-axis, the y-axis,
+or both. The scale() function works like this:
 
 -   scale(sx) or
 
@@ -13898,331 +13444,288 @@ height="3.5775in"}
 
 -   scale(sx, sy)
 
-> The syntax of the scale() function is as follows:
+The syntax of the scale() function is as follows:
 >
-> scale() = scale( &lt;number&gt; &#91;, &lt;number&gt; &#93;? )
+scale() = scale( &lt;number&gt; &#91;, &lt;number&gt; &#93;? )
 
 ##### Example: {#example-97 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> &#42; { padding:0; margin:0;
+&#42; { padding:0; margin:0;
 >
-> box-sizing: border-box;
+box-sizing: border-box;
 >
-> }
+}
 >
-> .demo_container{ padding:20px; width:800px; margin:0 auto;
+.demo_container{ padding:20px; width:800px; margin:0 auto;
 >
-> justify-content: center; align-items: center;
+justify-content: center; align-items: center;
 >
-> }
+}
 >
-> img{
+img{
 >
-> width:100%; height:250px;
+width:100%; height:250px;
 >
-> }
+}
 >
-> .row{
+.row{
 >
-> display: flex;
+display: flex;
 >
-> }
+}
 >
-> .col{
+.col{
 >
-> width:100%
+width:100%
 >
-> }
+}
 >
-> .image-1 {
+.image-1 {
 >
-> transform-origin: top left; transform: scale(2); width:100%;
+transform-origin: top left; transform: scale(2); width:100%;
 >
-> height:250px;
+height:250px;
 >
-> }
+}
 >
-> p{
+p{
 >
-> padding-top: 20px; font-size:20px
+padding-top: 20px; font-size:20px
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;h2&gt; The scale() function is used to scale elements in a
-> two-dimensional space. &lt;/h2&gt;
+&lt;h2&gt; The scale() function is used to scale elements in a
+two-dimensional space. &lt;/h2&gt;
 >
-> &lt;div class=&#34;row&#34;&gt;
+&lt;div class=&#34;row&#34;&gt;
 >
-> &lt;div class=&#34;col-1&#34;&gt;
+&lt;div class=&#34;col-1&#34;&gt;
 >
-> &lt;p&gt; Normal Image &lt;/p&gt;
+&lt;p&gt; Normal Image &lt;/p&gt;
 >
-> &lt;img src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
+&lt;img src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
 >
-> &lt;p&gt; Scale along both Axes &lt;/p&gt;
+&lt;p&gt; Scale along both Axes &lt;/p&gt;
 >
-> &lt;img class=&#34;image-1&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
+&lt;img class=&#34;image-1&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-79 .unnumbered}
 
 ![](./images/image098.png){width="3.609381014873141in"
 height="4.154791119860017in"}
 
-> CSS function ( scale() ).
+CSS function ( scale() ).
 
 #### scale3d() {#scale3d .unnumbered}
 
-> The scale3d() is used to scale elements in three-dimensional space.
-> The scale3d() scales an element based on the numbers that provide an
-> argu- ment. It specifies a 3D scale operation using the &#91;sx,sy,sz&#93;
-> scaling vector described by three parameters. The scale3d() function
-> is a three-dimen- sional primitive, with the following derived
-> functions:
+The scale3d() is used to scale elements in three-dimensional space.
+The scale3d() scales an element based on the numbers that provide an
+argu- ment. It specifies a 3D scale operation using the &#91;sx,sy,sz&#93;
+scaling vector described by three parameters. The scale3d() function
+is a three-dimen- sional primitive, with the following derived
+functions:
 >
-> scalex(), scaleY(), scaleZ(), and scale().
+scalex(), scaleY(), scaleZ(), and scale().
 >
-> The syntax of the scale3d() function is as follows:
+The syntax of the scale3d() function is as follows:
 >
-> scale3d() = scale3d( &lt;number&gt;, &lt;number&gt;, &lt;number&gt; )
+scale3d() = scale3d( &lt;number&gt;, &lt;number&gt;, &lt;number&gt; )
 
 ##### Example: {#example-98 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> &#42; { padding:0; margin:0;
+&#42; { padding:0; margin:0;
 >
-> box-sizing: border-box;
+box-sizing: border-box;
 >
-> }
+}
 >
-> .demo_container{ padding:20px; margin:0 auto;
+.demo_container{ padding:20px; margin:0 auto;
 >
-> justify-content: center; align-items: center;
+justify-content: center; align-items: center;
 >
-> }
+}
 >
-> .row{
+.row{
 >
-> display: flex;
+display: flex;
 >
-> }
+}
 >
-> .col{
+.col{
 >
-> width:100%
+width:100%
 >
-> }
+}
 >
-> .image-1 {
+.image-1 {
 >
-> transform-origin: top left; transform: scale3d(3, 3, 1);
+transform-origin: top left; transform: scale3d(3, 3, 1);
 >
-> width:50%; height:100px;
+width:50%; height:100px;
 >
-> }
+}
 >
-> .image-2 {
+.image-2 {
 >
-> transform: scale3d(3, 3, 1); width:10%;
+transform: scale3d(3, 3, 1); width:10%;
 >
-> height:100px;
+height:100px;
 >
-> }
+}
 >
-> p{
+p{
 >
-> padding-top: 20px; font-size:20px
+padding-top: 20px; font-size:20px
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;h2&gt; The scale3d() function is used to scale elements in a
-> three-dimensional space. &lt;/h2&gt;
+&lt;h2&gt; The scale3d() function is used to scale elements in a
+three-dimensional space. &lt;/h2&gt;
 >
-> &lt;div class=&#34;row&#34;&gt;
+&lt;div class=&#34;row&#34;&gt;
 >
-> &lt;div class=&#34;col-1&#34;&gt;
+&lt;div class=&#34;col-1&#34;&gt;
 >
-> &lt;p&gt; Scale3d() with transform-origin &lt;/p&gt;
+&lt;p&gt; Scale3d() with transform-origin &lt;/p&gt;
 >
-> &lt;img class=&#34;image-1&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
+&lt;img class=&#34;image-1&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;p&gt; Scale3d() with transform-origin &lt;/p&gt;
+&lt;p&gt; Scale3d() with transform-origin &lt;/p&gt;
 >
-> &lt;img class=&#34;image-1&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
+&lt;img class=&#34;image-1&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-80 .unnumbered}
 
 ![](./images/image099.png){width="4.429687226596675in"
 height="1.0434372265966754in"}
 
-> CSS function ( scale3d() ).
+CSS function ( scale3d() ).
 
-#### scaleX() {#scalex .unnumbered}
+#### scaleX()
 
-###### The CSS scaleX() is used to scale elements in two-dimensional space along the x-axis. The scaleX() scales an element based on the number/s that pro- vide an argument. {#the-css-scalex-is-used-to-scale-elements-in-two-dimensional-space-along-the-x-axis.-the-scalex-scales-an-element-based-on-the-numbers-that-pro--vide-an-argument. .unnumbered}
+###### The CSS scaleX() is used to scale elements in two-dimensional space along the x-axis. 
+The scaleX() scales an element based on the number/s that pro- vide an argument.
 
-> The syntax of the scaleX() function is as follows:
->
-> scaleX() = scaleX( &lt;number&gt; )
+The syntax of the scaleX() function is as follows:
 
-##### Example: {#example-99 .unnumbered}
+```
+scaleX() = scaleX( &lt;number&gt; )
+```
 
-> &lt;!DOCTYPE html&gt;
->
-> &lt;html&gt;
->
-> &lt;head&gt;
->
-> &lt;style&gt;
->
-> &#42; { padding:0; margin:0;
->
-> box-sizing: border-box;
->
-> }
->
-> .demo_container{ width:800px; padding:20px; margin:0 auto;
->
-> justify-content: center; align-items: center;
->
-> }
->
-> .row{
->
-> display: flex; flex-wrap: wrap;
->
-> flex-direction: column;
->
-> }
->
-> .col{ width:50%
->
-> }
->
-> .image-1 { width:200px; height:200px;
->
-> }
->
-> .image-2 {
->
-> transform-origin: top left; transform: scaleX(4); width:200px;
->
-> height:200px;
->
-> }
->
-> .image-3{
->
-> transform: scaleX(1); width:200px;
->
-> height:200px;
->
-> }
->
-> p{
->
-> padding-top: 20px; font-size:20px
->
-> }
->
-> &lt;/style&gt;
->
-> &lt;/head&gt;
->
-> &lt;body&gt;
->
-> &lt;div class=&#34;demo_container&#34;&gt;
->
-> &lt;h2&gt;The scaleX() function is used to scale elements in a
-> two-dimensional space along the x-axis. &lt;/h2&gt;
->
-> &lt;div class=&#34;row&#34;&gt;
->
-> &lt;div class=&#34;col-1&#34;&gt;
->
-> &lt;p&gt; Normal Image &lt;/p&gt;
->
-> &lt;img class=&#34;image-1&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
->
-> &lt;p&gt; scaleX(4) with transform-origin
->
-> &lt;/p&gt;
->
-> &lt;img class=&#34;image-2&#34; src=&#34;/images-1.jpg&#34;
->
-> alt=&#34;Sample image&#34;&gt;
->
-> &lt;p&gt; scaleX(1) without transform-origin
->
-> &lt;/p&gt;
->
-> []{#_bookmark307 .anchor}&lt;img class=&#34;image-3&#34; src=&#34;/images-1.jpg&#34;
-> alt=&#34;Sample image&#34;&gt;
->
-> &lt;/div&gt;
->
-> &lt;/div&gt;
->
-> &lt;/body&gt;
->
-> &lt;/html&gt;
+##### Example:
+
+```
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;style&gt;
+&#42; { padding:0; margin:0;
+box-sizing: border-box;
+}
+.demo_container{ width:800px; padding:20px; margin:0 auto;
+justify-content: center; align-items: center;
+}
+.row{
+display: flex; flex-wrap: wrap;
+flex-direction: column;
+}
+.col{ width:50%
+}
+.image-1 { width:200px; height:200px;
+}
+.image-2 {
+transform-origin: top left; transform: scaleX(4); width:200px;
+height:200px;
+}
+.image-3{
+transform: scaleX(1); width:200px;
+height:200px;
+}
+p{
+padding-top: 20px; font-size:20px
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
+&lt;h2&gt;The scaleX() function is used to scale elements in a
+two-dimensional space along the x-axis. &lt;/h2&gt;
+&lt;div class=&#34;row&#34;&gt;
+&lt;div class=&#34;col-1&#34;&gt;
+&lt;p&gt; Normal Image &lt;/p&gt;
+&lt;img class=&#34;image-1&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
+&lt;p&gt; scaleX(4) with transform-origin
+&lt;/p&gt;
+&lt;img class=&#34;image-2&#34; src=&#34;/images-1.jpg&#34;
+alt=&#34;Sample image&#34;&gt;
+&lt;p&gt; scaleX(1) without transform-origin
+&lt;/p&gt;
+&lt;img class=&#34;image-3&#34; src=&#34;/images-1.jpg&#34;
+alt=&#34;Sample image&#34;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+```
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-81 .unnumbered}
 
 ![](./images/image100.png){width="4.41in"
 height="4.364998906386702in"}
 
-> []{#scaleY() .anchor}CSS function (scaleX()).
+CSS function (scaleX()).
 
 #### scaleY() {#scaley .unnumbered}
 
@@ -14230,255 +13733,255 @@ height="4.364998906386702in"}
 
 ######  {#section-6 .unnumbered}
 
-> that provide an argument. The syntax of the scaleY() function is as
-> follows:
+that provide an argument. The syntax of the scaleY() function is as
+follows:
 >
-> scaleY () = scaleY ( &lt;number&gt; )
+scaleY () = scaleY ( &lt;number&gt; )
 
 ##### Example: {#example-100 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> &#42; { padding:0; margin:0;
+&#42; { padding:0; margin:0;
 >
-> box-sizing: border-box;
+box-sizing: border-box;
 >
-> }
+}
 >
-> .demo_container{ width:800px; padding:20px; margin:0 auto;
+.demo_container{ width:800px; padding:20px; margin:0 auto;
 >
-> justify-content: center; align-items: center;
+justify-content: center; align-items: center;
 >
-> }
+}
 >
-> .row{
+.row{
 >
-> display: flex; flex-wrap: wrap;
+display: flex; flex-wrap: wrap;
 >
-> flex-direction: row;
+flex-direction: row;
 >
-> }
+}
 >
-> .col{ width:50%
+.col{ width:50%
 >
-> }
+}
 >
-> .image-1 { width:200px; height:200px;
+.image-1 { width:200px; height:200px;
 >
-> }
+}
 >
-> .image-2 {
+.image-2 {
 >
-> transform-origin: top right; transform: ScaleY(2);
+transform-origin: top right; transform: ScaleY(2);
 >
-> width:200px; height:200px;
+width:200px; height:200px;
 >
-> }
+}
 >
-> .image-3{
+.image-3{
 >
-> transform: ScaleY(3); width:200px; float:right;
+transform: ScaleY(3); width:200px; float:right;
 >
-> height:200px;
+height:200px;
 >
-> }
+}
 >
-> p{
+p{
 >
-> padding-top: 20px; font-size:20px
+padding-top: 20px; font-size:20px
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;h2&gt;The scaleY() function is used to scale elements in a
-> two-dimensional space along the y-axis. &lt;/h2&gt;
+&lt;h2&gt;The scaleY() function is used to scale elements in a
+two-dimensional space along the y-axis. &lt;/h2&gt;
 >
-> &lt;div class=&#34;row&#34;&gt;
+&lt;div class=&#34;row&#34;&gt;
 >
-> &lt;div class=&#34;col&#34;&gt;
+&lt;div class=&#34;col&#34;&gt;
 >
-> &lt;p&gt; Normal Image &lt;/p&gt;
+&lt;p&gt; Normal Image &lt;/p&gt;
 >
-> &lt;img class=&#34;image-1&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
+&lt;img class=&#34;image-1&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
 >
-> &lt;p&gt; ScaleY() with transform-origin &lt;/p&gt;
+&lt;p&gt; ScaleY() with transform-origin &lt;/p&gt;
 >
-> &lt;img class=&#34;image-1&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
+&lt;img class=&#34;image-1&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
 >
-> &lt;p&gt; ScaleY(4) without transform-origin
+&lt;p&gt; ScaleY(4) without transform-origin
 >
-> &lt;/p&gt;
+&lt;/p&gt;
 >
-> &lt;img class=&#34;image-2&#34; src=&#34;/images-1.jpg&#34;
+&lt;img class=&#34;image-2&#34; src=&#34;/images-1.jpg&#34;
 >
-> alt=&#34;Sample image&#34;&gt;
+alt=&#34;Sample image&#34;&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-82 .unnumbered}
 
 ![](./images/image101.png){width="4.429687226596675in"
 height="5.146874453193351in"}
 
-> []{#scaleZ() .anchor}CSS function (scaleY()).
+CSS function (scaleY()).
 
-#### scaleZ() {#scalez .unnumbered}
+#### scaleZ()
 
 ###### The CSS scaleZ () is used to scale elements in two-dimensional space along the x-axis. The scaleZ() scales an element based on the number/s that pro- vide an argument. The syntax of the scaleZ () function is as follows: {#the-css-scalez-is-used-to-scale-elements-in-two-dimensional-space-along-the-x-axis.-the-scalez-scales-an-element-based-on-the-numbers-that-pro--vide-an-argument.-the-syntax-of-the-scalez-function-is-as-follows .unnumbered}
 
-> scaleZ () = scaleZ ( &lt;number&gt; )
+scaleZ () = scaleZ ( &lt;number&gt; )
 
 ##### Example: {#example-101 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> &#42; { padding:0; margin:0;
+&#42; { padding:0; margin:0;
 >
-> box-sizing: border-box;
+box-sizing: border-box;
 >
-> }
+}
 >
-> .demo_container{ width:800px; padding:20px; margin:0 auto;
+.demo_container{ width:800px; padding:20px; margin:0 auto;
 >
-> justify-content: center; align-items: center;
+justify-content: center; align-items: center;
 >
-> }
+}
 >
-> .row{
+.row{
 >
-> display: flex; flex-wrap: wrap;
+display: flex; flex-wrap: wrap;
 >
-> flex-direction: row;
+flex-direction: row;
 >
-> }
+}
 >
-> .col{ width:50%
+.col{ width:50%
 >
-> }
+}
 >
-> .image-1 { width:200px; height:200px;
+.image-1 { width:200px; height:200px;
 >
-> }
+}
 >
-> .image-2 {
+.image-2 {
 >
-> transform-origin: top right;
+transform-origin: top right;
 >
-> transform: perspective(250px) scaleZ(2) rotateX(45deg);
+transform: perspective(250px) scaleZ(2) rotateX(45deg);
 >
-> width:200px; height:200px;
+width:200px; height:200px;
 >
-> }
+}
 >
-> .image-3{
+.image-3{
 >
-> transform: perspective(250px) scaleZ(2) rotateX(45deg);
+transform: perspective(250px) scaleZ(2) rotateX(45deg);
 >
-> width:200px; float:right;
+width:200px; float:right;
 >
-> height:200px;
+height:200px;
 >
-> }
+}
 >
-> p{
+p{
 >
-> padding-top: 20px; font-size:20px
+padding-top: 20px; font-size:20px
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;h2&gt;The scaleZ() function is used to scale elements in a
-> two-dimensional space along the z-axis. &lt;/h2&gt;
+&lt;h2&gt;The scaleZ() function is used to scale elements in a
+two-dimensional space along the z-axis. &lt;/h2&gt;
 >
-> &lt;div class=&#34;row&#34;&gt;
+&lt;div class=&#34;row&#34;&gt;
 >
-> &lt;div class=&#34;col&#34;&gt;
+&lt;div class=&#34;col&#34;&gt;
 >
-> &lt;p&gt; Normal Image &lt;/p&gt;
+&lt;p&gt; Normal Image &lt;/p&gt;
 >
-> &lt;img class=&#34;image-1&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
+&lt;img class=&#34;image-1&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
 >
-> &lt;p&gt; scaleZ(4) with transform-origin
+&lt;p&gt; scaleZ(4) with transform-origin
 >
-> &lt;/p&gt;
+&lt;/p&gt;
 >
-> &lt;img class=&#34;image-2&#34; src=&#34;/images-1.jpg&#34;
+&lt;img class=&#34;image-2&#34; src=&#34;/images-1.jpg&#34;
 >
-> alt=&#34;Sample image&#34;&gt;
+alt=&#34;Sample image&#34;&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;div class=&#34;col&#34;&gt;
+&lt;div class=&#34;col&#34;&gt;
 >
-> &lt;p&gt; scaleZ(4) without transform-origin
+&lt;p&gt; scaleZ(4) without transform-origin
 >
-> &lt;/p&gt;
+&lt;/p&gt;
 >
-> &lt;img class=&#34;image-3&#34; src=&#34;/images-1.jpg&#34;
+&lt;img class=&#34;image-3&#34; src=&#34;/images-1.jpg&#34;
 >
-> alt=&#34;Sample image&#34;&gt;
+alt=&#34;Sample image&#34;&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-83 .unnumbered}
 
 ![](./images/image102.png){width="4.429687226596675in"
 height="2.939061679790026in"}
 
-> CSS function (scaleZ()).
+CSS function (scaleZ()).
 
 #### skew() {#skew .unnumbered}
 
-> The CSS skew() function is used to skew elements in two-dimensional
-> space. The skew() element performs a shear transformation (also known
-> as a shear mapping or a transvection), which displaces each point of
-> an element by a given angle in each direction.
+The CSS skew() function is used to skew elements in two-dimensional
+space. The skew() element performs a shear transformation (also known
+as a shear mapping or a transvection), which displaces each point of
+an element by a given angle in each direction.
 >
-> Skewing an element is kind of like taking the points of an element,
-> and pushing or pulling them in different directions, based on a given
-> angle.
+Skewing an element is kind of like taking the points of an element,
+and pushing or pulling them in different directions, based on a given
+angle.
 >
-> The skew() function works like this:
+The skew() function works like this:
 
 -   skew(ax) or
 
@@ -14486,589 +13989,518 @@ height="2.939061679790026in"}
 
 ##### Example: {#example-102 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> &#42; { padding:0; margin:0;
+&#42; { padding:0; margin:0;
 >
-> box-sizing: border-box;
+box-sizing: border-box;
 >
-> }
+}
 >
-> .demo_container{ width:800px; padding:20px; margin:0 auto;
+.demo_container{ width:800px; padding:20px; margin:0 auto;
 >
-> justify-content: center; align-items: center;
+justify-content: center; align-items: center;
 >
-> }
+}
 >
-> .row{
+.row{
 >
-> display: flex; flex-wrap: wrap;
+display: flex; flex-wrap: wrap;
 >
-> flex-direction: row;
+flex-direction: row;
 >
-> }
+}
 >
-> .col{ width:50%
+.col{ width:50%
 >
-> }
+}
 >
-> .image-1 { width:200px; height:200px;
+.image-1 { width:200px; height:200px;
 >
-> }
+}
 >
-> .image-2 {
+.image-2 {
 >
-> transform-origin: top left; transform: skew(10deg, 0); width:200px;
+transform-origin: top left; transform: skew(10deg, 0); width:200px;
 >
-> height:200px;
+height:200px;
 >
-> }
+}
 >
-> .image-3{
+.image-3{
 >
-> transform-origin: top left; transform: skew(0, 10deg);
+transform-origin: top left; transform: skew(0, 10deg);
 >
-> width:200px; height:200px;
+width:200px; height:200px;
 >
-> }
+}
 >
-> .image-3{
+.image-3{
 >
-> transform-origin: top left; transform: skew(0, 10deg);
+transform-origin: top left; transform: skew(0, 10deg);
 >
-> width:200px; height:200px;
+width:200px; height:200px;
 >
-> }
+}
 >
-> .image-4{
+.image-4{
 >
-> transform-origin: top left; transform: skew(10deg, 10deg);
+transform-origin: top left; transform: skew(10deg, 10deg);
 >
-> width:200px; height:200px;
+width:200px; height:200px;
 >
-> }
+}
 >
-> .image-5{
+.image-5{
 >
-> transform-origin: bottom left; transform: skew(-10deg, -10deg);
+transform-origin: bottom left; transform: skew(-10deg, -10deg);
 >
-> width:200px; height:200px;
+width:200px; height:200px;
 >
-> }
+}
 >
-> .image-6{
+.image-6{
 >
-> transform: skew(-10deg, -10deg); width:200px;
+transform: skew(-10deg, -10deg); width:200px;
 >
-> height:200px;
+height:200px;
 >
-> }
+}
 >
-> p{
+p{
 >
-> padding-top: 20px; font-size:20px
+padding-top: 20px; font-size:20px
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;h2&gt; The skew() function is used to skew elements in a
-> two-dimensional space. &lt;/h2&gt;
+&lt;h2&gt; The skew() function is used to skew elements in a
+two-dimensional space. &lt;/h2&gt;
 >
-> &lt;div class=&#34;row&#34;&gt;
+&lt;div class=&#34;row&#34;&gt;
 >
-> &lt;div class=&#34;col&#34;&gt;
+&lt;div class=&#34;col&#34;&gt;
 >
-> &lt;p&gt; Normal Image&lt;/p&gt;
+&lt;p&gt; Normal Image&lt;/p&gt;
 >
-> &lt;img class=&#34;image-1&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
+&lt;img class=&#34;image-1&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
 >
-> &lt;p&gt; Skew along the x-axis &lt;/p&gt;
+&lt;p&gt; Skew along the x-axis &lt;/p&gt;
 >
-> &lt;img class=&#34;image-2&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
+&lt;img class=&#34;image-2&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
 >
-> &lt;p&gt; Skew along the y-axis &lt;/p&gt;
+&lt;p&gt; Skew along the y-axis &lt;/p&gt;
 >
-> &lt;img class=&#34;image-3&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
+&lt;img class=&#34;image-3&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;div class=&#34;col&#34;&gt;
+&lt;div class=&#34;col&#34;&gt;
 >
-> &lt;p&gt; Skew along Both Axes &lt;/p&gt;
+&lt;p&gt; Skew along Both Axes &lt;/p&gt;
 >
-> &lt;img class=&#34;image-4&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
+&lt;img class=&#34;image-4&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
 >
-> &lt;p&gt; Negative Values &lt;/p&gt;
+&lt;p&gt; Negative Values &lt;/p&gt;
 >
-> &lt;img class=&#34;image-5&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
+&lt;img class=&#34;image-5&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
 >
-> &lt;p&gt; Removing transform-origin &lt;/p&gt;
+&lt;p&gt; Removing transform-origin &lt;/p&gt;
 >
-> &lt;img class=&#34;image-6&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
+&lt;img class=&#34;image-6&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/div&gt;
+&lt;/div&gt;
 >
-> &lt;/body&gt;
+&lt;/body&gt;
 >
-> &lt;/html&gt;
+&lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-84 .unnumbered}
 
 ![](./images/image103.png){width="4.101567147856518in"
 height="3.875in"}
 
-> CSS function (skew()).
+CSS function (skew()).
 
 #### skewX() {#skewx .unnumbered}
 
 ###### The skewX() element performs a shear transformation (also known as a shear mapping or a transvection), which displaces each point of an ele- ment by a given angle along the x-axis. {#the-skewx-element-performs-a-shear-transformation-also-known-as-a-shear-mapping-or-a-transvection-which-displaces-each-point-of-an-ele--ment-by-a-given-angle-along-the-x-axis. .unnumbered}
 
-> The skewX() function works like this:
+The skewX() function works like this:
 >
-> skewX(a)
+skewX(a)
 >
-> The skewX() function accepts one argument which specifies the angle of
-> the skew for the x-axis. It can be any valid angle value.
+The skewX() function accepts one argument which specifies the angle of
+the skew for the x-axis. It can be any valid angle value.
 
 ##### Example: {#example-103 .unnumbered}
 
-> &lt;!DOCTYPE html&gt;
+&lt;!DOCTYPE html&gt;
 >
-> &lt;html&gt;
+&lt;html&gt;
 >
-> &lt;head&gt;
+&lt;head&gt;
 >
-> &lt;style&gt;
+&lt;style&gt;
 >
-> &#42; { padding:0; margin:0;
+&#42; { padding:0; margin:0;
 >
-> box-sizing: border-box;
+box-sizing: border-box;
 >
-> }
+}
 >
-> .demo_container{ width:800px; padding:20px; margin:0 auto;
+.demo_container{ width:800px; padding:20px; margin:0 auto;
 >
-> justify-content: center; align-items: center;
+justify-content: center; align-items: center;
 >
-> }
+}
 >
-> .row{
+.row{
 >
-> display: flex; flex-wrap: wrap;
+display: flex; flex-wrap: wrap;
 >
-> flex-direction: row;
+flex-direction: row;
 >
-> }
+}
 >
-> .col{ width:50%
+.col{ width:50%
 >
-> }
+}
 >
-> .image-1 { width:200px; height:200px;
+.image-1 { width:200px; height:200px;
 >
-> }
+}
 >
-> .image-2 {
+.image-2 {
 >
-> transform-origin: top left; transform: skewX(10deg); width:200px;
+transform-origin: top left; transform: skewX(10deg); width:200px;
 >
-> height:200px;
+height:200px;
 >
-> }
+}
 >
-> .image-3 {
+.image-3 {
 >
-> transform-origin: top left; transform: skewX(-10deg); width:200px;
+transform-origin: top left; transform: skewX(-10deg); width:200px;
 >
-> height:200px;
+height:200px;
 >
-> }
+}
 >
-> p{
+p{
 >
-> padding-top: 20px; font-size:20px
+padding-top: 20px; font-size:20px
 >
-> }
+}
 >
-> &lt;/style&gt;
+&lt;/style&gt;
 >
-> &lt;/head&gt;
+&lt;/head&gt;
 >
-> &lt;body&gt;
+&lt;body&gt;
 >
-> &lt;div class=&#34;demo_container&#34;&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
 >
-> &lt;h2&gt; The skewX() function is used to skew elements in a
-> two-dimensional space along the x-axis. &lt;/h2&gt;
+&lt;h2&gt; The skewX() function is used to skew elements in a
+two-dimensional space along the x-axis. &lt;/h2&gt;
 >
-> &lt;div class=&#34;row&#34;&gt;
+&lt;div class=&#34;row&#34;&gt;
 >
-> &lt;div class=&#34;col&#34;&gt;
+&lt;div class=&#34;col&#34;&gt;
 >
-> &lt;p&gt; Normal Image &lt;/p&gt;
+&lt;p&gt; Normal Image &lt;/p&gt;
 >
-> &lt;img class=&#34;image-1&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
+&lt;img class=&#34;image-1&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
 >
-> &lt;p&gt; Skew with transform-origin &lt;/p&gt;
+&lt;p&gt; Skew with transform-origin &lt;/p&gt;
 >
-> &lt;img class=&#34;image-2&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
+&lt;img class=&#34;image-2&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
 >
-> &lt;/div&gt;
->
-> &lt;div class=&#34;col&#34;&gt;
->
-> &lt;p&gt; Negative Values &lt;/p&gt;
->
-> &lt;img class=&#34;image-3&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
->
-> &lt;/div&gt;
->
-> &lt;/div&gt;
->
-> &lt;/div&gt;
->
-> &lt;/body&gt;
->
-> &lt;/html&gt;
+&lt;/div&gt;
+&lt;div class=&#34;col&#34;&gt;
+&lt;p&gt; Negative Values &lt;/p&gt;
+&lt;img class=&#34;image-3&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-85 .unnumbered}
+###### The output of the code is given below:
 
 ![](./images/image104.png){width="4.421245625546806in"
 height="3.1640616797900263in"}
 
-> []{#_bookmark315 .anchor}CSS function (skewX()).
+CSS function (skewX()).
 
-### CHAPTER SUMMARY {#chapter-summary-2 .unnumbered}
+### CHAPTER SUMMARY
 
-###### In this chapter, we saw various built-in methods like attr(), RGB(), rgba(), and so on. These functions have their own unique functionality and prop- erties. So next chapter is about CSS plugins. {#in-this-chapter-we-saw-various-built-in-methods-like-attr-rgb-rgba-and-so-on.-these-functions-have-their-own-unique-functionality-and-prop--erties.-so-next-chapter-is-about-css-plugins. .unnumbered}
+###### In this chapter, we saw various built-in methods like attr(), RGB(), rgba(), and so on. These functions have their own unique functionality and prop- erties. So next chapter is about CSS plugins. 
 
-######  {#section-7 .unnumbered}
+![](./images/image6.png){width="3.6393208661417322in"
+height="0.9622911198600175in"}
 
-> ![](./images/image6.png){width="3.6393208661417322in"
-> height="0.9622911198600175in"}
->
-> []{#CHAPTER_5:_CSS_Plugins .anchor}CHA P T E R 5
+CHAPTER 5
 
-# CSS Plugins {#css-plugins .unnumbered}
+# CSS Plugins
 
-### [IN THIS CHAPTER]{.underline}  {#in-this-chapter-3 .unnumbered}
+### [IN THIS CHAPTER]
 
 -   Introduction
-
 -   Various CSS Plugins Based on PostCSS
-
 -   Autoprefixer
-
 -   CSSnext
-
 -   CSS MarqueeMenu Plugin
 
-> In the last chapter, we studied about CSS functions. In this chapter,
-> we will discuss some plugins that are based on CSS and also work with
-> JavaScript or any other programming language. So PostCSS plays a major
-> role in it. All other plugins are defined in PostCSS. PostCSS is a
-> versatile tool that allows to transform CSS styles using JavaScript
-> plugins. Its flexibility lies in the way it is built. The core of
-> PostCSS is a Node.js module that you can install using npm, it has
-> over 200 plugins that you can choose to use in your project. PostCSS
-> is a framework for developing various CSS tools. It can be used to
-> develop template languages like Sass and LESS. PostCSS consists of a
-> CSS parser that generates an abstract syntax tree.
->
-> We also have pre- and post-processing scripts that run before an item
-> is saved. The difference between the two is that the pre-processing
-> scripts run before the value checking and validation rules are
-> completed, and the postprocessing scripts run after these processes.
->
-> DOI:
-> [10.1201/9781003358060-5](https://doi.org/10.1201/9781003358060-5)
->
-> **375**
->
-> []{#_bookmark318 .anchor}PostCSS is neither preprocessor nor
-> postprocessor, as various PostCSS plugins can fall into one or both of
-> these categories; it's entirely up to you what you make of it. With
-> PostCSS, you don't have to learn another syntax like Sass or LESS; you
-> can start using it immediately.
->
-> PostCSS will take your existing CSS file and convert it to JavaScript
-> readable data, then the JavaScript plugins will make the modifications
-> and PostCSS will return the modified version of the original file.
+In the last chapter, we studied about CSS functions. In this chapter,
+we will discuss some plugins that are based on CSS and also work with
+JavaScript or any other programming language. So PostCSS plays a major
+role in it. All other plugins are defined in PostCSS. PostCSS is a
+versatile tool that allows to transform CSS styles using JavaScript
+plugins. Its flexibility lies in the way it is built. The core of
+PostCSS is a Node.js module that you can install using npm, it has
+over 200 plugins that you can choose to use in your project. PostCSS
+is a framework for developing various CSS tools. It can be used to
+develop template languages like Sass and LESS. PostCSS consists of a
+CSS parser that generates an abstract syntax tree.
+
+We also have pre- and post-processing scripts that run before an item
+is saved. The difference between the two is that the pre-processing
+scripts run before the value checking and validation rules are
+completed, and the postprocessing scripts run after these processes.
+
+DOI:
+[10.1201/9781003358060-5](https://doi.org/10.1201/9781003358060-5)
+
+**375**
+
+PostCSS is neither preprocessor nor
+postprocessor, as various PostCSS plugins can fall into one or both of
+these categories; it's entirely up to you what you make of it. With
+PostCSS, you don't have to learn another syntax like Sass or LESS; you
+can start using it immediately.
+
+PostCSS will take your existing CSS file and convert it to JavaScript
+readable data, then the JavaScript plugins will make the modifications
+and PostCSS will return the modified version of the original file.
 
 ## VARIOUS CSS PLUGINS PostCSS BASED {#various-css-plugins-postcss-based .unnumbered}
 
-> There are various plugins available in the market as given below:
+There are various plugins available in the market as given below:
 
 1.  Autoprefixer
-
 2.  CSSnext
-
 3.  CSSNano
-
 4.  PreCSS
-
 5.  StyleLint
-
 6.  PostCSS Assets
-
 7.  Font Magician
-
 8.  Lost Grid
-
 9.  PostCSS
-
 10. PostCSS-modules
 
 ### AUTOPREFIXER {#autoprefixer .unnumbered}
 
 ###### Autoprefixer uses the data based on the latest browser popularity that supports to apply prefixes for you. You can try the interactive demo of Autoprefixer. {#autoprefixer-uses-the-data-based-on-the-latest-browser-popularity-that-supports-to-apply-prefixes-for-you.-you-can-try-the-interactive-demo-of-autoprefixer. .unnumbered}
 
-> You can write any CSS rules without vendor prefixes as given below:
->
-> .container {
->
-> box-shadow: 0 0 10px #cecece; transition: all .5s;
->
-> }
->
-> p{
->
-> []{#_bookmark321 .anchor}color: red;
->
-> }
->
-> .section a{ display: flex;
->
-> }
->
-> []{#Write_Pure_CSS .anchor}Write Pure CSS
->
-> Working with Autoprefixer is simple, you need to forget about vendor
-> pre- fixes and write normal CSS according to the latest W3C specs. You
-> do not need a special language (like Sass, Less) or remember where you
-> must use mixins.
->
-> Autoprefixer supports selectors (such as :fullscreen & ::selection),
-> unit function (calc()), at-rules (@support & &#64;keyframes) and with
-> properties.
->
-> It is a postprocessor, you can use it with preprocessors like Sass,
-> Stylus, or LESS.
->
-> Just write normal CSS according to the latest W3C specs and
-> Autoprefixer will produce the code for old browsers. Autoprefixer
-> changes CSS indenta- tion to create a nice visual cascade of prefixes
-> if the CSS is uncompressed.
->
-> a {
->
-> -webkit-box-sizing: border-box;
->
-> -moz-box-sizing: border-box; box-sizing: border-box;
->
-> }
->
-> The output with Autoprefixer will be like this (you can check the
-> Autoprefixers code online using, <https://tools.webdevpuneet.com/>
-> [css-autoprefixer/](https://tools.webdevpuneet.com/)):
->
-> /&#42;
->
-> &#42; Prefixed by:
+You can write any CSS rules without vendor prefixes as given below:
+
+```
+.container {
+box-shadow: 0 0 10px #cecece; transition: all .5s;
+}
+p{
+[]{#_bookmark321 .anchor}color: red;
+}
+.section a{ display: flex;
+}
+```
+
+Write Pure CSS
+Working with Autoprefixer is simple, you need to forget about vendor
+pre- fixes and write normal CSS according to the latest W3C specs. You
+do not need a special language (like Sass, Less) or remember where you
+must use mixins.
+
+Autoprefixer supports selectors (such as :fullscreen & ::selection),
+unit function (calc()), at-rules (@support & &#64;keyframes) and with
+properties.
+
+It is a postprocessor, you can use it with preprocessors like Sass,
+Stylus, or LESS.
+
+Just write normal CSS according to the latest W3C specs and
+Autoprefixer will produce the code for old browsers. Autoprefixer
+changes CSS indenta- tion to create a nice visual cascade of prefixes
+if the CSS is uncompressed.
+
+```
+a {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box; box-sizing: border-box;
+}
+```
+
+The output with Autoprefixer will be like this (you can check the
+Autoprefixers code online using, <https://tools.webdevpuneet.com/>
+[css-autoprefixer/](https://tools.webdevpuneet.com/)):
+/&#42;
+
+&#42; Prefixed by:
 
 -   PostCSS: v7.0.29,
-
 -   Autoprefixer: v9.7.6
-
 -   Browsers: last 4 version
 
-> &#42;/
+```
+&#42;/
+.container {
+-webkit-box-shadow: 0 0 10px #cecece;
+box-shadow: 0 0 10px #cecece;
+-webkit-transition: all .5s;
+-o-transition: all .5s; transition: all .5s;
+}
+p{
+color: red;
+}
+.section a{
+display: -webkit-box; display: -ms-flexbox; display: flex;
+}
+```
+
+The thing is that some CSS properties will display differently in dif-
+ferent browsers, and you want every site visitor to have a predictable
+and accurate experience. For older, more established properties, such
+as a bor- der or border, there is nothing to worry about; they have
+been standard- ized and work across browsers. But newer features like
+grid or flexbox are not so simple.
 >
-> .container {
->
-> -webkit-box-shadow: 0 0 10px #cecece;
->
-> box-shadow: 0 0 10px #cecece;
->
-> -webkit-transition: all .5s;
->
-> []{#_bookmark323 .anchor}-o-transition: all .5s; transition: all .5s;
->
-> }
->
-> p{
->
-> color: red;
->
-> }
->
-> .section a{
->
-> display: -webkit-box; display: -ms-flexbox; display: flex;
->
-> }
->
-> The thing is that some CSS properties will display differently in dif-
-> ferent browsers, and you want every site visitor to have a predictable
-> and accurate experience. For older, more established properties, such
-> as a bor- der or border, there is nothing to worry about; they have
-> been standard- ized and work across browsers. But newer features like
-> grid or flexbox are not so simple.
->
-> The vendors that make your browsers, like Google and Mozilla, don't
-> want to wait for cool new things to be standardized before implement-
-> ing them. Instead, they create their own version and add a prefix that
-> differentiates it from other browsers' implementations. The new prop-
-> erty will be standardized and work the same across all browsers,
-> elimi- nating the need for prefixes. Until then, you must use vendor
-> prefixes in your code.
->
-> "Autoprefixer" is a plugin that can save us from the monotony of
->
-> -webkit- and -moz-. It does exactly sounds like: it automatically adds
-> pre- fixes to your CSS. All you have to do is supply it using a CSS
-> sheet that will read it and add vendor prefixes if necessary.
->
-> []{#Installing_Autoprefixer_in_Your_Project_ .anchor}Installing
-> Autoprefixer in Your Project Folder
->
-> Open a terminal in VS code and use npm to install it, well as postcss
-> and its companion postcss-cli, the command-line tool you'll use to run
-> Autoprefixer. The process is the same as installing Sass, only you
-> install three packages at once. You can install so many at once you'd
-> like, each separated by a space as
->
-> &#36; npm install autoprefixer postcss postcss-cli -g
+The vendors that make your browsers, like Google and Mozilla, don't
+want to wait for cool new things to be standardized before implement-
+ing them. Instead, they create their own version and add a prefix that
+differentiates it from other browsers' implementations. The new prop-
+erty will be standardized and work the same across all browsers,
+elimi- nating the need for prefixes. Until then, you must use vendor
+prefixes in your code.
+
+"Autoprefixer" is a plugin that can save us from the monotony of
+
+-webkit- and -moz-. It does exactly sounds like: it automatically adds
+pre- fixes to your CSS. All you have to do is supply it using a CSS
+sheet that will read it and add vendor prefixes if necessary.
+
+Installing
+Autoprefixer in Your Project Folder
+
+Open a terminal in VS code and use npm to install it, well as postcss
+and its companion postcss-cli, the command-line tool you'll use to run
+Autoprefixer. The process is the same as installing Sass, only you
+install three packages at once. You can install so many at once you'd
+like, each separated by a space as
+
+```
+&#36; npm install autoprefixer postcss postcss-cli -g
+```
 
 ###### Once npm has downloaded and installed the packages, need to go back into package.json and add a script for npm to run, just like when you installed Sass. Add a new script named "prefix" after the "sass"s script: {#once-npm-has-downloaded-and-installed-the-packages-need-to-go-back-into-package.json-and-add-a-script-for-npm-to-run-just-like-when-you-installed-sass.-add-a-new-script-named-prefix-after-the-sasss-script .unnumbered}
 
-> {
->
-> &#34;name&#34;: &#34;abc&#34;,
->
-> &#34;version&#34;: &#34;1.0.0&#34;, &#34;description&#34;: abc&#34;, &#34;main&#34;:
-> &#34;index.js&#34;, &#34;scripts&#34;: {
->
-> &#34;sass&#34;: &#34;sass ./sass/main.scss:./public/css/style.
->
-> css -w &#45;-style compressed&#34;, &#34;prefix&#34;:
->
-> },
->
-> &#34;author&#34;: &#34;&#34;,
->
-> &#34;license&#34;: &#34;ISC&#34;,
->
-> }
+{
+&#34;name&#34;: &#34;abc&#34;,
+&#34;version&#34;: &#34;1.0.0&#34;, &#34;description&#34;: abc&#34;, &#34;main&#34;:
+&#34;index.js&#34;, &#34;scripts&#34;: {
+&#34;sass&#34;: &#34;sass ./sass/main.scss:./public/css/style.
+css -w &#45;-style compressed&#34;, &#34;prefix&#34;:
+},
+&#34;author&#34;: &#34;&#34;,
+&#34;license&#34;: &#34;ISC&#34;,
+}
+```
 
-###### And inside the script need to tell npm to use the new postcss package {#and-inside-the-script-need-to-tell-npm-to-use-the-new-postcss-package .unnumbered}
+###### And inside the script need to tell npm to use the new postcss package 
+you just installed and also where to find your compiled CSS file:
 
-> you just installed and also where to find your compiled CSS file:
->
-> {
->
-> &#34;name&#34;: &#34;abc&#34;,
->
-> &#34;version&#34;: &#34;1.0.0&#34;, &#34;description&#34;: &#34;abc&#34;, &#34;main&#34;:
-> &#34;index.js&#34;, &#34;scripts&#34;: {
->
-> &#34;sass&#34;: &#34;sass ./sass/main.scss:./public/css/style.
->
-> css -w &#45;-style compressed&#34;,
->
-> &#34;prefix&#34;: &#34;postcss ./public/css/style.css&#34;
->
-> },
->
-> &#34;author&#34;: &#34;&#34;,
->
-> &#34;license&#34;: &#34;ISC&#34;,
->
-> }
+```
+{
+&#34;name&#34;: &#34;abc&#34;,
+&#34;version&#34;: &#34;1.0.0&#34;, &#34;description&#34;: &#34;abc&#34;, &#34;main&#34;:
+&#34;index.js&#34;, &#34;scripts&#34;: {
+&#34;sass&#34;: &#34;sass ./sass/main.scss:./public/css/style.
+css -w &#45;-style compressed&#34;,
+&#34;prefix&#34;: &#34;postcss ./public/css/style.css&#34;
+},
+&#34;author&#34;: &#34;&#34;,
+&#34;license&#34;: &#34;ISC&#34;,
+}
+```
 
 ###### After that you need to instruct npm which package to use and where to {#after-that-you-need-to-instruct-npm-which-package-to-use-and-where-to .unnumbered}
 
-> find the CSS file, to use Autoprefixer by implementing -- use flag
-> followed by Autoprefixer as given below:
->
-> {
->
-> &#34;name&#34;: &#34;abc&#34;,
->
-> &#34;version&#34;: &#34;1.0.0&#34;,
->
-> &#34;description&#34;: &#34;abc&#34;, &#34;main&#34;: &#34;index.js&#34;, &#34;scripts&#34;: {
->
-> &#34;sass&#34;: &#34;sass ./sass/main.scss:./public/css/style. css -w &#45;-style
-> compressed&#34;,
->
-> &#34;prefix&#34;: &#34;postcss ./public/css/style.css &#45;-use autoprefixer&#34;
->
-> },
->
-> &#34;author&#34;: &#34;&#34;,
->
-> &#34;license&#34;: &#34;ISC&#34;,
->
-> }
+find the CSS file, to use Autoprefixer by implementing -- use flag
+followed by Autoprefixer as given below:
+
+```
+{
+&#34;name&#34;: &#34;abc&#34;,
+&#34;version&#34;: &#34;1.0.0&#34;,
+&#34;description&#34;: &#34;abc&#34;, &#34;main&#34;: &#34;index.js&#34;, &#34;scripts&#34;: {
+&#34;sass&#34;: &#34;sass ./sass/main.scss:./public/css/style. css -w &#45;-style
+compressed&#34;,
+&#34;prefix&#34;: &#34;postcss ./public/css/style.css &#45;-use autoprefixer&#34;
+},
+&#34;author&#34;: &#34;&#34;,
+&#34;license&#34;: &#34;ISC&#34;,
+}
+```
 
 ###### And then, finally, you need to instruct it where to put new, prefixed, CSS sheet as given below: {#and-then-finally-you-need-to-instruct-it-where-to-put-new-prefixed-css-sheet-as-given-below .unnumbered}
 
-> {
->
-> &#34;name&#34;: &#34;abc&#34;,
->
-> &#34;version&#34;: &#34;1.0.0&#34;, &#34;description&#34;: &#34;abc&#34;, &#34;main&#34;:
-> &#34;index.js&#34;, &#34;scripts&#34;: {
->
-> &#34;sass&#34;: &#34;sass ./sass/main.scss:./public/css/style.
->
-> css -w &#45;-style compressed&#34;,
->
-> &#34;prefix&#34;: &#34;postcss ./public/css/style.css &#45;-use autoprefixer -d
-> ./public/css/prefixed/&#34;
->
-> },
->
-> &#34;author&#34;: &#34;&#34;,
->
-> &#34;license&#34;: &#34;ISC&#34;,
->
-> }
+```
+{
+&#34;name&#34;: &#34;abc&#34;,
+&#34;version&#34;: &#34;1.0.0&#34;, &#34;description&#34;: &#34;abc&#34;, &#34;main&#34;:
+&#34;index.js&#34;, &#34;scripts&#34;: {
+&#34;sass&#34;: &#34;sass ./sass/main.scss:./public/css/style.
+css -w &#45;-style compressed&#34;,
+&#34;prefix&#34;: &#34;postcss ./public/css/style.css &#45;-use autoprefixer -d
+./public/css/prefixed/&#34;
+},
+&#34;author&#34;: &#34;&#34;,
+&#34;license&#34;: &#34;ISC&#34;,
+}
+```
 
 ###### Now your prefixing script is complete. {#now-your-prefixing-script-is-complete. .unnumbered}
 
-> Add a new key named browserslist as given below:
->
-> {
->
-> &#34;browserslist&#34;:
->
-> }
+Add a new key named browserslist as given below:
 
-#### And then give browserslist a value of last four versions : and-then-give-browserslist-a-value-of-last-four-versions .unnumbered}
+```
+{
+&#34;browserslist&#34;:
+}
+```
 
+#### And then give browserslist a value of last four versions : 
 ```
 &#34;name&#34;: &#34;joeblow&#34;,
 &#34;version&#34;: &#34;1.0.0&#34;,
-[]{#_bookmark325 .anchor}&#34;description&#34;: &#34;Joe Blow&#39;s web
+&#34;description&#34;: &#34;Joe Blow&#39;s web
 portfolio&#34;, &#34;main&#34;: &#34;index.js&#34;,
 &#34;scripts&#34;: {
 &#34;sass&#34;: &#34;sass ./sass/main.scss:./public/css/style. css -w &#45;-style
@@ -15083,61 +14515,55 @@ compressed&#34;,
 ```
 
 
-###### Now you are ready to autoprefix CSS! Let's move into the terminal and {#now-you-are-ready-to-autoprefix-css-lets-move-into-the-terminal-and .unnumbered}
+###### Now you are ready to autoprefix CSS! Let's move into the terminal and 
+run the prefix script:
 
-> run the prefix script:
->
-> &#36; npm run prefix
+```
+&#36; npm run prefix
+```
 
 ###### Take a look at the new, prefixed, CSS in your CSS file, a new block will be added: 
 
-> .section {
->
-> background: #15DEA5; height: 10rem; display: -webkit-box; display:
-> -ms-flexbox; display: flex;
->
-> -webkit-box-align: center;
->
-> -ms-flex-align: center; align-items: center;
->
-> -ms-flex-wrap: wrap; flex-wrap: wrap;
->
-> width: 100%;
->
-> }
->
-> []{#_bookmark326 .anchor}Now our website will display properly and
-> uniformly across all compat-
->
-> ible browsers.
->
-> When Does It Run?
->
-> Autoprefixer is the very last thing that runs when processing your
-> CSS. So if you use Sass, LESS, or Stylus, that will process first,
-> then Autoprefixer. You are still free to use a preprocessor add-on
-> (e.g., Compass, LESSHat, etc.)
->
-> []{#_bookmark327 .anchor}in which to use for prefixing if you'd like,
-> but I'd argue that Autoprefixer is easier, does a better job, and you
-> don't need both.
->
-> []{#What_is_the_Difference_Between_Autoprefi .anchor}What is the
-> Difference Between Autoprefixer and -Prefix-Free?
->
-> -Prefix-free is a client-side JavaScript library. It is included on
-> your page as an additional request. It runs, finds all the CSS it can
-> find, figures out what prefixes may be needed, and injects that new
-> CSS onto the page after the CSS it finds.
+```
+.section {
+background: #15DEA5; height: 10rem; display: -webkit-box; display:
+-ms-flexbox; display: flex;
+-webkit-box-align: center;
+-ms-flex-align: center; align-items: center;
+-ms-flex-wrap: wrap; flex-wrap: wrap;
+width: 100%;
+}
+```
+
+Now our website will display properly and uniformly across all compatible browsers.
+
+When Does It Run?
+
+Autoprefixer is the very last thing that runs when processing your
+CSS. So if you use Sass, LESS, or Stylus, that will process first,
+then Autoprefixer. You are still free to use a preprocessor add-on
+(e.g., Compass, LESSHat, etc.)
+
+in which to use for prefixing if you'd like,
+but I'd argue that Autoprefixer is easier, does a better job, and you
+don't need both.
+
+What is the
+Difference Between Autoprefixer and -Prefix-Free?
+
+-Prefix-free is a client-side JavaScript library. It is included on
+your page as an additional request. It runs, finds all the CSS it can
+find, figures out what prefixes may be needed, and injects that new
+CSS onto the page after the CSS it finds.
 
 -   Downsides: extra request, flash-of-un-prefixed-styles, not cached, a
     few styles it can't do (e.g., filter).
 
 -   Upsides: smaller CSS, only injects prefixes current browser needs.
 
-> Autoprefixer processes your CSS server-side. At least, that's how
-> we're doing it because that seems to be the canonical source for the
-> project.
+Autoprefixer processes your CSS server-side. At least, that's how
+we're doing it because that seems to be the canonical source for the
+project.
 
 -   Downsides: larger CSS (but not as big as "just prefixing
     everything").
@@ -15147,47 +14573,47 @@ compressed&#34;,
 
 #### CSSnext {#cssnext .unnumbered}
 
-> PostCSS is a new tool that makes easy to develop JavaScript plugins
-> that transform styles. This opens up a new world of possibilities for
-> new plugins that make working with CSS easier and easier. The post
-> introduces two popular PostCSS plugins: cssnext and cssnano.
+PostCSS is a new tool that makes easy to develop JavaScript plugins
+that transform styles. This opens up a new world of possibilities for
+new plugins that make working with CSS easier and easier. The post
+introduces two popular PostCSS plugins: cssnext and cssnano.
 >
-> cssnext lets you use the future of CSS today. You can use features
-> that are not supported in all browsers, such as CSS variables and CSS
-> color functions. cssnext transforms your styles to work in all
-> browsers. In other words, cssnext allows to write styles with real CSS
-> syntax instead of another preprocessor syntax. cssnext will
-> automatically add vendor pre- fixes to your styles, so you dont have
-> to use the prefixes yourself when writing CSS.
+cssnext lets you use the future of CSS today. You can use features
+that are not supported in all browsers, such as CSS variables and CSS
+color functions. cssnext transforms your styles to work in all
+browsers. In other words, cssnext allows to write styles with real CSS
+syntax instead of another preprocessor syntax. cssnext will
+automatically add vendor pre- fixes to your styles, so you dont have
+to use the prefixes yourself when writing CSS.
 >
-> To give you an example, let's say you have the following CSS styles:
+To give you an example, let's say you have the following CSS styles:
 >
-> :root {
+:root {
 >
-> &#45;-text: pink;
+&#45;-text: pink;
 >
-> &#45;-bg-color: #FFEC31;
+&#45;-bg-color: #FFEC31;
 >
-> &#45;-flex-center: {
+&#45;-flex-center: {
 >
-> display: flex; margin: auto;
+display: flex; margin: auto;
 >
-> }
+}
 >
-> }
+}
 >
-> .box {
+.box {
 >
-> background-color: var(&#45;-bg-color); color: color(hotpink
-> whiteness(25%)); &#64;apply(&#45;-flex-center);
+background-color: var(&#45;-bg-color); color: color(hotpink
+whiteness(25%)); &#64;apply(&#45;-flex-center);
 >
-> }
+}
 >
-> .warn {
+.warn {
 >
-> &#64;apply(&#45;-flex-center);
+&#64;apply(&#45;-flex-center);
 >
-> }
+}
 
 ###### cssnext will transform the styles into this:
 
@@ -15221,7 +14647,7 @@ elimi- nates duplicate rules, outdated vendor prefixes, comments, and
 performs a lot of other optimizations. Both cssnext and cssnano can be
 configured to work according to specific needs.
 
-[]{#Installing_PostCSS,_the_PostCSS-CLI,_css .anchor}Installing
+Installing
 PostCSS, the PostCSS-CLI, cssnext, and cssnano
 
 Using npm:
@@ -15263,7 +14689,7 @@ styles-out.css styles.css &#45;-watch
 ```
 {
 &#34;use&#34;: &#91;&#34;postcss-cssnext&#34;, &#34;cssnano&#34;&#93;,
-[]{#_bookmark334 .anchor}&#34;input&#34;: &#34;styles.css&#34;, &#34;output&#34;:
+&#34;input&#34;: &#34;styles.css&#34;, &#34;output&#34;:
 &#34;styles-out.css&#34;
 }
 ```
@@ -15308,12 +14734,12 @@ width: calc(4 &#42; 200px);
 }
 ```
 
-[]{#_bookmark337 .anchor}It combines Sass-like syntactical suga like
+It combines Sass-like syntactical suga like
 variables, conditionals, and iterators, with emerging CSS features,
 like logical and custom properties, media query ranges, and image
 sets.
 
-[]{#_bookmark338 .anchor}Usage
+Usage
 
 You can add PreCSS to your build tool:
 
@@ -15321,16 +14747,16 @@ You can add PreCSS to your build tool:
 &#36; npm install precss &#45;-save-dev
 ```
 
-[]{#Other_Various_Plugins .anchor}Other Various Plugins
+Other Various Plugins
 
 It has powered by the following plugins (in this order):
 
 -   postcss-extend-rule: You can add this PostCSS Extend Rule to your
     project:
 
-> &#36; npm install postcss postcss-extend-rule
+&#36; npm install postcss postcss-extend-rule
 >
-> &#45;-save-dev
+&#45;-save-dev
 
 ###### Use PostCSS Extend Rule to process your CSS: {#use-postcss-extend-rule-to-process-your-css .unnumbered}
 
@@ -15413,12 +14839,12 @@ if you intended to use the features option exclusively.
 
 Without any configuration options, PostCSS allows Preset Env Stage.
 
-2.  []{#_bookmark342 .anchor}**features:** The features enable or
+2.  **features:** The features enable or
     disable specific polyfills by ID. By passing true to a specific
     feature ID will enable its polyfill, during passing false will
     disable it.
 
-> There are various id available in this plugin as given below:
+There are various id available in this plugin as given below:
 
 1.  postcssAttributeCaseInsensitive
 
@@ -15499,7 +14925,7 @@ postcss(&#91; require(&#39;postcss-property-lookup&#39;) &#93;)
 
 -   postcss-nested
 
-[]{#Install_Plugin .anchor}Install Plugin
+Install Plugin
 
 -   Step 1:
 
@@ -15514,7 +14940,7 @@ postcss(&#91; require(&#39;postcss-property-lookup&#39;) &#93;)
 If you don't use PostCSS, add it according to official docs and set
 this plugin in settings.
 
--   []{#_bookmark345 .anchor}Step 3: Add the plugin to plugins list:
+-   Step 3: Add the plugin to plugins list:
 
 ```
 module.exports = { plugins: &#91;
@@ -15590,13 +15016,13 @@ color: black;
 It is a mighty, modern CSS linter that helps to enforce consistency
 and avoid errors in your stylesheets.
 
-[]{#Installing_Stylelint .anchor}Installing Stylelint
+Installing Stylelint
 
 First, ensure you have stylelint installed. It is an npm package which
 can be installed by running the following command:
 
 &#36; npm install -g stylelint
-[]{#Usage .anchor}Usage
+Usage
 After you have stylelint installed, you will want to create a
 .stylelintrc.json file. This is where will configure all the lint
 rules want stylelint to check for. Then take a look at the
@@ -15605,8 +15031,8 @@ Once have a . stylelintrc.json file set up with lint rules, you can
 run stylelint on SCSS files with the following command. This assumes
 that you are in the directory where .scss files are located. You can
 update the path accordingly.
->
-[]{#_bookmark351 .anchor}It will look for a .stylelintrc.json file in
+
+It will look for a .stylelintrc.json file in
 the present working directory. If any of your config file is not in
 the present working directory, you can pass it along when run
 stylelint with the config option.
@@ -15629,7 +15055,7 @@ Installation:
 
 ```
 &#36; npm install postcss-assets &#45;-save-dev
-[]{#Gulp_(gulp-postcss) .anchor}Gulp (gulp-postcss)
+Gulp (gulp-postcss)
 ```
 
 PostCSS gulp plugin to pipe CSS through several plugins, but parse CSS
@@ -15657,7 +15083,7 @@ gulp.task(&#39;css&#39;, function () { return gulp.src(&#39;./src/&#42;.css&#39;
 
 ```
 var postcss = require(&#39;gulp-postcss&#39;); var gulp = require(&#39;gulp&#39;);
-[]{#_bookmark354 .anchor}var autoprefixer = require(&#39;autoprefixer&#39;);
+var autoprefixer = require(&#39;autoprefixer&#39;);
 var cssnano = require(&#39;cssnano&#39;);
 gulp.task(&#39;css&#39;, function () { var plugins = &#91;
 autoprefixer({browsers: &#91;&#39;last 1 version&#39;&#93;}), cssnano()
@@ -15694,7 +15120,7 @@ map: true, // inline sourcemaps
 inline: false, // save all sourcemaps as separate files&#8230;
 annotation: &#39;dist/css/maps/&#39; // &#8230;to the specified directory
 },
-[]{#_bookmark356 .anchor}units
+units
 processors: &#91;
 require(&#39;pixrem&#39;)(), // add fallbacks for rem
 require(&#39;autoprefixer&#39;)({browsers: &#39;last 2
@@ -15736,7 +15162,7 @@ H4kMcdhHr0B8RDaQcqpTA.woff&#34;) format(&#34;woff&#34;),
 url(&#34;<http://fonts.gstatic.com/s/alice/v7/>
 acf9XsUhgp1k2j79ATk2cw.ttf&#34;) format(&#34;truetype&#34;)
 }
-[]{#_bookmark358 .anchor}body {
+body {
 font-family: &#34;Alice&#34;;
 }
 ```
@@ -15782,7 +15208,7 @@ require(&#39;autoprefixer&#39;), lost = require(&#39;lost&#39;);
 var paths = {
 cssSource: &#39;src/css/&#39;, cssDestination: &#39;dist/css/&#39;
 };
-[]{#_bookmark360 .anchor}gulp.task(&#39;styles&#39;, function() {
+gulp.task(&#39;styles&#39;, function() {
 return gulp.src(paths.cssSource + &#39;&#42;&#42;/&#42;.css&#39;)
 .pipe(sourcemaps.init())
 .pipe(postcss(&#91; lost(), autoprefixer()
@@ -15799,7 +15225,7 @@ gulp.task(&#39;default&#39;, &#91;&#39;styles&#39;&#93;);
 -   Grunt: First, you have to install NodeJs then install Grunt using
     this command:
 
-> &#36; npm install &#45;-global grunt-cli
+&#36; npm install &#45;-global grunt-cli
 
 ###### Install dev dependencies:
 
@@ -15820,7 +15246,7 @@ src: &#39;src/css/style.css&#39;, dest: &#39;dist/css/style.css&#39;
 }
 },
 autoprefixer: {
-[]{#_bookmark361 .anchor}single_file: {
+single_file: {
 src: &#39;dist/css/style.css&#39;, dest: &#39;dist/css/style.css&#39;
 }
 },
@@ -15864,7 +15290,7 @@ javascripts: joinTo: &#39;app.js&#39;
 stylesheets: joinTo: &#39;app.css&#39;
 templates:
 joinTo: &#39;app.js&#39;
-[]{#_bookmark362 .anchor}plugins: postcss:
+plugins: postcss:
 processors: &#91; require(&#39;autoprefixer&#39;)(), require(&#39;lost&#39;)
 &#93;
 ```
@@ -15898,12 +15324,8 @@ a template language such as Sass and LESS.
 The PostCSS has core components which are given as below:
 
 -   CSS parser generates an abstract syntax tree.
-
 -   It is a set of classes that comprise the tree.
-
--   []{#_bookmark364 .anchor}CSS generator generates a line for the
-    object tree.
-
+-   CSS generator generates a line for the object tree.
 -   Code map generator for the changes made.
 
 Features
@@ -15915,7 +15337,7 @@ for the tree changed by the plugin. PostCSS & its plugins are written
 in JavaScript and installed through npm, which offers an API for
 various low-level JavaScript operations.
 
-[]{#_bookmark365 .anchor}There are official tools that allow you to
+There are official tools that allow you to
 use PostCSS with build systems such as Webpack, Gulp, and Grunt. A
 console interface is also available. Browserify or Webpack can use to
 open PostCSS in a browser. PostCSS plugins perform a variety of CSS
@@ -15992,15 +15414,12 @@ Style of exported classnames, the keys in your json.
 4.  'dashesOnly'- {String}- It is dashes in class names that will be
     camelized.
 
-> []{#Features .anchor}Features
+Features
 
 -   Modular and reusable CSS.
-
 -   No more conflicts.
-
 -   Explicit dependencies.
-
--   []{#_bookmark370 .anchor}No global scope.
+-   No global scope.
 
 #### CSS MarqueeMenu PLUGIN {#css-marqueemenu-plugin .unnumbered}
 
@@ -16012,7 +15431,7 @@ Note: You can download the CSS MarqueeMenu plugin in the working
 folder and include the required files in the head section of the HTML
 code.
 
-##### Example: {#example-105 .unnumbered}
+##### Example:
 
 ```
 &lt;!DOCTYPE html&gt;
@@ -16352,7 +15771,7 @@ DOI:
 
 **411**
 
-[]{#_bookmark373 .anchor}Your website may have thousands of pages that
+Your website may have thousands of pages that
 look similar. With CSS, you store style information in common files
 that everyone can share. When a user displays a web page, the browser
 loads the style along with the content of the page. When a user prints
@@ -16399,7 +15818,7 @@ There are various versions of CSS such as:
 
 -   CSS3
 
-> []{#_bookmark374 .anchor}There are various types of CSS such as:
+There are various types of CSS such as:
 
 -   Embedded CSS
 
@@ -16448,7 +15867,7 @@ There are various versions of CSS such as:
     and JavaScript becomes clearer once we know some of the basics of
     CSS and HTML.
 
-> In CSS, you can use various CSS properties such as:
+In CSS, you can use various CSS properties such as:
 
 -   CSS Color Codes: It is a color picker, color charts, and code
     examples all in one page. It includes hex values, RGB, color names,
@@ -16578,7 +15997,7 @@ height="0.9622911198600175in"}
     [the%20same%20document](https://climbtheladder.com/), accessed on
     May 19, 2022.
 
-> **417**
+**417**
 
 18. CSS Media Queries --
     [https://www.w3schools.com/css/css_rwd_mediaque-](https://www.w3schools.com/)
@@ -16674,7 +16093,7 @@ height="0.9622911198600175in"}
     [https://www.quackit.com/css/tutorial/css](https://www.quackit.com/)\_font.cfm,
     accessed on May 24, 2022.
 
-> Bibliography ■ **419**
+Bibliography ■ **419**
 
 40. CSS Tutorial --
     [https://www.w3schools.com/css/default.asp](https://www.w3schools.com/)
@@ -16736,113 +16155,113 @@ height="0.9622911198600175in"}
     [Layout%20is,of%20items%20in%20one%20dimension](https://developer.mozilla.org/),
     accessed on May 25, 2022.
 
-> ![](./images/image6.png){width="3.6393208661417322in"
-> height="0.9622911198600175in"}
+![](./images/image6.png){width="3.6393208661417322in"
+height="0.9622911198600175in"}
 
 # Index
 
-> A
+A
 >
-> Adjacent sibling selector, [250](#Cover) Animation-delay property,
-> [52--53](#the-following-section-consists-of-the-complete-list-of-standard-css-properties-belonging-to-the-latest-css3-specifications.-all-the-properties-are-grouped-into-categories-given-below)
+Adjacent sibling selector, [250](#Cover) Animation-delay property,
+[52--53](#the-following-section-consists-of-the-complete-list-of-standard-css-properties-belonging-to-the-latest-css3-specifications.-all-the-properties-are-grouped-into-categories-given-below)
 >
-> Animation-direction property, [53](#_bookmark142)
+Animation-direction property, [53](#_bookmark142)
 >
-> Animation-duration property,
-> [52](#the-following-section-consists-of-the-complete-list-of-standard-css-properties-belonging-to-the-latest-css3-specifications.-all-the-properties-are-grouped-into-categories-given-below)
+Animation-duration property,
+[52](#the-following-section-consists-of-the-complete-list-of-standard-css-properties-belonging-to-the-latest-css3-specifications.-all-the-properties-are-grouped-into-categories-given-below)
 >
-> Animation-fill-mode property, [53](#_bookmark142)
+Animation-fill-mode property, [53](#_bookmark142)
 >
-> Animation-iteration-count property, [53](#_bookmark142)
+Animation-iteration-count property, [53](#_bookmark142)
 >
-> Animation-name property,
-> [52](#the-following-section-consists-of-the-complete-list-of-standard-css-properties-belonging-to-the-latest-css3-specifications.-all-the-properties-are-grouped-into-categories-given-below)
+Animation-name property,
+[52](#the-following-section-consists-of-the-complete-list-of-standard-css-properties-belonging-to-the-latest-css3-specifications.-all-the-properties-are-grouped-into-categories-given-below)
 >
-> Animation-play-state property, [53](#_bookmark142)
+Animation-play-state property, [53](#_bookmark142)
 >
-> Animation property,
-> [52](#the-following-section-consists-of-the-complete-list-of-standard-css-properties-belonging-to-the-latest-css3-specifications.-all-the-properties-are-grouped-into-categories-given-below)
+Animation property,
+[52](#the-following-section-consists-of-the-complete-list-of-standard-css-properties-belonging-to-the-latest-css3-specifications.-all-the-properties-are-grouped-into-categories-given-below)
 >
-> Animation-timing-function property,
-> [52](#the-following-section-consists-of-the-complete-list-of-standard-css-properties-belonging-to-the-latest-css3-specifications.-all-the-properties-are-grouped-into-categories-given-below)
+Animation-timing-function property,
+[52](#the-following-section-consists-of-the-complete-list-of-standard-css-properties-belonging-to-the-latest-css3-specifications.-all-the-properties-are-grouped-into-categories-given-below)
 >
-> attr() function, [258--262](#Cover) Attribute selectors (&#91;&#93;),
-> [186--187](#Cover)
+attr() function, [258--262](#Cover) Attribute selectors (&#91;&#93;),
+[186--187](#Cover)
 >
-> Attribute selectors ( &#91;attr="value"&#93; ), [187--188](#Cover)
+Attribute selectors ( &#91;attr="value"&#93; ), [187--188](#Cover)
 >
-> Attribute selectors ( &#91;attr="value"&#93; case- sensitive),
-> [189--190](#Cover)
+Attribute selectors ( &#91;attr="value"&#93; case- sensitive),
+[189--190](#Cover)
 >
-> Attribute selectors ( .classname ),
-> [183--184](#the-output-of-the-code-is-given-below-50)
+Attribute selectors ( .classname ),
+[183--184](#the-output-of-the-code-is-given-below-50)
 >
-> Attribute selectors ( &#91; foo&#36;="bar" &#93; ), [193--195](#Cover)
+Attribute selectors ( &#91; foo&#36;="bar" &#93; ), [193--195](#Cover)
 >
-> Attribute selectors ( &#91; foo&#42;="bar" &#93; ), [195--197](#Cover)
+Attribute selectors ( &#91; foo&#42;="bar" &#93; ), [195--197](#Cover)
 >
-> Attribute selectors ( &#91; foo&#94;="bar" &#93; ), [192--193](#Cover)
+Attribute selectors ( &#91; foo&#94;="bar" &#93; ), [192--193](#Cover)
 >
-> Attribute selectors ( &#91; foo&#124;="bar" &#93; ), [198--199](#Cover)
+Attribute selectors ( &#91; foo&#124;="bar" &#93; ), [198--199](#Cover)
 >
-> Attribute selectors ( &#91; foo&#126;="bar"&#93;), [190--191](#Cover)
+Attribute selectors ( &#91; foo&#126;="bar"&#93;), [190--191](#Cover)
 >
-> Attribute selectors ( id), [184--186](#_bookmark235) Autoprefixer,
-> [376](#_bookmark318)
+Attribute selectors ( id), [184--186](#_bookmark235) Autoprefixer,
+[376](#_bookmark318)
 >
-> installation in project folder, [378--381](#_bookmark323) and
-> -prefix-free, [382](#_bookmark327)
+installation in project folder, [378--381](#_bookmark323) and
+-prefix-free, [382](#_bookmark327)
 >
-> running of, [381--382](#_bookmark325)
+running of, [381--382](#_bookmark325)
 >
-> writing normal CSS, [377--378](#_bookmark321)
+writing normal CSS, [377--378](#_bookmark321)
 >
-> B
+B
 >
-> Background, [60](#css-background-properties)
+Background, [60](#css-background-properties)
 >
-> background-attachment property, [60](#css-background-properties)
+background-attachment property, [60](#css-background-properties)
 >
-> background-clip property, [60--62](#css-background-properties)
+background-clip property, [60--62](#css-background-properties)
 >
-> background-color property, [60](#css-background-properties)
+background-color property, [60](#css-background-properties)
 >
-> background-image property,
-> [62--63](#the-output-of-the-code-is-given-below-3)
+background-image property,
+[62--63](#the-output-of-the-code-is-given-below-3)
 >
-> background-origin property,
-> [64--66](#background-origin-property-the-background-origin-css-property-specifies-the-positioning-area-of-the-background-that-is-the-posi--tion-of-the-origin-of-an-image-specified-using-the-background-image-property.-the-syntax-of-this-property-is-given-as)
-> background-position property,
+background-origin property,
+[64--66](#background-origin-property-the-background-origin-css-property-specifies-the-positioning-area-of-the-background-that-is-the-posi--tion-of-the-origin-of-an-image-specified-using-the-background-image-property.-the-syntax-of-this-property-is-given-as)
+background-position property,
 >
-> [66--67](#_bookmark149)
+[66--67](#_bookmark149)
 >
-> background-repeat property,
-> [68--70](#background-repeat-property-the-background-repeat-css-property-specifies-whether-the-background-image-is-repeated-or-tiled-after-it-has-been-sized-and-positioned.-it-is-often-good-to-use-the-shorthand-background-property.)
+background-repeat property,
+[68--70](#background-repeat-property-the-background-repeat-css-property-specifies-whether-the-background-image-is-repeated-or-tiled-after-it-has-been-sized-and-positioned.-it-is-often-good-to-use-the-shorthand-background-property.)
 >
-> background-size property, [70--72](#_bookmark151)
+background-size property, [70--72](#_bookmark151)
 >
-> Background property, [31--32](#syntax-2)
+Background property, [31--32](#syntax-2)
 >
-> multiple backgrounds, [32](#example-7) Benefits of CSS,
-> [44--45](#_bookmark130) blur() function, [262--263](#Cover) Body
-> section of HTML, [7--8](#Body_Section) Border, [33--34](#css-border)
+multiple backgrounds, [32](#example-7) Benefits of CSS,
+[44--45](#_bookmark130) blur() function, [262--263](#Cover) Body
+section of HTML, [7--8](#Body_Section) Border, [33--34](#css-border)
 >
-> width and color, [34](#_bookmark104)
+width and color, [34](#_bookmark104)
 >
-> Border-collapse property, [144--146](#_bookmark203)
+Border-collapse property, [144--146](#_bookmark203)
 >
-> Border properties, [72](#_bookmark152)
+Border properties, [72](#_bookmark152)
 >
-> border-bottom property,
-> [76--78](#border-bottom-property-the-border-bottom-css-property-sets-the-width-style-and-color-of-the-bottom-border-of-an-element.-it-is-a-property-for-setting-the-individual-bottom-border-properties-that-is-border-bottom-width-border-bottom-style-and-border-bottom--color-at-once.-the-syntax-of-this-property-is-given-as)
-> border-bottom-color property,
+border-bottom property,
+[76--78](#border-bottom-property-the-border-bottom-css-property-sets-the-width-style-and-color-of-the-bottom-border-of-an-element.-it-is-a-property-for-setting-the-individual-bottom-border-properties-that-is-border-bottom-width-border-bottom-style-and-border-bottom--color-at-once.-the-syntax-of-this-property-is-given-as)
+border-bottom-color property,
 >
-> [78--80](#the-output-of-the-code-is-given-below-13)
+[78--80](#the-output-of-the-code-is-given-below-13)
 >
-> border-bottom-left-radius property, [80--82](#_bookmark157)
+border-bottom-left-radius property, [80--82](#_bookmark157)
 >
-> border-bottom-style property,
-> [82--85](#the-output-of-the-code-is-given-below-14)
+border-bottom-style property,
+[82--85](#the-output-of-the-code-is-given-below-14)
 
 border-image property, [85--86](#_bookmark159)
 
@@ -16852,69 +16271,69 @@ border-width property,
 Border-spacing property,
 [147--148](#border-spacing-property-the-border-spacing-css-property-sets-the-spacing-between-the-borders-of-adjacent-cells-using-the-border-model.-if-the-border-model-is-used-the-property-is-ignored.-here-see-the-border-collapse-property.)
 
-> Box model, [35--36](#_bookmark107)
+Box model, [35--36](#_bookmark107)
 >
-> brightness() function, [264--266](#brightness)
+brightness() function, [264--266](#brightness)
 >
-> Brunch, [397--398](#_bookmark361)
+Brunch, [397--398](#_bookmark361)
 >
-> Bubble option, [390](#_bookmark345)
+Bubble option, [390](#_bookmark345)
 
 **421**
 
-> C
+C
 >
-> calc() function, [258](#Cover), [266--268](#_bookmark239)
+calc() function, [258](#Cover), [266--268](#_bookmark239)
 >
-> camelCase naming,
-> [400](#when-importing-the-css-module-from-a-js-module-it-exports-an-object-with-all-mappings-from-local-names-to-global-names.)
+camelCase naming,
+[400](#when-importing-the-css-module-from-a-js-module-it-exports-an-object-with-all-mappings-from-local-names-to-global-names.)
 >
-> Caption-side property,
-> [149--151](#caption-side-property-the-caption-side-css-property-sets-the-verti--cal-position-of-the-table-caption-box.-to-align-caption-text-horizon--tally-within-the-caption-box-use-the-text-align-property.)
-> Cascading Style Sheets, [412--413](#_bookmark373) circle() function,
-> [258](#Cover), [268--274](#_bookmark241)
+Caption-side property,
+[149--151](#caption-side-property-the-caption-side-css-property-sets-the-verti--cal-position-of-the-table-caption-box.-to-align-caption-text-horizon--tally-within-the-caption-box-use-the-text-align-property.)
+Cascading Style Sheets, [412--413](#_bookmark373) circle() function,
+[258](#Cover), [268--274](#_bookmark241)
 >
-> Class, [19--20](#_bookmark75)
+Class, [19--20](#_bookmark75)
 
 ID and, [20--21](#_bookmark77)
 
 Color properties, [87](#the-output-of-the-code-is-given-below-16)
 
-> CSS HEX colors, [91--94](#_bookmark166) RGB colors,
-> [88--89](#_bookmark162)
+CSS HEX colors, [91--94](#_bookmark166) RGB colors,
+[88--89](#_bookmark162)
 >
-> RGBA colors, [89--91](#_bookmark164)
+RGBA colors, [89--91](#_bookmark164)
 >
-> Colors, [22](#_bookmark83)
+Colors, [22](#_bookmark83)
 >
-> list of color values, [23--24](#_bookmark86) names,
-> [22--23](#_bookmark83)
+list of color values, [23--24](#_bookmark86) names,
+[22--23](#_bookmark83)
 >
-> picking, [299--301](#How_to_Pick_a_Color)
+picking, [299--301](#How_to_Pick_a_Color)
 >
-> Column-count property,
-> [120--123](#the-output-of-the-code-is-given-below-30)
+Column-count property,
+[120--123](#the-output-of-the-code-is-given-below-30)
 >
-> Column-fill property,
-> [123--126](#the-output-of-the-code-is-given-below-31)
+Column-fill property,
+[123--126](#the-output-of-the-code-is-given-below-31)
 >
-> Column-gap property, [126--128](#the-output-of-the-code-given-below-2)
+Column-gap property, [126--128](#the-output-of-the-code-given-below-2)
 >
-> Column-rule-color property, [131--134](#_bookmark195)
+Column-rule-color property, [131--134](#_bookmark195)
 >
-> Column-rule property, [128--131](#_bookmark194)
+Column-rule property, [128--131](#_bookmark194)
 >
-> Column-rule-style property, [131](#_bookmark195)
+Column-rule-style property, [131](#_bookmark195)
 >
-> Column-rule-width property, [131](#_bookmark195) Combinators selectors
-> (E + F), [250--252](#Cover) Combinators selectors (E &gt; F),
-> [248--250](#Cover) Combinators selectors (E F), [246--248](#Cover)
-> Comment tags, [13](#_bookmark69)
+Column-rule-width property, [131](#_bookmark195) Combinators selectors
+(E + F), [250--252](#Cover) Combinators selectors (E &gt; F),
+[248--250](#Cover) Combinators selectors (E F), [246--248](#Cover)
+Comment tags, [13](#_bookmark69)
 >
-> Cons of CSS, [45--46](#_bookmark132)
+Cons of CSS, [45--46](#_bookmark132)
 >
-> Content properties, CSS generated, [99--100](#_bookmark173)
-> counter-reset property, [102--103](#_bookmark176)
+Content properties, CSS generated, [99--100](#_bookmark173)
+counter-reset property, [102--103](#_bookmark176)
 
 quotes property,
 [101--102](#quotes-property-the-quotes-css-property-specifies-the-quotation-marks-for-the-embedded-quotations.-the-quotes-characters-specified-for-this-property-are-used-for-the-open-quote-and-close-quote-values-of-the-content-property.)
@@ -16924,432 +16343,412 @@ contrast() function, [275--277](#contrast)
 counter() function,
 [277--279](#the-output-of-the-code-is-given-below-55)
 
-> Counter-reset property, [102--103](#_bookmark176)
+Counter-reset property, [102--103](#_bookmark176)
 >
-> counters() function, [279--282](#_bookmark248)
+counters() function, [279--282](#_bookmark248)
 >
-> CSS2, [4--5](#_bookmark48)
+CSS2, [4--5](#_bookmark48)
 >
-> CSS3, [4--5](#_bookmark48)
+CSS3, [4--5](#_bookmark48)
 >
-> cssnano, [384](#cssnano)
+cssnano, [384](#cssnano)
 >
-> cssnext, installing, [384](#cssnano)
+cssnext, installing, [384](#cssnano)
 >
-> installing, [384](#cssnano)
+installing, [384](#cssnano)
 >
-> npm script, [385](#_bookmark334)
+npm script, [385](#_bookmark334)
 >
-> postcss, installing, [384](#cssnano)
+postcss, installing, [384](#cssnano)
 >
-> postcss-CLI, installing, [384](#cssnano)
+postcss-CLI, installing, [384](#cssnano)
 >
-> postcss-CLI, using, [384--385](#cssnano)
+postcss-CLI, using, [384--385](#cssnano)
 
 cssnext, [382--384](#_bookmark327)
 
 installing, [384](#cssnano)
 
-> cubic-bezier() function, [283--284](#cubic-bezier)
+cubic-bezier() function, [283--284](#cubic-bezier)
 >
-> D
+D
 
 Dimension properties, [94](#_bookmark169)
 
 height property, [94--96](#_bookmark169)
 
-> max-height and max-height property,
-> [96--98](#the-output-of-the-code-is-given-below-21)
+max-height and max-height property,
+[96--98](#the-output-of-the-code-is-given-below-21)
 >
-> min-height property,
-> [98--99](#the-output-of-the-code-is-given-below-22)
+min-height property,
+[98--99](#the-output-of-the-code-is-given-below-22)
 >
-> Division, CSS, [21](#sample-4)
+Division, CSS, [21](#sample-4)
 >
-> drop-shadow() function, [284--287](#_bookmark252)
+drop-shadow() function, [284--287](#_bookmark252)
 >
-> E
+E
 >
-> ellipse() function,
-> [287--293](#the-output-of-the-code-is-given-below-59)
+ellipse() function,
+[287--293](#the-output-of-the-code-is-given-below-59)
 >
-> Empty-cells property,
-> [151--153](#the-output-of-the-code-is-given-below-38) External style
-> sheet, [14--16](#different-types-of-css-you-can-use)
+Empty-cells property,
+[151--153](#the-output-of-the-code-is-given-below-38) External style
+sheet, [14--16](#different-types-of-css-you-can-use)
 >
-> F
+F
 >
-> Features option, [387](#you-can-add-postcss-to-your-build-tool)
+Features option, [387](#you-can-add-postcss-to-your-build-tool)
 >
-> filter() function, [293--295](#_bookmark256)
+filter() function, [293--295](#_bookmark256)
 >
-> Flexbox, [40](#why-flexbox)
+Flexbox, [40](#why-flexbox)
 >
-> Flexible box layout, [103--105](#_bookmark177) Font Magician,
-> [394--395](#_bookmark356)
+Flexible box layout, [103--105](#_bookmark177) Font Magician,
+[394--395](#_bookmark356)
 >
-> Font properties, [36](#_bookmark110), [106](#css-font-properties)
+Font properties, [36](#_bookmark110), [106](#css-font-properties)
 >
-> font-size-adjust property, [109](#_bookmark182)
+font-size-adjust property, [109](#_bookmark182)
 >
-> font-size property, [107--109](#_bookmark181)
+font-size property, [107--109](#_bookmark181)
 >
-> Functions, [37--39](#css-text), [257](#Cover)
+Functions, [37--39](#css-text), [257](#Cover)
 >
-> attr() function, [258--262](#Cover)
+attr() function, [258--262](#Cover)
 >
-> blur() function, [262--263](#Cover)
+blur() function, [262--263](#Cover)
 >
-> brightness() function, [264--266](#brightness)
+brightness() function, [264--266](#brightness)
 >
-> calc() function, [266--268](#_bookmark239)
+calc() function, [266--268](#_bookmark239)
 >
-> circle() function, [268--274](#_bookmark241)
+circle() function, [268--274](#_bookmark241)
 >
-> contrast() function, [275--277](#contrast)
+contrast() function, [275--277](#contrast)
 >
-> counter() function,
-> [277--279](#the-output-of-the-code-is-given-below-55)
+counter() function,
+[277--279](#the-output-of-the-code-is-given-below-55)
 >
-> counters() function, [279--282](#_bookmark248)
+counters() function, [279--282](#_bookmark248)
 >
-> cubic-bezier() function, [283--284](#cubic-bezier)
+cubic-bezier() function, [283--284](#cubic-bezier)
 >
-> drop-shadow() function, [284--287](#_bookmark252)
+drop-shadow() function, [284--287](#_bookmark252)
 >
-> ellipse() function,
-> [287--293](#the-output-of-the-code-is-given-below-59)
+ellipse() function,
+[287--293](#the-output-of-the-code-is-given-below-59)
 >
-> filter() function, [293--295](#_bookmark256)
+filter() function, [293--295](#_bookmark256)
 >
-> grayscale() function, [295--298](#_bookmark258)
+grayscale() function, [295--298](#_bookmark258)
 >
-> hsl() function, [298--301](#the-output-of-the-code-is-given-below-62)
+hsl() function, [298--301](#the-output-of-the-code-is-given-below-62)
 >
-> hsla() function, [301--304](#_bookmark264)
+hsla() function, [301--304](#_bookmark264)
 >
-> hue-rotate() function, [305--307](#hue-rotate)
+hue-rotate() function, [305--307](#hue-rotate)
 >
-> inset() function,
-> [307--309](#the-output-of-the-code-is-given-below-65)
-> linear-gradient() function,
+inset() function,
+[307--309](#the-output-of-the-code-is-given-below-65)
+linear-gradient() function,
+[310--313](#linear-gradient)
+matrix() function, [313--315](#the-output-of-the-ode-is-given-below)
+matrix3d() function, [316--318](#matrix3d)
+opacity() function,
+[318--320](#the-output-of-the-code-is-given-below-68)
+perspective() function, [321--323](#perspective)
+radial-gradient() function,
+[323--326](#_bookmark282) repeating-linear-gradient() function,
+[326--330](#_bookmark284)
+repeating-radial-gradient() function,
+[330--335](#the-output-of-the-code-is-given-below-72)
+rgb() function, [335--339](#the-output-of-the-code-is-given-below-73)
+rotate() function, [339--343](#_bookmark290)
+rotate3d() function,
+[343--346](#the-output-of-the-code-is-given-below-75)
+rotatex() function, [346--347](#_bookmark294)
+rotatey() function, [347](#_bookmark296)
+rotatez() function, [347--351](#_bookmark296)
+saturate() function, [352--354](#saturate)
+scale() function,
+[354--356](#the-output-of-the-code-is-given-below-78)
+scale3d() function, [357--358](#scale3d)
+scaleX() function, [359--361](#scalex)
+scaleY() function, [361--364](#_bookmark307)
+scaleZ() function,
+[364--367](#the-output-of-the-code-is-given-below-82)
 >
-> [310--313](#linear-gradient)
+skew() function, [367--370](#the-output-of-the-code-is-given-below-83)
 >
-> matrix() function, [313--315](#the-output-of-the-ode-is-given-below)
+skewX() function, [371--373](#skewx)
 >
-> matrix3d() function, [316--318](#matrix3d)
+G
 >
-> opacity() function,
-> [318--320](#the-output-of-the-code-is-given-below-68)
+General sibling selector (&#126;), [252--254](#Cover) Gradient, seting the
+angle of, [310--313](#linear-gradient) grayscale() function,
+[295--298](#_bookmark258)
 >
-> perspective() function, [321--323](#perspective)
+Grid-structural selectors (:nth-col()), [254--256](#Cover)
 >
-> []{#_bookmark377 .anchor}radial-gradient() function,
-> [323--326](#_bookmark282) repeating-linear-gradient() function,
+Grunt, [393--394](#_bookmark354), [396--397](#_bookmark360)
 >
-> [326--330](#_bookmark284)
+Gulp, [392--393](#_bookmark351), [395--396](#_bookmark358)
 >
-> repeating-radial-gradient() function,
-> [330--335](#the-output-of-the-code-is-given-below-72)
+H
 >
-> rgb() function, [335--339](#the-output-of-the-code-is-given-below-73)
+Head section of HTML, [6](#_bookmark54) Height property,
+[94--96](#_bookmark169)
 >
-> rotate() function, [339--343](#_bookmark290)
+Hexadecimal numbers, [92](#_bookmark168)
 >
-> rotate3d() function,
-> [343--346](#the-output-of-the-code-is-given-below-75)
+HEX colors, [91--94](#_bookmark166) History of CSS,
+[2--3](#_bookmark43) hsl() function,
+[298--301](#the-output-of-the-code-is-given-below-62)
 >
-> rotatex() function, [346--347](#_bookmark294)
+hsla() function, [301--304](#_bookmark264)
 >
-> rotatey() function, [347](#_bookmark296)
+HSL model, *see* [Hue Saturation Lightness](#_bookmark377)
+[model](#_bookmark377)
 >
-> rotatez() function, [347--351](#_bookmark296)
+HTML, [6](#_bookmark54), [9](#starting-with-a-specific-html),
+[412](#_bookmark373)
 >
-> saturate() function, [352--354](#saturate)
+body section, [7--8](#Body_Section)
 >
-> scale() function,
-> [354--356](#the-output-of-the-code-is-given-below-78)
+head section, [6](#_bookmark54)
 >
-> scale3d() function, [357--358](#scale3d)
+how CSS and HTML work together, [10--11](#_bookmark62)
 >
-> scaleX() function, [359--361](#scalex)
+linking HTML and CSS files, [9--10](#starting-with-a-specific-html)
+RGB colors in, [25--27](#_bookmark90)
 >
-> scaleY() function, [361--364](#_bookmark307)
+hue-rotate() function, [305--307](#hue-rotate)
 >
-> scaleZ() function,
-> [364--367](#the-output-of-the-code-is-given-below-82)
+Hue Saturation Lightness (HSL) model,
+[298](#the-output-of-the-code-is-given-below-62), [305](#hue-rotate)
 >
-> skew() function, [367--370](#the-output-of-the-code-is-given-below-83)
+I
 >
-> skewX() function, [371--373](#skewx)
+IDs, [20](#_bookmark77)
 >
-> G
+and class, difference between, [20--21](#_bookmark77)
 >
-> General sibling selector (&#126;), [252--254](#Cover) Gradient, seting the
-> angle of, [310--313](#linear-gradient) grayscale() function,
-> [295--298](#_bookmark258)
+:indeterminate selector, [223--225](#Cover)
 >
-> Grid-structural selectors (:nth-col()), [254--256](#Cover)
+Inherit, [54](#_bookmark143)
 >
-> Grunt, [393--394](#_bookmark354), [396--397](#_bookmark360)
+Inheritance CSS, [12--13](#_bookmark67)
 >
-> Gulp, [392--393](#_bookmark351), [395--396](#_bookmark358)
+Initial, [54](#_bookmark143)
 >
-> H
+Inline styles, [14](#different-types-of-css-you-can-use),
+[17--18](#_bookmark74)
 >
-> Head section of HTML, [6](#_bookmark54) Height property,
-> [94--96](#_bookmark169)
+:in-range, [227--228](#Cover)
 >
-> Hexadecimal numbers, [92](#_bookmark168)
+insertAfter key, [388](#_bookmark342)
 >
-> HEX colors, [91--94](#_bookmark166) History of CSS,
-> [2--3](#_bookmark43) hsl() function,
-> [298--301](#the-output-of-the-code-is-given-below-62)
+insertBefore key, [388](#_bookmark342)
 >
-> hsla() function, [301--304](#_bookmark264)
+inset() function,
+[307--309](#the-output-of-the-code-is-given-below-65)
 >
-> HSL model, *see* [Hue Saturation Lightness](#_bookmark377)
-> [model](#_bookmark377)
+Internal styles, [14](#different-types-of-css-you-can-use) Internal
+style sheet, [16--17](#_bookmark73)
 >
-> HTML, [6](#_bookmark54), [9](#starting-with-a-specific-html),
-> [412](#_bookmark373)
+:invalid pseudo-class, [225--226](#Cover)
 >
-> body section, [7--8](#Body_Section)
+K
 >
-> head section, [6](#_bookmark54)
+&#64;keyframes rule, [54--59](#_bookmark143)
 >
-> how CSS and HTML work together, [10--11](#_bookmark62)
+L
 >
-> linking HTML and CSS files, [9--10](#starting-with-a-specific-html)
-> RGB colors in, [25--27](#_bookmark90)
+Learning CSS, [413](#_bookmark374)
 >
-> hue-rotate() function, [305--307](#hue-rotate)
+linear-gradient() function, [310--313](#linear-gradient)
 >
-> Hue Saturation Lightness (HSL) model,
-> [298](#the-output-of-the-code-is-given-below-62), [305](#hue-rotate)
+List properties, [110](#css-list-properties)
 >
-> I
+list-style property, [110--111](#css-list-properties)
 >
-> IDs, [20](#_bookmark77)
+list-style-image property,
+[113--114](#here-you-will-get-various-values-of-list-style-type-property.)
 >
-> and class, difference between, [20--21](#_bookmark77)
+list-style-position property, [114--115](#_bookmark187)
 >
-> :indeterminate selector, [223--225](#Cover)
+list-style-type property, [111--113](#_bookmark185) Logical
+combinations selectors ( :not ),
 >
-> Inherit, [54](#_bookmark143)
+[181--183](#_bookmark229)
 >
-> Inheritance CSS, [12--13](#_bookmark67)
+Lost Grid, [395](#_bookmark358)
 >
-> Initial, [54](#_bookmark143)
+Brunch, [397--398](#_bookmark361)
 >
-> Inline styles, [14](#different-types-of-css-you-can-use),
-> [17--18](#_bookmark74)
+Grunt, [396--397](#_bookmark360)
 >
-> :in-range, [227--228](#Cover)
+gulp, [395--396](#_bookmark358)
 >
-> insertAfter key, [388](#_bookmark342)
+M
 >
-> insertBefore key, [388](#_bookmark342)
+Margin properties, [116--120](#css-margin-properties)
 >
-> inset() function,
-> [307--309](#the-output-of-the-code-is-given-below-65)
+Margins, [34--35](#_bookmark104)
 >
-> Internal styles, [14](#different-types-of-css-you-can-use) Internal
-> style sheet, [16--17](#_bookmark73)
+MarqueeMenu plugin,
+[400--410](#when-importing-the-css-module-from-a-js-module-it-exports-an-object-with-all-mappings-from-local-names-to-global-names.)
 >
-> :invalid pseudo-class, [225--226](#Cover)
+matrix() function, [313--315](#the-output-of-the-ode-is-given-below)
 >
-> K
+matrix3d() function, [316--318](#matrix3d)
 >
-> &#64;keyframes rule, [54--59](#_bookmark143)
+Max-height and max-height property,
+[96--98](#the-output-of-the-code-is-given-below-21)
 >
-> L
+Media queries, [43--44](#_bookmark127)
 >
-> Learning CSS, [413](#_bookmark374)
+Media types, [41](#css-media-types)
 >
-> linear-gradient() function, [310--313](#linear-gradient)
+different, [42--43](#_bookmark123)
 >
-> List properties, [110](#css-list-properties)
+using &#64;import at-rules, [42](#_bookmark123) using &lt;link&gt; element,
+[42](#_bookmark123) using &#64;media at-rules, [41--42](#css-media-types)
 >
-> list-style property, [110--111](#css-list-properties)
+Min-height property,
+[98--99](#the-output-of-the-code-is-given-below-22)
 >
-> list-style-image property,
-> [113--114](#here-you-will-get-various-values-of-list-style-type-property.)
+Modules, CSS, [5--6](#_bookmark51), [399--400](#_bookmark365)
 >
-> list-style-position property, [114--115](#_bookmark187)
+Multi-column layout properties,
+[120](#the-output-of-the-code-is-given-below-30) column-count
+property, [120--123](#the-output-of-the-code-is-given-below-30)
 >
-> list-style-type property, [111--113](#_bookmark185) Logical
-> combinations selectors ( :not ),
+column-fill property,
+[123--126](#the-output-of-the-code-is-given-below-31)
 >
-> [181--183](#_bookmark229)
+column-gap property, [126--128](#the-output-of-the-code-given-below-2)
 >
-> Lost Grid, [395](#_bookmark358)
+column-rule property, [128--131](#_bookmark194)
 >
-> Brunch, [397--398](#_bookmark361)
+column-rule-color property, [131--134](#_bookmark195)
 >
-> Grunt, [396--397](#_bookmark360)
+column-rule-style property, [131](#_bookmark195)
 >
-> gulp, [395--396](#_bookmark358)
+column-rule-width property, [131](#_bookmark195)
 >
-> M
+Multiple backgrounds, [32](#example-7)
 >
-> Margin properties, [116--120](#css-margin-properties)
+N
 >
-> Margins, [34--35](#_bookmark104)
+Naming (localsConvention),
+[400](#when-importing-the-css-module-from-a-js-module-it-exports-an-object-with-all-mappings-from-local-names-to-global-names.)
+Need for CSS, [3--4](#_bookmark45)
 >
-> MarqueeMenu plugin,
-> [400--410](#when-importing-the-css-module-from-a-js-module-it-exports-an-object-with-all-mappings-from-local-names-to-global-names.)
+npm script, [385](#_bookmark334)
 >
-> matrix() function, [313--315](#the-output-of-the-ode-is-given-below)
+nth-of-type(n) selector, [243--244](#Cover)
 >
-> matrix3d() function, [316--318](#matrix3d)
+O
 >
-> Max-height and max-height property,
-> [96--98](#the-output-of-the-code-is-given-below-21)
+opacity() function,
+[318--320](#the-output-of-the-code-is-given-below-68)
 >
-> Media queries, [43--44](#_bookmark127)
+Outline properties, [134--136](#_bookmark196)
 >
-> Media types, [41](#css-media-types)
+outline-style property,
+[136--138](#the-output-of-the-code-is-given-below-34)
 >
-> different, [42--43](#_bookmark123)
+outline-width property,
+[136](#the-output-of-the-code-is-given-below-34)
 >
-> using &#64;import at-rules, [42](#_bookmark123) using &lt;link&gt; element,
-> [42](#_bookmark123) using &#64;media at-rules, [41--42](#css-media-types)
+:out-of-range selector, [227--228](#Cover)
 >
-> Min-height property,
-> [98--99](#the-output-of-the-code-is-given-below-22)
+P
 >
-> Modules, CSS, [5--6](#_bookmark51), [399--400](#_bookmark365)
+Padding, [35](#_bookmark107)
 >
-> Multi-column layout properties,
-> [120](#the-output-of-the-code-is-given-below-30) column-count
-> property, [120--123](#the-output-of-the-code-is-given-below-30)
+Padding CSS property, [139--142](#css-padding-1) Page-break-after
+property, [142--144](#_bookmark201)
 >
-> column-fill property,
-> [123--126](#the-output-of-the-code-is-given-below-31)
+perspective() function, [321--323](#perspective)
 >
-> column-gap property, [126--128](#the-output-of-the-code-given-below-2)
+Plugins, [375](#CHAPTER_5:_CSS_Plugins)
 >
-> column-rule property, [128--131](#_bookmark194)
+Autoprefixer, [376](#_bookmark318)
 >
-> column-rule-color property, [131--134](#_bookmark195)
+installation in project folder, [378--381](#_bookmark323)
 >
-> column-rule-style property, [131](#_bookmark195)
+and -prefix-free, [382](#_bookmark327)
 >
-> column-rule-width property, [131](#_bookmark195)
+running of, [381--382](#_bookmark325)
 >
-> Multiple backgrounds, [32](#example-7)
+writing normal CSS, [377--378](#_bookmark321) cssnano, [384](#cssnano)
 >
-> N
+cssnext, installing, [384](#cssnano)
 >
-> Naming (localsConvention),
-> [400](#when-importing-the-css-module-from-a-js-module-it-exports-an-object-with-all-mappings-from-local-names-to-global-names.)
-> Need for CSS, [3--4](#_bookmark45)
+installing, [384](#cssnano)
 >
-> npm script, [385](#_bookmark334)
+npm script, [385](#_bookmark334)
 >
-> nth-of-type(n) selector, [243--244](#Cover)
+postcss, installing, [384](#cssnano)
 >
-> O
+postcss-CLI, installing, [384](#cssnano)
 >
-> opacity() function,
-> [318--320](#the-output-of-the-code-is-given-below-68)
+postcss-CLI, using, [384--385](#cssnano)
 >
-> Outline properties, [134--136](#_bookmark196)
+cssnext, [382--384](#_bookmark327)
 >
-> outline-style property,
-> [136--138](#the-output-of-the-code-is-given-below-34)
+features,
+[400](#when-importing-the-css-module-from-a-js-module-it-exports-an-object-with-all-mappings-from-local-names-to-global-names.)
 >
-> outline-width property,
-> [136](#the-output-of-the-code-is-given-below-34)
+Font Magician, [394--395](#_bookmark356)
 >
-> :out-of-range selector, [227--228](#Cover)
+Lost Grid, [395](#_bookmark358)
 >
-> P
+Brunch, [397--398](#_bookmark361)
 >
-> Padding, [35](#_bookmark107)
+Grunt, [396--397](#_bookmark360)
 >
-> Padding CSS property, [139--142](#css-padding-1) Page-break-after
-> property, [142--144](#_bookmark201)
+gulp, [395--396](#_bookmark358)
 >
-> perspective() function, [321--323](#perspective)
+MarqueeMenu plugin,
+[400--410](#when-importing-the-css-module-from-a-js-module-it-exports-an-object-with-all-mappings-from-local-names-to-global-names.)
 >
-> Plugins, [375](#CHAPTER_5:_CSS_Plugins)
+naming (localsConvention),
+[400](#when-importing-the-css-module-from-a-js-module-it-exports-an-object-with-all-mappings-from-local-names-to-global-names.)
 >
-> Autoprefixer, [376](#_bookmark318)
->
-> installation in project folder, [378--381](#_bookmark323)
->
-> and -prefix-free, [382](#_bookmark327)
->
-> running of, [381--382](#_bookmark325)
->
-> writing normal CSS, [377--378](#_bookmark321) cssnano, [384](#cssnano)
->
-> cssnext, installing, [384](#cssnano)
->
-> installing, [384](#cssnano)
->
-> npm script, [385](#_bookmark334)
->
-> postcss, installing, [384](#cssnano)
->
-> postcss-CLI, installing, [384](#cssnano)
->
-> postcss-CLI, using, [384--385](#cssnano)
->
-> cssnext, [382--384](#_bookmark327)
->
-> features,
-> [400](#when-importing-the-css-module-from-a-js-module-it-exports-an-object-with-all-mappings-from-local-names-to-global-names.)
->
-> Font Magician, [394--395](#_bookmark356)
->
-> Lost Grid, [395](#_bookmark358)
->
-> Brunch, [397--398](#_bookmark361)
->
-> Grunt, [396--397](#_bookmark360)
->
-> gulp, [395--396](#_bookmark358)
->
-> MarqueeMenu plugin,
-> [400--410](#when-importing-the-css-module-from-a-js-module-it-exports-an-object-with-all-mappings-from-local-names-to-global-names.)
->
-> naming (localsConvention),
-> [400](#when-importing-the-css-module-from-a-js-module-it-exports-an-object-with-all-mappings-from-local-names-to-global-names.)
->
-> PostCSS, [398](#_bookmark362)
+PostCSS, [398](#_bookmark362)
 
 features, [398--399](#_bookmark362)
 
 PostCSS assets, [392](#_bookmark351)
 
-> Grunt, [393--394](#_bookmark354)
+Grunt, [393--394](#_bookmark354)
 >
-> gulp (gulp-postcss), [392--393](#_bookmark351) PostCSS-modules ( CSS
-> modules ),
+gulp (gulp-postcss), [392--393](#_bookmark351) PostCSS-modules ( CSS
+modules ),
 >
-> [399--400](#_bookmark365)
+[399--400](#_bookmark365)
 >
-> PreCSS, [385](#_bookmark334)
+PreCSS, [385](#_bookmark334)
 >
-> install plugin, [389--390](#the-result-will-be-as-given-below)
+install plugin, [389--390](#the-result-will-be-as-given-below)
 >
-> preserveEmpty, [391](#preserveempty)
+preserveEmpty, [391](#preserveempty)
 >
-> usage, [386](#_bookmark337)
+usage, [386](#_bookmark337)
 >
-> various options, [386--389](#_bookmark337)
+various options, [386--389](#_bookmark337)
 >
-> stylelint, [391](#preserveempty)
+stylelint, [391](#preserveempty)
 >
-> installing, [391](#preserveempty)
+installing, [391](#preserveempty)
 >
-> usage, [391--392](#preserveempty)
+usage, [391--392](#preserveempty)
 >
-> PostCSS, [398](#_bookmark362)
+PostCSS, [398](#_bookmark362)
 
 features, [398--399](#_bookmark362)
 
@@ -17359,319 +16758,319 @@ PostCSS assets, [392](#_bookmark351)
 
 Grunt, [393--394](#_bookmark354)
 
-> gulp (gulp-postcss), [392--393](#_bookmark351) Postcss-CLI
+gulp (gulp-postcss), [392--393](#_bookmark351) Postcss-CLI
 >
-> installing, [384](#cssnano)
+installing, [384](#cssnano)
 >
-> using, [384--385](#cssnano)
+using, [384--385](#cssnano)
 >
-> PostCSS-modules ( CSS modules ), [399--400](#_bookmark365) PreCSS,
-> [385](#_bookmark334)
+PostCSS-modules ( CSS modules ), [399--400](#_bookmark365) PreCSS,
+[385](#_bookmark334)
 >
-> install plugin, [389--390](#the-result-will-be-as-given-below)
+install plugin, [389--390](#the-result-will-be-as-given-below)
 >
-> preserveEmpty, [391](#preserveempty)
+preserveEmpty, [391](#preserveempty)
 >
-> usage, [386](#_bookmark337)
+usage, [386](#_bookmark337)
 >
-> various options, [386--389](#_bookmark337)
+various options, [386--389](#_bookmark337)
 >
-> -Prefix-free, Autoprefixer and,
+-Prefix-free, Autoprefixer and,
 >
-> [382](#_bookmark327)
+[382](#_bookmark327)
 >
-> preserveEmpty, [391](#preserveempty)
+preserveEmpty, [391](#preserveempty)
 >
-> Print properties, [142](#_bookmark201)
+Print properties, [142](#_bookmark201)
 >
-> page-break-after property, [142--144](#_bookmark201)
+page-break-after property, [142--144](#_bookmark201)
 >
-> Properties of CSS, [21--22](#sample-4),
-> [47](#CHAPTER_2:_CSS_Properties), [413--415](#_bookmark374)
+Properties of CSS, [21--22](#sample-4),
+[47](#CHAPTER_2:_CSS_Properties), [413--415](#_bookmark374)
 >
-> background, [60](#css-background-properties)
+background, [60](#css-background-properties)
 >
-> background-attachment property, [60](#css-background-properties)
+background-attachment property, [60](#css-background-properties)
 >
-> background-clip property, [60--62](#css-background-properties)
+background-clip property, [60--62](#css-background-properties)
 >
-> background-color property, [60](#css-background-properties)
-> background-image property,
+background-color property, [60](#css-background-properties)
+background-image property,
 >
-> [62--63](#the-output-of-the-code-is-given-below-3)
+[62--63](#the-output-of-the-code-is-given-below-3)
 >
-> background-origin property,
-> [64--66](#background-origin-property-the-background-origin-css-property-specifies-the-positioning-area-of-the-background-that-is-the-posi--tion-of-the-origin-of-an-image-specified-using-the-background-image-property.-the-syntax-of-this-property-is-given-as)
+background-origin property,
+[64--66](#background-origin-property-the-background-origin-css-property-specifies-the-positioning-area-of-the-background-that-is-the-posi--tion-of-the-origin-of-an-image-specified-using-the-background-image-property.-the-syntax-of-this-property-is-given-as)
 >
-> background-position property, [66--67](#_bookmark149)
+background-position property, [66--67](#_bookmark149)
 >
-> background-repeat property,
-> [68--70](#background-repeat-property-the-background-repeat-css-property-specifies-whether-the-background-image-is-repeated-or-tiled-after-it-has-been-sized-and-positioned.-it-is-often-good-to-use-the-shorthand-background-property.)
+background-repeat property,
+[68--70](#background-repeat-property-the-background-repeat-css-property-specifies-whether-the-background-image-is-repeated-or-tiled-after-it-has-been-sized-and-positioned.-it-is-often-good-to-use-the-shorthand-background-property.)
 >
-> background-size property, [70--72](#_bookmark151)
+background-size property, [70--72](#_bookmark151)
 >
-> border properties, [72](#_bookmark152)
+border properties, [72](#_bookmark152)
 >
-> border-bottom property,
-> [76--78](#border-bottom-property-the-border-bottom-css-property-sets-the-width-style-and-color-of-the-bottom-border-of-an-element.-it-is-a-property-for-setting-the-individual-bottom-border-properties-that-is-border-bottom-width-border-bottom-style-and-border-bottom--color-at-once.-the-syntax-of-this-property-is-given-as)
-> border-bottom-color property,
+border-bottom property,
+[76--78](#border-bottom-property-the-border-bottom-css-property-sets-the-width-style-and-color-of-the-bottom-border-of-an-element.-it-is-a-property-for-setting-the-individual-bottom-border-properties-that-is-border-bottom-width-border-bottom-style-and-border-bottom--color-at-once.-the-syntax-of-this-property-is-given-as)
+border-bottom-color property,
 >
-> [78--80](#the-output-of-the-code-is-given-below-13)
+[78--80](#the-output-of-the-code-is-given-below-13)
 >
-> border-bottom-left-radius property, [80--82](#_bookmark157)
+border-bottom-left-radius property, [80--82](#_bookmark157)
 >
-> border-bottom-style property,
-> [82--85](#the-output-of-the-code-is-given-below-14)
+border-bottom-style property,
+[82--85](#the-output-of-the-code-is-given-below-14)
 >
-> border-image property, [85--86](#_bookmark159)
+border-image property, [85--86](#_bookmark159)
 >
-> border-width property,
-> [74--75](#border-width-property-the-border-width-css-property-is-a-short--hand-property-for-setting-a-singleborder-width-property-that-is-border-top-width-border-right-width-border-bottom-width-and-border-left-width-in-a-single-declaration.-the-syntax-of-this-property-is-given-as)
+border-width property,
+[74--75](#border-width-property-the-border-width-css-property-is-a-short--hand-property-for-setting-a-singleborder-width-property-that-is-border-top-width-border-right-width-border-bottom-width-and-border-left-width-in-a-single-declaration.-the-syntax-of-this-property-is-given-as)
 >
-> color properties, [87](#the-output-of-the-code-is-given-below-16)
+color properties, [87](#the-output-of-the-code-is-given-below-16)
 >
-> CSS HEX colors, [91--94](#_bookmark166) RGB colors,
-> [88--89](#_bookmark162)
+CSS HEX colors, [91--94](#_bookmark166) RGB colors,
+[88--89](#_bookmark162)
 >
-> RGBA colors, [89--91](#_bookmark164)
+RGBA colors, [89--91](#_bookmark164)
 >
-> content properties, CSS generated, [99--100](#_bookmark173)
+content properties, CSS generated, [99--100](#_bookmark173)
 >
-> counter-reset property, [102--103](#_bookmark176)
+counter-reset property, [102--103](#_bookmark176)
 >
-> quotes property,
-> [101--102](#quotes-property-the-quotes-css-property-specifies-the-quotation-marks-for-the-embedded-quotations.-the-quotes-characters-specified-for-this-property-are-used-for-the-open-quote-and-close-quote-values-of-the-content-property.)
+quotes property,
+[101--102](#quotes-property-the-quotes-css-property-specifies-the-quotation-marks-for-the-embedded-quotations.-the-quotes-characters-specified-for-this-property-are-used-for-the-open-quote-and-close-quote-values-of-the-content-property.)
 
 dimension properties, [94](#_bookmark169)
 
 height property, [94--96](#_bookmark169)
 
-> max-height and max-height property,
-> [96--98](#the-output-of-the-code-is-given-below-21)
+max-height and max-height property,
+[96--98](#the-output-of-the-code-is-given-below-21)
 >
-> min-height property,
-> [98--99](#the-output-of-the-code-is-given-below-22) flexible box
-> layout, [103--105](#_bookmark177) font properties,
-> [106](#css-font-properties)
+min-height property,
+[98--99](#the-output-of-the-code-is-given-below-22) flexible box
+layout, [103--105](#_bookmark177) font properties,
+[106](#css-font-properties)
 >
-> font-size property, [107--109](#_bookmark181)
+font-size property, [107--109](#_bookmark181)
 >
-> font-size-adjust property, [109](#_bookmark182)
+font-size-adjust property, [109](#_bookmark182)
 >
-> &#64;keyframes rule, [54--59](#_bookmark143)
+&#64;keyframes rule, [54--59](#_bookmark143)
 >
-> layouts, [50--51](#_bookmark137)
+layouts, [50--51](#_bookmark137)
 >
-> list properties, [110](#css-list-properties)
+list properties, [110](#css-list-properties)
 >
-> list-style property, [110--111](#css-list-properties)
+list-style property, [110--111](#css-list-properties)
 >
-> list-style-image property,
-> [113--114](#here-you-will-get-various-values-of-list-style-type-property.)
-> list-style-position property,
+list-style-image property,
+[113--114](#here-you-will-get-various-values-of-list-style-type-property.)
+list-style-position property,
 >
-> [114--115](#_bookmark187)
+[114--115](#_bookmark187)
 >
-> list-style-type property, [111--113](#_bookmark185)
+list-style-type property, [111--113](#_bookmark185)
 >
-> margin properties, [116--120](#css-margin-properties)
+margin properties, [116--120](#css-margin-properties)
 >
-> multi-column layout properties,
-> [120](#the-output-of-the-code-is-given-below-30) column-count
-> property, [120--123](#the-output-of-the-code-is-given-below-30)
+multi-column layout properties,
+[120](#the-output-of-the-code-is-given-below-30) column-count
+property, [120--123](#the-output-of-the-code-is-given-below-30)
 >
-> column-fill property,
-> [123--126](#the-output-of-the-code-is-given-below-31)
+column-fill property,
+[123--126](#the-output-of-the-code-is-given-below-31)
 >
-> column-gap property, [126--128](#the-output-of-the-code-given-below-2)
+column-gap property, [126--128](#the-output-of-the-code-given-below-2)
 >
-> column-rule property, [128--131](#_bookmark194) column-rule-color
-> property,
+column-rule property, [128--131](#_bookmark194) column-rule-color
+property,
 >
-> [131--134](#_bookmark195)
+[131--134](#_bookmark195)
 >
-> column-rule-style property, [131](#_bookmark195)
+column-rule-style property, [131](#_bookmark195)
 >
-> column-rule-width property, [131](#_bookmark195)
+column-rule-width property, [131](#_bookmark195)
 >
-> outline properties, [134--136](#_bookmark196)
+outline properties, [134--136](#_bookmark196)
 >
-> outline-style property,
-> [136--138](#the-output-of-the-code-is-given-below-34)
+outline-style property,
+[136--138](#the-output-of-the-code-is-given-below-34)
 >
-> outline-width property,
-> [136](#the-output-of-the-code-is-given-below-34)
+outline-width property,
+[136](#the-output-of-the-code-is-given-below-34)
 >
-> padding, [139--142](#css-padding-1)
+padding, [139--142](#css-padding-1)
 >
-> print properties, [142](#_bookmark201)
+print properties, [142](#_bookmark201)
 >
-> page-break-after property, [142--144](#_bookmark201)
+page-break-after property, [142--144](#_bookmark201)
 >
-> rules, [51](#_bookmark139)
+rules, [51](#_bookmark139)
 >
-> animation-delay property,
-> [52--53](#the-following-section-consists-of-the-complete-list-of-standard-css-properties-belonging-to-the-latest-css3-specifications.-all-the-properties-are-grouped-into-categories-given-below)
+animation-delay property,
+[52--53](#the-following-section-consists-of-the-complete-list-of-standard-css-properties-belonging-to-the-latest-css3-specifications.-all-the-properties-are-grouped-into-categories-given-below)
 >
-> animation-direction property, [53](#_bookmark142)
+animation-direction property, [53](#_bookmark142)
 >
-> animation-duration property,
-> [52](#the-following-section-consists-of-the-complete-list-of-standard-css-properties-belonging-to-the-latest-css3-specifications.-all-the-properties-are-grouped-into-categories-given-below)
+animation-duration property,
+[52](#the-following-section-consists-of-the-complete-list-of-standard-css-properties-belonging-to-the-latest-css3-specifications.-all-the-properties-are-grouped-into-categories-given-below)
 >
-> animation-fill-mode property, [53](#_bookmark142)
-> animation-iteration-count property,
+animation-fill-mode property, [53](#_bookmark142)
+animation-iteration-count property,
 >
-> [53](#_bookmark142)
+[53](#_bookmark142)
 >
-> animation-name property,
-> [52](#the-following-section-consists-of-the-complete-list-of-standard-css-properties-belonging-to-the-latest-css3-specifications.-all-the-properties-are-grouped-into-categories-given-below)
+animation-name property,
+[52](#the-following-section-consists-of-the-complete-list-of-standard-css-properties-belonging-to-the-latest-css3-specifications.-all-the-properties-are-grouped-into-categories-given-below)
 >
-> animation-play-state property, [53](#_bookmark142)
-> animation-timing-function
+animation-play-state property, [53](#_bookmark142)
+animation-timing-function
 >
-> property,
-> [52](#the-following-section-consists-of-the-complete-list-of-standard-css-properties-belonging-to-the-latest-css3-specifications.-all-the-properties-are-grouped-into-categories-given-below)
+property,
+[52](#the-following-section-consists-of-the-complete-list-of-standard-css-properties-belonging-to-the-latest-css3-specifications.-all-the-properties-are-grouped-into-categories-given-below)
 >
-> inherit, [54](#_bookmark143)
+inherit, [54](#_bookmark143)
 >
-> initial, [54](#_bookmark143)
+initial, [54](#_bookmark143)
 >
-> table properties, [144](#_bookmark203)
+table properties, [144](#_bookmark203)
 >
-> border-collapse property, [144--146](#_bookmark203)
+border-collapse property, [144--146](#_bookmark203)
 >
-> border-spacing property,
-> [147--148](#border-spacing-property-the-border-spacing-css-property-sets-the-spacing-between-the-borders-of-adjacent-cells-using-the-border-model.-if-the-border-model-is-used-the-property-is-ignored.-here-see-the-border-collapse-property.)
+border-spacing property,
+[147--148](#border-spacing-property-the-border-spacing-css-property-sets-the-spacing-between-the-borders-of-adjacent-cells-using-the-border-model.-if-the-border-model-is-used-the-property-is-ignored.-here-see-the-border-collapse-property.)
 >
-> caption-side property,
-> [149--151](#caption-side-property-the-caption-side-css-property-sets-the-verti--cal-position-of-the-table-caption-box.-to-align-caption-text-horizon--tally-within-the-caption-box-use-the-text-align-property.)
+caption-side property,
+[149--151](#caption-side-property-the-caption-side-css-property-sets-the-verti--cal-position-of-the-table-caption-box.-to-align-caption-text-horizon--tally-within-the-caption-box-use-the-text-align-property.)
 >
-> empty-cells property,
-> [151--153](#the-output-of-the-code-is-given-below-38)
+empty-cells property,
+[151--153](#the-output-of-the-code-is-given-below-38)
 >
-> text properties, [154](#css-text-properties)
+text properties, [154](#css-text-properties)
 >
-> text-align property and text-align- all property,
-> [154--156](#css-text-properties)
+text-align property and text-align- all property,
+[154--156](#css-text-properties)
 >
-> text-decoration property,
-> [156--159](#the-output-of-the-code-is-given-below-40)
+text-decoration property,
+[156--159](#the-output-of-the-code-is-given-below-40)
 >
-> text-orientation property, [160--161](#_bookmark211)
+text-orientation property, [160--161](#_bookmark211)
 >
-> text-overflow property,
-> [161--162](#the-output-of-the-code-is-given-below-42)
+text-overflow property,
+[161--162](#the-output-of-the-code-is-given-below-42)
 >
-> text-shadow property, [163--164](#_bookmark213)
+text-shadow property, [163--164](#_bookmark213)
 >
-> transform properties, [164](#_bookmark214)
+transform properties, [164](#_bookmark214)
 >
-> 3D transform functions, [169--173](#_bookmark217) 2D transform
-> functions, [164--169](#_bookmark214)
+3D transform functions, [169--173](#_bookmark217) 2D transform
+functions, [164--169](#_bookmark214)
 
 transitions properties,
 [173--174](#the-output-of-the-code-is-given-below-46)
 
 Pseudo-classes (:any-link), [201--203](#Cover)
 
-> Pseudo-classes (:blank), [234--235](#Cover)
+Pseudo-classes (:blank), [234--235](#Cover)
 >
-> Pseudo-classes (:checked), [221--223](#Cover)
+Pseudo-classes (:checked), [221--223](#Cover)
 >
-> Pseudo-classes (:default), [219--221](#Cover) Pseudo-classes
-> (:dir(ltr) or :dir(rtl)),
+Pseudo-classes (:default), [219--221](#Cover) Pseudo-classes
+(:dir(ltr) or :dir(rtl)),
 >
-> [199--201](#Cover)
+[199--201](#Cover)
 >
-> Pseudo-classes (:empty), [233--234](#Cover) Pseudo-classes (:enabled
-> and :disabled),
+Pseudo-classes (:empty), [233--234](#Cover) Pseudo-classes (:enabled
+and :disabled),
 >
-> [214--215](#Cover)
+[214--215](#Cover)
 >
-> Pseudo-classes (:first-child), [239--240](#Cover) Pseudo-classes
-> (:first-of-type, nth-of-type,
+Pseudo-classes (:first-child), [239--240](#Cover) Pseudo-classes
+(:first-of-type, nth-of-type,
 >
-> nth-last-of-type(3)), [244--246](#Cover)
+nth-last-of-type(3)), [244--246](#Cover)
 >
-> Pseudo-classes (:focus), [212--213](#Cover)
+Pseudo-classes (:focus), [212--213](#Cover)
 >
-> Pseudo-classes (:hover), [210--212](#Cover) Pseudo-classes
-> (:indeterminate),
+Pseudo-classes (:hover), [210--212](#Cover) Pseudo-classes
+(:indeterminate),
 >
-> [223--225](#Cover)
+[223--225](#Cover)
 >
-> Pseudo-classes (:in-range and :out-of- range), [227--228](#Cover)
+Pseudo-classes (:in-range and :out-of- range), [227--228](#Cover)
 >
-> Pseudo-classes (:link), [203--205](#Cover)
+Pseudo-classes (:link), [203--205](#Cover)
 >
-> Pseudo-classes (:nth-child), [236--237](#Cover) Pseudo-classes
-> (:nth-last-child),
+Pseudo-classes (:nth-child), [236--237](#Cover) Pseudo-classes
+(:nth-last-child),
 >
-> [237--238](#Cover)
+[237--238](#Cover)
 >
-> Pseudo-classes (:nth-of-type(odd)), [241--242](#Cover)
+Pseudo-classes (:nth-of-type(odd)), [241--242](#Cover)
 >
-> Pseudo-classes (:nth-of-type(odd or even)), [243--244](#Cover)
+Pseudo-classes (:nth-of-type(odd or even)), [243--244](#Cover)
 >
-> Pseudo-classes (:only-child), [240--241](#Cover)
+Pseudo-classes (:only-child), [240--241](#Cover)
 >
-> Pseudo-classes (:optionaL), [230--231](#Cover) Pseudo-classes
-> (:placeholder-shown),
+Pseudo-classes (:optionaL), [230--231](#Cover) Pseudo-classes
+(:placeholder-shown),
 >
-> [218--219](#Cover)
+[218--219](#Cover)
 >
-> Pseudo-classes (:read-only and :read- write), [215--217](#Cover)
+Pseudo-classes (:read-only and :read- write), [215--217](#Cover)
 >
-> Pseudo-classes (:required), [229--230](#Cover) Pseudo-classes (
-> :root), [232--233](#Cover) Pseudo-classes (:scope), [207--208](#Cover)
+Pseudo-classes (:required), [229--230](#Cover) Pseudo-classes (
+:root), [232--233](#Cover) Pseudo-classes (:scope), [207--208](#Cover)
 >
-> Pseudo-classes (:target), [205--207](#Cover),
+Pseudo-classes (:target), [205--207](#Cover),
 >
-> [208--210](#Cover)
+[208--210](#Cover)
 >
-> Pseudo-classes (:valid and :invalid), [225--226](#Cover)
+Pseudo-classes (:valid and :invalid), [225--226](#Cover)
 >
-> Q
+Q
 >
-> Quotes property,
-> [101--102](#quotes-property-the-quotes-css-property-specifies-the-quotation-marks-for-the-embedded-quotations.-the-quotes-characters-specified-for-this-property-are-used-for-the-open-quote-and-close-quote-values-of-the-content-property.)
+Quotes property,
+[101--102](#quotes-property-the-quotes-css-property-specifies-the-quotation-marks-for-the-embedded-quotations.-the-quotes-characters-specified-for-this-property-are-used-for-the-open-quote-and-close-quote-values-of-the-content-property.)
 >
-> R
+R
 >
-> radial-gradient() function, [323--326](#_bookmark282)
-> repeating-linear-gradient() function,
+radial-gradient() function, [323--326](#_bookmark282)
+repeating-linear-gradient() function,
 >
-> [326--330](#_bookmark284)
+[326--330](#_bookmark284)
 >
-> repeating-radial-gradient() function,
-> [330--335](#the-output-of-the-code-is-given-below-72)
+repeating-radial-gradient() function,
+[330--335](#the-output-of-the-code-is-given-below-72)
 >
-> RGB colors, [24](#_bookmark88), [88--89](#_bookmark162)
+RGB colors, [24](#_bookmark88), [88--89](#_bookmark162)
 >
-> extended color keywords, [27--30](#_bookmark92) in HTML,
-> [25--27](#_bookmark90)
+extended color keywords, [27--30](#_bookmark92) in HTML,
+[25--27](#_bookmark90)
 >
-> rgb() function, [335--339](#the-output-of-the-code-is-given-below-73)
+rgb() function, [335--339](#the-output-of-the-code-is-given-below-73)
 >
-> RGBA colors, [89--91](#_bookmark164)
+RGBA colors, [89--91](#_bookmark164)
 >
-> :root selector, [232](#Cover)
+:root selector, [232](#Cover)
 >
-> rotate() function, [339--343](#_bookmark290)
+rotate() function, [339--343](#_bookmark290)
 >
-> rotate3d() function,
-> [343--346](#the-output-of-the-code-is-given-below-75)
+rotate3d() function,
+[343--346](#the-output-of-the-code-is-given-below-75)
 >
-> rotatex() function, [346--347](#_bookmark294)
+rotatex() function, [346--347](#_bookmark294)
 >
-> rotatey() function, [347](#_bookmark296)
+rotatey() function, [347](#_bookmark296)
 >
-> rotatez() function, [347--351](#_bookmark296)
+rotatez() function, [347--351](#_bookmark296)
 >
-> Rules, [51](#_bookmark139)
+Rules, [51](#_bookmark139)
 >
-> animation-delay property,
-> [52--53](#the-following-section-consists-of-the-complete-list-of-standard-css-properties-belonging-to-the-latest-css3-specifications.-all-the-properties-are-grouped-into-categories-given-below)
+animation-delay property,
+[52--53](#the-following-section-consists-of-the-complete-list-of-standard-css-properties-belonging-to-the-latest-css3-specifications.-all-the-properties-are-grouped-into-categories-given-below)
 animation-direction property, [53](#_bookmark142)
 animation-duration property,
 [52](#the-following-section-consists-of-the-complete-list-of-standard-css-properties-belonging-to-the-latest-css3-specifications.-all-the-properties-are-grouped-into-categories-given-below)
