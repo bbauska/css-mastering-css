@@ -1276,7 +1276,7 @@ CSS also makes that possible. Using CSS brings flexibility where
 needed, but it is flexible enough to be able to make changes to an
 individual page or a section.
 
-### WHY DO WE USE CSS? {#why-do-we-use-css .unnumbered}
+### WHY DO WE USE CSS?
 
 For a website to work properly, it must have a fast download time.
 Nowadays, people usually wait a few seconds for a website to load.
@@ -1307,7 +1307,7 @@ You can change the location of the HTML tag
 with the help of CSS. You can set things as an image on any part of a
 web page as needed.
 
-### [DIFFERENT VERSION OF CSS]{.underline}  {#different-version-of-css .unnumbered}
+### [DIFFERENT VERSION OF CSS]
 
 -   **CSS1 and CSS2 (no longer applicable)** -- Released from W3C as a
     recommendation in December 1996. This version defines the CSS
@@ -1338,7 +1338,7 @@ differences between CSS2 and CSS3 are as follows:
 -   Color
 -   CSS4 has never become an official version.
 
-### MAJOR DIFFERENCES BETWEEN CSS, CSS2, AND CSS3 {#major-differences-between-css-css2-and-css3 .unnumbered}
+### MAJOR DIFFERENCES BETWEEN CSS, CSS2, AND CSS3
 
 CSS was originally released in 1996 and contains features to add font
 lay- outs such as typeface and text color emphasis, background, and
@@ -1352,7 +1352,7 @@ Google Fonts and Typecast. Previously, with CSS and CSS2, designers
 could only use "secure web fonts" to ensure 100% use of fonts that
 would always show the same throughout the machine.
 
-### CSS SPECIFICATION {#css-specification .unnumbered}
+### CSS SPECIFICATION
 
 All web-level technologies (HTML, CSS, JavaScript, etc.) are defined
 in large documents called specifications (or "specs"), published by
@@ -1993,7 +1993,7 @@ color: #008080; font-weight: bold;
 }
 ```
 
-#### CSS IDs {#css-ids .unnumbered}
+#### CSS IDs
 
 ###### IDs are similar to classes. Suppose once a specific id has been declared, it cannot be used again within the same HTML file. We commonly use IDs to style the layout elements of a page that will only be needed once, whereas we use classes to style text and such that may be declared various times. The main container for the page is defined by the following example: 
 
@@ -3805,16 +3805,18 @@ align-items: center; justify-content: center; border-radius:20px
 &lt;/html&gt;
 ```
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-2 .unnumbered}
+###### The output of the code is given below:
 
 ![](./images/image014.png){width="1.518228346456693in"
 height="1.096353893263342in"}
 
 CSS animation property (third example).
 
-### CSS BACKGROUND PROPERTIES {#css-background-properties .unnumbered}
+### CSS BACKGROUND PROPERTIES
 
-###### The background is a shorthand property for setting a single back- ground property, that is, background-image, background-position, background-size, background-repeat, background-attachment, back- ground-origin, background-clip, and background-color in a single declaration. {#the-background-is-a-shorthand-property-for-setting-a-single-back--ground-property-that-is-background-image-background-position-background-size-background-repeat-background-attachment-back--ground-origin-background-clip-and-background-color-in-a-single-declaration. .unnumbered}
+###### The background is a shorthand property for setting a single back- ground property, 
+that is, background-image, background-position, background-size, background-repeat, background-attachment, back- ground-origin, background-clip, and background-color in a 
+single declaration.
 
 The syntax of this property is given as:
 
@@ -3840,7 +3842,7 @@ background-color: color &#124; transparent &#124; initial
 background-clip: border-box &#124; padding-box &#124; content-box &#124; initial
 &#124; inherit
 
-##### Example: {#example-11 .unnumbered}
+##### Example:
 
 ```
 &lt;!DOCTYPE html&gt;
@@ -3885,7 +3887,7 @@ background-clip: content-box;
 &lt;/html&gt;
 ```
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-3 .unnumbered}
+###### The output of the code is given below:
 
 ![](./images/image015.png){width="4.098958880139983in"
 height="3.3645833333333335in"}
@@ -3898,7 +3900,7 @@ The syntax of the property is given as:
 
 background-image: url &#124; none &#124; initial &#124; inherit
 
-##### Example: {#example-12 .unnumbered}
+##### Example:
 
 ```
 &lt;!DOCTYPE html&gt;
@@ -3927,7 +3929,7 @@ align-items: center; justify-content: center;
 &lt;/html&gt;
 ```
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-4 .unnumbered}
+###### The output of the code is given below:
 
 ![](./images/image016.png){width="4.1015551181102365in"
 height="1.9817705599300088in"}
@@ -3970,14 +3972,14 @@ background-origin: content-box;
 &lt;/html&gt;
 ```
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-5 .unnumbered}
+###### The output of the code is given below:
 
 ![](./images/image017.png){width="2.4609372265966756in"
 height="2.0053116797900263in"}
 
 CSS background origin.
 
-##### Padding box example: {#padding-box-example .unnumbered}
+##### Padding box example:
 
 ```
 &lt;!DOCTYPE html&gt;
@@ -4010,7 +4012,7 @@ background-origin: padding-box ;
 &lt;/html&gt;
 ```
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-6 .unnumbered}
+###### The output of the code is given below:
 
 ![](./images/image018.png){width="2.8255205599300086in"
 height="2.266874453193351in"}
@@ -4030,7 +4032,7 @@ background-position: &#91; percentage &#124; length &#124; left
 
 &#124; center &#124; right &#93;1 or 2 values &#124; initial &#124; inherit
 
-##### Example: {#example-13 .unnumbered}
+##### Example:
 
 ```
 &lt;!DOCTYPE html&gt;
@@ -4060,7 +4062,7 @@ background-position: 50% center;
 &lt;/html&gt;
 ```
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-7 .unnumbered}
+###### The output of the code is given below:
 
 ![](./images/image019.png){width="2.5in"
 height="0.4349989063867017in"}
@@ -4074,7 +4076,7 @@ The syntax of the property is given as:
 background-repeat: repeat &#124; repeat-x &#124; repeat-y &#124; no-repeat &#124;
 initial &#124; inherit
 
-##### Example: {#example-14 .unnumbered}
+##### Example:
 
 ```
 &lt;!DOCTYPE html&gt;
@@ -4104,14 +4106,14 @@ background-repeat: repeat-y;
 &lt;/html&gt;
 ```
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-8 .unnumbered}
+###### The output of the code is given below:
 
 ![](./images/image020.png){width="2.4609372265966756in"
 height="2.4609372265966756in"}
 
 CSS background repeat(y).
 
-##### Another example: {#another-example-1 .unnumbered}
+##### Another example:
 
 ```
 &lt;!DOCTYPE html&gt;
@@ -4128,11 +4130,7 @@ align-items: center; justify-content: center;
 border: 6px dashed #333; background: url(&#34;/images-1.jpg&#34;) no-repeat;
 background-repeat: repeat-x;
 }
-```
-
-[]{#_bookmark151 .anchor}&lt;/style&gt;
-
-```
+&lt;/style&gt;
 &lt;/head&gt;
 &lt;body&gt;
 &lt;div class=&#34;demo_container&#34;&gt;
@@ -4145,7 +4143,7 @@ background-repeat: repeat-x;
 &lt;/html&gt;
 ```
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-9 .unnumbered}
+###### The output of the code is given below:
 
 ![](./images/image021.png){width="2.2708333333333335in"
 height="2.2708333333333335in"}
@@ -4160,7 +4158,7 @@ background-size: length attribute&#124; percentage attribute&#124; auto
 attribute &#124; cover attributes attribute &#124; contain attribute&#124; initial
 attribute&#124; inherit attribute
 
-##### Example: {#example-15 .unnumbered}
+##### Example:
 
 ```
 &lt;!DOCTYPE html&gt;
@@ -4196,26 +4194,25 @@ background-size: cover;
 &lt;/html&gt;
 ```
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-10 .unnumbered}
+###### The output of the code is given below:
 
 ![](./images/image022.png){width="3.6093744531933507in"
 height="1.815in"}
 
 CSS background size -- contained cover and full cover.
 
-### CSS BORDER PROPERTIES {#css-border-properties .unnumbered}
+### CSS BORDER PROPERTIES
 
-###### The border property sets the width, style, and color for all four sides of an element's border. It is a shorthand property for setting the individual border properties, that is, border-width, border-style, and border-color in a single declaration. {#the-border-property-sets-the-width-style-and-color-for-all-four-sides-of-an-elements-border.-it-is-a-shorthand-property-for-setting-the-individual-border-properties-that-is-border-width-border-style-and-border-color-in-a-single-declaration. .unnumbered}
+###### The border property sets the width, style, and color for all four sides of an element's border. It is a shorthand property for setting the individual border properties, that is, border-width, border-style, and border-color in a single declaration.
 
 The syntax of the property is given as:
->
+
 border: &#91; border-width border-style border-color &#93; &#124; initial &#124;
 inherit
 
 ##### Example: {#example-16 .unnumbered}
 
 &lt;!DOCTYPE html&gt;
->
 &lt;html&gt;
 >
 &lt;head&gt;
@@ -4258,7 +4255,7 @@ justify-content: center; align-items: center; font-size: 32px;
 >
 &lt;/html&gt;
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-11 .unnumbered}
+###### The output of the code is given below:
 
 ![](./images/image023.png){width="2.7343744531933507in"
 height="2.7343744531933507in"}
@@ -4271,7 +4268,7 @@ border-width : &#91; thin &#124; medium &#124; thick &#124; length &#93;
 >
 1 to 4 values &#124; inherit
 
-##### Example: {#example-17 .unnumbered}
+##### Example:
 
 &lt;!DOCTYPE html&gt;
 >
@@ -4349,7 +4346,7 @@ individually in the order top, right, bottom, and left.&lt;/p&gt;&lt;/div&gt;
 >
 &lt;/html&gt;
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-12 .unnumbered}
+###### The output of the code is given below:
 
 ![](./images/image024.png){width="3.5833366141732284in"
 height="2.1848950131233598in"}
@@ -4361,7 +4358,7 @@ CSS border property-width.
 border-bottom: &#91; border-bottom-width border- bottom-style
 border-bottom-color &#93; &#124; initial &#124; inherit
 
-##### Example: {#example-18 .unnumbered}
+##### Example:
 
 &lt;!DOCTYPE html&gt;
 >
@@ -4446,7 +4443,7 @@ voluptate aliquam nihil, eveniet aliquid culpa officia aut!
 >
 &lt;/html&gt;
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-13 .unnumbered}
+###### The output of the code is given below:
 
 ![](./images/image025.png){width="3.5187489063867017in"
 height="4.55in"}
@@ -4457,7 +4454,7 @@ CSS border property -- left, bottom, right, top.
 
 border-bottom-color: color &#124; transparent &#124; inherit
 
-##### Example: {#example-19 .unnumbered}
+##### Example:
 
 &lt;!DOCTYPE html&gt;
 >
@@ -4517,7 +4514,7 @@ border-style: solid; border-top-color: #ffaa00;
 adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi
 repudiandae consequuntur voluptatum laborum numquam blanditiis
 >
-[]{#_bookmark157 .anchor}harum quisquam eius sed odit fugiat iusto
+harum quisquam eius sed odit fugiat iusto
 fuga praesentium optio, eaque rerum!&lt;/h1&gt; &lt;br&gt;
 >
 &lt;br&gt;
@@ -4550,7 +4547,7 @@ voluptate aliquam nihil, eveniet aliquid culpa officia aut!
     property sets the rounded shape for the "bottom-left" corner of an
     element border box.
 
-##### Example: {#example-20 .unnumbered}
+##### Example:
 
 &lt;!DOCTYPE html&gt;
 >
@@ -4611,7 +4608,7 @@ voluptate aliquam nhil, eveniet aliquid culpa officia aut! .&lt;/p&gt;
 >
 &lt;/html&gt;
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-14 .unnumbered}
+###### The output of the code is given below:
 
 ![](./images/image026.png){width="3.4499978127734034in"
 height="4.925in"}
@@ -4625,7 +4622,7 @@ The syntax of this property is given as:
 border-bottom-style: none &#124; hidden &#124; dashed &#124; dotted &#124;solid &#124;
 double &#124; groove &#124; ridge &#124; inset &#124; outset &#124; initial &#124; inherit.
 
-##### Example: {#example-21 .unnumbered}
+##### Example:
 
 ```
 &lt;!DOCTYPE html&gt;
@@ -4733,7 +4730,7 @@ adipisicing elit.esentium optio, eaque rerum!&lt;/h1&gt; &lt;br&gt;
 >
 &lt;br&gt;
 >
-[]{#_bookmark159 .anchor}&lt;p class=&#34;outset&#34;&gt;Lorem ipsum dolor sit
+&lt;p class=&#34;outset&#34;&gt;Lorem ipsum dolor sit
 amet consectetur adipisicing elit.esentium optio, eaque rerum!&lt;/h1&gt;
 &lt;br&gt;
 >
@@ -4743,7 +4740,7 @@ amet consectetur adipisicing elit.esentium optio, eaque rerum!&lt;/h1&gt;
 >
 &lt;/html&gt;
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-15 .unnumbered}
+###### The output of the code is given below:
 
 ![](./images/image027.png){width="2.9249989063867017in"
 height="5.31in"}
@@ -4756,7 +4753,7 @@ border-image: &#91; source slice width outset repeat &#93;
 >
 &#124; initial &#124; inherit
 
-##### Example: {#example-22 .unnumbered}
+##### Example:
 
 &lt;!DOCTYPE html&gt;
 >
@@ -4800,14 +4797,14 @@ border-image: url(&#34;/images-1.jpg&#34;) 30 30 round;
 >
 &lt;/html&gt;
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-16 .unnumbered}
+###### The output of the code is given below:
 
 ![](./images/image028.png){width="2.4524989063867015in"
 height="1.4625in"}
 
 CSS border-image property.
 
-### CSS COLOR PROPERTIES {#css-color-properties .unnumbered}
+### CSS COLOR PROPERTIES
 
 The CSS color feature sets the color of the text element content. All
 mod- ern web browsers support different colors to maintain a colorful
@@ -4849,7 +4846,7 @@ color: black;
 &lt;/html&gt;
 ```
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-17 .unnumbered}
+###### The output of the code is given below:
 
 ![](./images/image029.png){width="2.5396872265966755in"
 height="0.945in"}
@@ -5134,7 +5131,7 @@ The syntax of this property is given as:
 >
 height: length &#124; percentage &#124; auto &#124; initial &#124; inherit
 
-##### Example: {#example-26 .unnumbered}
+##### Example:
 
 &lt;!DOCTYPE html&gt;
 >
@@ -5188,7 +5185,7 @@ height=&#34;200px&#34;&gt;
 >
 &lt;/html&gt;
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-21 .unnumbered}
+###### The output of the code is given below:
 
 ![](./images/image034.png){width="1.6396872265966753in"
 height="3.6196872265966755in"}
@@ -5209,11 +5206,11 @@ max-height: length &#124; percentage &#124; none &#124; initial
 >
 &#124; inherit
 
-###### The syntax of this property is given as: {#the-syntax-of-this-property-is-given-as .unnumbered}
+###### The syntax of this property is given as:
 
 max-width: length &#124; percentage &#124; none &#124; initial &#124; inherit
 
-##### Example: {#example-27 .unnumbered}
+##### Example:
 
 &lt;!DOCTYPE html&gt;
 >
@@ -5269,7 +5266,7 @@ height=&#34;200px&#34;&gt;
 >
 &lt;/html&gt;
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-22 .unnumbered}
+###### The output of the code is given below:
 
 ![](./images/image035.png){width="4.088541119860017in"
 height="1.75in"}
@@ -5282,7 +5279,7 @@ The syntax of this property is given as:
 >
 min-height: length &#124; percentage &#124; initial &#124; inherit
 
-##### Example: {#example-28 .unnumbered}
+##### Example:
 
 &lt;!DOCTYPE html&gt;
 >
@@ -5306,7 +5303,7 @@ min-width:200px;
 >
 }
 >
-[]{#_bookmark173 .anchor}img{
+img{
 >
 background-image: url(&#39;/images-1.jpg&#39;); min-height: 200px;
 >
@@ -5336,7 +5333,7 @@ height=&#34;200px&#34;&gt;
 >
 &lt;/html&gt;
 
-### [CSS GENERATED CONTENT PROPERTIES]{.underline}  {#css-generated-content-properties .unnumbered}
+### [CSS GENERATED CONTENT PROPERTIES]
 
 ###### content property: The content CSS property is used in combination with the ::before and ::after pseudo-elements to generate content in an element. The syntax of this property is given as:
 
@@ -5344,7 +5341,7 @@ content: normal &#124; none &#124; counter &#124; string &#124; url(url) &#124;
 attr(attribute) &#124; open-quote &#124; close- quote &#124; no-open-quote &#124;
 no-close-quote &#124; initial &#124; inherit
 
-##### Example: {#example-29 .unnumbered}
+##### Example:
 
 &lt;!DOCTYPE html&gt;
 >
@@ -5396,7 +5393,7 @@ your code &lt;/p&gt;
 >
 &lt;/html&gt;
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-23 .unnumbered}
+###### The output of the code is given below:
 
 ![](./images/image036.png){width="3.550025153105862in"
 height="0.8843744531933508in"}
@@ -5411,7 +5408,7 @@ quotes: &#91;string string&#93;one or more pairs &#124; none
 >
 &#124; initial &#124; inherit
 
-##### Example: {#example-30 .unnumbered}
+##### Example:
 
 &lt;!DOCTYPE html&gt;
 >
@@ -5461,7 +5458,7 @@ content: close-quote;
 paragraph in your code with &lt;q&gt; embedded qutations&lt;/q&gt;&lt;/q&gt;
 &lt;/p&gt;
 >
-[]{#_bookmark176 .anchor}&lt;p class=&#34;after&#34;&gt; The text will be added
+&lt;p class=&#34;after&#34;&gt; The text will be added
 before every paragraph in your code &lt;q&gt; embedded qutations &lt;/q&gt;
 &lt;/p&gt;
 >
@@ -5476,7 +5473,7 @@ The syntax of the property is given as:
 counter-reset: &#91; identifier integer &#93;1 or more pairs &#124; none &#124;
 initial &#124; inherit
 
-##### Example: {#example-31 .unnumbered}
+##### Example:
 
 &lt;!DOCTYPE html&gt;
 >
@@ -5514,7 +5511,7 @@ counter(category) &#34; &#34;;
 >
 }
 >
-[]{#_bookmark177 .anchor}li{
+li{
 >
 list-style-type: none;
 >
@@ -5548,14 +5545,14 @@ list-style-type: none;
 >
 &lt;/html&gt;
 
-###### The output of the code given below: {#the-output-of-the-code-given-below-1 .unnumbered}
+###### The output of the code given below:
 
 ![](./images/image037.png){width="3.015in"
 height="1.0462489063867018in"}
 
 CSS counter-reset property.
 
-### CSS FLEXIBLE BOX LAYOUT {#css-flexible-box-layout .unnumbered}
+### CSS FLEXIBLE BOX LAYOUT
 
 The alignment-content feature changes the behavior of the flex-wrap
 structure. Aligns dynamic lines. Used to specify alignment between
@@ -5597,7 +5594,7 @@ The syntax of this property is given as:
 align-content: center &#124; flex-start &#124; flex-end &#124; space- between &#124;
 space-around &#124; stretch &#124; initial &#124; inherit
 
-##### Example: {#example-32 .unnumbered}
+##### Example:
 
 &lt;!DOCTYPE html&gt;
 >
@@ -5654,16 +5651,19 @@ font-weight: bold; font-size: 3em; text-align: center;
 >
 &lt;/html&gt;
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-24 .unnumbered}
+###### The output of the code is given below:
 
 ![](./images/image038.png){width="3.3020833333333335in"
 height="1.9791666666666667in"}
 
 CSS Flexible Layout.
 
-### CSS FONT PROPERTIES {#css-font-properties .unnumbered}
+### CSS FONT PROPERTIES
 
-###### The font property sets the style, variant, boldness, line-height, and the font family for an element's text content. It is a property for setting the individ- ual font properties, that is, font-style, font-variant, font-weight, font-size, line-height, and font-family in a single declaration. {#the-font-property-sets-the-style-variant-boldness-line-height-and-the-font-family-for-an-elements-text-content.-it-is-a-property-for-setting-the-individ--ual-font-properties-that-is-font-style-font-variant-font-weight-font-size-line-height-and-font-family-in-a-single-declaration. .unnumbered}
+###### The font property sets the style, variant, boldness, line-height, and the font 
+family for an element's text content. It is a property for setting the individ- ual 
+font properties, that is, font-style, font-variant, font-weight, font-size, line-height, 
+and font-family in a single declaration.
 
 The syntax of the property is given as:
 >
@@ -5671,7 +5671,7 @@ font: &#91; font-style font-variant line-height font- family &#93; &#124;
 caption &#124; icon &#124; menu &#124; message-box &#124; small-caption &#124; status-bar
 &#124; initial &#124; inherit
 
-##### Example: {#example-33 .unnumbered}
+##### Example:
 
 &lt;!DOCTYPE html&gt;
 >
@@ -5711,7 +5711,7 @@ font: normal 1.2em Arial, Helvetica, sans-serif;
 >
 &lt;h1&gt; CSS Font Property &lt;/h1&gt;
 >
-[]{#_bookmark181 .anchor}&lt;p class=&#34;before&#34;&gt; The text will be in
+&lt;p class=&#34;before&#34;&gt; The text will be in
 font ( font: bold 2.5em &#34;Times New Roman&#34;, Times, serif; ) &lt;/p&gt;
 >
 &lt;p class=&#34;after&#34;&gt; The text will be in font
@@ -5722,7 +5722,7 @@ font ( font: bold 2.5em &#34;Times New Roman&#34;, Times, serif; ) &lt;/p&gt;
 >
 &lt;/html&gt;
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-25 .unnumbered}
+###### The output of the code is given below:
 
 ![](./images/image039.png){width="2.626874453193351in"
 height="0.8268744531933508in"}
@@ -5735,7 +5735,7 @@ font-size: xx-small &#124; x-small &#124; small &#124; medium &#124; large &#124
 &#124; xx-large &#124; smaller &#124; larger &#124; length &#124; percentage &#124; initial &#124;
 inherit
 
-##### Example: {#example-34 .unnumbered}
+##### Example:
 
 &lt;!DOCTYPE html&gt;
 >
@@ -5826,7 +5826,7 @@ font-size: larger
 &lt;p class=&#34;f&#34;&gt; The text will be in font ( font-size: xx-large )
 &lt;/p&gt;
 >
-[]{#_bookmark182 .anchor}&lt;p class=&#34;g&#34;&gt; The text will be in font (
+&lt;p class=&#34;g&#34;&gt; The text will be in font (
 font-size: smaller ) &lt;/p&gt;
 >
 &lt;p class=&#34;h&#34;&gt; The text will be in font ( font-size: larger )
@@ -5836,7 +5836,7 @@ font-size: smaller ) &lt;/p&gt;
 >
 &lt;/html&gt;
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-26 .unnumbered}
+###### The output of the code is given below:
 
 ![](./images/image040.png){width="2.9446872265966753in"
 height="3.2231244531933507in"}
@@ -5853,7 +5853,7 @@ font size. The font size change feature is a way to keep text readings
 in such a state. It does this by adjusting the font size so that the x
 length is the same regardless of the font used.
 
-### [CSS LIST PROPERTIES]{.underline}  {#css-list-properties .unnumbered}
+### [CSS LIST PROPERTIES]
 
 ###### list-style property: The list-style CSS property defines the display style for list items. It is a shorthand property for setting the indi- vidual list properties, that is, list-style-type, list-style-position, and list-style-image in a single declaration.
 
@@ -5862,7 +5862,7 @@ The syntax of the property is given as:
 list-style: &#91; list-style-type list-style-position list-style-image &#93;
 &#124; initial &#124; inherit
 
-##### Example: {#example-35 .unnumbered}
+##### Example:
 
 &lt;!DOCTYPE html&gt;
 >
@@ -5912,7 +5912,7 @@ list-style: upper-latin outside;
 >
 &lt;/ul&gt;
 >
-[]{#_bookmark185 .anchor}&lt;h2&gt; Ordered List (Outside) &lt;/h2&gt;
+&lt;h2&gt; Ordered List (Outside) &lt;/h2&gt;
 >
 &lt;ol&gt;
 >
@@ -5928,7 +5928,7 @@ list-style: upper-latin outside;
 >
 &lt;/html&gt;
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-27 .unnumbered}
+###### The output of the code is given below:
 
 ![](./images/image041.png){width="2.3146872265966754in"
 height="1.6509372265966755in"}
@@ -5943,7 +5943,7 @@ upper-roman &#124; lower-greek &#124; lower-latin &#124; upper-latin &#124; geor
 >
 &#124; upper-alpha &#124; none &#124; initial &#124; inherit
 
-##### Example: {#example-36 .unnumbered}
+##### Example:
 
 &lt;!DOCTYPE html&gt;
 >
@@ -6007,14 +6007,14 @@ list-style-type: square;
 >
 &lt;/html&gt;
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-28 .unnumbered}
+###### The output of the code is given below:
 
 ![](./images/image042.png){width="2.789054024496938in"
 height="2.1197911198600177in"}
 
 CSS list-style-type property.
 
-###### Here you will get various values of list-style-type property. {#here-you-will-get-various-values-of-list-style-type-property. .unnumbered}
+###### Here you will get various values of list-style-type property.
 
 **Value Description**
 >
@@ -6078,7 +6078,7 @@ The syntax of the property is given as:
 >
 such as URL &#124; none &#124; initial &#124; inherit
 
-##### Example: {#example-37 .unnumbered}
+##### Example:
 
 &lt;!DOCTYPE html&gt;
 >
@@ -6088,7 +6088,7 @@ such as URL &#124; none &#124; initial &#124; inherit
 >
 &lt;style&gt;
 >
-[]{#_bookmark187 .anchor}.demo_container{ width:400px; margin:0 auto;
+.demo_container{ width:400px; margin:0 auto;
 >
 }
 >
@@ -6128,7 +6128,7 @@ list-style-image: url(&#34;/images-1.jpg&#34;);
 
 list-style-position: inside &#124; outside &#124; initial &#124; inherit
 
-##### Example: {#example-38 .unnumbered}
+##### Example:
 
 &lt;!DOCTYPE html&gt;
 >
@@ -6198,16 +6198,17 @@ background: #d8bfd8;
 >
 &lt;/html&gt;
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-29 .unnumbered}
+###### The output of the code is given below:
 
 ![](./images/image043.png){width="2.984583333333333in"
 height="2.3183333333333334in"}
 
 CSS list-style-position property.
 
-### CSS MARGIN PROPERTIES {#css-margin-properties .unnumbered}
+### CSS MARGIN PROPERTIES
 
-###### The margin property sets the margin on all four sides of the element. It is a shorthand property for margin-top, margin-right, margin-bottom, and margin-left property. {#the-margin-property-sets-the-margin-on-all-four-sides-of-the-element.-it-is-a-shorthand-property-for-margin-top-margin-right-margin-bottom-and-margin-left-property. .unnumbered}
+###### The margin property sets the margin on all four sides of the element. It is a 
+shorthand property for margin-top, margin-right, margin-bottom, and margin-left property. 
 
 The syntax of this property is given as:
 >
@@ -6215,7 +6216,7 @@ margin: &#91; length &#124; percentage &#124; auto &#93; 1 to 4 values
 >
 &#124; initial &#124; inherit
 
-##### Example: {#example-39 .unnumbered}
+##### Example:
 
 &lt;!DOCTYPE html&gt;
 >
@@ -6320,7 +6321,7 @@ values.
 Instead of margin, you should use other various margin-top, margin-
 right, margin-bottom, and margin-left.
 
-##### Example: {#example-40 .unnumbered}
+##### Example:
 
 &lt;!DOCTYPE html&gt;
 >
@@ -6408,7 +6409,7 @@ aliquam nihil, eveniet aliquid culpa officia aut!
 >
 &lt;/html&gt;
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-30 .unnumbered}
+###### The output of the code is given below:
 
 ![](./images/image044.png){width="4.4128116797900265in"
 height="3.5521872265966756in"}
@@ -6416,7 +6417,7 @@ height="3.5521872265966756in"}
 CSS margin -- property (margin-top, margin-right, margin-bottom,
 margin-left).
 
-### [CSS MULTI-COLUMN LAYOUT PROPERTIES]{.underline}  {#css-multi-column-layout-properties .unnumbered}
+### [CSS MULTI-COLUMN LAYOUT PROPERTIES]
 
 ###### CSS3 column-count property: The column count property defines the number of columns in a multi-column element.
 
@@ -6424,7 +6425,7 @@ The syntax of this Property is given as:
 >
 column-count: number &#124; auto &#124; initial &#124; inherit
 
-##### Example: {#example-41 .unnumbered}
+##### Example:
 
 &lt;!DOCTYPE html&gt;
 >
@@ -6514,7 +6515,7 @@ ornare purus.&lt;/p&gt;
 >
 &lt;/html&gt;
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-31 .unnumbered}
+###### The output of the code is given below:
 
 ![](./images/image045.png){width="2.9006211723534556in"
 height="2.7056244531933507in"}
@@ -6544,7 +6545,7 @@ The syntax of this Property is given as:
 >
 column-fill: auto &#124; balance &#124; initial &#124; inherit
 
-##### Example: {#example-42 .unnumbered}
+##### Example:
 
 &lt;!DOCTYPE html&gt;
 >
@@ -6621,67 +6622,56 @@ pretium auctor risus. Nulla congue hendrerit. Phasellus nec lorem in
 ipsum facilisis scelerisque. Duis quis massa metus. commodo metus non
 bibendum aliquet. Duis tempus posuere. Mauris interdum lobortis massa
 vel sodales.
->
+
 Curabitur feugiat, magna quis ultricies dignissim, felis leo varius
 nulla, ut blandit arcu libero quis. Morbi sollicitudin odio purus, ut
 feugiat sit amet. Fusce placerat scelerisque turpis. Aliquam erat
 volutpat.
->
+
 Vestibulum blandit vitae erat a sodales. Integer semper tristique
 risus eget. luctus justo vel auctor. Nunc sit amet nulla eu est
 fringilla euismod ac orci. Sed massa lorem, blandit sed quis,
 condimentum ornare purus.&lt;/p&gt;
->
 &lt;/body&gt;
->
 &lt;/html&gt;
 
-###### The output of the code given below: {#the-output-of-the-code-given-below-2 .unnumbered}
+###### The output of the code given below:
 
 ![](./images/image046.png){width="4.42125in" height="1.17in"}
 
 CSS column-fill property.
 
-###### column-gap property: The column-gap CSS property specifies the gap in the columns in a multi-column element. If there is a column rule between the columns, it appear in the middle of the gap.
+###### column-gap property: The column-gap CSS property specifies the gap in the columns 
+in a multi-column element. If there is a column rule between the columns, it appear in 
+the middle of the gap.
 
 The syntax of the property is given as:
->
+
 column-gap: length &#124; normal &#124; initial &#124; inherit
 
-##### Example: {#example-43 .unnumbered}
+##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
->
 &lt;html lang=&#34;en&#34;&gt;
->
 &lt;head&gt;
->
 &lt;meta charset=&#34;utf-8&#34;&gt;
->
 &lt;title&gt;Example of CSS3 column-gap Property
->
 &lt;/title&gt;
->
 &lt;style&gt; p {
->
 column-count: 3; column-gap: 15px;
->
 }
->
 &lt;/style&gt;
->
 &lt;/head&gt;
->
 &lt;body&gt;
->
 &lt;h1&gt; CSS3 column-gap Property &lt;/h1&gt;
->
+
 &lt;p&gt;Lorem ipsum dolor sit, consectetur adipiscing elit. Ut bibendum
 nisi egestas suscipit gravida. Sed velit nisl, tristique sed dui
 mollis, porta tempus ligula. Phasellus vel orci vel arcu pellentesque
 fermentum. Duis bibendum metus arcu. Aliquam eget tortor vulputate,
 sollicitudin felis a, mollis libero.
->
+
 Aliquam vitae consequat sapien, id blandit lectus. Integer ac nibh ac
 nulla tincidunt accumsan sit amet sit amet risus. Integer id nisl
 urna. In a enim elementum, auctor justo quis, tincidunt augue. Donec
@@ -6690,9 +6680,9 @@ efficitur massa vel convallis euismod. Quisque metus lectus,
 consectetur sit amet justo in, venenatis faucibus nunc. Aenean
 faucibus, enim id egestas convallis, felis magna mattis est, in
 ultricies est urna ac nisl.
->
+
 Cras placerat quis tortor quis molestie.
->
+
 Nullam imperdiet gravida velit eget sollicitudin. Nunc dictum pretium
 justo vel congue. Praesent auctor leo maximus leo aliquam, eget
 vehicula tortor tincidunt. Vestibulum finibus venenatis dui, nec
@@ -6707,30 +6697,30 @@ convallis vitae, consectetur sit amet orci. Nunc non enim non ligula
 efficitur venenatis et at metus. Duis turpis velit, lacinia interdum
 purus ac, venenatis semper lacus. Aenean mattis fermentum odio ut
 suscipit.
->
+
 Vestibulum vehicula lobortis diam et pretium. Duis in aliquet tellus.
 Phasellus tincidunt odio id faucibus malesuada. Cum sociis natoque et
 magnis diss parturient montes, nascetur ridiculus mus. Integer euismod
 porta nibh sit amet efficitur. Phasellus porta vulputate. Proin
 placerat efficitur cursus. blandit tristique urna quis mollis. Duis
 erat lectus, gravida nec tellus eu, cursus laoreet.
->
+
 Maecenas in nisi mauris. In vitae justo posuere, tincidunt neque
 aultrices dui. Sed id bibendum
->
-[]{#_bookmark194 .anchor}metus. Vestibulum at tincidunt felis, in
+
+metus. Vestibulum at tincidunt felis, in
 efficitur libero.
->
+
 Mauris bibendum risus non condimentum gravida. Praesent sed dictum
 augue, sit amet massa. Curabitur sed hendrerit nisi. Nulla eget
 lacinia tortor, id sollicitudin risus. In hac habitasse dictumst.
 Mauris lorem dui, venenatis et eget, pretium auctor risus. Nulla
 congue bibendum. Phasellus nec lorem in ipsum facilisis scelerisque.
 Duis quis massa metus.
->
+
 Pellentesque commodo metus non bibendum aliquet. Duis pellentesque
 tempus. Mauris interdum lobortis massa vel sodales.
->
+
 Curabitur feugiat, magna quis ultricies, felis leo varius nulla, ut
 blandit libero quis urna. Morbi odio purus, ut elementum mauris sit
 amet. Fusce placerat scelerisque. Aliquam erat volutpat. Vestibulum
@@ -6738,12 +6728,11 @@ blandit vitae erat a sodales. Integer tristique risus eget lobortis.
 Aliquam luctus sed justo vel auctor. Nunc sit nulla eu est fringilla
 euismod sed orci. Sed massa lorem, blandit sed massa, condimentum
 ornare purus.&lt;/p&gt;
->
 &lt;/body&gt;
->
 &lt;/html&gt;
+```
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-32 .unnumbered}
+###### The output of the code is given below:
 
 2.  column-rule property: The column-rule CSS property specifies a
     straight line, "rule," to be drawn between each column. It is a
@@ -6753,43 +6742,30 @@ ornare purus.&lt;/p&gt;
 column-rule: &#91; column-rule-width column-rule-style column-rule-color
 &#93; &#124; initial &#124; inherit
 
-##### Example: {#example-44 .unnumbered}
+##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
->
 &lt;html lang=&#34;en&#34;&gt;
->
 &lt;head&gt;
->
 &lt;meta charset=&#34;utf-8&#34;&gt;
->
 &lt;title&gt;Example of CSS3 column-rule Property
->
 &lt;/title&gt;
->
 &lt;style&gt; p {
->
 column-count: 3; column-gap: 100px;
->
 column-rule: 2px solid red;
->
 }
->
 &lt;/style&gt;
->
 &lt;/head&gt;
->
 &lt;body&gt;
->
 &lt;h1&gt; CSS column-rule Property &lt;/h1&gt;
->
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
 bibendum nisi egestas suscipit gravida. Sed velit nisl, tristique sed
 dui mollis, porta tempus ligula. Phasellus vel orci vel arcu
 pellentesque fermentum. Duis bibendum metus arcu. Aliquam eget tortor
 vulputate, sollicitudin felis a, mollis libero. Aliquam vitae
 consequat, id blandit lectus.
->
+
 Integer ac nibh ac nulla tincidunt accumsan sit amet sit amet risus.
 Integer id nisl urna. In a enim elementum, auctor justo quis,
 tincidunt augue. Donec nibh dui, congue non neque quis, semper aliquam
@@ -6797,7 +6773,7 @@ felis. Praesent efficitur massa vel convallis euismod. metus lectus,
 consectetur sit amet justo in, venenatis faucibus nunc. faucibus, id
 egestas convallis, felis magna mattis est, in ultricies est urna ac
 nisl.
->
+
 Cras placerat quis tortor quis molestie. Nullam gravida velit eget
 sollicitudin. Nunc dictum pretium justo vel. auctor leo maximus leo
 aliquam, eget vehicula tortor tincidunt. Vestibulum finibus venenatis
@@ -6805,50 +6781,49 @@ dui, nec lobortis mauris convallis id. Maecenas porttitor erat tellus,
 at vulputate eros euismod a. In aliquam, et bibendum consequat, eros
 felis ultricies lorem, ac fermentum arcu in. Integer auctor sapien a
 massa, et suscipit sapien sollicitudin. Maecenas vel hendrerit nibh.
->
+
 Curabitur convallis interdum ornare. Curabitur justo nibh, pretium ac
 vitae, consectetur sit amet orci. Nunc non enim non ligula efficitur
 venenatis et at metus. Duis turpis velit, lacinia interdum purus ac,
 semper. Aenean mattis fermentum ut suscipit.
->
+
 Vestibulum vehicula lobortis diam et pretium. Duis in aliquet tellus.
 Phasellus tincidunt odio id faucibus malesuada. Cum sociis natoque
 magnis dis parturient montes, nascetur ridiculus mus. Integer porta
 nibh sit amet efficitur. blandit porta vulputate. Proin placerat
 efficitur cursus. Fusce blandit tristique urna quis mollisDuis erat
 lectus, gravida nec tellus eu, cursus laoreet augue.
->
+
 Maecenas in nisi mauris. In vitae justo posuere, tincidunt neque a,
 ultrices dui. Sed id bibendum metus. Vestibulum at tincidunt felis, in
 efficitur libero.
->
+
 Mauris bibendum risus non condimentum gravida. Praesent sed dictum
 augue, sit amet sollicitudin massa. Curabitur sed hendrerit nisi.
 Nulla eget lacinia tortor, id sollicitudin risus. In hac habitasse
 platea dictumst. Mauris lorem dui, venenatis et massa eget, pretium
 auctor risus. Nulla congue bibendum hendrerit.
->
+
 Phasellus nec lorem in ipsum facilisis scelerisque. Duis quis massa
 metus. Pellentesque commodo metus non bibendum aliquet. Duis
 pellentesque tempus posuere. Mauris interdum lobortis massa vel
 sodales.
->
+
 Curabitur feugiat, magna quis ultricies dignissim, felis leo varius
 nulla, ut blandit arcu libero quis urna. sollicitudin odio purus, ut
 elementum mauris feugiat sit amet. Fusce placerat scelerisque turpis.
 Aliquam erat volutpat. Vestibulum blandit vitae erat a.
->
+
 Integer semper tristique risus eget lobortis. Aliquam luctus sed justo
 vel auctor. Nunc sit nulla eu est fringilla euismod sed ac. Sed
->
-[]{#_bookmark195 .anchor}massa lorem, blandit sed massa quis,
-condimentum ornare purus.&lt;/p&gt;
->
-&lt;/body&gt;
->
-&lt;/html&gt;
 
-###### The output of the code given is below: {#the-output-of-the-code-given-is-below .unnumbered}
+massa lorem, blandit sed massa quis,
+condimentum ornare purus.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+```
+
+###### The output of the code given is below:
 
 ![](./images/image047.png){width="4.091145013123359in"
 height="1.2005205599300088in"}
@@ -6879,39 +6854,26 @@ The syntax of this property is given as:
 >
 column-rule-color: color &#124; initial &#124; inherit
 
-##### Example: {#example-45 .unnumbered}
+##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
->
 &lt;html lang=&#34;en&#34;&gt;
->
 &lt;head&gt;
->
 &lt;meta charset=&#34;utf-8&#34;&gt;
->
 &lt;title&gt; &lt;/title&gt;
->
 &lt;style&gt; p {
->
 column-count: 3; column-gap: 100px;
->
 column-rule-color: red; column-rule-width: 2px; column-rule-style:
 solid;
->
 }
->
 &lt;/style&gt;
->
 &lt;/head&gt;
->
 &lt;body&gt;
->
 &lt;h1&gt;
->
 CSS3 column-rule-width,column-rule-color, column-rule-style Property
->
 &lt;/h1&gt;
->
+
 &lt;p&gt;Lorem ipsum dolor sit amet, adipiscing elit. Ut bibendum nisi
 egestas suscipit gravida. velit nisl, tristique sed dui mollis, porta
 tempus ligula. Phasellus vel orci vel arcu pellentesque fermentum.
@@ -6919,84 +6881,83 @@ Duis bibendum metus arcu. Aliquam eget tortor vulputate, sollicitudin
 a, mollis libero. Aliquam vitae sapien, id blandit lectus. Integer ac
 nibh ac nulla tincidunt accumsan sit amet sit amet risus. Integer id
 nisl urna. In a enim elementum, auctor justo quis, tincidunt augue.
->
+
 Donec nibh dui, congue non neque quis, aliquam felis. Praesent
 efficitur massa vel convallis euismod. Quisque metus lectus,
 consectetur sit amet justo in, venenatis faucibus nunc. Aenean
 faucibus, enim id egestas convallis, felis magna mattis est, in
 ultricies est urna ac nisl.
->
+
 Cras placerat quis tortor quis molestie.
->
+
 Nullam imperdiet gravida velit eget sollicitudin. Nunc dictum pretium
 justo vel congue. Praesent auctor leo maximus leo aliquam, eget
 vehicula tortor tincidunt. Vestibulum finibus venenatis dui, nec
 lobortis mauris convallis id. Maecenas porttitor erat tellus, at
->
+
 vulputate eros euismod a. In aliquam, dolor et bibendum consequat,
 eros felis ultricies lorem, ac fermentum arcu metus in magna. Integer
 auctor sapien a massa porta, et suscipit sapien sollicitudin. Maecenas
 vel hendrerit nibh.
->
+
 Curabitur convallis interdum ornare. Curabitur justo nibh, pretium ac
 convallis vitae, consectetur sit amet orci. Nunc non enim non ligula
 efficitur venenatis et at metus. Duis turpis velit, lacinia interdum
 purus ac, venenatis semper lacus. Aenean mattis fermentum odio ut
 suscipit.
->
+
 Vestibulum vehicula lobortis diam et pretium. Duis in aliquet tellus.
 Phasellus tincidunt odio id faucibus malesuada. Cum sociis natoque
 magnis dis parturient montes, nascetur ridiculus mus. Integer euismod
 porta nibh sit amet efficitur. Phasellus blandit porta vulputate.
 Proin placerat efficitur cursus.
->
+
 Fusce blandit tristique urna quis mollis. Duis erat lectus, gravida
 nec tellus eu, cursus laoreet augue. Maecenas in nisi mauris. In vitae
 justo posuere, tincidunt neque a, ultrices dui. Sed id bibendum metus.
 Vestibulum at tincidunt felis, in efficitur libero.
->
+
 Mauris bibendum risus non condimentum gravida. Praesent sed dictum
 augue, sit amet sollicitudin massa. Curabitur sed hendrerit nisi.
 Nulla eget lacinia tortor, id sollicitudin risus. In hac habitasse
 platea dictumst. Mauris lorem dui, venenatis et massa eget, pretium
 auctor risus. Nulla congue bibendum hendrerit.
->
+
 Phasellus nec lorem in ipsum facilisis scelerisque. Duis quis massa
 metus. Pellentesque commodo metus non bibendum aliquet. Duis
 pellentesque tempus posuere. Mauris interdum lobortis massa vel
 sodales.
->
+
 Curabitur feugiat, magna quis ultricies dignissim, felis leo varius
 nulla, ut blandit arcu libero quis urna. Morbi sollicitudin odio
->
-[]{#_bookmark196 .anchor}purus, ut elementum mauris feugiat sit amet.
+
+purus, ut elementum mauris feugiat sit amet.
 Fusce placerat scelerisque turpis. erat volutpat. Vestibulum blandit
 vitae erat a sodales. Integer semper tristique risus eget lobortis.
 Aliquam luctus sed justo vel auctor. Nunc sit amet nulla eu est
 fringilla euismod sed ac orci. Sed massa lorem, blandit sed massa
 quis, condimentum ornare purus.&lt;/p&gt;
->
 &lt;/body&gt;
->
 &lt;/html&gt;
+```
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-33 .unnumbered}
+###### The output of the code is given below:
 
 ![](./images/image048.png){width="4.415624453193351in"
 height="1.2909372265966754in"}
 
 CSS various column property.
 
-### [CSS OUTLINE PROPERTIES]{.underline}  {#css-outline-properties .unnumbered}
+### [CSS OUTLINE PROPERTIES]
 
 ###### outline property: The outline property sets the width, style, and color for all four sides of an element's outline. It is a property for set- ting the individual outline, that is, outline-width, outline-style, and outline-color in a single declaration.
 
 The syntax of this property is given as:
->
+
 outline: &#91; outline-width outline-style outline- color &#93; &#124; initial
 &#124; inherit
 
-##### Example: {#example-46 .unnumbered}
+##### Example:
 
 &lt;!DOCTYPE html&gt;
 >
@@ -7075,7 +7036,7 @@ Duis bibendum metus arcu.
 >
 &lt;/html&gt;
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-34 .unnumbered}
+###### The output of the code is given below:
 
 ![](./images/image049.png){width="3.7734372265966756in"
 height="1.61in"}
@@ -7091,11 +7052,11 @@ outline-width: thin &#124; medium &#124; thick &#124; length &#124; initial &#12
 ###### outline-style property: The outline style property sets style of the outline of an element. However, in many cases the shorthand prop- erties outline is more convenient to use and preferable.
 
 The syntax of this property is given as:
->
+
 outline-style: none &#124; dotted &#124; dashed &#124; double &#124; groove &#124; ridge
 &#124; inset &#124; outset &#124; initial &#124; inherit
 
-##### Example: {#example-47 .unnumbered}
+##### Example:
 
 &lt;!DOCTYPE html&gt;
 >
@@ -7174,131 +7135,91 @@ Phasellus vel orci vel arcu fermentum. Duis metus arcu.
 &lt;/p&gt;
 >
 &lt;h1&gt;
->
 CSS outline-color Property
->
 &lt;/h1&gt;
->
 &lt;p class=&#34;three&#34;&gt;Lorem ipsum dolor sit amet, consectetur
 adipiscing elit. Ut bibendum nisi egestas suscipit
->
 gravida. Sed velit nisl, tristique sed dui mollis, porta tempus
 ligula.
->
 Phasellus vel orci vel arcu pellentesque fermentum. Duis bibendum
 metus arcu.
->
 &lt;/p&gt;
->
 &lt;/div&gt;
->
 &lt;/body&gt;
->
 &lt;/html&gt;
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-35 .unnumbered}
+###### The output of the code is given below:
 
 ![](./images/image050.png){width="4.125in" height="3.465in"}
 
 CSS various outline property.
 
-### CSS PADDING {#css-padding-1 .unnumbered}
+### CSS PADDING
 
-###### The padding CSS property sets the margin on all four sides of the element. It is a property used for padding-top, padding-right, padding-bottom, and padding-left properties. {#the-padding-css-property-sets-the-margin-on-all-four-sides-of-the-element.-it-is-a-property-used-for-padding-top-padding-right-padding-bottom-and-padding-left-properties. .unnumbered}
+###### The padding CSS property sets the margin on all four sides of the element. It is a 
+property used for padding-top, padding-right, padding-bottom, and padding-left properties.
 
 The syntax of this property is given as:
->
+
+```
 padding : &#91; length &#124; percentage &#124; auto &#93; 1 to 4 values
->
 &#124; initial &#124; inherit
+```
 
-##### Example: {#example-48 .unnumbered}
+##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
->
 &lt;html&gt;
->
 &lt;head&gt;
->
 &lt;style&gt;
->
 .demo_container{ width:600px; margin:0 auto;
->
 text-align: center; justify-content: center; border:1px solid red ;
 align-items: center;
->
 }
->
 .text-1 {
->
 border-style: solid;
->
 padding: 25px;
->
 }
->
 .text-2{
->
 border-style: solid;
->
 padding: 20px 20px 20px 20px;
->
 }
->
 .text-3{
->
 border-style: solid; padding: 30px 30px;
->
 }
->
 .text-4{
->
 border-style: solid; padding: 30px 0px 30px 0px ;
->
 }
->
 &lt;/style&gt;
->
 &lt;/head&gt;
->
 &lt;body&gt;
->
 &lt;div class=&#34;demo_container&#34;&gt;
->
 &lt;h1&gt;CSS padding Property &lt;/h1&gt;
->
 &lt;p class=&#34;text-1&#34;&gt;Lorem dolor sit amet consectetur adipisicing
 elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae
 consequuntur voluptatum laborum numquam blanditiis harum quisquam eius
 sed odit fugiat iusto fuga praesentium optio, eaque rerum!&lt;/h1&gt;
 &lt;br&gt;
->
 &lt;br&gt;
->
 &lt;p class=&#34;text-2&#34;&gt; Provident similique accusantium nemo autem.
 obcaecati tenetur iure eius earum ut molestias architecto voluptate
 aliquam nhil, eveniet aliquid culpa officia aut!.
->
 &lt;/p&gt; &lt;br&gt;
->
 &lt;br&gt;
->
 &lt;p class=&#34;text-3&#34;&gt;Lorem ipsum dolor sit amet adipisicing elit.
 Maxime mollitia, molestiae quas vel sint commodi repudiandae
 consequuntur voluptatum laborum numquam blanditiis harum quisquam eius
 sed odit fugiat iusto fuga praesentium optio, eaque rerum!&lt;/h1&gt;
 &lt;br&gt;
->
 &lt;br&gt;
->
 &lt;p class=&#34;text-4&#34;&gt; similique accusantium nemo autem. Veritatis
 tenetur iure eius earum ut molestias architecto voluptate aliquam
 nihil, eveniet aliquid culpa aut!. &lt;/p&gt;&lt;br&gt;
->
 &lt;/body&gt;
->
 &lt;/html&gt;
->
+```
+
 This notation can take one, two, three, or four whitespace-separated
 values.
 
@@ -7318,137 +7239,104 @@ right, padding-bottom, padding-left.
 
 ##### Example: {#example-49 .unnumbered}
 
+```
 &lt;!DOCTYPE html&gt;
->
 &lt;html&gt;
->
 &lt;head&gt;
->
 &lt;style&gt;
->
 .demo_container{ width:600px; margin:0 auto;
->
 text-align: center; justify-content: center; border: 2px solid black;
 align-items: center;
->
 }
->
 .text-1 {
->
 border:1px solid red ; padding-top: 25px;
->
 }
->
 .text-2{
->
 border:1px solid red ; padding-right: 20px ;
->
 }
->
 .text-3{
->
 border:1px solid red ; padding-bottom: 20px;
->
 }
->
 .text-4{
->
 border:1px solid red ; padding-left: 30px ;
->
 }
->
 &lt;/style&gt;
->
 &lt;/head&gt;
->
 &lt;body&gt;
->
 &lt;div class=&#34;demo_container&#34;&gt;
->
 &lt;h1&gt; CSS margin - Property (padding top, padding right, padding
 bottom, padding-left) &lt;/h1&gt;
->
 &lt;p class=&#34;text-1&#34;&gt;Lorem ipsum sit amet consectetur adipisicing
 elit. Maxime mollitia,
->
-[]{#_bookmark201 .anchor}molestiae quas vel sint commodi repudiandae
+molestiae quas vel sint commodi repudiandae
 consequuntur voluptatum laborum numquam blanditiis harum quisquam eius
 sed odit fugiat iusto fuga praesentium optio, eaque rerum!&lt;/h1&gt;
 &lt;br&gt;
->
 &lt;br&gt;
->
 &lt;p class=&#34;text-2&#34;&gt; Provident similique accusantium autem.
 obcaecati tenetur eius
->
 earum ut molestias architecto voluptate aliquam nhil, eveniet aliquid
 culpa officia aut!.
->
 &lt;/p&gt; &lt;br&gt;
->
 &lt;br&gt;
->
 &lt;p class=&#34;text-3&#34;&gt;Lorem ipsum dolor sit consectetur adipisicing
 elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae
 consequuntur voluptatum laborum numquam blanditiis harum quisquam eius
 sed odit fugiat iusto fuga praesentium optio, eaque rerum!&lt;/h1&gt;
 &lt;br&gt;
->
 &lt;br&gt;
->
 &lt;p class=&#34;text-4&#34;&gt; Provident similique nemo autem. Veritatis
 tenetur iure eius earum ut molestias architecto voluptate aliquam
 nihil, eveniet culpa officia aut! .&lt;/p&gt;&lt;br&gt;
->
 &lt;/body&gt;
->
 &lt;/html&gt;
+```
 
-### [CSS PRINT PROPERTIES]{.underline}  {#css-print-properties .unnumbered}
+### [CSS PRINT PROPERTIES]
 
 ###### page-break-after property: The page-break-after CSS property inserts page breaks after an element when printing a document. This property applies to block-level elements that generate a box. It won't apply on an empty &lt;p&gt; that won't generate a box. The syntax of this Property is given as:
 
 page-break-after: auto &#124; always &#124; avoid &#124; left &#124; right &#124; initial
 &#124; inherit
 
-##### Example: {#example-50 .unnumbered}
+##### Example:
 
 &lt;!DOCTYPE html&gt;
->
+
 &lt;html&gt;
->
+
 &lt;head&gt;
->
+
 &lt;meta charset=&#34;utf-8&#34;&gt;
->
+
 &lt;title&gt;Example of page-break-after property
->
+
 &lt;/title&gt;
->
+
 &lt;style&gt;
->
+
 &#64;media print{
->
+
 p.footnotes {
->
+
 page-break-after: always; text-align: center;
->
+
 }
->
+
 }
->
+
 &lt;/style&gt;
->
+
 &lt;/head&gt;
->
+
 &lt;body&gt;
->
+
 &lt;h1&gt; CSS page-break-after Property &lt;/h1&gt;
->
+
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If you open theprint (or print
 preview) the page, you will see there is always a page break after the
 footnotes.&lt;/p&gt;
->
+
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
 egestas lacinia dolor vel semper. Curabitur auctor pulvinar erat, et
 sollicitudin augue cursus ut. Fusce eget erat at sem fermentum mattis
@@ -7456,30 +7344,29 @@ porta id dui. Donec accumsan ligula sit amet diam ultrices iaculis
 sagittis felis vulputate. Vestibulum eget magna ut libero adipiscing
 congue vel quis quam. In dui dolor, placerat imperdiet molestie ut,
 tristique a dui. Duis consectetur nunc id lectus interdum imperdiet.
->
+
 Sed sit amet nulla tempus erat suscipit dictum. Morbi vitae fringilla
 sapien. Morbi ac leo quis nisl volutpat rhoncus. Donec adipiscing
 neque ut lectus congue imperdiet sit amet sed mauris. Suspendisse orci
 urna, vestibulum eget lacinia quis, varius vitae nibh.&lt;/p&gt;
->
+
 Proin lectus lacus, feugiat sed pharetra molestie, iaculis nec leo.
 Integer vulputate scelerisque dui, vel tincidunt purus pharetra nec.
 Donec quis sapien nisl. Ut interdum lobortis tempus. Aenean dictum
 suscipit risus. Aliquam ac consequat neque. Suspendisse et sapien ac
 leo vestibulum ornare. Mauris mattis
->
-[]{#_bookmark203 .anchor}cursus nibh, euismod vestibulum ipsum
+cursus nibh, euismod vestibulum ipsum
 lobortis sit amet. Sed sagittis tellus ac tellus suscipit commodo.
 Integer molestie, orci id gravida mollis, ante lectus bibendum enim,
 dictum fermentum ipsum arcu et tellus.&lt;/p&gt;
->
+
 &lt;p class=&#34;footnotes&#34;&gt;-: The End :-&lt;/p&gt;
->
+
 &lt;/body&gt;
->
+
 &lt;/html&gt;
 
-###### The result of the code is given below: {#the-result-of-the-code-is-given-below .unnumbered}
+###### The result of the code is given below:
 
 ![](./images/image051.png){width="4.101561679790026in"
 height="2.598957786526684in"}
@@ -7491,7 +7378,7 @@ I.  We have two more properties in the print section, they are:
 
 II. page-break-inside property
 
-### [CSS TABLE PROPERTIES]{.underline}  {#css-table-properties .unnumbered}
+### [CSS TABLE PROPERTIES]
 
 1.  border-collapse property: The border-collapse CSS property specifies
     whether the cell borders of a table are collapsed in a single border
@@ -7506,7 +7393,7 @@ The syntax of this property is given as:
 >
 border-collapse: separate &#124; collapse &#124; initial &#124; inherit
 
-##### Example: {#example-51 .unnumbered}
+##### Example:
 
 &lt;!DOCTYPE html&gt;
 >
@@ -7614,7 +7501,7 @@ border: 1px solid black;
 >
 &lt;/html&gt;
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-36 .unnumbered}
+###### The output of the code is given below:
 
 ![](./images/image052.png){width="2.7890616797900263in"
 height="2.2031244531933507in"}
@@ -7624,109 +7511,63 @@ CSS border collapse -- with and without.
 ###### border-spacing property: The border-spacing CSS property sets the spacing between the borders of adjacent cells using the border model. If the border model is used, the property is ignored. Here see the border-collapse property.
 
 The syntax of this property is given as:
->
+
 border-spacing: &#91; length &#93; 1 or 2 values &#124; initial &#124; inherit
 
-##### Example: {#example-52 .unnumbered}
+##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
->
 &lt;html&gt;
->
 &lt;head&gt;
->
 &lt;style&gt;
->
 .demo_container{ width:400px; margin:0 auto;
->
 text-align: center; justify-content: center; align-items: center;
->
 }
->
 table {
-
 }
-
 border-collapse: separate;
->
 table, th, td {
->
 border: 1px solid black;
->
 }
->
 table.one {
->
 border-spacing: 25px;
->
 }
->
 table.two {
->
 border-spacing: 10px 20px;
->
 }
->
 &lt;/style&gt;
->
 &lt;/style&gt;
->
 &lt;/head&gt;
->
 &lt;body&gt;
->
 &lt;div class=&#34;demo_container&#34;&gt;
->
 &lt;h1&gt; CSS Border-spacing Propterty &lt;/h1&gt;
->
 &lt;table class=&#34;one&#34;&gt;
->
 &lt;tr&gt;
->
 &lt;th&gt;Name&lt;/th&gt;
->
 &lt;th&gt;Email&lt;/th&gt;
->
 &lt;/tr&gt;
->
 &lt;tr&gt;
->
 &lt;td&gt;ABC Carter&lt;/td&gt;
->
 &lt;td&gt;<abcd@mail.com>&lt;/td&gt;
->
 &lt;/tr&gt;
->
 &lt;/table&gt;
->
 &lt;p&gt;&lt;strong&gt;One-value syntax:&lt;/strong&gt; the single value sets the
 both horizontal and vertical border spacing.&lt;/p&gt;
->
 &lt;br&gt;
->
 &lt;table class=&#34;two&#34;&gt;
->
 &lt;tr&gt;
->
 &lt;th&gt;Name&lt;/th&gt;
->
 &lt;th&gt;Email&lt;/th&gt;
->
 &lt;/tr&gt;
->
 &lt;tr&gt;
->
 &lt;td&gt; ABC Parker&lt;/td&gt;
->
 &lt;td&gt;<abc@mail.com>&lt;/td&gt;
->
 &lt;/tr&gt;
->
 &lt;/table&gt;
->
 &lt;/body&gt;
->
 &lt;/html&gt;
+```
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-37 .unnumbered}
 
@@ -7738,126 +7579,72 @@ CSS border-spacing property.
 ###### caption-side property: The caption-side CSS property sets the verti- cal position of the table caption box. To align caption text horizon- tally within the caption box, use the text-align property.
 
 The syntax of this property is given as:
->
+
 caption-side: top &#124; bottom &#124; initial &#124; inherit
 
-##### Example: {#example-53 .unnumbered}
+##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
->
 &lt;html&gt;
->
 &lt;head&gt;
->
 &lt;style&gt;
->
 .demo_container{ width:400px; margin:0 auto;
->
 text-align: center; justify-content: center; align-items: center;
->
 }
->
 table {
-
 }
-
 border-collapse: separate; width:100%
->
 table, th, td {
->
 border: 1px solid black;
->
 }
->
 table.one {
->
 border-spacing: 25px;
->
 }
->
 table.two {
->
 border-spacing: 10px 20px;
->
 }
->
 caption.one {
->
 caption-side: bottom; font-size: 24px;
->
 border-bottom: 1px purple solid; padding: 20px
->
 }
->
 caption.two { caption-side: top; font-size: 24px;
->
 border-bottom: 1px purple solid; padding: 20px
->
 }
->
 &lt;/style&gt;
->
 &lt;/style&gt;
->
 &lt;/head&gt;
->
 &lt;body&gt;
->
 &lt;div class=&#34;demo_container&#34;&gt;
->
 &lt;h1&gt; CSS caption Property &lt;/h1&gt;
->
 &lt;table class=&#34;one&#34;&gt;
->
 &lt;caption class=&#34;one&#34;&gt;Table 1 - User Details (Bottom)&lt;/caption&gt;
->
 &lt;tr&gt;
->
 &lt;th&gt;Name&lt;/th&gt;
->
 &lt;th&gt;Email&lt;/th&gt;
->
 &lt;/tr&gt;
->
 &lt;tr&gt;
->
 &lt;td&gt;ABC Carter&lt;/td&gt;
->
 &lt;td&gt;<abcd@mail.com>&lt;/td&gt;
->
 &lt;/tr&gt;
->
 &lt;/table&gt;
->
 &lt;br&gt;
->
 &lt;table class=&#34;two&#34;&gt;
->
 &lt;caption class=&#34;two&#34;&gt;Table 1 - User Details (Top)&lt;/caption&gt;
->
 &lt;tr&gt;
->
 &lt;th&gt;Name&lt;/th&gt;
->
 &lt;th&gt;Email&lt;/th&gt;
->
 &lt;/tr&gt;
->
 &lt;tr&gt;
->
 &lt;td&gt; ABC Parker&lt;/td&gt;
->
 &lt;td&gt;<abc@mail.com>&lt;/td&gt;
->
 &lt;/tr&gt;
->
 &lt;/table&gt;
->
 &lt;/body&gt;
->
 &lt;/html&gt;
+```
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-38 .unnumbered}
+###### The output of the code is given below:
 
 ![](./images/image054.png){width="2.0587489063867017in"
 height="2.2190616797900264in"}
@@ -7877,129 +7664,71 @@ i.  show It is borders and backgrounds that are drawn around empty cells
 
 ii. hide There are no borders or backgrounds drawn around empty cells.
 
-##### Example: {#example-54 .unnumbered}
+##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
->
 &lt;html&gt;
->
 &lt;head&gt;
->
 &lt;style&gt;
->
 .demo_container{ width:400px; margin:0 auto;
->
 text-align: center;
->
 justify-content: center; align-items: center;
->
 }
->
 table {
->
 border-collapse: separate; width:100%
->
 }
->
 table, th, td {
->
 border: 1px solid black;
->
 }
->
 table.one {
->
 border-spacing: 25px;
->
 }
->
 table.two {
->
 border-spacing: 10px 20px;
->
 }
->
 table.one {
->
 empty-cells: show;
->
 }
->
 table.two {
->
 empty-cells: hide;
->
 }
->
 &lt;/style&gt;
->
 &lt;/style&gt;
->
 &lt;/head&gt;
->
 &lt;body&gt;
->
 &lt;div class=&#34;demo_container&#34;&gt;
->
 &lt;h1&gt; CSS empty-cell Property &lt;/h1&gt;
->
 &lt;h2&gt; Table 1 &lt;/h2&gt;
->
 &lt;table class=&#34;one&#34;&gt;
->
 &lt;tr&gt;
->
 &lt;th&gt;A&lt;/th&gt;
->
 &lt;th&gt;B&lt;/th&gt;
->
 &lt;th&gt;C&lt;/th&gt;
->
 &lt;/tr&gt;
->
 &lt;tr&gt;
->
 &lt;th&gt;AA&lt;/th&gt;
->
 &lt;th&gt;BB&lt;/th&gt;
->
 &lt;th&gt;&lt;/th&gt;
->
 &lt;/tr&gt;
->
 &lt;/table&gt;
->
 &lt;br&gt;
->
 &lt;h2&gt; Table 2 &lt;/h1&gt;
->
 &lt;table class=&#34;two&#34;&gt;
->
 &lt;tr&gt;
->
 &lt;th&gt;A&lt;/th&gt;
->
 &lt;th&gt;B&lt;/th&gt;
->
 &lt;th&gt;C&lt;/th&gt;
->
 &lt;/tr&gt;
->
 &lt;tr&gt;
->
 &lt;th&gt;AA&lt;/th&gt;
->
 &lt;th&gt;&lt;/th&gt;
->
 &lt;th&gt;CC&lt;/th&gt;
->
 &lt;/tr&gt;
->
 &lt;/table&gt;
->
 &lt;/body&gt;
->
 &lt;/html&gt;
+```
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-39 .unnumbered}
 
@@ -14996,7 +14725,7 @@ color: black;
 }
 ```
 
-###### It will be compiled as: {#it-will-be-compiled-as .unnumbered}
+###### It will be compiled as:
 
 ```
 a.  { }
@@ -15058,8 +14787,7 @@ Installation:
 Gulp (gulp-postcss)
 ```
 
-PostCSS gulp plugin to pipe CSS through several plugins, but parse CSS
-only once.
+PostCSS gulp plugin to pipe CSS through several plugins, but parse CSS only once.
 
 Installation of gulp-postcss:
 
@@ -15069,7 +14797,8 @@ Installation of gulp-postcss:
 
 *Basic*
 
-###### The configuration is loaded by own from postcss.config.js as described here, so you don't have to specify any options. 
+###### The configuration is loaded by own from postcss.config.js as described here, so 
+you don't have to specify any options. 
 
 ```
 var postcss = require(&#39;gulp-postcss&#39;); var gulp = require(&#39;gulp&#39;);
@@ -15079,7 +14808,7 @@ gulp.task(&#39;css&#39;, function () { return gulp.src(&#39;./src/&#42;.css&#39;
 });
 ```
 
-###### Passing plugins directly using gulp: {#passing-plugins-directly-using-gulp .unnumbered}
+###### Passing plugins directly using gulp:
 
 ```
 var postcss = require(&#39;gulp-postcss&#39;); var gulp = require(&#39;gulp&#39;);
@@ -15094,7 +14823,7 @@ return gulp.src(&#39;./src/&#42;.css&#39;)
 });
 ```
 
-###### Grunt {#grunt .unnumbered}
+###### Grunt
 
 Now we will explain how to create a Gruntfile and install and use
 Grunt plugins. Once you are familiar with that process, you can
@@ -15104,12 +14833,13 @@ install this plu- gin with this command:
 &#36; npm install grunt-postcss &#45;-save-dev
 ```
 
-###### Once the plugin has been installed, then may enable inside Gruntfile with this line of JavaScript: 
+###### Once the plugin has been installed, then may enable inside Gruntfile with this line of JavaScript:
+
 ```
 grunt.loadNpmTasks(&#39;grunt-postcss&#39;);
 ```
 
-###### How to use the plugins in the code: {#how-to-use-the-plugins-in-the-code .unnumbered}
+###### How to use the plugins in the code:
 
 ```
 &#36; npm install grunt-postcss pixrem autoprefixer cssnano
@@ -15268,19 +14998,19 @@ grunt.registerTask(&#39;default&#39;, &#91;&#39;watch&#39;&#93;);
 
 Create a new Brunch project brunch new
 
-###### Install PostCSS: {#install-postcss .unnumbered}
+###### Install PostCSS:
 
 &#36; npm install &#45;-save postcss-brunch
 
-###### Install Autoprefixer: {#install-autoprefixer .unnumbered}
+###### Install Autoprefixer:
 
 &#36; npm install &#45;-save autoprefixer
 
-###### Install Lost: {#install-lost .unnumbered}
+###### Install Lost:
 
 &#36; npm install &#45;-save lost
 
-###### Update brunch-config.coffee {#update-brunch-config.coffee .unnumbered}
+###### Update brunch-config.coffee
 
 This will be file of export given below:
 
