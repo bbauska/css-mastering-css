@@ -1494,11 +1494,8 @@ file to make general changes to your entire website. Here are a few
 reasons why this is better.
 
 -   Easier Maintenance
-
 -   Reduced File Size
-
 -   Reduced Bandwidth
-
 -   Improved Flexibility
 
 ### CSS CLASSES
@@ -1825,7 +1822,6 @@ cyan darkblue dark cyan
 darkgoldenrod darkgray darkgreen dark khaki dark magenta
 darkolivegreen dark orange dark orchid
 RGB(240, 248, 255)
->
 RGB(250, 235, 215)
 RGB(0, 255, 255)
 RGB(127, 255, 212)
@@ -1859,8 +1855,7 @@ RGB(153, 50, 204)
 darkred darksalmon darkseagreen darkslateblue darkslategray dark
 turquoise dark violet deeppink deepskyblue dim gray dodgerblue
 rebrick floralwhite forest green fuchsia gainsboro ghostwhite gold
-ldenrod gray
-een greenyellow honeydew hotpink indianred indigo Ivory
+goldenrod gray green greenyellow honeydew hotpink indianred indigo Ivory
 khaki lavender lavender blush lawngreen lemon chiffon lightblue
 light coral light cyan
 lightgoldenrodyellow lightgreen
@@ -2010,7 +2005,9 @@ more specific choices. Here are some of the common types of selectors:
 
 ##### Syntax:
 
+```
 &lt;p&gt;
+```
 
 -   The CSS id selector: The selector id uses the id attribute of an
     element to select a particular element. The id is unique in a single
@@ -2020,7 +2017,9 @@ more specific choices. Here are some of the common types of selectors:
 
 ##### Syntax:
 
+```
 &lt;p id=&#34;my-id&#34;&gt; or &lt;a id=&#34;my-id&#34;&gt;
+```
 
 -   The CSS class selector: The selector class selects HTML elements
     with a specific class attribute. To select these elements with a
@@ -2029,16 +2028,20 @@ more specific choices. Here are some of the common types of selectors:
 
 ##### Syntax:
 
+```
 &lt;p class=&#34;my-class&#34;&gt; Add Some text &lt;/p&gt; and
 
 &lt;a class=&#34;my-class&#34;&gt; Add Some text&lt;/a&gt;
+```
 
 -   Attribute selector: The elements on the page with the particular
     attribute.
 
 ##### Syntax:
 
+```
 &lt;img src=&#34;myimage.png&#34;/&gt;
+```
 
 -   The CSS universal selector: The universal (&#42;) selects all HTML ele-
     ments on the page. To select these elements with a specific class,
@@ -2046,7 +2049,9 @@ more specific choices. Here are some of the common types of selectors:
 
 ##### Syntax:
 
+```
 &#42;
+```
 
 ##### Example:
 
@@ -2217,20 +2222,15 @@ the element (top, right, bottom, and left). CSS has paddling
 specifications for each element of the element:
 
 -   padding-top
-
 -   padding-right
-
 -   padding-floor
-
 -   padding-left
 
 All completion buildings may have the following values:
 
 -   length -- It specifies padding in px, pt, cm, etc.
-
 -   % -- It specifies padding in% of the width
     of the content.
-
 -   inheritance -- It specifies that padding should inherit from the
     parent element.
 
@@ -2244,12 +2244,9 @@ Description of different parts:
 
 -   Content -- The contents of the box, in which the text and images
     appear.
-
 -   Padding -- It clears the area around the content. The padding is
     obvious.
-
 -   Border -- A border around padding and content.
-
 -   Margin -- It can clear an area outside of the border. The margin is
     clear.
 
@@ -2277,46 +2274,32 @@ self-explanatory properties you can use. You can set the following
 font properties of an element:
 
 -   The font family property is used to change the writing of a font.
-
 -   The font style property is used to make a font italic or oblique.
-
 -   The font variant property is used to create a small-caps effect.
-
 -   The font weight property is used to increase or decrease how bold
     light a font appears.
-
 -   The font size property is used to increase or decrease the size of a
     font.
-
 -   The font property is used to specify the number of other font
     properties.
 
 ### [CSS TEXT]
 
 -   The property color is used to set the color of a text.
-
 -   The property direction is used to set the text direction.
-
 -   The letter-spacing property is used to add or subtract space between
     letters that make a word.
-
 -   The word-spacing property is used to add or subtract space between
     words of a sentence.
-
 -   The text indent property is used to indent the content of a
     paragraph.
-
 -   The text align property is used to align the content of a document.
-
 -   The text decoration property is used to underline, overline, and
     strik- ethrough text.
-
 -   The text-transform property is used to capitalize content or content
     text to uppercase or lowercase letters.
-
 -   The white space property is used to control the flow and formatting
     of text.
-
 -   The text-shadow property is used to set text shadow around a text.
 
 ### CSS FUNCTIONS
@@ -2337,111 +2320,58 @@ value to a plot.
 Here is a list of CSS functions in CSS3.
 
 -   attr()
-
 -   blur()
-
 -   brightness()
-
 -   calc()
-
 -   circle()
-
 -   contrast()
-
 -   counter()
-
 -   counters()
-
 -   cubic-bezier()
-
 -   drop-shadow()
-
 -   ellipse()
-
 -   filter()
-
 -   grayscale()
-
 -   HSL()
-
 -   hsla()
-
 -   hue-rotate()
-
 -   hwb()
-
 -   image()
-
 -   inset()
-
 -   invert()
-
 -   linear-gradient()
-
 -   matrix()
-
 -   matrix3d()
-
 -   opacity()
-
 -   perspective()
-
 -   polygon()
-
 -   radial-gradient()
-
 -   repeating-linear-gradient()
-
 -   repeating-radial-gradient()
-
 -   RGB()
-
 -   rgba()
-
 -   rotate()
-
 -   rotate3d()
-
 -   rotateX()
-
 -   rotateY()
-
 -   rotateZ()
-
 -   saturate()
-
 -   sepia()
-
 -   scale()
-
 -   scale3d()
-
 -   scaleX()
-
 -   scaleY()
-
 -   scaleZ()
-
 -   skew()
-
 -   skewX()
-
 -   skew()
-
 -   symbols()
-
 -   translate()
-
 -   translate3d()
-
 -   translateX()
-
 -   translateY()
-
 -   translateZ()
-
 -   URL()
-
 -   var()
 
 ### WHY FLEXBOX?
@@ -2479,15 +2409,10 @@ are flexible to fill in the blanks or to shrink into smaller spaces.
 The flex container properties are:
 
 -   flex-direction
-
 -   flex-wrap
-
 -   flex-flow
-
 -   justify-content
-
 -   align-items
-
 -   align-content
 
 ## CSS MEDIA TYPES
@@ -2567,27 +2492,18 @@ various types of devices such as printers, devices, computer screens,
 etc.
 
 -   all: It is used for all media-type devices.
-
 -   aural: It is used for speech and sound synthesizers.
-
 -   braille : It is used for tactile feedback devices.
-
 -   embossed: It is used for paged braille printers.
-
 -   handheld: It is used for small or handheld devices small screen
     devices such as mobile phones or PDAs.
-
 -   print: It is used for printers.
-
 -   projection: It is used for projected presentations, for example,
     projectors.
-
 -   screen: It is used primarily for color computer screens.
-
 -   tty: It is used for media using a fixed pitch character grid such as
     teletypes, terminals, and portable devices with limited display
     capabilities.
-
 -   tv: It is used for television-type devices with low resolution,
     color, limited scrollability screens, and sound available.
 
@@ -2607,8 +2523,9 @@ Here's a simple example of a typical media query for standard devices.
 For example, the following media quiz questions to see if the current
 web page is displayed as screen media (so it is not a printed
 document) and the viewing area is 800 pixels wide. CSS selector
-.container will only be used if these two are true.
 
+```
+.container will only be used if these two are true.
 /&#42; Smartphones (portrait and landscape) &#42;/
 &#64;media screen and (min-width: 320px) and (max-width: 480px){
 /&#42; styles &#42;/
@@ -2643,6 +2560,7 @@ document) and the viewing area is 800 pixels wide. CSS selector
 &#64;media screen and (min-width: 1824px){
 /&#42; styles &#42;/
 }
+```
 
 ### BENEFITS YOU MAY KNOW
 
@@ -2725,15 +2643,10 @@ CHAPTER 2
 ### [IN THIS CHAPTER]
 
 -   Introduction
-
 -   CSS Layouts (Properties)
-
 -   CSS Rules
-
 -   The &#64;keyframes Rule
-
 -   CSS Background Properties
-
 -   CSS Border Properties
 
 In the last chapter, we learned about the basics of CSS, its history,
@@ -3112,10 +3025,12 @@ animation-duration: time &#124; initial &#124; inherit
 
 ###### animation-timing-function property: : The animation-timing- function CSS property specifies how a CSS animation should prog- ress over the duration of each cycle. The syntax of this property is given as:
 
+```
 animation-timing-function: linear &#124; ease &#124; ease-in
 
 &#124; ease-out &#124; ease-in-out &#124; cubic-bezier(n,n,n,n) &#124; initial &#124;
 inherit
+```
 
 ###### animation-delay: It specifies a delay before the animation will start. The animation-delay CSS property defines when the animation will start. The value of this property can be specified in seconds (s) or milliseconds (ms).
 
@@ -3129,22 +3044,29 @@ animation-delay: time &#124; initial &#124; inherit
 
 The syntax of this property is given as:
 
+```
 animation-iteration-count: number &#124; infinite &#124; initial &#124; inherit
+```
 
-###### animation-direction property: The animation-direction CSS prop- erty specifies whether the animation should be played in reverse on alternate cycles or not.
+###### animation-direction property: The animation-direction CSS prop- erty specifies 
+whether the animation should be played in reverse on alternate cycles or not.
 
 The syntax of this property is given as:
 
+```
 animation-direction: normal &#124; reverse &#124; alternate
 &#124; alternate-reverse &#124; initial &#124; inherit
+```
 
 ###### animation-fill-mode property: The animation-fill-mode property defines how a CSS animation should apply styles to the target before and after it is executing.
 
 The syntax of this property is given as:
 
+```
 animation-fill-mode: none &#124; backwards &#124; forwards
 
 &#124; both &#124; initial &#124; inherit
+```
 
 ###### The following table defines the values of this property: 
 **Value Description**
