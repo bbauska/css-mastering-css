@@ -176,8 +176,15 @@ DOI: [10.1201/ 9781003358060](https://doi.org/10.1201/9781003358060)
 Typeset in Minion
 by KnowledgeWorks Global Ltd.
 *For Mom*
-![](./images/image006.png){width="3.6393208661417322in"
-height="0.9622911198600175in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 06.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image006.png?raw=true"
+  alt="."
+  title=""
+  style="width:3.6in" />
+</p>
+<!-- ![](./images/image006.png){width="3.6393208661417322in" height="0.9622911198600175in"}  -->
 
 # Contents
 
@@ -698,9 +705,15 @@ For more info, please visit
 [https://zeba.academy](https://zeba.academy/)
 
 **xvii**
-
-![](./images/image006.png){width="3.6393208661417322in"
-height="0.9622911198600175in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 06.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image006.png?raw=true"
+  alt="."
+  title=""
+  style="width:3.6in" />
+</p>
+<!-- ![](./images/image006.png){width="3.6393208661417322in" height="0.9622911198600175in"}  -->
 
 CHAPTER 1
 
@@ -1122,8 +1135,15 @@ element &lt;/h2&gt;
 &lt;html&gt;
 ```
 
-![](./images/image007.png){width="3.6140627734033246in"
-height="1.5131244531933508in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 07.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image007.png?raw=true"
+  alt="."
+  title=""
+  style="width:3.6in" />
+</p>
+<!-- ![](./images/image007.png){width="3.6140627734033246in" height="1.5131244531933508in"}  -->
 
 Example of simple CSS.
 
@@ -1380,8 +1400,15 @@ padding: 50px;
 }
 ```
 
-![](./images/image008.png){width="3.4790616797900262in"
-height="1.3331244531933508in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 08.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image008.png?raw=true"
+  alt="."
+  title=""
+  style="width:3.4in" />
+</p>
+<!-- ![](./images/image008.png){width="3.4790616797900262in" height="1.3331244531933508in"}  -->
 
 The external style sheet.
 
@@ -1442,8 +1469,15 @@ border: 1px solid black; border-radius: 20px; padding: 50px;
 &lt;html&gt;
 ```
 
-![](./images/image009.png){width="3.2265616797900263in"
-height="1.2395833333333333in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 09.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image009.png?raw=true"
+  alt="."
+  title=""
+  style="width:3.2in" />
+</p>
+<!-- ![](./images/image009.png){width="3.2265616797900263in" height="1.2395833333333333in"}  -->
 
 The internal style sheet.
 
@@ -1452,7 +1486,6 @@ The internal style sheet.
 ```
 &lt;div style=&#34;background-color: yellow&#34;&gt; This is inline text
 &lt;/div&gt;
-
 &lt;p style=&#34;color: #ff0000;&#34;&gt; This a red text&lt;/p&gt;
 ```
 
@@ -1477,8 +1510,15 @@ max-width:600px; max-width: auto;&#34;&gt;
 &lt;html&gt;
 ```
 
-![](./images/image010.png){width="3.6140780839895013in"
-height="1.35in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 10.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image010.png?raw=true"
+  alt="."
+  title=""
+  style="width:3.6in" />
+</p>
+<!-- ![](./images/image010.png){width="3.6140780839895013in" height="1.35in"}  -->
 
 The inline style sheet.
 
@@ -1776,8 +1816,15 @@ fames ac turpis egestas. &lt;/h2&gt;
 &lt;html&gt;
 ```
 
-![](./images/image011.png){width="4.4240791776028in"
-height="1.828124453193351in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 11.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image011.png?raw=true"
+  alt="."
+  title=""
+  style="width:4.4in" />
+</p>
+<!-- ![](./images/image011.png){width="4.4240791776028in" height="1.828124453193351in"}  -->
 
 Use of RGB in CSS.
 
@@ -11459,14 +11506,21 @@ bottom right, yellow, red) &lt;/p&gt;
 >
 &lt;/html&gt;
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-71 .unnumbered}
+###### The output of the code is given below:
 
-![](./images/image090.png){width="4.429687226596675in"
-height="4.1315616797900265in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 90.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image090.png?raw=true"
+  alt="."
+  title=""
+  style="width:4.4in" />
+</p>
+<!-- ![](./images/image090.png){width="4.429687226596675in" height="4.1315616797900265in"}  -->
 
 CSS Function (radial-gradient() () )
 
-#### repeating-linear-gradient() {#repeating-linear-gradient .unnumbered}
+#### repeating-linear-gradient()
 
 The CSS repeating-linear-gradient() allows to create a linear gradient
 that repeats over and over again infinitely in both directions. The
@@ -11642,18 +11696,28 @@ orange, gold 15%, orange 30%)
 >
 &lt;/html&gt;
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-72 .unnumbered}
+###### The output of the code is given below:
 
-![](./images/image091.png){width="4.429687226596675in"
-height="4.474687226596675in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 91.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image091.png?raw=true"
+  alt="."
+  title=""
+  style="width:4.2in" />
+</p>
+<!-- ![](./images/image091.png){width="4.429687226596675in" height="4.474687226596675in"}  -->
 
 CSS function (repeating-linear -gradient() () ).
 
-#### repeating-radial-gradient() {#repeating-radial-gradient .unnumbered}
+#### repeating-radial-gradient()
 
-###### The CSS repeating-radial-gradient() allows to create a radial gradient that repeats over and over again. CSS gradients allow you to apply mul- tiple bg colors to an element that blend from single color to the next. Repeating radial gradients are gradients where the color stops are repeated infinitely. Radial gradients have a circular or elliptical shape. When creating a radial gradient, indicate the center of the gradient as well as the size and shape. {#the-css-repeating-radial-gradient-allows-to-create-a-radial-gradient-that-repeats-over-and-over-again.-css-gradients-allow-you-to-apply-mul--tiple-bg-colors-to-an-element-that-blend-from-single-color-to-the-next.-repeating-radial-gradients-are-gradients-where-the-color-stops-are-repeated-infinitely.-radial-gradients-have-a-circular-or-elliptical-shape.-when-creating-a-radial-gradient-indicate-the-center-of-the-gradient-as-well-as-the-size-and-shape. .unnumbered}
-
-######  {#section-5 .unnumbered}
+###### The CSS repeating-radial-gradient() allows to create a radial gradient that 
+repeats over and over again. CSS gradients allow you to apply mul- tiple bg colors to 
+an element that blend from single color to the next. Repeating radial gradients are 
+gradients where the color stops are repeated infinitely. Radial gradients have a 
+circular or elliptical shape. When creating a radial gradient, indicate the center 
+of the gradient as well as the size and shape.
 
 **Syntax:** This function uses the same syntax as the
 radial-gradient() function, which is as follows:
@@ -11702,7 +11766,7 @@ The repeating-radial-gradient() function accepts the following values:
 
     -   center
 
-##### Example: {#example-91 .unnumbered}
+##### Example:
 
 &lt;!DOCTYPE html&gt;
 >
@@ -11865,222 +11929,156 @@ at 25px 35px, orange 15%, gold 40%)&lt;/p&gt;
 >
 &lt;/html&gt;
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-73 .unnumbered}
+###### The output of the code is given below:
 
-![](./images/image092.png){width="4.265624453193351in"
-height="5.893332239720035in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 92.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image092.png?raw=true"
+  alt="."
+  title=""
+  style="width:4.2in" />
+</p>
+<!-- ![](./images/image092.png){width="4.265624453193351in" height="5.893332239720035in"}  -->
 
 CSS function (repeating-radial -gradient() ).
 
-#### rgb() {#rgb .unnumbered}
+#### rgb()
 
 The rgb() function can be used to provide a value when using CSS. It
 allows to specify an RGB color value by specifying the red, green, and
 blue channels directly.
->
+
 RGB (stands for Red, Green, Blue) is a color model in which red,
 green, and blue light can be added together to reproduce a color.
->
+
 The RGB() accepts the RGB value as a parameter. The RGB function is
 provided as comma-separated three values. It provides red, green, and
 blue hues, respectively.
->
+
 Each of the three values can be provided as an integer or as a
 percentage.
 
-##### Example: {#example-92 .unnumbered}
+##### Example:
 
+```
 RGB(255,0,0) RGB(100%,0%,0%)
->
+```
+
 We can use the property on any element.
 
-##### Example: {#example-93 .unnumbered}
+##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
->
 &lt;html&gt;
->
 &lt;head&gt;
->
 &lt;style&gt;
->
 &#42; { padding:0; margin:0;
->
 box-sizing: border-box;
->
 }
->
 .demo_container{ padding:20px; width:900px; margin:0 auto;
->
 justify-content: center; align-items: center;
->
 }
->
 .row{
->
 display: flex; flex-wrap: wrap;
->
 flex-direction: row;
->
 }
->
 .col{ width:50%
->
 }
->
 p{
->
 height:50px
->
 }
->
 .image-1 {
->
 background: RGB(255,69,0); color: white;
->
 padding: 30px; height: 100px;
->
 }
->
 .image-2 {
->
 background: RGB(0,255,0); color: white;
->
 padding: 30px; height: 100px;
->
 }
->
 .image-3{
->
 background: RGB(0,0,128); color: white;
->
 padding: 30px; height: 100px;
->
 }
->
 .image-4{
->
 background: RGB(128,128,0); color: white;
->
 padding: 30px; height: 100px;
->
 }
->
 .image-5{
->
 background: RGB(255,0,0); color: white;
->
 padding: 30px; height: 100px;
->
 }
->
 .image-6{
->
 background: RGB(128,0,128); height: 100px;
->
 color: white; padding: 30px;
->
 }
->
 .image-7{
->
 background: RGB(255,0,70); height: 100px;
->
 color: white; padding: 30px;
->
 }
->
 .image-8{
->
 background: RGB(230,255,0); height: 100px;
->
 color: white; padding: 30px;
->
 }
->
 p{
->
 line-height: 2; font-size:24px;
->
 margin-bottom:10px
->
 }
->
 &lt;/style&gt;
->
 &lt;/head&gt;
->
 &lt;body&gt;
->
 &lt;div class=&#34;demo_container&#34;&gt;
->
 &lt;h2&gt;The rgb() function can be used to provide a color value when
 using CSS&lt;/h2&gt;
->
 &lt;div class=&#34;row&#34;&gt;
->
 &lt;div class=&#34;col&#34;&gt;
->
 &lt;p&gt; rgb(255,69,0) &lt;/p&gt;
->
 &lt;div class=&#34;image-1&#34;&gt; &lt;/div&gt;
->
 &lt;p&gt; rgb(0,255,0) &lt;/p&gt;
->
 &lt;div class=&#34;image-2&#34;&gt; &lt;/div&gt;
->
 &lt;p&gt; rgb(0,0,128) &lt;/p&gt;
->
 &lt;div class=&#34;image-3&#34;&gt; &lt;/div&gt;
->
 &lt;p&gt; rgb(230,255,0) &lt;/p&gt;
->
 &lt;div class=&#34;image-8&#34;&gt; &lt;/div&gt;
->
 &lt;/div&gt;
->
 &lt;div class=&#34;col&#34;&gt;
->
 &lt;p&gt; rgb(128,128,0) &lt;/p&gt;
->
 &lt;div class=&#34;image-4&#34;&gt; &lt;/div&gt;
->
 &lt;p&gt; rgb(255,0,0) &lt;/p&gt;
->
 &lt;div class=&#34;image-5&#34;&gt; &lt;/div&gt;
->
 &lt;p&gt; rgb(128,0,128)&lt;/p&gt;
->
 &lt;div class=&#34;image-6&#34;&gt; &lt;/div&gt;
->
 &lt;p&gt; rgb(255,0,70) &lt;/p&gt;
->
 &lt;div class=&#34;image-7&#34;&gt; &lt;/div&gt;
->
 &lt;/div&gt;
->
 &lt;/div&gt;
->
 &lt;/div&gt;
->
 &lt;/body&gt;
->
 &lt;/html&gt;
+```
 
 ###### The output of the code is given below:
 
-![](./images/image093.png){width="4.429692694663167in"
-height="3.3975in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 93.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image093.png?raw=true"
+  alt="."
+  title=""
+  style="width:4.4in" />
+</p>
+<!-- ![](./images/image093.png){width="4.429692694663167in" height="3.3975in"}  -->
 
 CSS function (RGB () ).
 
-#### rotate() {#rotate .unnumbered}
+#### rotate()
 
 The CSS rotate() is used to rotate elements in two-dimensional space.
 The rotate() rotates an element based on the angle that you provide as
 an argument. You can also provide the angle using any valid CSS angle
 value.
->
+
 There are various properties used in rotate such as:
 
 1.  Degrees
@@ -12089,7 +12087,7 @@ There are various properties used in rotate such as:
 
 3.  Turns
 
-##### Example: {#example-94 .unnumbered}
+##### Example:
 
 &lt;!DOCTYPE html&gt;
 >
@@ -12241,26 +12239,38 @@ two-dimensional space.&lt;/h2&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-75 .unnumbered}
 
-![](./images/image094.png){width="4.429687226596675in"
-height="2.2725in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 94.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image094.png?raw=true"
+  alt="."
+  title=""
+  style="width:4.4in" />
+</p>
+<!-- ![](./images/image094.png){width="4.429687226596675in" height="2.2725in"}  -->
 
 CSS function (rotate() ).
 
-#### rotate3d() {#rotate3d .unnumbered}
+#### rotate3d()
 
-###### The rotate3d() function is used to rotate elements in three-dimensional space. The rotate3d() function rotates the element along the x, y, and z axes using the angle provided as an argument. {#the-rotate3d-function-is-used-to-rotate-elements-in-three-dimensional-space.-the-rotate3d-function-rotates-the-element-along-the-x-y-and-z-axes-using-the-angle-provided-as-an-argument. .unnumbered}
+###### The rotate3d() function is used to rotate elements in three-dimensional space. 
+The rotate3d() function rotates the element along the x, y, and z axes using the angle 
+provided as an argument.
 
 The syntax of the rotate3d() function is as follows:
->
+
+```
 rotate3d() = rotate3d( &lt;number&gt;, &lt;number&gt;, &lt;number&gt;,
->
 &lt;angle&gt; ).
->
+```
+
 The first three parameters describe the &#91;x, y, z&#93; direction vectors.
 The fourth parameter specifies the angle to be used. It works like
 this:
->
+
+```
 rotate3d(x, y, z, a)
+```
 
 -   x: It describes the x-coordinate of the vector denoting the axis of
     rotation.
@@ -12353,16 +12363,27 @@ three-dimensional space.&lt;/h2&gt;
 &lt;/html&gt;
 ```
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-76 .unnumbered}
+###### The output of the code is given below:
 
-![](./images/image095.png){width="4.42969050743657in"
-height="1.845in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 95.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image095.png?raw=true"
+  alt="."
+  title=""
+  style="width:4.4in" />
+</p>
+<!-- ![](./images/image095.png){width="4.42969050743657in" height="1.845in"}  -->
 
 CSS function (rotate3d () ).
 
-#### rotateX() {#rotatex .unnumbered}
+#### rotateX()
 
-###### The CSS rotateX() is used to rotate elements around the x-axis in three- dimensional space. The rotateX() is used in 3D-transforms. It's used with the transform property to rotate an element around the x-axis. It can be used in other rotation functions such as rotateY(), rotateZ() to rotate the element around the y and z axes if required. {#the-css-rotatex-is-used-to-rotate-elements-around-the-x-axis-in-three--dimensional-space.-the-rotatex-is-used-in-3d-transforms.-its-used-with-the-transform-property-to-rotate-an-element-around-the-x-axis.-it-can-be-used-in-other-rotation-functions-such-as-rotatey-rotatez-to-rotate-the-element-around-the-y-and-z-axes-if-required. .unnumbered}
+###### The CSS rotateX() is used to rotate elements around the x-axis in three- 
+dimensional space. The rotateX() is used in 3D-transforms. It's used with the 
+transform property to rotate an element around the x-axis. It can be used in 
+other rotation functions such as rotateY(), rotateZ() to rotate the element 
+around the y and z axes if required. 
 
 The syntax of the rotateX() function is as follows:
 
@@ -12379,7 +12400,9 @@ The angle can be represented with the following unit identifiers:
 
 #### rotateY() {#rotatey .unnumbered}
 
-###### The CSS rotateY() is used to rotate elements around the x-axis in three- dimensional space. The rotateY() function is used in 3D-transforms. It is used with the transform property to rotate an element around the x-axis. {#the-css-rotatey-is-used-to-rotate-elements-around-the-x-axis-in-three--dimensional-space.-the-rotatey-function-is-used-in-3d-transforms.-it-is-used-with-the-transform-property-to-rotate-an-element-around-the-x-axis. .unnumbered}
+###### The CSS rotateY() is used to rotate elements around the x-axis in three-
+ dimensional space. The rotateY() function is used in 3D-transforms. It is used 
+with the transform property to rotate an element around the x-axis. 
 
 The syntax of the rotateY() function is as follows:
 
@@ -12506,124 +12529,97 @@ z-axis in a three-dimensional space.&lt;/h2&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-77 .unnumbered}
 
-![](./images/image096.png){width="4.101561679790026in"
-height="4.789061679790026in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 96.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image096.png?raw=true"
+  alt="."
+  title=""
+  style="width:4.1in" />
+</p>
+<!-- ![](./images/image096.png){width="4.101561679790026in" height="4.789061679790026in"}  -->
 
 CSS function (rotateX(), rotateY (), rotateZ() ).
 
-#### saturate() {#saturate .unnumbered}
+#### saturate()
 
-###### The saturate() function is used to adjust the saturation of an image. This function is used with the filter to adjust the saturation levels in an image. {#the-saturate-function-is-used-to-adjust-the-saturation-of-an-image.-this-function-is-used-with-the-filter-to-adjust-the-saturation-levels-in-an-image. .unnumbered}
+###### The saturate() function is used to adjust the saturation of an image. This 
+function is used with the filter to adjust the saturation levels in an image. 
 
 The syntax of the saturate() function is as follows:
->
+
+```
 saturate() = saturate( &#91; &lt;number&gt; &#124; &lt;percentage&gt; &#93; )
+```
 
-##### Example: {#example-96 .unnumbered}
+##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
->
 &lt;html&gt;
->
 &lt;head&gt;
->
 &lt;style&gt;
->
 &#42; { padding:0; margin:0;
->
 box-sizing: border-box;
->
 }
->
 .demo_container{ padding:20px; width:800px; margin:0 auto;
->
 justify-content: center; align-items: center;
->
 }
->
 img{
->
 width:100%; height:250px;
->
 }
->
 .row{
->
 display: flex;
->
 }
->
 .col{ width:100%
->
 }
->
 .image-1 {
->
 filter: saturate(700%);
->
 }
->
 .image-2 {
->
 filter: saturate(2.5);
->
 }
->
 p{
->
 padding-top: 20px; font-size:20px
->
 }
->
 &lt;/style&gt;
->
 &lt;/head&gt;
->
 &lt;body&gt;
->
 &lt;div class=&#34;demo_container&#34;&gt;
->
 &lt;h2&gt; The saturate() function to adjust the saturation of an image.
 &lt;/h2&gt;
->
 &lt;div class=&#34;row&#34;&gt;
->
 &lt;div class=&#34;col&#34;&gt;
->
 &lt;p&gt; Normal Image &lt;/p&gt;
->
 &lt;img src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
->
 &lt;p&gt; 700% Saturate Image &lt;/p&gt;
->
 &lt;img class=&#34;image-1&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
->
 &lt;/div&gt;
->
 &lt;div class=&#34;col&#34;&gt;
->
 &lt;p&gt; 2.5 Saturate Image &lt;/p&gt;
->
 &lt;img class=&#34;image-2&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
->
 &lt;/div&gt;
->
 &lt;/div&gt;
->
 &lt;/div&gt;
->
 &lt;/body&gt;
->
 &lt;/html&gt;
+```
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-78 .unnumbered}
+###### The output of the code is given below:
 
-![](./images/image097.png){width="4.429687226596675in"
-height="3.5775in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 97.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image097.png?raw=true"
+  alt="."
+  title=""
+  style="width:4.4in" />
+</p>
+<!-- ![](./images/image097.png){width="4.429687226596675in" height="3.5775in"}  -->
 
 CSS function ( saturate() ).
 
-#### scale() {#scale .unnumbered}
+#### scale()
 
 The CSS scale() is used to scale elements in two-dimensional space.
 The scale() scales an element based on the number that provides as an
@@ -12631,112 +12627,79 @@ argu- ment. You can scale in the direction of the x-axis, the y-axis,
 or both. The scale() function works like this:
 
 -   scale(sx) or
-
 -   scale(sx, sy)
-
 -   scale(sx) or
-
 -   scale(sx, sy)
 
 The syntax of the scale() function is as follows:
->
+
+```
 scale() = scale( &lt;number&gt; &#91;, &lt;number&gt; &#93;? )
+```
 
-##### Example: {#example-97 .unnumbered}
+##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
->
 &lt;html&gt;
->
 &lt;head&gt;
->
 &lt;style&gt;
->
 &#42; { padding:0; margin:0;
->
 box-sizing: border-box;
->
 }
->
 .demo_container{ padding:20px; width:800px; margin:0 auto;
->
 justify-content: center; align-items: center;
->
 }
->
 img{
->
 width:100%; height:250px;
->
 }
->
 .row{
->
 display: flex;
->
 }
->
 .col{
->
 width:100%
->
 }
->
 .image-1 {
->
 transform-origin: top left; transform: scale(2); width:100%;
->
 height:250px;
->
 }
->
 p{
->
 padding-top: 20px; font-size:20px
->
 }
->
 &lt;/style&gt;
->
 &lt;/head&gt;
->
 &lt;body&gt;
->
 &lt;div class=&#34;demo_container&#34;&gt;
->
 &lt;h2&gt; The scale() function is used to scale elements in a
 two-dimensional space. &lt;/h2&gt;
->
 &lt;div class=&#34;row&#34;&gt;
->
 &lt;div class=&#34;col-1&#34;&gt;
->
 &lt;p&gt; Normal Image &lt;/p&gt;
->
 &lt;img src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
->
 &lt;p&gt; Scale along both Axes &lt;/p&gt;
->
 &lt;img class=&#34;image-1&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
->
 &lt;/div&gt;
->
 &lt;/div&gt;
->
 &lt;/div&gt;
->
 &lt;/body&gt;
->
 &lt;/html&gt;
+```
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-79 .unnumbered}
+###### The output of the code is given below:
 
-![](./images/image098.png){width="3.609381014873141in"
-height="4.154791119860017in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 98.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image098.png?raw=true"
+  alt="."
+  title=""
+  style="width:3.6in" />
+</p>
+<!-- ![](./images/image098.png){width="3.609381014873141in" height="4.154791119860017in"}  -->
 
 CSS function ( scale() ).
 
-#### scale3d() {#scale3d .unnumbered}
+#### scale3d()
 
 The scale3d() is used to scale elements in three-dimensional space.
 The scale3d() scales an element based on the numbers that provide an
@@ -12744,106 +12707,73 @@ argu- ment. It specifies a 3D scale operation using the &#91;sx,sy,sz&#93;
 scaling vector described by three parameters. The scale3d() function
 is a three-dimen- sional primitive, with the following derived
 functions:
->
+
+```
 scalex(), scaleY(), scaleZ(), and scale().
->
 The syntax of the scale3d() function is as follows:
->
 scale3d() = scale3d( &lt;number&gt;, &lt;number&gt;, &lt;number&gt; )
+```
 
-##### Example: {#example-98 .unnumbered}
+##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
->
 &lt;html&gt;
->
 &lt;head&gt;
->
 &lt;style&gt;
->
 &#42; { padding:0; margin:0;
->
 box-sizing: border-box;
->
 }
->
 .demo_container{ padding:20px; margin:0 auto;
->
 justify-content: center; align-items: center;
->
 }
->
 .row{
->
 display: flex;
->
 }
->
 .col{
->
 width:100%
->
 }
->
 .image-1 {
->
 transform-origin: top left; transform: scale3d(3, 3, 1);
->
 width:50%; height:100px;
->
 }
->
 .image-2 {
->
 transform: scale3d(3, 3, 1); width:10%;
->
 height:100px;
->
 }
->
 p{
->
 padding-top: 20px; font-size:20px
->
 }
->
 &lt;/style&gt;
->
 &lt;/head&gt;
->
 &lt;body&gt;
->
 &lt;div class=&#34;demo_container&#34;&gt;
->
 &lt;h2&gt; The scale3d() function is used to scale elements in a
 three-dimensional space. &lt;/h2&gt;
->
 &lt;div class=&#34;row&#34;&gt;
->
 &lt;div class=&#34;col-1&#34;&gt;
->
 &lt;p&gt; Scale3d() with transform-origin &lt;/p&gt;
->
 &lt;img class=&#34;image-1&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
->
 &lt;/div&gt;
->
 &lt;p&gt; Scale3d() with transform-origin &lt;/p&gt;
->
 &lt;img class=&#34;image-1&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
->
 &lt;/div&gt;
->
 &lt;/div&gt;
->
 &lt;/body&gt;
->
 &lt;/html&gt;
+```
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-80 .unnumbered}
 
-![](./images/image099.png){width="4.429687226596675in"
-height="1.0434372265966754in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 99.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image099.png?raw=true"
+  alt="."
+  title=""
+  style="width:4.4in" />
+</p>
+<!-- ![](./images/image099.png){width="4.429687226596675in" height="1.0434372265966754in"}  -->
 
 CSS function ( scale3d() ).
 
@@ -12914,10 +12844,17 @@ alt=&#34;Sample image&#34;&gt;
 &lt;/html&gt;
 ```
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-81 .unnumbered}
+###### The output of the code is given below:
 
-![](./images/image100.png){width="4.41in"
-height="4.364998906386702in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 100.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image100.png?raw=true"
+  alt="."
+  title=""
+  style="width:4.4in" />
+</p>
+<!-- ![](./images/image100.png){width="4.41in" height="4.364998906386702in"}  -->
 
 CSS function (scaleX()).
 
@@ -13031,10 +12968,17 @@ alt=&#34;Sample image&#34;&gt;
 >
 &lt;/html&gt;
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-82 .unnumbered}
+###### The output of the code is given below:
 
-![](./images/image101.png){width="4.429687226596675in"
-height="5.146874453193351in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 101.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image101.png?raw=true"
+  alt="."
+  title=""
+  style="width:4.4in" />
+</p>
+<!-- ![](./images/image101.png){width="4.429687226596675in" height="5.146874453193351in"}  -->
 
 CSS function (scaleY()).
 
@@ -13157,10 +13101,17 @@ alt=&#34;Sample image&#34;&gt;
 >
 &lt;/html&gt;
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-83 .unnumbered}
+###### The output of the code is given below:
 
-![](./images/image102.png){width="4.429687226596675in"
-height="2.939061679790026in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 102.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image102.png?raw=true"
+  alt="."
+  title=""
+  style="width:4.4in" />
+</p>
+<!-- ![](./images/image102.png){width="4.429687226596675in" height="2.939061679790026in"}  -->
 
 CSS function (scaleZ()).
 
@@ -13183,153 +13134,92 @@ The skew() function works like this:
 
 ##### Example: {#example-102 .unnumbered}
 
+```
 &lt;!DOCTYPE html&gt;
->
 &lt;html&gt;
->
 &lt;head&gt;
->
 &lt;style&gt;
->
 &#42; { padding:0; margin:0;
->
 box-sizing: border-box;
->
 }
->
 .demo_container{ width:800px; padding:20px; margin:0 auto;
->
 justify-content: center; align-items: center;
->
 }
->
 .row{
->
 display: flex; flex-wrap: wrap;
->
 flex-direction: row;
->
 }
->
 .col{ width:50%
->
 }
->
 .image-1 { width:200px; height:200px;
->
 }
->
 .image-2 {
->
 transform-origin: top left; transform: skew(10deg, 0); width:200px;
->
 height:200px;
->
 }
->
 .image-3{
->
 transform-origin: top left; transform: skew(0, 10deg);
->
 width:200px; height:200px;
->
 }
->
 .image-3{
->
 transform-origin: top left; transform: skew(0, 10deg);
->
 width:200px; height:200px;
->
 }
->
 .image-4{
->
 transform-origin: top left; transform: skew(10deg, 10deg);
->
 width:200px; height:200px;
->
 }
->
 .image-5{
->
 transform-origin: bottom left; transform: skew(-10deg, -10deg);
->
 width:200px; height:200px;
->
 }
->
 .image-6{
->
 transform: skew(-10deg, -10deg); width:200px;
->
 height:200px;
->
 }
->
 p{
->
 padding-top: 20px; font-size:20px
->
 }
->
 &lt;/style&gt;
->
 &lt;/head&gt;
->
 &lt;body&gt;
->
 &lt;div class=&#34;demo_container&#34;&gt;
->
 &lt;h2&gt; The skew() function is used to skew elements in a
 two-dimensional space. &lt;/h2&gt;
->
 &lt;div class=&#34;row&#34;&gt;
->
 &lt;div class=&#34;col&#34;&gt;
->
 &lt;p&gt; Normal Image&lt;/p&gt;
->
 &lt;img class=&#34;image-1&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
->
 &lt;p&gt; Skew along the x-axis &lt;/p&gt;
->
 &lt;img class=&#34;image-2&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
->
 &lt;p&gt; Skew along the y-axis &lt;/p&gt;
->
 &lt;img class=&#34;image-3&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
->
 &lt;/div&gt;
->
 &lt;div class=&#34;col&#34;&gt;
->
 &lt;p&gt; Skew along Both Axes &lt;/p&gt;
->
 &lt;img class=&#34;image-4&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
->
 &lt;p&gt; Negative Values &lt;/p&gt;
->
 &lt;img class=&#34;image-5&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
->
 &lt;p&gt; Removing transform-origin &lt;/p&gt;
->
 &lt;img class=&#34;image-6&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
->
 &lt;/div&gt;
->
 &lt;/div&gt;
->
 &lt;/div&gt;
->
 &lt;/body&gt;
->
 &lt;/html&gt;
+```
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-84 .unnumbered}
+###### The output of the code is given below:
 
-![](./images/image103.png){width="4.101567147856518in"
-height="3.875in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 103.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image103.png?raw=true"
+  alt="."
+  title=""
+  style="width:4.1in" />
+</p>
+<!-- ![](./images/image103.png){width="4.101567147856518in" height="3.875in"}  -->
 
 CSS function (skew()).
 
@@ -13338,95 +13228,56 @@ CSS function (skew()).
 ###### The skewX() element performs a shear transformation (also known as a shear mapping or a transvection), which displaces each point of an ele- ment by a given angle along the x-axis. {#the-skewx-element-performs-a-shear-transformation-also-known-as-a-shear-mapping-or-a-transvection-which-displaces-each-point-of-an-ele--ment-by-a-given-angle-along-the-x-axis. .unnumbered}
 
 The skewX() function works like this:
->
+
 skewX(a)
->
+
 The skewX() function accepts one argument which specifies the angle of
 the skew for the x-axis. It can be any valid angle value.
 
 ##### Example: {#example-103 .unnumbered}
 
+```
 &lt;!DOCTYPE html&gt;
->
 &lt;html&gt;
->
 &lt;head&gt;
->
 &lt;style&gt;
->
 &#42; { padding:0; margin:0;
->
 box-sizing: border-box;
->
 }
->
 .demo_container{ width:800px; padding:20px; margin:0 auto;
->
 justify-content: center; align-items: center;
->
 }
->
 .row{
->
 display: flex; flex-wrap: wrap;
->
 flex-direction: row;
->
 }
->
 .col{ width:50%
->
 }
->
 .image-1 { width:200px; height:200px;
->
 }
->
 .image-2 {
->
 transform-origin: top left; transform: skewX(10deg); width:200px;
->
 height:200px;
->
 }
->
 .image-3 {
->
 transform-origin: top left; transform: skewX(-10deg); width:200px;
->
 height:200px;
->
 }
->
 p{
->
 padding-top: 20px; font-size:20px
->
 }
->
 &lt;/style&gt;
->
 &lt;/head&gt;
->
 &lt;body&gt;
->
 &lt;div class=&#34;demo_container&#34;&gt;
->
 &lt;h2&gt; The skewX() function is used to skew elements in a
 two-dimensional space along the x-axis. &lt;/h2&gt;
->
 &lt;div class=&#34;row&#34;&gt;
->
 &lt;div class=&#34;col&#34;&gt;
->
 &lt;p&gt; Normal Image &lt;/p&gt;
->
 &lt;img class=&#34;image-1&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
->
 &lt;p&gt; Skew with transform-origin &lt;/p&gt;
->
 &lt;img class=&#34;image-2&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
->
 &lt;/div&gt;
 &lt;div class=&#34;col&#34;&gt;
 &lt;p&gt; Negative Values &lt;/p&gt;
@@ -13436,11 +13287,19 @@ two-dimensional space along the x-axis. &lt;/h2&gt;
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
+```
 
 ###### The output of the code is given below:
 
-![](./images/image104.png){width="4.421245625546806in"
-height="3.1640616797900263in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 104.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image104.png?raw=true"
+  alt="."
+  title=""
+  style="width:4.4in" />
+</p>
+<!-- ![](./images/image104.png){width="4.421245625546806in" height="3.1640616797900263in"}  -->
 
 CSS function (skewX()).
 
@@ -13448,8 +13307,15 @@ CSS function (skewX()).
 
 ###### In this chapter, we saw various built-in methods like attr(), RGB(), rgba(), and so on. These functions have their own unique functionality and prop- erties. So next chapter is about CSS plugins. 
 
-![](./images/image6.png){width="3.6393208661417322in"
-height="0.9622911198600175in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 06.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image006.png?raw=true"
+  alt="."
+  title=""
+  style="width:3.6in" />
+</p>
+<!-- ![](./images/image6.png){width="3.6393208661417322in" height="0.9622911198600175in"}  -->
 
 CHAPTER 5
 
@@ -14766,8 +14632,16 @@ transform: translate3d(var(&#45;-move-final), 0,
 }
 ```
 
-![](./images/image105.png){width="4.429687226596675in"
-ight="1.5328116797900262in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 105.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image105.png?raw=true"
+  alt="."
+  title=""
+  style="width:4.4in" />
+</p>
+<!-- ![](./images/image105.png){width="4.429687226596675in" height="1.5328116797900262in"}  -->
+
 SS MarqueeMenu plugin.
 When you paste this link in the chrome URL address bar
 ([https://use.](https://use.typekit.net/)
@@ -14917,8 +14791,15 @@ s
 &lt;/html&gt;
 ```
 
-![](./images/image106.png){width="4.4259241032370955in"
-height="0.2784372265966754in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 106.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image106.png?raw=true"
+  alt="."
+  title=""
+  style="width:4.4in" />
+</p>
+<!-- ![](./images/image106.png){width="4.4259241032370955in" height="0.2784372265966754in"}  -->
 
 CSS MarqueeMenu plugin.
 
@@ -15114,8 +14995,15 @@ In CSS, you can use various CSS properties such as:
 -   CSS Print Version: You can use CSS to apply a separate style to the
     printed version of your web pages.
 
-![](./images/image6.png){width="3.6393208661417322in"
-height="0.9622911198600175in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 06.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image006.png?raw=true"
+  alt="."
+  title=""
+  style="width:3.6in" />
+</p>
+<!-- ![](./images/image6.png){width="3.6393208661417322in" height="0.9622911198600175in"}  -->
 
 # Bibliography
 
@@ -15350,8 +15238,15 @@ Bibliography ■ **419**
     [Layout%20is,of%20items%20in%20one%20dimension](https://developer.mozilla.org/),
     accessed on May 25, 2022.
 
-![](./images/image6.png){width="3.6393208661417322in"
-height="0.9622911198600175in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 06.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image006.png?raw=true"
+  alt="."
+  title=""
+  style="width:3.6in" />
+</p>
+<!-- ![](./images/image6.png){width="3.6393208661417322in" height="0.9622911198600175in"}  -->
 
 # Index
 
