@@ -2077,7 +2077,6 @@ more specific choices. Here are some of the common types of selectors:
 
 ```
 &lt;p class=&#34;my-class&#34;&gt; Add Some text &lt;/p&gt; and
-
 &lt;a class=&#34;my-class&#34;&gt; Add Some text&lt;/a&gt;
 ```
 
@@ -3232,8 +3231,15 @@ transform: translateY(-800px) rotate(360deg); opacity: 0;
 
 ###### The output of the code is given below:
 
-![](./images/image012.png){width="4.265624453193351in"
-height="1.9554155730533684in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 12.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image012.png?raw=true"
+  alt="."
+  title=""
+  style="width:4.2in" />
+</p>
+<!-- ![](./images/image012.png){width="4.265624453193351in" height="1.9554155730533684in"}  -->
 
 CSS animation property.
 
@@ -3249,14 +3255,10 @@ background-color: red; animation-name: example; animation-duration:
 4s; text-align: center; align-items: center; margin:0 auto;
 }
 &#64;keyframes example {
-```
-
 | &gt; 0% | {background-color:          | rgb(248,    | 169,  | &gt; 169);} |
 | &gt; 25%   | {background-color:          | rgb(197,    | 197,  | &gt; 92);}  |
 | &gt; 50%   | {background-color:          | rgb(118,    | 118,  | &gt; 193);} |
 | &gt; 100%   | {background-color:          | rgb(135,    | 245,  | &gt; 135);} |
-
-```
 }
 &lt;/style&gt;
 &lt;/head&gt;
@@ -3270,12 +3272,21 @@ background-color: red; animation-name: example; animation-duration:
 
 ###### The output of the code is given below:
 
-![](./images/image013.png){width="1.518228346456693in"
-height="1.518228346456693in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 13.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image013.png?raw=true"
+  alt="."
+  title=""
+  style="width:1.5in" />
+</p>
+<!-- ![](./images/image013.png){width="1.518228346456693in" height="1.518228346456693in"}  -->
 
 CSS animation property (second example).
 
-###### Now in the below example, we are going to use animation with its prop- erties that we discussed above. 
+###### Now in the below example, we are going to use animation with its prop- erties that we discussed
+above. 
+
 ```
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
@@ -3319,8 +3330,15 @@ align-items: center; justify-content: center; border-radius:20px
 
 ###### The output of the code is given below:
 
-![](./images/image014.png){width="1.518228346456693in"
-height="1.096353893263342in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 14.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image014.png?raw=true"
+  alt="."
+  title=""
+  style="width:1.5in" />
+</p>
+<!-- ![](./images/image014.png){width="1.518228346456693in" height="1.096353893263342in"}  -->
 
 CSS animation property (third example).
 
@@ -3332,12 +3350,16 @@ single declaration.
 
 The syntax of this property is given as:
 
+```
 background: &#91; the image position/size repeat attachment the origin
 clip color &#93; &#124; initial &#124; inherit
+```
 
 ###### background-attachment property: The background-attachment CSS property defines whether the background image scrolls with the document or remains fixed to the viewing area. The syntax of this property is given as:
 
+```
 background-attachment: scroll &#124; fixed &#124; initial &#124; inherit.
+```
 
 ###### background-color property: The background-color property sets the background color of an element. You can set the color of the background either through a color value or the keyword transparent.
 
@@ -3345,14 +3367,17 @@ The background of any element is the whole size of the element,
 including padding and border (not the margin). See the box model. The
 syntax of this property is given as:
 
+```
 background-color: color &#124; transparent &#124; initial
-
 &#124; inherit
+```
 
 ###### background-clip property: The background-clip property specifies whether an element's background, either the color or image, extends it's border or not. The syntax of this property is given as:
 
+```
 background-clip: border-box &#124; padding-box &#124; content-box &#124; initial
 &#124; inherit
+```
 
 ##### Example:
 
@@ -3401,8 +3426,15 @@ background-clip: content-box;
 
 ###### The output of the code is given below:
 
-![](./images/image015.png){width="4.098958880139983in"
-height="3.3645833333333335in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 15.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image015.png?raw=true"
+  alt="."
+  title=""
+  style="width:4.0in" />
+</p>
+<!-- ![](./images/image015.png){width="4.098958880139983in" height="3.3645833333333335in"}  -->
 
 CSS background clip.
 
@@ -3410,7 +3442,9 @@ CSS background clip.
 
 The syntax of the property is given as:
 
+```
 background-image: url &#124; none &#124; initial &#124; inherit
+```
 
 ##### Example:
 
@@ -3443,8 +3477,15 @@ align-items: center; justify-content: center;
 
 ###### The output of the code is given below:
 
-![](./images/image016.png){width="4.1015551181102365in"
-height="1.9817705599300088in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 16.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image016.png?raw=true"
+  alt="."
+  title=""
+  style="width:4.1in" />
+</p>
+<!-- ![](./images/image016.png){width="4.1015551181102365in" height="1.9817705599300088in"}  -->
 
 CSS background image.
 
@@ -3486,8 +3527,15 @@ background-origin: content-box;
 
 ###### The output of the code is given below:
 
-![](./images/image017.png){width="2.4609372265966756in"
-height="2.0053116797900263in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 17.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image017.png?raw=true"
+  alt="."
+  title=""
+  style="width:2.4in" />
+</p>
+<!-- ![](./images/image017.png){width="2.4609372265966756in" height="2.0053116797900263in"}  -->
 
 CSS background origin.
 
@@ -3526,8 +3574,15 @@ background-origin: padding-box ;
 
 ###### The output of the code is given below:
 
-![](./images/image018.png){width="2.8255205599300086in"
-height="2.266874453193351in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 18.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image018.png?raw=true"
+  alt="."
+  title=""
+  style="width:2.8in" />
+</p>
+<!-- ![](./images/image018.png){width="2.8255205599300086in" height="2.266874453193351in"}  -->
 
 CSS background origin -- padding box.
 
@@ -3540,9 +3595,10 @@ Its default value is : 0% 0%.
 
 The syntax of this property is given as:
 
+```
 background-position: &#91; percentage &#124; length &#124; left
-
 &#124; center &#124; right &#93;1 or 2 values &#124; initial &#124; inherit
+```
 
 ##### Example:
 
@@ -3576,8 +3632,15 @@ background-position: 50% center;
 
 ###### The output of the code is given below:
 
-![](./images/image019.png){width="2.5in"
-height="0.4349989063867017in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 19.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image019.png?raw=true"
+  alt="."
+  title=""
+  style="width:2.5in" />
+</p>
+<!-- ![](./images/image019.png){width="2.5in" height="0.4349989063867017in"}  -->
 
 CSS background position.
 
@@ -3585,8 +3648,10 @@ CSS background position.
 
 The syntax of the property is given as:
 
+```
 background-repeat: repeat &#124; repeat-x &#124; repeat-y &#124; no-repeat &#124;
 initial &#124; inherit
+```
 
 ##### Example:
 
@@ -3620,8 +3685,15 @@ background-repeat: repeat-y;
 
 ###### The output of the code is given below:
 
-![](./images/image020.png){width="2.4609372265966756in"
-height="2.4609372265966756in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 20.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image020.png?raw=true"
+  alt="."
+  title=""
+  style="width:2.4in" />
+</p>
+<!-- ![](./images/image020.png){width="2.4609372265966756in" height="2.4609372265966756in"}  -->
 
 CSS background repeat(y).
 
