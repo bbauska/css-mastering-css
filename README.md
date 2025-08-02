@@ -11682,6 +11682,7 @@ like, each separated by a space as
 
 ###### Once npm has downloaded and installed the packages, need to go back into package.json and add a script for npm to run, just like when you installed Sass. Add a new script named "prefix" after the "sass"s script: 
 
+```
 {
 &#34;name&#34;: &#34;abc&#34;,
 &#34;version&#34;: &#34;1.0.0&#34;, &#34;description&#34;: abc&#34;, &#34;main&#34;:
