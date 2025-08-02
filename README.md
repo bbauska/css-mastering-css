@@ -2525,11 +2525,13 @@ background: &#35; f5f5f5; line length: 1.2;
 
 ###### The media attribute in the &lt;link&gt; feature is used to specify targeted media on an external style sheet within an HTML document.
  
+ ```
 &lt;link rel = &#34;stylesheet&#34; href = &#34;css / common.css&#34; media =
 &#34;all&#34;&gt;
 
 &lt;link rel = &#34;stylesheet&#34; href = &#34;css / print.css&#34; media =
 &#34;print&#34;&gt;
+```
 
 ### DIFFERENT MEDIA TYPES
 
@@ -3006,9 +3008,7 @@ The name of the structure comes first, then the colon, then the value.
 Here a common pattern for the following CSS property-value is given
 below:
 
-```
 Property-name: property-value
-```
 
 ###### If you specify more than one CSS property, each word -- the cooked value is divided into a semicolon as follows: 
 
@@ -3807,53 +3807,37 @@ CSS background size -- contained cover and full cover.
 
 The syntax of the property is given as:
 
+```
 border: &#91; border-width border-style border-color &#93; &#124; initial &#124;
 inherit
+```
 
-##### Example: {#example-16 .unnumbered}
+##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
->
 &lt;head&gt;
->
 &lt;style&gt;
->
 .demo_container{
->
 text-align: center; display: flex;
->
 justify-content: center; align-items: center;
->
 }
->
 .child-1 { width:500px; height:500px;
->
 border: 5px solid rgb(209, 21, 21);
->
 background-color: rgb(226, 230, 12); color:white;
->
 justify-content: center; align-items: center; font-size: 32px;
->
 }
->
 &lt;/style&gt;
->
 &lt;/head&gt;
->
 &lt;body&gt;
->
 &lt;div class=&#34;demo_container&#34;&gt;
->
 &lt;div class=&#34;child-1&#34;&gt; &lt;h1&gt;CSS Border &lt;/h1&gt;
->
 &lt;/div&gt;
->
 &lt;/div&gt;
->
 &lt;/body&gt;
->
 &lt;/html&gt;
+```
 
 ###### The output of the code is given below:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3868,7 +3852,11 @@ justify-content: center; align-items: center; font-size: 32px;
 
 CSS border property.
 
-###### border-width property: The border-width CSS property is a short- hand property for setting a singleborder width property, that is, border-top-width, border-right-width, border-bottom-width, and border-left-width in a single declaration. The syntax of this property is given as:
+###### border-width property: The border-width CSS property is a short-
+hand property for setting a singleborder width property, that is, 
+border-top-width, border-right-width, border-bottom-width, and 
+border-left-width in a single declaration. The syntax of this property 
+is given as:
 
 ```
 border-width : &#91; thin &#124; medium &#124; thick &#124; length &#93;
@@ -4076,64 +4064,41 @@ voluptate aliquam nihil, eveniet aliquid culpa officia aut!
 
 ##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html&gt;
-
 &lt;head&gt;
-
 &lt;style&gt;
-
 .demo_container{ width:400px; margin:0 auto;
-
 text-align: center; justify-content: center; align-items: center;
-
 }
-
 .text-1 {
-
 border-style: solid;
-
 border-bottom-left-radius: 20px;
-
 }
-
 .text-2{
-
 border-style: solid;
-
 border-bottom-right-radius: 20px;
-
 }
-
 &lt;/style&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;div class=&#34;demo_container&#34;&gt;
-
 &lt;h1&gt; CSS Border Bottom Left Property - Left, Right &lt;/h1&gt;
-
 &lt;p class=&#34;text-1&#34;&gt; Lorem sit amet consectetur adipisicing elit.
 Maxime mollitia, molestiae quas vel sint commodi repudiandae
 consequuntur voluptatum laborum numquam blanditiis harum quisquam eius
 sed odit fugiat iusto fuga praesentium optio, eaque rerum!&lt;/h1&gt;
 &lt;br&gt;
-
 &lt;br&gt;
-
 &lt;p class=&#34;text-2&#34;&gt; Provident similique accusantium nemo autem.
 Veritatis obcaecati tenetur iure eius earum ut molestias architecto
 voluptate aliquam nhil, eveniet aliquid culpa officia aut! .&lt;/p&gt;
 &lt;br&gt;
-
 &lt;br&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
 ###### The output of the code is given below:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4151,9 +4116,11 @@ CSS border bottom left property -- left, right.
 ###### border-bottom-style property: The border-bottom style property sets the style of an element's bottom border individually. However, in other cases the shorthand properties like border style or border bot- tom are more convenient to use and preferable.
 
 The syntax of this property is given as:
->
+
+```
 border-bottom-style: none &#124; hidden &#124; dashed &#124; dotted &#124;solid &#124;
 double &#124; groove &#124; ridge &#124; inset &#124; outset &#124; initial &#124; inherit.
+```
 
 ##### Example:
 
@@ -4178,100 +4145,60 @@ border-bottom-style: dashed;
 border-bottom-style: solid;
 }
 .double {
-
 border-bottom-style: double;
 }
->
 .groove {
->
 border-bottom-style: groove;
->
 }
->
 .ridge {
->
 border-bottom-style: ridge;
->
 }
->
 .inset {
->
 border-bottom-style: inset;
->
 }
->
 .outset {
->
 border-bottom-style: outset;
->
 }
->
 &lt;/style&gt;
->
 &lt;/style&gt;
->
 &lt;/head&gt;
->
 &lt;body&gt;
->
 &lt;div class=&#34;demo_container&#34;&gt;
->
 &lt;h1&gt; CSS Various Border style &lt;/h1&gt;
->
 &lt;p class=&#34;none&#34;&gt;Lorem dolor sit amet consectetur adipisicing
 elit.esentium optio, eaque rerum!&lt;/h1&gt; &lt;br&gt;
->
 &lt;br&gt;
->
 &lt;p class=&#34;dotted&#34;&gt;Lorem ipsum dolor sit amet consectetur
 adipisicing elit.esentium optio, eaque rerum!&lt;/h1&gt; &lt;br&gt;
->
 &lt;br&gt;
->
 &lt;p class=&#34;none&#34;&gt;Lorem dolor sit amet consectetur adipisicing
 elit.esentium optio, eaque rerum!&lt;/h1&gt; &lt;br&gt;
->
 &lt;br&gt;
->
 &lt;p class=&#34;dashed&#34;&gt;Lorem ipsum dolor sit amet consectetur
 adipisicing elit.esentium optio, eaque rerum!&lt;/h1&gt; &lt;br&gt;
->
 &lt;br&gt;
->
 &lt;p class=&#34;solid&#34;&gt;Lorem ipsum dolor sit amet consectetur
 adipisicing elit.esentium optio, eaque rerum!&lt;/h1&gt; &lt;br&gt;
->
 &lt;br&gt;
->
 &lt;p class=&#34;double&#34;&gt;Lorem ipsum dolor sit amet consectetur
 adipisicing elit.esentium optio, eaque rerum!&lt;/h1&gt; &lt;br&gt;
->
 &lt;br&gt;
->
 &lt;p class=&#34;groove&#34;&gt;Lorem ipsum dolor sit amet consectetur
 adipisicing elit.esentium optio, eaque rerum!&lt;/h1&gt; &lt;br&gt;
->
 &lt;br&gt;
->
 &lt;p class=&#34;ridge&#34;&gt;Lorem ipsum dolor sit amet consectetur
 adipisicing elit.esentium optio, eaque rerum!&lt;/h1&gt; &lt;br&gt;
->
 &lt;br&gt;
->
 &lt;p class=&#34;inset&#34;&gt;Lorem ipsum dolor sit amet consectetur
 adipisicing elit.esentium optio, eaque rerum!&lt;/h1&gt; &lt;br&gt;
->
 &lt;br&gt;
->
 &lt;p class=&#34;outset&#34;&gt;Lorem ipsum dolor sit
 amet consectetur adipisicing elit.esentium optio, eaque rerum!&lt;/h1&gt;
 &lt;br&gt;
->
 &lt;br&gt;
->
 &lt;/body&gt;
->
 &lt;/html&gt;
+```
 
 ###### The output of the code is given below:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4297,45 +4224,25 @@ border-image: &#91; source slice width outset repeat &#93;
 
 ```
 &lt;!DOCTYPE html&gt;
->
 &lt;html&gt;
->
 &lt;head&gt;
->
 &lt;style&gt;
->
 .demo_container{ width:400px; margin:0 auto;
->
 text-align: center; justify-content: center; align-items: center;
->
 }
->
 .box {
->
 width: 300px; height: 150px;
->
 border: 15px solid transparent;
->
 border-image: url(&#34;/images-1.jpg&#34;) 30 30 round;
->
 }
->
 &lt;/style&gt;
->
 &lt;/style&gt;
->
 &lt;/head&gt;
->
 &lt;body&gt;
->
 &lt;div class=&#34;demo_container&#34;&gt;
->
 &lt;h1&gt; CSS border-image Property &lt;/h1&gt;
->
 &lt;div class=&#34;box&#34;&gt;&lt;/div&gt;
->
 &lt;/body&gt;
->
 &lt;/html&gt;
 ```
 
@@ -4447,7 +4354,7 @@ color:rgb(100, 149, 237)
 &lt;/html&gt;
 ```
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-18 .unnumbered}
+###### The output of the code is given below:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 30.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -4581,7 +4488,7 @@ color:#b22222
 &lt;/html&gt;
 ```
 
-###### The output of the code given below: {#the-output-of-the-code-given-below .unnumbered}
+###### The output of the code given below:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 32.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -4600,7 +4507,7 @@ CSS color property (HEX).
 opacity: alphavalue &#124; initial &#124; inherit
 ```
 
-##### Example: {#example-25 .unnumbered}
+##### Example:
 
 ```
 &lt;!DOCTYPE html&gt;
@@ -4644,7 +4551,7 @@ height=&#34;200px&#34;&gt;
 
 CSS color opacity property.
 
-### [CSS DIMENSION PROPERTIES]{.underline}  {#css-dimension-properties .unnumbered}
+### [CSS DIMENSION PROPERTIES]
 
 ###### height property: The height CSS property specifies the height of the content area of an element. The content area does not include pad- ding, borders, or margins.
 
@@ -5390,123 +5297,75 @@ such as URL &#124; none &#124; initial &#124; inherit
 
 ##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html&gt;
-
 &lt;head&gt;
-
 &lt;style&gt;
-
 .demo_container{ width:400px; margin:0 auto;
-
 }
-
 ul {
-
 list-style-image: url(&#34;/images-1.jpg&#34;);
-
 }
-
 &lt;/style&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;div class=&#34;demo_container&#34;&gt;
-
 &lt;h1&gt; CSS list-style-image Property &lt;/h1&gt;
-
 &lt;h2&gt; Unordered List &lt;/h2&gt;
-
 &lt;ul&gt;
-
 &lt;li&gt; Item 1 &lt;/li&gt;
-
 &lt;li&gt; Item 2 &lt;/li&gt;
-
 &lt;li&gt; Item 3 &lt;/li&gt;
-
 &lt;/ul&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
 ###### list-style-position property: The list-style-position CSS property defines the position of the list-item marker with respect to the list item's block box. The syntax of this property is given as:
 
+```
 list-style-position: inside &#124; outside &#124; initial &#124; inherit
+```
 
 ##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html&gt;
-
 &lt;head&gt;
-
 &lt;style&gt;
-
 .demo_container{ width:400px; margin:0 auto;
-
 }
-
 ol {
-
 }
-
 list-style-position: inside;
-
 ul {
-
 list-style-position: outside;
-
 }
-
 ol li, ul li{
-
 background: #d8bfd8;
-
 }
-
 &lt;/style&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;div class=&#34;demo_container&#34;&gt;
-
 &lt;h1&gt; CSS list-style-position Property &lt;/h1&gt;
-
 &lt;h2&gt; List Marker Positioned Inside &lt;/h2&gt;
-
 &lt;ol&gt;
-
 &lt;li&gt; Item 1 &lt;/li&gt;
-
 &lt;li&gt; Item 2 &lt;/li&gt;
-
 &lt;li&gt; Item 3 &lt;/li&gt;
-
 &lt;/ol&gt;
-
 &lt;h2&gt; List Marker Positioned Outside &lt;/h2&gt;
-
 &lt;ul&gt;
-
 &lt;li&gt; Item 1 &lt;/li&gt;
-
 &lt;li&gt; Item 2 &lt;/li&gt;
-
 &lt;li&gt; Item 3 &lt;/li&gt;
-
 &lt;/ul&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
 ###### The output of the code is given below:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5535,91 +5394,58 @@ margin: &#91; length &#124; percentage &#124; auto &#93; 1 to 4 values
 
 ##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html&gt;
-
 &lt;head&gt;
-
 &lt;style&gt;
-
 .demo_container{ width:600px; margin:0 auto;
-
 text-align: center; justify-content: center; border:1px solid red ;
 align-items: center;
-
 }
-
 .text-1 {
-
 border-style: solid;
-
 margin: 25px;
-
 }
-
 .text-2{
-
 border-style: solid;
-
 margin: 20px 20px 20px 20px;
-
 }
-
 .text-3{
-
 border-style: solid; margin: 30px 30px;
-
 }
-
 .text-4{
-
 border-style: solid; margin: 30px 0px 30px 0px ;
-
 }
-
 &lt;/style&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;div class=&#34;demo_container&#34;&gt;
-
 &lt;h1&gt;CSS margin Property &lt;/h1&gt;
-
 &lt;p class=&#34;text-1&#34;&gt; Lorem ipsum sit amet consectetur adipisicing
 elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae
 consequuntur voluptatum laborum numquam blanditiis harum quisquam eius
 sed odit fugiat iusto fuga praesentium optio, eaque rerum!&lt;/h1&gt;
 &lt;br&gt;
-
 &lt;br&gt;
-
 &lt;p class=&#34;text-2&#34;&gt; Provident similique accusantium nemo autem.
 Veritatis obcaecati tenetur iure eius earum ut molestias architecto
 voluptate aliquam nhil, eveniet aliquid culpa officia aut! .&lt;/p&gt;
 &lt;br&gt;
-
 &lt;br&gt;
-
 &lt;p class=&#34;text-3&#34;&gt;Lorem ipsum dolor sit consectetur adipisicing
 elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae
 consequuntur voluptatum laborum numquam blanditiis harum quisquam eius
 sed odit fugiat iusto fuga praesentium optio, eaque rerum!&lt;/h1&gt;
 &lt;br&gt;
-
 &lt;br&gt;
-
 &lt;p class=&#34;text-4&#34;&gt; Provident similique accusantium autem.
 Veritatis obcaecati tenetur iure earum ut molestias architecto
 voluptate aliquam nihil, eveniet culpa officia aut!
-
 .&lt;/p&gt;&lt;br&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
 This notation can take one, two, three, or four whitespace-separated
 values.
@@ -5640,91 +5466,58 @@ right, margin-bottom, and margin-left.
 
 ##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html&gt;
-
 &lt;head&gt;
-
 &lt;style&gt;
-
 .demo_container{ width:600px; margin:0 auto;
-
 text-align: center; justify-content: center; border: 2px solid black;
 align-items: center;
-
 }
-
 .text-1 {
-
 border:1px solid red ; margin-top: 25px;
-
 }
-
 .text-2{
-
 border:1px solid red ; margin-right: 20px ;
-
 }
-
 .text-3{
-
 border:1px solid red ; margin-bottom: 20px;
-
 }
-
 .text-4{
-
 border:1px solid red ;
-
 margin-left: 30px ;
-
 }
-
 &lt;/style&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;div class=&#34;demo_container&#34;&gt;
-
 &lt;h1&gt; CSS margin - Property (margin top, margin right, margin-bottom,
 margin-left) &lt;/h1&gt;
-
 &lt;p class=&#34;text-1&#34;&gt;Lorem dolor sit amet consectetur adipisicing
 elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae
 consequuntur voluptatum laborum numquam blanditiis harum quisquam eius
 sed odit fugiat iusto fuga praesentium optio, eaque rerum!&lt;/h1&gt;
 &lt;br&gt;
-
 &lt;br&gt;
-
 &lt;p class=&#34;text-2&#34;&gt; Provident similique accusantium nemo autem.
 obcaecati tenetur iure eius earum ut molestias architecto voluptate
 aliquam nhil, eveniet aliquid culpa officia aut!
-
 .&lt;/p&gt; &lt;br&gt;
-
 &lt;br&gt;
-
 &lt;p class=&#34;text-3&#34;&gt;Lorem ipsum dolor sit amet consectetur
 adipisicing. Maxime mollitia, molestiae quas vel sint commodi
 repudiandae consequuntur voluptatum laborum numquam blanditiis harum
 quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque
 rerum!&lt;/h1&gt; &lt;br&gt;
-
 &lt;br&gt;
-
 &lt;p class=&#34;text-4&#34;&gt; Provident similique accusantium nemo autem.
 Veritatis tenetur iure eius earum ut molestias architecto voluptate
 aliquam nihil, eveniet aliquid culpa officia aut!
-
 .&lt;/p&gt;&lt;br&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
 ###### The output of the code is given below:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7617,7 +7410,9 @@ translateZ() = translateZ( &lt;length&gt; )
 
 ###### **scale3d():** It specifies a 3D scale operation by the &#91;sx,sy,sz&#93; vector described by the three parameters. 
 
+```
 scale3d() = scale3d( &lt;number&gt;, &lt;number&gt;, &lt;number&gt; )
+```
 
 ###### **scaleZ():** It specifies a 3D scale operation using the &#91;1,1,sz&#93; vector, where sz is given as the parameter. 
 
@@ -7640,7 +7435,6 @@ rotate3d() = rotate3d( &lt;number&gt;, &lt;number&gt;, &lt;number&gt;,
 of rotateX is given below:
 
 ```
-{#rotatex-this-is-the-same-as-rotate3d1-0-0-angle.-the-syntax-of-rotatex-is-given-below .unnumbered}
 rotateX() = rotateX( &lt;angle&gt; )
 ```
 
@@ -7648,7 +7442,6 @@ rotateX() = rotateX( &lt;angle&gt; )
 The syntax of rotateY is given below:
 
 ```
-{#rotatey-this-is-the-same-as-rotate3d0-1-0-angle.-the-syntax-of-rotatey-is-given-below .unnumbered}
 rotateY() = rotateY( &lt;angle&gt; )
 ```
 
@@ -7811,9 +7604,9 @@ chapter is about the most important concept in CSS named CSS Selectors.
 </p>
 <!-- ![](./images/image006.png){width="3.6393208661417322in" height="0.9622911198600175in"}  -->
 
-CHAPTER 3
+## CHAPTER 3
 
-# CSS Selectors
+### CSS Selectors
 
 ### IN THIS CHAPTER
 
@@ -7909,56 +7702,34 @@ from the above given selectors:
 
 ##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html&gt;
-
 &lt;head&gt;
-
 &lt;style&gt;
-
 .demo_container{ width:400px; margin:0 auto;
-
 text-align: center; justify-content: center; align-items: center;
-
 }
-
 &#42; {
-
 background-color: #f13;
-
 }
-
 &lt;/style&gt;
-
 &lt;/style&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;div class=&#34;demo_container&#34;&gt;
-
 &lt;h1&gt; Universal Selectors (&#42;) &lt;/h1&gt;
-
 Lorem ipsum sit amet, consectetur adipiscing elit.
-
 Aenean accumsan velit id lorem tempus iaculis. Praesent placerat
 lectus lorem. Quisque lacinia,
-
 metus sit amet tristique lacinia, nisi erat pharetra lectus, in
-
 consequat turpis eros a erat. Cras blandit vehicula arcu ac porta.
-
 Donec gravida massa vel odio pretium dignissim. In id congue erat,
-
 quis fermentum nulla.
-
 &lt;/div&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
 ###### The output of the code is given below:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7977,57 +7748,35 @@ Universal selector (&#42;).
 
 ##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html&gt;
-
 &lt;head&gt;
-
 &lt;style&gt;
-
 .demo_container{ width:600px; margin:0 auto;
-
 text-align: center; justify-content: center; align-items: center;
-
 }
-
 div {
-
 background-color: #f13;
-
 }
-
 &lt;/style&gt;
-
 &lt;/style&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;div class=&#34;demo_container&#34;&gt;
-
 &lt;h1&gt; Universal Selectors (p, div, h1, aside, section, article)
 &lt;/h1&gt;
-
 Lorem ipsum sit amet, consectetur adipiscing elit.
-
 Aenean accumsan velit id lorem tempus iaculis. Praesent placerat
 lectus lorem. Quisque lacinia,
-
 metus sit amet tristique lacinia, nisi erat pharetra lectus, in
-
 consequat turpis eros a erat. Cras blandit vehicula arcu ac porta.
-
 Donec gravida massa vel odio pretium dignissim. In id congue erat,
-
 quis fermentum nulla.
-
 &lt;/div&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
 ###### The output of the code is given below:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8048,67 +7797,40 @@ Universal selector (elements/tags).
 
 ##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html&gt;
-
 &lt;head&gt;
-
 &lt;style&gt;
-
 .demo_container{ width:600px; margin:0 auto;
-
 text-align: center; justify-content: center; align-items: center;
-
 }
-
 div {
-
 background-color: #f13;
-
 }
-
 p:not(div,h1) { background-color: yellow;
-
 }
-
 &lt;/style&gt;
-
 &lt;/style&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;div class=&#34;demo_container&#34;&gt;
-
 &lt;h1&gt; Logical Selectors ( :not ) &lt;/h1&gt;
-
 Lorem ipsum sit amet, consectetur adipiscing elit.
-
 Aenean accumsan velit id lorem tempus iaculis.
-
 Praesent placerat lectus lorem. Quisque lacinia,
-
 &lt;p&gt; metus sit amet tristique lacinia, nisi erat pharetra lectus, in
-
 consequat turpis eros a erat. Cras blandit vehicula arcu ac porta.
-
 &lt;/p&gt;
-
 &lt;p&gt; metus sit amet tristique lacinia, nisi erat pharetra lectus, in
-
 consequat turpis eros a erat. Cras blandit vehicula arcu ac porta.
-
 &lt;/p&gt;
-
 &lt;/div&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-50 .unnumbered}
+###### The output of the code is given below:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 66.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -8123,75 +7845,47 @@ Logical selectors ( :not ).
 
 ## ATTRIBUTE SELECTORS
 
-#### [ATTRIBUTE SELECTORS ( .classname )]{.underline}
+#### [ATTRIBUTE SELECTORS ( .classname )
 
 ##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html&gt;
-
 &lt;head&gt;
-
 &lt;style&gt;
-
 .demo_container{ width:600px; margin:0 auto;
-
 text-align: center; justify-content: center; align-items: center;
-
 }
-
 p.p1{
-
 background-color: yellow;
-
 }
-
 p.p2{
-
 background-color: pink;
-
 }
-
 &lt;/style&gt;
-
 &lt;/style&gt;
-
 &lt;/head&gt;
-
-[]{#_bookmark235 .anchor}&lt;body&gt;
-
+&lt;body&gt;
 &lt;div class=&#34;demo_container&#34;&gt;
-
 &lt;h1&gt; Attribute Selectors (.classname ) &lt;/h1&gt;
-
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-
 Aenean accumsan velit id lorem tempus iaculis.
-
 Praesent placerat lectus lorem. Quisque lacinia,
-
 &lt;p class=&#34;p2&#34;&gt; metus sit amet tristique lacinia, nisi erat
 pharetra lectus, in
-
 consequat turpis eros a erat. Cras blandit vehicula arcu ac porta.
-
 &lt;/p&gt;
-
 &lt;p class=&#34;p1&#34;&gt; metus sit amet tristique lacinia, nisi erat
 pharetra lectus, in
-
 consequat turpis eros a erat. Cras blandit vehicula arcu ac porta.
-
 &lt;/p&gt;
-
 &lt;/div&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-51 .unnumbered}
+###### The output of the code is given below:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 67.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -8215,11 +7909,13 @@ Attribute selectors (.classname).
 
 #### brightness()
 
-###### The brightness() function is used to adjust an image's brightness. {#the-brightness-function-is-used-to-adjust-an-images-brightness. .unnumbered}
+###### The brightness() function is used to adjust an image's brightness. 
 
 The syntax of the brightness() function is as follows:
 
+```
 brightness() = brightness( &#91; &lt;number&gt; &#124; &lt;percentage&gt; &#93; )
+```
 
 Explanation: The brightness() function accepts a number or also per-
 centage as its argument. It determines the brightness level of the
@@ -8233,113 +7929,63 @@ appear more or less bright. It requires an argument to be passed to
 it. It determines the brightness level that is applied to the image.
 The argument can be either a % value or a number.
 
-##### Example: {#example-68 .unnumbered}
+##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html&gt;
-
 &lt;head&gt;
-
 &lt;style&gt;
-
 &#42; { padding:0; margin:0;
-
 box-sizing: border-box;
-
 }
-
 .demo_container{ padding:20px; width:800px; margin:0 auto;
-
 justify-content: center; align-items: center;
-
 }
-
 img{
-
 width:100%; height:250px;
-
 }
-
 .row{
-
 display: flex;
-
 }
-
 .col{
-
 width:100%
-
 }
-
 .image-1 {
-
 filter: brightness(50%);
-
 }
-
 .image-2 {
-
 filter: brightness(150%);
-
 }
-
 .image-3 {
-
 filter: brightness(2.5);
-
 }
-
 p{
-
 padding-top: 20px; font-size:20px
-
 }
-
 &lt;/style&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;div class=&#34;demo_container&#34;&gt;
-
 &lt;h2&gt; The blur() function will blur the given image. &lt;/h2&gt;
-
 &lt;div class=&#34;row&#34;&gt;
-
 &lt;div class=&#34;col&#34;&gt;
-
 &lt;p&gt; Normal Image &lt;/p&gt;
-
 &lt;img src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
-
 &lt;p&gt; 50% Brightness Image &lt;/p&gt;
-
 &lt;img class=&#34;image-1&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
-
 &lt;/div&gt;
-
 &lt;div class=&#34;col&#34;&gt;
-
 &lt;p&gt; 150% Brightness Image &lt;/p&gt;
-
 &lt;img class=&#34;image-2&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
-
 []{#_bookmark239 .anchor}&lt;p&gt; 50% Brightness Image &lt;/p&gt;
-
 &lt;img class=&#34;image-3&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
-
 &lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
 ###### The output of the above code is given below:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8364,72 +8010,42 @@ performed by the calc() function.
 
 ##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html&gt;
-
 &lt;head&gt;
-
 &lt;style&gt;
-
 &#42; { padding:0; margin:0;
-
 box-sizing: border-box;
-
 }
-
 .demo_container{ width:800px; margin:0 auto;
-
 justify-content: center; align-items: center;
-
 }
-
 nav {
-
 width: 180px; float: left; background: gold;
-
 }
-
 article {
-
 width: calc(90% - 100px); float: right;
-
 background: orange;
-
 }
-
 article, nav { color: white; padding: 30px;
-
 box-sizing: border-box;
-
 }
-
 &lt;/style&gt;
-
 &lt;div class=&#34;demo_container&#34;&gt;
-
 &lt;h1&gt; The calc() function allows to use calculations within CSS
 property values. &lt;/h1&gt;
-
 &lt;br&gt;
-
 &lt;nav&gt;
-
 &lt;h1&gt; Width:100px &lt;/h1&gt;
-
 &lt;/nav&gt;
-
 &lt;article&gt;
-
 &lt;h1&gt; Width: calc(100% - 100px);&lt;/h1&gt;
-
 &lt;/article&gt;
-
 &lt;/div&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
 ###### The output of the above code is given below:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -8446,7 +8062,7 @@ CSS function ( :calc () ).
 
 #### circle()
 
-###### The circle() is a basic shape value that is the part of the CSS shapes mod- ule. Basic shapes such as circle() can be used as a value for properties such as shape-outside to control the flow of content (code) around the element and clip-path to clip the element's contents to the basic shape. It means that you have text flowing around the element in the shape of a circle, has an image clipped to the shape of a circle. {#the-circle-is-a-basic-shape-value-that-is-the-part-of-the-css-shapes-mod--ule.-basic-shapes-such-as-circle-can-be-used-as-a-value-for-properties-such-as-shape-outside-to-control-the-flow-of-content-code-around-the-element-and-clip-path-to-clip-the-elements-contents-to-the-basic-shape.-it-means-that-you-have-text-flowing-around-the-element-in-the-shape-of-a-circle-has-an-image-clipped-to-the-shape-of-a-circle. .unnumbered}
+###### The circle() is a basic shape value that is the part of the CSS shapes mod- ule. Basic shapes such as circle() can be used as a value for properties such as shape-outside to control the flow of content (code) around the element and clip-path to clip the element's contents to the basic shape. It means that you have text flowing around the element in the shape of a circle, has an image clipped to the shape of a circle. 
 
 The syntax of the circle() function is as follows:
 
@@ -8454,7 +8070,7 @@ The syntax of the circle() function is as follows:
 circle() = circle( &#91;&lt;shape-radius&gt;&#93;? &#91;at &lt;position&gt;&#93;? )
 ```
 
-###### How to Position the Circle {#how-to-position-the-circle .unnumbered}
+###### How to Position the Circle
 
 You can specify a position for the circle by various radius argument
 with a valid CSS position. It specifies the circle's center. It just
@@ -8691,7 +8307,7 @@ CSS function ( :circle() ).
 
 #### contrast()
 
-###### The CSS contrast() is used with the filter property to adjust the contrast of an image. The contrast() requires an argument to be passed to it. It deter- mines the contrast level that's applied to the image. The argument can be either a % value or a number. {#the-css-contrast-is-used-with-the-filter-property-to-adjust-the-contrast-of-an-image.-the-contrast-requires-an-argument-to-be-passed-to-it.-it-deter--mines-the-contrast-level-thats-applied-to-the-image.-the-argument-can-be-either-a-value-or-a-number. .unnumbered}
+###### The CSS contrast() is used with the filter property to adjust the contrast of an image. The contrast() requires an argument to be passed to it. It deter- mines the contrast level that's applied to the image. The argument can be either a % value or a number. 
 
 The syntax of the contrast() function is as follows:
 
@@ -8964,7 +8580,7 @@ have been generated by an element and its parent/s. &lt;/h3&gt;
 &lt;/html&gt;
 ```
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-57 .unnumbered}
+###### The output of the code is given below:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 75.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -9133,7 +8749,7 @@ CSS function ( :drop-shadow() ).
 
 #### ellipse()
 
-###### The ellipse() function is a CSS basic shape value that's part of the CSS shapes module. The basic shapes such as ellipse() can be used as a value for properties such as shape-outside to control the f low of content (code) around the element, and clip-path to clip the element's contents to the basic shape. It means you can have text f lowing around the ele- ment in the shape of an ellipse, have an image clipped to the shape of an ellipse, etc. {#the-ellipse-function-is-a-css-basic-shape-value-thats-part-of-the-css-shapes-module.-the-basic-shapes-such-as-ellipse-can-be-used-as-a-value-for-properties-such-as-shape-outside-to-control-the-f-low-of-content-code-around-the-element-and-clip-path-to-clip-the-elements-contents-to-the-basic-shape.-it-means-you-can-have-text-f-lowing-around-the-ele--ment-in-the-shape-of-an-ellipse-have-an-image-clipped-to-the-shape-of-an-ellipse-etc. .unnumbered}
+###### The ellipse() function is a CSS basic shape value that's part of the CSS shapes module. The basic shapes such as ellipse() can be used as a value for properties such as shape-outside to control the f low of content (code) around the element, and clip-path to clip the element's contents to the basic shape. It means you can have text f lowing around the ele- ment in the shape of an ellipse, have an image clipped to the shape of an ellipse, etc. 
 
 The syntax of the ellipse() function is as follows:
 
@@ -9158,7 +8774,7 @@ center &#124; bottom &#124; &lt;length-percentage&gt; &#93;
 &#93;
 ```
 
-##### Example: {#example-76 .unnumbered}
+##### Example:
 
 ```
 &lt;!DOCTYPE html&gt;
