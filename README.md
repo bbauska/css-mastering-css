@@ -5752,34 +5752,21 @@ column-count: number &#124; auto &#124; initial &#124; inherit
 
 ##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html lang=&#34;en&#34;&gt;
-
 &lt;head&gt;
-
 &lt;meta charset=&#34;utf-8&#34;&gt;
-
 &lt;title&gt;Example of CSS3 column-count Property
-
 &lt;/title&gt;
-
 &lt;style&gt; p {
-
 }
-
 column-count: 2; /&#42; Standard syntax &#42;/
-
 &lt;/style&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;h1&gt; CSS3 column-count Property &lt;/h1&gt;
-
 &lt;p&gt;Lorem ipsum dolor amet, adipiscing elit.
-
 Ut nisi egestas suscipit gravida. Sed velit nisl, sed dui mollis,
 porta tempus ligula. vel orci vel arcu pellentesque fermentum. Duis
 bibendum metus arcu. Aliquam tortor vulputate, sollicitudin felis a,
@@ -5787,38 +5774,31 @@ mollis libero. Aliquam consequat sapien, id blandit lectus. ac nibh ac
 nulla tincidunt accumsan sit amet sit amet risus. Integer id nisl
 urna. In a elementum, auctor justo quis, tincidunt augue. Donec dui,
 congue non neque quis, semper aliquam felis.
-
 Praesent efficitur massa vel convallis euismod. metus lectus,
 consectetur sit amet justo in, venenatis faucibus nunc. Aenean
 faucibus, id egestas convallis, felis mattis est, in ultricies est
 urna ac nisl.
-
 Cras placerat quis tortor quis. Nullam imperdiet gravida velit eget
 sollicitudin. dictum pretium justo vel congue. Praesent auctor leo
 maximus aliquam, eget vehicula tortor.
-
 Vestibulum finibus venenatis dui, nec lobortis mauris convallis id.
 Maecenas porttitor erat, at vulputate eros euismod a. In aliquam,
 dolor et bibendum consequat, eros felis ultricies lorem, ac fermentum
 arcu metus in. Integer
-
 sapien a porta, et suscipit sapien sollicitudin. Maecenas vel
 hendrerit. Curabitur convallis interdum ornare. Curabitur justo nibh,
 pretium ac vitae, consectetur sit amet orci. Nunc non enim non ligula
 efficitur venenatis et at metus. Duis turpis velit, lacinia interdum
 purus ac, venenatis semper lacus. mattis fermentum odio ut suscipit.
-
 vehicula lobortis diam et pretium. Duis in aliquet tellus. Phasellus
 tincidunt odio id faucibus malesuada. Cum sociis natoiique penatibus
 et magnis dis montes, nascetur ridiculus mus. Integer euismod porta
 nibh sit amet efficitur. Phasellus blandit porta vulputate. Proin
 placerat efficitur cursus.
-
 Fusce blandit tristique urna mollis. Duis erat, nec tellus eu, laoreet
 augue. Maecenas in nisi mauris. In vitae justo posuere, tincidunt a,
 ultrices dui. Sed id bibendum metus. Vestibulum at tincidunt felis, in
 efficitur libero.
-
 Mauris risus non condimentum gravida. sed dictum augue, sit amet
 sollicitudin massa. sed hendrerit nisi. Nulla eget lacinia tortor, id
 sollicitudin risus. In hac habitasse platea dictumst. Mauris lorem
@@ -5826,19 +5806,16 @@ dui, venenatis et massa eget, auctor risus. Nulla congue bibendum
 hendrerit. Phasellus nec lorem in ipsum scelerisque. Duis quis massa
 metus. Pellentesque commodo metus non bibendum aliquet. Duis
 pellentesque tempus posuere. interdum massa vel sodales.
-
 Curabitur feugiat, magna quis ultricies, felis leo varius nulla, ut
 blandit libero quis. Morbi sollicitudin odio purus, ut mauris feugiat
 sit amet. placerat scelerisque turpis. erat.
-
 Vestibulum blandit vitae a sodales. Integer semper tristique risus
 eget lobortis. luctus sed justo vel. Nunc sit nulla eu est fringilla
 euismod sed orci. Sed massa lorem, blandit sed massa, condimentum
 ornare purus.&lt;/p&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
 ###### The output of the code is given below:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5855,17 +5832,14 @@ CSS3 column-count property.
 
 The column count property is as follows:
 
-i.  number It specifies the number of columns in the multi-col- umn
+1.  number It specifies the number of columns in the multi-col- umn
     element. If the column width is also set to a non auto value, it may
     indicate the maximum allowed number of columns.
 
-ii. auto It is determined by other CSS properties, like column- width.
+2. auto It is determined by other CSS properties, like column- width.
     This is the default value.
 
-```{=html}
-<!-- --
-```
-1.  CSS3 column-fill property: The column-fill CSS property specifies
+3.  CSS3 column-fill property: The column-fill CSS property specifies
     how the column lengths in a multi-column element are affected by the
     content flow. Contents in a multi-column layout are either bal-
     anced, which means that contents in all columns will have the same
@@ -5874,7 +5848,9 @@ ii. auto It is determined by other CSS properties, like column- width.
 
 The syntax of this Property is given as:
 
+```
 column-fill: auto &#124; balance &#124; initial &#124; inherit
+```
 
 ##### Example:
 
@@ -6057,8 +6033,10 @@ ornare purus.&lt;/p&gt;
     prop- erty for setting the individual properties, that is,
     column-rule-width, column-rule-style, and column-rule-color at once.
 
+```
 column-rule: &#91; column-rule-width column-rule-style column-rule-color
 &#93; &#124; initial &#124; inherit
+```
 
 ##### Example:
 
@@ -6158,25 +6136,28 @@ CSS column-rule property.
 
 The syntax of this property is given as:
 
+```
 column-rule-width: length &#124; medium &#124; thin &#124; thick
-
 &#124; initial &#124; inherit
+```
 
 ###### column-rule-style property: This Property sets the style of the rule set between columns in a multi-column layout.
 
 The syntax of this property is given as:
 
+```
 column-rule-style: none &#124; hidden &#124;dashed &#124;dotted
-
 &#124; solid &#124; double &#124; groove &#124; ridge &#124; inset &#124; outset
-
 &#124; initial &#124; inherit
+```
 
 ###### column-rule-color property: The column-rule-color property sets the color of all the rules drawn between columns in a multi-column layout.
 
 The syntax of this property is given as:
 
+```
 column-rule-color: color &#124; initial &#124; inherit
+```
 
 ##### Example:
 
@@ -6354,7 +6335,9 @@ The syntax of the property is given as:
 outline-width: thin &#124; medium &#124; thick &#124; length &#124; initial &#124; inherit
 ```
 
-###### outline-style property: The outline style property sets style of the outline of an element. However, in many cases the shorthand prop- erties outline is more convenient to use and preferable.
+###### outline-style property: The outline style property sets style of the outline of 
+an element. However, in many cases the shorthand prop- erties outline is more convenient 
+to use and preferable.
 
 The syntax of this property is given as:
 
@@ -6516,7 +6499,7 @@ values.
 Instead of padding, you can use other various margin-top, padding-
 right, padding-bottom, padding-left.
 
-##### Example: {#example-49 .unnumbered}
+##### Example:
 
 ```
 &lt;!DOCTYPE html&gt;
@@ -6575,8 +6558,10 @@ nihil, eveniet culpa officia aut! .&lt;/p&gt;&lt;br&gt;
 
 ###### page-break-after property: The page-break-after CSS property inserts page breaks after an element when printing a document. This property applies to block-level elements that generate a box. It won't apply on an empty &lt;p&gt; that won't generate a box. The syntax of this Property is given as:
 
+```
 page-break-after: auto &#124; always &#124; avoid &#124; left &#124; right &#124; initial
 &#124; inherit
+```
 
 ##### Example:
 
@@ -6975,7 +6960,7 @@ empty-cells: hide;
 &lt;/html&gt;
 ```
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-39 .unnumbered}
+###### The output of the code is given below:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 55.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -6990,7 +6975,9 @@ CSS empty-cell property.
 
 ### [CSS TEXT PROPERTIES]
 
-###### text-align property and text-align-all property: The text-decoration property is aproperty forsettingtext-decoration-line, text-decoration- style, and text-decoration-color in one declaration.
+###### text-align property and text-align-all property: The text-decoration property is 
+aproperty forsettingtext-decoration-line, text-decoration- style, and text-decoration-
+color in one declaration.
 
 The syntax of text-align is given as:
 
@@ -7077,37 +7064,41 @@ architecto voluptate aliquam nhil, eveniet aliquid culpa officia aut!
 
 CSS text-align and text-align-all property.
 
-###### CSS text-decoration property: The text-decoration property is a property for setting text-decoration-line, text-decoration-style, and text-decoration-color in one declaration.
+###### CSS text-decoration property: The text-decoration property is a property for 
+setting text-decoration-line, text-decoration-style, and text-decoration-color in one 
+declaration.
 
 The syntax of the text-decoration is given as:
 
+```
 text-decoration: &lt;text-decoration-line&gt; &#124;&#124; &lt;text-
 decoration-style&gt; &#124;&#124; &lt;text-decoration-color&gt;
+```
 
 Here are some possible values under &lt;text-decoration-line&gt;
 
-i.  none: It is neither produces nor inhibits text decoration.
+1.  none: It is neither produces nor inhibits text decoration.
 
-ii. underline: Each line of text is underlined.
+2. underline: Each line of text is underlined.
 
-iii. overline: In each line of text has a line over it.
+3. overline: In each line of text has a line over it.
 
-iv. line-through: In each line of text has a line through the middle.
+4. line-through: In each line of text has a line through the middle.
 
-v.  blink: The text blinks means the alternates between visible and
+5.  blink: The text blinks means the alternates between visible and
     invisible.
 
 Here are some possible values under &lt;text-decoration-style&gt;
 
-i.  solid: It is a solid line.
+1.  solid: It is a solid line.
 
-ii. wavy: It is a wavy line.
+2. wavy: It is a wavy line.
 
-iii. dotted: It is a dotted line.
+3. dotted: It is a dotted line.
 
-iv. dashed: It is a line consisting of dashes.
+4. dashed: It is a line consisting of dashes.
 
-v.  double: It is a double solid line.
+5.  double: It is a double solid line.
 
 Here are some possible values under &lt;text-decoration-color&gt;
 
@@ -7258,7 +7249,7 @@ CSS text-orientation property.
 
 ##### Example:
 
-````
+```
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -10076,7 +10067,7 @@ model is considered to be more intuitive than the RGB model because,
 the HSL model allows to select a base hue, and then adjust its
 saturation and lightness as desired.
 
-##### Example: {#example-82 .unnumbered}
+##### Example:
 
 ```
 &lt;!DOCTYPE html&gt;
@@ -10365,7 +10356,7 @@ gradient using CSS.&lt;/h2&gt;
 
 CSS function linear-gradient().
 
-#### matrix() {#matrix .unnumbered}
+#### matrix()
 
 The CSS matrix() can be used with CSS transforms to style elements in
 a two-dimensional space.
@@ -10373,29 +10364,19 @@ a two-dimensional space.
 The matrix() is an alternative to the two-dimensional transform func-
 tions rotate(), skew(), scale(), and translate().
 
-##### Example: {#example-85 .unnumbered}
+##### Example:
 
 ```
 &lt;!DOCTYPE html&gt;
-
 &lt;html&gt;
-
 &lt;head&gt;
-
 &lt;style&gt;
-
 &#42; { padding:0; margin:0;
-
 box-sizing: border-box;
-
 }
-
 .demo_container{ padding:20px; width:900px; margin:0 auto;
-
 justify-content: center; align-items: center;
-
 }
-
 .matrix-1{
 transform-origin: 0 0;
 transform: matrix(0.707107, 0.707107,
@@ -10441,7 +10422,7 @@ function = transform: matrix(0.707107, 0.707107, -0.707107, 0.707107,
 &lt;/html&gt;
 ```
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-67 .unnumbered}
+###### The output of the code is given below:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 86.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -10464,109 +10445,62 @@ scaleZ(), and perspective().
 
 ##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html&gt;
-
 &lt;head&gt;
-
 &lt;style&gt;
-
 &#42; { padding:0; margin:0;
-
 box-sizing: border-box;
-
 }
-
 .demo_container{ padding:20px; width:900px; margin:0 auto;
-
 justify-content: center; align-items: center;
-
 }
-
 .matrix-1{
-
 transform-origin: 0 0; padding: 20px;
-
 width: 300px; height:300px; background: lime green; color: white;
-
 font-family: sans-serif;
-
 }
-
 .matrix-2 {
-
 transform-origin: 0 0;
-
 transform: matrix3d(0.583333, 0.186887, 0.9044,
-
 0, -0.52022, 0.833333, 0.186887, 0, -0.623773,
-
 -0.52022, 0.583333, 0, 0, 0, 0, 1); padding:
-
 20px;
-
 width: 300px; height:250px; background: lime green; color: white;
-
 font-family: sans-serif;
-
 }
-
 .row{
-
 display: flex;
-
 }
-
 .col{
-
 width:100%
-
 }
-
 &lt;/style&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;div class=&#34;demo_container&#34;&gt;
-
 &lt;h1&gt;The CSS matrix3d() function can be used with CSS transforms to
 style elements in a three- dimensional space.&lt;/h1&gt;
-
 &lt;div class=&#34;row&#34;&gt;
-
 &lt;div class=&#34;col&#34;&gt;
-
 &lt;div class=&#34;matrix-1&#34;&gt; Scaled and moved with&lt;code&gt;matrix()
 function = transform: matrix(0.707107, 0.707107, -0.707107, 0.707107,
-
 150, 0);&lt;/code&gt;&lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;div class=&#34;col&#34;&gt;
-
 &lt;div class=&#34;matrix-2&#34;&gt; Scaled and moved with
-
 &lt;code&gt;matrix() function = transform: matrix(2, 0, 0, 2, 0, 0);
-
 &lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;/code&gt;
-
 &lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-68 .unnumbered}
+###### The output of the code is given below:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 87.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -10594,106 +10528,56 @@ value or a number.
 <!DOCTYPE html&gt;
 <html&gt;
 <head&gt;
-
 &lt;style&gt;
-
  body {
-
  padding:0; margin:0;
-
  box-sizing: border-box; background: gold;
-
  }
-
  .demo_container{ padding:20px; width:900px; margin:0 auto;
-
  justify-content: center; align-items: center;
-
  }
-
  .row{
-
  display: flex; flex-wrap:wrap ;
-
  }
-
  .box-1{
-
  transform-origin: 0 0; padding: 20px;
-
  width: 300px; height:300px;
-
  background-color: green; filter: opacity(10%); color: white;
-
  font-family: sans-serif;
-
  }
-
  .box-2{
-
  transform-origin: 0 0; padding: 20px;
-
  width: 300px; height:300px;
-
  background-color: green; filter: opacity(40%); color: white;
-
  font-family: sans-serif;
-
  }
-
  .box-3{
-
  transform-origin: 0 0; padding: 20px;
-
  width: 300px; height:300px;
-
  background-color: green; filter: opacity(70%); color: white;
-
  font-family: sans-serif;
-
  }
-
  .box-4{
-
  transform-origin: 0 0; padding: 20px;
-
  width: 300px;
-
  height:300px;
-
  background-color: green; filter: opacity(90%); color: white;
-
  font-family: sans-serif;
-
  }
-
 &lt;/style&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;div class=&#34;demo_container&#34;&gt;
-
 &lt;h1&gt;The CSS matrix3d() function can be used with CSS transforms to
  style elements in a three- dimensional space.&lt;/h1&gt;
-
 &lt;div class=&#34;row&#34;&gt;
-
 &lt;div class=&#34;box-1&#34;&gt; opacity(10%)&lt;/div&gt;
-
 &lt;div class=&#34;box-2&#34;&gt; opacity(40%)&lt;/div&gt;
-
 &lt;div class=&#34;box-3&#34;&gt; opacity(70%)&lt;/div&gt;
-
 &lt;div class=&#34;box-4&#34;&gt; opacity(90%)&lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
 ```
 
