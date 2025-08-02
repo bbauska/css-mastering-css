@@ -7297,6 +7297,7 @@ fuga praesentium optio, eaque rerum!&lt;/h1&gt;
 ```
 
 ###### The output of the code is given below:
+
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 59.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -7386,11 +7387,8 @@ elements, scale them, skew them, and more.
 
 The transform property accepts a list of "transform functions" as
 values. These functions have names such as scale(), rotate(), skew(),
-etc, which
->
-take parameters to determine the level of transformation (e.g., the
+etc, which take parameters to determine the level of transformation (e.g., the
 angle to rotate an element).
->
 The syntax of transform is given below:
 
 ```
@@ -7682,105 +7680,60 @@ perspective() = perspective( &lt;length&gt; )
 
 ##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
->
 &lt;html&gt;
->
 &lt;head&gt;
->
 &lt;style&gt;
->
 body { font-family: sans-serif; }
->
 .scene {
->
 width: 200px; height: 200px;
->
 border: 1px solid #CCC; display: inline-block; width: 200px;
->
 height: 200px;
->
 margin: 60px 60px 60px 0; perspective: 600px;
->
 }
->
 .panel { width: 100%;
->
 height: 100%;
->
 background: hsla(0, 100%, 50%, 0.7); line-height: 200px;
->
 color: white; font-size: 18px;
->
 text-align: center;
->
 }
->
 .panel&#45;-translate-neg-z { transform: translateZ(-200px);
->
 }
->
 .panel&#45;-translate-pos-z { transform: translateZ(200px);
->
 }
->
 .panel&#45;-rotate-x { transform: rotateX(45deg);
->
 }
->
 .panel&#45;-rotate-y { transform: rotateY(45deg);
->
 }
->
 .panel&#45;-rotate-z { transform: rotateZ(45deg);
->
 }
->
 &lt;/style&gt;
->
 &lt;/head&gt;
->
 &lt;body&gt;
->
 &lt;h1&gt; 3D Transform Functions&lt;/h1&gt;
->
 &lt;div class=&#34;scene&#34;&gt;
->
 &lt;div class=&#34;panel panel&#45;-translate-neg-
 z&#34;&gt;translateZ(-200px)&lt;/div&gt;
->
 &lt;/div&gt;
->
 &lt;div class=&#34;scene&#34;&gt;
->
 &lt;div class=&#34;panel panel&#45;-translate-pos-
 z&#34;&gt;translateZ(200px)&lt;/div&gt;
->
 &lt;/div&gt;
->
 &lt;div class=&#34;scene&#34;&gt;
->
 &lt;div class=&#34;panel panel&#45;-rotate- x&#34;&gt;rotateX(45deg)&lt;/div&gt;
->
 &lt;/div&gt;
->
 &lt;div class=&#34;scene&#34;&gt;
->
 &lt;div class=&#34;panel panel&#45;-rotate- y&#34;&gt;rotateY(45deg)&lt;/div&gt;
->
 &lt;/div&gt;
->
 &lt;div class=&#34;scene&#34;&gt;
->
 &lt;div class=&#34;panel panel&#45;-rotate- z&#34;&gt;rotateZ(45deg)&lt;/div&gt;
->
 &lt;/div&gt;
->
 &lt;/body&gt;
->
 &lt;/html&gt;
+```
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-46 .unnumbered}
+###### The output of the code is given below:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 62.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -7803,69 +7756,42 @@ transition-timing-function, and transition-delay.
 
 ##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
->
 &lt;html&gt;
->
 &lt;head&gt;
->
 &lt;style&gt;
->
 .demo_container{ width:600px; margin:0 auto;
->
 justify-content: center; align-items: center;
->
 }
->
 .transition {
->
 background-color: yellow-green; color: RGB(77, 145, 213);
->
 width: 30%; height: 30px; padding: 10px; font-size: 1.5em;
->
 font-family: sans-serif;
->
 transition: width 0.5s cubic-bezier(0.25, 0.1, 0.25, 1.4) 0s, height
 0.5s cubic-bezier(0.25, 0.1,
->
 0.25, 1.4) 0s, font-size 0.5s cubic-bezier(0.25,
->
 0.1, 0.25, 1.4) 0s;
->
 }
->
 .transition:hover { width: 60%; height: 180px; font-size: 2em;
 font-weight: bold;
->
 background-color: beige;
->
 }
->
 &lt;/style&gt;
->
 &lt;/head&gt;
->
 &lt;body&gt;
->
 &lt;div class=&#34;demo_container&#34;&gt;
->
 &lt;div class=&#34;div1&#34;&gt;
->
 &lt;h1&gt; CSS transition Properties &lt;/h1&gt;
->
 &lt;div class=&#34;transition&#34;&gt; Drage over me&#8230;
->
 &lt;/div&gt;
->
 &lt;/div&gt;
->
 &lt;/div&gt;
->
 &lt;/body&gt;
->
 &lt;/html&gt;
+```
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-47 .unnumbered}
+###### The output of the code is given below:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 63.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -7880,7 +7806,9 @@ CSS transition properties.
 
 ### CHAPTER SUMMARY
 
-###### In this chapter, we have read about many properties of CSS in brief with examples so that it makes clear to understand the syntax of how to write code in CSS. The next chapter is about the most important concept in CSS named CSS Selectors. {#in-this-chapter-we-have-read-about-many-properties-of-css-in-brief-with-examples-so-that-it-makes-clear-to-understand-the-syntax-of-how-to-write-code-in-css.-the-next-chapter-is-about-the-most-important-concept-in-css-named-css-selectors. .unnumbered}
+###### In this chapter, we have read about many properties of CSS in brief with examples 
+so that it makes clear to understand the syntax of how to write code in CSS. The next 
+chapter is about the most important concept in CSS named CSS Selectors. 
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 06.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -7916,7 +7844,7 @@ can select any of the properties like classes, id, or tag names using
 the selector. The code can have various classes, but only unique id in
 it.
 
-### INTRODUCTION {#introduction-1 .unnumbered}
+### INTRODUCTION
 
 Here is the list of the most common and well-supported CSS selectors.
 There are many more, but these are the ones you should know well.
@@ -7928,11 +7856,6 @@ There are many more, but these are the ones you should know well.
 -   Child Selector: a &gt; b { }
 
 -   Descendant Selector: a b { }
-
-DOI:
-[10.1201/9781003358060-3](https://doi.org/10.1201/9781003358060-3)
->
-**177**
 
 -   Selector list : a,b
 
@@ -7987,63 +7910,63 @@ DOI:
 
 -   Attribute Wildcard Selector: &#91;for&#42;="x"&#93; { }
 
-[]{#_bookmark225 .anchor}Let's have the example of each of the
+Let's have the example of each of the
 selectors with simple explanations, and the numbering can be changed
 from the above given selectors:
 
-### [UNIVERSAL SELECTOR (&#42;)]{.underline}  {#universal-selector .unnumbered}
+### [UNIVERSAL SELECTOR (&#42;)]
 
-##### Example: {#example-63 .unnumbered}
+##### Example:
 
 &lt;!DOCTYPE html&gt;
->
+
 &lt;html&gt;
->
+
 &lt;head&gt;
->
+
 &lt;style&gt;
->
+
 .demo_container{ width:400px; margin:0 auto;
->
+
 text-align: center; justify-content: center; align-items: center;
->
+
 }
->
+
 &#42; {
->
+
 background-color: #f13;
->
+
 }
->
+
 &lt;/style&gt;
->
+
 &lt;/style&gt;
->
+
 &lt;/head&gt;
->
+
 &lt;body&gt;
->
+
 &lt;div class=&#34;demo_container&#34;&gt;
->
+
 &lt;h1&gt; Universal Selectors (&#42;) &lt;/h1&gt;
->
+
 Lorem ipsum sit amet, consectetur adipiscing elit.
->
+
 Aenean accumsan velit id lorem tempus iaculis. Praesent placerat
 lectus lorem. Quisque lacinia,
->
+
 metus sit amet tristique lacinia, nisi erat pharetra lectus, in
->
+
 consequat turpis eros a erat. Cras blandit vehicula arcu ac porta.
->
+
 Donec gravida massa vel odio pretium dignissim. In id congue erat,
->
+
 quis fermentum nulla.
->
+
 &lt;/div&gt;
->
+
 &lt;/body&gt;
->
+
 &lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-48 .unnumbered}
@@ -8064,55 +7987,55 @@ Universal selector (&#42;).
 ##### Example: {#example-64 .unnumbered}
 
 &lt;!DOCTYPE html&gt;
->
+
 &lt;html&gt;
->
+
 &lt;head&gt;
->
+
 &lt;style&gt;
->
+
 .demo_container{ width:600px; margin:0 auto;
->
+
 text-align: center; justify-content: center; align-items: center;
->
+
 }
->
+
 div {
->
+
 background-color: #f13;
->
+
 }
->
+
 &lt;/style&gt;
->
+
 &lt;/style&gt;
->
+
 &lt;/head&gt;
->
+
 []{#_bookmark229 .anchor}&lt;body&gt;
->
+
 &lt;div class=&#34;demo_container&#34;&gt;
->
+
 &lt;h1&gt; Universal Selectors (p, div, h1, aside, section, article)
 &lt;/h1&gt;
->
+
 Lorem ipsum sit amet, consectetur adipiscing elit.
->
+
 Aenean accumsan velit id lorem tempus iaculis. Praesent placerat
 lectus lorem. Quisque lacinia,
->
+
 metus sit amet tristique lacinia, nisi erat pharetra lectus, in
->
+
 consequat turpis eros a erat. Cras blandit vehicula arcu ac porta.
->
+
 Donec gravida massa vel odio pretium dignissim. In id congue erat,
->
+
 quis fermentum nulla.
->
+
 &lt;/div&gt;
->
+
 &lt;/body&gt;
->
+
 &lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-49 .unnumbered}
@@ -8135,63 +8058,63 @@ Universal selector (elements/tags).
 ##### Example:
 
 &lt;!DOCTYPE html&gt;
->
+
 &lt;html&gt;
->
+
 &lt;head&gt;
->
+
 &lt;style&gt;
->
+
 .demo_container{ width:600px; margin:0 auto;
->
+
 text-align: center; justify-content: center; align-items: center;
->
+
 }
->
+
 div {
->
+
 background-color: #f13;
->
+
 }
->
+
 p:not(div,h1) { background-color: yellow;
->
+
 }
->
+
 &lt;/style&gt;
->
+
 &lt;/style&gt;
->
+
 &lt;/head&gt;
->
+
 &lt;body&gt;
->
+
 &lt;div class=&#34;demo_container&#34;&gt;
->
+
 &lt;h1&gt; Logical Selectors ( :not ) &lt;/h1&gt;
->
+
 Lorem ipsum sit amet, consectetur adipiscing elit.
->
+
 Aenean accumsan velit id lorem tempus iaculis.
->
+
 Praesent placerat lectus lorem. Quisque lacinia,
->
+
 &lt;p&gt; metus sit amet tristique lacinia, nisi erat pharetra lectus, in
->
+
 consequat turpis eros a erat. Cras blandit vehicula arcu ac porta.
->
+
 &lt;/p&gt;
->
+
 &lt;p&gt; metus sit amet tristique lacinia, nisi erat pharetra lectus, in
->
+
 consequat turpis eros a erat. Cras blandit vehicula arcu ac porta.
->
+
 &lt;/p&gt;
->
+
 &lt;/div&gt;
->
+
 &lt;/body&gt;
->
+
 &lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-50 .unnumbered}
@@ -8214,67 +8137,67 @@ Logical selectors ( :not ).
 ##### Example:
 
 &lt;!DOCTYPE html&gt;
->
+
 &lt;html&gt;
->
+
 &lt;head&gt;
->
+
 &lt;style&gt;
->
+
 .demo_container{ width:600px; margin:0 auto;
->
+
 text-align: center; justify-content: center; align-items: center;
->
+
 }
->
+
 p.p1{
->
+
 background-color: yellow;
->
+
 }
->
+
 p.p2{
->
+
 background-color: pink;
->
+
 }
->
+
 &lt;/style&gt;
->
+
 &lt;/style&gt;
->
+
 &lt;/head&gt;
->
+
 []{#_bookmark235 .anchor}&lt;body&gt;
->
+
 &lt;div class=&#34;demo_container&#34;&gt;
->
+
 &lt;h1&gt; Attribute Selectors (.classname ) &lt;/h1&gt;
->
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
->
+
 Aenean accumsan velit id lorem tempus iaculis.
->
+
 Praesent placerat lectus lorem. Quisque lacinia,
->
+
 &lt;p class=&#34;p2&#34;&gt; metus sit amet tristique lacinia, nisi erat
 pharetra lectus, in
->
+
 consequat turpis eros a erat. Cras blandit vehicula arcu ac porta.
->
+
 &lt;/p&gt;
->
+
 &lt;p class=&#34;p1&#34;&gt; metus sit amet tristique lacinia, nisi erat
 pharetra lectus, in
->
+
 consequat turpis eros a erat. Cras blandit vehicula arcu ac porta.
->
+
 &lt;/p&gt;
->
+
 &lt;/div&gt;
->
+
 &lt;/body&gt;
->
+
 &lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-51 .unnumbered}
@@ -8304,9 +8227,9 @@ Attribute selectors (.classname).
 ###### The brightness() function is used to adjust an image's brightness. {#the-brightness-function-is-used-to-adjust-an-images-brightness. .unnumbered}
 
 The syntax of the brightness() function is as follows:
->
+
 brightness() = brightness( &#91; &lt;number&gt; &#124; &lt;percentage&gt; &#93; )
->
+
 Explanation: The brightness() function accepts a number or also per-
 centage as its argument. It determines the brightness level of the
 image. A value of 0% in the image will be completely black. A value of
@@ -8322,109 +8245,109 @@ The argument can be either a % value or a number.
 ##### Example: {#example-68 .unnumbered}
 
 &lt;!DOCTYPE html&gt;
->
+
 &lt;html&gt;
->
+
 &lt;head&gt;
->
+
 &lt;style&gt;
->
+
 &#42; { padding:0; margin:0;
->
+
 box-sizing: border-box;
->
+
 }
->
+
 .demo_container{ padding:20px; width:800px; margin:0 auto;
->
+
 justify-content: center; align-items: center;
->
+
 }
->
+
 img{
->
+
 width:100%; height:250px;
->
+
 }
->
+
 .row{
->
+
 display: flex;
->
+
 }
->
+
 .col{
->
+
 width:100%
->
+
 }
->
+
 .image-1 {
->
+
 filter: brightness(50%);
->
+
 }
->
+
 .image-2 {
->
+
 filter: brightness(150%);
->
+
 }
->
+
 .image-3 {
->
+
 filter: brightness(2.5);
->
+
 }
->
+
 p{
->
+
 padding-top: 20px; font-size:20px
->
+
 }
->
+
 &lt;/style&gt;
->
+
 &lt;/head&gt;
->
+
 &lt;body&gt;
->
+
 &lt;div class=&#34;demo_container&#34;&gt;
->
+
 &lt;h2&gt; The blur() function will blur the given image. &lt;/h2&gt;
->
+
 &lt;div class=&#34;row&#34;&gt;
->
+
 &lt;div class=&#34;col&#34;&gt;
->
+
 &lt;p&gt; Normal Image &lt;/p&gt;
->
+
 &lt;img src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
->
+
 &lt;p&gt; 50% Brightness Image &lt;/p&gt;
->
+
 &lt;img class=&#34;image-1&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
->
+
 &lt;/div&gt;
->
+
 &lt;div class=&#34;col&#34;&gt;
->
+
 &lt;p&gt; 150% Brightness Image &lt;/p&gt;
->
+
 &lt;img class=&#34;image-2&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
->
+
 []{#_bookmark239 .anchor}&lt;p&gt; 50% Brightness Image &lt;/p&gt;
->
+
 &lt;img class=&#34;image-3&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
->
+
 &lt;/div&gt;
->
+
 &lt;/div&gt;
->
+
 &lt;/div&gt;
->
+
 &lt;/body&gt;
->
+
 &lt;/html&gt;
 
 ###### The output of the above code is given below:
@@ -8451,70 +8374,70 @@ performed by the calc() function.
 ##### Example:
 
 &lt;!DOCTYPE html&gt;
->
+
 &lt;html&gt;
->
+
 &lt;head&gt;
->
+
 &lt;style&gt;
->
+
 &#42; { padding:0; margin:0;
->
+
 box-sizing: border-box;
->
+
 }
->
+
 .demo_container{ width:800px; margin:0 auto;
->
+
 justify-content: center; align-items: center;
->
+
 }
->
+
 nav {
->
+
 width: 180px; float: left; background: gold;
->
+
 }
->
+
 article {
->
+
 width: calc(90% - 100px); float: right;
->
+
 background: orange;
->
+
 }
->
+
 article, nav { color: white; padding: 30px;
->
+
 box-sizing: border-box;
->
+
 }
->
+
 &lt;/style&gt;
->
+
 &lt;div class=&#34;demo_container&#34;&gt;
->
+
 &lt;h1&gt; The calc() function allows to use calculations within CSS
 property values. &lt;/h1&gt;
->
+
 &lt;br&gt;
->
+
 &lt;nav&gt;
->
+
 &lt;h1&gt; Width:100px &lt;/h1&gt;
->
+
 &lt;/nav&gt;
->
+
 &lt;article&gt;
->
+
 &lt;h1&gt; Width: calc(100% - 100px);&lt;/h1&gt;
->
+
 &lt;/article&gt;
->
+
 &lt;/div&gt;
->
+
 &lt;/body&gt;
->
+
 &lt;/html&gt;
 
 ###### The output of the above code is given below: {#the-output-of-the-above-code-is-given-below-1 .unnumbered}
@@ -8535,7 +8458,7 @@ CSS function ( :calc () ).
 ###### The circle() is a basic shape value that is the part of the CSS shapes mod- ule. Basic shapes such as circle() can be used as a value for properties such as shape-outside to control the flow of content (code) around the element and clip-path to clip the element's contents to the basic shape. It means that you have text flowing around the element in the shape of a circle, has an image clipped to the shape of a circle. {#the-circle-is-a-basic-shape-value-that-is-the-part-of-the-css-shapes-mod--ule.-basic-shapes-such-as-circle-can-be-used-as-a-value-for-properties-such-as-shape-outside-to-control-the-flow-of-content-code-around-the-element-and-clip-path-to-clip-the-elements-contents-to-the-basic-shape.-it-means-that-you-have-text-flowing-around-the-element-in-the-shape-of-a-circle-has-an-image-clipped-to-the-shape-of-a-circle. .unnumbered}
 
 The syntax of the circle() function is as follows:
->
+
 circle() = circle( &#91;&lt;shape-radius&gt;&#93;? &#91;at &lt;position&gt;&#93;? )
 
 ###### How to Position the Circle {#how-to-position-the-circle .unnumbered}
@@ -8543,95 +8466,95 @@ circle() = circle( &#91;&lt;shape-radius&gt;&#93;? &#91;at &lt;position&gt;&#93;
 You can specify a position for the circle by various radius argument
 with a valid CSS position. It specifies the circle's center. It just
 separates the radius and the position like this:
->
+
 shape-outside: circle(100px at 10px 150px);
 
 ##### Example: {#example-70 .unnumbered}
 
 &lt;!DOCTYPE html&gt;
->
+
 &lt;html&gt;
->
+
 &lt;head&gt;
->
+
 &lt;style&gt;
->
+
 &#42; { padding:0; margin:0;
->
+
 box-sizing: border-box;
->
+
 }
->
+
 .demo_container{ width:800px; margin:0 auto;
->
+
 justify-content: center; align-items: center;
->
+
 }
->
+
 .section-1 { float: left; width: 200px; height: 150px;
->
+
 shape-outside: circle();
->
+
 }
->
+
 .section-2 { float: left; width: 200px; height: 150px;
->
+
 shape-outside: circle(100px at 0px 150px);
->
+
 }
->
+
 &lt;/style&gt;
->
+
 &lt;div class=&#34;demo_container&#34;&gt;
->
+
 &lt;h1&gt; The circle() is a CSS shape value that&#39;s part of the CSS
 Shapes module circle(with no background-color). &lt;/h1&gt; &lt;br&gt;
->
+
 &lt;section class=&#34;section-1&#34;&gt; &lt;/section&gt;
->
+
 &lt;p&gt;Ornare quam viver raorci sagittis eu volutpat odio. Viverra
 adipiscing at inellus integer feugiat scelerisque.
->
+
 Adipiscing biben dum est ultricies integer quis auctor. Massa
 tincidunt dui utornare lectus sit amet.
->
+
 Pellentesque eliteget gravida cum sociis natoque penatibus et. Sed
 vulputate odio ut enim blandit volutpat maecenas volutpat.
->
+
 Purus viverra accumsan in nisl nisi. Dignissim enim sit amet venenatis
 urnacu rsus eget. Ornare arcuo dio ut sem nullap haretra diam sit.
->
+
 Vitae justo eget magna fermentum iaculis.&lt;/p&gt;
->
+
 &lt;/div&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt;
->
+
 &lt;div class=&#34;demo_container&#34;&gt;
->
+
 &lt;h1&gt; The circle() is a CSS shape value that&#39;s part of the CSS
 Shapes module (with background- color). &lt;/h1&gt; &lt;br&gt;
->
+
 &lt;section class=&#34;section-2&#34;&gt;&lt;/section&gt;
->
+
 &lt;p&gt;Ornare quam viverra orci sagittis euvo lutpat odio. Viverra
 adipiscing at int ellus integer feugiat scelerisque.
->
+
 Adipiscing bibendum est ultricies integ erquis auctor. Massa tincidunt
 du iut ornare lectus sit amet.
->
+
 Pellentesque eli teget gravi dacum sociis natoque penatibus et. Sed
 vulputate odio utenim blandit volutpat maecenas volutpat.
->
+
 Purus viverraac cumsan in nisl nisi.
->
+
 Dignissim eni msit amet venenatis urna cursus eget. Orna rearcu odio
 ut sem nulla pharetra diam sit.
->
+
 Vitae justoeget magna fermentum iaculis.&lt;/p&gt;
->
+
 &lt;/div&gt;
->
+
 &lt;/body&gt;
->
+
 &lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-52 .unnumbered}
@@ -8650,78 +8573,78 @@ CSS function ( :circle() ).
 ##### Another example: {#another-example-2 .unnumbered}
 
 &lt;!DOCTYPE html&gt;
->
+
 &lt;html&gt;
->
+
 &lt;head&gt;
->
+
 &lt;style&gt;
->
+
 &#42; { padding:0; margin:0;
->
+
 box-sizing: border-box;
->
+
 }
->
+
 .demo_container{ width:800px; margin:0 auto;
->
+
 justify-content: center; align-items: center;
->
+
 }
->
+
 .section-1 { float: left; width: 200px; height: 150px;
->
+
 shape-outside: circle();
->
+
 }
->
+
 .section-2 { float: left; width: 200px; height: 150px;
->
+
 /&#42; shape-outside: circle(100px at 0px 150px); &#42;/ background: brown;
->
+
 clip-path: circle();
->
+
 }
->
+
 &lt;/style&gt;
->
+
 &lt;div class=&#34;demo_container&#34;&gt;
->
+
 &lt;h1&gt; The circle() is a CSS shape value that&#39;s part of the CSS
 Shapes module clip-path: circle() &lt;/h1&gt; &lt;br&gt;
->
+
 &lt;section class=&#34;section-2&#34;&gt;&lt;/section&gt;
->
+
 &lt;p&gt;Ornare quam viver raorci sagittis eu volutpat odio. Viverra
 adipiscing at in tell usinteger feugiat scelerisque.
->
+
 Adipiscing bibendum esult ricies integer quisauctor. Massa tincidunt
 dui ut ornare sit amet.
->
+
 Pellentesque elite get gravida cum sociis natoque et. Sed vulputate
 odio ut enim blandit volutpat maecenas volutpat.
->
+
 Purus viverra accumsan innisl nisi. Dignissim enim sitamet venenatis
 urna cursus eget. Ornare arc uodio ut sem nulla pharetra diam sit.
->
+
 &lt;p&gt;Faucibus ornare suspendisse sed nisi lacus viverra tellus.
->
+
 Rhoncus est pellentesque elit ullamcorper dignissim cras. Sodales ut
 etiam sit ame tisl purus in mollis nunc.
->
+
 Hendrerit gravi darutrum quisque nontel lus orci ac auctor. Enim ut
 sem viverra eget. Eu nisl nunc mi ipsum faucibus.
->
+
 Enim facilisis gravida neque convallis a cras semper auctor neque.
->
+
 Sit amet mauris commodo quis imperdiet tincidunt nunc.&lt;/p&gt;
->
+
 Vitae justo eget magna fermentum iaculis.&lt;/p&gt;
->
+
 &lt;/div&gt;
->
+
 &lt;/body&gt;
->
+
 &lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-53 .unnumbered}
@@ -8740,78 +8663,78 @@ CSS function ( :circle() ).
 ##### Another example:
 
 &lt;!DOCTYPE html&gt;
->
+
 &lt;html&gt;
->
+
 &lt;head&gt;
->
+
 &lt;style&gt;
->
+
 &#42; { padding:0; margin:0;
->
+
 box-sizing: border-box;
->
+
 }
->
+
 .demo_container{ width:800px; margin:0 auto;
->
+
 justify-content: center; align-items: center;
->
+
 }
->
+
 .section-1 { float: left; width: 200px; height: 150px;
->
+
 shape-outside: circle();
->
+
 }
->
+
 .section-2 { float: left; width: 200px; height: 150px;
->
+
 background: brown; clip-path: circle();
->
+
 }
->
+
 &lt;/style&gt;
->
+
 &lt;div class=&#34;demo_container&#34;&gt;
->
+
 &lt;h1&gt; The circle() is a CSS shape value that&#39;s part of the CSS
 Shapes module clip-path: circle() &lt;/h1&gt; &lt;br&gt;
->
+
 &lt;section class=&#34;section-2&#34;&gt;&lt;/section&gt;
->
+
 &lt;p&gt;Ornare quam viverra orci sagit tiseu volutpat odio. Viverra
 adipiscing atin tellus integer feugiat scelerisque.
->
+
 Adipiscing bibendum estul tricies integer quis auctor. Massa tincidunt
 dui utornare lectus sit amet.
->
+
 Pellentesque elit egetgravida cum sociis natoque penatibus et. Sed
 vulputate odio ut enim blandit volutpat maecenas volutpat.
->
+
 Purus viverra accumsan in nisl nisi.
->
+
 Dignissim enim sitamet venenatis urna cursus egt. Ornare arcu odio uts
 em nulla pharetra diam sit.
->
+
 &lt;p&gt;Faucibus ornare suspendisse sednisi lacus sed viverra tellus.
->
+
 Rhoncus est pellentesque elit ullamcorper dignissim cras. Sodales ut
 etiam sit amet nisl puruin mollis nunc.
->
+
 Hendrerit gravida rutrum quisque non tellus orciac auctor. Enim ut sem
 viverra aliquet eget. Eu nisl nunc mi ipsum faucibus.
->
+
 Enim facilisis gravida neque convallis acras semper auctor neque.
->
+
 Sit amet mauris commodo quis imperdiet massa tinci dunt nunc.&lt;/p&gt;
->
+
 Vitae justo eget magna fermentum iaculis.&lt;/p&gt;
->
+
 &lt;/div&gt;
->
+
 &lt;/body&gt;
->
+
 &lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-54 .unnumbered}
@@ -8832,116 +8755,116 @@ CSS function ( :circle() ).
 ###### The CSS contrast() is used with the filter property to adjust the contrast of an image. The contrast() requires an argument to be passed to it. It deter- mines the contrast level that's applied to the image. The argument can be either a % value or a number. {#the-css-contrast-is-used-with-the-filter-property-to-adjust-the-contrast-of-an-image.-the-contrast-requires-an-argument-to-be-passed-to-it.-it-deter--mines-the-contrast-level-thats-applied-to-the-image.-the-argument-can-be-either-a-value-or-a-number. .unnumbered}
 
 The syntax of the contrast() function is as follows:
->
+
 contrast() = contrast( &#91; &lt;number&gt; &#124; &lt;percentage&gt; &#93; )
 
 ##### Example: {#example-71 .unnumbered}
 
 &lt;!DOCTYPE html&gt;
->
+
 &lt;html&gt;
->
+
 &lt;head&gt;
->
+
 &lt;style&gt;
->
+
 &#42; { padding:0; margin:0;
->
+
 box-sizing: border-box;
->
+
 }
->
+
 .demo_container{ padding:20px; width:800px; margin:0 auto;
->
+
 justify-content: center; align-items: center;
->
+
 }
->
+
 img{
->
+
 width:100%; height:250px;
->
+
 }
->
+
 .row{
->
+
 display: flex;
->
+
 }
->
+
 .col{
->
+
 width:100%
->
+
 }
->
+
 .image-1 {
->
+
 filter: contrast(140%);
->
+
 }
->
+
 .image-2 {
->
+
 filter: contrast(40%);
->
+
 }
->
+
 .image-3 {
->
+
 filter: contrast(2.5);
->
+
 }
->
+
 p{
->
+
 font-size:20px
->
+
 }
->
+
 &lt;/style&gt;
->
+
 &lt;/head&gt;
->
+
 &lt;body&gt;
->
+
 &lt;div class=&#34;demo_container&#34;&gt;
->
+
 &lt;h3&gt; The contrast() functionused with the filter property to adjust
 the contrast on given image. &lt;/h3&gt;
->
+
 &lt;div class=&#34;row&#34;&gt;
->
+
 &lt;div class=&#34;col&#34;&gt;
->
+
 &lt;p&gt; Normal Image &lt;/p&gt;
->
+
 &lt;img src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
->
+
 &lt;p&gt; 140% Contrast Image &lt;/p&gt;
->
+
 &lt;img class=&#34;image-1&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
->
+
 &lt;/div&gt;
->
+
 &lt;div class=&#34;col&#34;&gt;
->
+
 &lt;p&gt; 40% Contrast Image &lt;/p&gt;
->
+
 &lt;img class=&#34;image-2&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
->
+
 &lt;p&gt; 2.5 Contrast Image &lt;/p&gt;
->
+
 &lt;img class=&#34;image-3&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
->
+
 &lt;/div&gt;
->
+
 &lt;/div&gt;
->
+
 &lt;/div&gt;
->
+
 &lt;/body&gt;
->
+
 &lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-55 .unnumbered}
@@ -8966,82 +8889,82 @@ can create and manipulate counters using the counter increment,
 counter reset, and counter set properties. They have no visible effect
 by themselves but can be used with the counter() and counters()
 functions to display counter values in a specified format.
->
+
 For example, you can use the counter() to output an element's coun-
 ter in Upper Roman, Decimal, Georgian, etc. You can also specify
 Unicode code points to specify special symbols or icons to use as mark
 representations.
->
+
 **Syntax:** The counter() function has two forms such as:
 counter(name) or counter(name, style). The text is the value of the
 innermost counter of the given name in scope at the pseudo-element; it
 is formatted in the indi- cated style (decimal by default).
->
+
 The syntax of the counter() function is as follows:
->
+
 counter( &lt;ident&gt; &#91;, &#91; &lt;counter-style&gt; &#124; none &#93; &#93;? )
 
 ##### Example: {#example-72 .unnumbered}
 
 &lt;!DOCTYPE html&gt;
->
+
 &lt;html&gt;
->
+
 &lt;head&gt;
->
+
 &lt;style&gt;
->
+
 &#42; { padding:0; margin:0;
->
+
 box-sizing: border-box;
->
+
 }
->
+
 .demo_container{ padding:20px; width:800px; margin:0 auto;
->
+
 justify-content: center; align-items: center;
->
+
 }
->
+
 section {
->
+
 line-height: 0.8em; counter-reset: myCounter;
->
+
 }
->
+
 h1 {
->
+
 font-size: 18px;
->
+
 }
->
+
 p:before {
->
+
 content: counter(myCounter) &#34;. &#34;; counter-increment: myCounter;
->
+
 }
->
+
 &lt;/style&gt;
->
+
 &lt;/head&gt;
->
+
 &lt;body&gt;
->
+
 &lt;div class=&#34;demo_container&#34;&gt;
->
+
 &lt;h3&gt; The counter() enables to display the counter that has been
 generated by an element. &lt;/h3&gt;
->
+
 &lt;section&gt;
->
+
 The list of programming is given below:
->
+
 &lt;p&gt;HTML&lt;/p&gt;
->
+
 &lt;p&gt;PHP&lt;/p&gt;
->
+
 &lt;p&gt;JavaScript&lt;/p&gt;
->
+
 &lt;p&gt;Ruby&lt;/p&gt;
 
 &lt;/section&gt;
@@ -9049,7 +8972,7 @@ The list of programming is given below:
 &lt;/div&gt;
 
 &lt;/body&gt;
->
+
 &lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-56 .unnumbered}
@@ -9194,7 +9117,7 @@ The cubic-bezier() can be used with the transition timing function
 prop- erty to control how a transition will change speed over its
 duration. The property accepts an easing function which describes how
 the intermediate values used during a transition will be calculated.
->
+
 The cubic-bezier() is an easing function that can provide a value for
 the transition-timing-function property. Some of the other various
 easing functions include ease-in, ease-out, linear, etc. However, the
@@ -9203,73 +9126,73 @@ cubic-bezier() can be used to provide your own custom curve.
 ##### Example:
 
 &lt;!DOCTYPE html&gt;
->
+
 &lt;html&gt;
->
+
 &lt;head&gt;
->
+
 &lt;style&gt;
->
+
 &#42; { padding:0; margin:0;
->
+
 box-sizing: border-box;
->
+
 }
->
+
 .demo_container{ padding:20px; width:800px; margin:0 auto;
->
+
 justify-content: center; align-items: center;
->
+
 }
->
+
 .ease {
->
+
 transition: width 1s ease;
->
+
 }
->
+
 .cubic-bezier { transition: width 1s
->
+
 cubic-bezier(.63,.05,.43,1.7);
->
+
 }
->
+
 .ease:hover,
->
+
 .cubic-bezier: hover { width: 80%;
->
+
 }
->
+
 .ease, .cubic-bezier { background: orange;
 color: white;
->
+
 width: 90px; margin: 10px; padding: 10px;
->
+
 }
->
+
 &lt;/style&gt;
->
+
 &lt;/head&gt;
->
+
 &lt;body&gt;
->
+
 &lt;div class=&#34;demo_container&#34;&gt;
->
+
 &lt;h3&gt; The cubic-bezier() is used in CSS transitions to create a
 custom cubic Bézier curve.
->
+
 &lt;/h3&gt;
->
+
 &lt;div class=&#34;ease&#34;&gt; ease transition &lt;/div&gt;
->
+
 &lt;br&gt;
->
+
 &lt;div class=&#34;cubic-bezier&#34;&gt;cubic-bezier() function &lt;/div&gt;
->
+
 &lt;/div&gt;
->
+
 &lt;/body&gt;
->
+
 &lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-58 .unnumbered}
@@ -9292,127 +9215,127 @@ The CSS drop-shadow() is used with the filter property to add a
 drop-shadow effect to an image. A drop shadow is a blurred, offset
 version of the input image's alpha mask drawn in a particular color,
 composited below the image.
->
+
 The CSS drop-shadow() accepts multiple arguments that determine the
 drop shadow's offset, its blur, and its color.
 
 ##### Example:
 
 &lt;!DOCTYPE html&gt;
->
+
 &lt;html&gt;
->
+
 &lt;head&gt;
->
+
 &lt;style&gt;
->
+
 &#42; { padding:0; margin:0;
->
+
 box-sizing: border-box;
->
+
 }
->
+
 .demo_container{ padding:20px; width:800px; margin:0 auto;
->
+
 justify-content: center; align-items: center;
->
+
 }
->
+
 img{
->
+
 width:100%; height:250px;
->
+
 }
->
+
 .row{
->
+
 display: flex;
->
+
 }
->
+
 .col{
->
+
 width:80%
->
+
 }
->
+
 .image-1 {
->
+
 filter: drop-shadow(5px 5px 10px gray);
->
+
 }
->
+
 .image-2 {
->
+
 filter: drop-shadow(0px 0px 10px orange); margin: 10px;
->
+
 }
->
+
 .image-3 {
->
+
 filter: drop-shadow(5px 5px 0 orange);
->
+
 }
->
+
 p{
->
+
 line-height: 2; font-size:20px
->
+
 }
->
+
 &lt;/style&gt;
->
+
 &lt;/head&gt;
->
+
 &lt;body&gt;
->
+
 &lt;div class=&#34;demo_container&#34;&gt;
->
+
 &lt;h3&gt; The contrast() functionused with the filter property to adjust
 the contrast on given image.
->
+
 &lt;/h3&gt;
->
+
 &lt;div class=&#34;row&#34;&gt;
->
+
 &lt;div class=&#34;col&#34;&gt;
->
+
 &lt;p&gt; Normal Image &lt;/p&gt;
->
+
 &lt;img src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
->
+
 &lt;p&gt; drop-shadow(5px 5px 10px gray) Image
->
+
 &lt;/p&gt;
->
+
 &lt;img class=&#34;image-1&#34; src=&#34;/images-1.jpg&#34;
->
+
 alt=&#34;Sample image&#34;&gt;
->
+
 &lt;/div&gt;
->
+
 &lt;div class=&#34;col&#34;&gt;
->
+
 &lt;p&gt;drop-shadow(0px 0px 10px orange) Image
->
+
 &lt;/p&gt;
->
+
 &lt;img class=&#34;image-2&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
->
+
 &lt;p&gt; drop-shadow(5px 5px 0 orange) Image
->
+
 &lt;/p&gt;
->
+
 &lt;img class=&#34;image-3&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
->
+
 &lt;/div&gt;
->
+
 &lt;/div&gt;
->
+
 &lt;/div&gt;
->
+
 &lt;/body&gt;
->
+
 &lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-59 .unnumbered}
@@ -9433,151 +9356,151 @@ CSS function ( :drop-shadow() ).
 ###### The ellipse() function is a CSS basic shape value that's part of the CSS shapes module. The basic shapes such as ellipse() can be used as a value for properties such as shape-outside to control the f low of content (code) around the element, and clip-path to clip the element's contents to the basic shape. It means you can have text f lowing around the ele- ment in the shape of an ellipse, have an image clipped to the shape of an ellipse, etc. {#the-ellipse-function-is-a-css-basic-shape-value-thats-part-of-the-css-shapes-module.-the-basic-shapes-such-as-ellipse-can-be-used-as-a-value-for-properties-such-as-shape-outside-to-control-the-f-low-of-content-code-around-the-element-and-clip-path-to-clip-the-elements-contents-to-the-basic-shape.-it-means-you-can-have-text-f-lowing-around-the-ele--ment-in-the-shape-of-an-ellipse-have-an-image-clipped-to-the-shape-of-an-ellipse-etc. .unnumbered}
 
 The syntax of the ellipse() function is as follows:
->
+
 ellipse() = ellipse( &#91;&lt;shape-radius&gt;{2}&#93;? &#91;at
->
+
 &lt;position&gt;&#93;? )
 
 ###### The syntax for &lt;position&gt; is: {#the-syntax-for-position-is .unnumbered}
 
 &lt;position&gt; = &#91;
->
+
 &#91; left &#124; center &#124; right &#124; top &#124; bottom &#124; &lt;length- percentage&gt;
 &#93;
->
+
 &#124;
->
+
 &#91; left &#124; center &#124; right &#124; &lt;length-percentage&gt; &#93; &#91; top &#124;
 center &#124; bottom &#124; &lt;length-percentage&gt; &#93;
->
+
 &#124;
->
+
 &#91; center &#124; &#91; left &#124; right &#93; &lt;length-percentage&gt;? &#93;
->
+
 &&
->
+
 &#91; center &#124; &#91; top &#124; bottom &#93; &lt;length-percentage&gt;? &#93;
->
+
 &#93;
 
 ##### Example: {#example-76 .unnumbered}
 
 &lt;!DOCTYPE html&gt;
->
+
 &lt;html&gt;
->
+
 &lt;head&gt;
->
+
 &lt;style&gt;
->
+
 &#42; { padding:0; margin:0;
->
+
 box-sizing: border-box;
->
+
 }
->
+
 .demo_container{ width:800px; margin:0 auto;
->
+
 justify-content: center; align-items: center;
->
+
 }
->
+
 .section-1 { float: left; width: 200px; height: 150px;
->
+
 shape-outside: ellipse();
->
+
 }
->
+
 .section-2 { float: left; width: 200px; height: 150px;
->
+
 shape-outside: ellipse(); background: yellow;
->
+
 }
->
+
 .section-3 { float: left; width: 200px; height: 150px;
->
+
 shape-outside: ellipse(30% 50%); background: yellow;
->
+
 }
->
+
 &lt;/style&gt;
->
+
 &lt;div class=&#34;demo_container&#34;&gt;
->
+
 &lt;h1&gt; The ellipse() is a CSS shape value that&#39;s part of the CSS
 Shapes module circle(with no background-color). &lt;/h1&gt; &lt;br&gt;
->
+
 &lt;section class=&#34;section-1&#34;&gt; &lt;/section&gt;
->
+
 &lt;p&gt;Ornare quam viverra orci sagittis euvolutpat odio. Viverra
 adipiscing at intellus integer feugiat scelerisque.
->
+
 Adipiscing bibendum esttultricies integer quis auctor. Massa tincidunt
 duiut ornare lectus sit amet.
->
+
 Pellentesque elit egetg ravida cum sociis natoque penatibus et. Sed
 vulputateodio ut enim blandit volutpat maecenas volutpat.
->
+
 Purus viverra accumsan in nisl nisi.
->
+
 Dignissim enimsit amet venenatis urna cursus eget. Ornare arcu odiouut
 sem nulla pharetra diam sit.
->
+
 Vitae justo eget magna fermentum iaculis.&lt;/p&gt;
->
+
 &lt;/div&gt; &lt;br&gt; &lt;br&gt; &lt;br&gt;
->
+
 &lt;div class=&#34;demo_container&#34;&gt;
->
+
 &lt;h1&gt; The ellipse() is a CSS shape value that&#39;s part of the CSS
 Shapes module (with background- color). &lt;/h1&gt; &lt;br&gt;
->
+
 &lt;section class=&#34;section-2&#34;&gt;&lt;/section&gt;
->
+
 &lt;p&gt;Ornare quam viverra orci sagittis euvolutpat odio. Viverra
 adipiscing at intellus integer feugiat scelerisque.
->
+
 Adipiscing bibed ndum est ultricies integer quis auctor. Massa ieltd
 tincidunt duiut ornare lectus sit amet.
->
+
 Pellentesque elit eget gravidacum sociis natoque penatibus et. Sed
 vulputate odio ut enim blandit volutpat maecenas volutpat.
->
+
 Purus viverra accumsan inn nisl ntlisi. Dignissim enim sit amet
 venenatis urnac ursus eget. Ornare arcu odio utssem nulla pharetra
 diam sit.
->
+
 Vitae justo egetert magna fermentum iaculis.&lt;/p&gt;
->
+
 &lt;/div&gt;
->
+
 &lt;br&gt; &lt;br&gt; &lt;br&gt;
->
+
 &lt;div class=&#34;demo_container&#34;&gt;
->
+
 &lt;h1&gt; The ellipse() is a CSS shape value that&#39;s part of the CSS
 Shapes module shape-outside: ellipse(30% 50%) &lt;/h1&gt; &lt;br&gt;
->
+
 &lt;section class=&#34;section-3&#34;&gt;&lt;/section&gt;
->
+
 &lt;p&gt;Ornare quam viverra orci sagittis euvolutpat odio. Viverra
 adipiscing at in tellustels integer feugiat scelerisque.
->
+
 Adipiscing bibendum estultricies integer quis auctor. Massa tinc idunt
 dui uttornare lectus sit amet.
->
+
 Pellentesque eliteget gravida cum sociis natoque penatibus et. Sed
 vulput ateodio ut enim blandit volutpat maecenas volutpat.
->
+
 Purus viverra accumsan in nisl nisi. Dignissieim sitamet venenatis
 urna cursus eget. Ornare arcu odiout sem nulla pharetra diam sit.
->
+
 Vitae juso eget magna fermentum iaculis.&lt;/p&gt;
->
+
 &lt;/div&gt;
->
+
 &lt;/body&gt;
->
+
 &lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-60 .unnumbered}
@@ -9596,96 +9519,96 @@ CSS function ( : ellipse () ).
 ##### Example:
 
 &lt;!DOCTYPE html&gt;
->
+
 &lt;html&gt;
->
+
 &lt;head&gt;
->
+
 &lt;style&gt;
->
+
 &#42; { padding:0; margin:0;
->
+
 box-sizing: border-box;
->
+
 }
->
+
 .demo_container{ width:800px; margin:0 auto;
->
+
 justify-content: center; align-items: center;
->
+
 }
->
+
 .section-1 { float: left; width: 200px; height: 150px;
->
+
 clip-path: ellipse(); background-color: brown;
->
+
 }
->
+
 .section-2 { float: left; width: 200px; height: 150px;
->
+
 clip-path: ellipse(farthest-side closest-side at 50px 100px);
->
+
 background-color: brown;
->
+
 }
->
+
 &lt;/style&gt;
->
+
 &lt;div class=&#34;demo_container&#34;&gt;
->
+
 &lt;h1&gt; The ellipse() is a CSS shape value that&#39;s part of the CSS
 Shapes module clip-path: ellipse() &lt;/h1&gt; &lt;br&gt;
->
+
 &lt;section class=&#34;section-1&#34;&gt; &lt;/section&gt;
->
+
 &lt;p&gt;Ornare quam viverra orci sagittis euvolutpat odio. Viverra
 adipiscing attin tellus integer feugiat scelerisque.
->
+
 Adipiscing bibendum est ultricies integer quisauctor. Massa tincidunt
 dui ut ornar lectus sit amet.
->
+
 Pellentesque eliteget gravida cumsociis
 natoque penatibus et. Sed vul putate odio ut enim blandit volutpat
 maecenas volutpat.
->
+
 Purus viverra accumsan in nisl nisi. Diggnissim enim sit amet
 venenatis urna cursus eget. Ornare arcu odioutsem nulla pharetra diam
 sit.
->
+
 Vitae justo eget magna fermentum iaculis.&lt;/p&gt;
->
+
 &lt;/br&gt; &lt;br&gt; &lt;br&gt;
->
+
 &lt;div class=&#34;demo_container&#34;&gt;
->
+
 &lt;h1&gt; The ellipse() is a CSS shape value that&#39;s part of the CSS
 Shapes module, clip-path: ellipse(farthest-side closest-side at 50px
 100px); &lt;/h1&gt; &lt;br&gt;
->
+
 &lt;section class=&#34;section-2&#34;&gt; &lt;/section&gt;
->
+
 &lt;p&gt;Ornare quam viverra orci sagittis euuili volutpat odio. Viverra
 adi piscing atin tellus integer feugiat scelerisque.
->
+
 Adipiscing bibendum est ultricies integquis auctor. Massa tincidunt
 duiiut ornare lectus sit amet.
->
+
 Pelle ntesque elit eget gravida cummsociis natoque penatibus et. Sed
 vulputate odiout enim blandit volutpat maecenas volutpat.
->
+
 Purus viverra accumsan in nisl nisi.
->
+
 Dignissim enim sit amet venenatis urcursus eget. Ornare arcu odio ut
 sem nulla pharetra diamsit.
->
+
 Vitae justo egetm magna fermentum iaculis.&lt;/p&gt;
->
+
 &lt;/div&gt;
->
+
 &lt;/div&gt;
->
+
 &lt;/body&gt;
->
+
 &lt;/html&gt;
 
 #### filter() {#filter .unnumbered}
@@ -9696,11 +9619,11 @@ similar to the filter property, except that it's a function, and
 therefore can be used as a value itself. For example, you can use it
 with the background-image property to apply a filter to the background
 image.
->
+
 The filter() function accepts two arguments. The first argument is the
 image and the second argument is a list of filter functions to apply
 to that image.
->
+
 The filter functions that it accepts are the same as those accepted by
 the filter property. You can provide multiple filter functions if
 required.
@@ -9708,72 +9631,72 @@ required.
 ##### Example: {#example-78 .unnumbered}
 
 &lt;!DOCTYPE html&gt;
->
+
 &lt;html&gt;
->
+
 &lt;head&gt;
->
+
 &lt;style&gt;
->
+
 &#42; { padding:0; margin:0;
->
+
 box-sizing: border-box;
->
+
 }
->
+
 .demo_container{ padding:20px; width:800px; margin:0 auto;
->
+
 justify-content: center; align-items: center;
->
+
 }
->
+
 div {
->
+
 background-size: cover; border: 1px solid black; height: 40vw;
->
+
 width: 40vw; margin: 0 2vw; float: left;
->
+
 }
->
+
 .unfiltered {
->
+
 background-image: url(&#39;/images-1.jpg&#39;); height:200px;
->
+
 width:200px
->
+
 }
->
+
 .filtered {
->
+
 background-image: filter(url(&#39;/images-1.jpg&#39;), hue-rotate(180deg));
->
+
 height:200px; width:200px
->
+
 }
->
+
 &lt;/style&gt;
->
+
 &lt;/head&gt;
->
+
 &lt;body&gt;
->
+
 &lt;section class=&#34;demo_container&#34;&gt;
->
+
 &lt;h2&gt; The filter() function is used to apply a filter to an
 image.&lt;/h2&gt;
->
+
 &lt;div class=&#34;unfiltered&#34;&gt; Original Image
->
+
 &lt;/div&gt;
->
+
 &lt;div class=&#34;filtered&#34;&gt; Filtered Image
->
+
 &lt;/div&gt;
->
+
 &lt;/section&gt;
->
+
 &lt;/body&gt;
->
+
 &lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-61 .unnumbered}
@@ -9806,110 +9729,110 @@ grayscale() = grayscale( &#91; &lt;number&gt; &#124; &lt;percentage&gt; &#93; )
 ##### Example: {#example-79 .unnumbered}
 
 &lt;!DOCTYPE html&gt;
->
+
 &lt;html&gt;
->
+
 &lt;head&gt;
->
+
 &lt;style&gt;
->
+
 &#42; { padding:0; margin:0;
->
+
 box-sizing: border-box;
->
+
 }
->
+
 .demo_container{ padding:20px; width:800px; margin:0 auto;
->
+
 justify-content: center; align-items: center;
->
+
 }
->
+
 img{
->
+
 width:100%; height:250px;
->
+
 }
->
+
 .row{
->
+
 display: flex;
->
+
 }
->
+
 .col{
->
+
 width:80%
->
+
 }
->
+
 .image-1 {
->
+
 filter: grayscale(100%);
->
+
 }
->
+
 .image-2 {
->
+
 filter: grayscale(50%);
->
+
 }
->
+
 .image-3 {
->
+
 filter: grayscale(0.8);
->
+
 }
->
+
 p{
->
+
 line-height: 2; font-size:20px
->
+
 }
->
+
 &lt;/style&gt;
->
+
 &lt;/head&gt;
->
+
 &lt;body&gt;
->
+
 &lt;div class=&#34;demo_container&#34;&gt;
->
+
 &lt;h2&gt; The grayscale() function to convert an image to grayscale.
 &lt;/h2&gt;
->
+
 &lt;div class=&#34;row&#34;&gt;
->
+
 &lt;div class=&#34;col&#34;&gt;
->
+
 &lt;p&gt; Normal Image &lt;/p&gt;
->
+
 &lt;img src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
->
+
 &lt;p&gt; grayscale(100%) Image &lt;/p&gt;
->
+
 &lt;img class=&#34;image-1&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
->
+
 &lt;/div&gt;
->
+
 &lt;div class=&#34;col&#34;&gt;
->
+
 &lt;p&gt; grayscale(50%) Image &lt;/p&gt;
->
+
 &lt;img class=&#34;image-2&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
->
+
 &lt;p&gt; grayscale(0.8) Image &lt;/p&gt;
->
+
 &lt;img class=&#34;image-3&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
->
+
 &lt;/div&gt;
->
+
 &lt;/div&gt;
->
+
 &lt;/div&gt;
->
+
 &lt;/body&gt;
->
+
 &lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-62 .unnumbered}
@@ -10230,95 +10153,95 @@ shape.
 
 ##### Example: {#example-83 .unnumbered}
 
->&lt;!DOCTYPE html&gt;
->
->&lt;html&gt;
->
->&lt;head&gt;
->
->&lt;style&gt;
->
+&lt;!DOCTYPE html&gt;
+
+&lt;html&gt;
+
+&lt;head&gt;
+
+&lt;style&gt;
+
 &#42; { padding:0; margin:0;
->
+
 box-sizing: border-box;
->
+
 }
->
+
 .demo_container{ width:800px; margin:0 auto;
->
+
 justify-content: center; align-items: center;
->
+
 }
->
+
 .section-1 { float: left; width: 200px; height: 150px;
->
+
 shape-outside: inset(50px);
->
+
 }
->
+
 .section-2 { float: left; width: 200px; height: 150px;
->
+
 shape-outside: inset(50px); background: yellow;
->
+
 }
->
->&lt;/style&gt;
->
->&lt;div class=&#34;demo_container&#34;&gt;
->
->&lt;h1&gt; The inset() function is a CSS basic shape value part of the CSS
+
+&lt;/style&gt;
+
+&lt;div class=&#34;demo_container&#34;&gt;
+
+&lt;h1&gt; The inset() function is a CSS basic shape value part of the CSS
 Shapes module. inset(50px) no background&lt;/h1&gt;&lt;br&gt;
->
->&lt;section class=&#34;section-1&#34;&gt;&lt;/section&gt;
->
->&lt;p&gt;Ornare quam viverra orci sagittis euolutpat odio. Viverra
+
+&lt;section class=&#34;section-1&#34;&gt;&lt;/section&gt;
+
+&lt;p&gt;Ornare quam viverra orci sagittis euolutpat odio. Viverra
 adipiscing atin tellus integer feugiat scelerisque.
->
+
 Adipiscing bibendum est ultricies integer quiauctor. Massa tincidunt
 duiut ornare lectus sit amet.
->
+
 Pellente sque elit eget gravida cum sociinatoque penatibus et. Sed
 vulputaoo ut enim blandit volutpat maecenas volutpat.
->
+
 Purus viverra accumsan in nisl nisi.
->
+
 Dignissim enisit amet venenatis urna cursus eget. Ornare arcu odio
 uttsem nulla pharetra diam sit.
->
+
 Vitae justo eget magna fermentum iaculis.&lt;/p&gt;
->
->&lt;/br&gt;&lt;br&gt;&lt;br&gt;
->
->&lt;div class=&#34;demo_container&#34;&gt;
->
->&lt;h1&gt; The inset() function is a CSS basic shape value part of the CSS
+
+&lt;/br&gt;&lt;br&gt;&lt;br&gt;
+
+&lt;div class=&#34;demo_container&#34;&gt;
+
+&lt;h1&gt; The inset() function is a CSS basic shape value part of the CSS
 Shapes
->
+
 module. inset(50px) with background&lt;/h1&gt;&lt;br&gt;
->
->&lt;section class=&#34;section-2&#34;&gt;&lt;/section&gt;
->
->&lt;p&gt;Ornare quam viverra orci sagittis euvolutpat odio. Viverra
+
+&lt;section class=&#34;section-2&#34;&gt;&lt;/section&gt;
+
+&lt;p&gt;Ornare quam viverra orci sagittis euvolutpat odio. Viverra
 adipiscing atin tellus integer feugiat scelerisque.
->
+
 Adipiscing bibendum est ultricies integer quis auctor. Massa tincidunt
 duiut ornare lectus sit amet.
->
+
 Pellentesque eleget gravida cum sociis natoque penatibus et. Sed
 vulputate odio ut enim blandit volutpat maecenas volutpat.
->
+
 Purus accumsan in nislnisi. Dignissim enim sit amet venenatis urna cur
 sus eget. Ornare arcu odio utsem nulla pharetra diam sit.
->
+
 Vitae justo eget magna fermentum iaculis.&lt;/p&gt;
->
->&lt;/div&gt;
->
->&lt;/div&gt;
->
->&lt;/body&gt;
->
->&lt;/html&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/body&gt;
+
+&lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-66 .unnumbered}
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -10446,7 +10369,7 @@ CSS function linear-gradient().
 
 The CSS matrix() can be used with CSS transforms to style elements in
 a two-dimensional space.
->
+
 The matrix() is an alternative to the two-dimensional transform func-
 tions rotate(), skew(), scale(), and translate().
 
@@ -10541,107 +10464,107 @@ scaleZ(), and perspective().
 
 ##### Example:
 
->&lt;!DOCTYPE html&gt;
->
->&lt;html&gt;
->
->&lt;head&gt;
->
->&lt;style&gt;
->
+&lt;!DOCTYPE html&gt;
+
+&lt;html&gt;
+
+&lt;head&gt;
+
+&lt;style&gt;
+
 &#42; { padding:0; margin:0;
->
+
 box-sizing: border-box;
->
+
 }
->
+
 .demo_container{ padding:20px; width:900px; margin:0 auto;
->
+
 justify-content: center; align-items: center;
->
+
 }
->
+
 .matrix-1{
->
+
 transform-origin: 0 0; padding: 20px;
->
+
 width: 300px; height:300px; background: lime green; color: white;
->
+
 font-family: sans-serif;
->
+
 }
->
+
 .matrix-2 {
->
+
 transform-origin: 0 0;
->
+
 transform: matrix3d(0.583333, 0.186887, 0.9044,
->
+
 0, -0.52022, 0.833333, 0.186887, 0, -0.623773,
->
+
 -0.52022, 0.583333, 0, 0, 0, 0, 1); padding:
->
+
 20px;
->
+
 width: 300px; height:250px; background: lime green; color: white;
->
+
 font-family: sans-serif;
->
+
 }
->
+
 .row{
->
+
 display: flex;
->
+
 }
->
+
 .col{
->
+
 width:100%
->
+
 }
->
->&lt;/style&gt;
->
->&lt;/head&gt;
->
->&lt;body&gt;
->
->&lt;div class=&#34;demo_container&#34;&gt;
->
->&lt;h1&gt;The CSS matrix3d() function can be used with CSS transforms to
+
+&lt;/style&gt;
+
+&lt;/head&gt;
+
+&lt;body&gt;
+
+&lt;div class=&#34;demo_container&#34;&gt;
+
+&lt;h1&gt;The CSS matrix3d() function can be used with CSS transforms to
 style elements in a three- dimensional space.&lt;/h1&gt;
->
->&lt;div class=&#34;row&#34;&gt;
->
->&lt;div class=&#34;col&#34;&gt;
->
->&lt;div class=&#34;matrix-1&#34;&gt; Scaled and moved with&lt;code&gt;matrix()
+
+&lt;div class=&#34;row&#34;&gt;
+
+&lt;div class=&#34;col&#34;&gt;
+
+&lt;div class=&#34;matrix-1&#34;&gt; Scaled and moved with&lt;code&gt;matrix()
 function = transform: matrix(0.707107, 0.707107, -0.707107, 0.707107,
->
+
 150, 0);&lt;/code&gt;&lt;/div&gt;
->
->&lt;/div&gt;
->
->&lt;div class=&#34;col&#34;&gt;
->
->&lt;div class=&#34;matrix-2&#34;&gt; Scaled and moved with
->
->&lt;code&gt;matrix() function = transform: matrix(2, 0, 0, 2, 0, 0);
->
->&lt;/div&gt;
->
->&lt;/div&gt;
->
->&lt;/code&gt;
->
->&lt;/div&gt;
->
->&lt;/div&gt;
->
->&lt;/body&gt;
->
->&lt;/html&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&#34;col&#34;&gt;
+
+&lt;div class=&#34;matrix-2&#34;&gt; Scaled and moved with
+
+&lt;code&gt;matrix() function = transform: matrix(2, 0, 0, 2, 0, 0);
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/code&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/body&gt;
+
+&lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-68 .unnumbered}
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -10890,123 +10813,123 @@ that blend from one color to the next.
 ##### Example: {#example-89 .unnumbered}
 
 &lt;!DOCTYPE html&gt;
->
+
 &lt;html&gt;
->
+
 &lt;head&gt;
->
+
 &lt;style&gt;
->
+
 &#42; { padding:0; margin:0;
->
+
 box-sizing: border-box;
->
+
 }
->
+
 .demo_container{ padding:20px; width:900px; margin:0 auto;
->
+
 justify-content: center; align-items: center;
->
+
 }
->
+
 .row{
->
+
 display: flex;
->
+
 flex-direction:row;
->
+
 }
->
+
 .col{
->
+
 height:100px; width:100%
->
+
 }
->
+
 .image-1 {
->
+
 background: radial-gradient(yellow, red); color: white;
->
+
 padding: 30px; height: 300px;
->
+
 }
->
+
 .image-2 {
->
+
 background: radial-gradient(ellipse, black, lime);
->
+
 color: white; padding: 30px; height: 300px;
->
+
 }
->
+
 .image-3{
->
+
 background: radial-gradient(circle, black, lime);
->
+
 color: white; padding: 30px; height: 300px;
->
+
 }
->
+
 .image-4{
->
+
 background: radial-gradient(at bottom right, yellow, red);
->
+
 color: white; padding: 30px; height: 300px;
->
+
 }
->
+
 p{
->
+
 line-height: 2; font-size:20px;
->
+
 margin-bottom:30px
->
+
 }
->
+
 &lt;/style&gt;
->
+
 &lt;/head&gt;
->
+
 &lt;body&gt;
->
+
 &lt;div class=&#34;demo_container&#34;&gt;
->
+
 &lt;h2&gt;The linear-gradient() function allows you to create a linear
 gradient using CSS.&lt;/h2&gt;
->
+
 &lt;div class=&#34;row&#34;&gt;
->
+
 &lt;div class=&#34;col&#34;&gt;
->
+
 &lt;p&gt; Default Angle, radial-gradient(yellow, red) &lt;/p&gt;
->
+
 &lt;div class=&#34;image-1&#34;&gt; &lt;/div&gt;
->
+
 &lt;p&gt; Ellipse shape, radial-gradient(ellipse, black, lime) &lt;/p&gt;
->
+
 &lt;div class=&#34;image-2&#34;&gt; &lt;/div&gt;
->
+
 &lt;/div&gt;
->
+
 &lt;div class=&#34;col&#34;&gt;
->
+
 &lt;p&gt; Circle, radial-gradient(circle, black, lime)&lt;/p&gt;
->
+
 &lt;div class=&#34;image-3&#34;&gt; &lt;/div&gt;
->
+
 &lt;p&gt; Gradient Position, radial-gradient(at
 bottom right, yellow, red) &lt;/p&gt;
->
+
 &lt;div class=&#34;image-4&#34;&gt; &lt;/div&gt;
->
+
 &lt;/div&gt;
->
+
 &lt;/div&gt;
->
+
 &lt;/div&gt;
->
+
 &lt;/body&gt;
->
+
 &lt;/html&gt;
 
 ###### The output of the code is given below:
@@ -11029,12 +10952,12 @@ The CSS repeating-linear-gradient() allows to create a linear gradient
 that repeats over and over again infinitely in both directions. The
 gradients allow to apply multiple background colors to an element that
 blend from
->
+
 one color to the next. These gradients are linear gradients where the
 color stops are repeated infinitely in both directions. It is
 repeating linear gra- dients work the same way that (are
 non-repeating) linear gradients work.
->
+
 Syntax: The repeating-linear-gradient() function accepts the following
 values:
 
@@ -11066,137 +10989,137 @@ The following keywords specify to point the gradient-line given below:
 ##### Example: {#example-90 .unnumbered}
 
 &lt;!DOCTYPE html&gt;
->
+
 &lt;html&gt;
->
+
 &lt;head&gt;
->
+
 &lt;style&gt;
->
+
 &#42; { padding:0; margin:0;
->
+
 box-sizing: border-box;
->
+
 }
->
+
 .demo_container{ padding:20px; width:900px; margin:0 auto;
->
+
 justify-content: center; align-items: center;
->
+
 }
->
+
 .row{
->
+
 display: flex;
->
+
 flex-direction:row;
->
+
 }
->
+
 .col{
->
+
 height:100px; width:100%
->
+
 }
->
+
 .image-1 {
->
+
 background: repeating-linear-gradient(gold 15%,
->
+
 orange 30%);
->
+
 color: white; padding: 30px; height: 300px;
->
+
 }
->
+
 .image-2 {
->
+
 background: repeating-linear-gradient(to top right, gold 16%, orange
 30%);
->
+
 color: white; padding: 30px; height: 300px;
->
+
 }
->
+
 .image-3{
->
+
 background: repeating-linear-gradient(to top right, orange, gold 16%,
 orange 30%);
->
+
 color: white; padding: 30px; height: 300px;
->
+
 }
->
+
 .image-4{
->
+
 background: repeating-linear-gradient(155deg, gold, gold 50px, orange
 60px, orange 120px);
->
+
 color: white;
->
+
 padding: 30px; height: 300px;
->
+
 }
->
+
 p{
->
+
 line-height: 2; font-size:20px;
->
+
 margin-bottom:30px
->
+
 }
->
+
 &lt;/style&gt;
->
+
 &lt;/head&gt;
->
+
 &lt;body&gt;
->
+
 &lt;div class=&#34;demo_container&#34;&gt;
->
+
 &lt;h2&gt;The repeating-linear-gradient() function allows you to create a
 linear gradient that repeats over and over again infinitely in both
 directions.&lt;/h2&gt;
->
+
 &lt;div class=&#34;row&#34;&gt;
->
+
 &lt;div class=&#34;col&#34;&gt;
->
+
 &lt;p&gt; Default Angle, radial-gradient(yellow, red) &lt;/p&gt;
->
+
 &lt;div class=&#34;image-1&#34;&gt; &lt;/div&gt;
->
+
 &lt;p&gt; Angle of a Repeating, repeating-linear- gradient( top right,
 orange, gold 15%, orange 30%)
->
+
 &lt;/p&gt;
->
+
 &lt;div class=&#34;image-2&#34;&gt; &lt;/div&gt;
->
+
 &lt;/div&gt;
->
+
 &lt;div class=&#34;col&#34;&gt;
->
+
 &lt;p&gt; Smooth Transitions, repeating-linear- gradient( top right,
 orange, gold 15%, orange 30%)
->
+
 &lt;/p&gt;
->
+
 &lt;div class=&#34;image-3&#34;&gt; &lt;/div&gt;
->
+
 &lt;p&gt;Creating Stripes, repeating-linear- gradient(165deg, gold, gold
 60px, orange 60px, orange 120px)&lt;/p&gt;
->
+
 &lt;div class=&#34;image-4&#34;&gt; &lt;/div&gt;
->
+
 &lt;/div&gt;
->
+
 &lt;/div&gt;
->
+
 &lt;/div&gt;
->
+
 &lt;/body&gt;
->
+
 &lt;/html&gt;
 
 ###### The output of the code is given below:
@@ -11224,18 +11147,18 @@ of the gradient as well as the size and shape.
 
 **Syntax:** This function uses the same syntax as the
 radial-gradient() function, which is as follows:
->
+
 &lt;radial-gradient&gt; = radial-gradient(
->
+
 &#91; &#91; &lt;shape&gt; &#124;&#124; &lt;size&gt; &#93; &#91; at &lt;position&gt; &#93;?, &#124; at
 &lt;position&gt;,
->
+
 &#93;?
->
+
 &lt;color-stop&gt; &#91;, &lt;color-stop&gt; &#93;+
->
+
 )
->
+
 The repeating-radial-gradient() function accepts the following values:
 
 -   shape: It specifies the shape of the gradient. It can be either
@@ -11272,164 +11195,164 @@ The repeating-radial-gradient() function accepts the following values:
 ##### Example:
 
 &lt;!DOCTYPE html&gt;
->
+
 &lt;html&gt;
->
+
 &lt;head&gt;
->
+
 &lt;style&gt;
->
+
 &#42; { padding:0; margin:0;
->
+
 box-sizing: border-box;
->
+
 }
->
+
 .demo_container{ padding:20px; width:900px; margin:0 auto;
->
+
 justify-content: center; align-items: center;
->
+
 }
->
+
 .row{
->
+
 display: flex; flex-wrap: wrap;
->
+
 flex-direction: row;
->
+
 }
->
+
 .col{ width:50%
->
+
 }
->
+
 p{
->
+
 height:50px
->
+
 }
->
+
 .image-1 {
->
+
 background: repeating-radial-gradient(ellipse, green 20%, lime 40%) ;
->
+
 color: white; padding: 30px; height: 300px;
->
+
 }
->
+
 .image-2 {
->
+
 background: repeating-radial-gradient(circle, green 20%, lime 40%);
->
+
 color: white;
->
+
 padding: 30px; height: 300px;
->
+
 }
->
+
 .image-3{
->
+
 background:repeating-radial-gradient(circle at top left, green 30%,
 lime 40%);
->
+
 color: white; padding: 30px; height: 300px;
->
+
 }
->
+
 .image-4{
->
+
 background: repeating-radial-gradient(circle at top left, lightgreen
 10%, green 45%, lime 60%);
->
+
 color: white; padding: 30px; height: 300px;
->
+
 }
->
+
 .image-5{
->
+
 background: repeating-radial-gradient(circle at top left, lime, green
 30%, lime 40%);
->
+
 color: white; padding: 30px; height: 300px;
->
+
 }
->
+
 .image-6{
->
+
 background: repeating-radial-gradient(closest- side at 25px 35px,
 orange 25%, gold 40%);
->
+
 background-size:50px 50px; height: 200px;
->
+
 color: white; padding: 30px; height: 300px;
->
+
 }
->
+
 p{
->
+
 line-height: 2; font-size:20px;
->
+
 margin-bottom:30px
->
+
 }
->
+
 &lt;/style&gt;
->
+
 &lt;/head&gt;
->
+
 &lt;body&gt;
->
+
 &lt;div class=&#34;demo_container&#34;&gt;
->
+
 &lt;h2&gt;CSS repeating radial gradient() function allows you to create a
 radial gradient that repeats over and over again infinitely.&lt;/h2&gt;
->
+
 &lt;div class=&#34;row&#34;&gt;
->
+
 &lt;div class=&#34;col&#34;&gt;
->
+
 &lt;p&gt; Ellipse, repeating-radial- gradient(ellipse, green 20%, lime
 40%) &lt;/p&gt;
->
+
 &lt;div class=&#34;image-1&#34;&gt; &lt;/div&gt;
->
+
 &lt;p&gt;Circle, repeating radial gradient(circle, green 20%, lime 40%)
 &lt;/p&gt;
->
+
 &lt;div class=&#34;image-2&#34;&gt; &lt;/div&gt;
->
+
 &lt;p&gt;Gradient Position, repeating-radial- gradient(circle at top left,
 green 20%, lime 40%)&lt;/p&gt;
->
+
 &lt;div class=&#34;image-3&#34;&gt; &lt;/div&gt;
->
+
 &lt;/div&gt;
->
+
 &lt;div class=&#34;col&#34;&gt;
->
+
 &lt;p&gt;Three Color Stops, repeating-radial- gradient(circle at top left,
 lightgreen 20%, green 55%, lime 60%)&lt;/p&gt;
->
+
 &lt;div class=&#34;image-4&#34;&gt; &lt;/div&gt;
->
+
 &lt;p&gt; Smooth Transitions, repeating-radial- gradient(circle at top
 left, lime, green 20%, lime 40%)&lt;/p&gt;
->
+
 &lt;div class=&#34;image-5&#34;&gt; &lt;/div&gt;
->
+
 &lt;p&gt;Patterns with Gradients, repeating radial gradient(closest-side
 at 25px 35px, orange 15%, gold 40%)&lt;/p&gt;
->
+
 &lt;div class=&#34;image-6&#34;&gt; &lt;/div&gt;
->
+
 &lt;/div&gt;
->
+
 &lt;/div&gt;
->
+
 &lt;/div&gt;
->
+
 &lt;/body&gt;
->
+
 &lt;/html&gt;
 
 ###### The output of the code is given below:
@@ -11593,151 +11516,151 @@ There are various properties used in rotate such as:
 ##### Example:
 
 &lt;!DOCTYPE html&gt;
->
+
 &lt;html&gt;
->
+
 &lt;head&gt;
->
+
 &lt;style&gt;
->
+
 &#42; { padding:0; margin:0;
->
+
 box-sizing: border-box;
->
+
 }
->
+
 .demo_container{ padding:20px; width:900px; margin:0 auto;
->
+
 justify-content: center; align-items: center;
->
+
 }
->
+
 .row{
->
+
 display: flex; flex-wrap: wrap;
->
+
 flex-direction: row;
->
+
 }
->
+
 .col{ width:50%
->
+
 }
->
+
 p{
->
+
 height:50px
->
+
 }
->
+
 .image-1 {
->
+
 background: RGB(255,69,0); color: white;
->
+
 padding: 30px; height: 50px; width:100px
->
+
 }
->
+
 .image-2 {
->
+
 background: RGB(0,255,0); transform: rotate(15deg); color: white;
->
+
 padding: 30px; height: 50px; width:100px
->
+
 }
->
+
 .image-3{
->
+
 transform: rotate(20grad); background: rgb(230,255,0); color: white;
->
+
 padding: 30px; height: 50px; width:100px
->
+
 }
->
+
 .image-4{
->
+
 background: RGB(128,128,0); transform: rotate(.4turn); color: white;
->
+
 padding: 30px; height: 50px; width:100px
->
+
 }
->
+
 .image-5{
->
+
 background: #ff0000; transform: rotate(-15deg); color: white;
->
+
 padding: 30px; height: 50px; width: 100px
->
+
 }
->
+
 .image-6{
->
+
 background: RGB(128,0,128); transform-origin: 90% 90%; transform:
 rotate(15deg);
->
+
 height: 50px; width:100px; color: white; padding: 30px;
->
+
 }
->
+
 p{
->
+
 line-height: 2; font-size:24px;
->
+
 margin-bottom:10px
->
+
 }
->
+
 &lt;/style&gt;
->
+
 &lt;/head&gt;
->
+
 &lt;body&gt;
->
+
 &lt;div class=&#34;demo_container&#34;&gt;
->
+
 &lt;h2&gt;The rotate() function is used to rotate elements in a
 two-dimensional space.&lt;/h2&gt;
->
+
 &lt;div class=&#34;row&#34;&gt;
->
+
 &lt;div class=&#34;col&#34;&gt;
->
+
 &lt;p&gt; Not rotated &lt;/p&gt;
->
+
 &lt;div class=&#34;image-1&#34;&gt; &lt;/div&gt;
->
+
 &lt;p&gt; Degrees (rotate(15deg)) &lt;/p&gt;
->
+
 &lt;div class=&#34;image-2&#34;&gt; &lt;/div&gt;
->
+
 &lt;p&gt; Gradians rotate(20grad) &lt;/p&gt;
->
+
 &lt;div class=&#34;image-3&#34;&gt; &lt;/div&gt;
->
+
 &lt;/div&gt;
->
+
 &lt;div class=&#34;col&#34;&gt;
->
+
 &lt;p&gt;Turns (rotate(.4turn)) &lt;/p&gt;
->
+
 &lt;div class=&#34;image-4&#34;&gt; &lt;/div&gt;
->
+
 &lt;p&gt; Negative Values (rotate(-15deg))&lt;/p&gt;
->
+
 &lt;div class=&#34;image-5&#34;&gt; &lt;/div&gt;
->
+
 &lt;p&gt; Adding transform-origin &lt;/p&gt;
->
+
 &lt;div class=&#34;image-6&#34;&gt; &lt;/div&gt;
->
+
 &lt;/div&gt;
->
+
 &lt;/div&gt;
->
+
 &lt;/div&gt;
->
+
 &lt;/body&gt;
->
+
 &lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-75 .unnumbered}
@@ -12369,106 +12292,106 @@ CSS function (scaleX()).
 
 that provide an argument. The syntax of the scaleY() function is as
 follows:
->
+
 scaleY () = scaleY ( &lt;number&gt; )
 
 ##### Example: {#example-100 .unnumbered}
 
 &lt;!DOCTYPE html&gt;
->
+
 &lt;html&gt;
->
+
 &lt;head&gt;
->
+
 &lt;style&gt;
->
+
 &#42; { padding:0; margin:0;
->
+
 box-sizing: border-box;
->
+
 }
->
+
 .demo_container{ width:800px; padding:20px; margin:0 auto;
->
+
 justify-content: center; align-items: center;
->
+
 }
->
+
 .row{
->
+
 display: flex; flex-wrap: wrap;
->
+
 flex-direction: row;
->
+
 }
->
+
 .col{ width:50%
->
+
 }
->
+
 .image-1 { width:200px; height:200px;
->
+
 }
->
+
 .image-2 {
->
+
 transform-origin: top right; transform: ScaleY(2);
->
+
 width:200px; height:200px;
->
+
 }
->
+
 .image-3{
->
+
 transform: ScaleY(3); width:200px; float:right;
->
+
 height:200px;
->
+
 }
->
+
 p{
->
+
 padding-top: 20px; font-size:20px
->
+
 }
->
+
 &lt;/style&gt;
->
+
 &lt;/head&gt;
->
+
 &lt;body&gt;
->
+
 &lt;div class=&#34;demo_container&#34;&gt;
->
+
 &lt;h2&gt;The scaleY() function is used to scale elements in a
 two-dimensional space along the y-axis. &lt;/h2&gt;
->
+
 &lt;div class=&#34;row&#34;&gt;
->
+
 &lt;div class=&#34;col&#34;&gt;
->
+
 &lt;p&gt; Normal Image &lt;/p&gt;
->
+
 &lt;img class=&#34;image-1&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
->
+
 &lt;p&gt; ScaleY() with transform-origin &lt;/p&gt;
->
+
 &lt;img class=&#34;image-1&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
->
+
 &lt;p&gt; ScaleY(4) without transform-origin
->
+
 &lt;/p&gt;
->
+
 &lt;img class=&#34;image-2&#34; src=&#34;/images-1.jpg&#34;
->
+
 alt=&#34;Sample image&#34;&gt;
->
+
 &lt;/div&gt;
->
+
 &lt;/div&gt;
->
+
 &lt;/body&gt;
->
+
 &lt;/html&gt;
 
 ###### The output of the code is given below:
@@ -12494,114 +12417,114 @@ scaleZ () = scaleZ ( &lt;number&gt; )
 ##### Example: {#example-101 .unnumbered}
 
 &lt;!DOCTYPE html&gt;
->
+
 &lt;html&gt;
->
+
 &lt;head&gt;
->
+
 &lt;style&gt;
->
+
 &#42; { padding:0; margin:0;
->
+
 box-sizing: border-box;
->
+
 }
->
+
 .demo_container{ width:800px; padding:20px; margin:0 auto;
->
+
 justify-content: center; align-items: center;
->
+
 }
->
+
 .row{
->
+
 display: flex; flex-wrap: wrap;
->
+
 flex-direction: row;
->
+
 }
->
+
 .col{ width:50%
->
+
 }
->
+
 .image-1 { width:200px; height:200px;
->
+
 }
->
+
 .image-2 {
->
+
 transform-origin: top right;
->
+
 transform: perspective(250px) scaleZ(2) rotateX(45deg);
->
+
 width:200px; height:200px;
->
+
 }
->
+
 .image-3{
->
+
 transform: perspective(250px) scaleZ(2) rotateX(45deg);
->
+
 width:200px; float:right;
->
+
 height:200px;
->
+
 }
->
+
 p{
->
+
 padding-top: 20px; font-size:20px
->
+
 }
->
+
 &lt;/style&gt;
->
+
 &lt;/head&gt;
->
+
 &lt;body&gt;
->
+
 &lt;div class=&#34;demo_container&#34;&gt;
->
+
 &lt;h2&gt;The scaleZ() function is used to scale elements in a
 two-dimensional space along the z-axis. &lt;/h2&gt;
->
+
 &lt;div class=&#34;row&#34;&gt;
->
+
 &lt;div class=&#34;col&#34;&gt;
->
+
 &lt;p&gt; Normal Image &lt;/p&gt;
->
+
 &lt;img class=&#34;image-1&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
->
+
 &lt;p&gt; scaleZ(4) with transform-origin
->
+
 &lt;/p&gt;
->
+
 &lt;img class=&#34;image-2&#34; src=&#34;/images-1.jpg&#34;
->
+
 alt=&#34;Sample image&#34;&gt;
->
+
 &lt;/div&gt;
->
+
 &lt;div class=&#34;col&#34;&gt;
->
+
 &lt;p&gt; scaleZ(4) without transform-origin
->
+
 &lt;/p&gt;
->
+
 &lt;img class=&#34;image-3&#34; src=&#34;/images-1.jpg&#34;
->
+
 alt=&#34;Sample image&#34;&gt;
->
+
 &lt;/div&gt;
->
+
 &lt;/div&gt;
->
+
 &lt;/div&gt;
->
+
 &lt;/body&gt;
->
+
 &lt;/html&gt;
 
 ###### The output of the code is given below:
@@ -12624,11 +12547,11 @@ The CSS skew() function is used to skew elements in two-dimensional
 space. The skew() element performs a shear transformation (also known
 as a shear mapping or a transvection), which displaces each point of
 an element by a given angle in each direction.
->
+
 Skewing an element is kind of like taking the points of an element,
 and pushing or pulling them in different directions, based on a given
 angle.
->
+
 The skew() function works like this:
 
 -   skew(ax) or
@@ -12954,7 +12877,7 @@ and accurate experience. For older, more established properties, such
 as a bor- der or border, there is nothing to worry about; they have
 been standard- ized and work across browsers. But newer features like
 grid or flexbox are not so simple.
->
+
 The vendors that make your browsers, like Google and Mozilla, don't
 want to wait for cool new things to be standardized before implement-
 ing them. Instead, they create their own version and add a prefix that
@@ -13140,7 +13063,7 @@ PostCSS is a new tool that makes easy to develop JavaScript plugins
 that transform styles. This opens up a new world of possibilities for
 new plugins that make working with CSS easier and easier. The post
 introduces two popular PostCSS plugins: cssnext and cssnano.
->
+
 cssnext lets you use the future of CSS today. You can use features
 that are not supported in all browsers, such as CSS variables and CSS
 color functions. cssnext transforms your styles to work in all
@@ -13148,34 +13071,34 @@ browsers. In other words, cssnext allows to write styles with real CSS
 syntax instead of another preprocessor syntax. cssnext will
 automatically add vendor pre- fixes to your styles, so you dont have
 to use the prefixes yourself when writing CSS.
->
+
 To give you an example, let's say you have the following CSS styles:
->
+
 :root {
->
+
 &#45;-text: pink;
->
+
 &#45;-bg-color: #FFEC31;
->
+
 &#45;-flex-center: {
->
+
 display: flex; margin: auto;
->
+
 }
->
+
 }
->
+
 .box {
->
+
 background-color: var(&#45;-bg-color); color: color(hotpink
 whiteness(25%)); &#64;apply(&#45;-flex-center);
->
+
 }
->
+
 .warn {
->
+
 &#64;apply(&#45;-flex-center);
->
+
 }
 
 ###### cssnext will transform the styles into this:
@@ -13318,7 +13241,7 @@ It has powered by the following plugins (in this order):
     project:
 
 &#36; npm install postcss postcss-extend-rule
->
+
 &#45;-save-dev
 
 ###### Use PostCSS Extend Rule to process your CSS: {#use-postcss-extend-rule-to-process-your-css .unnumbered}
@@ -14290,7 +14213,7 @@ window.addEventListener(&#39;scroll&#39;, changeDir);
 });
 s
 &lt;/script&gt;
->
+
 &lt;/html&gt;
 ```
 
@@ -14754,105 +14677,105 @@ Bibliography ■ **419**
 # Index
 
 A
->
+
 Adjacent sibling selector, [250](#Cover) Animation-delay property,
 [52--53](#the-following-section-consists-of-the-complete-list-of-standard-css-properties-belonging-to-the-latest-css3-specifications.-all-the-properties-are-grouped-into-categories-given-below)
->
+
 Animation-direction property, [53](#_bookmark142)
->
+
 Animation-duration property,
 [52](#the-following-section-consists-of-the-complete-list-of-standard-css-properties-belonging-to-the-latest-css3-specifications.-all-the-properties-are-grouped-into-categories-given-below)
->
+
 Animation-fill-mode property, [53](#_bookmark142)
->
+
 Animation-iteration-count property, [53](#_bookmark142)
->
+
 Animation-name property,
 [52](#the-following-section-consists-of-the-complete-list-of-standard-css-properties-belonging-to-the-latest-css3-specifications.-all-the-properties-are-grouped-into-categories-given-below)
->
+
 Animation-play-state property, [53](#_bookmark142)
->
+
 Animation property,
 [52](#the-following-section-consists-of-the-complete-list-of-standard-css-properties-belonging-to-the-latest-css3-specifications.-all-the-properties-are-grouped-into-categories-given-below)
->
+
 Animation-timing-function property,
 [52](#the-following-section-consists-of-the-complete-list-of-standard-css-properties-belonging-to-the-latest-css3-specifications.-all-the-properties-are-grouped-into-categories-given-below)
->
+
 attr() function, [258--262](#Cover) Attribute selectors (&#91;&#93;),
 [186--187](#Cover)
->
+
 Attribute selectors ( &#91;attr="value"&#93; ), [187--188](#Cover)
->
+
 Attribute selectors ( &#91;attr="value"&#93; case- sensitive),
 [189--190](#Cover)
->
+
 Attribute selectors ( .classname ),
 [183--184](#the-output-of-the-code-is-given-below-50)
->
+
 Attribute selectors ( &#91; foo&#36;="bar" &#93; ), [193--195](#Cover)
->
+
 Attribute selectors ( &#91; foo&#42;="bar" &#93; ), [195--197](#Cover)
->
+
 Attribute selectors ( &#91; foo&#94;="bar" &#93; ), [192--193](#Cover)
->
+
 Attribute selectors ( &#91; foo&#124;="bar" &#93; ), [198--199](#Cover)
->
+
 Attribute selectors ( &#91; foo&#126;="bar"&#93;), [190--191](#Cover)
->
+
 Attribute selectors ( id), [184--186](#_bookmark235) Autoprefixer,
 [376](#_bookmark318)
->
+
 installation in project folder, [378--381](#_bookmark323) and
 -prefix-free, [382](#_bookmark327)
->
+
 running of, [381--382](#_bookmark325)
->
+
 writing normal CSS, [377--378](#_bookmark321)
->
+
 B
->
+
 Background, [60](#css-background-properties)
->
+
 background-attachment property, [60](#css-background-properties)
->
+
 background-clip property, [60--62](#css-background-properties)
->
+
 background-color property, [60](#css-background-properties)
->
+
 background-image property,
 [62--63](#the-output-of-the-code-is-given-below-3)
->
+
 background-origin property,
 [64--66](#background-origin-property-the-background-origin-css-property-specifies-the-positioning-area-of-the-background-that-is-the-posi--tion-of-the-origin-of-an-image-specified-using-the-background-image-property.-the-syntax-of-this-property-is-given-as)
 background-position property,
->
+
 [66--67](#_bookmark149)
->
+
 background-repeat property,
 [68--70](#background-repeat-property-the-background-repeat-css-property-specifies-whether-the-background-image-is-repeated-or-tiled-after-it-has-been-sized-and-positioned.-it-is-often-good-to-use-the-shorthand-background-property.)
->
+
 background-size property, [70--72](#_bookmark151)
->
+
 Background property, [31--32](#syntax-2)
->
+
 multiple backgrounds, [32](#example-7) Benefits of CSS,
 [44--45](#_bookmark130) blur() function, [262--263](#Cover) Body
 section of HTML, [7--8](#Body_Section) Border, [33--34](#css-border)
->
+
 width and color, [34](#_bookmark104)
->
+
 Border-collapse property, [144--146](#_bookmark203)
->
+
 Border properties, [72](#_bookmark152)
->
+
 border-bottom property,
 [76--78](#border-bottom-property-the-border-bottom-css-property-sets-the-width-style-and-color-of-the-bottom-border-of-an-element.-it-is-a-property-for-setting-the-individual-bottom-border-properties-that-is-border-bottom-width-border-bottom-style-and-border-bottom--color-at-once.-the-syntax-of-this-property-is-given-as)
 border-bottom-color property,
->
+
 [78--80](#the-output-of-the-code-is-given-below-13)
->
+
 border-bottom-left-radius property, [80--82](#_bookmark157)
->
+
 border-bottom-style property,
 [82--85](#the-output-of-the-code-is-given-below-14)
 
@@ -14865,27 +14788,27 @@ Border-spacing property,
 [147--148](#border-spacing-property-the-border-spacing-css-property-sets-the-spacing-between-the-borders-of-adjacent-cells-using-the-border-model.-if-the-border-model-is-used-the-property-is-ignored.-here-see-the-border-collapse-property.)
 
 Box model, [35--36](#_bookmark107)
->
+
 brightness() function, [264--266](#brightness)
->
+
 Brunch, [397--398](#_bookmark361)
->
+
 Bubble option, [390](#_bookmark345)
 
 **421**
 
 C
->
+
 calc() function, [258](#Cover), [266--268](#_bookmark239)
->
+
 camelCase naming,
 [400](#when-importing-the-css-module-from-a-js-module-it-exports-an-object-with-all-mappings-from-local-names-to-global-names.)
->
+
 Caption-side property,
 [149--151](#caption-side-property-the-caption-side-css-property-sets-the-verti--cal-position-of-the-table-caption-box.-to-align-caption-text-horizon--tally-within-the-caption-box-use-the-text-align-property.)
 Cascading Style Sheets, [412--413](#_bookmark373) circle() function,
 [258](#Cover), [268--274](#_bookmark241)
->
+
 Class, [19--20](#_bookmark75)
 
 ID and, [20--21](#_bookmark77)
@@ -14894,37 +14817,37 @@ Color properties, [87](#the-output-of-the-code-is-given-below-16)
 
 CSS HEX colors, [91--94](#_bookmark166) RGB colors,
 [88--89](#_bookmark162)
->
+
 RGBA colors, [89--91](#_bookmark164)
->
+
 Colors, [22](#_bookmark83)
->
+
 list of color values, [23--24](#_bookmark86) names,
 [22--23](#_bookmark83)
->
+
 picking, [299--301](#How_to_Pick_a_Color)
->
+
 Column-count property,
 [120--123](#the-output-of-the-code-is-given-below-30)
->
+
 Column-fill property,
 [123--126](#the-output-of-the-code-is-given-below-31)
->
+
 Column-gap property, [126--128](#the-output-of-the-code-given-below-2)
->
+
 Column-rule-color property, [131--134](#_bookmark195)
->
+
 Column-rule property, [128--131](#_bookmark194)
->
+
 Column-rule-style property, [131](#_bookmark195)
->
+
 Column-rule-width property, [131](#_bookmark195) Combinators selectors
 (E + F), [250--252](#Cover) Combinators selectors (E &gt; F),
 [248--250](#Cover) Combinators selectors (E F), [246--248](#Cover)
 Comment tags, [13](#_bookmark69)
->
+
 Cons of CSS, [45--46](#_bookmark132)
->
+
 Content properties, CSS generated, [99--100](#_bookmark173)
 counter-reset property, [102--103](#_bookmark176)
 
@@ -14937,25 +14860,25 @@ counter() function,
 [277--279](#the-output-of-the-code-is-given-below-55)
 
 Counter-reset property, [102--103](#_bookmark176)
->
+
 counters() function, [279--282](#_bookmark248)
->
+
 CSS2, [4--5](#_bookmark48)
->
+
 CSS3, [4--5](#_bookmark48)
->
+
 cssnano, [384](#cssnano)
->
+
 cssnext, installing, [384](#cssnano)
->
+
 installing, [384](#cssnano)
->
+
 npm script, [385](#_bookmark334)
->
+
 postcss, installing, [384](#cssnano)
->
+
 postcss-CLI, installing, [384](#cssnano)
->
+
 postcss-CLI, using, [384--385](#cssnano)
 
 cssnext, [382--384](#_bookmark327)
@@ -14963,7 +14886,7 @@ cssnext, [382--384](#_bookmark327)
 installing, [384](#cssnano)
 
 cubic-bezier() function, [283--284](#cubic-bezier)
->
+
 D
 
 Dimension properties, [94](#_bookmark169)
@@ -14972,76 +14895,76 @@ height property, [94--96](#_bookmark169)
 
 max-height and max-height property,
 [96--98](#the-output-of-the-code-is-given-below-21)
->
+
 min-height property,
 [98--99](#the-output-of-the-code-is-given-below-22)
->
+
 Division, CSS, [21](#sample-4)
->
+
 drop-shadow() function, [284--287](#_bookmark252)
->
+
 E
->
+
 ellipse() function,
 [287--293](#the-output-of-the-code-is-given-below-59)
->
+
 Empty-cells property,
 [151--153](#the-output-of-the-code-is-given-below-38) External style
 sheet, [14--16](#different-types-of-css-you-can-use)
->
+
 F
->
+
 Features option, [387](#you-can-add-postcss-to-your-build-tool)
->
+
 filter() function, [293--295](#_bookmark256)
->
+
 Flexbox, [40](#why-flexbox)
->
+
 Flexible box layout, [103--105](#_bookmark177) Font Magician,
 [394--395](#_bookmark356)
->
+
 Font properties, [36](#_bookmark110), [106](#css-font-properties)
->
+
 font-size-adjust property, [109](#_bookmark182)
->
+
 font-size property, [107--109](#_bookmark181)
->
+
 Functions, [37--39](#css-text), [257](#Cover)
->
+
 attr() function, [258--262](#Cover)
->
+
 blur() function, [262--263](#Cover)
->
+
 brightness() function, [264--266](#brightness)
->
+
 calc() function, [266--268](#_bookmark239)
->
+
 circle() function, [268--274](#_bookmark241)
->
+
 contrast() function, [275--277](#contrast)
->
+
 counter() function,
 [277--279](#the-output-of-the-code-is-given-below-55)
->
+
 counters() function, [279--282](#_bookmark248)
->
+
 cubic-bezier() function, [283--284](#cubic-bezier)
->
+
 drop-shadow() function, [284--287](#_bookmark252)
->
+
 ellipse() function,
 [287--293](#the-output-of-the-code-is-given-below-59)
->
+
 filter() function, [293--295](#_bookmark256)
->
+
 grayscale() function, [295--298](#_bookmark258)
->
+
 hsl() function, [298--301](#the-output-of-the-code-is-given-below-62)
->
+
 hsla() function, [301--304](#_bookmark264)
->
+
 hue-rotate() function, [305--307](#hue-rotate)
->
+
 inset() function,
 [307--309](#the-output-of-the-code-is-given-below-65)
 linear-gradient() function,
@@ -15071,247 +14994,247 @@ scaleX() function, [359--361](#scalex)
 scaleY() function, [361--364](#_bookmark307)
 scaleZ() function,
 [364--367](#the-output-of-the-code-is-given-below-82)
->
+
 skew() function, [367--370](#the-output-of-the-code-is-given-below-83)
->
+
 skewX() function, [371--373](#skewx)
->
+
 G
->
+
 General sibling selector (&#126;), [252--254](#Cover) Gradient, seting the
 angle of, [310--313](#linear-gradient) grayscale() function,
 [295--298](#_bookmark258)
->
+
 Grid-structural selectors (:nth-col()), [254--256](#Cover)
->
+
 Grunt, [393--394](#_bookmark354), [396--397](#_bookmark360)
->
+
 Gulp, [392--393](#_bookmark351), [395--396](#_bookmark358)
->
+
 H
->
+
 Head section of HTML, [6](#_bookmark54) Height property,
 [94--96](#_bookmark169)
->
+
 Hexadecimal numbers, [92](#_bookmark168)
->
+
 HEX colors, [91--94](#_bookmark166) History of CSS,
 [2--3](#_bookmark43) hsl() function,
 [298--301](#the-output-of-the-code-is-given-below-62)
->
+
 hsla() function, [301--304](#_bookmark264)
->
+
 HSL model, *see* [Hue Saturation Lightness](#_bookmark377)
 [model](#_bookmark377)
->
+
 HTML, [6](#_bookmark54), [9](#starting-with-a-specific-html),
 [412](#_bookmark373)
->
+
 body section, [7--8](#Body_Section)
->
+
 head section, [6](#_bookmark54)
->
+
 how CSS and HTML work together, [10--11](#_bookmark62)
->
+
 linking HTML and CSS files, [9--10](#starting-with-a-specific-html)
 RGB colors in, [25--27](#_bookmark90)
->
+
 hue-rotate() function, [305--307](#hue-rotate)
->
+
 Hue Saturation Lightness (HSL) model,
 [298](#the-output-of-the-code-is-given-below-62), [305](#hue-rotate)
->
+
 I
->
+
 IDs, [20](#_bookmark77)
->
+
 and class, difference between, [20--21](#_bookmark77)
->
+
 :indeterminate selector, [223--225](#Cover)
->
+
 Inherit, [54](#_bookmark143)
->
+
 Inheritance CSS, [12--13](#_bookmark67)
->
+
 Initial, [54](#_bookmark143)
->
+
 Inline styles, [14](#different-types-of-css-you-can-use),
 [17--18](#_bookmark74)
->
+
 :in-range, [227--228](#Cover)
->
+
 insertAfter key, [388](#_bookmark342)
->
+
 insertBefore key, [388](#_bookmark342)
->
+
 inset() function,
 [307--309](#the-output-of-the-code-is-given-below-65)
->
+
 Internal styles, [14](#different-types-of-css-you-can-use) Internal
 style sheet, [16--17](#_bookmark73)
->
+
 :invalid pseudo-class, [225--226](#Cover)
->
+
 K
->
+
 &#64;keyframes rule, [54--59](#_bookmark143)
->
+
 L
->
+
 Learning CSS, [413](#_bookmark374)
->
+
 linear-gradient() function, [310--313](#linear-gradient)
->
+
 List properties, [110](#css-list-properties)
->
+
 list-style property, [110--111](#css-list-properties)
->
+
 list-style-image property,
 [113--114](#here-you-will-get-various-values-of-list-style-type-property.)
->
+
 list-style-position property, [114--115](#_bookmark187)
->
+
 list-style-type property, [111--113](#_bookmark185) Logical
 combinations selectors ( :not ),
->
+
 [181--183](#_bookmark229)
->
+
 Lost Grid, [395](#_bookmark358)
->
+
 Brunch, [397--398](#_bookmark361)
->
+
 Grunt, [396--397](#_bookmark360)
->
+
 gulp, [395--396](#_bookmark358)
->
+
 M
->
+
 Margin properties, [116--120](#css-margin-properties)
->
+
 Margins, [34--35](#_bookmark104)
->
+
 MarqueeMenu plugin,
 [400--410](#when-importing-the-css-module-from-a-js-module-it-exports-an-object-with-all-mappings-from-local-names-to-global-names.)
->
+
 matrix() function, [313--315](#the-output-of-the-ode-is-given-below)
->
+
 matrix3d() function, [316--318](#matrix3d)
->
+
 Max-height and max-height property,
 [96--98](#the-output-of-the-code-is-given-below-21)
->
+
 Media queries, [43--44](#_bookmark127)
->
+
 Media types, [41](#css-media-types)
->
+
 different, [42--43](#_bookmark123)
->
+
 using &#64;import at-rules, [42](#_bookmark123) using &lt;link&gt; element,
 [42](#_bookmark123) using &#64;media at-rules, [41--42](#css-media-types)
->
+
 Min-height property,
 [98--99](#the-output-of-the-code-is-given-below-22)
->
+
 Modules, CSS, [5--6](#_bookmark51), [399--400](#_bookmark365)
->
+
 Multi-column layout properties,
 [120](#the-output-of-the-code-is-given-below-30) column-count
 property, [120--123](#the-output-of-the-code-is-given-below-30)
->
+
 column-fill property,
 [123--126](#the-output-of-the-code-is-given-below-31)
->
+
 column-gap property, [126--128](#the-output-of-the-code-given-below-2)
->
+
 column-rule property, [128--131](#_bookmark194)
->
+
 column-rule-color property, [131--134](#_bookmark195)
->
+
 column-rule-style property, [131](#_bookmark195)
->
+
 column-rule-width property, [131](#_bookmark195)
->
+
 Multiple backgrounds, [32](#example-7)
->
+
 N
->
+
 Naming (localsConvention),
 [400](#when-importing-the-css-module-from-a-js-module-it-exports-an-object-with-all-mappings-from-local-names-to-global-names.)
 Need for CSS, [3--4](#_bookmark45)
->
+
 npm script, [385](#_bookmark334)
->
+
 nth-of-type(n) selector, [243--244](#Cover)
->
+
 O
->
+
 opacity() function,
 [318--320](#the-output-of-the-code-is-given-below-68)
->
+
 Outline properties, [134--136](#_bookmark196)
->
+
 outline-style property,
 [136--138](#the-output-of-the-code-is-given-below-34)
->
+
 outline-width property,
 [136](#the-output-of-the-code-is-given-below-34)
->
+
 :out-of-range selector, [227--228](#Cover)
->
+
 P
->
+
 Padding, [35](#_bookmark107)
->
+
 Padding CSS property, [139--142](#css-padding-1) Page-break-after
 property, [142--144](#_bookmark201)
->
+
 perspective() function, [321--323](#perspective)
->
+
 Plugins, [375](#CHAPTER_5:_CSS_Plugins)
->
+
 Autoprefixer, [376](#_bookmark318)
->
+
 installation in project folder, [378--381](#_bookmark323)
->
+
 and -prefix-free, [382](#_bookmark327)
->
+
 running of, [381--382](#_bookmark325)
->
+
 writing normal CSS, [377--378](#_bookmark321) cssnano, [384](#cssnano)
->
+
 cssnext, installing, [384](#cssnano)
->
+
 installing, [384](#cssnano)
->
+
 npm script, [385](#_bookmark334)
->
+
 postcss, installing, [384](#cssnano)
->
+
 postcss-CLI, installing, [384](#cssnano)
->
+
 postcss-CLI, using, [384--385](#cssnano)
->
+
 cssnext, [382--384](#_bookmark327)
->
+
 features,
 [400](#when-importing-the-css-module-from-a-js-module-it-exports-an-object-with-all-mappings-from-local-names-to-global-names.)
->
+
 Font Magician, [394--395](#_bookmark356)
->
+
 Lost Grid, [395](#_bookmark358)
->
+
 Brunch, [397--398](#_bookmark361)
->
+
 Grunt, [396--397](#_bookmark360)
->
+
 gulp, [395--396](#_bookmark358)
->
+
 MarqueeMenu plugin,
 [400--410](#when-importing-the-css-module-from-a-js-module-it-exports-an-object-with-all-mappings-from-local-names-to-global-names.)
->
+
 naming (localsConvention),
 [400](#when-importing-the-css-module-from-a-js-module-it-exports-an-object-with-all-mappings-from-local-names-to-global-names.)
->
+
 PostCSS, [398](#_bookmark362)
 
 features, [398--399](#_bookmark362)
@@ -15319,28 +15242,28 @@ features, [398--399](#_bookmark362)
 PostCSS assets, [392](#_bookmark351)
 
 Grunt, [393--394](#_bookmark354)
->
+
 gulp (gulp-postcss), [392--393](#_bookmark351) PostCSS-modules ( CSS
 modules ),
->
+
 [399--400](#_bookmark365)
->
+
 PreCSS, [385](#_bookmark334)
->
+
 install plugin, [389--390](#the-result-will-be-as-given-below)
->
+
 preserveEmpty, [391](#preserveempty)
->
+
 usage, [386](#_bookmark337)
->
+
 various options, [386--389](#_bookmark337)
->
+
 stylelint, [391](#preserveempty)
->
+
 installing, [391](#preserveempty)
->
+
 usage, [391--392](#preserveempty)
->
+
 PostCSS, [398](#_bookmark362)
 
 features, [398--399](#_bookmark362)
@@ -15352,85 +15275,85 @@ PostCSS assets, [392](#_bookmark351)
 Grunt, [393--394](#_bookmark354)
 
 gulp (gulp-postcss), [392--393](#_bookmark351) Postcss-CLI
->
+
 installing, [384](#cssnano)
->
+
 using, [384--385](#cssnano)
->
+
 PostCSS-modules ( CSS modules ), [399--400](#_bookmark365) PreCSS,
 [385](#_bookmark334)
->
+
 install plugin, [389--390](#the-result-will-be-as-given-below)
->
+
 preserveEmpty, [391](#preserveempty)
->
+
 usage, [386](#_bookmark337)
->
+
 various options, [386--389](#_bookmark337)
->
+
 -Prefix-free, Autoprefixer and,
->
+
 [382](#_bookmark327)
->
+
 preserveEmpty, [391](#preserveempty)
->
+
 Print properties, [142](#_bookmark201)
->
+
 page-break-after property, [142--144](#_bookmark201)
->
+
 Properties of CSS, [21--22](#sample-4),
 [47](#CHAPTER_2:_CSS_Properties), [413--415](#_bookmark374)
->
+
 background, [60](#css-background-properties)
->
+
 background-attachment property, [60](#css-background-properties)
->
+
 background-clip property, [60--62](#css-background-properties)
->
+
 background-color property, [60](#css-background-properties)
 background-image property,
->
+
 [62--63](#the-output-of-the-code-is-given-below-3)
->
+
 background-origin property,
 [64--66](#background-origin-property-the-background-origin-css-property-specifies-the-positioning-area-of-the-background-that-is-the-posi--tion-of-the-origin-of-an-image-specified-using-the-background-image-property.-the-syntax-of-this-property-is-given-as)
->
+
 background-position property, [66--67](#_bookmark149)
->
+
 background-repeat property,
 [68--70](#background-repeat-property-the-background-repeat-css-property-specifies-whether-the-background-image-is-repeated-or-tiled-after-it-has-been-sized-and-positioned.-it-is-often-good-to-use-the-shorthand-background-property.)
->
+
 background-size property, [70--72](#_bookmark151)
->
+
 border properties, [72](#_bookmark152)
->
+
 border-bottom property,
 [76--78](#border-bottom-property-the-border-bottom-css-property-sets-the-width-style-and-color-of-the-bottom-border-of-an-element.-it-is-a-property-for-setting-the-individual-bottom-border-properties-that-is-border-bottom-width-border-bottom-style-and-border-bottom--color-at-once.-the-syntax-of-this-property-is-given-as)
 border-bottom-color property,
->
+
 [78--80](#the-output-of-the-code-is-given-below-13)
->
+
 border-bottom-left-radius property, [80--82](#_bookmark157)
->
+
 border-bottom-style property,
 [82--85](#the-output-of-the-code-is-given-below-14)
->
+
 border-image property, [85--86](#_bookmark159)
->
+
 border-width property,
 [74--75](#border-width-property-the-border-width-css-property-is-a-short--hand-property-for-setting-a-singleborder-width-property-that-is-border-top-width-border-right-width-border-bottom-width-and-border-left-width-in-a-single-declaration.-the-syntax-of-this-property-is-given-as)
->
+
 color properties, [87](#the-output-of-the-code-is-given-below-16)
->
+
 CSS HEX colors, [91--94](#_bookmark166) RGB colors,
 [88--89](#_bookmark162)
->
+
 RGBA colors, [89--91](#_bookmark164)
->
+
 content properties, CSS generated, [99--100](#_bookmark173)
->
+
 counter-reset property, [102--103](#_bookmark176)
->
+
 quotes property,
 [101--102](#quotes-property-the-quotes-css-property-specifies-the-quotation-marks-for-the-embedded-quotations.-the-quotes-characters-specified-for-this-property-are-used-for-the-open-quote-and-close-quote-values-of-the-content-property.)
 
@@ -15440,124 +15363,124 @@ height property, [94--96](#_bookmark169)
 
 max-height and max-height property,
 [96--98](#the-output-of-the-code-is-given-below-21)
->
+
 min-height property,
 [98--99](#the-output-of-the-code-is-given-below-22) flexible box
 layout, [103--105](#_bookmark177) font properties,
 [106](#css-font-properties)
->
+
 font-size property, [107--109](#_bookmark181)
->
+
 font-size-adjust property, [109](#_bookmark182)
->
+
 &#64;keyframes rule, [54--59](#_bookmark143)
->
+
 layouts, [50--51](#_bookmark137)
->
+
 list properties, [110](#css-list-properties)
->
+
 list-style property, [110--111](#css-list-properties)
->
+
 list-style-image property,
 [113--114](#here-you-will-get-various-values-of-list-style-type-property.)
 list-style-position property,
->
+
 [114--115](#_bookmark187)
->
+
 list-style-type property, [111--113](#_bookmark185)
->
+
 margin properties, [116--120](#css-margin-properties)
->
+
 multi-column layout properties,
 [120](#the-output-of-the-code-is-given-below-30) column-count
 property, [120--123](#the-output-of-the-code-is-given-below-30)
->
+
 column-fill property,
 [123--126](#the-output-of-the-code-is-given-below-31)
->
+
 column-gap property, [126--128](#the-output-of-the-code-given-below-2)
->
+
 column-rule property, [128--131](#_bookmark194) column-rule-color
 property,
->
+
 [131--134](#_bookmark195)
->
+
 column-rule-style property, [131](#_bookmark195)
->
+
 column-rule-width property, [131](#_bookmark195)
->
+
 outline properties, [134--136](#_bookmark196)
->
+
 outline-style property,
 [136--138](#the-output-of-the-code-is-given-below-34)
->
+
 outline-width property,
 [136](#the-output-of-the-code-is-given-below-34)
->
+
 padding, [139--142](#css-padding-1)
->
+
 print properties, [142](#_bookmark201)
->
+
 page-break-after property, [142--144](#_bookmark201)
->
+
 rules, [51](#_bookmark139)
->
+
 animation-delay property,
 [52--53](#the-following-section-consists-of-the-complete-list-of-standard-css-properties-belonging-to-the-latest-css3-specifications.-all-the-properties-are-grouped-into-categories-given-below)
->
+
 animation-direction property, [53](#_bookmark142)
->
+
 animation-duration property,
 [52](#the-following-section-consists-of-the-complete-list-of-standard-css-properties-belonging-to-the-latest-css3-specifications.-all-the-properties-are-grouped-into-categories-given-below)
->
+
 animation-fill-mode property, [53](#_bookmark142)
 animation-iteration-count property,
->
+
 [53](#_bookmark142)
->
+
 animation-name property,
 [52](#the-following-section-consists-of-the-complete-list-of-standard-css-properties-belonging-to-the-latest-css3-specifications.-all-the-properties-are-grouped-into-categories-given-below)
->
+
 animation-play-state property, [53](#_bookmark142)
 animation-timing-function
->
+
 property,
 [52](#the-following-section-consists-of-the-complete-list-of-standard-css-properties-belonging-to-the-latest-css3-specifications.-all-the-properties-are-grouped-into-categories-given-below)
->
+
 inherit, [54](#_bookmark143)
->
+
 initial, [54](#_bookmark143)
->
+
 table properties, [144](#_bookmark203)
->
+
 border-collapse property, [144--146](#_bookmark203)
->
+
 border-spacing property,
 [147--148](#border-spacing-property-the-border-spacing-css-property-sets-the-spacing-between-the-borders-of-adjacent-cells-using-the-border-model.-if-the-border-model-is-used-the-property-is-ignored.-here-see-the-border-collapse-property.)
->
+
 caption-side property,
 [149--151](#caption-side-property-the-caption-side-css-property-sets-the-verti--cal-position-of-the-table-caption-box.-to-align-caption-text-horizon--tally-within-the-caption-box-use-the-text-align-property.)
->
+
 empty-cells property,
 [151--153](#the-output-of-the-code-is-given-below-38)
->
+
 text properties, [154](#css-text-properties)
->
+
 text-align property and text-align- all property,
 [154--156](#css-text-properties)
->
+
 text-decoration property,
 [156--159](#the-output-of-the-code-is-given-below-40)
->
+
 text-orientation property, [160--161](#_bookmark211)
->
+
 text-overflow property,
 [161--162](#the-output-of-the-code-is-given-below-42)
->
+
 text-shadow property, [163--164](#_bookmark213)
->
+
 transform properties, [164](#_bookmark214)
->
+
 3D transform functions, [169--173](#_bookmark217) 2D transform
 functions, [164--169](#_bookmark214)
 
@@ -15567,101 +15490,101 @@ transitions properties,
 Pseudo-classes (:any-link), [201--203](#Cover)
 
 Pseudo-classes (:blank), [234--235](#Cover)
->
+
 Pseudo-classes (:checked), [221--223](#Cover)
->
+
 Pseudo-classes (:default), [219--221](#Cover) Pseudo-classes
 (:dir(ltr) or :dir(rtl)),
->
+
 [199--201](#Cover)
->
+
 Pseudo-classes (:empty), [233--234](#Cover) Pseudo-classes (:enabled
 and :disabled),
->
+
 [214--215](#Cover)
->
+
 Pseudo-classes (:first-child), [239--240](#Cover) Pseudo-classes
 (:first-of-type, nth-of-type,
->
+
 nth-last-of-type(3)), [244--246](#Cover)
->
+
 Pseudo-classes (:focus), [212--213](#Cover)
->
+
 Pseudo-classes (:hover), [210--212](#Cover) Pseudo-classes
 (:indeterminate),
->
+
 [223--225](#Cover)
->
+
 Pseudo-classes (:in-range and :out-of- range), [227--228](#Cover)
->
+
 Pseudo-classes (:link), [203--205](#Cover)
->
+
 Pseudo-classes (:nth-child), [236--237](#Cover) Pseudo-classes
 (:nth-last-child),
->
+
 [237--238](#Cover)
->
+
 Pseudo-classes (:nth-of-type(odd)), [241--242](#Cover)
->
+
 Pseudo-classes (:nth-of-type(odd or even)), [243--244](#Cover)
->
+
 Pseudo-classes (:only-child), [240--241](#Cover)
->
+
 Pseudo-classes (:optionaL), [230--231](#Cover) Pseudo-classes
 (:placeholder-shown),
->
+
 [218--219](#Cover)
->
+
 Pseudo-classes (:read-only and :read- write), [215--217](#Cover)
->
+
 Pseudo-classes (:required), [229--230](#Cover) Pseudo-classes (
 :root), [232--233](#Cover) Pseudo-classes (:scope), [207--208](#Cover)
->
+
 Pseudo-classes (:target), [205--207](#Cover),
->
+
 [208--210](#Cover)
->
+
 Pseudo-classes (:valid and :invalid), [225--226](#Cover)
->
+
 Q
->
+
 Quotes property,
 [101--102](#quotes-property-the-quotes-css-property-specifies-the-quotation-marks-for-the-embedded-quotations.-the-quotes-characters-specified-for-this-property-are-used-for-the-open-quote-and-close-quote-values-of-the-content-property.)
->
+
 R
->
+
 radial-gradient() function, [323--326](#_bookmark282)
 repeating-linear-gradient() function,
->
+
 [326--330](#_bookmark284)
->
+
 repeating-radial-gradient() function,
 [330--335](#the-output-of-the-code-is-given-below-72)
->
+
 RGB colors, [24](#_bookmark88), [88--89](#_bookmark162)
->
+
 extended color keywords, [27--30](#_bookmark92) in HTML,
 [25--27](#_bookmark90)
->
+
 rgb() function, [335--339](#the-output-of-the-code-is-given-below-73)
->
+
 RGBA colors, [89--91](#_bookmark164)
->
+
 :root selector, [232](#Cover)
->
+
 rotate() function, [339--343](#_bookmark290)
->
+
 rotate3d() function,
 [343--346](#the-output-of-the-code-is-given-below-75)
->
+
 rotatex() function, [346--347](#_bookmark294)
->
+
 rotatey() function, [347](#_bookmark296)
->
+
 rotatez() function, [347--351](#_bookmark296)
->
+
 Rules, [51](#_bookmark139)
->
+
 animation-delay property,
 [52--53](#the-following-section-consists-of-the-complete-list-of-standard-css-properties-belonging-to-the-latest-css3-specifications.-all-the-properties-are-grouped-into-categories-given-below)
 animation-direction property, [53](#_bookmark142)
@@ -15745,7 +15668,7 @@ skew() function, [367--370](#the-output-of-the-code-is-given-below-83)
 skewX() function, [371--373](#skewx)
 Specification, CSS, [5](#_bookmark51)
 Stage option, [387](#you-can-add-postcss-to-your-build-tool)
->
+
 stylelint, [391](#preserveempty)
 installing, [391](#preserveempty)
 usage, [391--392](#preserveempty)
