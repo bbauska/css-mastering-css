@@ -3729,8 +3729,15 @@ background-repeat: repeat-x;
 
 ###### The output of the code is given below:
 
-![](./images/image021.png){width="2.2708333333333335in"
-height="2.2708333333333335in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 21.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image021.png?raw=true"
+  alt="."
+  title=""
+  style="width:2.2in" />
+</p>
+<!-- ![](./images/image021.png){width="2.2708333333333335in" height="2.2708333333333335in"}  -->
 
 CSS background repeat(x).
 
@@ -3738,9 +3745,11 @@ CSS background repeat(x).
 
 The syntax of the property is given as:
 
+```
 background-size: length attribute&#124; percentage attribute&#124; auto
 attribute &#124; cover attributes attribute &#124; contain attribute&#124; initial
 attribute&#124; inherit attribute
+```
 
 ##### Example:
 
@@ -3780,8 +3789,15 @@ background-size: cover;
 
 ###### The output of the code is given below:
 
-![](./images/image022.png){width="3.6093744531933507in"
-height="1.815in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 22.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image022.png?raw=true"
+  alt="."
+  title=""
+  style="width:3.6in" />
+</p>
+<!-- ![](./images/image022.png){width="3.6093744531933507in" height="1.815in"}  -->
 
 CSS background size -- contained cover and full cover.
 
@@ -3840,292 +3856,219 @@ justify-content: center; align-items: center; font-size: 32px;
 &lt;/html&gt;
 
 ###### The output of the code is given below:
-
-![](./images/image023.png){width="2.7343744531933507in"
-height="2.7343744531933507in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 23.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image023.png?raw=true"
+  alt="."
+  title=""
+  style="width:2.7in" />
+</p>
+<!-- ![](./images/image023.png){width="2.7343744531933507in" height="2.7343744531933507in"}  -->
 
 CSS border property.
 
 ###### border-width property: The border-width CSS property is a short- hand property for setting a singleborder width property, that is, border-top-width, border-right-width, border-bottom-width, and border-left-width in a single declaration. The syntax of this property is given as:
 
+```
 border-width : &#91; thin &#124; medium &#124; thick &#124; length &#93;
->
+```
+
 1 to 4 values &#124; inherit
 
 ##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
->
 &lt;html&gt;
->
 &lt;head&gt;
->
 &lt;style&gt;
->
 .demo_container{ width:500px; margin:0 auto;
->
 text-align: center; justify-content: center; align-items: center;
->
 }
->
 p.one {
->
 border-color: rgb(221, 104, 104); border-style: solid;
->
 border-width: 2px;
->
 }
->
 p.two {
->
 border-color: rgb(193, 221, 90); border-style: solid;
->
 border-width: 2px 5px;
->
 }
->
 p.three {
->
 border-color: rgb(93, 231, 109); border-style: solid;
->
 border-width: 2px 5px 7px;
->
 }
->
 p.four {
->
 border-color: rgb(212, 106, 241); border-style: solid;
->
 border-width: medium 5px thick 5px;
->
 }
->
 &lt;/style&gt;
->
 &lt;/head&gt;
->
 &lt;body&gt;
->
 &lt;div class=&#34;demo_container&#34;&gt;
->
 &lt;h1&gt; CSS Border Property- Width &lt;/h1&gt;
->
 &lt;p class=&#34;one&#34;&gt; &lt;strong&gt; Having one-value syntax:&lt;/strong&gt;
 Here is the single value sets the width of four border sides.&lt;/p&gt;
->
 &lt;p class=&#34;two&#34;&gt; &lt;strong&gt; Having two-value syntax:&lt;/strong&gt; the
 first value sets as the width of the top & bottom border, while the
 second value sets the width the right and left sides border.&lt;/p&gt;
->
 &lt;p class=&#34;three&#34;&gt; &lt;strong&gt; Having three-value syntax:&lt;/strong&gt;
 the first value as sets the width of the top border, the second value
 sets the width of right and left border, the third value sets width of
 the the bottom border.&lt;/p&gt;
->
 &lt;p class=&#34;four&#34;&gt; &lt;strong&gt; Here having four- value
 syntax:&lt;/strong&gt; each value sets the width of the border
 individually in the order top, right, bottom, and left.&lt;/p&gt;&lt;/div&gt;
->
 &lt;/body&gt;
->
 &lt;/html&gt;
+```
 
 ###### The output of the code is given below:
-
-![](./images/image024.png){width="3.5833366141732284in"
-height="2.1848950131233598in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 24.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image024.png?raw=true"
+  alt="."
+  title=""
+  style="width:3.5in" />
+</p>
+<!-- ![](./images/image024.png){width="3.5833366141732284in" height="2.1848950131233598in"}  -->
 
 CSS border property-width.
 
 ###### border-bottom property: The border-bottom CSS property sets the width, style, and color of the bottom border of an element. It is a property for setting the individual bottom border properties, that is, border-bottom-width, border-bottom-style, and border-bottom- color at once. The syntax of this property is given as:
 
+```
 border-bottom: &#91; border-bottom-width border- bottom-style
 border-bottom-color &#93; &#124; initial &#124; inherit
+```
 
 ##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
->
 &lt;html&gt;
->
 &lt;head&gt;
->
 &lt;style&gt;
->
 .demo_container{ width:400px; margin:0 auto;
->
 text-align: center; justify-content: center; align-items: center;
->
 }
->
 .text-1 {
->
 border-left: 4px solid #ee2525;
->
 }
->
 .text-2{
->
 border-right: 3px solid #26e126;
->
 }
->
 .text-3{
->
 border-top: 4px solid #d42323;
->
 }
->
 .text-4{
->
 border-bottom: 3px solid #24d024;
->
 }
->
 &lt;/style&gt;
->
 &lt;/head&gt;
->
 &lt;body&gt;
->
 &lt;div class=&#34;demo_container&#34;&gt;
->
 &lt;h1&gt; CSS Border Property - Left, Bottom, Right, Top &lt;/h1&gt;
->
 &lt;p class=&#34;text-1&#34;&gt;Lorem dolor sit amet consectetur adipisicing
 elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae
 consequuntur voluptatum laborum numquam blanditiis harum quisquam eius
 sed odit fugiat iusto fuga praesentium optio, eaque rerum!&lt;/h1&gt;
->
 &lt;br&gt;
->
 &lt;br&gt;
->
 &lt;p class=&#34;text-2&#34;&gt; Provident similique accusantium nemo autem.
 Veritatis obcaecati tenetur iure eius earum ut molestias architecto
 voluptate aliquam nhil, eveniet aliquid culpa officia aut! .&lt;/p&gt;
 &lt;br&gt;
->
 &lt;br&gt;
->
 &lt;p class=&#34;text-3&#34;&gt;Lorem ipsum dolor sit amet consectetur
 adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi
 repudiandae consequuntur voluptatum laborum numquam blanditiis harum
 quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque
 rerum!&lt;/h1&gt;
->
 &lt;br&gt;
->
 &lt;br&gt;
->
 &lt;p class=&#34;text-4&#34;&gt; Provident similique accusantium nemo autem.
 Veritatis obcaecati tenetur iure eius earum ut molestias architecto
 voluptate aliquam nihil, eveniet aliquid culpa officia aut!
 .&lt;/p&gt;&lt;br&gt;
->
 &lt;/body&gt;
->
 &lt;/html&gt;
+```
 
 ###### The output of the code is given below:
-
-![](./images/image025.png){width="3.5187489063867017in"
-height="4.55in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 25.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image025.png?raw=true"
+  alt="."
+  title=""
+  style="width:3.5in" />
+</p>
+<!-- ![](./images/image025.png){width="3.5187489063867017in" height="4.55in"}  -->
 
 CSS border property -- left, bottom, right, top.
 
 ###### border-bottom-color property: The border-bottom color property sets the color of an element's bottom border individually. However, in other cases the shorthand properties like border color or border bottom are more convenient to use and preferable. The syntax of this property is given as:
 
+```
 border-bottom-color: color &#124; transparent &#124; inherit
+```
 
 ##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
->
 &lt;html&gt;
->
 &lt;head&gt;
->
 &lt;style&gt;
->
 .demo_container{ width:400px; margin:0 auto;
->
 text-align: center; justify-content: center; align-items: center;
->
 }
->
 .text-1 {
->
 border-style: solid;
->
 border-bottom-color: #d83838;
->
 }
->
 .text-2{
->
 border-style: solid;
->
 border-left-color: #aec730;
->
 }
->
 .text-3{
->
 border-style: solid;
->
 border-right-color: #e12424;
->
 }
->
 .text-4{
->
 border-style: solid; border-top-color: #ffaa00;
->
 }
->
 &lt;/style&gt;
->
 &lt;/head&gt;
->
 &lt;body&gt;
->
 &lt;div class=&#34;demo_container&#34;&gt;
->
 &lt;h1&gt; CSS Border Bottom Property - Left, Bottom, Right, Top &lt;/h1&gt;
->
 &lt;p class=&#34;text-1&#34;&gt;Lorem ipsum dolor sit amet consectetur
 adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi
 repudiandae consequuntur voluptatum laborum numquam blanditiis
->
 harum quisquam eius sed odit fugiat iusto
 fuga praesentium optio, eaque rerum!&lt;/h1&gt; &lt;br&gt;
->
 &lt;br&gt;
->
 &lt;p class=&#34;text-2&#34;&gt; Provident similique accusantium nemo autem.
 Veritatis obcaecati tenetur iure eius earum ut molestias architecto
 voluptate aliquam nhil, eveniet aliquid culpa officia aut! .&lt;/p&gt;
 &lt;br&gt;
->
 &lt;br&gt;
->
 &lt;p class=&#34;text-3&#34;&gt;Lorem ipsum dolor sit amet consectetur
 adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi
 repudiandae consequuntur voluptatum laborum numquam blanditiis harum
 quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque
 rerum!&lt;/h1&gt; &lt;br&gt;
->
 &lt;br&gt;
->
 &lt;p class=&#34;text-4&#34;&gt; Provident similique accusantium nemo autem.
 Veritatis obcaecati tenetur iure eius earum ut molestias architecto
 voluptate aliquam nihil, eveniet aliquid culpa officia aut!
 .&lt;/p&gt;&lt;br&gt;
->
 &lt;/body&gt;
->
 &lt;/html&gt;
+```
 
 1.  border-bottom-left-radius property: The border-bottom-left-radius
     property sets the rounded shape for the "bottom-left" corner of an
@@ -4134,68 +4077,74 @@ voluptate aliquam nihil, eveniet aliquid culpa officia aut!
 ##### Example:
 
 &lt;!DOCTYPE html&gt;
->
+
 &lt;html&gt;
->
+
 &lt;head&gt;
->
+
 &lt;style&gt;
->
+
 .demo_container{ width:400px; margin:0 auto;
->
+
 text-align: center; justify-content: center; align-items: center;
->
+
 }
->
+
 .text-1 {
->
+
 border-style: solid;
->
+
 border-bottom-left-radius: 20px;
->
+
 }
->
+
 .text-2{
->
+
 border-style: solid;
->
+
 border-bottom-right-radius: 20px;
->
+
 }
->
+
 &lt;/style&gt;
->
+
 &lt;/head&gt;
->
+
 &lt;body&gt;
->
+
 &lt;div class=&#34;demo_container&#34;&gt;
->
+
 &lt;h1&gt; CSS Border Bottom Left Property - Left, Right &lt;/h1&gt;
->
+
 &lt;p class=&#34;text-1&#34;&gt; Lorem sit amet consectetur adipisicing elit.
 Maxime mollitia, molestiae quas vel sint commodi repudiandae
 consequuntur voluptatum laborum numquam blanditiis harum quisquam eius
 sed odit fugiat iusto fuga praesentium optio, eaque rerum!&lt;/h1&gt;
 &lt;br&gt;
->
+
 &lt;br&gt;
->
+
 &lt;p class=&#34;text-2&#34;&gt; Provident similique accusantium nemo autem.
 Veritatis obcaecati tenetur iure eius earum ut molestias architecto
 voluptate aliquam nhil, eveniet aliquid culpa officia aut! .&lt;/p&gt;
 &lt;br&gt;
->
+
 &lt;br&gt;
->
+
 &lt;/body&gt;
->
+
 &lt;/html&gt;
 
 ###### The output of the code is given below:
-
-![](./images/image026.png){width="3.4499978127734034in"
-height="4.925in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 26.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image026.png?raw=true"
+  alt="."
+  title=""
+  style="width:3.4in" />
+</p>
+<!-- ![](./images/image026.png){width="3.4499978127734034in" height="4.925in"}  -->
 
 CSS border bottom left property -- left, right.
 
@@ -4325,20 +4274,28 @@ amet consectetur adipisicing elit.esentium optio, eaque rerum!&lt;/h1&gt;
 &lt;/html&gt;
 
 ###### The output of the code is given below:
-
-![](./images/image027.png){width="2.9249989063867017in"
-height="5.31in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 27.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image027.png?raw=true"
+  alt="."
+  title=""
+  style="width:2.9in" />
+</p>
+<!-- ![](./images/image027.png){width="2.9249989063867017in" height="5.31in"}  -->
 
 CSS various border style.
 
 ###### border-image property: The border-image CSS property speci- fies how an image is to be used in place of the border styles. This is a property for setting border-image-source, border-image- width, border-image-slice, border-image-outset, and border- image-repeat properties at once. The syntax of this property is given as:
 
+```
 border-image: &#91; source slice width outset repeat &#93;
->
 &#124; initial &#124; inherit
+```
 
 ##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
 >
 &lt;html&gt;
@@ -4380,11 +4337,18 @@ border-image: url(&#34;/images-1.jpg&#34;) 30 30 round;
 &lt;/body&gt;
 >
 &lt;/html&gt;
+```
 
 ###### The output of the code is given below:
-
-![](./images/image028.png){width="2.4524989063867015in"
-height="1.4625in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 28.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image028.png?raw=true"
+  alt="."
+  title=""
+  style="width:2.4in" />
+</p>
+<!-- ![](./images/image028.png){width="2.4524989063867015in" height="1.4625in"}  -->
 
 CSS border-image property.
 
@@ -4431,20 +4395,26 @@ color: black;
 ```
 
 ###### The output of the code is given below:
-
-![](./images/image029.png){width="2.5396872265966755in"
-height="0.945in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 29.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image029.png?raw=true"
+  alt="."
+  title=""
+  style="width:2.5in" />
+</p>
+<!-- ![](./images/image029.png){width="2.5396872265966755in" height="0.945in"}  -->
 
 CSS color property (color).
 
-###### RGB Colors {#rgb-colors .unnumbered}
+###### RGB Colors
 
 RGB is a combination of three colors (red, green, and blue) which are
 used in all computer programs to display colors. As we know, these are
 the basic colors, and by combining them, we can find any color that
 appears in the color spectrum.
 
-##### Example: {#example-24 .unnumbered}
+##### Example:
 
 ```
 &lt;!DOCTYPE html&gt;
@@ -4452,7 +4422,7 @@ appears in the color spectrum.
 &lt;head&gt;
 &lt;style&gt;
 .demo_container{ width:400px;
-[]{#_bookmark164 .anchor}margin:0 auto;
+margin:0 auto;
 text-align: center; justify-content: center; align-items: center;
 }
 .c1{
@@ -4478,189 +4448,149 @@ color:rgb(100, 149, 237)
 ```
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-18 .unnumbered}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 30.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image030.png?raw=true"
+  alt="."
+  title=""
+  style="width:3.0in" />
+</p>
+<!-- ![](./images/image030.png){width="3.06in" height="0.945in"}  -->
 
-![](./images/image030.png){width="3.06in" height="0.945in"}
+CSS color property (RGB).
 
-[]{#_bookmark165 .anchor}CSS color property (RGB).
-
-###### RGBA Colors {#rgba-colors .unnumbered}
+###### RGBA Colors
 
 In CSS, RGBA is also a color display format with Alpha extension. The
 structure of this color work is given below:
->
+
+```
 rgba (Red, Green, Blue, Alpha)
+```
 
-###### In this work, Alpha is used to express color blurring. In CSS opacity, the area is used to set the color brightness and its width is between 0.0 and 1.0, where 0.0 stands for absolute transparency and 1.0 represents absolute opaque. You will understand better in the example provided. {#in-this-work-alpha-is-used-to-express-color-blurring.-in-css-opacity-the-area-is-used-to-set-the-color-brightness-and-its-width-is-between-0.0-and-1.0-where-0.0-stands-for-absolute-transparency-and-1.0-represents-absolute-opaque.-you-will-understand-better-in-the-example-provided. .unnumbered}
+###### In this work, Alpha is used to express color blurring. In CSS opacity, the area 
+is used to set the color brightness and its width is between 0.0 and 1.0, where 0.0 
+stands for absolute transparency and 1.0 represents absolute opaque. You will understand 
+better in the example provided. 
 
+```
 &lt;!DOCTYPE html&gt;
->
 &lt;html&gt;
->
 &lt;head&gt;
->
 &lt;style&gt;
->
 .demo_container{ width:400px; margin:0 auto;
->
 text-align: center; justify-content: center; align-items: center;
->
 }
-
-+------------------------------+-------------+------+-----+-------+---+
-| .c1{                       | rgba(11,    | 156, | 49, | 0.2)  | |
-|                            |             |      |     |       |   |
-| background-color:          |             |      |     |       | ; |
-+==============================+=============+======+=====+=======+===+
-| }                          |             |      |     |       |   |
-+------------------------------+-------------+------+-----+-------+---+
-| .c2 {                      |             |      |     |       |   |
-+------------------------------+-------------+------+-----+-------+---+
-| background-color:            | RGBA(11,    | 156, | 49, | 0.4)  | |
-|                              |             |      |     |       |   |
-|                              |             |      |     |       | ; |
-+------------------------------+-------------+------+-----+-------+---+
-| }                          |             |      |     |       |   |
-+------------------------------+-------------+------+-----+-------+---+
-| .c3{                       |             |      |     |       |   |
-+------------------------------+-------------+------+-----+-------+---+
-| background-color:            | rgba(11,    | 156, | 49, | 0.6)  | |
-|                              |             |      |     |       |   |
-|                              |             |      |     |       | ; |
-+------------------------------+-------------+------+-----+-------+---+
-| }                          |             |      |     |       |   |
-+------------------------------+-------------+------+-----+-------+---+
-| .c4 {                      |             |      |     |       |   |
-+------------------------------+-------------+------+-----+-------+---+
-| background-color:            | RGBA(11,    | 156, | 49, | 0.8)  | |
-|                              |             |      |     |       |   |
-|                              |             |      |     |       | ; |
-+------------------------------+-------------+------+-----+-------+---+
-| }                          |             |      |     |       |   |
-+------------------------------+-------------+------+-----+-------+---+
+.c1{ rgba(11, 156, 49, 0.2)
+background-color: ;
+}
+.c2 {
+background-color: RGBA(11, 156, 49, 0.4)
+;
+}
+.c3 {
+background-color: rgba(11, 156, 49, 0.6)
+;
+}
+.c4 {
+| background-color: RGBA(11,156,49,0.8)
+;
+}
 
 .c5{
->
 background-color: rgba(11, 156, 49, 1) ;
->
 }
->
 &lt;/style&gt;
->
 &lt;/style&gt;
->
 &lt;/head&gt;
->
 &lt;body&gt;
->
 &lt;div class=&#34;demo_container&#34;&gt;
->
 &lt;h1&gt; CSS Color Property (RGBA) &lt;/h1&gt;
->
-[]{#_bookmark166 .anchor}&lt;p class=&#34;c1&#34;&gt;Here we use color with RGBA
+&lt;p class=&#34;c1&#34;&gt;Here we use color with RGBA
 color code (rgba(11, 156, 49, 0.2). &lt;/h1&gt; &lt;br&gt;
->
 &lt;br&gt;
->
 &lt;p class=&#34;c2&#34;&gt; Here we use color with RGBA color code (RGBA(11,
 156, 49, 0.4)). &lt;/h1&gt; &lt;br&gt;
->
 &lt;br&gt;
->
 &lt;p class=&#34;c3&#34;&gt;Here we use color with RGBA color code (rgba(11,
 156, 49, 0.6)). &lt;/h1&gt; &lt;br&gt;
->
 &lt;br&gt;
->
 &lt;p class=&#34;c4&#34;&gt; Here we use color with RGBA color code RGBA(11,
 156, 49, 0.8) ). &lt;/h1&gt; &lt;br&gt;
->
 &lt;br&gt;
->
 &lt;p class=&#34;c5&#34;&gt;Here we use color with RGBA color code (rgba(11,
 156, 49, 1)). &lt;/h1&gt; &lt;br&gt;
->
 &lt;/body&gt;
->
 &lt;/html&gt;
+```
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-19 .unnumbered}
+###### The output of the code is given below:
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 31.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image031.png?raw=true"
+  alt="."
+  title=""
+  style="width:3.1in" />
+</p>
+<!-- ![](./images/image031.png){width="3.1049978127734033in" height="2.8575in"}  -->
 
-![](./images/image031.png){width="3.1049978127734033in"
-height="2.8575in"}
+CSS color property (RGBA).
 
-[]{#_bookmark167 .anchor}CSS color property (RGBA).
-
-###### CSS HEX Colors {#css-hex-colors .unnumbered}
+###### CSS HEX Colors
 
 CSS colors can also be defined by hexadecimal values, which is another
 way of representing colors. In CSS, it is the most common way to
-define
->
-[]{#_bookmark168 .anchor}color using hexadecimal values with a "#"
+define color using hexadecimal values with a "#"
 symbol such as #RRGGBB. Although, R, G, B codes red, green, and blue,
 respectively.
->
+
 Hexadecimal numbers with a combination of 0-9 and A-F are used to
 represent color in CSS. Some examples of HEX basic colors are given
 below.
->
+
+```
 &lt;!DOCTYPE html&gt;
->
 &lt;html&gt;
->
 &lt;head&gt;
->
 &lt;style&gt;
->
 .demo_container{ width:400px; margin:0 auto;
->
 text-align: center; justify-content: center; align-items: center;
 color:red
->
 }
->
 .c1{
->
 color: #6495ed ;
->
 }
->
 .c2 {
->
 color:#b22222
->
 }
->
 &lt;/style&gt;
->
 &lt;/style&gt;
->
 &lt;/head&gt;
->
 &lt;body&gt;
->
 &lt;div class=&#34;demo_container&#34;&gt;
->
 &lt;h1&gt; CSS Color Property (HEX) &lt;/h1&gt;
->
 &lt;p class=&#34;c1&#34;&gt;Here we use color with HEX color code (#6495ed).
 &lt;/h1&gt; &lt;br&gt;
->
 &lt;br&gt;
->
 &lt;p class=&#34;c2&#34;&gt; Here we use color with HEX color code (#b22222).
 &lt;/h1&gt; &lt;br&gt;
->
 &lt;br&gt;
->
 &lt;/body&gt;
->
 &lt;/html&gt;
+```
 
 ###### The output of the code given below: {#the-output-of-the-code-given-below .unnumbered}
-
-![](./images/image032.png){width="2.88in"
-height="0.9449989063867017in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 32.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image032.png?raw=true"
+  alt="."
+  title=""
+  style="width:2.8in" />
+</p>
+<!-- ![](./images/image032.png){width="2.88in" height="0.9449989063867017in"}  -->
 
 CSS color property (HEX).
 
@@ -4702,8 +4632,15 @@ height=&#34;200px&#34;&gt;
 
 ###### The output of the code is given below:
 
-![](./images/image033.png){width="2.489165573053368in"
-height="2.0058333333333334in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 33.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image033.png?raw=true"
+  alt="."
+  title=""
+  style="width:2.4in" />
+</p>
+<!-- ![](./images/image033.png){width="2.489165573053368in" height="2.0058333333333334in"}  -->
 
 CSS color opacity property.
 
@@ -4712,67 +4649,53 @@ CSS color opacity property.
 ###### height property: The height CSS property specifies the height of the content area of an element. The content area does not include pad- ding, borders, or margins.
 
 The syntax of this property is given as:
->
+
+```
 height: length &#124; percentage &#124; auto &#124; initial &#124; inherit
+```
 
 ##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
->
 &lt;html&gt;
->
 &lt;head&gt;
->
 &lt;style&gt;
->
 .demo_container{ width:300px; margin:0 auto;
->
 text-align: center; justify-content: center; align-items: center;
->
 }
->
 .c1{
->
 background-color: palevioletred; height: 200px;
->
 width:300px;
->
 }
->
 img{
->
 background-image: url(&#39;/images-1.jpg&#39;); width: 300px;
->
 height: 300px;
->
 }
->
 &lt;/style&gt;
->
 &lt;/style&gt;
->
 &lt;/head&gt;
->
 &lt;body&gt;
->
 &lt;div class=&#34;demo_container&#34;&gt;
->
 &lt;h1&gt; CSS Dimension Property - Height, Width &lt;/ h1&gt;
->
 &lt;h2 class=&#34;c1&#34;&gt;Having height &#34;200&#34; and width &#34;300&#34; &lt;/h2&gt;
 &lt;br&gt;
->
 &lt;img src=&#34;/images-1.jpg&#34; alt=&#34;image&#34; width=&#34;200px&#34;
 height=&#34;200px&#34;&gt;
->
 &lt;/body&gt;
->
 &lt;/html&gt;
+```
 
 ###### The output of the code is given below:
-
-![](./images/image034.png){width="1.6396872265966753in"
-height="3.6196872265966755in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 34.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image034.png?raw=true"
+  alt="."
+  title=""
+  style="width:1.6in" />
+</p>
+<!-- ![](./images/image034.png){width="1.6396872265966753in" height="3.6196872265966755in"}  -->
 
 CSS dimension property -- height, width.
 
@@ -4783,356 +4706,263 @@ CSS dimension property -- height, width.
 The max-width property defines the max width of the content area of an
 element. This maximum width does not include padding, bor- ders, or
 margins
->
+
 The syntax of this property is given as:
->
+
+```
 max-height: length &#124; percentage &#124; none &#124; initial
->
 &#124; inherit
+```
 
 ###### The syntax of this property is given as:
 
+```
 max-width: length &#124; percentage &#124; none &#124; initial &#124; inherit
+```
 
 ##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
->
 &lt;html&gt;
->
 &lt;head&gt;
->
 &lt;style&gt;
->
 .demo_container{ width:500px; height:500px; margin:0 auto;
->
 text-align: center; justify-content: center; align-items: center;
->
 }
->
 .c1{
->
 background-color: palevioletred; max-height: 300px;
->
 max-width:300px;
->
 }
->
 img{
->
 background-image: url(&#39;/images-1.jpg&#39;); max-height: 200px;
->
 max-width:300px;
->
 }
->
 &lt;/style&gt;
->
 &lt;/style&gt;
->
 &lt;/head&gt;
->
 &lt;body&gt;
->
 &lt;div class=&#34;demo_container&#34;&gt;
->
 &lt;h1&gt; CSS Dimension Property - Height, Width
->
 &lt;/h1&gt;
->
 &lt;p class=&#34;c1&#34;&gt;Having max-height &#34;200&#34; and max-width &#34;300&#34;
 &lt;/p&gt; &lt;br&gt;
->
 &lt;img src=&#34;/images-1.jpg&#34; alt=&#34;image&#34; width=&#34;200px&#34;
 height=&#34;200px&#34;&gt;
->
 &lt;/body&gt;
->
 &lt;/html&gt;
+```
 
 ###### The output of the code is given below:
-
-![](./images/image035.png){width="4.088541119860017in"
-height="1.75in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 35.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image035.png?raw=true"
+  alt="."
+  title=""
+  style="width:4.0in" />
+</p>
+<!-- ![](./images/image035.png){width="4.088541119860017in" height="1.75in"}  -->
 
 CSS dimension property -- max-height, max-width.
 
 ###### min-height property: The min-height CSS property specifies the minimum height of the content area of an element. This minimum height does not include padding, borders, or margins.
 
 The syntax of this property is given as:
->
+
+```
 min-height: length &#124; percentage &#124; initial &#124; inherit
+```
 
 ##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
->
 &lt;html&gt;
->
 &lt;head&gt;
->
 &lt;style&gt;
->
 .demo_container{ width:800px; height:500px; margin:0 auto;
->
 text-align: center; justify-content: center; align-items: center;
->
 }
->
 .c1{
->
 background-color: palevioletred; min-height: 200px;
->
 min-width:200px;
->
 }
->
 img{
->
 background-image: url(&#39;/images-1.jpg&#39;); min-height: 200px;
->
 min-width:200px;
->
 }
->
 &lt;/style&gt;
->
 &lt;/style&gt;
->
 &lt;/head&gt;
->
 &lt;body&gt;
->
 &lt;div class=&#34;demo_container&#34;&gt;
->
 &lt;h1&gt; CSS Dimension Property - Min-Height, Min-Width &lt;/h1&gt;
->
 &lt;p class=&#34;c1&#34;&gt;Having min-height &#34;200&#34; and min-width &#34;300&#34;
 &lt;/p&gt; &lt;br&gt;
->
 &lt;img src=&#34;/images-1.jpg&#34; alt=&#34;image&#34; width=&#34;200px&#34;
 height=&#34;200px&#34;&gt;
->
 &lt;/body&gt;
->
 &lt;/html&gt;
+```
 
 ### [CSS GENERATED CONTENT PROPERTIES]
 
 ###### content property: The content CSS property is used in combination with the ::before and ::after pseudo-elements to generate content in an element. The syntax of this property is given as:
 
+```
 content: normal &#124; none &#124; counter &#124; string &#124; url(url) &#124;
 attr(attribute) &#124; open-quote &#124; close- quote &#124; no-open-quote &#124;
 no-close-quote &#124; initial &#124; inherit
+```
 
 ##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
->
 &lt;html&gt;
->
 &lt;head&gt;
->
 &lt;style&gt;
->
 .demo_container{ width:800px;
->
 height:500px; margin:0 auto;
->
 text-align: center; justify-content: center; align-items: center;
->
 }
->
 .before::before{ content: &#34;Hi! &#34;; display: inline;
->
 background-color: rgb(211, 81, 81);
->
 }
->
 .after::after{ content: &#34;Bye! &#34;; display: inline;
->
 background-color: rgb(224, 79, 79);
->
 }
->
 &lt;/style&gt;
->
 &lt;/style&gt;
->
 &lt;/head&gt;
->
 &lt;body&gt;
->
 &lt;div class=&#34;demo_container&#34;&gt;
->
 &lt;h1&gt; CSS Content Property &lt;/h1&gt;
->
 &lt;p class=&#34;before&#34;&gt; The text will be added before every paragraph
 in your code &lt;/p&gt;
->
 &lt;p class=&#34;after&#34;&gt; The text will be added before every paragraph in
 your code &lt;/p&gt;
->
 &lt;/body&gt;
->
 &lt;/html&gt;
+```
 
 ###### The output of the code is given below:
-
-![](./images/image036.png){width="3.550025153105862in"
-height="0.8843744531933508in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 36.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image036.png?raw=true"
+  alt="."
+  title=""
+  style="width:3.5in" />
+</p>
+<!-- ![](./images/image036.png){width="3.550025153105862in" height="0.8843744531933508in"}  -->
 
 CSS content property.
 
 ###### quotes property: The quotes CSS property specifies the quotation marks for the embedded quotations. The quotes characters specified for this property are used for the open-quote and close-quote values of the content property.
 
 The syntax of this property is given as:
->
+
+```
 quotes: &#91;string string&#93;one or more pairs &#124; none
->
 &#124; initial &#124; inherit
+```
 
 ##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
->
 &lt;html&gt;
->
 &lt;head&gt;
->
 &lt;style&gt;
->
 .demo_container{ width:800px; height:500px; margin:0 auto;
->
 text-align: center; justify-content: center; align-items: center;
->
 }
->
 q{
->
 quotes: &#39;&#91;&#39; &#39;&#93;&#39; &#39;&#34;&#39; &#39;&#34;&#39;;
->
 }
->
 .q::before {
->
 content: open-quote;
->
 }
->
 .q::after {
->
 content: close-quote;
->
 }
->
 &lt;/style&gt;
->
 &lt;/style&gt;
->
 &lt;/head&gt;
->
 &lt;body&gt;
->
 &lt;div class=&#34;demo_container&#34;&gt;
->
 &lt;h1&gt; CSS Content Property &lt;/h1&gt;
->
 &lt;p class=&#34;before&#34;&gt; &lt;q&gt; The text will be added before every
 paragraph in your code with &lt;q&gt; embedded qutations&lt;/q&gt;&lt;/q&gt;
 &lt;/p&gt;
->
 &lt;p class=&#34;after&#34;&gt; The text will be added
 before every paragraph in your code &lt;q&gt; embedded qutations &lt;/q&gt;
 &lt;/p&gt;
->
 &lt;/body&gt;
->
 &lt;/html&gt;
+```
 
 ###### counter-reset property: The counter-reset CSS property is used in combination with the counter-increment property for creating auto- incrementing counters, and with the content property to display the generated counter values.
 
 The syntax of the property is given as:
->
+
+```
 counter-reset: &#91; identifier integer &#93;1 or more pairs &#124; none &#124;
 initial &#124; inherit
+```
 
 ##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
->
 &lt;html&gt;
->
 &lt;head&gt;
->
 &lt;style&gt;
->
 .demo_container{ width:800px; height:500px; margin:0 auto;
->
 text-align: center; justify-content: center; align-items: center;
->
 }
->
 h1 {
-
 }
-
 counter-reset: category;
->
 .before::before {
->
 counter-increment: section;
->
 content: &#34;Section &#34; counter(section) &#34;. &#34;;
->
 }
->
 .after::before {
->
 counter-increment: category; content: counter(section) &#34;.&#34;
->
 counter(category) &#34; &#34;;
->
 }
->
 li{
->
 list-style-type: none;
->
 }
->
 &lt;/style&gt;
->
 &lt;/style&gt;
->
 &lt;/head&gt;
->
 &lt;body&gt;
->
 &lt;div class=&#34;demo_container&#34;&gt;
->
 &lt;h1&gt; CSS Counter Reset Property &lt;/h1&gt;
->
 &lt;ul class=&#34;before&#34;&gt;
->
 &lt;li&gt;A&lt;/li&gt;
->
 &lt;/ul&gt;
->
 &lt;ul class=&#34;after&#34;&gt;
->
 &lt;li&gt;B&lt;/li&gt;
->
 &lt;/ul&gt;
->
 &lt;/body&gt;
->
 &lt;/html&gt;
+```
 
 ###### The output of the code given below:
-
-![](./images/image037.png){width="3.015in"
-height="1.0462489063867018in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 37.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image037.png?raw=true"
+  alt="."
+  title=""
+  style="width:3.0in" />
+</p>
+<!-- ![](./images/image037.png){width="3.015in" height="1.0462489063867018in"}  -->
 
 CSS counter-reset property.
 
@@ -5174,71 +5004,55 @@ List of content alignment items:
     its par- ent element's align-content property.
 
 The syntax of this property is given as:
->
+
+```
 align-content: center &#124; flex-start &#124; flex-end &#124; space- between &#124;
 space-around &#124; stretch &#124; initial &#124; inherit
+```
 
 ##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
->
 &lt;html&gt;
->
 &lt;head&gt;
->
 &lt;style&gt;
->
 .flex-container { display: flex;
->
 flex-flow: wrap; justify-content: center;
->
 padding: 0;
->
 margin: 0;
->
 list-style: none;
->
 }
->
 .flex-item { background: tomato; padding: 5px; width: 200px; height:
 150px; margin-top: 10px; line-height: 150px; color: white;
->
 font-weight: bold; font-size: 3em; text-align: center;
->
 }
->
 &lt;/style&gt;
->
 &lt;/head&gt;
->
 &lt;body&gt;
->
 &lt;h1&gt; CSS Flexbox Layout &lt;/h1&gt;
->
 &lt;ul class=&#34;flex-container&#34;&gt;
->
 &lt;li class=&#34;flex-item&#34;&gt;1&lt;/li&gt;
->
 &lt;li class=&#34;flex-item&#34;&gt;2&lt;/li&gt;
->
 &lt;li class=&#34;flex-item&#34;&gt;3&lt;/li&gt;
->
 &lt;li class=&#34;flex-item&#34;&gt;4&lt;/li&gt;
->
 &lt;li class=&#34;flex-item&#34;&gt;5&lt;/li&gt;
->
 &lt;li class=&#34;flex-item&#34;&gt;6&lt;/li&gt;
->
 &lt;/ul&gt;
->
 &lt;/body&gt;
->
 &lt;/html&gt;
+```
 
 ###### The output of the code is given below:
-
-![](./images/image038.png){width="3.3020833333333335in"
-height="1.9791666666666667in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 38.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image038.png?raw=true"
+  alt="."
+  title=""
+  style="width:3.3in" />
+</p>
+<!-- ![](./images/image038.png){width="3.3020833333333335in" height="1.9791666666666667in"}  -->
 
 CSS Flexible Layout.
 
@@ -5250,180 +5064,133 @@ font properties, that is, font-style, font-variant, font-weight, font-size, line
 and font-family in a single declaration.
 
 The syntax of the property is given as:
->
+
+```
 font: &#91; font-style font-variant line-height font- family &#93; &#124;
 caption &#124; icon &#124; menu &#124; message-box &#124; small-caption &#124; status-bar
 &#124; initial &#124; inherit
+```
 
 ##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
->
 &lt;html&gt;
->
 &lt;head&gt;
->
 &lt;style&gt;
->
 .demo_container{ width:800px; height:500px; margin:0 auto;
->
 text-align: center; justify-content: center; align-items: center;
->
 }
->
 .before{
->
 font: bold 2.5em &#34;Times New Roman&#34;, Times, serif;
->
 }
->
 .after{
->
 font: normal 1.2em Arial, Helvetica, sans-serif;
->
 }
->
 &lt;/style&gt;
->
 &lt;/style&gt;
->
 &lt;/head&gt;
->
 &lt;body&gt;
->
 &lt;div class=&#34;demo_container&#34;&gt;
->
 &lt;h1&gt; CSS Font Property &lt;/h1&gt;
->
 &lt;p class=&#34;before&#34;&gt; The text will be in
 font ( font: bold 2.5em &#34;Times New Roman&#34;, Times, serif; ) &lt;/p&gt;
->
 &lt;p class=&#34;after&#34;&gt; The text will be in font
->
 ( font: normal 1.2em Arial, Helvetica, sans- serif; ) &lt;/p&gt;
->
 &lt;/body&gt;
->
 &lt;/html&gt;
+```
 
 ###### The output of the code is given below:
-
-![](./images/image039.png){width="2.626874453193351in"
-height="0.8268744531933508in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 39.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image039.png?raw=true"
+  alt="."
+  title=""
+  style="width:2.6in" />
+</p>
+<!-- ![](./images/image039.png){width="2.626874453193351in" height="0.8268744531933508in"}  -->
 
 CSS font style property.
 
-###### font-size property: The font-size CSS property sets the font size for the element's text content. The syntax of the property is given as:
+###### font-size property: The font-size CSS property sets the font size for the element's 
+text content. The syntax of the property is given as:
 
+```
 font-size: xx-small &#124; x-small &#124; small &#124; medium &#124; large &#124; x-large
 &#124; xx-large &#124; smaller &#124; larger &#124; length &#124; percentage &#124; initial &#124;
 inherit
+```
 
 ##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
->
 &lt;html&gt;
->
 &lt;head&gt;
->
 &lt;style&gt;
->
 .demo_container{ width:400px; margin:0 auto;
->
 text-align: center; justify-content: center; align-items: center;
->
 }
->
 .a{
->
 font-size: xx-small
->
 }
->
 .b{
->
 font-size: x-small
->
 }
->
 .c{
->
 font-size: small
->
 }
->
 .d{
->
 font-size: medium
->
 }
->
 .e{
->
 font-size: x-large
->
 }
->
 .f{
->
 font-size: xx-large
->
 }
->
 .g{
->
 font-size: smaller
->
 }
->
 .h{
->
 font-size: larger
->
 }
->
 &lt;/style&gt;
->
 &lt;/head&gt;
->
 &lt;body&gt;
->
 &lt;div class=&#34;demo_container&#34;&gt;
->
 &lt;h1&gt; CSS Font Size Property &lt;/h1&gt;
->
 &lt;p class=&#34;a&#34;&gt; The text will be in font ( font-size: xx-small )
 &lt;/p&gt;
->
 &lt;p class=&#34;b&#34;&gt; The text will be in font ( font-size: x-small )
 &lt;/p&gt;
->
 &lt;p class=&#34;c&#34;&gt; The text will be in font ( font-size: small ) &lt;/p&gt;
->
 &lt;p class=&#34;d&#34;&gt; The text will be in font ( font-size: xx-small )
 &lt;/p&gt;
->
 &lt;p class=&#34;e&#34;&gt; The text will be in font ( font-size: x-large )
 &lt;/p&gt;
->
 &lt;p class=&#34;f&#34;&gt; The text will be in font ( font-size: xx-large )
 &lt;/p&gt;
->
 &lt;p class=&#34;g&#34;&gt; The text will be in font (
 font-size: smaller ) &lt;/p&gt;
->
 &lt;p class=&#34;h&#34;&gt; The text will be in font ( font-size: larger )
 &lt;/p&gt;
->
 &lt;/body&gt;
->
 &lt;/html&gt;
+```
 
 ###### The output of the code is given below:
-
-![](./images/image040.png){width="2.9446872265966753in"
-height="3.2231244531933507in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 40.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image040.png?raw=true"
+  alt="."
+  title=""
+  style="width:2.9in" />
+</p>
+<!-- ![](./images/image040.png){width="2.9446872265966753in" height="3.2231244531933507in"}  -->
 
 CSS font size property.
 
@@ -5442,270 +5209,229 @@ length is the same regardless of the font used.
 ###### list-style property: The list-style CSS property defines the display style for list items. It is a shorthand property for setting the indi- vidual list properties, that is, list-style-type, list-style-position, and list-style-image in a single declaration.
 
 The syntax of the property is given as:
->
+
+```
 list-style: &#91; list-style-type list-style-position list-style-image &#93;
 &#124; initial &#124; inherit
+```
 
 ##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
->
 &lt;html&gt;
->
 &lt;head&gt;
->
 &lt;style&gt;
->
 .demo_container{ width:400px; margin:0 auto;
->
 text-align: center; justify-content: center; align-items: center;
->
 }
->
 ul {
-
 }
-
 list-style: circle inside;
->
 ol {
->
 list-style: upper-latin outside;
->
 }
->
 &lt;/style&gt;
->
 &lt;/head&gt;
->
 &lt;body&gt;
->
 &lt;div class=&#34;demo_container&#34;&gt;
->
 &lt;h1&gt; CSS list-style Property &lt;/h1&gt;
->
 &lt;h2&gt; Unordered List (Inside) &lt;/h2&gt;
->
 &lt;ul&gt;
->
 &lt;li&gt; Item 1 &lt;/li&gt;
->
 &lt;li&gt; Item 2 &lt;/li&gt;
->
 &lt;li&gt; Item 3 &lt;/li&gt;
->
 &lt;/ul&gt;
->
 &lt;h2&gt; Ordered List (Outside) &lt;/h2&gt;
->
 &lt;ol&gt;
->
 &lt;li&gt; Item 1 &lt;/li&gt;
->
 &lt;li&gt; Item 2 &lt;/li&gt;
->
 &lt;li&gt; Item 3 &lt;/li&gt;
->
 &lt;/ol&gt;
->
 &lt;/body&gt;
->
 &lt;/html&gt;
+```
 
 ###### The output of the code is given below:
-
-![](./images/image041.png){width="2.3146872265966754in"
-height="1.6509372265966755in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 41.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image041.png?raw=true"
+  alt="."
+  title=""
+  style="width:2.3in" />
+</p>
+<!-- ![](./images/image041.png){width="2.3146872265966754in" height="1.6509372265966755in"}  -->
 
 CSS list-style property.
 
-###### list-style-type property: The list-style-type CSS property specifies the type of marker for the list-items.
+###### list-style-type property: The list-style-type CSS property specifies the type of 
+marker for the list-items.
 
+```
 list-style-type: disc &#124; circle &#124; square &#124; decimal&#124; lower-roman &#124;
 upper-roman &#124; lower-greek &#124; lower-latin &#124; upper-latin &#124; georgian
 &#124; lower-alpha
->
 &#124; upper-alpha &#124; none &#124; initial &#124; inherit
+```
 
 ##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
->
 &lt;html&gt;
->
 &lt;head&gt;
->
 &lt;style&gt;
->
 .demo_container{ width:400px; margin:0 auto;
->
 }
-
 ol {
-
 list-style-type: decimal-leading-zero
->
 inside;
->
 }
->
 ul {
->
 list-style-type: square;
->
 }
->
 &lt;/style&gt;
->
 &lt;/head&gt;
->
 &lt;body&gt;
->
 &lt;div class=&#34;demo_container&#34;&gt;
->
 &lt;h2&gt; Unordered List ( decimal-leading-zero inside ) &lt;/h2&gt;
->
 &lt;ul&gt;
->
 &lt;li&gt; Item 1 &lt;/li&gt;
->
 &lt;li&gt; Item 2 &lt;/li&gt;
->
 &lt;li&gt; Item 3 &lt;/li&gt;
->
 &lt;/ul&gt;
->
 &lt;h2&gt; Ordered List ( square ) &lt;/h2&gt;
->
 &lt;ol&gt;
->
 &lt;li&gt; Item 1 &lt;/li&gt;
->
 &lt;li&gt; Item 2 &lt;/li&gt;
->
 &lt;li&gt; Item 3 &lt;/li&gt;
->
 &lt;/ol&gt;
->
 &lt;/body&gt;
->
 &lt;/html&gt;
+```
 
 ###### The output of the code is given below:
-
-![](./images/image042.png){width="2.789054024496938in"
-height="2.1197911198600177in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 42.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image042.png?raw=true"
+  alt="."
+  title=""
+  style="width:2.7in" />
+</p>
+<!-- ![](./images/image042.png){width="2.789054024496938in" height="2.1197911198600177in"}  -->
 
 CSS list-style-type property.
 
 ###### Here you will get various values of list-style-type property.
 
 **Value Description**
->
+
 disc circle square
->
+
 The marker is a filled circle.
->
+
 The marker is a filled hollow circle.
->
+
 decimal The marker is as a decimal number Beginning with 1.
->
+
 decimal-leading-zero The marker is as a decimal number
->
+
 Padded by initial zero
->
+
 For example, 01, 02, 03, &#8230; 10, 11
->
+
 lower-greek The marker is a lowercase Greek letters alpha, beta,
 gamma, &#8230;
->
+
 For example, α, β, γ, &#8230;
->
+
 upper-roman The marker is as uppercase Roman numerals
->
+
 For example, I, II, III, IV, V, &#8230;
->
+
 lower-roman The marker is as lowercase Roman numerals
->
+
 For example, i, ii, iii, iv, v, &#8230;
->
+
 lower-greek The marker is as lowercase Greek letters alpha, beta,
 gamma, &#8230;
->
+
 For example, α, β, γ, &#8230;
->
+
 lower-Latin The marker is as lowercase Latin letters For example, a,
 b, c, &#8230; z
->
+
 upper-Latin The marker is as uppercase Latin letters
->
+
 For example, A, B, C, &#8230; Z
->
+
 lower-alpha The marker is as uppercase Latin letters For example, a,
 b, c, &#8230; z
->
+
 upper-alpha The marker is as uppercase Latin letters
->
+
 For example, A, B, C, &#8230; Z
->
+
 Armenian The marker is as traditional Armenian numbering such as
->
+
 For example, ayb/ayp, ben/pen, gim/keem, &#8230;
->
+
 Georgian The marker is as traditional of the Georgian numbering
->
+
 For example, an, ban, gan, &#8230; he, tan, in &#8230;
 
 ###### list-style-image property: The list-style-image property specifies an image to be used as a list-item marker.
 
 The syntax of the property is given as:
->
+
 such as URL &#124; none &#124; initial &#124; inherit
 
 ##### Example:
 
 &lt;!DOCTYPE html&gt;
->
+
 &lt;html&gt;
->
+
 &lt;head&gt;
->
+
 &lt;style&gt;
->
+
 .demo_container{ width:400px; margin:0 auto;
->
+
 }
->
+
 ul {
->
+
 list-style-image: url(&#34;/images-1.jpg&#34;);
->
+
 }
->
+
 &lt;/style&gt;
->
+
 &lt;/head&gt;
->
+
 &lt;body&gt;
->
+
 &lt;div class=&#34;demo_container&#34;&gt;
->
+
 &lt;h1&gt; CSS list-style-image Property &lt;/h1&gt;
->
+
 &lt;h2&gt; Unordered List &lt;/h2&gt;
->
+
 &lt;ul&gt;
->
+
 &lt;li&gt; Item 1 &lt;/li&gt;
->
+
 &lt;li&gt; Item 2 &lt;/li&gt;
->
+
 &lt;li&gt; Item 3 &lt;/li&gt;
->
+
 &lt;/ul&gt;
->
+
 &lt;/body&gt;
->
+
 &lt;/html&gt;
 
 ###### list-style-position property: The list-style-position CSS property defines the position of the list-item marker with respect to the list item's block box. The syntax of this property is given as:
@@ -5715,77 +5441,83 @@ list-style-position: inside &#124; outside &#124; initial &#124; inherit
 ##### Example:
 
 &lt;!DOCTYPE html&gt;
->
+
 &lt;html&gt;
->
+
 &lt;head&gt;
->
+
 &lt;style&gt;
->
+
 .demo_container{ width:400px; margin:0 auto;
->
+
 }
->
+
 ol {
 
 }
 
 list-style-position: inside;
->
+
 ul {
->
+
 list-style-position: outside;
->
+
 }
->
+
 ol li, ul li{
->
+
 background: #d8bfd8;
->
+
 }
->
+
 &lt;/style&gt;
->
+
 &lt;/head&gt;
->
+
 &lt;body&gt;
->
+
 &lt;div class=&#34;demo_container&#34;&gt;
->
+
 &lt;h1&gt; CSS list-style-position Property &lt;/h1&gt;
->
+
 &lt;h2&gt; List Marker Positioned Inside &lt;/h2&gt;
->
+
 &lt;ol&gt;
->
+
 &lt;li&gt; Item 1 &lt;/li&gt;
->
+
 &lt;li&gt; Item 2 &lt;/li&gt;
->
+
 &lt;li&gt; Item 3 &lt;/li&gt;
->
+
 &lt;/ol&gt;
->
+
 &lt;h2&gt; List Marker Positioned Outside &lt;/h2&gt;
->
+
 &lt;ul&gt;
->
+
 &lt;li&gt; Item 1 &lt;/li&gt;
->
+
 &lt;li&gt; Item 2 &lt;/li&gt;
->
+
 &lt;li&gt; Item 3 &lt;/li&gt;
->
+
 &lt;/ul&gt;
->
+
 &lt;/body&gt;
->
+
 &lt;/html&gt;
 
 ###### The output of the code is given below:
-
-![](./images/image043.png){width="2.984583333333333in"
-height="2.3183333333333334in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 43.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image043.png?raw=true"
+  alt="."
+  title=""
+  style="width:2.9in" />
+</p>
+<!-- ![](./images/image043.png){width="2.984583333333333in" height="2.3183333333333334in"}  -->
 
 CSS list-style-position property.
 
@@ -5795,99 +5527,100 @@ CSS list-style-position property.
 shorthand property for margin-top, margin-right, margin-bottom, and margin-left property. 
 
 The syntax of this property is given as:
->
+
+```
 margin: &#91; length &#124; percentage &#124; auto &#93; 1 to 4 values
->
 &#124; initial &#124; inherit
+```
 
 ##### Example:
 
 &lt;!DOCTYPE html&gt;
->
+
 &lt;html&gt;
->
+
 &lt;head&gt;
->
+
 &lt;style&gt;
->
+
 .demo_container{ width:600px; margin:0 auto;
->
+
 text-align: center; justify-content: center; border:1px solid red ;
 align-items: center;
->
+
 }
->
+
 .text-1 {
->
+
 border-style: solid;
->
+
 margin: 25px;
->
+
 }
->
+
 .text-2{
->
+
 border-style: solid;
->
+
 margin: 20px 20px 20px 20px;
->
+
 }
->
+
 .text-3{
->
+
 border-style: solid; margin: 30px 30px;
->
+
 }
->
+
 .text-4{
->
+
 border-style: solid; margin: 30px 0px 30px 0px ;
->
+
 }
->
+
 &lt;/style&gt;
->
+
 &lt;/head&gt;
->
+
 &lt;body&gt;
->
+
 &lt;div class=&#34;demo_container&#34;&gt;
->
+
 &lt;h1&gt;CSS margin Property &lt;/h1&gt;
->
+
 &lt;p class=&#34;text-1&#34;&gt; Lorem ipsum sit amet consectetur adipisicing
 elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae
 consequuntur voluptatum laborum numquam blanditiis harum quisquam eius
 sed odit fugiat iusto fuga praesentium optio, eaque rerum!&lt;/h1&gt;
 &lt;br&gt;
->
+
 &lt;br&gt;
->
+
 &lt;p class=&#34;text-2&#34;&gt; Provident similique accusantium nemo autem.
 Veritatis obcaecati tenetur iure eius earum ut molestias architecto
 voluptate aliquam nhil, eveniet aliquid culpa officia aut! .&lt;/p&gt;
 &lt;br&gt;
->
+
 &lt;br&gt;
->
+
 &lt;p class=&#34;text-3&#34;&gt;Lorem ipsum dolor sit consectetur adipisicing
 elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae
 consequuntur voluptatum laborum numquam blanditiis harum quisquam eius
 sed odit fugiat iusto fuga praesentium optio, eaque rerum!&lt;/h1&gt;
 &lt;br&gt;
->
+
 &lt;br&gt;
->
+
 &lt;p class=&#34;text-4&#34;&gt; Provident similique accusantium autem.
 Veritatis obcaecati tenetur iure earum ut molestias architecto
 voluptate aliquam nihil, eveniet culpa officia aut!
->
+
 .&lt;/p&gt;&lt;br&gt;
->
+
 &lt;/body&gt;
->
+
 &lt;/html&gt;
->
+
 This notation can take one, two, three, or four whitespace-separated
 values.
 
@@ -5908,95 +5641,101 @@ right, margin-bottom, and margin-left.
 ##### Example:
 
 &lt;!DOCTYPE html&gt;
->
+
 &lt;html&gt;
->
+
 &lt;head&gt;
->
+
 &lt;style&gt;
->
+
 .demo_container{ width:600px; margin:0 auto;
->
+
 text-align: center; justify-content: center; border: 2px solid black;
 align-items: center;
->
+
 }
->
+
 .text-1 {
->
+
 border:1px solid red ; margin-top: 25px;
->
+
 }
->
+
 .text-2{
->
+
 border:1px solid red ; margin-right: 20px ;
->
+
 }
->
+
 .text-3{
->
+
 border:1px solid red ; margin-bottom: 20px;
->
+
 }
->
+
 .text-4{
->
+
 border:1px solid red ;
->
+
 margin-left: 30px ;
->
+
 }
->
+
 &lt;/style&gt;
->
+
 &lt;/head&gt;
->
+
 &lt;body&gt;
->
+
 &lt;div class=&#34;demo_container&#34;&gt;
->
+
 &lt;h1&gt; CSS margin - Property (margin top, margin right, margin-bottom,
 margin-left) &lt;/h1&gt;
->
+
 &lt;p class=&#34;text-1&#34;&gt;Lorem dolor sit amet consectetur adipisicing
 elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae
 consequuntur voluptatum laborum numquam blanditiis harum quisquam eius
 sed odit fugiat iusto fuga praesentium optio, eaque rerum!&lt;/h1&gt;
 &lt;br&gt;
->
+
 &lt;br&gt;
->
+
 &lt;p class=&#34;text-2&#34;&gt; Provident similique accusantium nemo autem.
 obcaecati tenetur iure eius earum ut molestias architecto voluptate
 aliquam nhil, eveniet aliquid culpa officia aut!
->
+
 .&lt;/p&gt; &lt;br&gt;
->
+
 &lt;br&gt;
->
+
 &lt;p class=&#34;text-3&#34;&gt;Lorem ipsum dolor sit amet consectetur
 adipisicing. Maxime mollitia, molestiae quas vel sint commodi
 repudiandae consequuntur voluptatum laborum numquam blanditiis harum
 quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque
 rerum!&lt;/h1&gt; &lt;br&gt;
->
+
 &lt;br&gt;
->
+
 &lt;p class=&#34;text-4&#34;&gt; Provident similique accusantium nemo autem.
 Veritatis tenetur iure eius earum ut molestias architecto voluptate
 aliquam nihil, eveniet aliquid culpa officia aut!
->
+
 .&lt;/p&gt;&lt;br&gt;
->
+
 &lt;/body&gt;
->
+
 &lt;/html&gt;
 
 ###### The output of the code is given below:
-
-![](./images/image044.png){width="4.4128116797900265in"
-height="3.5521872265966756in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 44.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image044.png?raw=true"
+  alt="."
+  title=""
+  style="width:4.4in" />
+</p>
+<!-- ![](./images/image044.png){width="4.4128116797900265in" height="3.5521872265966756in"}  -->
 
 CSS margin -- property (margin-top, margin-right, margin-bottom,
 margin-left).
@@ -6006,39 +5745,41 @@ margin-left).
 ###### CSS3 column-count property: The column count property defines the number of columns in a multi-column element.
 
 The syntax of this Property is given as:
->
+
+```
 column-count: number &#124; auto &#124; initial &#124; inherit
+```
 
 ##### Example:
 
 &lt;!DOCTYPE html&gt;
->
+
 &lt;html lang=&#34;en&#34;&gt;
->
+
 &lt;head&gt;
->
+
 &lt;meta charset=&#34;utf-8&#34;&gt;
->
+
 &lt;title&gt;Example of CSS3 column-count Property
->
+
 &lt;/title&gt;
->
+
 &lt;style&gt; p {
->
+
 }
->
+
 column-count: 2; /&#42; Standard syntax &#42;/
->
+
 &lt;/style&gt;
->
+
 &lt;/head&gt;
->
+
 &lt;body&gt;
->
+
 &lt;h1&gt; CSS3 column-count Property &lt;/h1&gt;
->
+
 &lt;p&gt;Lorem ipsum dolor amet, adipiscing elit.
->
+
 Ut nisi egestas suscipit gravida. Sed velit nisl, sed dui mollis,
 porta tempus ligula. vel orci vel arcu pellentesque fermentum. Duis
 bibendum metus arcu. Aliquam tortor vulputate, sollicitudin felis a,
@@ -6046,38 +5787,38 @@ mollis libero. Aliquam consequat sapien, id blandit lectus. ac nibh ac
 nulla tincidunt accumsan sit amet sit amet risus. Integer id nisl
 urna. In a elementum, auctor justo quis, tincidunt augue. Donec dui,
 congue non neque quis, semper aliquam felis.
->
+
 Praesent efficitur massa vel convallis euismod. metus lectus,
 consectetur sit amet justo in, venenatis faucibus nunc. Aenean
 faucibus, id egestas convallis, felis mattis est, in ultricies est
 urna ac nisl.
->
+
 Cras placerat quis tortor quis. Nullam imperdiet gravida velit eget
 sollicitudin. dictum pretium justo vel congue. Praesent auctor leo
 maximus aliquam, eget vehicula tortor.
->
+
 Vestibulum finibus venenatis dui, nec lobortis mauris convallis id.
 Maecenas porttitor erat, at vulputate eros euismod a. In aliquam,
 dolor et bibendum consequat, eros felis ultricies lorem, ac fermentum
 arcu metus in. Integer
->
+
 sapien a porta, et suscipit sapien sollicitudin. Maecenas vel
 hendrerit. Curabitur convallis interdum ornare. Curabitur justo nibh,
 pretium ac vitae, consectetur sit amet orci. Nunc non enim non ligula
 efficitur venenatis et at metus. Duis turpis velit, lacinia interdum
 purus ac, venenatis semper lacus. mattis fermentum odio ut suscipit.
->
+
 vehicula lobortis diam et pretium. Duis in aliquet tellus. Phasellus
 tincidunt odio id faucibus malesuada. Cum sociis natoiique penatibus
 et magnis dis montes, nascetur ridiculus mus. Integer euismod porta
 nibh sit amet efficitur. Phasellus blandit porta vulputate. Proin
 placerat efficitur cursus.
->
+
 Fusce blandit tristique urna mollis. Duis erat, nec tellus eu, laoreet
 augue. Maecenas in nisi mauris. In vitae justo posuere, tincidunt a,
 ultrices dui. Sed id bibendum metus. Vestibulum at tincidunt felis, in
 efficitur libero.
->
+
 Mauris risus non condimentum gravida. sed dictum augue, sit amet
 sollicitudin massa. sed hendrerit nisi. Nulla eget lacinia tortor, id
 sollicitudin risus. In hac habitasse platea dictumst. Mauris lorem
@@ -6085,27 +5826,33 @@ dui, venenatis et massa eget, auctor risus. Nulla congue bibendum
 hendrerit. Phasellus nec lorem in ipsum scelerisque. Duis quis massa
 metus. Pellentesque commodo metus non bibendum aliquet. Duis
 pellentesque tempus posuere. interdum massa vel sodales.
->
+
 Curabitur feugiat, magna quis ultricies, felis leo varius nulla, ut
 blandit libero quis. Morbi sollicitudin odio purus, ut mauris feugiat
 sit amet. placerat scelerisque turpis. erat.
->
+
 Vestibulum blandit vitae a sodales. Integer semper tristique risus
 eget lobortis. luctus sed justo vel. Nunc sit nulla eu est fringilla
 euismod sed orci. Sed massa lorem, blandit sed massa, condimentum
 ornare purus.&lt;/p&gt;
->
+
 &lt;/body&gt;
->
+
 &lt;/html&gt;
 
 ###### The output of the code is given below:
-
-![](./images/image045.png){width="2.9006211723534556in"
-height="2.7056244531933507in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 45.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image045.png?raw=true"
+  alt="."
+  title=""
+  style="width:2.9in" />
+</p>
+<!-- ![](./images/image045.png){width="2.9006211723534556in" height="2.7056244531933507in"}  -->
 
 CSS3 column-count property.
->
+
 The column count property is as follows:
 
 i.  number It specifies the number of columns in the multi-col- umn
@@ -6116,7 +5863,7 @@ ii. auto It is determined by other CSS properties, like column- width.
     This is the default value.
 
 ```{=html}
-<!-- -->
+<!-- --
 ```
 1.  CSS3 column-fill property: The column-fill CSS property specifies
     how the column lengths in a multi-column element are affected by the
@@ -6126,49 +5873,35 @@ ii. auto It is determined by other CSS properties, like column- width.
     using the value auto.
 
 The syntax of this Property is given as:
->
+
 column-fill: auto &#124; balance &#124; initial &#124; inherit
 
 ##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
->
 &lt;html lang=&#34;en&#34;&gt;
->
 &lt;head&gt;
->
 &lt;meta charset=&#34;utf-8&#34;&gt;
->
 &lt;title&gt;Example of CSS3 column-fill Property&lt;/ title&gt;
->
 &lt;style&gt; p.columns {
->
 column-count: 4; column-fill: auto;
->
 }
->
 &lt;/style&gt;
->
 &lt;/head&gt;
->
 &lt;body&gt;
->
 &lt;h1&gt; CSS column-fill property &lt;/h1&gt;
->
 &lt;p class=&#34;columns&#34;&gt;Lorem ipsum sit amet, consectetur adipiscing
 elit. Ut bibendum nisi egestas suscipit. Sed velit, tristique sed dui
 mollis, tempus ligula. Phasellus vel orci vel arcu pellentesque. Duis
 bibendum metus arcu. eget tortor vulputate, felis a, mollis libero.
->
 Aliquam vitae consequat sapien, id blandit lectus. Integer ac nibh
 nulla tincidunt sit sit amet risus. Integer id nisl urna. In a enim
 elementum, auctor quis, tincidunt augue. Donec
->
 nibh dui, non neque quis, semper aliquam felis. Praesent efficitur vel
 convallis euismod. metus lectus, sit amet justo in, venenatis faucibus
 nunc. Aenean faucibus, enim id egestas convallis, felis mattis est, in
 ultricies est urna ac nisl.
->
 Cras placerat quis tortor quis molestie. imperdiet gravida velit eget
 sollicitudin. Nunc dictum pretium justo vel congue. Praesent auctor
 leo maximus leo aliquam, eget vehicula tortor tincidunt. finibus
@@ -6177,28 +5910,21 @@ erat tellus, at vulputate eros euismod a. In aliquam, dolor et
 bibendum, eros felis ultricies lorem, ac fermentum arcu metus in
 magna. Integer auctor sapien a massa porta, et suscipit sapien
 sollicitudin. Maecenas vel hendrerit nibh.
->
 Curabitur convallis interdum ornare. Curabitur justo nibh, pretium ac
 convallis vitae, consectetur sit amet orci. Nunc non enim non
->
 ligula efficitur venenatis et at metus. Duis turpis velit, lacinia
 interdum ac, venenatis semper lacus. Aenean mattis fermentum odio ut
 suscipit.
->
 Vestibulum vehicula diam et pretium. Duis in aliquet tellus. Phasellus
 tincidunt odio id faucibus malesuada. Cum sociis natoque penatibus et
 parturient montes, nascetur ridiculus mus.
->
 Integer euismod porta nibh sit amet efficitur. Phasellus blandit porta
 vulputate. Proin placerat efficitur cursus. Fusce blandit tristique
 urna quis mollis. Duis erat lectus, gravida nec tellus eu, cursus
 laoreet augue. in nisi. In vitae justo posuere, tincidunt neque a,
 ultrices dui. Sed id bibendum metus.
->
 Vestibulum at tincidunt felis, in efficitur libero.
->
 Mauris risus non condimentum gravida.
->
 Praesent sed dictum augue, sit amet sollicitudin massa. Curabitur sed
 hendrerit nisi. Nulla eget lacinia tortor, id sollicitudin risus. In
 hac habitasse platea. Mauris lorem dui, venenatis et massa eget,
@@ -6206,22 +5932,28 @@ pretium auctor risus. Nulla congue hendrerit. Phasellus nec lorem in
 ipsum facilisis scelerisque. Duis quis massa metus. commodo metus non
 bibendum aliquet. Duis tempus posuere. Mauris interdum lobortis massa
 vel sodales.
-
 Curabitur feugiat, magna quis ultricies dignissim, felis leo varius
 nulla, ut blandit arcu libero quis. Morbi sollicitudin odio purus, ut
 feugiat sit amet. Fusce placerat scelerisque turpis. Aliquam erat
 volutpat.
-
 Vestibulum blandit vitae erat a sodales. Integer semper tristique
 risus eget. luctus justo vel auctor. Nunc sit amet nulla eu est
 fringilla euismod ac orci. Sed massa lorem, blandit sed quis,
 condimentum ornare purus.&lt;/p&gt;
 &lt;/body&gt;
 &lt;/html&gt;
+```
 
 ###### The output of the code given below:
-
-![](./images/image046.png){width="4.42125in" height="1.17in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 46.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image046.png?raw=true"
+  alt="."
+  title=""
+  style="width:4.4in" />
+</p>
+<!-- ![](./images/image046.png){width="4.42125in" height="1.17in"}  -->
 
 CSS column-fill property.
 
@@ -6231,7 +5963,9 @@ the middle of the gap.
 
 The syntax of the property is given as:
 
+```
 column-gap: length &#124; normal &#124; initial &#124; inherit
+```
 
 ##### Example:
 
@@ -6275,7 +6009,7 @@ vulputate eros euismod a. In aliquam, dolor et bibendum consequat,
 eros felis ultricies lorem, ac fermentum arcu metus in magna. Integer
 auctor sapien a massa porta, et suscipit sapien sollicitudin. Maecenas
 vel hendrerit nibh.
->
+
 Curabitur convallis interdum ornare. Curabitur justo nibh, pretium ac
 convallis vitae, consectetur sit amet orci. Nunc non enim non ligula
 efficitur venenatis et at metus. Duis turpis velit, lacinia interdum
@@ -6408,34 +6142,40 @@ condimentum ornare purus.&lt;/p&gt;
 ```
 
 ###### The output of the code given is below:
-
-![](./images/image047.png){width="4.091145013123359in"
-height="1.2005205599300088in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 47.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image047.png?raw=true"
+  alt="."
+  title=""
+  style="width:4.0in" />
+</p>
+<!-- ![](./images/image047.png){width="4.091145013123359in" height="1.2005205599300088in"}  -->
 
 CSS column-rule property.
 
 ###### column-rule-width property: The column-rule width property sets the width of the rule drawn between columns in a multi-column layout.
 
 The syntax of this property is given as:
->
+
 column-rule-width: length &#124; medium &#124; thin &#124; thick
->
+
 &#124; initial &#124; inherit
 
 ###### column-rule-style property: This Property sets the style of the rule set between columns in a multi-column layout.
 
 The syntax of this property is given as:
->
+
 column-rule-style: none &#124; hidden &#124;dashed &#124;dotted
->
+
 &#124; solid &#124; double &#124; groove &#124; ridge &#124; inset &#124; outset
->
+
 &#124; initial &#124; inherit
 
 ###### column-rule-color property: The column-rule-color property sets the color of all the rules drawn between columns in a multi-column layout.
 
 The syntax of this property is given as:
->
+
 column-rule-color: color &#124; initial &#124; inherit
 
 ##### Example:
@@ -6526,9 +6266,15 @@ quis, condimentum ornare purus.&lt;/p&gt;
 ```
 
 ###### The output of the code is given below:
-
-![](./images/image048.png){width="4.415624453193351in"
-height="1.2909372265966754in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 48.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image048.png?raw=true"
+  alt="."
+  title=""
+  style="width:4.4in" />
+</p>
+<!-- ![](./images/image048.png){width="4.415624453193351in" height="1.2909372265966754in"}  -->
 
 CSS various column property.
 
@@ -6538,186 +6284,127 @@ CSS various column property.
 
 The syntax of this property is given as:
 
+```
 outline: &#91; outline-width outline-style outline- color &#93; &#124; initial
 &#124; inherit
+```
 
 ##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
->
 &lt;html lang=&#34;en&#34;&gt;
->
 &lt;head&gt;
->
 &lt;meta charset=&#34;utf-8&#34;&gt;
->
 &lt;title&gt; &lt;/title&gt;
->
 &lt;style&gt;
->
 .demo_container{ width:500px; margin:0 auto;
->
 text-align: center; justify-content: center; align-items: center;
->
 }
->
 p.one {
->
 outline: 5px solid #ff0000;
->
 }
->
 p.two {
->
 color: #00ff00; outline: 5px solid;
->
 }
->
 &lt;/style&gt;
->
 &lt;/head&gt;
->
 &lt;body&gt;
->
 &lt;div class=&#34;demo_container&#34;&gt;
->
 &lt;h1&gt;
->
 CSS outline Property
->
 &lt;/h1&gt;
->
 &lt;p class=&#34;one&#34;&gt;Lorem ipsum sit amet, consectetur adipiscing elit.
 Ut nisi egestas suscipit
->
 gravida. Sed velit nisl, sed dui, porta tempus ligula.
->
 Phasellus vel arcu .Duis bibendum metus
->
 arcu.
->
 &lt;/p&gt;
->
 &lt;p class=&#34;two&#34;&gt;
->
 Lorem ipsum dolor amet, consectetur
->
 adipiscing elit. Ut bibendum nisi egestas suscipit
->
 .Sed velit nisl, tristique sed dui, porta tempus ligula.
->
 Phasellus vel orci vel arcu fermentum.
->
 Duis bibendum metus arcu.
->
 &lt;/p&gt;
->
 &lt;/p&gt;
->
 &lt;/div&gt;
->
 &lt;/body&gt;
->
 &lt;/html&gt;
+```
 
 ###### The output of the code is given below:
-
-![](./images/image049.png){width="3.7734372265966756in"
-height="1.61in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 49.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image049.png?raw=true"
+  alt="."
+  title=""
+  style="width:3.7in" />
+</p>
+<!-- ![](./images/image049.png){width="3.7734372265966756in" height="1.61in"}  -->
 
 CSS outline property.
 
 ###### outline-width property: The outline-width CSS property sets the width of the outline of an element. However, in many cases the shorthand CSS properties outline is more convenient to use and preferable.
 
 The syntax of the property is given as:
->
+
+```
 outline-width: thin &#124; medium &#124; thick &#124; length &#124; initial &#124; inherit
+```
 
 ###### outline-style property: The outline style property sets style of the outline of an element. However, in many cases the shorthand prop- erties outline is more convenient to use and preferable.
 
 The syntax of this property is given as:
 
+```
 outline-style: none &#124; dotted &#124; dashed &#124; double &#124; groove &#124; ridge
 &#124; inset &#124; outset &#124; initial &#124; inherit
+```
 
 ##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
->
 &lt;html lang=&#34;en&#34;&gt;
->
 &lt;head&gt;
->
 &lt;meta charset=&#34;utf-8&#34;&gt;
->
 &lt;title&gt; &lt;/title&gt;
->
 &lt;style&gt;
->
 .demo_container{ width:500px; margin:0 auto;
->
 text-align: center; justify-content: center; align-items: center;
->
 }
->
 p.one {
->
 outline-style: dotted; outline-width: thick;
->
 }
->
 p.two {
->
 outline-style: dotted; outline-width: medium;
->
 }
->
 p.three {
->
 outline-color: red; outline-style: dotted; outline-width: thin ;
->
 }
->
 &lt;/style&gt;
->
 &lt;/head&gt;
->
 &lt;body&gt;
->
 &lt;div class=&#34;demo_container&#34;&gt;
->
 &lt;h1&gt;
->
 CSS outline-width Property
->
 &lt;/h1&gt;
->
 &lt;p class=&#34;one&#34;&gt;Lorem ipsum dolor sit, consectetur adipiscing elit.
 Ut bibendum nisi egestas suscipit
->
 .Sed velit nisl, tristique dui mollis, tempus ligula.
->
 orci vel arcu pellentesque fermentum.
->
 Duis bibendum metus arcu.
->
 &lt;/p&gt;
->
 &lt;h1&gt;
->
 CSS outline-style Property
->
 &lt;/h1&gt;
->
 &lt;p class=&#34;two&#34;&gt;Lorem ipsum dolor sit amet, consectetur adipiscing
 elit. Ut bibendum nisi egestas suscipit
->
 .Sed velit, tristique sed dui, porta tempus ligula.
->
 Phasellus vel orci vel arcu fermentum. Duis metus arcu.
->
 &lt;/p&gt;
->
 &lt;h1&gt;
 CSS outline-color Property
 &lt;/h1&gt;
@@ -6731,10 +6418,18 @@ metus arcu.
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
+```
 
 ###### The output of the code is given below:
-
-![](./images/image050.png){width="4.125in" height="3.465in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 50.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image050.png?raw=true"
+  alt="."
+  title=""
+  style="width:4.1in" />
+</p>
+<!-- ![](./images/image050.png){width="4.125in" height="3.465in"}   -->
 
 CSS various outline property.
 
@@ -6885,42 +6580,26 @@ page-break-after: auto &#124; always &#124; avoid &#124; left &#124; right &#124
 
 ##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html&gt;
-
 &lt;head&gt;
-
 &lt;meta charset=&#34;utf-8&#34;&gt;
-
 &lt;title&gt;Example of page-break-after property
-
 &lt;/title&gt;
-
 &lt;style&gt;
-
 &#64;media print{
-
 p.footnotes {
-
 page-break-after: always; text-align: center;
-
 }
-
 }
-
 &lt;/style&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;h1&gt; CSS page-break-after Property &lt;/h1&gt;
-
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; If you open theprint (or print
 preview) the page, you will see there is always a page break after the
 footnotes.&lt;/p&gt;
-
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
 egestas lacinia dolor vel semper. Curabitur auctor pulvinar erat, et
 sollicitudin augue cursus ut. Fusce eget erat at sem fermentum mattis
@@ -6928,12 +6607,10 @@ porta id dui. Donec accumsan ligula sit amet diam ultrices iaculis
 sagittis felis vulputate. Vestibulum eget magna ut libero adipiscing
 congue vel quis quam. In dui dolor, placerat imperdiet molestie ut,
 tristique a dui. Duis consectetur nunc id lectus interdum imperdiet.
-
 Sed sit amet nulla tempus erat suscipit dictum. Morbi vitae fringilla
 sapien. Morbi ac leo quis nisl volutpat rhoncus. Donec adipiscing
 neque ut lectus congue imperdiet sit amet sed mauris. Suspendisse orci
 urna, vestibulum eget lacinia quis, varius vitae nibh.&lt;/p&gt;
-
 Proin lectus lacus, feugiat sed pharetra molestie, iaculis nec leo.
 Integer vulputate scelerisque dui, vel tincidunt purus pharetra nec.
 Donec quis sapien nisl. Ut interdum lobortis tempus. Aenean dictum
@@ -6943,17 +6620,21 @@ cursus nibh, euismod vestibulum ipsum
 lobortis sit amet. Sed sagittis tellus ac tellus suscipit commodo.
 Integer molestie, orci id gravida mollis, ante lectus bibendum enim,
 dictum fermentum ipsum arcu et tellus.&lt;/p&gt;
-
 &lt;p class=&#34;footnotes&#34;&gt;-: The End :-&lt;/p&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
 ###### The result of the code is given below:
-
-![](./images/image051.png){width="4.101561679790026in"
-height="2.598957786526684in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 51.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image051.png?raw=true"
+  alt="."
+  title=""
+  style="width:4.1in" />
+</p>
+<!-- ![](./images/image051.png){width="4.101561679790026in" height="2.598957786526684in"}  -->
 
 page-break-after property.
 
@@ -6974,121 +6655,79 @@ II. page-break-inside property
     -   Collapsing border model
 
 The syntax of this property is given as:
->
+
+```
 border-collapse: separate &#124; collapse &#124; initial &#124; inherit
+```
 
 ##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
->
 &lt;html&gt;
->
 &lt;head&gt;
->
 &lt;style&gt;
->
 .demo_container{ width:400px; margin:0 auto;
->
 text-align: center; justify-content: center; align-items: center;
->
 }
->
 .table-1 {
->
 border-collapse: collapse;
->
 }
->
 table .table-2 {
->
 border-collapse: collapse;
->
 }
->
 table, th, td {
->
 border: 1px solid black;
->
 }
->
 &lt;/style&gt;
->
 &lt;/style&gt;
->
 &lt;/head&gt;
->
 &lt;body&gt;
->
 &lt;div class=&#34;demo_container&#34;&gt;
->
 &lt;h1&gt; CSS Border Collapse - With &lt;/h1&gt;
->
 &lt;table class=&#34;table-1&#34;&gt;
->
 &lt;tr&gt;
->
 &lt;th&gt;Name&lt;/th&gt;
->
 &lt;th&gt;Email&lt;/th&gt;
->
 &lt;/tr&gt;
->
 &lt;tr&gt;
->
 &lt;td&gt;Alax&lt;/td&gt;
->
-&lt;td&gt;<alax@example.com>&lt;/td&gt;
->
+&lt;td&gt;<alax@example.com&lt;/td&gt;
 &lt;/tr&gt;
->
 &lt;tr&gt;
->
 &lt;td&gt;Joy&lt;/td&gt;
->
-&lt;td&gt;<joy@example.com>&lt;/td&gt;
->
+&lt;td&gt;<joy@example.com&lt;/td&gt;
 &lt;/tr&gt;
->
 &lt;/table&gt;
->
 &lt;h1&gt; CSS Border Collapse - Without &lt;/h1&gt;
->
 &lt;table class=&#34;table-2&#34;&gt;
->
 &lt;tr&gt;
->
 &lt;th&gt;Name&lt;/th&gt;
->
 &lt;th&gt;Email&lt;/th&gt;
->
 &lt;/tr&gt;
->
 &lt;tr&gt;
->
 &lt;td&gt;Alax&lt;/td&gt;
->
-&lt;td&gt;<alax@example.com>&lt;/td&gt;
->
+&lt;td&gt;<alax@example.com&lt;/td&gt;
 &lt;/tr&gt;
->
 &lt;tr&gt;
->
 &lt;td&gt;Joy&lt;/td&gt;
->
-&lt;td&gt;<joy@example.com>&lt;/td&gt;
->
+&lt;td&gt;<joy@example.com&lt;/td&gt;
 &lt;/tr&gt;
->
 &lt;/table&gt;
->
 &lt;/body&gt;
->
 &lt;/html&gt;
+```
 
 ###### The output of the code is given below:
-
-![](./images/image052.png){width="2.7890616797900263in"
-height="2.2031244531933507in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 52.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image052.png?raw=true"
+  alt="."
+  title=""
+  style="width:2.7in" />
+</p>
+<!-- ![](./images/image052.png){width="2.7890616797900263in" height="2.2031244531933507in"} -->
 
 CSS border collapse -- with and without.
 
@@ -7096,7 +6735,9 @@ CSS border collapse -- with and without.
 
 The syntax of this property is given as:
 
+```
 border-spacing: &#91; length &#93; 1 or 2 values &#124; initial &#124; inherit
+```
 
 ##### Example:
 
@@ -7153,18 +6794,28 @@ both horizontal and vertical border spacing.&lt;/p&gt;
 &lt;/html&gt;
 ```
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-37 .unnumbered}
-
-![](./images/image053.png){width="2.46125in"
-height="2.527707786526684in"}
+###### The output of the code is given below:
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 53.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image053.png?raw=true"
+  alt="."
+  title=""
+  style="width:2.4in" />
+</p>
+<!-- ![](./images/image053.png){width="2.46125in" height="2.527707786526684in"}  -->
 
 CSS border-spacing property.
 
-###### caption-side property: The caption-side CSS property sets the verti- cal position of the table caption box. To align caption text horizon- tally within the caption box, use the text-align property.
+###### caption-side property: The caption-side CSS property sets the verti- 
+cal position of the table caption box. To align caption text horizontally 
+within the caption box, use the text-align property.
 
 The syntax of this property is given as:
 
+```
 caption-side: top &#124; bottom &#124; initial &#124; inherit
+```
 
 ##### Example:
 
@@ -7229,18 +6880,28 @@ border-bottom: 1px purple solid; padding: 20px
 ```
 
 ###### The output of the code is given below:
-
-![](./images/image054.png){width="2.0587489063867017in"
-height="2.2190616797900264in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 54.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image054.png?raw=true"
+  alt="."
+  title=""
+  style="width:2.0in" />
+</p>
+<!-- ![](./images/image054.png){width="2.0587489063867017in" height="2.2190616797900264in"}  -->
 
 CSS caption property.
 
-###### empty-cells property: The empty-cells CSS property shows or hides borders and backgrounds of table cells that have no visible content. A non-breaking space (&nbsp;) is considered as a visible content.
+###### empty-cells property: The empty-cells CSS property shows or hides borders and 
+backgrounds of table cells that have no visible content. A non-breaking space (&nbsp;) 
+is considered as a visible content.
 
 The syntax of this property is given as:
->
+
+```
 empty-cells: show &#124; hide &#124; initial &#124; inherit
->
+```
+
 The description values are as follows:
 
 i.  show It is borders and backgrounds that are drawn around empty cells
@@ -7315,134 +6976,114 @@ empty-cells: hide;
 ```
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-39 .unnumbered}
-
-![](./images/image055.png){width="2.8541655730533684in"
-height="2.9296872265966756in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 55.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image055.png?raw=true"
+  alt="."
+  title=""
+  style="width:2.8in" />
+</p>
+<!-- ![](./images/image055.png){width="2.8541655730533684in" height="2.9296872265966756in"}  -->
 
 CSS empty-cell property.
 
-### [CSS TEXT PROPERTIES]{.underline}  {#css-text-properties .unnumbered}
+### [CSS TEXT PROPERTIES]
 
 ###### text-align property and text-align-all property: The text-decoration property is aproperty forsettingtext-decoration-line, text-decoration- style, and text-decoration-color in one declaration.
 
 The syntax of text-align is given as:
->
+
+```
 text-align: start &#124; end &#124; right &#124; left &#124; center &#124; justify &#124;
 match-parent &#124; justify-all
+```
 
-###### The syntax for text-align-all is given as: {#the-syntax-for-text-align-all-is-given-as .unnumbered}
+###### The syntax for text-align-all is given as:
 
+```
 text-align-all: start &#124; end &#124; left &#124; right &#124; center &#124; justify &#124;
 match-parent
+```
 
-##### Example: {#example-55 .unnumbered}
+##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
->
 &lt;html&gt;
->
 &lt;head&gt;
->
 &lt;style&gt;
->
 .demo_container{ width:600px; margin:0 auto;
->
 text-align: center; justify-content: center; border:1px solid red ;
 align-items: center;
->
 }
->
 .div1 {
->
 border: 10px solid gold; text-align: center;
->
 }
->
 .div2 {
->
 border: 10px solid green; text-align: center;
->
 }
->
 &lt;/style&gt;
->
 &lt;/head&gt;
->
 &lt;body&gt;
->
 &lt;div class=&#34;demo_container div1&#34;&gt;
->
 &lt;h1&gt; CSS text-align property &lt;/h1&gt;
->
 &lt;p&gt;The CSS text-align property is used for aligning elements left,
 right, center etc.&lt;/p&gt;
->
 &lt;p class=&#34;text-1&#34;&gt;
->
 orem ipsum sit amet consectetur adipisicing elit. Maxime mollitia,
 molestiae quas vel sint commodi repudiandae consequuntur voluptatum
 laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto
 fuga praesentium optio, eaque rerum!&lt;/h1&gt;
->
 &lt;br&gt; &lt;br&gt;
->
 &lt;p class=&#34;text-2&#34;&gt; Provident similique accusantium nemo autem.
 irirr Veritatis obcaecati tenetur iure eius earum ut molestias
 architecto voluptate aliquam nhil,
->
 eveniet aliquid culpa officia aut! .&lt;/p&gt;
->
 &lt;br&gt;
->
 &lt;/p&gt;
->
 &lt;/div&gt;
->
 &lt;div class=&#34;demo_container div2&#34;&gt;
->
 &lt;h1&gt; CSS text-align-all property &lt;/h1&gt;
->
 &lt;p&gt;The text-align-all property is longhand for the text-align
 property.&lt;/p&gt;
->
 &lt;p class=&#34;text-1&#34;&gt;
->
 orem ipsum sit amet consectetur adipisicing elit. Maxime mollitia,
 molestiae quas vel sint commodi repudiandae consequuntur voluptatum
 laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto
 fuga praesentium optio, eaque rerum!&lt;/h1&gt;
->
 &lt;br&gt; &lt;br&gt;
->
 &lt;p class=&#34;text-2&#34;&gt; Provident similique accusantium nemo autem.
 irur Veritatis obcaecati tenetur iure eius earum ut molestias
 architecto voluptate aliquam nhil, eveniet aliquid culpa officia aut!
 .&lt;/p&gt;
->
 &lt;br&gt;
->
 &lt;/p&gt;
->
 &lt;/div&gt;
->
 &lt;/body&gt;
->
 &lt;/html&gt;
+```
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-40 .unnumbered}
-
-![](./images/image056.png){width="4.429686132983377in"
-height="4.494374453193351in"}
+###### The output of the code is given below:
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 56.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image056.png?raw=true"
+  alt="."
+  title=""
+  style="width:4.4in" />
+</p>
+<!-- ![](./images/image056.png){width="4.429686132983377in" height="4.494374453193351in"}  -->
 
 CSS text-align and text-align-all property.
 
 ###### CSS text-decoration property: The text-decoration property is a property for setting text-decoration-line, text-decoration-style, and text-decoration-color in one declaration.
 
 The syntax of the text-decoration is given as:
->
+
 text-decoration: &lt;text-decoration-line&gt; &#124;&#124; &lt;text-
 decoration-style&gt; &#124;&#124; &lt;text-decoration-color&gt;
->
+
 Here are some possible values under &lt;text-decoration-line&gt;
 
 i.  none: It is neither produces nor inhibits text decoration.
@@ -7481,197 +7122,133 @@ III. unset: It is a value that acts as either initial, depending on
      all properties to the parent value if they are inheritable or to
      the initial value if not inheritable.
 
-```{=html}
-<!-- -->
-```
 1.  CSS text-decoration property.
 
-##### Example: {#example-56 .unnumbered}
+##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
->
 &lt;html&gt;
->
 &lt;head&gt;
->
 &lt;style&gt;
->
 .demo_container{ width:600px; margin:0 auto;
->
 justify-content: center; align-items: center;
->
 }
->
 .div1 &gt;h3{
->
 text-align: center;
->
 text-decoration: underline;
->
 text-decoration-color: yellowgreen; font-size: 28px;
->
 }
->
 .div2 &gt; h3{
->
 text-align: center;
->
 text-decoration: underline; text-decoration-color: green; font-size:
 28px;
->
 }
->
 .div3 &gt;h3 {
->
 font-size: 28px; text-align: center;
->
 text-decoration-line: underline; text-decoration-style: wavy;
->
 }
->
 &lt;/style&gt;
->
 &lt;/head&gt;
->
 &lt;body&gt;
->
 &lt;div class=&#34;demo_container&#34;&gt;
->
 &lt;h2&gt; Seperate use of color, line, style property of CSS
 text-decoration&lt;/h2&gt;
->
 &lt;div class=&#34;div1&#34;&gt;
->
 &lt;h3&gt; CSS text-decoration-color property
->
 &lt;/h3&gt;
->
 &lt;p class=&#34;text-1&#34;&gt;
->
 Lorem ipsum sit amet consectetur
->
 adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi
 repudiandae consequuntur voluptatum laborum numquam blanditiis harum
 quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque
 rerum!&lt;/h1&gt;
->
 &lt;/p&gt;
->
 &lt;/div&gt;
->
 &lt;div class=&#34; div2&#34;&gt;
->
 &lt;h3&gt; CSS text-decoration-line property &lt;/h3&gt;
->
 &lt;p class=&#34;text-1&#34;&gt;
->
 Lorem ipsum sit amet consectetur adipisicing elit. Maxime mollitia,
 molestiae quas vel sint commodi repudiandae consequuntur voluptatum
 laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto
 fuga praesentium optio, eaque rerum!&lt;/h1&gt;
->
 &lt;/p&gt;
->
 &lt;/div&gt;
->
 &lt;div class=&#34; div3&#34;&gt;
->
 &lt;h3&gt; CSS text-decoration-style property &lt;/h3&gt;
->
 &lt;p class=&#34;text-1&#34;&gt;
->
 Lorem ipsum sit amet consectetur adipisicing elit. Maxime mollitia,
 molestiae quas vel sint commodi repudiandae consequuntur voluptatum
 laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto
 fuga praesentium optio, eaque rerum!&lt;/h1&gt;
->
 &lt;/p&gt;
->
 &lt;/div&gt;
->
 &lt;/div&gt;
->
 &lt;/body&gt;
->
 &lt;/html&gt;
+```
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-41 .unnumbered}
-
-![](./images/image057.png){width="3.1171872265966756in"
-height="2.565in"}
+###### The output of the code is given below:
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 57.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image057.png?raw=true"
+  alt="."
+  title=""
+  style="width:3.1in" />
+</p>
+<!-- ![](./images/image057.png){width="3.1171872265966756in" height="2.565in"}  -->
 
 CSS text-decoration property.
 
-2.  []{#_bookmark211 .anchor}CSS text-orientation property.
+2.  CSS text-orientation property.
 
-##### Example: {#example-57 .unnumbered}
+##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
->
 &lt;html&gt;
->
 &lt;head&gt;
->
 &lt;style&gt;
->
 .demo_container{ width:600px; margin:0 auto;
->
 justify-content: center; align-items: center;
->
 }
->
 p {
->
 writing-mode: vertical-rl; font-size: 2em;
->
 float: left;
->
 }
->
 .mixed {
->
 text-orientation: mixed;
->
 }
->
 .upright {
->
 text-orientation: upright;
->
 }
->
 .sideways {
->
 text-orientation: sideways;
->
 }
->
 &lt;/style&gt;
->
 &lt;/head&gt;
->
 &lt;body&gt;
->
 &lt;div class=&#34;demo_container&#34;&gt;
->
 &lt;h2&gt; CSS text-orientation property &lt;/h2&gt;
->
 &lt;p class=&#34;mixed&#34;&gt; You are learning CSS &lt;/p&gt;
->
 &lt;p class=&#34;upright&#34;&gt; You are learning CSS &lt;/p&gt;
->
 &lt;p class=&#34;sideways&#34;&gt; You are learning CSS &lt;/p&gt;
->
 &lt;/div&gt;
->
 &lt;/body&gt;
->
 &lt;/html&gt;
+```
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-42 .unnumbered}
-
-![](./images/image058.png){width="1.1446806649168855in"
-height="2.2921872265966754in"}
+###### The output of the code is given below:
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 58.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image058.png?raw=true"
+  alt="."
+  title=""
+  style="width:1.1in" />
+</p>
+<!-- ![](./images/image058.png){width="1.1446806649168855in" height="2.2921872265966754in"}  -->
 
 CSS text-orientation property.
 
@@ -7679,187 +7256,133 @@ CSS text-orientation property.
     when it has been clipped due to it being too large to fit within its
     containing block.
 
-##### Example: {#example-58 .unnumbered}
+##### Example:
 
+````
 &lt;!DOCTYPE html&gt;
->
 &lt;html&gt;
->
 &lt;head&gt;
->
 &lt;style&gt;
->
 .demo_container{ width:600px; margin:0 auto;
->
 justify-content: center; align-items: center;
->
 }
->
 .text-1 { width: 16em;
->
 overflow: hidden; white-space: nowrap; background: gold;
->
 }
->
 .text-2{
->
 text-overflow: ellipsis;
->
 }
->
 &lt;/style&gt;
->
 &lt;/head&gt;
->
 &lt;body&gt;
-
 &lt;div class=&#34;demo_container&#34;&gt;
-
 &lt;div class=&#34;div1&#34;&gt;
-
 &lt;h1&gt; CSS text-overflow property &lt;/h1&gt;
->
 &lt;p class=&#34;text-1&#34;&gt;
->
 Lorem ipsum sit amet consectetur adipisicing elit. Maxime mollitia,
 molestiae quas vel sint commodi repudiandae consequuntur voluptatum
 laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto
 fuga praesentium optio, eaque rerum!&lt;/h1&gt;
->
 &lt;/p&gt;
->
 &lt;p class=&#34;text-2&#34;&gt;
->
 Lorem ipsum sit amet consectetur adipisicing elit. Maxime mollitia,
 molestiae quas vel sint commodi repudiandae consequuntur voluptatum
 laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto
 fuga praesentium optio, eaque rerum!&lt;/h1&gt;
->
 &lt;/p&gt;
->
 &lt;/div&gt;
->
 &lt;/div&gt;
->
 &lt;/body&gt;
->
 &lt;/html&gt;
+```
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-43 .unnumbered}
-
-![](./images/image059.png){width="4.101561679790026in"
-height="1.0in"}
+###### The output of the code is given below:
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 59.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image059.png?raw=true"
+  alt="."
+  title=""
+  style="width:4.1in" />
+</p>
+<!-- ![](./images/image059.png){width="4.101561679790026in" height="1.0in"}  -->
 
 CSS text-overflow property.
 
-4.  []{#_bookmark213 .anchor}CSS text-shadow property: The text-shadow
+4.  CSS text-shadow property: The text-shadow
     property is used for applying shadow effects to text. You can also
     use text-shadow to apply drop-shadows, outer glows, and other shadow
     effects to text. This property accepts a list of values. Each item
     in the list can have two, three, or four values.
 
-##### Example: {#example-59 .unnumbered}
+##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
->
 &lt;html&gt;
->
 &lt;head&gt;
->
 &lt;style&gt;
->
 .demo_container{ width:600px; margin:0 auto;
->
 justify-content: center; align-items: center;
->
 }
->
 .text-1 {
->
 text-shadow: 2px 2px 5px red; font-size: 30px;
->
 }
->
 .text-2{
->
 text-shadow: 2px 2px red; font-size: 30px;
->
 }
->
 .text-3{
->
 text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff; font-size: 30px;
->
 }
->
 .text-4{
->
 color: white;
->
 text-shadow: 1px 1px 2px black, 0 0 25px blue,
->
 0 0 5px darkblue; font-size: 30px;
->
 }
->
 &lt;/style&gt;
->
 &lt;/head&gt;
->
 &lt;body&gt;
->
-[]{#_bookmark214 .anchor}&lt;div class=&#34;demo_container&#34;&gt;
->
+&lt;div class=&#34;demo_container&#34;&gt;
 &lt;div class=&#34;div1&#34;&gt;
->
 &lt;h1&gt; CSS text-overflow property &lt;/h1&gt;
->
 &lt;p class=&#34;text-1&#34;&gt;
->
 You are learning CSS.
->
 &lt;/p&gt;
->
 &lt;p class=&#34;text-2&#34;&gt;
->
 You are learning CSS.
->
 &lt;/p&gt;
->
 &lt;p class=&#34;text-3&#34;&gt;
->
 You are learning CSS.
->
 &lt;/p&gt;
->
 &lt;p class=&#34;text-4&#34;&gt;
->
 You are learning CSS.
->
 &lt;/p&gt;
->
 &lt;/div&gt;
->
 &lt;/div&gt;
->
 &lt;/body&gt;
->
 &lt;/html&gt;
+```
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-44 .unnumbered}
-
-![](./images/image060.png){width="1.8697911198600174in"
-height="1.518228346456693in"}
+###### The output of the code is given below:
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 60.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image060.png?raw=true"
+  alt="."
+  title=""
+  style="width:1.8in" />
+</p>
+<!-- ![](./images/image060.png){width="1.8697911198600174in" height="1.518228346456693in"}  -->
 
 CSS text-shadow property.
 
-### CSS TRANSFORM PROPERTIES {#css-transform-properties .unnumbered}
+### CSS TRANSFORM PROPERTIES
 
 The transform property is used to transform an element in two-dimen-
 sional (2D) or thre-dimensional (3D) spaces. For example, rotate
 elements, scale them, skew them, and more.
 
-###### 2D Transform Functions {#d-transform-functions .unnumbered}
+###### 2D Transform Functions
 
 The transform property accepts a list of "transform functions" as
 values. These functions have names such as scale(), rotate(), skew(),
@@ -7869,310 +7392,295 @@ take parameters to determine the level of transformation (e.g., the
 angle to rotate an element).
 >
 The syntax of transform is given below:
->
+
+```
 transform: none &#124; &lt;transform-function&gt; &#91; &lt;transform- function&gt;
 &#93;
->
+```
+
 These are grouped by 2D (two-dimensional) and 3D (three-dimen- sional)
 functions.
->
+
 **matrix():** It specifies a 2D transformation in the form of a matrix
 of the six values a-f.
->
-The syntax of matrix is given below:
->
-matrix() = matrix( &lt;number&gt; &#91;,&lt;number&gt; &#93;{5,5} )
 
-###### **translate():** It moves the position of the element. It specifies a 2D trans- lation by the vector &#91;x, y&#93;, where tx is the first translation-value parameter and y is the optional second translation-value parameter. {#translate-it-moves-the-position-of-the-element.-it-specifies-a-2d-trans--lation-by-the-vector-x-y-where-tx-is-the-first-translation-value-parameter-and-y-is-the-optional-second-translation-value-parameter. .unnumbered}
+The syntax of matrix is given below:
+
+```
+matrix() = matrix( &lt;number&gt; &#91;,&lt;number&gt; &#93;{5,5} )
+```
+
+###### **translate():** It moves the position of the element. It specifies a 2D trans- 
+lation by the vector &#91;x, y&#93;, where tx is the first translation-value parameter 
+and y is the optional second translation-value parameter. 
 
 The syntax of translate is given below:
->
-translate( &lt;translation-value&gt;&#91;, &lt;translation-value&gt;&#93;? )
 
-###### **translateX():** It moves the element horizontally. It specifies a transla- tion by the given amount in the X direction. {#translatex-it-moves-the-element-horizontally.-it-specifies-a-transla--tion-by-the-given-amount-in-the-x-direction. .unnumbered}
+```
+translate( &lt;translation-value&gt;&#91;, &lt;translation-value&gt;&#93;? )
+```
+
+###### **translateX():** It moves the element horizontally. It specifies a transla-
+tion by the given amount in the X direction. 
 
 The syntax of translateX is given below:
->
-translateX( &lt;translation-value&gt; )
 
-###### **translateY()**: It moves the element vertically. It specifies a translation by the amount in the Y direction. {#translatey-it-moves-the-element-vertically.-it-specifies-a-translation-by-the-amount-in-the-y-direction. .unnumbered}
+```
+translateX( &lt;translation-value&gt; )
+```
+
+###### **translateY()**: It moves the element vertically. It specifies a translation 
+by the amount in the Y direction. 
 
 The syntax of translateY is given below:
->
-translateY( &lt;translation-value&gt; )
 
-###### **scale():** It modifies the size of the element. It specifies a 2D scale opera- tion by the &#91;sx,sy&#93; vector described by two parameters. {#scale-it-modifies-the-size-of-the-element.-it-specifies-a-2d-scale-opera--tion-by-the-sxsy-vector-described-by-two-parameters. .unnumbered}
+```
+translateY( &lt;translation-value&gt; )
+```
+
+###### **scale():** It modifies the size of the element. It specifies a 2D scale opera-
+tion by the &#91;sx,sy&#93; vector described by two parameters.
 
 The syntax of scale is given below:
->
-scale( &lt;number&gt;&#91;, &lt;number&gt;&#93;? )
 
-###### **scaleX():** It specifies a 2D scale operation using the &#91;sx,1&#93; vector, where sx is given as the parameter. {#scalex-it-specifies-a-2d-scale-operation-using-the-sx1-vector-where-sx-is-given-as-the-parameter. .unnumbered}
+```
+scale( &lt;number&gt;&#91;, &lt;number&gt;&#93;? )
+```
+
+###### **scaleX():** It specifies a 2D scale operation using the &#91;sx,1&#93; vector, 
+where sx is given as the parameter. 
 
 The syntax of scaleX is given below:
->
-scaleX( &lt;number&gt;&#91;, &lt;number&gt;&#93;? )
 
-###### **scaleY():** It specifies a 2D scale operation using the &#91;1,sy&#93; vector, where sy is given as the parameter. {#scaley-it-specifies-a-2d-scale-operation-using-the-1sy-vector-where-sy-is-given-as-the-parameter. .unnumbered}
+```
+scaleX( &lt;number&gt;&#91;, &lt;number&gt;&#93;? )
+```
+
+###### **scaleY():** It specifies a 2D scale operation using the &#91;1,sy&#93; vector, 
+where sy is given as the parameter. 
 
 The syntax of scaleY is given below:
->
-scaleY( &lt;number&gt;&#91;, &lt;number&gt;&#93;? )
 
-###### **rotate():** It specifies a 2D rotation by the angle specified parameter about the origin, as defined by the transform-origin property. {#rotate-it-specifies-a-2d-rotation-by-the-angle-specified-parameter-about-the-origin-as-defined-by-the-transform-origin-property. .unnumbered}
+```
+scaleY( &lt;number&gt;&#91;, &lt;number&gt;&#93;? )
+```
+
+###### **rotate():** It specifies a 2D rotation by the angle specified parameter about the origin, as defined by the transform-origin property.
 
 The syntax of rotate is given below:
->
-rotate( &lt;angle&gt; )
 
-###### **skew():** It specifies a 2D skew transformation along the X and Y axis by the given angles. If the second parameter is not provided, it has a zero value. {#skew-it-specifies-a-2d-skew-transformation-along-the-x-and-y-axis-by-the-given-angles.-if-the-second-parameter-is-not-provided-it-has-a-zero-value. .unnumbered}
+```
+rotate( &lt;angle&gt; )
+```
+
+###### **skew():** It specifies a 2D skew transformation along the X and Y axis by the 
+given angles. If the second parameter is not provided, it has a zero value.
 
 The syntax of skew is given below:
->
-skew( &lt;angle&gt; &#91;, &lt;angle&gt; &#93;? )
 
-###### **skewX():** It specifies a 2D transformation along the X-axis by the given angle. {#skewx-it-specifies-a-2d-transformation-along-the-x-axis-by-the-given-angle. .unnumbered}
+```
+skew( &lt;angle&gt; &#91;, &lt;angle&gt; &#93;? )
+```
+
+###### **skewX():** It specifies a 2D transformation along the X-axis by the given angle. 
 
 The syntax of skewX is given below:
->
-skewX( &lt;angle&gt; )
 
-###### **skewY()**: It specifies a 2D transformation along the Y axis by the given angle. {#skewy-it-specifies-a-2d-transformation-along-the-y-axis-by-the-given-angle. .unnumbered}
+```
+skewX( &lt;angle&gt; )
+```
+
+###### **skewY()**: It specifies a 2D transformation along the Y axis by the given angle.
 
 The syntax of skewY is given below:
->
+
+```
 skewY( &lt;angle&gt; )
+```
 
-##### Example: {#example-60 .unnumbered}
+##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
->
 &lt;html&gt;
->
 &lt;head&gt;
->
 &lt;style&gt;
->
 body{
->
 width: 90%;
->
 margin: 0 auto;
->
 font-family: sans-serif;
->
 }
->
 .wrap {
->
 display: inline-block;
->
 background: rgba(228, 225, 228, .6); width: 250px;
->
 height: 250px; margin: 60px 30px;
->
 }
->
 .box {
->
 border: 2px solid #444; line-height: 150px; font-size: .9em;
->
 font-weight: bold; text-align: center;
->
 }
->
 .box1 { background: red;
->
 transform: matrix(1, 0, 0, 1, 80, 80);
->
 }
->
 .box2 {
->
 background: #909;
->
 transform: translate(80px,80px);
->
 }
->
 .box3 {
->
 background: yellow;
->
 transform: matrix(.7, 0, 0, 1.3, 0, 0);
->
 }
->
 .box4 {
->
 background: green; transform: scale(.7, 1.3);
->
 }
->
 .box5 {
->
 background: pink;
->
 transform: matrix(1, 0, -0.5, 1, 0, 0);
->
 }
->
 .box6 {
->
 background: lightblue; transform: skew(-30deg);
->
 }
->
 .box7 {
->
 background: #f0f;
->
 transform: matrix(.71, -.71,.71, 0.71, 0, 0);
->
 }
->
 .box8 {
->
 background: #098; transform: rotate(-45deg);
->
 }
->
 &lt;/style&gt;
->
 &lt;/head&gt;
->
 &lt;body&gt;
->
 &lt;h1&gt;2D Transform Functions&lt;/h1&gt;
->
 &lt;div class=&#34;wrap&#34;&gt;
->
 &lt;div class=&#34;box box1&#34;&gt;matrix(1, 0, 0, 1, 80, 80)&lt;/div&gt;
->
 &lt;/div&gt;
->
 &lt;div class=&#34;wrap&#34;&gt;
->
 &lt;div class=&#34;box box2&#34;&gt;translate(80px,80px)
->
 &lt;/div&gt;&lt;/div&gt;
->
 &lt;div class=&#34;wrap&#34;&gt;
->
 &lt;div class=&#34;box box3&#34;&gt;matrix(.7, 0, 0, 1.3, 0, 0)&lt;/div&gt;
->
 &lt;/div&gt;
->
 &lt;div class=&#34;wrap&#34;&gt;
->
 &lt;div class=&#34;box box4&#34;&gt;scale(.7, 1.3)&lt;/div&gt;
->
 &lt;/div&gt;
->
 &lt;div class=&#34;wrap&#34;&gt;
->
 &lt;div class=&#34;box box5&#34;&gt;matrix(1, 0, -0.5, 1, 0, 0)&lt;/div&gt;
->
 &lt;/div&gt;
->
 &lt;div class=&#34;wrap&#34;&gt;
->
 &lt;div class=&#34;box box6&#34;&gt;skew(-30deg)&lt;/div&gt;
->
 &lt;/div&gt;
->
 &lt;div class=&#34;wrap&#34;&gt;
->
 &lt;div class=&#34;box box7&#34;&gt;matrix(.71, -.71,.71, 0.71, 0, 0);&lt;/div&gt;
->
 &lt;/div&gt;
->
 &lt;div class=&#34;wrap&#34;&gt;
->
-[]{#_bookmark217 .anchor}&lt;div class=&#34;box
+&lt;div class=&#34;box
 box8&#34;&gt;rotate(-45deg)&lt;/div&gt;
->
 &lt;/div&gt;
->
 &lt;/body&gt;
->
 &lt;/html&gt;
+```
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-45 .unnumbered}
-
-![](./images/image061.png){width="4.429687226596675in"
-height="2.041874453193351in"}
+###### The output of the code is given below:
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 61.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image061.png?raw=true"
+  alt="."
+  title=""
+  style="width:4.4in" />
+</p>
+<!-- ![](./images/image061.png){width="4.429687226596675in" height="2.041874453193351in"}  -->
 
 2D transform functions.
 
-###### 3D Transform Functions {#d-transform-functions-1 .unnumbered}
+###### 3D Transform Functions
 
 It allows to apply transformations along three axes: x, y, and z axes,
 as demonstrated by a three-dimensional Cartesian coordinate system.
 The 3D transform functions available in CSS are given below.
->
+
 **matrix3d():** It specifies a 3D transformation as a 4x4 same matrix
 of 16 values in column-major order.
->
+
 The syntax of matrix3d is given below:
->
+
+```
 matrix3d() = matrix3d( &lt;number&gt; &#91;, &lt;number&gt; &#93;{15,15} )
+```
 
-###### **translate3d():** It specifies a 3D translation by the vector &#91;tx,ty,tz&#93;, tx, ty, and tz will be the first, second, and third translation value parameters, respectively. {#translate3d-it-specifies-a-3d-translation-by-the-vector-txtytz-tx-ty-and-tz-will-be-the-first-second-and-third-translation-value-parameters-respectively. .unnumbered}
+###### **translate3d():** It specifies a 3D translation by the vector &#91;tx,ty,tz&#93;, 
+tx, ty, and tz will be the first, second, and third translation value parameters, respectively. 
 
 The syntax of translate3d is given below:
->
+
+```
 translate3d() = translate3d( &lt;translation-value&gt;,
->
 &lt;translation-value&gt;, &lt;length&gt; )
+```
 
-###### **translateZ():** It specifies a 3D translation by the vector &#91;0,0,tz&#93; with the given amount in the Z direction. {#translatez-it-specifies-a-3d-translation-by-the-vector-00tz-with-the-given-amount-in-the-z-direction. .unnumbered}
+###### **translateZ():** It specifies a 3D translation by the vector &#91;0,0,tz&#93; with the given amount in the Z direction. 
 
 The syntax of translate3d is given below:
->
-translateZ() = translateZ( &lt;length&gt; )
 
-###### **scale3d():** It specifies a 3D scale operation by the &#91;sx,sy,sz&#93; vector described by the three parameters. {#scale3d-it-specifies-a-3d-scale-operation-by-the-sxsysz-vector-described-by-the-three-parameters. .unnumbered}
+```
+translateZ() = translateZ( &lt;length&gt; )
+```
+
+###### **scale3d():** It specifies a 3D scale operation by the &#91;sx,sy,sz&#93; vector described by the three parameters. 
 
 scale3d() = scale3d( &lt;number&gt;, &lt;number&gt;, &lt;number&gt; )
 
-###### **scaleZ():** It specifies a 3D scale operation using the &#91;1,1,sz&#93; vector, where sz is given as the parameter. {#scalez-it-specifies-a-3d-scale-operation-using-the-11sz-vector-where-sz-is-given-as-the-parameter. .unnumbered}
+###### **scaleZ():** It specifies a 3D scale operation using the &#91;1,1,sz&#93; vector, where sz is given as the parameter. 
 
 The syntax of translate3d is given below:
->
+
+```
 scaleZ() = scaleZ( &lt;number&gt; )
+```
 
-###### **rotate3d():** It specifies a 3D rotation by the angle specified in the last parameter about the &#91;x,y,z&#93; vector described by the first three parameters. {#rotate3d-it-specifies-a-3d-rotation-by-the-angle-specified-in-the-last-parameter-about-the-xyz-vector-described-by-the-first-three-parameters. .unnumbered}
+###### **rotate3d():** It specifies a 3D rotation by the angle specified in the last parameter about the &#91;x,y,z&#93; vector described by the first three parameters. 
 
 The syntax of translate3d is given below:
->
+
+```
 rotate3d() = rotate3d( &lt;number&gt;, &lt;number&gt;, &lt;number&gt;,
->
 &lt;number&gt; )
+```
 
-###### **rotateX():** This is the same as rotate3d(1, 0, 0, &lt;angle&gt;). The syntax of rotateX is given below: {#rotatex-this-is-the-same-as-rotate3d1-0-0-angle.-the-syntax-of-rotatex-is-given-below .unnumbered}
+###### **rotateX():** This is the same as rotate3d(1, 0, 0, &lt;angle&gt;). The syntax 
+of rotateX is given below:
 
+```
+{#rotatex-this-is-the-same-as-rotate3d1-0-0-angle.-the-syntax-of-rotatex-is-given-below .unnumbered}
 rotateX() = rotateX( &lt;angle&gt; )
+```
 
-###### **rotateY():** This is the same as rotate3d(0, 1, 0, &lt;angle&gt;). The syntax of rotateY is given below: {#rotatey-this-is-the-same-as-rotate3d0-1-0-angle.-the-syntax-of-rotatey-is-given-below .unnumbered}
+###### **rotateY():** This is the same as rotate3d(0, 1, 0, &lt;angle&gt;). 
+The syntax of rotateY is given below:
 
+```
+{#rotatey-this-is-the-same-as-rotate3d0-1-0-angle.-the-syntax-of-rotatey-is-given-below .unnumbered}
 rotateY() = rotateY( &lt;angle&gt; )
+```
 
-###### **rotateZ():** The same as rotate3d(0, 0, 1, &lt;angle&gt;) (which is also the same as rotate( &lt;angle&gt; ). {#rotatez-the-same-as-rotate3d0-0-1-angle-which-is-also-the-same-as-rotate-angle-. .unnumbered}
+###### **rotateZ():** The same as rotate3d(0, 0, 1, &lt;angle&gt;) 
+(which is also the same as rotate( &lt;angle&gt; ). 
 
 The syntax of rotateZ is given below:
->
+
+```
 rotateZ() = rotateZ( &lt;angle&gt; )
+```
 
-###### **perspective():** It defines the distance between the z=0 plane and the user in order to give to the 3D-positioned element some perspective. {#perspective-it-defines-the-distance-between-the-z0-plane-and-the-user-in-order-to-give-to-the-3d-positioned-element-some-perspective. .unnumbered}
-
-######  {#section-3 .unnumbered}
+###### **perspective():** It defines the distance between the z=0 plane and the user in order to give to the 3D-positioned element some perspective. 
 
 The syntax of perspective is given below:
->
-perspective() = perspective( &lt;length&gt; )
 
-##### Example: {#example-61 .unnumbered}
+```
+perspective() = perspective( &lt;length&gt; )
+```
+
+##### Example:
 
 &lt;!DOCTYPE html&gt;
 >
@@ -8273,13 +7781,19 @@ z&#34;&gt;translateZ(200px)&lt;/div&gt;
 &lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-46 .unnumbered}
-
-![](./images/image062.png){width="4.426909448818898in"
-height="1.2375in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 62.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image062.png?raw=true"
+  alt="."
+  title=""
+  style="width:4.4in" />
+</p>
+<!-- ![](./images/image062.png){width="4.426909448818898in" height="1.2375in"}  -->
 
 3D transform functions.
 
-### CSS TRANSITIONS PROPERTIES {#css-transitions-properties .unnumbered}
+### CSS TRANSITIONS PROPERTIES
 
 CSS transition property is a property for defining CSS transitions
 that com- bines the four transition properties into one single
@@ -8287,7 +7801,7 @@ property. The transition property combines the following properties
 such as transition-property, transition-duration,
 transition-timing-function, and transition-delay.
 
-##### Example: {#example-62 .unnumbered}
+##### Example:
 
 &lt;!DOCTYPE html&gt;
 >
@@ -8352,26 +7866,37 @@ background-color: beige;
 &lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-47 .unnumbered}
-
-![](./images/image063.png){width="3.7734372265966756in"
-height="2.120311679790026in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 63.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image063.png?raw=true"
+  alt="."
+  title=""
+  style="width:3.7in" />
+</p>
+<!-- ![](./images/image063.png){width="3.7734372265966756in" height="2.120311679790026in"}  -->
 
 CSS transition properties.
 
-### CHAPTER SUMMARY {#chapter-summary-1 .unnumbered}
+### CHAPTER SUMMARY
 
 ###### In this chapter, we have read about many properties of CSS in brief with examples so that it makes clear to understand the syntax of how to write code in CSS. The next chapter is about the most important concept in CSS named CSS Selectors. {#in-this-chapter-we-have-read-about-many-properties-of-css-in-brief-with-examples-so-that-it-makes-clear-to-understand-the-syntax-of-how-to-write-code-in-css.-the-next-chapter-is-about-the-most-important-concept-in-css-named-css-selectors. .unnumbered}
 
-######  {#section-4 .unnumbered}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 06.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image006.png?raw=true"
+  alt="."
+  title=""
+  style="width:3.6in" />
+</p>
+<!-- ![](./images/image006.png){width="3.6393208661417322in" height="0.9622911198600175in"}  -->
 
-![](./images/image006.png){width="3.6393208661417322in"
-height="0.9622911198600175in"}
->
-[]{#CHAPTER_3:_CSS_Selectors .anchor}CHA P T E R 3
+CHAPTER 3
 
-# CSS Selectors {#css-selectors .unnumbered}
+# CSS Selectors
 
-### IN THIS CHAPTER {#in-this-chapter-2 .unnumbered}
+### IN THIS CHAPTER
 
 -   Introduction
 
@@ -8522,9 +8047,15 @@ quis fermentum nulla.
 &lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-48 .unnumbered}
-
-![](./images/image064.png){width="4.429714566929134in"
-height="2.0559372265966753in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 64.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image064.png?raw=true"
+  alt="."
+  title=""
+  style="width:4.4in" />
+</p>
+<!-- ![](./images/image064.png){width="4.429714566929134in" height="2.0559372265966753in"}  -->
 
 Universal selector (&#42;).
 
@@ -8585,17 +8116,23 @@ quis fermentum nulla.
 &lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-49 .unnumbered}
-
-![](./images/image065.png){width="4.429687226596675in"
-height="1.38375in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 65.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image065.png?raw=true"
+  alt="."
+  title=""
+  style="width:4.4in" />
+</p>
+<!-- ![](./images/image065.png){width="4.429687226596675in" height="1.38375in"}  -->
 
 Universal selector (elements/tags).
 
-## LOGICAL COMBINATIONS SELECTORS {#logical-combinations-selectors .unnumbered}
+## LOGICAL COMBINATIONS SELECTORS
 
-#### [LOGICAL COMBINATIONS SELECTORS ( :not )]{.underline}  {#logical-combinations-selectors-not .unnumbered}
+#### [LOGICAL COMBINATIONS SELECTORS ( :not )]
 
-##### Example: {#example-65 .unnumbered}
+##### Example:
 
 &lt;!DOCTYPE html&gt;
 >
@@ -8658,17 +8195,23 @@ consequat turpis eros a erat. Cras blandit vehicula arcu ac porta.
 &lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-50 .unnumbered}
-
-![](./images/image066.png){width="4.429687226596675in"
-height="1.4821872265966753in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 66.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image066.png?raw=true"
+  alt="."
+  title=""
+  style="width:4.4in" />
+</p>
+<!-- ![](./images/image066.png){width="4.429687226596675in" height="1.4821872265966753in"}  -->
 
 Logical selectors ( :not ).
 
-## ATTRIBUTE SELECTORS {#attribute-selectors .unnumbered}
+## ATTRIBUTE SELECTORS
 
-#### [ATTRIBUTE SELECTORS ( .classname )]{.underline}  {#attribute-selectors-.classname .unnumbered}
+#### [ATTRIBUTE SELECTORS ( .classname )]{.underline}
 
-##### Example: {#example-66 .unnumbered}
+##### Example:
 
 &lt;!DOCTYPE html&gt;
 >
@@ -8735,21 +8278,28 @@ consequat turpis eros a erat. Cras blandit vehicula arcu ac porta.
 &lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-51 .unnumbered}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 67.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image067.png?raw=true"
+  alt="."
+  title=""
+  style="width:4.4in" />
+</p>
+<!-- ![](./images/image067.png){width="4.42972987751531in" height="1.4259372265966754in"}  -->
 
-![](./images/image067.png){width="4.42972987751531in"
-height="1.4259372265966754in"}
+Attribute selectors (.classname).
 
-[]{#_bookmark236 .anchor}Attribute selectors (.classname).
+#### [ATTRIBUTE SELECTORS ( id)]
 
-#### [ATTRIBUTE SELECTORS ( id)]{.underline}  {#attribute-selectors-id .unnumbered}
+##### Example:
 
-##### Example: {#example-67 .unnumbered}
-
+```
 &lt;!DOCTYPE html&gt;
->
 &lt;html&gt;
+```
 
-#### brightness() {#brightness .unnumbered}
+#### brightness()
 
 ###### The brightness() function is used to adjust an image's brightness. {#the-brightness-function-is-used-to-adjust-an-images-brightness. .unnumbered}
 
@@ -8878,9 +8428,15 @@ padding-top: 20px; font-size:20px
 &lt;/html&gt;
 
 ###### The output of the above code is given below:
-
-![](./images/image068.png){width="4.429687226596675in"
-height="3.5775in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 68.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image068.png?raw=true"
+  alt="."
+  title=""
+  style="width:4.4in" />
+</p>
+<!-- ![](./images/image068.png){width="4.429687226596675in" height="3.5775in"}  -->
 
 CSS function ( :blur() ).
 
@@ -8962,13 +8518,19 @@ property values. &lt;/h1&gt;
 &lt;/html&gt;
 
 ###### The output of the above code is given below: {#the-output-of-the-above-code-is-given-below-1 .unnumbered}
-
-![](./images/image069.png){width="4.265624453193351in"
-height="0.9208333333333333in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 69.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image069.png?raw=true"
+  alt="."
+  title=""
+  style="width:4.2in" />
+</p>
+<!-- ![](./images/image069.png){width="4.265624453193351in" height="0.9208333333333333in"}  -->
 
 CSS function ( :calc () ).
 
-#### circle() {#circle .unnumbered}
+#### circle()
 
 ###### The circle() is a basic shape value that is the part of the CSS shapes mod- ule. Basic shapes such as circle() can be used as a value for properties such as shape-outside to control the flow of content (code) around the element and clip-path to clip the element's contents to the basic shape. It means that you have text flowing around the element in the shape of a circle, has an image clipped to the shape of a circle. {#the-circle-is-a-basic-shape-value-that-is-the-part-of-the-css-shapes-mod--ule.-basic-shapes-such-as-circle-can-be-used-as-a-value-for-properties-such-as-shape-outside-to-control-the-flow-of-content-code-around-the-element-and-clip-path-to-clip-the-elements-contents-to-the-basic-shape.-it-means-that-you-have-text-flowing-around-the-element-in-the-shape-of-a-circle-has-an-image-clipped-to-the-shape-of-a-circle. .unnumbered}
 
@@ -9073,9 +8635,15 @@ Vitae justoeget magna fermentum iaculis.&lt;/p&gt;
 &lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-52 .unnumbered}
-
-![](./images/image070.png){width="4.101581364829396in"
-height="2.5208333333333335in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 70.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image070.png?raw=true"
+  alt="."
+  title=""
+  style="width:4.1in" />
+</p>
+<!-- ![](./images/image070.png){width="4.101581364829396in" height="2.5208333333333335in"}  -->
 
 CSS function ( :circle() ).
 
@@ -9157,13 +8725,19 @@ Vitae justo eget magna fermentum iaculis.&lt;/p&gt;
 &lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-53 .unnumbered}
-
-![](./images/image071.png){width="4.101573709536308in"
-height="2.4166666666666665in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 71.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image071.png?raw=true"
+  alt="."
+  title=""
+  style="width:4.1in" />
+</p>
+<!-- ![](./images/image071.png){width="4.101573709536308in" height="2.4166666666666665in"}  -->
 
 CSS function ( :circle() ).
 
-##### Another example: {#another-example-3 .unnumbered}
+##### Another example:
 
 &lt;!DOCTYPE html&gt;
 >
@@ -9241,13 +8815,19 @@ Vitae justo eget magna fermentum iaculis.&lt;/p&gt;
 &lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-54 .unnumbered}
-
-![](./images/image072.png){width="4.429687226596675in"
-height="1.665in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 72.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image072.png?raw=true"
+  alt="."
+  title=""
+  style="width:4.4in" />
+</p>
+<!-- ![](./images/image072.png){width="4.429687226596675in" height="1.665in"}  -->
 
 CSS function ( :circle() ).
 
-#### contrast() {#contrast .unnumbered}
+#### contrast()
 
 ###### The CSS contrast() is used with the filter property to adjust the contrast of an image. The contrast() requires an argument to be passed to it. It deter- mines the contrast level that's applied to the image. The argument can be either a % value or a number. {#the-css-contrast-is-used-with-the-filter-property-to-adjust-the-contrast-of-an-image.-the-contrast-requires-an-argument-to-be-passed-to-it.-it-deter--mines-the-contrast-level-thats-applied-to-the-image.-the-argument-can-be-either-a-value-or-a-number. .unnumbered}
 
@@ -9365,13 +8945,19 @@ the contrast on given image. &lt;/h3&gt;
 &lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-55 .unnumbered}
-
-![](./images/image073.png){width="4.429687226596675in"
-height="3.3046872265966756in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 73.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image073.png?raw=true"
+  alt="."
+  title=""
+  style="width:4.4in" />
+</p>
+<!-- ![](./images/image073.png){width="4.429687226596675in" height="3.3046872265966756in"}  -->
 
 CSS function ( :contrast() ).
 
-#### counter() {#counter .unnumbered}
+#### counter()
 
 The counter() allows you to display the counter that was generated by
 the element. Each element has a collection of multiple counters that
@@ -9467,17 +9053,23 @@ The list of programming is given below:
 &lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-56 .unnumbered}
-
-![](./images/image074.png){width="4.429721128608924in"
-height="0.5625in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 74.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image074.png?raw=true"
+  alt="."
+  title=""
+  style="width:4.4in" />
+</p>
+<!-- ![](./images/image074.png){width="4.429721128608924in" height="0.5625in"}  -->
 
 CSS function ( :counter() ).
 
-#### counters() {#counters .unnumbered}
+#### counters()
 
 The counters() enables you to display nested counters that have been
 gen- erated by an element and its parent/s.
->
+
 Every element has a collection of more counters, which are inherited
 from the document tree in a way similar to property values. You can
 cre- ate and manipulate counters with the counter-increment,
@@ -9485,185 +9077,118 @@ counter-reset, counter-set properties. It has no visible effect by
 itself, but it can be used with the counters() and counter()
 functions, which allow the values of counters to be displayed, in the
 format you specify.
->
+
 The counters() have two forms: counters(name, string) or counters(such
 as name, string, style). The text is the value of the counters with
 the given name in scope at pseudo-element, from outermost to innermost
 by the specified string. The counters are rendered in the indicated
 style (decimal by default).
->
+
 The syntax of the counters() function is as follows:
->
+
+```
 counters( &lt;ident&gt;, &lt;string&gt; &#91;, &#91; &lt;counter-style&gt; &#124; none &#93;
 &#93;? )
+```
 
-##### Example: {#example-73 .unnumbered}
+##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
->
 &lt;html&gt;
->
 &lt;head&gt;
->
 &lt;style&gt;
->
 &#42; { padding:0; margin:0;
->
 box-sizing: border-box;
->
 }
->
 .demo_container{ padding:20px; width:800px; margin:0 auto;
->
 justify-content: center; align-items: center;
->
 }
->
 ul {
->
 list-style: none;
->
 counter-reset: nestedCounter;
->
 }
->
 ul li {
->
 counter-increment: nestedCounter; line-height: 1.4;
->
 }
->
 ul li:before {
->
 content: counters(nestedCounter, &#34;.&#34;) &#34; - &#34;; font-weight: bold;
->
 }
->
 &lt;/style&gt;
->
 &lt;/head&gt;
->
 &lt;body&gt;
->
 &lt;div class=&#34;demo_container&#34;&gt;
->
 &lt;h3&gt; The counter() function enables to display nested counters that
 have been generated by an element and its parent/s. &lt;/h3&gt;
->
 &lt;ul&gt;
->
 &lt;li&gt;Fruit
->
 &lt;ul&gt;
->
 &lt;li&gt;Apples
->
 &lt;ul&gt;
->
 &lt;li&gt;Green ones&lt;/li&gt;
->
 &lt;li&gt;Red ones&lt;/li&gt;
->
 &lt;/ul&gt;
->
 &lt;/li&gt;
->
 &lt;li&gt;Oranges
->
 &lt;ul&gt;
->
 &lt;li&gt;Small ones&lt;/li&gt;
->
 &lt;li&gt;Big ones&lt;/li&gt;
->
 &lt;/ul&gt;
->
 &lt;/li&gt;
->
 &lt;/ul&gt;
->
 &lt;/li&gt;
->
 &lt;li&gt;Vegetables
->
 &lt;ul&gt;
->
 &lt;li&gt;Carrots
->
 &lt;ul&gt;
->
 &lt;li&gt;Orange ones&lt;/li&gt;
->
 &lt;li&gt;Purple ones&lt;/li&gt;
->
 &lt;/ul&gt;
->
 &lt;/li&gt;
->
 &lt;li&gt;Potatoes
->
 &lt;ul&gt;
->
 &lt;li&gt;Fresh ones&lt;/li&gt;
->
 &lt;li&gt;Rotten ones&lt;/li&gt;
->
 &lt;/ul&gt;
->
 &lt;/li&gt;
->
 &lt;/ul&gt;
->
 &lt;/li&gt;
->
 &lt;li&gt;Fish
->
 &lt;ul&gt;
->
 &lt;li&gt;Big Ones
->
 &lt;ul&gt;
->
 &lt;li&gt;Mekong Catfish&lt;/li&gt;
->
 &lt;/ul&gt;
->
 &lt;/li&gt;
->
 &lt;li&gt;Small Ones
->
 &lt;ul&gt;
->
 &lt;li&gt;Piranha&lt;/li&gt;
->
 &lt;li&gt;Gold Fish&lt;/li&gt;
->
 &lt;li&gt;Black Molly&lt;/li&gt;
->
 &lt;/ul&gt;
->
 &lt;/li&gt;
->
 &lt;/ul&gt;
->
 &lt;/li&gt;
->
 &lt;/ul&gt;
->
 &lt;/div&gt;
->
 &lt;/body&gt;
->
 &lt;/html&gt;
+```
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-57 .unnumbered}
-
-![](./images/image075.png){width="4.429687226596675in"
-height="3.16125in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 75.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image075.png?raw=true"
+  alt="."
+  title=""
+  style="width:4.4in" />
+</p>
+<!-- ![](./images/image075.png){width="4.429687226596675in" height="3.16125in"}  -->
 
 CSS function ( :counters() ).
 
-#### cubic-bezier() {#cubic-bezier .unnumbered}
+#### cubic-bezier()
 
 The cubic-bezier() can be used with the transition timing function
 prop- erty to control how a transition will change speed over its
@@ -9675,7 +9200,7 @@ the transition-timing-function property. Some of the other various
 easing functions include ease-in, ease-out, linear, etc. However, the
 cubic-bezier() can be used to provide your own custom curve.
 
-##### Example: {#example-74 .unnumbered}
+##### Example:
 
 &lt;!DOCTYPE html&gt;
 >
@@ -9748,13 +9273,19 @@ custom cubic Bézier curve.
 &lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-58 .unnumbered}
-
-![](./images/image076.png){width="4.429680664916885in"
-height="1.0349989063867016in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 76.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image076.png?raw=true"
+  alt="."
+  title=""
+  style="width:4.4in" />
+</p>
+<!-- ![](./images/image076.png){width="4.429680664916885in" height="1.0349989063867016in"}  -->
 
 CSS function (cubic-bezier() ).
 
-#### drop-shadow() {#drop-shadow .unnumbered}
+#### drop-shadow()
 
 It uses the drop-shadow() to apply a drop-shadow effect to an image.
 The CSS drop-shadow() is used with the filter property to add a
@@ -9765,7 +9296,7 @@ composited below the image.
 The CSS drop-shadow() accepts multiple arguments that determine the
 drop shadow's offset, its blur, and its color.
 
-##### Example: {#example-75 .unnumbered}
+##### Example:
 
 &lt;!DOCTYPE html&gt;
 >
@@ -9885,13 +9416,19 @@ alt=&#34;Sample image&#34;&gt;
 &lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-59 .unnumbered}
-
-![](./images/image077.png){width="4.407188320209974in"
-height="3.42in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 77.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image077.png?raw=true"
+  alt="."
+  title=""
+  style="width:4.4in" />
+</p>
+<!-- ![](./images/image077.png){width="4.407188320209974in" height="3.42in"}  -->
 
 CSS function ( :drop-shadow() ).
 
-#### ellipse() {#ellipse .unnumbered}
+#### ellipse()
 
 ###### The ellipse() function is a CSS basic shape value that's part of the CSS shapes module. The basic shapes such as ellipse() can be used as a value for properties such as shape-outside to control the f low of content (code) around the element, and clip-path to clip the element's contents to the basic shape. It means you can have text f lowing around the ele- ment in the shape of an ellipse, have an image clipped to the shape of an ellipse, etc. {#the-ellipse-function-is-a-css-basic-shape-value-thats-part-of-the-css-shapes-module.-the-basic-shapes-such-as-ellipse-can-be-used-as-a-value-for-properties-such-as-shape-outside-to-control-the-f-low-of-content-code-around-the-element-and-clip-path-to-clip-the-elements-contents-to-the-basic-shape.-it-means-you-can-have-text-f-lowing-around-the-ele--ment-in-the-shape-of-an-ellipse-have-an-image-clipped-to-the-shape-of-an-ellipse-etc. .unnumbered}
 
@@ -10044,13 +9581,19 @@ Vitae juso eget magna fermentum iaculis.&lt;/p&gt;
 &lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-60 .unnumbered}
-
-![](./images/image078.png){width="4.429687226596675in"
-height="4.32in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 78.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image078.png?raw=true"
+  alt="."
+  title=""
+  style="width:4.4in" />
+</p>
+<!-- ![](./images/image078.png){width="4.429687226596675in" height="4.32in"}  -->
 
 CSS function ( : ellipse () ).
 
-##### Example: {#example-77 .unnumbered}
+##### Example:
 
 &lt;!DOCTYPE html&gt;
 >
@@ -10234,24 +9777,30 @@ image.&lt;/h2&gt;
 &lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-61 .unnumbered}
-
-![](./images/image079.png){width="4.409998906386702in"
-height="1.7325in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 79.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image079.png?raw=true"
+  alt="."
+  title=""
+  style="width:4.4in" />
+</p>
+<!-- ![](./images/image079.png){width="4.409998906386702in" height="1.7325in"}  -->
 
 CSS function ( filter() ).
 
-#### grayscale() {#grayscale .unnumbered}
+#### grayscale()
 
 Use the grayscale() function to convert an image to grayscale. The CSS
 grayscale() is used with the filter property to convert an image to
 grayscale.
->
+
 The grayscale() requires an argument to be passed to it. It determines
 the proportion of the conversion that's applied to the image. The
 argument can be either a % value or a number.
->
+
 The syntax of the grayscale() function is as follows:
->
+
 grayscale() = grayscale( &#91; &lt;number&gt; &#124; &lt;percentage&gt; &#93; )
 
 ##### Example: {#example-79 .unnumbered}
@@ -10364,34 +9913,40 @@ line-height: 2; font-size:20px
 &lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-62 .unnumbered}
-
-![](./images/image080.png){width="4.429687226596675in"
-height="3.5325in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 80.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image080.png?raw=true"
+  alt="."
+  title=""
+  style="width:4.4in" />
+</p>
+<!-- ![](./images/image080.png){width="4.429687226596675in" height="3.5325in"}  -->
 
 CSS function ( grayscale() ).
 
-#### hsl() {#hsl .unnumbered}
+#### hsl()
 
 The hsl() function can be used to provide a color value when using
 CSS. It allows to specify that value by specifying the hue,
 saturation, and light components of the color.
->
+
 HSL (stands for Hue Saturation Lightness) is a hue-based
 representation of the RGB color space of computer graphics.
->
+
 The HSL model is considered to be more intuitive than the RGB model.
 The HSL model allows to select a base hue, and then adjust its
 saturation and lightness as desired. It accepts the HSL value as a
 parameter. The HSL value is provided as comma-separated three values
 that provide the hue, saturation, and light components, respectively.
 The hue can be identified by looking at the color circle.
->
+
 Here's an example for displaying blue:
->
+
 HSL(240, 100%, 50%)
->
+
 How to Pick a Color
->
+
 Here are few steps to picking a color. If you know the color, you can
 write it out in one step. However, if you are searching for a suitable
 color, following these steps can help others to find it in a
@@ -10406,278 +9961,192 @@ methodical way.
 ##### Example: {#example-80 .unnumbered}
 
 &lt;!DOCTYPE html&gt;
->
 &lt;html&gt;
->
 &lt;head&gt;
->
 &lt;style&gt;
->
 &#42; { padding:0; margin:0;
->
 box-sizing: border-box;
->
 }
->
 .demo_container{ padding:20px; width:800px; margin:0 auto;
->
 justify-content: center; align-items: center;
->
 }
->
 img{
->
 width:100%; height:250px;
->
 }
->
 .image-1 {
->
 background-color: HSL(240, 100%, 50%) ; width:100%;
->
 height:200px; color:white; padding:20px; font-size:20px
->
 }
->
 .image-2 {
->
 background-color: HSL(240, 10%, 50%) ; width:100%;
->
 height:200px; color:white; padding:20px; font-size:20px
->
 }
->
 .image-3 {
->
 background-color: HSL(240, 100%, 30%) ; width:100%;
->
 height:200px; color:white; padding:20px; font-size:20px
->
 }
->
 p{
->
 line-height: 2; font-size:20px
->
 }
->
 &lt;/style&gt;
->
 &lt;/head&gt;
->
 &lt;body&gt;
->
 &lt;div class=&#34;demo_container&#34;&gt;
->
 &lt;h2&gt; The hsl() function allows to specify a color value by
 specifying the hue, saturation, light components of the color. &lt;/h2&gt;
->
 &lt;div class=&#34;row&#34;&gt;
->
 &lt;p&gt; hsl(240, 100%, 50%) Background &lt;/p&gt;
->
 &lt;div class=&#34;image-1&#34; alt=&#34;Sample image&#34;&gt;
->
 Lorem ipsum dolorit amet, consectetur adipiscing elit. Vivamus mauris
 dolor, semper porta eros et, fermentum rhoncus erat.
->
 Cras facilisis mauris sit amet venenatis aliquet. Suspendisse potent.
-
 &lt;/div&gt;
-
 &lt;p&gt; hsl(240, 10%, 50%) Background &lt;/p&gt;
->
 &lt;div class=&#34;image-2&#34; alt=&#34;Sample image&#34;&gt;
->
 Lorem ipsum dolorit amet, consectetur adipiscing elit. Vivamus mauris
 dolor, semper porta eros et, fermentum rhoncus erat.
->
 Cras facilisis mauris sit amet venenatis aliquet. Suspendisse potent.
->
 &lt;/div&gt;
->
 &lt;p&gt; hsl(240, 100%, 30%) Background &lt;/p&gt;
->
 &lt;div class=&#34;image-3&#34; alt=&#34;Sample image&#34;&gt;
->
 Lorem ipsum dolorit amet, consectetur adipiscing elit. Vivamus mauris
 dolor, semper porta eros et, fermentum rhoncus erat.
->
 Cras facilisis mauris sit amet venenatis aliquet. Suspendisse potent.
->
 &lt;/div&gt;
->
 &lt;/div&gt;
->
 &lt;/div&gt;
->
 &lt;/body&gt;
->
 &lt;/html&gt;
+```
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-63 .unnumbered}
-
-![](./images/image081.png){width="3.6093744531933507in"
-height="3.6483333333333334in"}
+###### The output of the code is given below:
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 81.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image081.png?raw=true"
+  alt="."
+  title=""
+  style="width:3.6in" />
+</p>
+<!-- ![](./images/image081.png){width="3.6093744531933507in" height="3.6483333333333334in"}  -->
 
 CSS function ( HSL() ).
 
-#### hsla() {#hsla .unnumbered}
+#### hsla()
 
 The CSS hsla() can be used to add transparency to a color when using
 the HSL model. It allows to specify a color value by specifying the
 hue, satura- tion, and light components of the color, as well as an
 alpha layer.
->
+
 The hsla() is based on the HSL color model. HSL (that stands for Hue
 Saturation Lightness) is a hue-based representation of the RGB color.
->
+
 The hsla() accepts the HSLA value as a parameter. It is provided as a
 comma-separated four values. The three HSL values (that provide the
 hue, saturation, and lightness components, respectively), and a fourth
 value, which provides the alpha channel.
->
+
 Here's an example:
->
+
+```
 hsla(30, 100%, 50%, 0.5);
+```
 
-##### Example: {#example-81 .unnumbered}
+##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
->
 &lt;html&gt;
->
 &lt;head&gt;
->
 &lt;style&gt;
->
 &#42; { padding:0; margin:0;
->
 box-sizing: border-box;
->
 }
->
 .demo_container{ padding:20px; width:800px; margin:0 auto;
->
 justify-content: center; align-items: center;
->
 }
->
 img{
->
 width:100%; height:250px;
->
 }
->
 .image-1 {
->
 background-color: hsla(240, 100%, 50%, 1) ; width:100%;
->
 height:200px; color:white; padding:20px; font-size:20px
->
 }
->
 .image-2 {
->
 background-color:hsla(240, width:100%;
-
-+-------------------+----------------+------------------+-------+-----+
-| 100%,             | 50%,           | 0.5)           |       | ; |
-+===================+================+==================+=======+=====+
-| 100%,             | 50%,           | 0&#41;            | ;   |     |
-+-------------------+----------------+------------------+-------+-----+
-
+100%,50%,0.5);
+100%, 50%, 0&#41; ;
 height:200px; color:white; padding:20px; font-size:20px
->
 }
->
 .image-3 {
->
 background-color:hsla(240, width:100%;
->
 height:200px; color:white; padding:20px; font-size:20px;
->
 border:1px solid black;
->
 }
->
 p{
->
 line-height: 2; font-size:20px
->
 }
->
 &lt;/style&gt;
->
 &lt;/head&gt;
->
 &lt;body&gt;
->
 &lt;div class=&#34;demo_container&#34;&gt;
->
 &lt;h2&gt;The hsla() function can be used to add transparency to a color
 when using the HSL model. &lt;/h2&gt;
->
 &lt;div class=&#34;row&#34;&gt;
->
 &lt;p&gt; hsla(240, 100%, 50%, 1) Background &lt;/p&gt;
->
 &lt;div class=&#34;image-1&#34; alt=&#34;Sample image&#34;&gt;
->
 Lorem ipsum dolor sitamet, consectetur adipiscing elit. Vivamus mauris
 dolor, semper porta eros et, fermentum rhoncus erat.
->
 Cras facilisis mauris sit amet venenatis aliquet. Suspendisse potent.
->
 &lt;/div&gt;
->
 &lt;p&gt; hsla(240, 100%, 50%, 0.5) Background &lt;/p&gt;
->
 &lt;div class=&#34;image-2&#34; alt=&#34;Sample image&#34;&gt;
->
 Lorem ipsum dolor siamet, consectetur adipiscing elit. Vivamus mauris
 dolor, semper porta eros et, fermentum rhoncus erat.
->
 Cras facilisis mauris sit amet venenatis aliquet. Suspendisse potent.
->
 &lt;/div&gt;
->
 &lt;p&gt; hsla(240, 100%, 50%, 0) Background &lt;/p&gt;
->
 &lt;div class=&#34;image-3&#34; alt=&#34;Sample image&#34;&gt;
->
 Lorem ipsum dolor siamet, consectetur adipiscing elit. Vivamus mauris
 dolor, semper porta eros et, fermentum rhoncus erat.
->
 Cras facilisis mauris sit amet venenatis aliquet. Suspendisse potent.
->
 &lt;/div&gt;
->
 &lt;/div&gt;
->
 &lt;/div&gt;
->
 &lt;/body&gt;
->
 &lt;/html&gt;
+```
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-64 .unnumbered}
-
-![](./images/image082.png){width="4.101561679790026in"
-height="4.145833333333333in"}
+###### The output of the code is given below:
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 82.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image082.png?raw=true"
+  alt="."
+  title=""
+  style="width:4.1in" />
+</p>
+<!-- ![](./images/image082.png){width="4.101561679790026in" height="4.145833333333333in"}  -->
 
 CSS function ( hsla() ).
 
-#### hue-rotate() {#hue-rotate .unnumbered}
+#### hue-rotate()
 
-###### Use the hue-rotate() to apply a hue rotation on an image. The CSS hue- rotate() is used with the filter property to apply a hue rotation to an image. Where you specify an angle around the color circle that the input samples will be adjusted by. The hue-rotate() requires an argument to tell it how much to rotate the hue by. {#use-the-hue-rotate-to-apply-a-hue-rotation-on-an-image.-the-css-hue--rotate-is-used-with-the-filter-property-to-apply-a-hue-rotation-to-an-image.-where-you-specify-an-angle-around-the-color-circle-that-the-input-samples-will-be-adjusted-by.-the-hue-rotate-requires-an-argument-to-tell-it-how-much-to-rotate-the-hue-by. .unnumbered}
+###### Use the hue-rotate() to apply a hue rotation on an image. The CSS hue- 
+rotate() is used with the filter property to apply a hue rotation to an image. 
+Where you specify an angle around the color circle that the input samples will 
+be adjusted by. The hue-rotate() requires an argument to tell it how much to 
+rotate the hue by. 
 
 The syntax of the hue-rotate() function is as follows:
->
+
+```
 hue-rotate() = hue-rotate( &#91; &lt;angle&gt; &#124; &lt;zero&gt; &#93;? )
->
+```
+
 How Does Hue Rotation Work?
->
+
 HSL (stands for Hue Saturation Lightness) is a hue-based
 representation of the RGB color space of computer graphics. The HSL
 model is considered to be more intuitive than the RGB model because,
@@ -10688,49 +10157,27 @@ saturation and lightness as desired.
 
 ```
 &lt;!DOCTYPE html&gt;
-
 &lt;html&gt;
-
 &lt;head&gt;
-
 &lt;style&gt;
-
  &#42; { padding:0; margin:0;
-
  box-sizing: border-box;
-
  }
-
  .demo_container{ padding:20px; width:800px; margin:0 auto;
-
  justify-content: center; align-items: center;
-
  }
-
  img{
-
  width:100%; height:250px;
-
  }
-
  .row{
-
  display: flex;
-
  }
-
  .col{
-
  width:80%
-
  }
-
  .image-1 {
-
  filter: hue-rotate(180deg);
-
  }
-
 .image-2 {
 filter: hue-rotate(-70deg);
 }
@@ -10761,9 +10208,15 @@ line-height: 2; font-size:20px
 ```
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-65 .unnumbered}
-
-![](./images/image083.png){width="4.265624453193351in"
-height="3.38in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 83.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image083.png?raw=true"
+  alt="."
+  title=""
+  style="width:4.2in" />
+</p>
+<!-- ![](./images/image083.png){width="4.265624453193351in" height="3.38in"}  -->
 
 CSS function ( hue-rotate() ).
 
@@ -10868,13 +10321,19 @@ Vitae justo eget magna fermentum iaculis.&lt;/p&gt;
 >&lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-66 .unnumbered}
-
-![](./images/image084.png){width="4.265624453193351in"
-height="2.6433333333333335in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 84.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image084.png?raw=true"
+  alt="."
+  title=""
+  style="width:4.2in" />
+</p>
+<!-- ![](./images/image084.png){width="4.265624453193351in" height="2.6433333333333335in"}  -->
 
 CSS function ( inset() ).
 
-#### linear-gradient() {#linear-gradient .unnumbered}
+#### linear-gradient()
 
 The linear-gradient() function allows to create a linear-gradient
 using CSS. CSS gradients allow to apply multiple background colors to
@@ -10971,9 +10430,15 @@ gradient using CSS.&lt;/h2&gt;
 ```
 
 ###### The output of the ode is given below: {#the-output-of-the-ode-is-given-below .unnumbered}
-
-![](./images/image085.png){width="4.096353893263342in"
-height="4.143228346456693in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 85.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image085.png?raw=true"
+  alt="."
+  title=""
+  style="width:4.0in" />
+</p>
+<!-- ![](./images/image085.png){width="4.096353893263342in" height="4.143228346456693in"}  -->
 
 CSS function linear-gradient().
 
@@ -11054,9 +10519,15 @@ function = transform: matrix(0.707107, 0.707107, -0.707107, 0.707107,
 ```
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-67 .unnumbered}
-
-![](./images/image086.png){width="4.429687226596675in"
-height="2.559374453193351in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 86.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image086.png?raw=true"
+  alt="."
+  title=""
+  style="width:4.4in" />
+</p>
+<!-- ![](./images/image086.png){width="4.429687226596675in" height="2.559374453193351in"}  -->
 
 CSS function- matrix().
 
@@ -11173,13 +10644,19 @@ function = transform: matrix(0.707107, 0.707107, -0.707107, 0.707107,
 >&lt;/html&gt;
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-68 .unnumbered}
-
-![](./images/image087.png){width="4.429693788276466in"
-height="1.8618744531933509in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 87.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image087.png?raw=true"
+  alt="."
+  title=""
+  style="width:4.4in" />
+</p>
+<!-- ![](./images/image087.png){width="4.429693788276466in" height="1.8618744531933509in"}  -->
 
 CSS function-matrix3d().
 
-#### opacity() {#opacity .unnumbered}
+#### opacity()
 
 Use the opacity() function to make an image partially or completely
 trans- parent. The opacity() is used with the filter property to apply
@@ -11188,7 +10665,7 @@ argument to be passed to it. Also, it determines the proportion of the
 transparency that's applied to the image. The argument can be either a
 value or a number.
 
-##### Example: {#example-87 .unnumbered}
+##### Example:
 
 ```
 <!DOCTYPE html&gt;
@@ -11298,20 +10775,26 @@ value or a number.
 ```
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-69 .unnumbered}
-
-![](./images/image088.png){width="3.7734372265966756in"
-height="2.9947911198600177in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 88.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image088.png?raw=true"
+  alt="."
+  title=""
+  style="width:3.7in" />
+</p>
+<!-- ![](./images/image088.png){width="3.7734372265966756in" height="2.9947911198600177in"}  -->
 
 CSS function-opacity().
 
-#### perspective() {#perspective .unnumbered}
+#### perspective()
 
-###### The perspective() function defines the distance between the z=0 plane and the user in order to give the 3D-positioned element some perspective. {#the-perspective-function-defines-the-distance-between-the-z0-plane-and-the-user-in-order-to-give-the-3d-positioned-element-some-perspective. .unnumbered}
+###### The perspective() function defines the distance between the z=0 plane and the user in order to give the 3D-positioned element some perspective. 
 
 The perspective() function works like this:
->
+
 perspective(l)
->
+
 The l parameter specifies the distance from the ones to the z=0 plane.
 The argument is also specified as a length value (e.g., 1px, 1vw,
 etc). The greater the length, the less pronounced the "3D effect" will
@@ -11320,139 +10803,87 @@ be.
 ##### Example: {#example-88 .unnumbered}
 
 &lt;!DOCTYPE html&gt;
->
 &lt;html&gt;
->
 &lt;head&gt;
->
 &lt;style&gt;
->
 &#42; { padding:0; margin:0;
->
 box-sizing: border-box;
->
 }
->
 .demo_container{ padding:20px; width:800px; margin:0 auto;
->
 justify-content: center; align-items: center;
->
 }
->
 img{
->
 width:100%; height:250px;
->
 }
->
 .row{
->
 display: flex;
->
 }
->
 .col{
->
 width:80%
->
 }
->
 .image-1 {
->
 transform: perspective(400px) rotateY(70deg); width:100px;
->
 height:100px
->
 }
->
 .image-2 {
->
 transform: perspective(200px) rotateY(60deg); width:100px;
->
 height:100px
->
 }
->
 .image-3 {
->
 transform: perspective(130px) rotateY(-60deg); width:100px;
->
 height:100px
->
 }
->
 p{
->
 line-height: 2; font-size:20px
->
 }
->
 &lt;/style&gt;
->
 &lt;/head&gt;
->
 &lt;body&gt;
->
 &lt;div class=&#34;demo_container&#34;&gt;
->
 &lt;h2&gt; It defines the distance between the z=0 plane and the user in
 order to give the
->
 3D-positioned element some perspective &lt;/h2&gt;
->
 &lt;div class=&#34;row&#34;&gt;
->
 &lt;div class=&#34;col&#34;&gt;
->
 &lt;p&gt; Normal Image &lt;/p&gt;
->
 &lt;img src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
->
 &lt;p&gt; perspective(400px) rotateY(70deg) Image
->
 &lt;/p&gt;
->
 &lt;img class=&#34;image-1&#34; src=&#34;/images-1.jpg&#34;
->
 alt=&#34;Sample image&#34;&gt;
->
 &lt;/div&gt;
->
 &lt;div class=&#34;col&#34;&gt;
->
 &lt;p&gt; perspective(200px) rotateY(60deg) Image
->
 &lt;/p&gt;
->
 &lt;img class=&#34;image-2&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
->
 &lt;p&gt; perspective(130px) rotateY(-60deg)
 Image &lt;/p&gt;
->
 &lt;img class=&#34;image-3&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
->
 &lt;/div&gt;
->
 &lt;/div&gt;
->
 &lt;/div&gt;
->
 &lt;/body&gt;
->
 &lt;/html&gt;
+```
 
 ###### The output of the code is given below: {#the-output-of-the-code-is-given-below-70 .unnumbered}
-
-![](./images/image089.png){width="4.426874453193351in"
-height="2.896874453193351in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 89.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image089.png?raw=true"
+  alt="."
+  title=""
+  style="width:4.4in" />
+</p>
+<!-- ![](./images/image089.png){width="4.426874453193351in" height="2.896874453193351in"}  -->
 
 CSS function ( perspective() ).
 
-#### radial-gradient() {#radial-gradient .unnumbered}
+#### radial-gradient()
 
 The radial-gradient() function allows to create a radial gradient
 using CSS.
->
+
 CSS gradients allow to apply multiple background colors to an element
 that blend from one color to the next.
 
