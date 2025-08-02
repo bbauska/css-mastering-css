@@ -7960,7 +7960,7 @@ quis fermentum nulla.
 
 &lt;/html&gt;
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-48 .unnumbered}
+###### The output of the code is given below:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 64.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -7973,9 +7973,9 @@ quis fermentum nulla.
 
 Universal selector (&#42;).
 
-#### [UNIVERSAL SELECTOR (elements )]{.underline}  {#universal-selector-elements .unnumbered}
+#### [UNIVERSAL SELECTOR (elements )]
 
-##### Example: {#example-64 .unnumbered}
+##### Example:
 
 &lt;!DOCTYPE html&gt;
 
@@ -8003,7 +8003,7 @@ background-color: #f13;
 
 &lt;/head&gt;
 
-[]{#_bookmark229 .anchor}&lt;body&gt;
+&lt;body&gt;
 
 &lt;div class=&#34;demo_container&#34;&gt;
 
@@ -8029,7 +8029,7 @@ quis fermentum nulla.
 
 &lt;/html&gt;
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-49 .unnumbered}
+###### The output of the code is given below:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 65.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -8431,7 +8431,7 @@ property values. &lt;/h1&gt;
 
 &lt;/html&gt;
 
-###### The output of the above code is given below: {#the-output-of-the-above-code-is-given-below-1 .unnumbered}
+###### The output of the above code is given below:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 69.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -8450,7 +8450,9 @@ CSS function ( :calc () ).
 
 The syntax of the circle() function is as follows:
 
+```
 circle() = circle( &#91;&lt;shape-radius&gt;&#93;? &#91;at &lt;position&gt;&#93;? )
+```
 
 ###### How to Position the Circle {#how-to-position-the-circle .unnumbered}
 
@@ -8458,44 +8460,30 @@ You can specify a position for the circle by various radius argument
 with a valid CSS position. It specifies the circle's center. It just
 separates the radius and the position like this:
 
+```
 shape-outside: circle(100px at 10px 150px);
+```
 
-##### Example: {#example-70 .unnumbered}
+##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html&gt;
-
 &lt;head&gt;
-
 &lt;style&gt;
-
 &#42; { padding:0; margin:0;
-
 box-sizing: border-box;
-
 }
-
 .demo_container{ width:800px; margin:0 auto;
-
 justify-content: center; align-items: center;
-
 }
-
 .section-1 { float: left; width: 200px; height: 150px;
-
 shape-outside: circle();
-
 }
-
 .section-2 { float: left; width: 200px; height: 150px;
-
 shape-outside: circle(100px at 0px 150px);
-
 }
-
 &lt;/style&gt;
-
 &lt;div class=&#34;demo_container&#34;&gt;
 
 &lt;h1&gt; The circle() is a CSS shape value that&#39;s part of the CSS
@@ -8541,14 +8529,12 @@ Dignissim eni msit amet venenatis urna cursus eget. Orna rearcu odio
 ut sem nulla pharetra diam sit.
 
 Vitae justoeget magna fermentum iaculis.&lt;/p&gt;
-
 &lt;/div&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-52 .unnumbered}
+###### The output of the code is given below:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 70.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -8561,44 +8547,27 @@ Vitae justoeget magna fermentum iaculis.&lt;/p&gt;
 
 CSS function ( :circle() ).
 
-##### Another example: {#another-example-2 .unnumbered}
+##### Another example:
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html&gt;
-
 &lt;head&gt;
-
 &lt;style&gt;
-
 &#42; { padding:0; margin:0;
-
 box-sizing: border-box;
-
 }
-
 .demo_container{ width:800px; margin:0 auto;
-
 justify-content: center; align-items: center;
-
 }
-
 .section-1 { float: left; width: 200px; height: 150px;
-
 shape-outside: circle();
-
 }
-
 .section-2 { float: left; width: 200px; height: 150px;
-
 /&#42; shape-outside: circle(100px at 0px 150px); &#42;/ background: brown;
-
 clip-path: circle();
-
 }
-
 &lt;/style&gt;
-
 &lt;div class=&#34;demo_container&#34;&gt;
 
 &lt;h1&gt; The circle() is a CSS shape value that&#39;s part of the CSS
@@ -8631,14 +8600,12 @@ Enim facilisis gravida neque convallis a cras semper auctor neque.
 Sit amet mauris commodo quis imperdiet tincidunt nunc.&lt;/p&gt;
 
 Vitae justo eget magna fermentum iaculis.&lt;/p&gt;
-
 &lt;/div&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-53 .unnumbered}
+###### The output of the code is given below:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 71.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -8653,42 +8620,25 @@ CSS function ( :circle() ).
 
 ##### Another example:
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html&gt;
-
 &lt;head&gt;
-
 &lt;style&gt;
-
 &#42; { padding:0; margin:0;
-
 box-sizing: border-box;
-
 }
-
 .demo_container{ width:800px; margin:0 auto;
-
 justify-content: center; align-items: center;
-
 }
-
 .section-1 { float: left; width: 200px; height: 150px;
-
 shape-outside: circle();
-
 }
-
 .section-2 { float: left; width: 200px; height: 150px;
-
 background: brown; clip-path: circle();
-
 }
-
 &lt;/style&gt;
-
 &lt;div class=&#34;demo_container&#34;&gt;
-
 &lt;h1&gt; The circle() is a CSS shape value that&#39;s part of the CSS
 Shapes module clip-path: circle() &lt;/h1&gt; &lt;br&gt;
 
@@ -8721,14 +8671,12 @@ Enim facilisis gravida neque convallis acras semper auctor neque.
 Sit amet mauris commodo quis imperdiet massa tinci dunt nunc.&lt;/p&gt;
 
 Vitae justo eget magna fermentum iaculis.&lt;/p&gt;
-
 &lt;/div&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-54 .unnumbered}
+###### The output of the code is given below:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 72.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -8747,118 +8695,70 @@ CSS function ( :circle() ).
 
 The syntax of the contrast() function is as follows:
 
+```
 contrast() = contrast( &#91; &lt;number&gt; &#124; &lt;percentage&gt; &#93; )
+```
 
-##### Example: {#example-71 .unnumbered}
+##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html&gt;
-
 &lt;head&gt;
-
 &lt;style&gt;
-
 &#42; { padding:0; margin:0;
-
 box-sizing: border-box;
-
 }
-
 .demo_container{ padding:20px; width:800px; margin:0 auto;
-
 justify-content: center; align-items: center;
-
 }
-
 img{
-
 width:100%; height:250px;
-
 }
-
 .row{
-
 display: flex;
-
 }
-
 .col{
-
 width:100%
-
 }
-
 .image-1 {
-
 filter: contrast(140%);
-
 }
-
 .image-2 {
-
 filter: contrast(40%);
-
 }
-
 .image-3 {
-
 filter: contrast(2.5);
-
 }
-
 p{
-
 font-size:20px
-
 }
-
 &lt;/style&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;div class=&#34;demo_container&#34;&gt;
-
 &lt;h3&gt; The contrast() functionused with the filter property to adjust
 the contrast on given image. &lt;/h3&gt;
-
 &lt;div class=&#34;row&#34;&gt;
-
 &lt;div class=&#34;col&#34;&gt;
-
 &lt;p&gt; Normal Image &lt;/p&gt;
-
 &lt;img src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
-
 &lt;p&gt; 140% Contrast Image &lt;/p&gt;
-
 &lt;img class=&#34;image-1&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
-
 &lt;/div&gt;
-
 &lt;div class=&#34;col&#34;&gt;
-
 &lt;p&gt; 40% Contrast Image &lt;/p&gt;
-
 &lt;img class=&#34;image-2&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
-
 &lt;p&gt; 2.5 Contrast Image &lt;/p&gt;
-
 &lt;img class=&#34;image-3&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
-
 &lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-55 .unnumbered}
+###### The output of the code is given below:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 73.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -8893,80 +8793,55 @@ is formatted in the indi- cated style (decimal by default).
 
 The syntax of the counter() function is as follows:
 
+```
 counter( &lt;ident&gt; &#91;, &#91; &lt;counter-style&gt; &#124; none &#93; &#93;? )
+```
 
-##### Example: {#example-72 .unnumbered}
+##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html&gt;
-
 &lt;head&gt;
-
 &lt;style&gt;
-
 &#42; { padding:0; margin:0;
-
 box-sizing: border-box;
-
 }
-
 .demo_container{ padding:20px; width:800px; margin:0 auto;
-
 justify-content: center; align-items: center;
-
 }
-
 section {
-
 line-height: 0.8em; counter-reset: myCounter;
-
 }
-
 h1 {
-
 font-size: 18px;
-
 }
-
 p:before {
-
 content: counter(myCounter) &#34;. &#34;; counter-increment: myCounter;
-
 }
-
 &lt;/style&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;div class=&#34;demo_container&#34;&gt;
-
 &lt;h3&gt; The counter() enables to display the counter that has been
 generated by an element. &lt;/h3&gt;
-
 &lt;section&gt;
+```
 
 The list of programming is given below:
 
+```
 &lt;p&gt;HTML&lt;/p&gt;
-
 &lt;p&gt;PHP&lt;/p&gt;
-
 &lt;p&gt;JavaScript&lt;/p&gt;
-
 &lt;p&gt;Ruby&lt;/p&gt;
-
 &lt;/section&gt;
-
 &lt;/div&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-56 .unnumbered}
+###### The output of the code is given below:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 74.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -9116,77 +8991,46 @@ cubic-bezier() can be used to provide your own custom curve.
 
 ##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html&gt;
-
 &lt;head&gt;
-
 &lt;style&gt;
-
 &#42; { padding:0; margin:0;
-
 box-sizing: border-box;
-
 }
-
 .demo_container{ padding:20px; width:800px; margin:0 auto;
-
 justify-content: center; align-items: center;
-
 }
-
 .ease {
-
 transition: width 1s ease;
-
 }
-
 .cubic-bezier { transition: width 1s
-
 cubic-bezier(.63,.05,.43,1.7);
-
 }
-
 .ease:hover,
-
 .cubic-bezier: hover { width: 80%;
-
 }
-
 .ease, .cubic-bezier { background: orange;
 color: white;
-
 width: 90px; margin: 10px; padding: 10px;
-
 }
-
 &lt;/style&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;div class=&#34;demo_container&#34;&gt;
-
 &lt;h3&gt; The cubic-bezier() is used in CSS transitions to create a
 custom cubic Bézier curve.
-
 &lt;/h3&gt;
-
 &lt;div class=&#34;ease&#34;&gt; ease transition &lt;/div&gt;
-
 &lt;br&gt;
-
 &lt;div class=&#34;cubic-bezier&#34;&gt;cubic-bezier() function &lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-58 .unnumbered}
+###### The output of the code is given below:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 76.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -9212,124 +9056,69 @@ drop shadow's offset, its blur, and its color.
 
 ##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html&gt;
-
 &lt;head&gt;
-
 &lt;style&gt;
-
 &#42; { padding:0; margin:0;
-
 box-sizing: border-box;
-
 }
-
 .demo_container{ padding:20px; width:800px; margin:0 auto;
-
 justify-content: center; align-items: center;
-
 }
-
 img{
-
 width:100%; height:250px;
-
 }
-
 .row{
-
 display: flex;
-
 }
-
 .col{
-
 width:80%
-
 }
-
 .image-1 {
-
 filter: drop-shadow(5px 5px 10px gray);
-
 }
-
 .image-2 {
-
 filter: drop-shadow(0px 0px 10px orange); margin: 10px;
-
 }
-
 .image-3 {
-
 filter: drop-shadow(5px 5px 0 orange);
-
 }
-
 p{
-
 line-height: 2; font-size:20px
-
 }
-
 &lt;/style&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;div class=&#34;demo_container&#34;&gt;
-
 &lt;h3&gt; The contrast() functionused with the filter property to adjust
 the contrast on given image.
-
 &lt;/h3&gt;
-
 &lt;div class=&#34;row&#34;&gt;
-
 &lt;div class=&#34;col&#34;&gt;
-
 &lt;p&gt; Normal Image &lt;/p&gt;
-
 &lt;img src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
-
 &lt;p&gt; drop-shadow(5px 5px 10px gray) Image
-
 &lt;/p&gt;
-
 &lt;img class=&#34;image-1&#34; src=&#34;/images-1.jpg&#34;
-
 alt=&#34;Sample image&#34;&gt;
-
 &lt;/div&gt;
-
 &lt;div class=&#34;col&#34;&gt;
-
 &lt;p&gt;drop-shadow(0px 0px 10px orange) Image
-
 &lt;/p&gt;
-
 &lt;img class=&#34;image-2&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
-
 &lt;p&gt; drop-shadow(5px 5px 0 orange) Image
-
 &lt;/p&gt;
-
 &lt;img class=&#34;image-3&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
-
 &lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-59 .unnumbered}
+###### The output of the code is given below:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 77.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -9348,79 +9137,53 @@ CSS function ( :drop-shadow() ).
 
 The syntax of the ellipse() function is as follows:
 
+```
 ellipse() = ellipse( &#91;&lt;shape-radius&gt;{2}&#93;? &#91;at
-
 &lt;position&gt;&#93;? )
+```
 
-###### The syntax for &lt;position&gt; is: {#the-syntax-for-position-is .unnumbered}
+###### The syntax for &lt;position&gt; is:
 
+```
 &lt;position&gt; = &#91;
-
 &#91; left &#124; center &#124; right &#124; top &#124; bottom &#124; &lt;length- percentage&gt;
 &#93;
-
 &#124;
-
 &#91; left &#124; center &#124; right &#124; &lt;length-percentage&gt; &#93; &#91; top &#124;
 center &#124; bottom &#124; &lt;length-percentage&gt; &#93;
-
 &#124;
-
 &#91; center &#124; &#91; left &#124; right &#93; &lt;length-percentage&gt;? &#93;
-
 &&
-
 &#91; center &#124; &#91; top &#124; bottom &#93; &lt;length-percentage&gt;? &#93;
-
 &#93;
+```
 
 ##### Example: {#example-76 .unnumbered}
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html&gt;
-
 &lt;head&gt;
-
 &lt;style&gt;
-
 &#42; { padding:0; margin:0;
-
 box-sizing: border-box;
-
 }
-
 .demo_container{ width:800px; margin:0 auto;
-
 justify-content: center; align-items: center;
-
 }
-
 .section-1 { float: left; width: 200px; height: 150px;
-
 shape-outside: ellipse();
-
 }
-
 .section-2 { float: left; width: 200px; height: 150px;
-
 shape-outside: ellipse(); background: yellow;
-
 }
-
 .section-3 { float: left; width: 200px; height: 150px;
-
 shape-outside: ellipse(30% 50%); background: yellow;
-
 }
-
 &lt;/style&gt;
-
 &lt;div class=&#34;demo_container&#34;&gt;
-
 &lt;h1&gt; The ellipse() is a CSS shape value that&#39;s part of the CSS
 Shapes module circle(with no background-color). &lt;/h1&gt; &lt;br&gt;
-
 &lt;section class=&#34;section-1&#34;&gt; &lt;/section&gt;
 
 &lt;p&gt;Ornare quam viverra orci sagittis euvolutpat odio. Viverra
@@ -9464,22 +9227,15 @@ diam sit.
 Vitae justo egetert magna fermentum iaculis.&lt;/p&gt;
 
 &lt;/div&gt;
-
 &lt;br&gt; &lt;br&gt; &lt;br&gt;
-
 &lt;div class=&#34;demo_container&#34;&gt;
-
 &lt;h1&gt; The ellipse() is a CSS shape value that&#39;s part of the CSS
 Shapes module shape-outside: ellipse(30% 50%) &lt;/h1&gt; &lt;br&gt;
-
 &lt;section class=&#34;section-3&#34;&gt;&lt;/section&gt;
-
 &lt;p&gt;Ornare quam viverra orci sagittis euvolutpat odio. Viverra
 adipiscing at in tellustels integer feugiat scelerisque.
-
 Adipiscing bibendum estultricies integer quis auctor. Massa tinc idunt
 dui uttornare lectus sit amet.
-
 Pellentesque eliteget gravida cum sociis natoque penatibus et. Sed
 vulput ateodio ut enim blandit volutpat maecenas volutpat.
 
@@ -9489,12 +9245,11 @@ urna cursus eget. Ornare arcu odiout sem nulla pharetra diam sit.
 Vitae juso eget magna fermentum iaculis.&lt;/p&gt;
 
 &lt;/div&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-60 .unnumbered}
+###### The output of the code is given below:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 78.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -9509,44 +9264,26 @@ CSS function ( : ellipse () ).
 
 ##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html&gt;
-
 &lt;head&gt;
-
 &lt;style&gt;
-
 &#42; { padding:0; margin:0;
-
 box-sizing: border-box;
-
 }
-
 .demo_container{ width:800px; margin:0 auto;
-
 justify-content: center; align-items: center;
-
 }
-
 .section-1 { float: left; width: 200px; height: 150px;
-
 clip-path: ellipse(); background-color: brown;
-
 }
-
 .section-2 { float: left; width: 200px; height: 150px;
-
 clip-path: ellipse(farthest-side closest-side at 50px 100px);
-
 background-color: brown;
-
 }
-
 &lt;/style&gt;
-
 &lt;div class=&#34;demo_container&#34;&gt;
-
 &lt;h1&gt; The ellipse() is a CSS shape value that&#39;s part of the CSS
 Shapes module clip-path: ellipse() &lt;/h1&gt; &lt;br&gt;
 
@@ -9595,14 +9332,12 @@ sem nulla pharetra diamsit.
 Vitae justo egetm magna fermentum iaculis.&lt;/p&gt;
 
 &lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
-#### filter() {#filter .unnumbered}
+#### filter()
 
 The filter() function is used to apply a filter to an image. The
 filter() func- tion allows you to apply filters to images. It's
@@ -9619,78 +9354,47 @@ The filter functions that it accepts are the same as those accepted by
 the filter property. You can provide multiple filter functions if
 required.
 
-##### Example: {#example-78 .unnumbered}
+##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html&gt;
-
 &lt;head&gt;
-
 &lt;style&gt;
-
 &#42; { padding:0; margin:0;
-
 box-sizing: border-box;
-
 }
-
 .demo_container{ padding:20px; width:800px; margin:0 auto;
-
 justify-content: center; align-items: center;
-
 }
-
 div {
-
 background-size: cover; border: 1px solid black; height: 40vw;
-
 width: 40vw; margin: 0 2vw; float: left;
-
 }
-
 .unfiltered {
-
 background-image: url(&#39;/images-1.jpg&#39;); height:200px;
-
 width:200px
-
 }
-
 .filtered {
-
 background-image: filter(url(&#39;/images-1.jpg&#39;), hue-rotate(180deg));
-
 height:200px; width:200px
-
 }
-
 &lt;/style&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;section class=&#34;demo_container&#34;&gt;
-
 &lt;h2&gt; The filter() function is used to apply a filter to an
 image.&lt;/h2&gt;
-
 &lt;div class=&#34;unfiltered&#34;&gt; Original Image
-
 &lt;/div&gt;
-
 &lt;div class=&#34;filtered&#34;&gt; Filtered Image
-
 &lt;/div&gt;
-
 &lt;/section&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-61 .unnumbered}
+###### The output of the code is given below:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 79.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -9717,116 +9421,66 @@ The syntax of the grayscale() function is as follows:
 
 grayscale() = grayscale( &#91; &lt;number&gt; &#124; &lt;percentage&gt; &#93; )
 
-##### Example: {#example-79 .unnumbered}
+##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html&gt;
-
 &lt;head&gt;
-
 &lt;style&gt;
-
 &#42; { padding:0; margin:0;
-
 box-sizing: border-box;
-
 }
-
 .demo_container{ padding:20px; width:800px; margin:0 auto;
-
 justify-content: center; align-items: center;
-
 }
-
 img{
-
 width:100%; height:250px;
-
 }
-
 .row{
-
 display: flex;
-
 }
-
 .col{
-
 width:80%
-
 }
-
 .image-1 {
-
 filter: grayscale(100%);
-
 }
-
 .image-2 {
-
 filter: grayscale(50%);
-
 }
-
 .image-3 {
-
 filter: grayscale(0.8);
-
 }
-
 p{
-
 line-height: 2; font-size:20px
-
 }
-
 &lt;/style&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;div class=&#34;demo_container&#34;&gt;
-
 &lt;h2&gt; The grayscale() function to convert an image to grayscale.
 &lt;/h2&gt;
-
 &lt;div class=&#34;row&#34;&gt;
-
 &lt;div class=&#34;col&#34;&gt;
-
 &lt;p&gt; Normal Image &lt;/p&gt;
-
 &lt;img src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
-
 &lt;p&gt; grayscale(100%) Image &lt;/p&gt;
-
 &lt;img class=&#34;image-1&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
-
 &lt;/div&gt;
-
 &lt;div class=&#34;col&#34;&gt;
-
 &lt;p&gt; grayscale(50%) Image &lt;/p&gt;
-
 &lt;img class=&#34;image-2&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
-
 &lt;p&gt; grayscale(0.8) Image &lt;/p&gt;
-
 &lt;img class=&#34;image-3&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
-
 &lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-62 .unnumbered}
+###### The output of the code is given below:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 80.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -9872,8 +9526,9 @@ methodical way.
 
 3.  Adjust the lightness
 
-##### Example: {#example-80 .unnumbered}
+##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -10121,7 +9776,7 @@ line-height: 2; font-size:20px
 &lt;/html&gt;
 ```
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-65 .unnumbered}
+###### The output of the code is given below:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 83.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -10134,7 +9789,7 @@ line-height: 2; font-size:20px
 
 CSS function ( hue-rotate() ).
 
-#### inset() {#inset .unnumbered}
+#### inset()
 
 The inset() is a CSS basic shape value that is part of the CSS shapes
 mod- ule. The shapes such as inset() can be used as a value for
@@ -10142,44 +9797,27 @@ properties such as shape-outside to control the flow of content around
 the element and clip- path to clip the element's contents to the basic
 shape.
 
-##### Example: {#example-83 .unnumbered}
+##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html&gt;
-
 &lt;head&gt;
-
 &lt;style&gt;
-
 &#42; { padding:0; margin:0;
-
 box-sizing: border-box;
-
 }
-
 .demo_container{ width:800px; margin:0 auto;
-
 justify-content: center; align-items: center;
-
 }
-
 .section-1 { float: left; width: 200px; height: 150px;
-
 shape-outside: inset(50px);
-
 }
-
 .section-2 { float: left; width: 200px; height: 150px;
-
 shape-outside: inset(50px); background: yellow;
-
 }
-
 &lt;/style&gt;
-
 &lt;div class=&#34;demo_container&#34;&gt;
-
 &lt;h1&gt; The inset() function is a CSS basic shape value part of the CSS
 Shapes module. inset(50px) no background&lt;/h1&gt;&lt;br&gt;
 
@@ -10220,21 +9858,16 @@ duiut ornare lectus sit amet.
 
 Pellentesque eleget gravida cum sociis natoque penatibus et. Sed
 vulputate odio ut enim blandit volutpat maecenas volutpat.
-
 Purus accumsan in nislnisi. Dignissim enim sit amet venenatis urna cur
 sus eget. Ornare arcu odio utsem nulla pharetra diam sit.
-
 Vitae justo eget magna fermentum iaculis.&lt;/p&gt;
-
 &lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-66 .unnumbered}
+###### The output of the code is given below:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 84.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -10343,7 +9976,7 @@ gradient using CSS.&lt;/h2&gt;
 &lt;/html&gt;
 ```
 
-###### The output of the ode is given below: {#the-output-of-the-ode-is-given-below .unnumbered}
+###### The output of the ode is given below:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 85.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -10581,7 +10214,7 @@ value or a number.
 &lt;/html&gt;
 ```
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-69 .unnumbered}
+###### The output of the code is given below:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 88.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -10607,8 +10240,9 @@ The argument is also specified as a length value (e.g., 1px, 1vw,
 etc). The greater the length, the less pronounced the "3D effect" will
 be.
 
-##### Example: {#example-88 .unnumbered}
+##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -10673,7 +10307,7 @@ Image &lt;/p&gt;
 &lt;/html&gt;
 ```
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-70 .unnumbered}
+###### The output of the code is given below:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 89.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -10694,127 +10328,71 @@ using CSS.
 CSS gradients allow to apply multiple background colors to an element
 that blend from one color to the next.
 
-##### Example: {#example-89 .unnumbered}
+##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html&gt;
-
 &lt;head&gt;
-
 &lt;style&gt;
-
 &#42; { padding:0; margin:0;
-
 box-sizing: border-box;
-
 }
-
 .demo_container{ padding:20px; width:900px; margin:0 auto;
-
 justify-content: center; align-items: center;
-
 }
-
 .row{
-
 display: flex;
-
 flex-direction:row;
-
 }
-
 .col{
-
 height:100px; width:100%
-
 }
-
 .image-1 {
-
 background: radial-gradient(yellow, red); color: white;
-
 padding: 30px; height: 300px;
-
 }
-
 .image-2 {
-
 background: radial-gradient(ellipse, black, lime);
-
 color: white; padding: 30px; height: 300px;
-
 }
-
 .image-3{
-
 background: radial-gradient(circle, black, lime);
-
 color: white; padding: 30px; height: 300px;
-
 }
-
 .image-4{
-
 background: radial-gradient(at bottom right, yellow, red);
-
 color: white; padding: 30px; height: 300px;
-
 }
-
 p{
-
 line-height: 2; font-size:20px;
-
 margin-bottom:30px
-
 }
-
 &lt;/style&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;div class=&#34;demo_container&#34;&gt;
-
 &lt;h2&gt;The linear-gradient() function allows you to create a linear
 gradient using CSS.&lt;/h2&gt;
-
 &lt;div class=&#34;row&#34;&gt;
-
 &lt;div class=&#34;col&#34;&gt;
-
 &lt;p&gt; Default Angle, radial-gradient(yellow, red) &lt;/p&gt;
-
 &lt;div class=&#34;image-1&#34;&gt; &lt;/div&gt;
-
 &lt;p&gt; Ellipse shape, radial-gradient(ellipse, black, lime) &lt;/p&gt;
-
 &lt;div class=&#34;image-2&#34;&gt; &lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;div class=&#34;col&#34;&gt;
-
 &lt;p&gt; Circle, radial-gradient(circle, black, lime)&lt;/p&gt;
-
 &lt;div class=&#34;image-3&#34;&gt; &lt;/div&gt;
-
 &lt;p&gt; Gradient Position, radial-gradient(at
 bottom right, yellow, red) &lt;/p&gt;
-
 &lt;div class=&#34;image-4&#34;&gt; &lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
 ###### The output of the code is given below:
 
@@ -10870,141 +10448,81 @@ The following keywords specify to point the gradient-line given below:
 
 -   color-stop
 
-##### Example: {#example-90 .unnumbered}
+##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html&gt;
-
 &lt;head&gt;
-
 &lt;style&gt;
-
 &#42; { padding:0; margin:0;
-
 box-sizing: border-box;
-
 }
-
 .demo_container{ padding:20px; width:900px; margin:0 auto;
-
 justify-content: center; align-items: center;
-
 }
-
 .row{
-
 display: flex;
-
 flex-direction:row;
-
 }
-
 .col{
-
 height:100px; width:100%
-
 }
-
 .image-1 {
-
 background: repeating-linear-gradient(gold 15%,
-
 orange 30%);
-
 color: white; padding: 30px; height: 300px;
-
 }
-
 .image-2 {
-
 background: repeating-linear-gradient(to top right, gold 16%, orange
 30%);
-
 color: white; padding: 30px; height: 300px;
-
 }
-
 .image-3{
-
 background: repeating-linear-gradient(to top right, orange, gold 16%,
 orange 30%);
-
 color: white; padding: 30px; height: 300px;
-
 }
-
 .image-4{
-
 background: repeating-linear-gradient(155deg, gold, gold 50px, orange
 60px, orange 120px);
-
 color: white;
-
 padding: 30px; height: 300px;
-
 }
-
 p{
-
 line-height: 2; font-size:20px;
-
 margin-bottom:30px
-
 }
-
 &lt;/style&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;div class=&#34;demo_container&#34;&gt;
-
 &lt;h2&gt;The repeating-linear-gradient() function allows you to create a
 linear gradient that repeats over and over again infinitely in both
 directions.&lt;/h2&gt;
-
 &lt;div class=&#34;row&#34;&gt;
-
 &lt;div class=&#34;col&#34;&gt;
-
 &lt;p&gt; Default Angle, radial-gradient(yellow, red) &lt;/p&gt;
-
 &lt;div class=&#34;image-1&#34;&gt; &lt;/div&gt;
-
 &lt;p&gt; Angle of a Repeating, repeating-linear- gradient( top right,
 orange, gold 15%, orange 30%)
-
 &lt;/p&gt;
-
 &lt;div class=&#34;image-2&#34;&gt; &lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;div class=&#34;col&#34;&gt;
-
 &lt;p&gt; Smooth Transitions, repeating-linear- gradient( top right,
 orange, gold 15%, orange 30%)
-
 &lt;/p&gt;
-
 &lt;div class=&#34;image-3&#34;&gt; &lt;/div&gt;
-
 &lt;p&gt;Creating Stripes, repeating-linear- gradient(165deg, gold, gold
 60px, orange 60px, orange 120px)&lt;/p&gt;
-
 &lt;div class=&#34;image-4&#34;&gt; &lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
 ###### The output of the code is given below:
 
@@ -11014,7 +10532,7 @@ orange, gold 15%, orange 30%)
 <img src="./images/image091.png?raw=true"
   alt="."
   title=""
-  style="width:4.2in" />
+  style="width:4.4in" />
 </p>
 <!-- ![](./images/image091.png){width="4.429687226596675in" height="4.474687226596675in"}  -->
 
@@ -11032,16 +10550,14 @@ of the gradient as well as the size and shape.
 **Syntax:** This function uses the same syntax as the
 radial-gradient() function, which is as follows:
 
+```
 &lt;radial-gradient&gt; = radial-gradient(
-
 &#91; &#91; &lt;shape&gt; &#124;&#124; &lt;size&gt; &#93; &#91; at &lt;position&gt; &#93;?, &#124; at
 &lt;position&gt;,
-
 &#93;?
-
 &lt;color-stop&gt; &#91;, &lt;color-stop&gt; &#93;+
-
 )
+```
 
 The repeating-radial-gradient() function accepts the following values:
 
@@ -11078,166 +10594,94 @@ The repeating-radial-gradient() function accepts the following values:
 
 ##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html&gt;
-
 &lt;head&gt;
-
 &lt;style&gt;
-
 &#42; { padding:0; margin:0;
-
 box-sizing: border-box;
-
 }
-
 .demo_container{ padding:20px; width:900px; margin:0 auto;
-
 justify-content: center; align-items: center;
-
 }
-
 .row{
-
 display: flex; flex-wrap: wrap;
-
 flex-direction: row;
-
 }
-
 .col{ width:50%
-
 }
-
 p{
-
 height:50px
-
 }
-
 .image-1 {
-
 background: repeating-radial-gradient(ellipse, green 20%, lime 40%) ;
-
 color: white; padding: 30px; height: 300px;
-
 }
-
 .image-2 {
-
 background: repeating-radial-gradient(circle, green 20%, lime 40%);
-
 color: white;
-
 padding: 30px; height: 300px;
-
 }
-
 .image-3{
-
 background:repeating-radial-gradient(circle at top left, green 30%,
 lime 40%);
-
 color: white; padding: 30px; height: 300px;
-
 }
-
 .image-4{
-
 background: repeating-radial-gradient(circle at top left, lightgreen
 10%, green 45%, lime 60%);
-
 color: white; padding: 30px; height: 300px;
-
 }
-
 .image-5{
-
 background: repeating-radial-gradient(circle at top left, lime, green
 30%, lime 40%);
-
 color: white; padding: 30px; height: 300px;
-
 }
-
 .image-6{
-
 background: repeating-radial-gradient(closest- side at 25px 35px,
 orange 25%, gold 40%);
-
 background-size:50px 50px; height: 200px;
-
 color: white; padding: 30px; height: 300px;
-
 }
-
 p{
-
 line-height: 2; font-size:20px;
-
 margin-bottom:30px
-
 }
-
 &lt;/style&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;div class=&#34;demo_container&#34;&gt;
-
 &lt;h2&gt;CSS repeating radial gradient() function allows you to create a
 radial gradient that repeats over and over again infinitely.&lt;/h2&gt;
-
 &lt;div class=&#34;row&#34;&gt;
-
 &lt;div class=&#34;col&#34;&gt;
-
 &lt;p&gt; Ellipse, repeating-radial- gradient(ellipse, green 20%, lime
 40%) &lt;/p&gt;
-
 &lt;div class=&#34;image-1&#34;&gt; &lt;/div&gt;
-
 &lt;p&gt;Circle, repeating radial gradient(circle, green 20%, lime 40%)
 &lt;/p&gt;
-
 &lt;div class=&#34;image-2&#34;&gt; &lt;/div&gt;
-
 &lt;p&gt;Gradient Position, repeating-radial- gradient(circle at top left,
 green 20%, lime 40%)&lt;/p&gt;
-
 &lt;div class=&#34;image-3&#34;&gt; &lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;div class=&#34;col&#34;&gt;
-
 &lt;p&gt;Three Color Stops, repeating-radial- gradient(circle at top left,
 lightgreen 20%, green 55%, lime 60%)&lt;/p&gt;
-
 &lt;div class=&#34;image-4&#34;&gt; &lt;/div&gt;
-
 &lt;p&gt; Smooth Transitions, repeating-radial- gradient(circle at top
 left, lime, green 20%, lime 40%)&lt;/p&gt;
-
 &lt;div class=&#34;image-5&#34;&gt; &lt;/div&gt;
-
 &lt;p&gt;Patterns with Gradients, repeating radial gradient(closest-side
 at 25px 35px, orange 15%, gold 40%)&lt;/p&gt;
-
 &lt;div class=&#34;image-6&#34;&gt; &lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
 ###### The output of the code is given below:
 
@@ -11399,155 +10843,85 @@ There are various properties used in rotate such as:
 
 ##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html&gt;
-
 &lt;head&gt;
-
 &lt;style&gt;
-
 &#42; { padding:0; margin:0;
-
 box-sizing: border-box;
-
 }
-
 .demo_container{ padding:20px; width:900px; margin:0 auto;
-
 justify-content: center; align-items: center;
-
 }
-
 .row{
-
 display: flex; flex-wrap: wrap;
-
 flex-direction: row;
-
 }
-
 .col{ width:50%
-
 }
-
 p{
-
 height:50px
-
 }
-
 .image-1 {
-
 background: RGB(255,69,0); color: white;
-
 padding: 30px; height: 50px; width:100px
-
 }
-
 .image-2 {
-
 background: RGB(0,255,0); transform: rotate(15deg); color: white;
-
 padding: 30px; height: 50px; width:100px
-
 }
-
 .image-3{
-
 transform: rotate(20grad); background: rgb(230,255,0); color: white;
-
 padding: 30px; height: 50px; width:100px
-
 }
-
 .image-4{
-
 background: RGB(128,128,0); transform: rotate(.4turn); color: white;
-
 padding: 30px; height: 50px; width:100px
-
 }
-
 .image-5{
-
 background: #ff0000; transform: rotate(-15deg); color: white;
-
 padding: 30px; height: 50px; width: 100px
-
 }
-
 .image-6{
-
 background: RGB(128,0,128); transform-origin: 90% 90%; transform:
 rotate(15deg);
-
 height: 50px; width:100px; color: white; padding: 30px;
-
 }
-
 p{
-
 line-height: 2; font-size:24px;
-
 margin-bottom:10px
-
 }
-
 &lt;/style&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;div class=&#34;demo_container&#34;&gt;
-
 &lt;h2&gt;The rotate() function is used to rotate elements in a
 two-dimensional space.&lt;/h2&gt;
-
 &lt;div class=&#34;row&#34;&gt;
-
 &lt;div class=&#34;col&#34;&gt;
-
 &lt;p&gt; Not rotated &lt;/p&gt;
-
 &lt;div class=&#34;image-1&#34;&gt; &lt;/div&gt;
-
 &lt;p&gt; Degrees (rotate(15deg)) &lt;/p&gt;
-
 &lt;div class=&#34;image-2&#34;&gt; &lt;/div&gt;
-
 &lt;p&gt; Gradians rotate(20grad) &lt;/p&gt;
-
 &lt;div class=&#34;image-3&#34;&gt; &lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;div class=&#34;col&#34;&gt;
-
 &lt;p&gt;Turns (rotate(.4turn)) &lt;/p&gt;
-
 &lt;div class=&#34;image-4&#34;&gt; &lt;/div&gt;
-
 &lt;p&gt; Negative Values (rotate(-15deg))&lt;/p&gt;
-
 &lt;div class=&#34;image-5&#34;&gt; &lt;/div&gt;
-
 &lt;p&gt; Adding transform-origin &lt;/p&gt;
-
 &lt;div class=&#34;image-6&#34;&gt; &lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-75 .unnumbered}
+###### The output of the code is given below:
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 94.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -11708,7 +11082,7 @@ The angle can be represented with the following unit identifiers:
 -   rad
 -   turn
 
-#### rotateY() {#rotatey .unnumbered}
+#### rotateY()
 
 ###### The CSS rotateY() is used to rotate elements around the x-axis in three-
  dimensional space. The rotateY() function is used in 3D-transforms. It is used 
@@ -11727,7 +11101,7 @@ The angle can be represented with any of the following identifiers:
 -   rad
 -   turn
 
-#### rotateZ() {#rotatez .unnumbered}
+#### rotateZ()
 
 ###### The CSS rotateZX() function is used to rotate elements around the x-axis in three-dimensional 
 space. The rotateZ() is used in 3D-transforms. It's used with the transform property to rotate an element around the y-axis. 
@@ -11837,7 +11211,7 @@ z-axis in a three-dimensional space.&lt;/h2&gt;
 &lt;/html&gt;
 ```
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-77 .unnumbered}
+###### The output of the code is given below:
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 96.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -12018,9 +11392,10 @@ scaling vector described by three parameters. The scale3d() function
 is a three-dimen- sional primitive, with the following derived
 functions:
 
-```
 scalex(), scaleY(), scaleZ(), and scale().
 The syntax of the scale3d() function is as follows:
+
+```
 scale3d() = scale3d( &lt;number&gt;, &lt;number&gt;, &lt;number&gt; )
 ```
 
@@ -12073,7 +11448,7 @@ three-dimensional space. &lt;/h2&gt;
 &lt;/html&gt;
 ```
 
-###### The output of the code is given below: {#the-output-of-the-code-is-given-below-80 .unnumbered}
+###### The output of the code is given below:
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 99.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -12168,115 +11543,68 @@ alt=&#34;Sample image&#34;&gt;
 
 CSS function (scaleX()).
 
-#### scaleY() {#scaley .unnumbered}
+#### scaleY()
 
-###### The CSS scaleY() is used to scale elements in two-dimensional space along the x-axis. The scaleY() scales an element based on the number/s {#the-css-scaley-is-used-to-scale-elements-in-two-dimensional-space-along-the-x-axis.-the-scaley-scales-an-element-based-on-the-numbers .unnumbered}
-
-######  {#section-6 .unnumbered}
-
-that provide an argument. The syntax of the scaleY() function is as
+###### The CSS scaleY() is used to scale elements in two-dimensional space along the x-axis. The scaleY() scales an element based on the number/s that provide an argument. The syntax of the scaleY() function is as
 follows:
 
+```
 scaleY () = scaleY ( &lt;number&gt; )
+```
 
-##### Example: {#example-100 .unnumbered}
+##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html&gt;
-
 &lt;head&gt;
-
 &lt;style&gt;
-
 &#42; { padding:0; margin:0;
-
 box-sizing: border-box;
-
 }
-
 .demo_container{ width:800px; padding:20px; margin:0 auto;
-
 justify-content: center; align-items: center;
-
 }
-
 .row{
-
 display: flex; flex-wrap: wrap;
-
 flex-direction: row;
-
 }
-
 .col{ width:50%
-
 }
-
 .image-1 { width:200px; height:200px;
-
 }
-
 .image-2 {
-
 transform-origin: top right; transform: ScaleY(2);
-
 width:200px; height:200px;
-
 }
-
 .image-3{
-
 transform: ScaleY(3); width:200px; float:right;
-
 height:200px;
-
 }
-
 p{
-
 padding-top: 20px; font-size:20px
-
 }
-
 &lt;/style&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;div class=&#34;demo_container&#34;&gt;
-
 &lt;h2&gt;The scaleY() function is used to scale elements in a
 two-dimensional space along the y-axis. &lt;/h2&gt;
-
 &lt;div class=&#34;row&#34;&gt;
-
 &lt;div class=&#34;col&#34;&gt;
-
 &lt;p&gt; Normal Image &lt;/p&gt;
-
 &lt;img class=&#34;image-1&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
-
 &lt;p&gt; ScaleY() with transform-origin &lt;/p&gt;
-
 &lt;img class=&#34;image-1&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
-
 &lt;p&gt; ScaleY(4) without transform-origin
-
 &lt;/p&gt;
-
 &lt;img class=&#34;image-2&#34; src=&#34;/images-1.jpg&#34;
-
 alt=&#34;Sample image&#34;&gt;
-
 &lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
 ###### The output of the code is given below:
 
@@ -12294,122 +11622,72 @@ CSS function (scaleY()).
 
 #### scaleZ()
 
-###### The CSS scaleZ () is used to scale elements in two-dimensional space along the x-axis. The scaleZ() scales an element based on the number/s that pro- vide an argument. The syntax of the scaleZ () function is as follows: {#the-css-scalez-is-used-to-scale-elements-in-two-dimensional-space-along-the-x-axis.-the-scalez-scales-an-element-based-on-the-numbers-that-pro--vide-an-argument.-the-syntax-of-the-scalez-function-is-as-follows .unnumbered}
+###### The CSS scaleZ () is used to scale elements in two-dimensional space along the x-axis. The scaleZ() scales an element based on the number/s that pro- vide an argument. The syntax of the scaleZ () function is as follows: 
 
+```
 scaleZ () = scaleZ ( &lt;number&gt; )
+```
 
-##### Example: {#example-101 .unnumbered}
+##### Example:
 
+```
 &lt;!DOCTYPE html&gt;
-
 &lt;html&gt;
-
 &lt;head&gt;
-
 &lt;style&gt;
-
 &#42; { padding:0; margin:0;
-
 box-sizing: border-box;
-
 }
-
 .demo_container{ width:800px; padding:20px; margin:0 auto;
-
 justify-content: center; align-items: center;
-
 }
-
 .row{
-
 display: flex; flex-wrap: wrap;
-
 flex-direction: row;
-
 }
-
 .col{ width:50%
-
 }
-
 .image-1 { width:200px; height:200px;
-
 }
-
 .image-2 {
-
 transform-origin: top right;
-
 transform: perspective(250px) scaleZ(2) rotateX(45deg);
-
 width:200px; height:200px;
-
 }
-
 .image-3{
-
 transform: perspective(250px) scaleZ(2) rotateX(45deg);
-
 width:200px; float:right;
-
 height:200px;
-
 }
-
 p{
-
 padding-top: 20px; font-size:20px
-
 }
-
 &lt;/style&gt;
-
 &lt;/head&gt;
-
 &lt;body&gt;
-
 &lt;div class=&#34;demo_container&#34;&gt;
-
 &lt;h2&gt;The scaleZ() function is used to scale elements in a
 two-dimensional space along the z-axis. &lt;/h2&gt;
-
 &lt;div class=&#34;row&#34;&gt;
-
 &lt;div class=&#34;col&#34;&gt;
-
 &lt;p&gt; Normal Image &lt;/p&gt;
-
 &lt;img class=&#34;image-1&#34; src=&#34;/images-1.jpg&#34; alt=&#34;Sample image&#34;&gt;
-
 &lt;p&gt; scaleZ(4) with transform-origin
-
 &lt;/p&gt;
-
 &lt;img class=&#34;image-2&#34; src=&#34;/images-1.jpg&#34;
-
 alt=&#34;Sample image&#34;&gt;
-
 &lt;/div&gt;
-
 &lt;div class=&#34;col&#34;&gt;
-
 &lt;p&gt; scaleZ(4) without transform-origin
-
 &lt;/p&gt;
-
 &lt;img class=&#34;image-3&#34; src=&#34;/images-1.jpg&#34;
-
 alt=&#34;Sample image&#34;&gt;
-
 &lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;/div&gt;
-
 &lt;/body&gt;
-
 &lt;/html&gt;
+```
 
 ###### The output of the code is given below:
 
@@ -12425,7 +11703,7 @@ alt=&#34;Sample image&#34;&gt;
 
 CSS function (scaleZ()).
 
-#### skew() {#skew .unnumbered}
+#### skew()
 
 The CSS skew() function is used to skew elements in two-dimensional
 space. The skew() element performs a shear transformation (also known
@@ -12442,7 +11720,7 @@ The skew() function works like this:
 
 -   skew(ax, ay)
 
-##### Example: {#example-102 .unnumbered}
+##### Example:
 
 ```
 &lt;!DOCTYPE html&gt;
@@ -12533,18 +11811,20 @@ two-dimensional space. &lt;/h2&gt;
 
 CSS function (skew()).
 
-#### skewX() {#skewx .unnumbered}
+#### skewX()
 
-###### The skewX() element performs a shear transformation (also known as a shear mapping or a transvection), which displaces each point of an ele- ment by a given angle along the x-axis. {#the-skewx-element-performs-a-shear-transformation-also-known-as-a-shear-mapping-or-a-transvection-which-displaces-each-point-of-an-ele--ment-by-a-given-angle-along-the-x-axis. .unnumbered}
+###### The skewX() element performs a shear transformation (also known as a shear mapping or a transvection), which displaces each point of an ele- ment by a given angle along the x-axis. 
 
 The skewX() function works like this:
 
+```
 skewX(a)
+```
 
 The skewX() function accepts one argument which specifies the angle of
 the skew for the x-axis. It can be any valid angle value.
 
-##### Example: {#example-103 .unnumbered}
+##### Example:
 
 ```
 &lt;!DOCTYPE html&gt;
@@ -12656,11 +11936,6 @@ is saved. The difference between the two is that the pre-processing
 scripts run before the value checking and validation rules are
 completed, and the postprocessing scripts run after these processes.
 
-DOI:
-[10.1201/9781003358060-5](https://doi.org/10.1201/9781003358060-5)
-
-**375**
-
 PostCSS is neither preprocessor nor
 postprocessor, as various PostCSS plugins can fall into one or both of
 these categories; it's entirely up to you what you make of it. With
@@ -12671,7 +11946,7 @@ PostCSS will take your existing CSS file and convert it to JavaScript
 readable data, then the JavaScript plugins will make the modifications
 and PostCSS will return the modified version of the original file.
 
-## VARIOUS CSS PLUGINS PostCSS BASED {#various-css-plugins-postcss-based .unnumbered}
+## VARIOUS CSS PLUGINS PostCSS BASED
 
 There are various plugins available in the market as given below:
 
@@ -12686,9 +11961,9 @@ There are various plugins available in the market as given below:
 9.  PostCSS
 10. PostCSS-modules
 
-### AUTOPREFIXER {#autoprefixer .unnumbered}
+### AUTOPREFIXER
 
-###### Autoprefixer uses the data based on the latest browser popularity that supports to apply prefixes for you. You can try the interactive demo of Autoprefixer. {#autoprefixer-uses-the-data-based-on-the-latest-browser-popularity-that-supports-to-apply-prefixes-for-you.-you-can-try-the-interactive-demo-of-autoprefixer. .unnumbered}
+###### Autoprefixer uses the data based on the latest browser popularity that supports to apply prefixes for you. You can try the interactive demo of Autoprefixer. 
 
 You can write any CSS rules without vendor prefixes as given below:
 
@@ -12697,7 +11972,7 @@ You can write any CSS rules without vendor prefixes as given below:
 box-shadow: 0 0 10px #cecece; transition: all .5s;
 }
 p{
-[]{#_bookmark321 .anchor}color: red;
+color: red;
 }
 .section a{ display: flex;
 }
@@ -12789,7 +12064,7 @@ like, each separated by a space as
 &#36; npm install autoprefixer postcss postcss-cli -g
 ```
 
-###### Once npm has downloaded and installed the packages, need to go back into package.json and add a script for npm to run, just like when you installed Sass. Add a new script named "prefix" after the "sass"s script: {#once-npm-has-downloaded-and-installed-the-packages-need-to-go-back-into-package.json-and-add-a-script-for-npm-to-run-just-like-when-you-installed-sass.-add-a-new-script-named-prefix-after-the-sasss-script .unnumbered}
+###### Once npm has downloaded and installed the packages, need to go back into package.json and add a script for npm to run, just like when you installed Sass. Add a new script named "prefix" after the "sass"s script: 
 
 {
 &#34;name&#34;: &#34;abc&#34;,
@@ -12820,7 +12095,7 @@ css -w &#45;-style compressed&#34;,
 }
 ```
 
-###### After that you need to instruct npm which package to use and where to {#after-that-you-need-to-instruct-npm-which-package-to-use-and-where-to .unnumbered}
+###### After that you need to instruct npm which package to use and where to 
 
 find the CSS file, to use Autoprefixer by implementing -- use flag
 followed by Autoprefixer as given below:
@@ -12839,7 +12114,7 @@ compressed&#34;,
 }
 ```
 
-###### And then, finally, you need to instruct it where to put new, prefixed, CSS sheet as given below: {#and-then-finally-you-need-to-instruct-it-where-to-put-new-prefixed-css-sheet-as-given-below .unnumbered}
+###### And then, finally, you need to instruct it where to put new, prefixed, CSS sheet as given below: 
 
 ```
 {
@@ -12856,7 +12131,7 @@ css -w &#45;-style compressed&#34;,
 }
 ```
 
-###### Now your prefixing script is complete. {#now-your-prefixing-script-is-complete. .unnumbered}
+###### Now your prefixing script is complete.
 
 Add a new key named browserslist as given below:
 
@@ -12867,6 +12142,7 @@ Add a new key named browserslist as given below:
 ```
 
 #### And then give browserslist a value of last four versions : 
+
 ```
 &#34;name&#34;: &#34;joeblow&#34;,
 &#34;version&#34;: &#34;1.0.0&#34;,
@@ -12941,7 +12217,7 @@ project.
 -   Upsides: prefixes perfectly to what you support, final CSS is cache-
     able, handles tricky fallbacks (e.g., flexbox).
 
-#### CSSnext {#cssnext .unnumbered}
+#### CSSnext
 
 PostCSS is a new tool that makes easy to develop JavaScript plugins
 that transform styles. This opens up a new world of possibilities for
@@ -12958,32 +12234,22 @@ to use the prefixes yourself when writing CSS.
 
 To give you an example, let's say you have the following CSS styles:
 
+```
 :root {
-
 &#45;-text: pink;
-
 &#45;-bg-color: #FFEC31;
-
 &#45;-flex-center: {
-
 display: flex; margin: auto;
-
 }
-
 }
-
 .box {
-
 background-color: var(&#45;-bg-color); color: color(hotpink
 whiteness(25%)); &#64;apply(&#45;-flex-center);
-
 }
-
 .warn {
-
 &#64;apply(&#45;-flex-center);
-
 }
+```
 
 ###### cssnext will transform the styles into this:
 
@@ -13010,7 +12276,7 @@ more digestible for older browsers:
 
 -   allows you to use nesting, like in Sass.
 
-#### CSSnano {#cssnano .unnumbered}
+#### CSSnano
 
 cssnano minifies and compresses your CSS. It removes whitespace,
 elimi- nates duplicate rules, outdated vendor prefixes, comments, and
@@ -13022,15 +12288,19 @@ PostCSS, the PostCSS-CLI, cssnext, and cssnano
 
 Using npm:
 
+```
 &#36; npm install &#45;-save-dev postcss postcss-cli postcss- cssnext
 cssnano
+```
 
-###### Or through Yarn command: {#or-through-yarn-command .unnumbered}
+###### Or through Yarn command:
 
+```
 &#36; yarn add postcss postcss-cli postcss-cssnext cssnano
 &#45;-dev
+```
 
-###### Using the PostCSS-CLI {#using-the-postcss-cli .unnumbered}
+###### Using the PostCSS-CLI 
 
 You use the PostCSS command line (cmd) interface by giving the input,
 output files, and PostCSS plugin(s) to use. It specifies the plugins
@@ -13038,8 +12308,10 @@ with the -- use flag, the output file with the -- output flag, and the
 input file is pro- vided last without any flags using the below
 command:
 
+```
 &#36; postcss &#45;-use postcss-cssnext &#45;-use cssnano &#45;-output
 styles-out.css styles.css
+```
 
 ###### You can use the PostCSS CLI in watch mode, to listen for changes to the input file using the below command: 
 
@@ -13054,7 +12326,7 @@ styles-out.css styles.css &#45;-watch
 &#36; postcss &#45;-config postcss-config.json
 ```
 
-###### Your config file will look like this: {#your-config-file-will-look-like-this .unnumbered}
+###### Your config file will look like this:
 
 ```
 {
@@ -13064,7 +12336,7 @@ styles-out.css styles.css &#45;-watch
 }
 ```
 
-###### npm Script {#npm-script .unnumbered}
+###### npm Script
 
 To make your workflow run smooth, simply set up a postcss script in
 your project's package.json file:
@@ -13076,11 +12348,11 @@ styles-out.css styles.css&#34;
 }
 ```
 
-###### Now all you have to do is run the following command: {#now-all-you-have-to-do-is-run-the-following-command .unnumbered}
+###### Now all you have to do is run the following command: 
 
 &#36; npm run postcss
 
-#### PreCSS {#precss .unnumbered}
+#### PreCSS
 
 ###### It will let you use Sass-like markup and staged CSS features in CSS. This is the given example: 
 
@@ -13094,7 +12366,7 @@ width: calc(4 &#42; &#36;column);
 }
 ```
 
-###### The result will be like this: {#the-result-will-be-like-this .unnumbered}
+###### The result will be like this:
 
 ```
 .menu {
@@ -13124,11 +12396,12 @@ It has powered by the following plugins (in this order):
 -   postcss-extend-rule: You can add this PostCSS Extend Rule to your
     project:
 
+```
 &#36; npm install postcss postcss-extend-rule
-
 &#45;-save-dev
+```
 
-###### Use PostCSS Extend Rule to process your CSS: {#use-postcss-extend-rule-to-process-your-css .unnumbered}
+###### Use PostCSS Extend Rule to process your CSS:
 
 ```
 const postcssExRule = require(&#39;postcss- extend-rule&#39;);
@@ -13154,7 +12427,8 @@ main {
 }
 ```
 
-###### postcss-advanced-variables: Its variables let you use Sass-like vari- ables, conditionals, and iterators in CSS.
+###### postcss-advanced-variables: Its variables let you use Sass-like vari-
+ables, conditionals, and iterators in CSS.
 
 You can add PostCSS advanced variables to your build tool:
 
@@ -13163,11 +12437,13 @@ You can add PostCSS advanced variables to your build tool:
 &#45;-save-dev
 ```
 
-###### You can add PostCSS to your build tool: {#you-can-add-postcss-to-your-build-tool .unnumbered}
+###### You can add PostCSS to your build tool:
 
+```
 &#36; npm install postcss &#45;-save-dev
+```
 
-###### Use PostCSS advanced variables as a plugin: {#use-postcss-advanced-variables-as-a-plugin .unnumbered}
+###### Use PostCSS advanced variables as a plugin:
 
 ```
 postcss(&#91;
@@ -13182,26 +12458,30 @@ require(&#39;postcss-advanced-variables&#39;)(/&#42; options
 &#36; npm install postcss-preset-env
 ```
 
-###### You can add PostCSS Preset Env into your project: {#you-can-add-postcss-preset-env-into-your-project .unnumbered}
+###### You can add PostCSS Preset Env into your project:
 
 ```
 &#36; npm install postcss-preset-env &#45;-save-dev (run this command in the
 terminal)
 ```
 
-###### Now use PostCSS Preset Env to process your CSS as given below: {#now-use-postcss-preset-env-to-process-your-css-as-given-below .unnumbered}
+###### Now use PostCSS Preset Env to process your CSS as given below: 
 
+```
 const postCSSPresetEnv = require(&#39;postcss- preset-env&#39;);
 postCSSPresetEnv.process(YOUR_CSS /&#42;, processOptions, pluginOptions
 &#42;/);
+```
 
-###### Various Options {#various-options .unnumbered}
+###### Various Options
 
 1.  **stage:** This option determines which CSS features to polyfill,
     based on the stability in the process of becoming implemented web
     standards.
 
+```
 postcssPresetEnv({ stage: 0 })
+```
 
 This stage can be 0 (experimental) through 4 (stable), or false. By
 setting stage to false will disable all polyfill. This would be useful
@@ -13258,14 +12538,14 @@ postcssPresetEnv({ autoprefixer: { grid: true }
 }
 ```
 
-###### The result will be as given below: {#the-result-will-be-as-given-below .unnumbered}
+###### The result will be as given below:
 
 ```
 .child { &#8230; }
 .parent { &#8230; }
 ```
 
-###### How to use it in code: {#how-to-use-it-in-code .unnumbered}
+###### How to use it in code:
 
 ```
 postcss(&#91; require(&#39;postcss-atroot&#39;)() &#93;)
@@ -13319,7 +12599,7 @@ module.exports = { plugins: &#91;
 }
 ```
 
-###### There are various options available: {#there-are-various-options-available .unnumbered}
+###### There are various options available:
 
 1.  bubble: By default, plugin will bubble only the &#64;media and @
     supports at-rules. You can add custom at-rules to list by bubble
@@ -13335,7 +12615,7 @@ postcss(&#91; require(&#39;postcss-nested&#39;)({ bubble: &#91;&#39;phone&#39;&#
 postcss(&#91; require(&#39;postcss-nested&#39;)({ unwrap: &#91;&#39;phone&#39;&#93; }) &#93;)
 ```
 
-##### Example: {#example-104 .unnumbered}
+##### Example:
 
 ```
 /&#42; Enter your CSS code &#42;/ a {
@@ -13352,7 +12632,7 @@ color: black;
 }
 ```
 
-###### preserveEmpty {#preserveempty .unnumbered}
+###### preserveEmpty
 
 By default, plugin will strip out any empty selector generated by
 interme- diate nesting levels. You can set preserveEmpty to true to
@@ -13391,7 +12671,10 @@ Installing Stylelint
 First, ensure you have stylelint installed. It is an npm package which
 can be installed by running the following command:
 
+```
 &#36; npm install -g stylelint
+```
+
 Usage
 After you have stylelint installed, you will want to create a
 .stylelintrc.json file. This is where will configure all the lint
@@ -13596,12 +12879,16 @@ gulp.task(&#39;default&#39;, &#91;&#39;styles&#39;&#93;);
 -   Grunt: First, you have to install NodeJs then install Grunt using
     this command:
 
+```
 &#36; npm install &#45;-global grunt-cli
+```
 
 ###### Install dev dependencies:
 
+```
 &#36; npm install &#45;-save-dev grunt grunt-postcss grunt-autoprefixer
 grunt-contrib-watch lost
+```
 
 ###### Create a Gruntfile.js with the following code:
 
@@ -13635,21 +12922,29 @@ grunt.registerTask(&#39;default&#39;, &#91;&#39;watch&#39;&#93;);
 
 ###### Brunch: First, you install NodeJS then install Brunch using this command:
 
+```
 &#36; npm install -g brunch
+```
 
 Create a new Brunch project brunch new
 
 ###### Install PostCSS:
 
+```
 &#36; npm install &#45;-save postcss-brunch
+```
 
 ###### Install Autoprefixer:
 
+```
 &#36; npm install &#45;-save autoprefixer
+```
 
 ###### Install Lost:
 
+```
 &#36; npm install &#45;-save lost
+```
 
 ###### Update brunch-config.coffee
 
@@ -13666,7 +12961,7 @@ processors: &#91; require(&#39;autoprefixer&#39;)(), require(&#39;lost&#39;)
 &#93;
 ```
 
-###### Now run the brunch using this command: {#now-run-the-brunch-using-this-command .unnumbered}
+###### Now run the brunch using this command:
 
 brunch watch
 
@@ -13680,7 +12975,7 @@ There are also various options to install this plugin:
 
 -   Meteor
 
-#### PostCSS {#postcss .unnumbered}
+#### PostCSS 
 
 PostCSS plugin generates spritesheets from your stylesheets.
 
@@ -13743,9 +13038,9 @@ examples listed below:
 
 We discuss some of the plugins in brief.
 
-### POSTCSS-MODULES ( CSS MODULES ) {#postcss-modules-css-modules .unnumbered}
+### POSTCSS-MODULES ( CSS MODULES )
 
-###### A CSS Module is a CSS file in which all class and animation names are scoped locally by default. All URLs (url(&#8230;)) and &#64;imports are in module request format (./xxx and . ./xxx means relative, xxx and xxx/yyy means in modules folder, i. e. in node_modules). {#a-css-module-is-a-css-file-in-which-all-class-and-animation-names-are-scoped-locally-by-default.-all-urls-url...-and-imports-are-in-module-request-format-.xxx-and-.-.xxx-means-relative-xxx-and-xxxyyy-means-in-modules-folder-i.-e.-in-node_modules. .unnumbered}
+###### A CSS Module is a CSS file in which all class and animation names are scoped locally by default. All URLs (url(&#8230;)) and &#64;imports are in module request format (./xxx and . ./xxx means relative, xxx and xxx/yyy means in modules folder, i. e. in node_modules). 
 
 CSS Modules compile to a low-level interchange format called ICSS or
 Interoperable CSS but are written like normal CSS files:
@@ -13756,7 +13051,7 @@ Interoperable CSS but are written like normal CSS files:
 }
 ```
 
-###### When importing the CSS Module from a JS Module, it exports an object with all mappings from local names to global names. {#when-importing-the-css-module-from-a-js-module-it-exports-an-object-with-all-mappings-from-local-names-to-global-names. .unnumbered}
+###### When importing the CSS Module from a JS Module, it exports an object with all mappings from local names to global names. 
 
 ```
 import styles from &#34;./style.css&#34;;
@@ -13765,7 +13060,7 @@ import styles from &#34;./style.css&#34;;
 &#43; &#39;&#34;&gt;&#39;;
 ```
 
-###### Naming (localsConvention) {#naming-localsconvention .unnumbered}
+###### Naming (localsConvention)
 
 For local class names camelCase naming is recommended:
 
@@ -13792,7 +13087,7 @@ Features
 -   Explicit dependencies.
 -   No global scope.
 
-#### CSS MarqueeMenu PLUGIN {#css-marqueemenu-plugin .unnumbered}
+#### CSS MarqueeMenu PLUGIN
 
 It is a type of animation effect used in developing web pages for
 getting attractive text or image scrolling in vertical or horizontal
@@ -13957,6 +13252,8 @@ When you paste this link in the chrome URL address bar
 ([https://use.](https://use.typekit.net/)
 [typekit.net/zhq0vyf.css](https://use.typekit.net/) ) after that you
 will get this code on the page given below:
+
+```
 &#64;import url(&#34;https://p.typekit.net/p.css?s=1&k=zhq0vyf
 &ht=tk&f=24537.24538.24539.24540.24547.38192.38197.381
 98.38199.38200&a=1494256&app=typekit&e=css&#34;);
@@ -13990,6 +13287,7 @@ be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9
 font-display:auto;font-style:italic;font-
 weight:900;font-stretch:normal;
 }
+```
 
 ###### Another example:
 
@@ -14152,10 +13450,6 @@ font color and so on.
     -   It is the same content with different styles for different
         purposes.
 
-DOI:
-[10.1201/9781003358060-6](https://doi.org/10.1201/9781003358060-6)
-
-**411**
 
 Your website may have thousands of pages that
 look similar. With CSS, you store style information in common files
