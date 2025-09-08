@@ -88,19 +88,18 @@ Sufyan bin Uzayr
 <!-- ![](./images/image004.png){width="1.154154636920385in" height="0.4114577865266842in"} -->
 <!-- ![](./images/image005.png){width="1.7452154418197725in" height="0.26031167979002623in"} -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~ 04/05.   ~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 04/05. CRC Press Taylor & Francis Group ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed border"
   src="./images/image004.png"
   style="width:1.1in; float: left; margin-left: 10%; margin-bottom: 1em;"
-  title=""
-  alt="." />
+  title="CRC Press Taylor &amp; Francis Group"
+  alt="CRC Press Taylor &amp; Francis Group." />
 <img class="displayed border"
   src="./images/image005.png"
   style="width:1.7in; float: left; margin-left: 10%; margin-bottom: 1em;"
-  title=""
-  alt="." />
+  title="CRC Press is an imprint of the Taylor &amp; Francis Gropu, an informa business"
+  alt="CRC Press is an imprint of the Taylor &amp; Francis Gropu, an informa business." />
 <p style="clear: both;">
-
 
 First Edition published 2024 by CRC Press
 
@@ -177,11 +176,11 @@ Typeset in Minion
 by KnowledgeWorks Global Ltd.
 *For Mom*
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 06.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 06. Taylor & Francis logo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image006.png?raw=true"
-  alt="."
-  title=""
+  alt="Taylor & Francis logo."
+  title="Taylor & Francis logo"
   style="width:3.6in" />
 </p>
 <!-- ![](./images/image006.png){width="3.6393208661417322in" height="0.9622911198600175in"}  -->
@@ -706,11 +705,11 @@ For more info, please visit
 
 **xvii**
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 06.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 06. Taylor & Francis logo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image006.png?raw=true"
-  alt="."
-  title=""
+  alt="Taylor &amp; Francis logo."
+  title="Taylor &amp; Francis logo"
   style="width:3.6in" />
 </p>
 <!-- ![](./images/image006.png){width="3.6393208661417322in" height="0.9622911198600175in"}  -->
@@ -913,7 +912,7 @@ important thing about CSS is that everyone works hard so that they
 never change things in a way that can break old websites. A website
 built in 2000 that used the limited CSS that existed then, should
 still be used in the browser today!
->
+
 As a newcomer to CSS, you may find the CSS specification too great --
 it is intended for developers to apply feature support to user agents,
 not for web developers to learn to understand CSS. Many experienced
@@ -993,7 +992,7 @@ of the section should be written between these angular characters. The
 basic Html code shown below in the overview section is used to create
 a simple Html page.
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html lang=&#34;en&#34;&gt;
 &lt;meta charset=&#34;utf-8&#34;&gt;
@@ -1003,7 +1002,7 @@ a simple Html page.
 &lt;p&gt; This is a paragraph &lt;/p&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
 There are various elements we can add to our HTML code; let's take a
 look.
@@ -1023,9 +1022,7 @@ the &lt;p&gt; tag.
 
 -   The HTML table is part of the HTML and can be defined using tag
 
-```
-&lt;table&gt; and tag lines &lt;tr&gt; and tag cells &lt;td&gt;.
-```
+<pre>&lt;table&gt; and tag lines &lt;tr&gt; and tag cells &lt;td&gt;.</pre>
 
 -   HTML links are elements, and can be defined using the &lt;a&gt; tag and
     sample code below:
@@ -1044,14 +1041,10 @@ the &lt;p&gt; tag.
 
     -   In HTML, we can highlight specific text in a document using the
 
-```
-&lt;mark&gt; feature to highlight text included in the &lt;mark&gt; element.
-```
+<pre>&lt;mark&gt; feature to highlight text included in the &lt;mark&gt; element.</pre>
 
 -   In HTML, we can define a text as the text above using the &lt;sup&gt;
-
 element in the HTML document so that the text embedded in the
-
 &lt;sup&gt; element becomes larger text.
 
 The &lt;!DOCTYPE&gt; represents the document type and helps browsers to
@@ -1097,7 +1090,7 @@ HTML = structure CSS = style
 
 ###### Before we can write CSS, we have to go back to HTML. You need to write a new line to link the HTML file and CSS file together. So, open the HTML file and add the provided line "&lt;link href =" style.css "rel =" stylesheet "type =" text / CSS "/&gt;". Your file code looks like this, 
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -1107,40 +1100,40 @@ HTML = structure CSS = style
 &lt;!&#45;- Here is the Internal Style &#45;-&gt;
 &lt;style&gt;
 h2, p {
-font-size: 24px
+  font-size: 24px
 }
-h1{
-text-align: center; font-size: 36px;
-font-family: &#39;Franklin Gothic Medium&#39;,
-&#39;Arial Narrow&#39;, Arial, sans-serif;
+h1 {
+  text-align: center; font-size: 36px;
+  font-family: &#39;Franklin Gothic Medium&#39;,
+  &#39;Arial Narrow&#39;, Arial, sans-serif;
 }
-.container{
-align-items: center; max-width: 600px; max-height: auto; margin: 280px
-auto;
-border: 1px solid black; border-radius: 20px;
-padding: 50px;
+.container {
+  align-items: center; max-width: 600px; max-height: auto; margin: 280px
+  auto;
+  border: 1px solid black; border-radius: 20px;
+  padding: 50px;
 }
 &lt;/style&gt;
 &lt;/head&gt;
 &lt;body&gt;
 &lt;div class=&#34;container&#34;&gt;
-&lt;h1&gt; &lt;u&gt; This is an example of Simple CSS &lt;/u&gt;
-&lt;/h1&gt;
-&lt;!&#45;- Here is the Inline Style &#45;-&gt;
-&lt;h2 style=&#34;color: red&#34;&gt; This is a heading
-element &lt;/h2&gt;
-&lt;p style=&#34;color: purple&#34;&gt; Hello world, this is a paragraph. &lt;/p&gt;
+  &lt;h1&gt; &lt;u&gt; This is an example of Simple CSS &lt;/u&gt;
+  &lt;/h1&gt;
+  &lt;!&#45;- Here is the Inline Style &#45;-&gt;
+  &lt;h2 style=&#34;color: red&#34;&gt; This is a heading
+  element &lt;/h2&gt;
+  &lt;p style=&#34;color: purple&#34;&gt; Hello world, this is a paragraph. &lt;/p&gt;
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;html&gt;
-```
+</pre>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 07.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 07. This is an example of Simple CSS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image007.png?raw=true"
-  alt="."
-  title=""
+  alt="This is an example of Simple CSS."
+  title="This is an example of Simple CSS"
   style="width:3.6in" />
 </p>
 <!-- ![](./images/image007.png){width="3.6140627734033246in" height="1.5131244531933508in"}  -->
@@ -1188,17 +1181,17 @@ is much clearer than the body font.
 
 ###### Now move on to the original CSS. The first thing we do is make the paragraph content a different color. So the type or paste into your style file.css. 
 
-```
+<pre>
 p {color: blue; }
-```
+</pre>
 
 ###### This looks different from the code in the HTML file because it is a dif- ferent syntax. I will add a white area and cut into that code as follows: 
 
-```
+<pre>
 p {
 color: blue;
 }
-```
+</pre>
 
 Both of the above examples are exactly the same about your browser.
 
@@ -1209,11 +1202,11 @@ objects on your webpage. For example, you may decide that a major
 topic on your page is shown as a red flag. The following code shows a
 simple CSS rule.
 
-```
+<pre>
 p {
 color: red; font-size: 5em;
 }
-```
+</pre>
 
 -   For example, the CSS rule opens with a selector.
 
@@ -1239,14 +1232,14 @@ structure can take units of various sizes as a value.
 
 The CSS style sheet will contain many such rules, written in sequence.
 
-```
+<pre>
 p {
 color: red; font-size: 5em;
 }
 h2 {
 color: black;
 }
-```
+</pre>
 
 ### INHERITANCE CSS
 
@@ -1261,9 +1254,9 @@ for a particular nested item.
 
 ##### Sample:
 
-```
+<pre>
 body {font-family: Verdana, serif;}
-```
+</pre>
 
 All text in the HTML file will now be set to the Verdana font family.
 If you want to format certain text with another font like h1 or
@@ -1271,10 +1264,10 @@ paragraph, you can do the following.
 
 ##### Sample:
 
-```
+<pre>
 p {font-family: Tahoma, serif;}, h1 {font- family: Georgia,
 sans-serif;}
-```
+</pre>
 
 ### COMMENT TAGS
 
@@ -1291,13 +1284,13 @@ You can combine items in a single selector as follows.
 
 ##### Sample:
 
-```
+<pre>
 h1, h2, h3, h4, h5, h6
 {
 color: #009900;
 font-family: Georgia, sans Serif;
 }
-```
+</pre>
 
 As you can look on the code above, we've grouped all the header ele-
 ments into a single selector. Each one is separated by a comma. The
@@ -1328,40 +1321,40 @@ An explanation of CSS methods is given below:
     of the following links in the head section of each (X)HTML file that
     you want to style with CSS file.
 
-```
+<pre>
 &lt;link type=&#34;text/css&#34; rel=&#34;stylesheet&#34; href=&#34;Path To
 stylesheet.css&#34; /&gt;
-```
+</pre>
 
 You can also use the &#64;import method like &lt;style type=&#34;text/css&#34;&gt;
 &#64;import url(&#39;Path_to stylesheet. css&#39;) &lt;/style&gt;.
 
 ## Example:
 
-```
+<pre>
 lt;head&gt;
 &lt;title&gt; Title &lt;title&gt;
 &lt;link type=&#34;text/CSS&#34; rel=&#34;stylesheet&#34; href=&#34;style.css&#34; /&gt;
 &lt;/head&gt;
 &lt;body&gt;
-```
+</pre>
 
 ### or,
 
-```
+<pre>
 lt;head&gt;
 &lt;title&gt; Title &lt;title&gt;
 &lt;style type=&#34;text/css&#34;&gt; &#64;import url(&#39;Path of stylesheet.css&#39;)
 &lt;/style&gt;
 &lt;/head&gt;
 &lt;body&gt;
-```
+</pre>
 
 ##### Example:
 
 ###### Index.html
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -1377,11 +1370,11 @@ lt;head&gt;
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;html&gt;
-```
+</pre>
 
 ###### Styless.css
 
-```
+<pre>
 h2, p {
 font-size: 32px;
 color: lightseagreen;
@@ -1398,7 +1391,7 @@ auto;
 border: 1px solid black; border-radius: 20px;
 padding: 50px;
 }
-```
+</pre>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 08.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1414,7 +1407,7 @@ The external style sheet.
 
 ###### **Internal style sheet:** It is a way you are simply placing that CSS code within the &lt;head&gt; and &lt;/head&gt; tags of each HTML file you want to style with the CSS. The format is shown in the example below:
 
-```
+<pre>
 lt;html&gt;
 &lt;head&gt;
 &lt;title&gt; Title - Webpage &lt;title&gt;
@@ -1425,7 +1418,7 @@ CSS Content Goes Here
 &lt;/head&gt;
 &lt;body&gt;
 &lt;/html&gt;
-```
+</pre>
 
 With the above method, each HTML file contains the CSS styling code
 needed to style the page. That means any changes you want to make to a
@@ -1435,7 +1428,7 @@ styles.
 
 ##### Example:
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -1467,7 +1460,7 @@ border: 1px solid black; border-radius: 20px; padding: 50px;
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;html&gt;
-```
+</pre>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 09.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1483,15 +1476,15 @@ The internal style sheet.
 
 ###### **Inline styles:** It is a defeat purpose of using CSS in the first place. Inline styles are defined well in the HTML file alongside the ele- ment you want to style. It may appear in the queue, next to the CSS text.
 
-```
+<pre>
 &lt;div style=&#34;background-color: yellow&#34;&gt; This is inline text
 &lt;/div&gt;
 &lt;p style=&#34;color: #ff0000;&#34;&gt; This a red text&lt;/p&gt;
-```
+</pre>
 
 ##### Example:
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -1508,7 +1501,7 @@ max-width:600px; max-width: auto;&#34;&gt;
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;html&gt;
-```
+</pre>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 10.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1551,12 +1544,12 @@ CSS file with the following.
 
 ##### Sample:
 
-```
+<pre>
 p
 {
 font-size: small; color: #333333
 }
-```
+</pre>
 
 ###### It's pretty simple, but let's say we want to change the word "sentence" to green bold text and leave the rest of the sentence untouched. You would do the following to my HTML file. 
 
@@ -1565,29 +1558,29 @@ sen- tence here &lt;/span&gt; in my CSS file you are reading, it is
 formatted as fol- lows. &lt;/p&gt; Then you add the following style
 selector to my CSS file:
 
-```
+<pre>
 .text
 {
 font-size: small;
 color: #008080; font-weight: bold;
 }
-```
+</pre>
 
 #### CSS IDs
 
 ###### IDs are similar to classes. Suppose once a specific id has been declared, it cannot be used again within the same HTML file. We commonly use IDs to style the layout elements of a page that will only be needed once, whereas we use classes to style text and such that may be declared various times. The main container for the page is defined by the following example: 
 
-```
+<pre>
 &lt;div id=&#34;container&#34;&gt;
-```
+</pre>
 
 ###### It is everything within my document is inside this division. &lt;/div&gt;. You have chosen the id selector for the "container" division over a class because you only need to use it one time within this file. Then in my CSS file, you will have the following example: 
 
-```
+<pre>
 #container { width: 60%; margin: auto; padding: 10px;
 border: 2px solid #666; background: #ffffff;
 }
-```
+</pre>
 
 You will get notice that the id selector should begin with a (#)
 number sign instead of a (.) period, as the class selector does.
@@ -1610,9 +1603,9 @@ is important for web developers.
 
 ##### Sample:
 
-```
+<pre>
 &lt;div id=&#34;main-header&#34;&gt; text &lt;/div&gt;
-```
+</pre>
 
 ### CSS DIVISION
 
@@ -1627,15 +1620,15 @@ section within an HTML file by placing the following between &lt;body&gt;
 
 ##### Sample:
 
-```
+<pre>
 &lt;body&gt;
 &lt;div&gt; Site content go here &lt;/div&gt;
 &lt;/body&gt;
-```
+</pre>
 
 ###### You will most likely want to add some style to it. You can do this in the example below: 
 
-```
+<pre>
 &lt;div id="container"&gt; Site content go here &lt;/div&gt; The CSS file
 contains:
 #container
@@ -1643,7 +1636,7 @@ contains:
 width: 70%; margin: auto; padding: 20px;
 border: 1px solid #666; background: #ffffff;
 }
-```
+</pre>
 
 Now everything in this section will be formatted according to the
 "container" style rule I defined in my CSS
@@ -1664,7 +1657,7 @@ CSS features are used within the ad with the corresponding value.
 
 ##### Example:
 
-```
+<pre>
 section {
 padding: 20px; margin: 20px;
 background-color: cornsilk; border: 6px solid gold;
@@ -1681,7 +1674,7 @@ color: dark orange;
 a:hover {
 color: orangered;
 }
-```
+</pre>
 
 Let's discuss various CSS properties in short. We have a separate
 chap- ter for each of the properties.
@@ -1777,7 +1770,7 @@ this:
 
 ##### Example:
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html lang=&#34;en&#34;&gt;
 &lt;head&gt;
@@ -1814,7 +1807,7 @@ fames ac turpis egestas. &lt;/h2&gt;
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;html&gt;
-```
+</pre>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 11.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -1830,7 +1823,7 @@ Use of RGB in CSS.
 
 ###### These are the common color user in CSS, you can change its value to create a new color. 
 
-```
+<pre>
 **Color Value in RGB Color Name**
 RGB(0, 255, 255)
 RGB(0, 0, 0)
@@ -1850,7 +1843,7 @@ RGB(0, 128, 128)
 RGB(255, 255, 255)
 RGB(255, 255, 0)
 olive purple red silver teal white yellow
-```
+</pre>
 
 ###### Extended Color Keywords
 
@@ -1859,7 +1852,7 @@ specification.
 
 **Color Name RGB Value**
 
-```
+<pre>
 aliceblue antique white aqua aquamarine azure
 beige bisque black
 blanchedalmond blue
@@ -2037,7 +2030,7 @@ RGB(255, 255, 255)
 RGB(245, 245, 245)
 RGB(255, 255, 0)
 RGB(139, 205, 50)
-```
+</pre>
 
 ### DIFFERENT TYPES OF SELECTORS
 
@@ -2052,9 +2045,9 @@ more specific choices. Here are some of the common types of selectors:
 
 ##### Syntax:
 
-```
+<pre>
 &lt;p&gt;
-```
+</pre>
 
 -   The CSS id selector: The selector id uses the id attribute of an
     element to select a particular element. The id is unique in a single
@@ -2064,9 +2057,9 @@ more specific choices. Here are some of the common types of selectors:
 
 ##### Syntax:
 
-```
+<pre>
 &lt;p id=&#34;my-id&#34;&gt; or &lt;a id=&#34;my-id&#34;&gt;
-```
+</pre>
 
 -   The CSS class selector: The selector class selects HTML elements
     with a specific class attribute. To select these elements with a
@@ -2075,19 +2068,19 @@ more specific choices. Here are some of the common types of selectors:
 
 ##### Syntax:
 
-```
+<pre>
 &lt;p class=&#34;my-class&#34;&gt; Add Some text &lt;/p&gt; and
 &lt;a class=&#34;my-class&#34;&gt; Add Some text&lt;/a&gt;
-```
+</pre>
 
 -   Attribute selector: The elements on the page with the particular
     attribute.
 
 ##### Syntax:
 
-```
+<pre>
 &lt;img src=&#34;myimage.png&#34;/&gt;
-```
+</pre>
 
 -   The CSS universal selector: The universal (&#42;) selects all HTML ele-
     ments on the page. To select these elements with a specific class,
@@ -2095,18 +2088,18 @@ more specific choices. Here are some of the common types of selectors:
 
 ##### Syntax:
 
-```
+<pre>
 &#42;
-```
+</pre>
 
 ##### Example:
 
-```
+<pre>
 {
 font-size: 20px:
 color: blue;
 }
-```
+</pre>
 
 -   The CSS grouping selector: The grouping selector selects every ele-
     ment with the same style definitions. Now, look at the following
@@ -2117,9 +2110,9 @@ color: blue;
 
 ##### Syntax:
 
-```
+<pre>
 a:hover
-```
+</pre>
 
 selects &lt;a&gt;, works when the mouse pointer is hovering over the link.
 
@@ -2131,7 +2124,7 @@ would be multiple CSS properties in one.
 
 ##### Example:
 
-```
+<pre>
 body {
 background:
 URL(sweettexture.jpg) /&#42; image &#42;/
@@ -2142,7 +2135,7 @@ padding-box /&#42; origin &#42;/
 content-box /&#42; clip &#42;/
 red; /&#42; color &#42;/
 }
-```
+</pre>
 
 There are eight other properties available under the background given
 below:
@@ -2163,23 +2156,23 @@ to use, in almost any order
 
 ###### CSS3 added support for various backgrounds, which layer over the top of each other. Any property related to the backgrounds can take a comma (,) separated list, like this: 
 
-```
+<pre>
 .tagname {
 background: URL(image1.jpg), URL(image2.jpg) black; background-repeat:
 repeat-x, no-repeat;
 }
-```
+</pre>
 
 ### CSS BORDER
 
 ###### The border property is a syntax in CSS that accepts multiple values for drawing a line around the element it is applied to: 
 
-```
+<pre>
 .container{
 border: 3px solid red; height: 200px;
 width: 200px;
 }
-```
+</pre>
 
 ###### Border
 
@@ -2221,12 +2214,12 @@ or thick.
 
 ##### Example:
 
-```
+<pre>
 p.one {
 border-style: solid; //You can add your border width here
 border-width: 5px;
 }
-```
+</pre>
 
 The border color property is used to define the color of the four
 borders.
@@ -2491,7 +2484,7 @@ rules, applies to certain types of media.
 pixels Arial font on the screen, but when printing it will be in Times
 font 12 points.
 
-```
+<pre>
 &#64;media screen { body {
 color: black; font-size: 12px;
 }
@@ -2504,7 +2497,7 @@ color: &#35; fff; font-size: 10pt;
 line-length: 1;
 }
 }
-```
+</pre>
 
 ### METHOD 2: USING &#64;IMPORT AT-RULES
 
@@ -2514,24 +2507,24 @@ of the imported style sheets.
 
 ##### Example:
 
-```
+<pre>
 &#64;import URL (&#34;CSS / screen.css&#34;) screen; &#64;import URL (&#34;CSS /
 print.css&#34;) print; div {
 background: &#35; f5f5f5; line length: 1.2;
 }
-```
+</pre>
 
 #### METHOD 3: USING THE &lt;link&gt; ELEMENT
 
 ###### The media attribute in the &lt;link&gt; feature is used to specify targeted media on an external style sheet within an HTML document.
  
- ```
+ <pre>
 &lt;link rel = &#34;stylesheet&#34; href = &#34;css / common.css&#34; media =
 &#34;all&#34;&gt;
 
 &lt;link rel = &#34;stylesheet&#34; href = &#34;css / print.css&#34; media =
 &#34;print&#34;&gt;
-```
+</pre>
 
 ### DIFFERENT MEDIA TYPES
 
@@ -7150,11 +7143,11 @@ You are learning CSS.
 
 ###### The output of the code is given below:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 60.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 60. css text-shadow property ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image060.png?raw=true"
-  alt="."
-  title=""
+  alt="CSS text-shadow property."
+  title="CSS text-shadow property"
   style="width:1.8in" />
 </p>
 <!-- ![](./images/image060.png){width="1.8697911198600174in" height="1.518228346456693in"}  -->
@@ -7364,11 +7357,11 @@ box8&#34;&gt;rotate(-45deg)&lt;/div&gt;
 
 ###### The output of the code is given below:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 61.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 61. 2d transform functions ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image061.png?raw=true"
-  alt="."
-  title=""
+  alt="2d transform functions."
+  title="2d transform functions"
   style="width:4.4in" />
 </p>
 <!-- ![](./images/image061.png){width="4.429687226596675in" height="2.041874453193351in"}  -->
@@ -7464,7 +7457,7 @@ perspective() = perspective( &lt;length&gt; )
 
 ##### Example:
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -7515,15 +7508,15 @@ z&#34;&gt;translateZ(200px)&lt;/div&gt;
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
 ###### The output of the code is given below:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 62.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 62. 3d transform functions ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image062.png?raw=true"
-  alt="."
-  title=""
+  alt="3d transform functions."
+  title="3d transform functions"
   style="width:4.4in" />
 </p>
 <!-- ![](./images/image062.png){width="4.426909448818898in" height="1.2375in"}  -->
@@ -7540,7 +7533,7 @@ transition-timing-function, and transition-delay.
 
 ##### Example:
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -7573,15 +7566,15 @@ background-color: beige;
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
 ###### The output of the code is given below:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 63.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 63. css transition properties ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image063.png?raw=true"
-  alt="."
-  title=""
+  alt="CSS transition Properties."
+  title="CSS transition Properties"
   style="width:3.7in" />
 </p>
 <!-- ![](./images/image063.png){width="3.7734372265966756in" height="2.120311679790026in"}  -->
@@ -7733,11 +7726,11 @@ quis fermentum nulla.
 
 ###### The output of the code is given below:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 64.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 64. universal selectors (*) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image064.png?raw=true"
-  alt="."
-  title=""
+  alt="Universal Selectors (&ast;)."
+  title="Universal Selectors (&ast;)"
   style="width:4.4in" />
 </p>
 <!-- ![](./images/image064.png){width="4.429714566929134in" height="2.0559372265966753in"}  -->
@@ -7780,11 +7773,11 @@ quis fermentum nulla.
 
 ###### The output of the code is given below:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 65.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~ 65. Universal Selectors (p, div, h1, aside, section, article) ~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image065.png?raw=true"
-  alt="."
-  title=""
+  alt="Universal Selectors (p, div, h1, aside, section, article)."
+  title="Universal Selectors (p, div, h1, aside, section, article)"
   style="width:4.4in" />
 </p>
 <!-- ![](./images/image065.png){width="4.429687226596675in" height="1.38375in"}  -->
@@ -7832,11 +7825,11 @@ consequat turpis eros a erat. Cras blandit vehicula arcu ac porta.
 
 ###### The output of the code is given below:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 66.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 66. Logical Selectors (:not) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image066.png?raw=true"
-  alt="."
-  title=""
+  alt="Logical Selectors (:not)."
+  title="Logical Selectors (:not)"
   style="width:4.4in" />
 </p>
 <!-- ![](./images/image066.png){width="4.429687226596675in" height="1.4821872265966753in"}  -->
@@ -7931,37 +7924,37 @@ The argument can be either a % value or a number.
 
 ##### Example:
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
 &lt;style&gt;
 &#42; { padding:0; margin:0;
-box-sizing: border-box;
+  box-sizing: border-box;
 }
 .demo_container{ padding:20px; width:800px; margin:0 auto;
-justify-content: center; align-items: center;
+  justify-content: center; align-items: center;
 }
-img{
-width:100%; height:250px;
+img {
+  width:100%; height:250px;
 }
-.row{
-display: flex;
+.row {
+  display: flex;
 }
-.col{
-width:100%
+.col {
+  width:100%
 }
 .image-1 {
-filter: brightness(50%);
+  filter: brightness(50%);
 }
 .image-2 {
-filter: brightness(150%);
+  filter: brightness(150%);
 }
 .image-3 {
-filter: brightness(2.5);
+  filter: brightness(2.5);
 }
-p{
-padding-top: 20px; font-size:20px
+p {
+  padding-top: 20px; font-size:20px
 }
 &lt;/style&gt;
 &lt;/head&gt;
@@ -7985,7 +7978,7 @@ padding-top: 20px; font-size:20px
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
 ###### The output of the above code is given below:
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -12323,35 +12316,35 @@ stylelint &#34;&#42;&#42;/&#42;.scss&#34; &#45;-config foo/bar/.stylelintrc.json
 
 Installation:
 
-```
+<pre>
 &#36; npm install postcss-assets &#45;-save-dev
 Gulp (gulp-postcss)
-```
+</pre>
 
 PostCSS gulp plugin to pipe CSS through several plugins, but parse CSS only once.
 
 Installation of gulp-postcss:
 
-```
+<pre>
 &#36; npm install &#45;-save-dev postcss gulp-postcss
-```
+</pre>
 
 *Basic*
 
 ###### The configuration is loaded by own from postcss.config.js as described here, so 
 you don't have to specify any options. 
 
-```
+<pre>
 var postcss = require(&#39;gulp-postcss&#39;); var gulp = require(&#39;gulp&#39;);
 gulp.task(&#39;css&#39;, function () { return gulp.src(&#39;./src/&#42;.css&#39;)
 .pipe(postcss())
 .pipe(gulp.dest(&#39;./dest&#39;));
 });
-```
+</pre>
 
 ###### Passing plugins directly using gulp:
 
-```
+<pre>
 var postcss = require(&#39;gulp-postcss&#39;); var gulp = require(&#39;gulp&#39;);
 var autoprefixer = require(&#39;autoprefixer&#39;);
 var cssnano = require(&#39;cssnano&#39;);
@@ -12362,7 +12355,7 @@ return gulp.src(&#39;./src/&#42;.css&#39;)
 .pipe(postcss(plugins))
 .pipe(gulp.dest(&#39;./dest&#39;));
 });
-```
+</pre>
 
 ###### Grunt
 
@@ -12370,19 +12363,19 @@ Now we will explain how to create a Gruntfile and install and use
 Grunt plugins. Once you are familiar with that process, you can
 install this plu- gin with this command:
 
-```
+<pre>
 &#36; npm install grunt-postcss &#45;-save-dev
-```
+</pre>
 
 ###### Once the plugin has been installed, then may enable inside Gruntfile with this line of JavaScript:
 
-```
+<pre>
 grunt.loadNpmTasks(&#39;grunt-postcss&#39;);
-```
+</pre>
 
 ###### How to use the plugins in the code:
 
-```
+<pre>
 &#36; npm install grunt-postcss pixrem autoprefixer cssnano
 grunt.initConfig({ postcss: {
 options: {
@@ -12404,7 +12397,7 @@ src: &#39;css/&#42;.css&#39;
 }
 }
 });
-```
+</pre>
 
 FONT MAGICIAN
 Font Magician is a PostCSS plugin that magically generates all of your
@@ -12412,15 +12405,15 @@ Font Magician is a PostCSS plugin that magically generates all of your
 Here is an example of font magician:
 Just use the font and font-family properties as if they were magic.
 
-```
+<pre>
 body {
 font-family: &#34;Alice&#34;;
 }
-```
+</pre>
 
 The output will be, 
 
-```
+<pre>
 &#64;font-face {
 font-family: &#34;Alice&#34;; font-style: normal; font-weight: 400;
 src: local(&#34;Alice&#34;), local(&#34;Alice-Regular&#34;),
@@ -12436,14 +12429,14 @@ acf9XsUhgp1k2j79ATk2cw.ttf&#34;) format(&#34;truetype&#34;)
 body {
 font-family: &#34;Alice&#34;;
 }
-```
+</pre>
 
 ###### Installation: You can add Font Magician to your build tool: 
 
-```
+<pre>
 &#36; npm install postcss postcss-font-magician &#45;-save-dev
 yarn add postcss postcss-font-magician &#45;-dev
-```
+</pre>
 
 LOST GRID
 LostGrid is a powerful grid system built in PostCSS that works with 
@@ -12458,20 +12451,20 @@ You can do installation by using the below libraries:
 -   Gulp: First, you have to install NodeJs then install gulp globally
     using the below command:
 
-```
+<pre>
 &#36; npm install &#45;-global gulp
-```
+</pre>
 
 ###### You can also install dependencies:
 
-```
+<pre>
 &#36; npm install &#45;-save-dev gulp gulp-postcss gulp- sourcemaps
 autoprefixer lost
-```
+</pre>
 
 ###### Now create a gulpfile.js with the following code: 
 
-```
+<pre>
 var gulp = require(&#39;gulp&#39;),
 postcss = require(&#39;gulp-postcss&#39;), sourcemaps =
 require(&#39;gulp-sourcemaps&#39;), autoprefixer =
@@ -12489,27 +12482,27 @@ return gulp.src(paths.cssSource + &#39;&#42;&#42;/&#42;.css&#39;)
 });
 gulp.watch(paths.cssSource + &#39;&#42;&#42;/&#42;.css&#39;, &#91;&#39;styles&#39;&#93;);
 gulp.task(&#39;default&#39;, &#91;&#39;styles&#39;&#93;);
-```
+</pre>
 
 ###### At last run gulp.
 
 -   Grunt: First, you have to install NodeJs then install Grunt using
     this command:
 
-```
+<pre>
 &#36; npm install &#45;-global grunt-cli
-```
+</pre>
 
 ###### Install dev dependencies:
 
-```
+<pre>
 &#36; npm install &#45;-save-dev grunt grunt-postcss grunt-autoprefixer
 grunt-contrib-watch lost
-```
+</pre>
 
 ###### Create a Gruntfile.js with the following code:
 
-```
+<pre>
 module.exports = function(grunt) { grunt.initConfig({
 postcss: { options: {
 map: true, processors: &#91;
@@ -12535,39 +12528,39 @@ grunt.loadNpmTasks(&#39;grunt-autoprefixer&#39;);
 grunt.loadNpmTasks(&#39;grunt-contrib-watch&#39;);
 grunt.registerTask(&#39;default&#39;, &#91;&#39;watch&#39;&#93;);
 };
-```
+</pre>
 
 ###### Brunch: First, you install NodeJS then install Brunch using this command:
 
-```
+<pre>
 &#36; npm install -g brunch
-```
+</pre>
 
 Create a new Brunch project brunch new
 
 ###### Install PostCSS:
 
-```
+<pre>
 &#36; npm install &#45;-save postcss-brunch
-```
+</pre>
 
 ###### Install Autoprefixer:
 
-```
+<pre>
 &#36; npm install &#45;-save autoprefixer
-```
+</pre>
 
 ###### Install Lost:
 
-```
+<pre>
 &#36; npm install &#45;-save lost
-```
+</pre>
 
 ###### Update brunch-config.coffee
 
 This will be file of export given below:
 
-```
+<pre>
 exports.config = files:
 javascripts: joinTo: &#39;app.js&#39;
 stylesheets: joinTo: &#39;app.css&#39;
@@ -12576,7 +12569,7 @@ joinTo: &#39;app.js&#39;
 plugins: postcss:
 processors: &#91; require(&#39;autoprefixer&#39;)(), require(&#39;lost&#39;)
 &#93;
-```
+</pre>
 
 ###### Now run the brunch using this command:
 
@@ -12662,20 +12655,20 @@ We discuss some of the plugins in brief.
 CSS Modules compile to a low-level interchange format called ICSS or
 Interoperable CSS but are written like normal CSS files:
 
-```
+<pre>
 /&#42; style.css &#42;/
 .className { color: green;
 }
-```
+</pre>
 
 ###### When importing the CSS Module from a JS Module, it exports an object with all mappings from local names to global names. 
 
-```
+<pre>
 import styles from &#34;./style.css&#34;;
 // import { className } from &#34;./style.css&#34;; element.innerHTML =
 &#39;&lt;div class=&#34;&#39; + styles.className
 &#43; &#39;&#34;&gt;&#39;;
-```
+</pre>
 
 ###### Naming (localsConvention)
 
@@ -12716,7 +12709,7 @@ code.
 
 ##### Example:
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html lang=&#34;en&#34; class=&#34;no-js&#34;&gt;
 &lt;head&gt;
@@ -12751,11 +12744,11 @@ typekit.net/zhq0vyf.css&#34;&gt;
 &lt;/main&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
 ### Style.css
 
-```
+<pre>
 #42;,
 &#42;::after,
 &#42;::before {
@@ -12852,7 +12845,7 @@ transform: translate3d(var(&#45;-move-initial), 0,
 transform: translate3d(var(&#45;-move-final), 0,
 }
 }
-```
+</pre>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 105.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -12870,7 +12863,7 @@ When you paste this link in the chrome URL address bar
 [typekit.net/zhq0vyf.css](https://use.typekit.net/) ) after that you
 will get this code on the page given below:
 
-```
+<pre>
 &#64;import url(&#34;https://p.typekit.net/p.css?s=1&k=zhq0vyf
 &ht=tk&f=24537.24538.24539.24540.24547.38192.38197.381
 98.38199.38200&a=1494256&app=typekit&e=css&#34;);
@@ -12904,11 +12897,11 @@ be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9
 font-display:auto;font-style:italic;font-
 weight:900;font-stretch:normal;
 }
-```
+</pre>
 
 ###### Another example:
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html lang=&#34;en&#34; class=&#34;no-js&#34;&gt;
 &lt;head&gt;
@@ -13014,7 +13007,7 @@ s
 &lt;/script&gt;
 
 &lt;/html&gt;
-```
+</pre>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 106.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
