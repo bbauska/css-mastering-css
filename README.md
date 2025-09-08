@@ -1,5 +1,6 @@
-# CSS Mastering CSS
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h1>CSS Mastering CSS</h1>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!-- ![](./images/image001.jpeg){width="5.28125in" height="8.191903980752405in"}  -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 01. title: mastering css: a beginner's guide ~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -40,7 +41,7 @@ create a website. Af- ter finishing this book, readers will quickly
 build their website with absolute ease, even if they were utterly
 oblivious to it before.
 
-## About the Series
+<h2>About the Series</h2>
 
 The *Mastering Computer Science* covers a wide range of topics,
 spanning programming languages as well as modern-day technologies and
@@ -78,11 +79,13 @@ For more information about this series, please visit:
 [https://www.rout-](https://www.routledge.com/Mastering-Computer-Science/book-series/MCS)
 [ledge.com/Mastering-Computer-Science/book-series/MCS](https://www.routledge.com/Mastering-Computer-Science/book-series/MCS)
 
-# Mastering CSS
-
-A Beginner's Guide
-
-#### Edited by
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h1>Mastering CSS</h1>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2>A Beginner's Guide</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3>Edited by</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Sufyan bin Uzayr
 
 <!-- ![](./images/image004.png){width="1.154154636920385in" height="0.4114577865266842in"} -->
@@ -185,7 +188,9 @@ by KnowledgeWorks Global Ltd.
 </p>
 <!-- ![](./images/image006.png){width="3.6393208661417322in" height="0.9622911198600175in"}  -->
 
-# Contents
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2>Contents</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 [About the Editor, xv](#about-the-editor) [Acknowledgments,
 xvi](#acknowledgments)
@@ -615,7 +620,9 @@ xvii](#zeba-academy-mastering-computer-science)
 
 [INDEX, 421](#index)
 
-# About the Editor
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2>About the Editor</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 **Sufyan bin Uzayr** is a writer, coder, and entrepreneur having over
 a decade of experience in the industry. He has authored several books
@@ -641,7 +648,9 @@ Learn more at [sufyanism.com](https://sufyanism.com/)
 
 **xv**
 
-# Acknowledgments
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2>Acknowledgments</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 There are many people who deserve being on this page because this book
 would not have come into existence without their support. That said,
@@ -669,11 +678,13 @@ some names deserve a special mention, and I am genuinely grateful to:
 -   The programming community in general, and the web development
     community in particular, for all their hard work and efforts.
 
-##### Sufyan bin Uzayr
+<h4>Sufyan bin Uzayr</h4>
 
 **xvi**
 
-# Zeba Academy -- Mastering Computer Science
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2>Zeba Academy -- Mastering Computer Science</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 The "Mastering Computer Science" series of books are authored by the
 Zeba Academy team members, led by Sufyan bin Uzayr, consisting of:
@@ -716,11 +727,13 @@ For more info, please visit
 
 CHAPTER 1
 
-# CSS
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2>CSS</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 *Introduction*
 
-### IN THIS CHAPTER
+<h2>IN THIS CHAPTER</h2>
 
 -   Introduction
 
@@ -740,9 +753,9 @@ page with CSS files. The other concepts like modules, selectors, ids,
 borders, attributes, tables, form, colors, etc. will also be covered
 in this whole les- son. So let's get started with the basics of CSS.
 
-### INTRODUCTION
+<h2>INTRODUCTION</h2>
 
-###### A document is usually a text file created using tag language -- HTML is the common 
+A document is usually a text file created using tag language -- HTML is the common 
 markup language, but you can also merge with other tag lan- guages such as SVG or XML. It 
 is presenting a document to other user means converting it into a form used by your 
 audience. The other browsers, such as Firefox, Chrome, or Edge, are designed
@@ -763,7 +776,7 @@ a structure, for example, to convert a single column of text into a
 structure with the main content area and a different bar for related
 information. It can be used for effects such as animation.
 
-### HISTORY
+<h2>HISTORY</h2>
 
 CSS is highly regarded by the Norwegian Håkon Wium Lie, who in 1994
 wanted to create a standard style sheet for the World Wide Web. The
@@ -802,7 +815,7 @@ Since the introduction of CSS, he has appealed to major technology
 players like Microsoft and other browsers to support the standard web
 standards and continue to improve.
 
-### WHY DO WE NEED CSS?
+<h2>WHY DO WE NEED CSS?</h2>
 
 First, applying CSS ensures that your web pages are consistent. If
 your website has 100 pages, now imagine that you have to enter a code
@@ -815,7 +828,7 @@ CSS also makes that possible. Using CSS brings flexibility where
 needed, but it is flexible enough to be able to make changes to an
 individual page or a section.
 
-### WHY DO WE USE CSS?
+<h2>WHY DO WE USE CSS?</h2>
 
 For a website to work properly, it must have a fast download time.
 Nowadays, people usually wait a few seconds for a website to load.
@@ -846,7 +859,7 @@ You can change the location of the HTML tag
 with the help of CSS. You can set things as an image on any part of a
 web page as needed.
 
-### [DIFFERENT VERSION OF CSS]
+<h2>[DIFFERENT VERSION OF CSS]</h2>
 
 -   **CSS1 and CSS2 (no longer applicable)** -- Released from W3C as a
     recommendation in December 1996. This version defines the CSS
@@ -877,7 +890,7 @@ differences between CSS2 and CSS3 are as follows:
 -   Color
 -   CSS4 has never become an official version.
 
-### MAJOR DIFFERENCES BETWEEN CSS, CSS2, AND CSS3
+<h2>MAJOR DIFFERENCES BETWEEN CSS, CSS2, AND CSS3</h2>
 
 CSS was originally released in 1996 and contains features to add font
 lay- outs such as typeface and text color emphasis, background, and
@@ -891,7 +904,7 @@ Google Fonts and Typecast. Previously, with CSS and CSS2, designers
 could only use "secure web fonts" to ensure 100% use of fonts that
 would always show the same throughout the machine.
 
-### CSS SPECIFICATION
+<h2>CSS SPECIFICATION</h2>
 
 All web-level technologies (HTML, CSS, JavaScript, etc.) are defined
 in large documents called specifications (or "specs"), published by
@@ -921,7 +934,7 @@ However, it is worth knowing that these features exist and to
 understand the relationship between the CSS
 you are using, browser support (see below), and details.
 
-### CSS MODULES
+<h2>CSS MODULES</h2>
 
 As there are many things you can style using CSS, the language is
 divided into modules. You will see a reference to these modules as
@@ -943,7 +956,7 @@ some- thing about HTML, then it is good; if not, let's have a brief
 introduction to HTML and how to link a CSS file with HTML for changing
 styles.
 
-### BASIC HTML
+<h2>BASIC HTML</h2>
 
 The following section provides an introduction to HTML. We cannot
 imagine web pages and the World Wide Web without HTML. It is the
@@ -1080,15 +1093,15 @@ to know where we can use it.
 -   FrontPage, Dreamweaver, and many other development tools sup- port
     HTML.
 
-### STARTING WITH A SPECIFIC HTML
+<h2>STARTING WITH A SPECIFIC HTML</h2>
 
-###### HTML and CSS are two methods of tags (code), with their own unique syntax. There is a difference between the two. You can think of HTML as a page layout, while CSS gives HTML its own style. 
+HTML and CSS are two methods of tags (code), with their own unique syntax. There is a difference between the two. You can think of HTML as a page layout, while CSS gives HTML its own style. 
 
 HTML = structure CSS = style
 
-### LINKING YOUR HTML AND CSS FILES
+<h2>LINKING YOUR HTML AND CSS FILES</h2>
 
-###### Before we can write CSS, we have to go back to HTML. You need to write a new line to link the HTML file and CSS file together. So, open the HTML file and add the provided line "&lt;link href =" style.css "rel =" stylesheet "type =" text / CSS "/&gt;". Your file code looks like this, 
+Before we can write CSS, we have to go back to HTML. You need to write a new line to link the HTML file and CSS file together. So, open the HTML file and add the provided line "&lt;link href =" style.css "rel =" stylesheet "type =" text / CSS "/&gt;". Your file code looks like this, 
 
 <pre>
 &lt;!DOCTYPE html&gt;
@@ -1148,7 +1161,7 @@ index.html file. The rel attribute tells your browser that this is a
 style sheet. The attribute type tells the browser that the linked file
 should be translated as CSS syntax.
 
-### HOW CSS AND HTML WORK TOGETHER
+<h2>HOW CSS AND HTML WORK TOGETHER</h2>
 
 CSS is only concerned with web page layout, while page content is
 defined using marker language such as HTML. The separation of style
@@ -1163,7 +1176,7 @@ recommended. CSS texts can be created in any text editor, such as Text
 Editor on Mac or Notepad for Windows, as well as many other free also
 paid options that you can download.
 
-### HOW DOES CSS WORK?
+<h2>HOW DOES CSS WORK?</h2>
 
 CSS contains the rules and values that a web browser can use in the
 content of a web page to better display its content. For example, you
@@ -1177,19 +1190,17 @@ file -- such as setting body font in blue and section font in green.
 In this case, the effective rule will be the category font, because it
 is much clearer than the body font.
 
-### CSS SYNTAX
+<h2>CSS SYNTAX</h2>
 
-###### Now move on to the original CSS. The first thing we do is make the paragraph content a different color. So the type or paste into your style file.css. 
+Now move on to the original CSS. The first thing we do is make the paragraph content a different color. So the type or paste into your style file.css. 
 
-<pre>
-p {color: blue; }
-</pre>
+<pre>p { color: blue; }</pre>
 
-###### This looks different from the code in the HTML file because it is a dif- ferent syntax. I will add a white area and cut into that code as follows: 
+This looks different from the code in the HTML file because it is a dif- ferent syntax. I will add a white area and cut into that code as follows: 
 
 <pre>
 p {
-color: blue;
+  color: blue;
 }
 </pre>
 
@@ -1204,7 +1215,7 @@ simple CSS rule.
 
 <pre>
 p {
-color: red; font-size: 5em;
+  color: red; font-size: 5em;
 }
 </pre>
 
@@ -1234,42 +1245,38 @@ The CSS style sheet will contain many such rules, written in sequence.
 
 <pre>
 p {
-color: red; font-size: 5em;
+  color: red; font-size: 5em;
 }
 h2 {
-color: black;
+  color: black;
 }
 </pre>
 
-### INHERITANCE CSS
+<h2>INHERITANCE CSS</h2>
 
 When you nest an element inside another, the nested element inherits
 the properties assigned to the containing element. Unless you change
 the val- ues of the inner items independently. For instance, a font
-declared in the
-
-body is inherited by all text in the file,
+declared in the body is inherited by all text in the file,
 regardless of the item it contains, unless you declare another font
 for a particular nested item.
 
-##### Sample:
+<h4>Sample:</h4>
 
-<pre>
-body {font-family: Verdana, serif;}
-</pre>
+<pre>body {font-family: Verdana, serif;}</pre>
 
 All text in the HTML file will now be set to the Verdana font family.
 If you want to format certain text with another font like h1 or
 paragraph, you can do the following.
 
-##### Sample:
+<h4>Sample:</h4>
 
 <pre>
 p {font-family: Tahoma, serif;}, h1 {font- family: Georgia,
 sans-serif;}
 </pre>
 
-### COMMENT TAGS
+<h2>COMMENT TAGS</h2>
 
 Comments can be used to explain why you're adding certain selectors to
 your CSS file. To help others who might see your file or remember what
@@ -1282,7 +1289,7 @@ immediately after the opening tag &#42; (asterisks) followed by /
 Merge selectors.
 You can combine items in a single selector as follows.
 
-##### Sample:
+<h4>Sample:</h4>
 
 <pre>
 h1, h2, h3, h4, h5, h6
@@ -1298,9 +1305,9 @@ final result of the above code will set all headers to green and to
 the specified font. If the user doesn't have the first font we
 declared, they will go for another sans-serif font.
 
-### DIFFERENT TYPES OF CSS YOU CAN USE
+<h2>DIFFERENT TYPES OF CSS YOU CAN USE</h2>
 
-###### There are three ways to write CSS for a web page. You have to decide which one is better for you, but we recommend using an External Style Sheet, which is the third type we'll learn today. 
+There are three ways to write CSS for a web page. You have to decide which one is better for you, but we recommend using an External Style Sheet, which is the third type we'll learn today. 
 
 Here are three ways to use CSS:
 
@@ -1329,7 +1336,7 @@ stylesheet.css&#34; /&gt;
 You can also use the &#64;import method like &lt;style type=&#34;text/css&#34;&gt;
 &#64;import url(&#39;Path_to stylesheet. css&#39;) &lt;/style&gt;.
 
-## Example:
+<h4>Example:</h4>
 
 <pre>
 lt;head&gt;
@@ -1339,7 +1346,7 @@ lt;head&gt;
 &lt;body&gt;
 </pre>
 
-### or,
+<h2>or,</h2>
 
 <pre>
 lt;head&gt;
@@ -1350,9 +1357,9 @@ lt;head&gt;
 &lt;body&gt;
 </pre>
 
-##### Example:
+<h4>Example:</h4>
 
-###### Index.html
+<h5>Index.html</h5>
 
 <pre>
 &lt;!DOCTYPE html&gt;
@@ -1372,24 +1379,24 @@ lt;head&gt;
 &lt;html&gt;
 </pre>
 
-###### Styless.css
+<h5>Styless.css</h5>
 
 <pre>
 h2, p {
-font-size: 32px;
-color: lightseagreen;
-text-shadow: 2px 2px black;
+  font-size: 32px;
+  color: lightseagreen;
+  text-shadow: 2px 2px black;
 }
 h1 {
-font-size: 42px;
-font-family: &#39;Franklin Gothic Medium&#39;, &#39;Arial Narrow&#39;, Arial,
-sans-serif;
+  font-size: 42px;
+  font-family: &#39;Franklin Gothic Medium&#39;, &#39;Arial Narrow&#39;, Arial,
+  sans-serif;
 }
 .container {
-align-items: center; max-width: 800px; max-height: auto; margin: 280px
-auto;
-border: 1px solid black; border-radius: 20px;
-padding: 50px;
+  align-items: center; max-width: 800px; max-height: auto; margin: 280px
+  auto;
+  border: 1px solid black; border-radius: 20px;
+  padding: 50px;
 }
 </pre>
 
@@ -1405,7 +1412,7 @@ padding: 50px;
 
 The external style sheet.
 
-###### **Internal style sheet:** It is a way you are simply placing that CSS code within the &lt;head&gt; and &lt;/head&gt; tags of each HTML file you want to style with the CSS. The format is shown in the example below:
+**Internal style sheet:** It is a way you are simply placing that CSS code within the &lt;head&gt; and &lt;/head&gt; tags of each HTML file you want to style with the CSS. The format is shown in the example below:
 
 <pre>
 lt;html&gt;
@@ -1426,7 +1433,7 @@ page, will have to be made to all. The method can be good if you need
 to style only a page, or if you want other pages to have varying
 styles.
 
-##### Example:
+<h4>Example:</h4>
 
 <pre>
 &lt;!DOCTYPE html&gt;
@@ -1436,19 +1443,19 @@ styles.
 &lt;!&#45;- Here is the Internal Style &#45;-&gt;
 &lt;style&gt;
 h2, p {
-font-size: 32px;
-color: lightseagreen;
-text-shadow: 2px 2px black;
+  font-size: 32px;
+  color: lightseagreen;
+  text-shadow: 2px 2px black;
 }
 h1 {
-font-size: 42px;
-font-family: &#39;Franklin Gothic Medium&#39;, &#39;Arial Narrow&#39;, Arial,
-sans-serif;
+  font-size: 42px;
+  font-family: &#39;Franklin Gothic Medium&#39;, &#39;Arial Narrow&#39;, Arial,
+  sans-serif;
 }
 . container {
-align-items: center; max-width: 800px; max-height: auto; margin: 280px
-auto;
-border: 1px solid black; border-radius: 20px; padding: 50px;
+  align-items: center; max-width: 800px; max-height: auto; margin: 280px
+  auto;
+  border: 1px solid black; border-radius: 20px; padding: 50px;
 }
 &lt;/style&gt;
 &lt;/head&gt;
@@ -1474,7 +1481,7 @@ border: 1px solid black; border-radius: 20px; padding: 50px;
 
 The internal style sheet.
 
-###### **Inline styles:** It is a defeat purpose of using CSS in the first place. Inline styles are defined well in the HTML file alongside the ele- ment you want to style. It may appear in the queue, next to the CSS text.
+**Inline styles:** It is a defeat purpose of using CSS in the first place. Inline styles are defined well in the HTML file alongside the ele- ment you want to style. It may appear in the queue, next to the CSS text.
 
 <pre>
 &lt;div style=&#34;background-color: yellow&#34;&gt; This is inline text
@@ -1482,7 +1489,7 @@ The internal style sheet.
 &lt;p style=&#34;color: #ff0000;&#34;&gt; This a red text&lt;/p&gt;
 </pre>
 
-##### Example:
+<h4>Example:</h4>
 
 <pre>
 &lt;!DOCTYPE html&gt;
@@ -1531,7 +1538,7 @@ reasons why this is better.
 -   Reduced Bandwidth
 -   Improved Flexibility
 
-### CSS CLASSES
+<h2>CSS CLASSES</h2>
 
 The class selector lets you style elements in the same HTML element
 dif- ferently. It's similar to what I mentioned in the introduction
@@ -1542,16 +1549,16 @@ and over in an HTML file.
 To put it more simply, the sentence you are reading is defined in my
 CSS file with the following.
 
-##### Sample:
+<h4>Sample:</h4>
 
 <pre>
 p
 {
-font-size: small; color: #333333
+  font-size: small; color: #333333
 }
 </pre>
 
-###### It's pretty simple, but let's say we want to change the word "sentence" to green bold text and leave the rest of the sentence untouched. You would do the following to my HTML file. 
+It's pretty simple, but let's say we want to change the word "sentence" to green bold text and leave the rest of the sentence untouched. You would do the following to my HTML file. 
 
 &lt;p&gt; In simple terms, this &lt;span class="text"&gt; You can write your
 sen- tence here &lt;/span&gt; in my CSS file you are reading, it is
@@ -1561,31 +1568,29 @@ selector to my CSS file:
 <pre>
 .text
 {
-font-size: small;
-color: #008080; font-weight: bold;
+  font-size: small;
+  color: #008080; font-weight: bold;
 }
 </pre>
 
-#### CSS IDs
+<h3>CSS IDs</h3>
 
-###### IDs are similar to classes. Suppose once a specific id has been declared, it cannot be used again within the same HTML file. We commonly use IDs to style the layout elements of a page that will only be needed once, whereas we use classes to style text and such that may be declared various times. The main container for the page is defined by the following example: 
+IDs are similar to classes. Suppose once a specific id has been declared, it cannot be used again within the same HTML file. We commonly use IDs to style the layout elements of a page that will only be needed once, whereas we use classes to style text and such that may be declared various times. The main container for the page is defined by the following example: 
 
-<pre>
-&lt;div id=&#34;container&#34;&gt;
-</pre>
+<pre>&lt;div id=&#34;container&#34;&gt;</pre>
 
-###### It is everything within my document is inside this division. &lt;/div&gt;. You have chosen the id selector for the "container" division over a class because you only need to use it one time within this file. Then in my CSS file, you will have the following example: 
+It is everything within my document is inside this division. &lt;/div&gt;. You have chosen the id selector for the "container" division over a class because you only need to use it one time within this file. Then in my CSS file, you will have the following example: 
 
 <pre>
 #container { width: 60%; margin: auto; padding: 10px;
-border: 2px solid #666; background: #ffffff;
+  border: 2px solid #666; background: #ffffff;
 }
 </pre>
 
 You will get notice that the id selector should begin with a (#)
 number sign instead of a (.) period, as the class selector does.
 
-### WHAT IS THE DIFFERENCE BETWEEN ID AND CLASS?
+<h2>WHAT IS THE DIFFERENCE BETWEEN ID AND CLASS?</h2>
 
 We use IDs and Classes to target a particular HTML element to render
 differently from other similar elements via CSS, but what is the
@@ -1601,13 +1606,13 @@ You should use the id when you have only one element on the page that
 you want to render. Your code cannot pass the validation test, which
 is important for web developers.
 
-##### Sample:
+<h4>Sample:</h4>
 
 <pre>
 &lt;div id=&#34;main-header&#34;&gt; text &lt;/div&gt;
 </pre>
 
-### CSS DIVISION
+<h2>CSS DIVISION</h2>
 
 Previously, you've learned the basics of CSS, how syntax works, and a
 little bit about classes and ids here. We'll now take a short break
@@ -1618,7 +1623,7 @@ including additional sections, spans, images, text, etc. You define a
 section within an HTML file by placing the following between &lt;body&gt;
 &lt;/body&gt;.
 
-##### Sample:
+<h4>Sample:</h4>
 
 <pre>
 &lt;body&gt;
@@ -1626,15 +1631,15 @@ section within an HTML file by placing the following between &lt;body&gt;
 &lt;/body&gt;
 </pre>
 
-###### You will most likely want to add some style to it. You can do this in the example below: 
+<h5>You will most likely want to add some style to it. You can do this in the example below:</h5>
 
 <pre>
 &lt;div id="container"&gt; Site content go here &lt;/div&gt; The CSS file
 contains:
 #container
 {
-width: 70%; margin: auto; padding: 20px;
-border: 1px solid #666; background: #ffffff;
+  width: 70%; margin: auto; padding: 20px;
+  border: 1px solid #666; background: #ffffff;
 }
 </pre>
 
@@ -1643,7 +1648,7 @@ Now everything in this section will be formatted according to the
 file. A split creates a line break by default. You can use both
 classes and sections of your website.
 
-### HOW TO USE CSS PROPERTIES
+<h2>HOW TO USE CSS PROPERTIES</h2>
 
 CSS layouts are used to apply styles to structured documents, such as
 those created in HTML or XML. CSS layouts are specified at the CSS
@@ -1655,7 +1660,7 @@ well as a declaration block.
 
 CSS features are used within the ad with the corresponding value.
 
-##### Example:
+<h4>Example:</h4>
 
 <pre>
 section {
@@ -1679,12 +1684,12 @@ color: orangered;
 Let's discuss various CSS properties in short. We have a separate
 chap- ter for each of the properties.
 
-### CSS COLORS
+<h2>CSS COLORS</h2>
 
 Colors are specified using predefined color names, RGB, HEX, HSL,
 RGBA, HSLA values.
 
-###### Names
+<h5>Names</h5>
 
 In CSS, a color can be specified by using a pre-defined color name, such as,
 
@@ -1697,7 +1702,7 @@ In CSS, a color can be specified by using a pre-defined color name, such as,
 7.  Violet
 8.  LightGray
 
-###### List of Color Values
+<h5>List of Color Values</h5>
 
 Here's a list of color values that can be used with CSS.
 
@@ -1742,7 +1747,7 @@ browsers given below:
 22. Indigo
 23. Ivory
 
-### RGB COLOR
+<h2>RGB COLOR</h2>
 
 There are different colors that add a different atmosphere to various
 designs. The right choice of colors can make designs and creations
@@ -1758,7 +1763,7 @@ CSS lets you use a wide variety of different
 colors and color systems. They range from named colors to hexagonal
 colors, RGB() colors, hsl col- ors, and more.
 
-###### How to Use RGB Colors in HTML
+<h5>How to Use RGB Colors in HTML</h5>
 
 The easiest way to apply color to your HTML elements is to write your
 HTML in a .html file. Then, in that file, simply associate your .css
@@ -1768,7 +1773,7 @@ It makes code easier to read and removes any considered best practice
 concerns. We can have an about.html file with some HTML code like
 this:
 
-##### Example:
+<h4>Example:</h4>
 
 <pre>
 &lt;!DOCTYPE html&gt;
@@ -1779,17 +1784,17 @@ this:
 &lt;meta content=&#34;width=device-width,
 name=&#34;viewport&#34;initial-scale=1.0&#34;&gt;
 &lt;style&gt;
-h1{
-font-size: 38px;
+h1 {
+  font-size: 38px;
 }
 h2 {
-/&#42; changes color of text &#42;/ color: RGB(79, 72, 70);
-text-align:center;
+  /&#42; changes color of text &#42;/ color: RGB(79, 72, 70);
+  text-align:center;
 }
- .container {
-align-items: center; max-width: 800px; max-height: auto; margin: 280px
-auto;
-border: 1px solid black; border-radius: 20px; padding: 50px;
+.container {
+  align-items: center; max-width: 800px; max-height: auto; margin: 280px
+  auto;
+  border: 1px solid black; border-radius: 20px; padding: 50px;
 }
 &lt;/style&gt;
 &lt;/head&gt;
@@ -1821,7 +1826,7 @@ fames ac turpis egestas. &lt;/h2&gt;
 
 Use of RGB in CSS.
 
-###### These are the common color user in CSS, you can change its value to create a new color. 
+<h5>These are the common color user in CSS, you can change its value to create a new color.</h5>
 
 <pre>
 **Color Value in RGB Color Name**
@@ -1845,7 +1850,7 @@ RGB(255, 255, 0)
 olive purple red silver teal white yellow
 </pre>
 
-###### Extended Color Keywords
+<h5>Extended Color Keywords</h5>
 
 The following table lists the color keywords defined in the CSS3
 specification.
@@ -2032,18 +2037,18 @@ RGB(255, 255, 0)
 RGB(139, 205, 50)
 </pre>
 
-### DIFFERENT TYPES OF SELECTORS
+<h2>DIFFERENT TYPES OF SELECTORS</h2>
 
 There are many different selectors. The examples above use item
 selectors that select all items of a given type. But we can also make
 more specific choices. Here are some of the common types of selectors:
 
-###### Selector Name
+<h5>Selector Name</h5>
 
 -   The CSS element selector: This element selector selects HTML ele-
     ments based on the element name.
 
-##### Syntax:
+<h4>Syntax:</h4>
 
 <pre>
 &lt;p&gt;
@@ -2055,7 +2060,7 @@ more specific choices. Here are some of the common types of selectors:
     particular element with an id, write a hash (#) symbol, followed by
     the id of the element.
 
-##### Syntax:
+<h4>Syntax:</h4>
 
 <pre>
 &lt;p id=&#34;my-id&#34;&gt; or &lt;a id=&#34;my-id&#34;&gt;
@@ -2066,7 +2071,7 @@ more specific choices. Here are some of the common types of selectors:
     particular class, write a dot (.) character, followed by the class
     name.
 
-##### Syntax:
+<h4>Syntax:</h4>
 
 <pre>
 &lt;p class=&#34;my-class&#34;&gt; Add Some text &lt;/p&gt; and
@@ -2076,7 +2081,7 @@ more specific choices. Here are some of the common types of selectors:
 -   Attribute selector: The elements on the page with the particular
     attribute.
 
-##### Syntax:
+<h4>Syntax:</h4>
 
 <pre>
 &lt;img src=&#34;myimage.png&#34;/&gt;
@@ -2086,13 +2091,13 @@ more specific choices. Here are some of the common types of selectors:
     ments on the page. To select these elements with a specific class,
     write an asterisk (&#42;) character, followed by the tag name.
 
-##### Syntax:
+<h4>Syntax:</h4>
 
 <pre>
 &#42;
 </pre>
 
-##### Example:
+<h4>Example:</h4>
 
 <pre>
 {
@@ -2108,7 +2113,7 @@ color: blue;
 -   Pseudo-class selector: The specified elements, but only when in a
     cer- tain state. (For instance, when a cursor hovers over a link.)
 
-##### Syntax:
+<h4>Syntax:</h4>
 
 <pre>
 a:hover
@@ -2116,13 +2121,13 @@ a:hover
 
 selects &lt;a&gt;, works when the mouse pointer is hovering over the link.
 
-### CSS BACKGROUND
+<h2>CSS BACKGROUND</h2>
 
 The background property allows to control the background of the
 element. It is a property, which means that it allows to write what
 would be multiple CSS properties in one.
 
-##### Example:
+<h4>Example:</h4>
 
 <pre>
 body {
@@ -2152,9 +2157,9 @@ below:
 You can use any of the combinations of these properties that you love
 to use, in almost any order
 
-### MULTIPLE BACKGROUNDS
+<h2>MULTIPLE BACKGROUNDS</h2>
 
-###### CSS3 added support for various backgrounds, which layer over the top of each other. Any property related to the backgrounds can take a comma (,) separated list, like this: 
+CSS3 added support for various backgrounds, which layer over the top of each other. Any property related to the backgrounds can take a comma (,) separated list, like this: 
 
 <pre>
 .tagname {
@@ -2163,9 +2168,9 @@ repeat-x, no-repeat;
 }
 </pre>
 
-### CSS BORDER
+<h2>CSS BORDER</h2>
 
-###### The border property is a syntax in CSS that accepts multiple values for drawing a line around the element it is applied to: 
+The border property is a syntax in CSS that accepts multiple values for drawing a line around the element it is applied to: 
 
 <pre>
 .container{
@@ -2174,7 +2179,7 @@ width: 200px;
 }
 </pre>
 
-###### Border
+<h5>Border</h5>
 
 The border property accepts more than one of the following values in
 combination:
@@ -2205,19 +2210,19 @@ element, including:
 
 border-color: It specifies the color of the border and accepts all valid color values.
 
-### CSS BORDER WIDTH AND COLOR
+<h2>CSS BORDER WIDTH AND COLOR</h2>
 
 The border-width property defines the width of the four borders. The
 width can also be set as a specific size (such as in px, pt, cm, em,
 etc.) or by using the three pre-defined values such as thin, medium,
 or thick.
 
-##### Example:
+<h4>Example:</h4>
 
 <pre>
 p.one {
-border-style: solid; //You can add your border width here
-border-width: 5px;
+  border-style: solid; //You can add your border width here
+  border-width: 5px;
 }
 </pre>
 
@@ -2232,7 +2237,7 @@ The color can be set by:
 -   HSL -- It specifies an HSL value, like "hsl(0, 90%, 50%)."
 -   Transparent
 
-### CSS MARGINS
+<h2>CSS MARGINS</h2>
 
 CSS genetic features are used to create space around elements, without
 any defined parameters. With CSS, you have full control over margins.
@@ -2252,7 +2257,7 @@ All genetic features can have the following values:
 -   &#37; -- It specifies margin in% of the width of the content.
 -   inheritance -- it specifies that the margin should inherit from the parent.
 
-### CSS PADDING
+<h2>CSS PADDING</h2>
 
 CSS finishing features are used to generate space near element
 content, within any defined parameters. With CSS, you have complete
@@ -2273,7 +2278,7 @@ All completion buildings may have the following values:
 -   inheritance -- It specifies that padding should inherit from the
     parent element.
 
-### CSS BOX MODEL
+<h2>CSS BOX MODEL</h2>
 
 This model is a box that wraps everything HTML contains: margins, bor-
 ders, padding, and original content. In CSS, the term "box model" is
@@ -2289,7 +2294,7 @@ Description of different parts:
 -   Margin -- It can clear an area outside of the border. The margin is
     clear.
 
-### CSS TABLES
+<h2>CSS TABLES</h2>
 
 The table in CSS is used to apply various style elements to HTML Table
 ele- ments to organize data in rows and columns or in a more complex
@@ -2300,11 +2305,11 @@ feature is used pri- marily to set the algorithm used to edit
 
 Border: Used to specify parameters in a table.
 
-##### Syntax:
+<h4>Syntax:</h4>
 
 border: table_width table_color;
 
-### CSS FONTS
+<h2>CSS FONTS</h2>
 
 The four sides of an element can be set side by side such as
 margin-top, margin-right, margin-bottom, margin-left, padding-top,
@@ -2322,7 +2327,7 @@ font properties of an element:
 -   The font property is used to specify the number of other font
     properties.
 
-### [CSS TEXT]
+<h2>[CSS TEXT]</h2>
 
 -   The property color is used to set the color of a text.
 -   The property direction is used to set the text direction.
@@ -2341,7 +2346,7 @@ font properties of an element:
     of text.
 -   The text-shadow property is used to set text shadow around a text.
 
-### CSS FUNCTIONS
+<h2>CSS FUNCTIONS</h2>
 
 CSS functions are used as a number of different CSS structures. For
 exam- ple, you can use RGB () function to assign a color value
@@ -2413,7 +2418,7 @@ Here is a list of CSS functions in CSS3.
 -   URL()
 -   var()
 
-### WHY FLEXBOX?
+<h2>WHY FLEXBOX?</h2>
 
 For a long time, the only reliable browser-compatible tools available
 for creating layouts were features such as floats and positioning.
@@ -2430,7 +2435,7 @@ with such tools in any form of simple, flexible approach:
 -   Making all columns in a multiple-column layout with the same height
     even if it contains a different amount of content.
 
-### CSS FLEXBOX
+<h2>CSS FLEXBOX</h2>
 
 The flexbox CSS layout allows you to easily format HTML. Flexbox makes
 it easy to direct objects horizontally and horizontally using lines
@@ -2454,9 +2459,9 @@ The flex container properties are:
 -   align-items
 -   align-content
 
-## CSS MEDIA TYPES
+<h2>CSS MEDIA TYPES
 
-### INTRODUCTION TO MEDIA TYPES
+<h2>INTRODUCTION TO MEDIA TYPES</h2>
 
 One of the most important features of stylesheets is that you can
 specify different style sheets for different types of media. This is a
@@ -2476,9 +2481,9 @@ easy to read on screen, while serif fonts are famous for printing. It
 is therefore necessary to clarify that a style sheet, or set of style
 rules, applies to certain types of media.
 
-### METHOD 1: USING &#64;MEDIA AT-RULES
+<h2>METHOD 1: USING &#64;MEDIA AT-RULES</h2>
 
-###### The &#64;media rule is used to define different style rules for different media in a single style sheet. It is followed by a comma separated list of media types and a CSS declaration block containing targeted media style rules. 
+The &#64;media rule is used to define different style rules for different media in a single style sheet. It is followed by a comma separated list of media types and a CSS declaration block containing targeted media style rules. 
 
 **Example:** The style tells the browser to display body content in 14
 pixels Arial font on the screen, but when printing it will be in Times
@@ -2486,39 +2491,39 @@ font 12 points.
 
 <pre>
 &#64;media screen { body {
-color: black; font-size: 12px;
+  color: black; font-size: 12px;
 }
 }
 &#64;media print { body {
-color: &#35; fff; font-size: 10pt;
+  color: &#35; fff; font-size: 10pt;
 }
 }
 &#64;media screen, print { body {
-line-length: 1;
+  line-length: 1;
 }
 }
 </pre>
 
-### METHOD 2: USING &#64;IMPORT AT-RULES
+<h2>METHOD 2: USING &#64;IMPORT AT-RULES</h2>
 
 The &#64;import rule is another way to specify specific media style
 details -- It just specifies comma separated media types after the URL
 of the imported style sheets.
 
-##### Example:
+<h4>Example:</h4>
 
 <pre>
 &#64;import URL (&#34;CSS / screen.css&#34;) screen; &#64;import URL (&#34;CSS /
 print.css&#34;) print; div {
-background: &#35; f5f5f5; line length: 1.2;
+  background: &#35; f5f5f5; line length: 1.2;
 }
 </pre>
 
-#### METHOD 3: USING THE &lt;link&gt; ELEMENT
+<h3>METHOD 3: USING THE &lt;link&gt; ELEMENT</h3>
 
-###### The media attribute in the &lt;link&gt; feature is used to specify targeted media on an external style sheet within an HTML document.
+The media attribute in the &lt;link&gt; feature is used to specify targeted media on an external style sheet within an HTML document.
  
- <pre>
+<pre>
 &lt;link rel = &#34;stylesheet&#34; href = &#34;css / common.css&#34; media =
 &#34;all&#34;&gt;
 
@@ -2526,7 +2531,7 @@ background: &#35; f5f5f5; line length: 1.2;
 &#34;print&#34;&gt;
 </pre>
 
-### DIFFERENT MEDIA TYPES
+<h2>DIFFERENT MEDIA TYPES</h2>
 
 The following lists the various media types that are used to target
 various types of devices such as printers, devices, computer screens,
@@ -2548,7 +2553,7 @@ etc.
 -   tv: It is used for television-type devices with low resolution,
     color, limited scrollability screens, and sound available.
 
-## MEDIA QUESTIONS AND RESPONSIVE WEB DESIGN
+<h2>MEDIA QUESTIONS AND RESPONSIVE WEB DESIGN
 
 Media queries allow to customize the presentation of web pages to a
 spe- cific range of devices such as mobile phones, tablets, desktops,
@@ -2557,53 +2562,53 @@ and zero or more expressions such as the type and conditions of
 certain media features such as device width or screen resolution.
 Here's a simple example of a typical media query for standard devices.
 
-### MEDIA QUERIES
+<h2>MEDIA QUERIES</h2>
 
-###### Responsive design was able to emerge due to media query. The definition of Media Queries Level 3 was Candidate Recommendations in 2009, which means it was considered ready for implementation in browsers. Media queries allow us to create a series of tests and apply CSS by choosing to customize the page style to the user's needs. 
+Responsive design was able to emerge due to media query. The definition of Media Queries Level 3 was Candidate Recommendations in 2009, which means it was considered ready for implementation in browsers. Media queries allow us to create a series of tests and apply CSS by choosing to customize the page style to the user's needs. 
 
 For example, the following media quiz questions to see if the current
 web page is displayed as screen media (so it is not a printed
 document) and the viewing area is 800 pixels wide. CSS selector
 
-```
+<pre>
 .container will only be used if these two are true.
 /&#42; Smartphones (portrait and landscape) &#42;/
-&#64;media screen and (min-width: 320px) and (max-width: 480px){
+  &#64;media screen and (min-width: 320px) and (max-width: 480px){
 /&#42; styles &#42;/
 }
 /&#42; Smartphones (portrait) &#42;/
 &#64;media screen and (max-width: 320px){
-/&#42; styles &#42;/
+  /&#42; styles &#42;/
 }
 &#42; Smartphones (landscape) &#42;/
 
 &#64;media screen and (min-width: 321px){
-/&#42; styles &#42;/
+  /&#42; styles &#42;/
 }
 /&#42; Tablets, iPads (portrait and landscape)
 &#42;/
 &#64;media screen and (min-width: 768px) and (max-width: 1024px){
-/&#42; styles &#42;/
+  /&#42; styles &#42;/
 }
 /&#42; Tablets, iPads (portrait) &#42;/
 &#64;media screen and (min-width: 768px){
-/&#42; styles &#42;/
+  /&#42; styles &#42;/
 }
 /&#42; Tablets, iPads (landscape) &#42;/
 &#64;media screen and (min-width: 1024px){
-/&#42; styles &#42;/
+  /&#42; styles &#42;/
 }
 /&#42; Desktops and laptops &#42;/
 &#64;media screen and (min-width: 1224px){
-/&#42; styles &#42;/
+  /&#42; styles &#42;/
 }
 /&#42; Large screens &#42;/
 &#64;media screen and (min-width: 1824px){
-/&#42; styles &#42;/
+  /&#42; styles &#42;/
 }
-```
+</pre>
 
-### BENEFITS YOU MAY KNOW
+<h2>BENEFITS YOU MAY KNOW</h2>
 
 Let's learn more about CSS benefits such as:
 
@@ -2644,7 +2649,7 @@ Let's learn more about CSS benefits such as:
     due to fast loading time. Here, a little time ensures the good
     performance of the designer.
 
-### CSS CONS
+<h2>CSS CONS</h2>
 
 There are a few drops while using CSS. One has to be aware of these
 bad sit- uations in order to know and take care of them while
@@ -2673,15 +2678,16 @@ While you may see some disadvantages of CSS, many of the benefits are
 counter- productive and make sure your web development process is
 smooth and efficient.
 
-### CHAPTER SUMMARY
+<h2>CHAPTER SUMMARY</h2>
 
-###### Here we have covered all the basic concepts of CSS that everyone can use to make their pages attractive. So important thing for working with CSS is just only practice, once you start practicing it, you will get to the point eas- ily. Then in the coming chapter, you will learn CSS properties that make your work so easy. 
+Here we have covered all the basic concepts of CSS that everyone can use to make their pages attractive. So important thing for working with CSS is just only practice, once you start practicing it, you will get to the point eas- ily. Then in the coming chapter, you will learn CSS properties that make your work so easy. 
 
-CHAPTER 2
-
-# CSS Properties
-
-### [IN THIS CHAPTER]
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h1>CHAPTER 2</h1>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2>CSS Properties</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2>[IN THIS CHAPTER]</h2>
 
 -   Introduction
 -   CSS Layouts (Properties)
@@ -2984,9 +2990,9 @@ DOI:
 272. writing-mode
 273. z-index
 
-### CSS LAYOUTS (PROPERTIES)
+<h2>CSS LAYOUTS (PROPERTIES)</h2>
 
-###### The CSS feature is used to set the style of HTML objects. The CSS layout consists of two parts, the name of the property and the value of the prop- erty. Property value included between two (""quotes). 
+The CSS feature is used to set the style of HTML objects. The CSS layout consists of two parts, the name of the property and the value of the prop- erty. Property value included between two (""quotes). 
 
 CSS style styles are part of the HTML object.
 Here are a few examples:
@@ -2994,7 +3000,7 @@ Here are a few examples:
 &lt;div style = &#34;border: 1px solid black; font size: 18px; &#34;&gt; Style
 is an attribute of division tag &lt;/div&gt;
 
-###### In this example, two CSS features are used in the div feature: border and font size structures. 
+In this example, two CSS features are used in the div feature: border and font size structures. 
 
 The CSS layout declaration contains the layout name and layout value.
 The name of the structure comes first, then the colon, then the value.
@@ -3003,11 +3009,9 @@ below:
 
 Property-name: property-value
 
-###### If you specify more than one CSS property, each word -- the cooked value is divided into a semicolon as follows: 
+If you specify more than one CSS property, each word -- the cooked value is divided into a semicolon as follows: 
 
-```
-property1: property-value; property2: property-value;
-```
+<pre>property1: property-value; property2: property-value;</pre>
 
 The final local declaration does not have to end with a semicolon, but
 it makes it easy to add more CSS features without forgetting to add
@@ -3015,7 +3019,7 @@ that extra semicolon. There are many CSS features that you can specify
 in different HTML elements. These CSS layouts are covered in their
 text.
 
-### CSS RULES
+<h2>CSS RULES</h2>
 
 CSS rule is a set of one or more CSS elements to be applied to one or
 more targeted HTML elements. CSS rule contains a CSS selector and a
@@ -3032,25 +3036,25 @@ element or within the external CSS file.
 
 Here is an example of CSS rule:
 
-```
+<pre>
 div {
-border: 1px solid black; font size: 18px;
+  border: 1px solid black; font size: 18px;
 }
-```
+</pre>
 
-###### The following section consists of the complete list of standard CSS properties belonging to the latest CSS3 specifications. All the properties are grouped into categories given below: 
+The following section consists of the complete list of standard CSS properties belonging to the latest CSS3 specifications. All the properties are grouped into categories given below: 
 
--   CSS animation properties: The animation property is a CSS prop- erty
+-   CSS animation properties: The animation property is a CSS property
     for animation-name, animation-duration, animation-direction,
     animation-timing-function, animation-delay, animation-iteration-
     count, animation-fill-mode, and animation-play-state. Here is the
     default value of the animation property:
 
-```
+<pre>
 none 0 ease 0 1 with normal none running
-```
+</pre>
 
-###### It applies to all elements, before and ::after (other pseudo-elements). The following table describes the values of animation property. 
+It applies to all elements, before and ::after (other pseudo-elements). The following table describes the values of animation property. 
 
 1.  animation-name property: The animation-name CSS property defines the
     name of &#64;keyframes defined animations that should be applied to the
@@ -3058,56 +3062,56 @@ none 0 ease 0 1 with normal none running
 
 animation-name: keyframe name &#124; none &#124; initial &#124; inherit
 
-###### animation-duration property: The animation-duration CSS property defines the number of seconds or milliseconds animation must take to complete one cycle. The syntax of this property is given as:
+animation-duration property: The animation-duration CSS property defines the number of seconds or milliseconds animation must take to complete one cycle. The syntax of this property is given as:
 
 animation-duration: time &#124; initial &#124; inherit
 
-###### animation-timing-function property: : The animation-timing- function CSS property specifies how a CSS animation should prog- ress over the duration of each cycle. The syntax of this property is given as:
+animation-timing-function property: : The animation-timing- function CSS property specifies how a CSS animation should prog- ress over the duration of each cycle. The syntax of this property is given as:
 
-```
+<pre>
 animation-timing-function: linear &#124; ease &#124; ease-in
 
 &#124; ease-out &#124; ease-in-out &#124; cubic-bezier(n,n,n,n) &#124; initial &#124;
 inherit
-```
+</pre>
 
-###### animation-delay: It specifies a delay before the animation will start. The animation-delay CSS property defines when the animation will start. The value of this property can be specified in seconds (s) or milliseconds (ms).
+animation-delay: It specifies a delay before the animation will start. The animation-delay CSS property defines when the animation will start. The value of this property can be specified in seconds (s) or milliseconds (ms).
 
 The syntax of this property is given as:
 
-```
+<pre>
 animation-delay: time &#124; initial &#124; inherit
-```
+</pre>
 
-###### animation-iteration-count property: The animation iteration count property defines the number of times an animation cycle should play before stopping.
+animation-iteration-count property: The animation iteration count property defines the number of times an animation cycle should play before stopping.
 
 The syntax of this property is given as:
 
-```
+<pre>
 animation-iteration-count: number &#124; infinite &#124; initial &#124; inherit
-```
+</pre>
 
-###### animation-direction property: The animation-direction CSS prop- erty specifies 
+animation-direction property: The animation-direction CSS prop- erty specifies 
 whether the animation should be played in reverse on alternate cycles or not.
 
 The syntax of this property is given as:
 
-```
+<pre>
 animation-direction: normal &#124; reverse &#124; alternate
 &#124; alternate-reverse &#124; initial &#124; inherit
-```
+</pre>
 
-###### animation-fill-mode property: The animation-fill-mode property defines how a CSS animation should apply styles to the target before and after it is executing.
+animation-fill-mode property: The animation-fill-mode property defines how a CSS animation should apply styles to the target before and after it is executing.
 
 The syntax of this property is given as:
 
-```
+<pre>
 animation-fill-mode: none &#124; backwards &#124; forwards
 
 &#124; both &#124; initial &#124; inherit
-```
+</pre>
 
-###### The following table defines the values of this property: 
+The following table defines the values of this property: 
 **Value Description**
 
 none The animation will not apply to the target before or after it is
@@ -3119,14 +3123,14 @@ that will start the 1st iteration of the animation, during the period
 defined by the property. Either the values of the from keyframe or to
 those of the to keyframe.
 
-###### animation-play-state property: The animation-play-state property specifies whether an animation is playing or paused.
+animation-play-state property: The animation-play-state property specifies whether an animation is playing or paused.
 
 The syntax of this property is given as:
 
-```
+<pre>
 animation-play-state: paused &#124; running &#124; initial
 &#124; inherit
-```
+</pre>
 
 2.  initial: It sets the property to its
     default value.
@@ -3134,14 +3138,14 @@ animation-play-state: paused &#124; running &#124; initial
 3.  inherit: If it specifies, the associated element takes the
     calculated value of its parent element's animation property.
 
-### THE &#64;KEYFRAMES RULE
+<h2>THE &#64;KEYFRAMES RULE</h2>
 
 When we specify CSS styles inside the &#64;keyframes rule, the animation
 will change from the current style to new style at certain times.
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;html&gt;
 &lt;head&gt;
 &lt;title\Title &lt;/title&gt;
@@ -3220,9 +3224,9 @@ transform: translateY(-800px) rotate(360deg); opacity: 0;
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 12.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3236,9 +3240,9 @@ transform: translateY(-800px) rotate(360deg); opacity: 0;
 
 CSS animation property.
 
-##### Another example:
+<h4>Another example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -3261,9 +3265,9 @@ background-color: red; animation-name: example; animation-duration:
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 13.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3277,10 +3281,10 @@ background-color: red; animation-name: example; animation-duration:
 
 CSS animation property (second example).
 
-###### Now in the below example, we are going to use animation with its prop- erties that we discussed
+Now in the below example, we are going to use animation with its prop- erties that we discussed
 above. 
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -3319,9 +3323,9 @@ align-items: center; justify-content: center; border-radius:20px
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 14.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3335,46 +3339,46 @@ align-items: center; justify-content: center; border-radius:20px
 
 CSS animation property (third example).
 
-### CSS BACKGROUND PROPERTIES
+<h2>CSS BACKGROUND PROPERTIES</h2>
 
-###### The background is a shorthand property for setting a single back- ground property, 
+The background is a shorthand property for setting a single back- ground property, 
 that is, background-image, background-position, background-size, background-repeat, background-attachment, back- ground-origin, background-clip, and background-color in a 
 single declaration.
 
 The syntax of this property is given as:
 
-```
+<pre>
 background: &#91; the image position/size repeat attachment the origin
 clip color &#93; &#124; initial &#124; inherit
-```
+</pre>
 
-###### background-attachment property: The background-attachment CSS property defines whether the background image scrolls with the document or remains fixed to the viewing area. The syntax of this property is given as:
+background-attachment property: The background-attachment CSS property defines whether the background image scrolls with the document or remains fixed to the viewing area. The syntax of this property is given as:
 
-```
+<pre>
 background-attachment: scroll &#124; fixed &#124; initial &#124; inherit.
-```
+</pre>
 
-###### background-color property: The background-color property sets the background color of an element. You can set the color of the background either through a color value or the keyword transparent.
+background-color property: The background-color property sets the background color of an element. You can set the color of the background either through a color value or the keyword transparent.
 
 The background of any element is the whole size of the element,
 including padding and border (not the margin). See the box model. The
 syntax of this property is given as:
 
-```
+<pre>
 background-color: color &#124; transparent &#124; initial
 &#124; inherit
-```
+</pre>
 
-###### background-clip property: The background-clip property specifies whether an element's background, either the color or image, extends it's border or not. The syntax of this property is given as:
+background-clip property: The background-clip property specifies whether an element's background, either the color or image, extends it's border or not. The syntax of this property is given as:
 
-```
+<pre>
 background-clip: border-box &#124; padding-box &#124; content-box &#124; initial
 &#124; inherit
-```
+</pre>
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html lang=&#34;en&#34;&gt;
 &lt;head&gt;
@@ -3415,10 +3419,9 @@ background-clip: content-box;
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
-
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 15.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -3431,17 +3434,17 @@ background-clip: content-box;
 
 CSS background clip.
 
-###### background-image property: The background-image property sets the background image for an element. It is often more good to use the shorthand background property.
+background-image property: The background-image property sets the background image for an element. It is often more good to use the shorthand background property.
 
 The syntax of the property is given as:
 
-```
+<pre>
 background-image: url &#124; none &#124; initial &#124; inherit
-```
+</pre>
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -3466,9 +3469,9 @@ align-items: center; justify-content: center;
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 16.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3482,9 +3485,9 @@ align-items: center; justify-content: center;
 
 CSS background image.
 
-###### background-origin property: The background-origin CSS property specifies the positioning area of the background, that is, the posi- tion of the origin of an image specified using the background-image property. The syntax of this property is given as:
+background-origin property: The background-origin CSS property specifies the positioning area of the background, that is, the posi- tion of the origin of an image specified using the background-image property. The syntax of this property is given as:
 
-```
+<pre>
 background-origin: border-box &#124; padding-box &#124; content-box &#124; initial
 &#124; inherit
 &lt;!DOCTYPE html&gt;
@@ -3516,9 +3519,9 @@ background-origin: content-box;
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 17.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3532,9 +3535,9 @@ background-origin: content-box;
 
 CSS background origin.
 
-##### Padding box example:
+<h4>Padding box example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -3563,9 +3566,9 @@ background-origin: padding-box ;
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 18.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3588,14 +3591,14 @@ Its default value is : 0% 0%.
 
 The syntax of this property is given as:
 
-```
+<pre>
 background-position: &#91; percentage &#124; length &#124; left
 &#124; center &#124; right &#93;1 or 2 values &#124; initial &#124; inherit
-```
+</pre>
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -3621,9 +3624,9 @@ background-position: 50% center;
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 19.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3637,18 +3640,18 @@ background-position: 50% center;
 
 CSS background position.
 
-###### background-repeat property: The background-repeat CSS property specifies whether the background image is repeated or tiled after it has been sized and positioned. It is often good to use the shorthand background property.
+background-repeat property: The background-repeat CSS property specifies whether the background image is repeated or tiled after it has been sized and positioned. It is often good to use the shorthand background property.
 
 The syntax of the property is given as:
 
-```
+<pre>
 background-repeat: repeat &#124; repeat-x &#124; repeat-y &#124; no-repeat &#124;
 initial &#124; inherit
-```
+</pre>
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -3674,9 +3677,9 @@ background-repeat: repeat-y;
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 20.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3690,9 +3693,9 @@ background-repeat: repeat-y;
 
 CSS background repeat(y).
 
-##### Another example:
+<h4>Another example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -3718,9 +3721,9 @@ background-repeat: repeat-x;
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 21.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3734,19 +3737,19 @@ background-repeat: repeat-x;
 
 CSS background repeat(x).
 
-###### background-size property: The background-size property defines the size of the background images.
+background-size property: The background-size property defines the size of the background images.
 
 The syntax of the property is given as:
 
-```
+<pre>
 background-size: length attribute&#124; percentage attribute&#124; auto
 attribute &#124; cover attributes attribute &#124; contain attribute&#124; initial
 attribute&#124; inherit attribute
-```
+</pre>
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -3778,9 +3781,9 @@ background-size: cover;
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 22.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3794,20 +3797,20 @@ background-size: cover;
 
 CSS background size -- contained cover and full cover.
 
-### CSS BORDER PROPERTIES
+<h2>CSS BORDER PROPERTIES</h2>
 
-###### The border property sets the width, style, and color for all four sides of an element's border. It is a shorthand property for setting the individual border properties, that is, border-width, border-style, and border-color in a single declaration.
+The border property sets the width, style, and color for all four sides of an element's border. It is a shorthand property for setting the individual border properties, that is, border-width, border-style, and border-color in a single declaration.
 
 The syntax of the property is given as:
 
-```
+<pre>
 border: &#91; border-width border-style border-color &#93; &#124; initial &#124;
 inherit
-```
+</pre>
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -3830,9 +3833,9 @@ justify-content: center; align-items: center; font-size: 32px;
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 23.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -3845,21 +3848,21 @@ justify-content: center; align-items: center; font-size: 32px;
 
 CSS border property.
 
-###### border-width property: The border-width CSS property is a short-
+border-width property: The border-width CSS property is a short-
 hand property for setting a singleborder width property, that is, 
 border-top-width, border-right-width, border-bottom-width, and 
 border-left-width in a single declaration. The syntax of this property 
 is given as:
 
-```
+<pre>
 border-width : &#91; thin &#124; medium &#124; thick &#124; length &#93;
-```
+</pre>
 
 1 to 4 values &#124; inherit
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -3902,9 +3905,9 @@ syntax:&lt;/strong&gt; each value sets the width of the border
 individually in the order top, right, bottom, and left.&lt;/p&gt;&lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 24.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -3917,16 +3920,16 @@ individually in the order top, right, bottom, and left.&lt;/p&gt;&lt;/div&gt;
 
 CSS border property-width.
 
-###### border-bottom property: The border-bottom CSS property sets the width, style, and color of the bottom border of an element. It is a property for setting the individual bottom border properties, that is, border-bottom-width, border-bottom-style, and border-bottom- color at once. The syntax of this property is given as:
+border-bottom property: The border-bottom CSS property sets the width, style, and color of the bottom border of an element. It is a property for setting the individual bottom border properties, that is, border-bottom-width, border-bottom-style, and border-bottom- color at once. The syntax of this property is given as:
 
-```
+<pre>
 border-bottom: &#91; border-bottom-width border- bottom-style
 border-bottom-color &#93; &#124; initial &#124; inherit
-```
+</pre>
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -3975,9 +3978,9 @@ voluptate aliquam nihil, eveniet aliquid culpa officia aut!
 .&lt;/p&gt;&lt;br&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 25.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -3990,15 +3993,15 @@ voluptate aliquam nihil, eveniet aliquid culpa officia aut!
 
 CSS border property -- left, bottom, right, top.
 
-###### border-bottom-color property: The border-bottom color property sets the color of an element's bottom border individually. However, in other cases the shorthand properties like border color or border bottom are more convenient to use and preferable. The syntax of this property is given as:
+border-bottom-color property: The border-bottom color property sets the color of an element's bottom border individually. However, in other cases the shorthand properties like border color or border bottom are more convenient to use and preferable. The syntax of this property is given as:
 
-```
+<pre>
 border-bottom-color: color &#124; transparent &#124; inherit
-```
+</pre>
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -4049,15 +4052,15 @@ voluptate aliquam nihil, eveniet aliquid culpa officia aut!
 .&lt;/p&gt;&lt;br&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
 1.  border-bottom-left-radius property: The border-bottom-left-radius
     property sets the rounded shape for the "bottom-left" corner of an
     element border box.
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -4091,9 +4094,9 @@ voluptate aliquam nhil, eveniet aliquid culpa officia aut! .&lt;/p&gt;
 &lt;br&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 26.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -4106,18 +4109,18 @@ voluptate aliquam nhil, eveniet aliquid culpa officia aut! .&lt;/p&gt;
 
 CSS border bottom left property -- left, right.
 
-###### border-bottom-style property: The border-bottom style property sets the style of an element's bottom border individually. However, in other cases the shorthand properties like border style or border bot- tom are more convenient to use and preferable.
+border-bottom-style property: The border-bottom style property sets the style of an element's bottom border individually. However, in other cases the shorthand properties like border style or border bot- tom are more convenient to use and preferable.
 
 The syntax of this property is given as:
 
-```
+<pre>
 border-bottom-style: none &#124; hidden &#124; dashed &#124; dotted &#124;solid &#124;
 double &#124; groove &#124; ridge &#124; inset &#124; outset &#124; initial &#124; inherit.
-```
+</pre>
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -4191,9 +4194,9 @@ amet consectetur adipisicing elit.esentium optio, eaque rerum!&lt;/h1&gt;
 &lt;br&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 27.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -4206,16 +4209,16 @@ amet consectetur adipisicing elit.esentium optio, eaque rerum!&lt;/h1&gt;
 
 CSS various border style.
 
-###### border-image property: The border-image CSS property speci- fies how an image is to be used in place of the border styles. This is a property for setting border-image-source, border-image- width, border-image-slice, border-image-outset, and border- image-repeat properties at once. The syntax of this property is given as:
+border-image property: The border-image CSS property speci- fies how an image is to be used in place of the border styles. This is a property for setting border-image-source, border-image- width, border-image-slice, border-image-outset, and border- image-repeat properties at once. The syntax of this property is given as:
 
-```
+<pre>
 border-image: &#91; source slice width outset repeat &#93;
 &#124; initial &#124; inherit
-```
+</pre>
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -4237,9 +4240,9 @@ border-image: url(&#34;/images-1.jpg&#34;) 30 30 round;
 &lt;div class=&#34;box&#34;&gt;&lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 28.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -4252,7 +4255,7 @@ border-image: url(&#34;/images-1.jpg&#34;) 30 30 round;
 
 CSS border-image property.
 
-### CSS COLOR PROPERTIES
+<h2>CSS COLOR PROPERTIES</h2>
 
 The CSS color feature sets the color of the text element content. All
 mod- ern web browsers support different colors to maintain a colorful
@@ -4261,9 +4264,9 @@ use a color word such as "color: blue." However, this method only
 supports names for cer- tain colors. Therefore, in CSS, other advanced
 methods are used to display colors such as RGB, HSL, HEX, etc.
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -4292,9 +4295,9 @@ color: black;
 &lt;br&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 29.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -4307,16 +4310,16 @@ color: black;
 
 CSS color property (color).
 
-###### RGB Colors
+<h5>RGB Colors</h5>
 
 RGB is a combination of three colors (red, green, and blue) which are
 used in all computer programs to display colors. As we know, these are
 the basic colors, and by combining them, we can find any color that
 appears in the color spectrum.
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -4345,9 +4348,9 @@ color:rgb(100, 149, 237)
 &lt;br&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 30.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -4360,21 +4363,21 @@ color:rgb(100, 149, 237)
 
 CSS color property (RGB).
 
-###### RGBA Colors
+<h5>RGBA Colors</h5>
 
 In CSS, RGBA is also a color display format with Alpha extension. The
 structure of this color work is given below:
 
-```
+<pre>
 rgba (Red, Green, Blue, Alpha)
-```
+</pre>
 
-###### In this work, Alpha is used to express color blurring. In CSS opacity, the area 
+In this work, Alpha is used to express color blurring. In CSS opacity, the area 
 is used to set the color brightness and its width is between 0.0 and 1.0, where 0.0 
 stands for absolute transparency and 1.0 represents absolute opaque. You will understand 
 better in the example provided. 
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -4423,9 +4426,9 @@ color code (rgba(11, 156, 49, 0.2). &lt;/h1&gt; &lt;br&gt;
 156, 49, 1)). &lt;/h1&gt; &lt;br&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 31.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -4438,7 +4441,7 @@ color code (rgba(11, 156, 49, 0.2). &lt;/h1&gt; &lt;br&gt;
 
 CSS color property (RGBA).
 
-###### CSS HEX Colors
+<h5>CSS HEX Colors</h5>
 
 CSS colors can also be defined by hexadecimal values, which is another
 way of representing colors. In CSS, it is the most common way to
@@ -4450,7 +4453,7 @@ Hexadecimal numbers with a combination of 0-9 and A-F are used to
 represent color in CSS. Some examples of HEX basic colors are given
 below.
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -4479,9 +4482,9 @@ color:#b22222
 &lt;br&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code given below:
+<h5>The output of the code given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 32.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -4494,15 +4497,15 @@ color:#b22222
 
 CSS color property (HEX).
 
-###### opacity property: The opacity property specifies the transparency of an element. The syntax of this property is given as:
+opacity property: The opacity property specifies the transparency of an element. The syntax of this property is given as:
 
-```
+<pre>
 opacity: alphavalue &#124; initial &#124; inherit
-```
+</pre>
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -4528,9 +4531,9 @@ height: &#34;300px&#34;; opacity: 0.5;
 height=&#34;200px&#34;&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 33.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4544,19 +4547,19 @@ height=&#34;200px&#34;&gt;
 
 CSS color opacity property.
 
-### [CSS DIMENSION PROPERTIES]
+<h2>[CSS DIMENSION PROPERTIES]</h2>
 
-###### height property: The height CSS property specifies the height of the content area of an element. The content area does not include pad- ding, borders, or margins.
+height property: The height CSS property specifies the height of the content area of an element. The content area does not include pad- ding, borders, or margins.
 
 The syntax of this property is given as:
 
-```
+<pre>
 height: length &#124; percentage &#124; auto &#124; initial &#124; inherit
-```
+</pre>
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -4584,9 +4587,9 @@ height: 300px;
 height=&#34;200px&#34;&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 34.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -4609,20 +4612,20 @@ margins
 
 The syntax of this property is given as:
 
-```
+<pre>
 max-height: length &#124; percentage &#124; none &#124; initial
 &#124; inherit
-```
+</pre>
 
-###### The syntax of this property is given as:
+<h5>The syntax of this property is given as:</h5>
 
-```
+<pre>
 max-width: length &#124; percentage &#124; none &#124; initial &#124; inherit
-```
+</pre>
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -4651,9 +4654,9 @@ max-width:300px;
 height=&#34;200px&#34;&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 35.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -4666,17 +4669,17 @@ height=&#34;200px&#34;&gt;
 
 CSS dimension property -- max-height, max-width.
 
-###### min-height property: The min-height CSS property specifies the minimum height of the content area of an element. This minimum height does not include padding, borders, or margins.
+min-height property: The min-height CSS property specifies the minimum height of the content area of an element. This minimum height does not include padding, borders, or margins.
 
 The syntax of this property is given as:
 
-```
+<pre>
 min-height: length &#124; percentage &#124; initial &#124; inherit
-```
+</pre>
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -4704,21 +4707,21 @@ min-width:200px;
 height=&#34;200px&#34;&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-### [CSS GENERATED CONTENT PROPERTIES]
+<h2>[CSS GENERATED CONTENT PROPERTIES]</h2>
 
-###### content property: The content CSS property is used in combination with the ::before and ::after pseudo-elements to generate content in an element. The syntax of this property is given as:
+content property: The content CSS property is used in combination with the ::before and ::after pseudo-elements to generate content in an element. The syntax of this property is given as:
 
-```
+<pre>
 content: normal &#124; none &#124; counter &#124; string &#124; url(url) &#124;
 attr(attribute) &#124; open-quote &#124; close- quote &#124; no-open-quote &#124;
 no-close-quote &#124; initial &#124; inherit
-```
+</pre>
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -4745,9 +4748,9 @@ in your code &lt;/p&gt;
 your code &lt;/p&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 36.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -4760,18 +4763,18 @@ your code &lt;/p&gt;
 
 CSS content property.
 
-###### quotes property: The quotes CSS property specifies the quotation marks for the embedded quotations. The quotes characters specified for this property are used for the open-quote and close-quote values of the content property.
+quotes property: The quotes CSS property specifies the quotation marks for the embedded quotations. The quotes characters specified for this property are used for the open-quote and close-quote values of the content property.
 
 The syntax of this property is given as:
 
-```
+<pre>
 quotes: &#91;string string&#93;one or more pairs &#124; none
 &#124; initial &#124; inherit
-```
+</pre>
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -4802,20 +4805,20 @@ before every paragraph in your code &lt;q&gt; embedded qutations &lt;/q&gt;
 &lt;/p&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### counter-reset property: The counter-reset CSS property is used in combination with the counter-increment property for creating auto- incrementing counters, and with the content property to display the generated counter values.
+counter-reset property: The counter-reset CSS property is used in combination with the counter-increment property for creating auto- incrementing counters, and with the content property to display the generated counter values.
 
 The syntax of the property is given as:
 
-```
+<pre>
 counter-reset: &#91; identifier integer &#93;1 or more pairs &#124; none &#124;
 initial &#124; inherit
-```
+</pre>
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -4851,9 +4854,9 @@ list-style-type: none;
 &lt;/ul&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code given below:
+<h5>The output of the code given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 37.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -4866,7 +4869,7 @@ list-style-type: none;
 
 CSS counter-reset property.
 
-### CSS FLEXIBLE BOX LAYOUT
+<h2>CSS FLEXIBLE BOX LAYOUT</h2>
 
 The alignment-content feature changes the behavior of the flex-wrap
 structure. Aligns dynamic lines. Used to specify alignment between
@@ -4905,14 +4908,14 @@ List of content alignment items:
 
 The syntax of this property is given as:
 
-```
+<pre>
 align-content: center &#124; flex-start &#124; flex-end &#124; space- between &#124;
 space-around &#124; stretch &#124; initial &#124; inherit
-```
+</pre>
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -4941,9 +4944,9 @@ font-weight: bold; font-size: 3em; text-align: center;
 &lt;/ul&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 38.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -4956,24 +4959,24 @@ font-weight: bold; font-size: 3em; text-align: center;
 
 CSS Flexible Layout.
 
-### CSS FONT PROPERTIES
+<h2>CSS FONT PROPERTIES</h2>
 
-###### The font property sets the style, variant, boldness, line-height, and the font 
+The font property sets the style, variant, boldness, line-height, and the font 
 family for an element's text content. It is a property for setting the individ- ual 
 font properties, that is, font-style, font-variant, font-weight, font-size, line-height, 
 and font-family in a single declaration.
 
 The syntax of the property is given as:
 
-```
+<pre>
 font: &#91; font-style font-variant line-height font- family &#93; &#124;
 caption &#124; icon &#124; menu &#124; message-box &#124; small-caption &#124; status-bar
 &#124; initial &#124; inherit
-```
+</pre>
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -4999,9 +5002,9 @@ font ( font: bold 2.5em &#34;Times New Roman&#34;, Times, serif; ) &lt;/p&gt;
 ( font: normal 1.2em Arial, Helvetica, sans- serif; ) &lt;/p&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 39.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -5014,18 +5017,18 @@ font ( font: bold 2.5em &#34;Times New Roman&#34;, Times, serif; ) &lt;/p&gt;
 
 CSS font style property.
 
-###### font-size property: The font-size CSS property sets the font size for the element's 
+font-size property: The font-size CSS property sets the font size for the element's 
 text content. The syntax of the property is given as:
 
-```
+<pre>
 font-size: xx-small &#124; x-small &#124; small &#124; medium &#124; large &#124; x-large
 &#124; xx-large &#124; smaller &#124; larger &#124; length &#124; percentage &#124; initial &#124;
 inherit
-```
+</pre>
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -5079,9 +5082,9 @@ font-size: smaller ) &lt;/p&gt;
 &lt;/p&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 40.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -5104,20 +5107,20 @@ font size. The font size change feature is a way to keep text readings
 in such a state. It does this by adjusting the font size so that the x
 length is the same regardless of the font used.
 
-### [CSS LIST PROPERTIES]
+<h2>[CSS LIST PROPERTIES]</h2>
 
-###### list-style property: The list-style CSS property defines the display style for list items. It is a shorthand property for setting the indi- vidual list properties, that is, list-style-type, list-style-position, and list-style-image in a single declaration.
+list-style property: The list-style CSS property defines the display style for list items. It is a shorthand property for setting the indi- vidual list properties, that is, list-style-type, list-style-position, and list-style-image in a single declaration.
 
 The syntax of the property is given as:
 
-```
+<pre>
 list-style: &#91; list-style-type list-style-position list-style-image &#93;
 &#124; initial &#124; inherit
-```
+</pre>
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -5150,9 +5153,9 @@ list-style: upper-latin outside;
 &lt;/ol&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 41.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -5165,19 +5168,19 @@ list-style: upper-latin outside;
 
 CSS list-style property.
 
-###### list-style-type property: The list-style-type CSS property specifies the type of 
+list-style-type property: The list-style-type CSS property specifies the type of 
 marker for the list-items.
 
-```
+<pre>
 list-style-type: disc &#124; circle &#124; square &#124; decimal&#124; lower-roman &#124;
 upper-roman &#124; lower-greek &#124; lower-latin &#124; upper-latin &#124; georgian
 &#124; lower-alpha
 &#124; upper-alpha &#124; none &#124; initial &#124; inherit
-```
+</pre>
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -5209,9 +5212,9 @@ list-style-type: square;
 &lt;/ol&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 42.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -5224,7 +5227,7 @@ list-style-type: square;
 
 CSS list-style-type property.
 
-###### Here you will get various values of list-style-type property.
+Here you will get various values of list-style-type property.
 
 **Value Description**
 
@@ -5282,15 +5285,15 @@ Georgian The marker is as traditional of the Georgian numbering
 
 For example, an, ban, gan, &#8230; he, tan, in &#8230;
 
-###### list-style-image property: The list-style-image property specifies an image to be used as a list-item marker.
+list-style-image property: The list-style-image property specifies an image to be used as a list-item marker.
 
 The syntax of the property is given as:
 
 such as URL &#124; none &#124; initial &#124; inherit
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -5313,17 +5316,17 @@ list-style-image: url(&#34;/images-1.jpg&#34;);
 &lt;/ul&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### list-style-position property: The list-style-position CSS property defines the position of the list-item marker with respect to the list item's block box. The syntax of this property is given as:
+list-style-position property: The list-style-position CSS property defines the position of the list-item marker with respect to the list item's block box. The syntax of this property is given as:
 
-```
+<pre>
 list-style-position: inside &#124; outside &#124; initial &#124; inherit
-```
+</pre>
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -5358,9 +5361,9 @@ background: #d8bfd8;
 &lt;/ul&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 43.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -5373,21 +5376,21 @@ background: #d8bfd8;
 
 CSS list-style-position property.
 
-### CSS MARGIN PROPERTIES
+<h2>CSS MARGIN PROPERTIES</h2>
 
-###### The margin property sets the margin on all four sides of the element. It is a 
+The margin property sets the margin on all four sides of the element. It is a 
 shorthand property for margin-top, margin-right, margin-bottom, and margin-left property. 
 
 The syntax of this property is given as:
 
-```
+<pre>
 margin: &#91; length &#124; percentage &#124; auto &#93; 1 to 4 values
 &#124; initial &#124; inherit
-```
+</pre>
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -5438,7 +5441,7 @@ voluptate aliquam nihil, eveniet culpa officia aut!
 .&lt;/p&gt;&lt;br&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
 This notation can take one, two, three, or four whitespace-separated
 values.
@@ -5457,9 +5460,9 @@ values.
 Instead of margin, you should use other various margin-top, margin-
 right, margin-bottom, and margin-left.
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -5510,9 +5513,9 @@ aliquam nihil, eveniet aliquid culpa officia aut!
 .&lt;/p&gt;&lt;br&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 44.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -5526,19 +5529,19 @@ aliquam nihil, eveniet aliquid culpa officia aut!
 CSS margin -- property (margin-top, margin-right, margin-bottom,
 margin-left).
 
-### [CSS MULTI-COLUMN LAYOUT PROPERTIES]
+<h2>[CSS MULTI-COLUMN LAYOUT PROPERTIES]</h2>
 
-###### CSS3 column-count property: The column count property defines the number of columns in a multi-column element.
+CSS3 column-count property: The column count property defines the number of columns in a multi-column element.
 
 The syntax of this Property is given as:
 
-```
+<pre>
 column-count: number &#124; auto &#124; initial &#124; inherit
-```
+</pre>
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html lang=&#34;en&#34;&gt;
 &lt;head&gt;
@@ -5601,9 +5604,9 @@ euismod sed orci. Sed massa lorem, blandit sed massa, condimentum
 ornare purus.&lt;/p&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 45.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -5634,13 +5637,13 @@ The column count property is as follows:
 
 The syntax of this Property is given as:
 
-```
+<pre>
 column-fill: auto &#124; balance &#124; initial &#124; inherit
-```
+</pre>
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html lang=&#34;en&#34;&gt;
 &lt;head&gt;
@@ -5704,9 +5707,9 @@ fringilla euismod ac orci. Sed massa lorem, blandit sed quis,
 condimentum ornare purus.&lt;/p&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code given below:
+<h5>The output of the code given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 46.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -5719,19 +5722,19 @@ condimentum ornare purus.&lt;/p&gt;
 
 CSS column-fill property.
 
-###### column-gap property: The column-gap CSS property specifies the gap in the columns 
+column-gap property: The column-gap CSS property specifies the gap in the columns 
 in a multi-column element. If there is a column rule between the columns, it appear in 
 the middle of the gap.
 
 The syntax of the property is given as:
 
-```
+<pre>
 column-gap: length &#124; normal &#124; initial &#124; inherit
-```
+</pre>
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html lang=&#34;en&#34;&gt;
 &lt;head&gt;
@@ -5810,23 +5813,23 @@ euismod sed orci. Sed massa lorem, blandit sed massa, condimentum
 ornare purus.&lt;/p&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 
 2.  column-rule property: The column-rule CSS property specifies a
     straight line, "rule," to be drawn between each column. It is a
     prop- erty for setting the individual properties, that is,
     column-rule-width, column-rule-style, and column-rule-color at once.
 
-```
+<pre>
 column-rule: &#91; column-rule-width column-rule-style column-rule-color
 &#93; &#124; initial &#124; inherit
-```
+</pre>
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html lang=&#34;en&#34;&gt;
 &lt;head&gt;
@@ -5903,9 +5906,9 @@ massa lorem, blandit sed massa quis,
 condimentum ornare purus.&lt;/p&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code given is below:
+<h5>The output of the code given is below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 47.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -5918,36 +5921,36 @@ condimentum ornare purus.&lt;/p&gt;
 
 CSS column-rule property.
 
-###### column-rule-width property: The column-rule width property sets the width of the rule drawn between columns in a multi-column layout.
+column-rule-width property: The column-rule width property sets the width of the rule drawn between columns in a multi-column layout.
 
 The syntax of this property is given as:
 
-```
+<pre>
 column-rule-width: length &#124; medium &#124; thin &#124; thick
 &#124; initial &#124; inherit
-```
+</pre>
 
-###### column-rule-style property: This Property sets the style of the rule set between columns in a multi-column layout.
+column-rule-style property: This Property sets the style of the rule set between columns in a multi-column layout.
 
 The syntax of this property is given as:
 
-```
+<pre>
 column-rule-style: none &#124; hidden &#124;dashed &#124;dotted
 &#124; solid &#124; double &#124; groove &#124; ridge &#124; inset &#124; outset
 &#124; initial &#124; inherit
-```
+</pre>
 
-###### column-rule-color property: The column-rule-color property sets the color of all the rules drawn between columns in a multi-column layout.
+column-rule-color property: The column-rule-color property sets the color of all the rules drawn between columns in a multi-column layout.
 
 The syntax of this property is given as:
 
-```
+<pre>
 column-rule-color: color &#124; initial &#124; inherit
-```
+</pre>
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html lang=&#34;en&#34;&gt;
 &lt;head&gt;
@@ -6030,9 +6033,9 @@ fringilla euismod sed ac orci. Sed massa lorem, blandit sed massa
 quis, condimentum ornare purus.&lt;/p&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 48.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -6045,20 +6048,20 @@ quis, condimentum ornare purus.&lt;/p&gt;
 
 CSS various column property.
 
-### [CSS OUTLINE PROPERTIES]
+<h2>[CSS OUTLINE PROPERTIES]</h2>
 
-###### outline property: The outline property sets the width, style, and color for all four sides of an element's outline. It is a property for set- ting the individual outline, that is, outline-width, outline-style, and outline-color in a single declaration.
+outline property: The outline property sets the width, style, and color for all four sides of an element's outline. It is a property for set- ting the individual outline, that is, outline-width, outline-style, and outline-color in a single declaration.
 
 The syntax of this property is given as:
 
-```
+<pre>
 outline: &#91; outline-width outline-style outline- color &#93; &#124; initial
 &#124; inherit
-```
+</pre>
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html lang=&#34;en&#34;&gt;
 &lt;head&gt;
@@ -6098,9 +6101,9 @@ Duis bibendum metus arcu.
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 49.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -6113,28 +6116,28 @@ Duis bibendum metus arcu.
 
 CSS outline property.
 
-###### outline-width property: The outline-width CSS property sets the width of the outline of an element. However, in many cases the shorthand CSS properties outline is more convenient to use and preferable.
+outline-width property: The outline-width CSS property sets the width of the outline of an element. However, in many cases the shorthand CSS properties outline is more convenient to use and preferable.
 
 The syntax of the property is given as:
 
-```
+<pre>
 outline-width: thin &#124; medium &#124; thick &#124; length &#124; initial &#124; inherit
-```
+</pre>
 
-###### outline-style property: The outline style property sets style of the outline of 
+outline-style property: The outline style property sets style of the outline of 
 an element. However, in many cases the shorthand prop- erties outline is more convenient 
 to use and preferable.
 
 The syntax of this property is given as:
 
-```
+<pre>
 outline-style: none &#124; dotted &#124; dashed &#124; double &#124; groove &#124; ridge
 &#124; inset &#124; outset &#124; initial &#124; inherit
-```
+</pre>
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html lang=&#34;en&#34;&gt;
 &lt;head&gt;
@@ -6187,9 +6190,9 @@ metus arcu.
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 50.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -6202,21 +6205,21 @@ metus arcu.
 
 CSS various outline property.
 
-### CSS PADDING
+<h2>CSS PADDING</h2>
 
-###### The padding CSS property sets the margin on all four sides of the element. It is a 
+The padding CSS property sets the margin on all four sides of the element. It is a 
 property used for padding-top, padding-right, padding-bottom, and padding-left properties.
 
 The syntax of this property is given as:
 
-```
+<pre>
 padding : &#91; length &#124; percentage &#124; auto &#93; 1 to 4 values
 &#124; initial &#124; inherit
-```
+</pre>
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -6266,7 +6269,7 @@ tenetur iure eius earum ut molestias architecto voluptate aliquam
 nihil, eveniet aliquid culpa aut!. &lt;/p&gt;&lt;br&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
 This notation can take one, two, three, or four whitespace-separated
 values.
@@ -6285,9 +6288,9 @@ values.
 Instead of padding, you can use other various margin-top, padding-
 right, padding-bottom, padding-left.
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -6338,20 +6341,20 @@ tenetur iure eius earum ut molestias architecto voluptate aliquam
 nihil, eveniet culpa officia aut! .&lt;/p&gt;&lt;br&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-### [CSS PRINT PROPERTIES]
+<h2>[CSS PRINT PROPERTIES]</h2>
 
-###### page-break-after property: The page-break-after CSS property inserts page breaks after an element when printing a document. This property applies to block-level elements that generate a box. It won't apply on an empty &lt;p&gt; that won't generate a box. The syntax of this Property is given as:
+page-break-after property: The page-break-after CSS property inserts page breaks after an element when printing a document. This property applies to block-level elements that generate a box. It won't apply on an empty &lt;p&gt; that won't generate a box. The syntax of this Property is given as:
 
-```
+<pre>
 page-break-after: auto &#124; always &#124; avoid &#124; left &#124; right &#124; initial
 &#124; inherit
-```
+</pre>
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -6394,9 +6397,9 @@ dictum fermentum ipsum arcu et tellus.&lt;/p&gt;
 &lt;p class=&#34;footnotes&#34;&gt;-: The End :-&lt;/p&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The result of the code is given below:
+<h5>The result of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 51.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -6414,7 +6417,7 @@ I.  We have two more properties in the print section, they are:
 
 II. page-break-inside property
 
-### [CSS TABLE PROPERTIES]
+<h2>[CSS TABLE PROPERTIES]</h2>
 
 1.  border-collapse property: The border-collapse CSS property specifies
     whether the cell borders of a table are collapsed in a single border
@@ -6427,13 +6430,13 @@ II. page-break-inside property
 
 The syntax of this property is given as:
 
-```
+<pre>
 border-collapse: separate &#124; collapse &#124; initial &#124; inherit
-```
+</pre>
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -6487,9 +6490,9 @@ border: 1px solid black;
 &lt;/table&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 52.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -6502,17 +6505,17 @@ border: 1px solid black;
 
 CSS border collapse -- with and without.
 
-###### border-spacing property: The border-spacing CSS property sets the spacing between the borders of adjacent cells using the border model. If the border model is used, the property is ignored. Here see the border-collapse property.
+border-spacing property: The border-spacing CSS property sets the spacing between the borders of adjacent cells using the border model. If the border model is used, the property is ignored. Here see the border-collapse property.
 
 The syntax of this property is given as:
 
-```
+<pre>
 border-spacing: &#91; length &#93; 1 or 2 values &#124; initial &#124; inherit
-```
+</pre>
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -6563,9 +6566,9 @@ both horizontal and vertical border spacing.&lt;/p&gt;
 &lt;/table&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 53.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -6578,19 +6581,19 @@ both horizontal and vertical border spacing.&lt;/p&gt;
 
 CSS border-spacing property.
 
-###### caption-side property: The caption-side CSS property sets the verti- 
+caption-side property: The caption-side CSS property sets the verti- 
 cal position of the table caption box. To align caption text horizontally 
 within the caption box, use the text-align property.
 
 The syntax of this property is given as:
 
-```
+<pre>
 caption-side: top &#124; bottom &#124; initial &#124; inherit
-```
+</pre>
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -6648,9 +6651,9 @@ border-bottom: 1px purple solid; padding: 20px
 &lt;/table&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 54.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -6663,15 +6666,15 @@ border-bottom: 1px purple solid; padding: 20px
 
 CSS caption property.
 
-###### empty-cells property: The empty-cells CSS property shows or hides borders and 
+empty-cells property: The empty-cells CSS property shows or hides borders and 
 backgrounds of table cells that have no visible content. A non-breaking space (&nbsp;) 
 is considered as a visible content.
 
 The syntax of this property is given as:
 
-```
+<pre>
 empty-cells: show &#124; hide &#124; initial &#124; inherit
-```
+</pre>
 
 The description values are as follows:
 
@@ -6680,9 +6683,9 @@ i.  show It is borders and backgrounds that are drawn around empty cells
 
 ii. hide There are no borders or backgrounds drawn around empty cells.
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -6744,9 +6747,9 @@ empty-cells: hide;
 &lt;/table&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 55.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -6759,29 +6762,29 @@ empty-cells: hide;
 
 CSS empty-cell property.
 
-### [CSS TEXT PROPERTIES]
+<h2>[CSS TEXT PROPERTIES]</h2>
 
-###### text-align property and text-align-all property: The text-decoration property is 
+text-align property and text-align-all property: The text-decoration property is 
 aproperty forsettingtext-decoration-line, text-decoration- style, and text-decoration-
 color in one declaration.
 
 The syntax of text-align is given as:
 
-```
+<pre>
 text-align: start &#124; end &#124; right &#124; left &#124; center &#124; justify &#124;
 match-parent &#124; justify-all
-```
+</pre>
 
-###### The syntax for text-align-all is given as:
+<h5>The syntax for text-align-all is given as:</h5>
 
-```
+<pre>
 text-align-all: start &#124; end &#124; left &#124; right &#124; center &#124; justify &#124;
 match-parent
-```
+</pre>
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -6835,9 +6838,9 @@ architecto voluptate aliquam nhil, eveniet aliquid culpa officia aut!
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 56.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -6850,16 +6853,16 @@ architecto voluptate aliquam nhil, eveniet aliquid culpa officia aut!
 
 CSS text-align and text-align-all property.
 
-###### CSS text-decoration property: The text-decoration property is a property for 
+CSS text-decoration property: The text-decoration property is a property for 
 setting text-decoration-line, text-decoration-style, and text-decoration-color in one 
 declaration.
 
 The syntax of the text-decoration is given as:
 
-```
+<pre>
 text-decoration: &lt;text-decoration-line&gt; &#124;&#124; &lt;text-
 decoration-style&gt; &#124;&#124; &lt;text-decoration-color&gt;
-```
+</pre>
 
 Here are some possible values under &lt;text-decoration-line&gt;
 
@@ -6901,9 +6904,9 @@ III. unset: It is a value that acts as either initial, depending on
 
 1.  CSS text-decoration property.
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -6963,9 +6966,9 @@ fuga praesentium optio, eaque rerum!&lt;/h1&gt;
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 57.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -6980,9 +6983,9 @@ CSS text-decoration property.
 
 2.  CSS text-orientation property.
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -7014,9 +7017,9 @@ text-orientation: sideways;
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 58.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -7033,9 +7036,9 @@ CSS text-orientation property.
     when it has been clipped due to it being too large to fit within its
     containing block.
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -7071,10 +7074,9 @@ fuga praesentium optio, eaque rerum!&lt;/h1&gt;
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
-
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 59.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -7093,9 +7095,9 @@ CSS text-overflow property.
     effects to text. This property accepts a list of values. Each item
     in the list can have two, three, or four values.
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -7139,9 +7141,9 @@ You are learning CSS.
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 60. css text-shadow property ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -7154,13 +7156,13 @@ You are learning CSS.
 
 CSS text-shadow property.
 
-### CSS TRANSFORM PROPERTIES
+<h2>CSS TRANSFORM PROPERTIES</h2>
 
 The transform property is used to transform an element in two-dimen-
 sional (2D) or thre-dimensional (3D) spaces. For example, rotate
 elements, scale them, skew them, and more.
 
-###### 2D Transform Functions
+<h5>2D Transform Functions</h5>
 
 The transform property accepts a list of "transform functions" as
 values. These functions have names such as scale(), rotate(), skew(),
@@ -7168,10 +7170,10 @@ etc, which take parameters to determine the level of transformation (e.g., the
 angle to rotate an element).
 The syntax of transform is given below:
 
-```
+<pre>
 transform: none &#124; &lt;transform-function&gt; &#91; &lt;transform- function&gt;
 &#93;
-```
+</pre>
 
 These are grouped by 2D (two-dimensional) and 3D (three-dimen- sional)
 functions.
@@ -7181,101 +7183,93 @@ of the six values a-f.
 
 The syntax of matrix is given below:
 
-```
-matrix() = matrix( &lt;number&gt; &#91;,&lt;number&gt; &#93;{5,5} )
-```
+<pre>matrix() = matrix( &lt;number&gt; &#91;,&lt;number&gt; &#93;{5,5} )</pre>
 
-###### **translate():** It moves the position of the element. It specifies a 2D trans- 
+**translate():** It moves the position of the element. It specifies a 2D trans- 
 lation by the vector &#91;x, y&#93;, where tx is the first translation-value parameter 
 and y is the optional second translation-value parameter. 
 
 The syntax of translate is given below:
 
-```
-translate( &lt;translation-value&gt;&#91;, &lt;translation-value&gt;&#93;? )
-```
+<pre>translate( &lt;translation-value&gt;&#91;, &lt;translation-value&gt;&#93;? )</pre>
 
-###### **translateX():** It moves the element horizontally. It specifies a transla-
+**translateX():** It moves the element horizontally. It specifies a transla-
 tion by the given amount in the X direction. 
 
 The syntax of translateX is given below:
 
-```
-translateX( &lt;translation-value&gt; )
-```
+<pre>translateX( &lt;translation-value&gt; )</pre>
 
-###### **translateY()**: It moves the element vertically. It specifies a translation 
+**translateY()**: It moves the element vertically. It specifies a translation 
 by the amount in the Y direction. 
 
 The syntax of translateY is given below:
 
-```
-translateY( &lt;translation-value&gt; )
-```
+<pre>translateY( &lt;translation-value&gt; )</pre>
 
-###### **scale():** It modifies the size of the element. It specifies a 2D scale opera-
+**scale():** It modifies the size of the element. It specifies a 2D scale opera-
 tion by the &#91;sx,sy&#93; vector described by two parameters.
 
 The syntax of scale is given below:
 
-```
+<pre>
 scale( &lt;number&gt;&#91;, &lt;number&gt;&#93;? )
-```
+</pre>
 
-###### **scaleX():** It specifies a 2D scale operation using the &#91;sx,1&#93; vector, 
+**scaleX():** It specifies a 2D scale operation using the &#91;sx,1&#93; vector, 
 where sx is given as the parameter. 
 
 The syntax of scaleX is given below:
 
-```
+<pre>
 scaleX( &lt;number&gt;&#91;, &lt;number&gt;&#93;? )
-```
+</pre>
 
-###### **scaleY():** It specifies a 2D scale operation using the &#91;1,sy&#93; vector, 
+**scaleY():** It specifies a 2D scale operation using the &#91;1,sy&#93; vector, 
 where sy is given as the parameter. 
 
 The syntax of scaleY is given below:
 
-```
+<pre>
 scaleY( &lt;number&gt;&#91;, &lt;number&gt;&#93;? )
-```
+</pre>
 
-###### **rotate():** It specifies a 2D rotation by the angle specified parameter about the origin, as defined by the transform-origin property.
+**rotate():** It specifies a 2D rotation by the angle specified parameter about the origin, as defined by the transform-origin property.
 
 The syntax of rotate is given below:
 
-```
+<pre>
 rotate( &lt;angle&gt; )
-```
+</pre>
 
-###### **skew():** It specifies a 2D skew transformation along the X and Y axis by the 
+**skew():** It specifies a 2D skew transformation along the X and Y axis by the 
 given angles. If the second parameter is not provided, it has a zero value.
 
 The syntax of skew is given below:
 
-```
+<pre>
 skew( &lt;angle&gt; &#91;, &lt;angle&gt; &#93;? )
-```
+</pre>
 
-###### **skewX():** It specifies a 2D transformation along the X-axis by the given angle. 
+**skewX():** It specifies a 2D transformation along the X-axis by the given angle. 
 
 The syntax of skewX is given below:
 
-```
+<pre>
 skewX( &lt;angle&gt; )
-```
+</pre>
 
-###### **skewY()**: It specifies a 2D transformation along the Y axis by the given angle.
+**skewY()**: It specifies a 2D transformation along the Y axis by the given angle.
 
 The syntax of skewY is given below:
 
-```
+<pre>
 skewY( &lt;angle&gt; )
-```
+</pre>
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -7353,9 +7347,9 @@ box8&#34;&gt;rotate(-45deg)&lt;/div&gt;
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 61. 2d transform functions ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -7368,7 +7362,7 @@ box8&#34;&gt;rotate(-45deg)&lt;/div&gt;
 
 2D transform functions.
 
-###### 3D Transform Functions
+<h5>3D Transform Functions</h5>
 
 It allows to apply transformations along three axes: x, y, and z axes,
 as demonstrated by a three-dimensional Cartesian coordinate system.
@@ -7379,83 +7373,83 @@ of 16 values in column-major order.
 
 The syntax of matrix3d is given below:
 
-```
+<pre>
 matrix3d() = matrix3d( &lt;number&gt; &#91;, &lt;number&gt; &#93;{15,15} )
-```
+</pre>
 
-###### **translate3d():** It specifies a 3D translation by the vector &#91;tx,ty,tz&#93;, 
+**translate3d():** It specifies a 3D translation by the vector &#91;tx,ty,tz&#93;, 
 tx, ty, and tz will be the first, second, and third translation value parameters, respectively. 
 
 The syntax of translate3d is given below:
 
-```
+<pre>
 translate3d() = translate3d( &lt;translation-value&gt;,
 &lt;translation-value&gt;, &lt;length&gt; )
-```
+</pre>
 
-###### **translateZ():** It specifies a 3D translation by the vector &#91;0,0,tz&#93; with the given amount in the Z direction. 
+**translateZ():** It specifies a 3D translation by the vector &#91;0,0,tz&#93; with the given amount in the Z direction. 
 
 The syntax of translate3d is given below:
 
-```
+<pre>
 translateZ() = translateZ( &lt;length&gt; )
-```
+</pre>
 
-###### **scale3d():** It specifies a 3D scale operation by the &#91;sx,sy,sz&#93; vector described by the three parameters. 
+**scale3d():** It specifies a 3D scale operation by the &#91;sx,sy,sz&#93; vector described by the three parameters. 
 
-```
+<pre>
 scale3d() = scale3d( &lt;number&gt;, &lt;number&gt;, &lt;number&gt; )
-```
+</pre>
 
-###### **scaleZ():** It specifies a 3D scale operation using the &#91;1,1,sz&#93; vector, where sz is given as the parameter. 
+**scaleZ():** It specifies a 3D scale operation using the &#91;1,1,sz&#93; vector, where sz is given as the parameter. 
 
 The syntax of translate3d is given below:
 
-```
+<pre>
 scaleZ() = scaleZ( &lt;number&gt; )
-```
+</pre>
 
-###### **rotate3d():** It specifies a 3D rotation by the angle specified in the last parameter about the &#91;x,y,z&#93; vector described by the first three parameters. 
+**rotate3d():** It specifies a 3D rotation by the angle specified in the last parameter about the &#91;x,y,z&#93; vector described by the first three parameters. 
 
 The syntax of translate3d is given below:
 
-```
+<pre>
 rotate3d() = rotate3d( &lt;number&gt;, &lt;number&gt;, &lt;number&gt;,
 &lt;number&gt; )
-```
+</pre>
 
-###### **rotateX():** This is the same as rotate3d(1, 0, 0, &lt;angle&gt;). The syntax 
+**rotateX():** This is the same as rotate3d(1, 0, 0, &lt;angle&gt;). The syntax 
 of rotateX is given below:
 
-```
+<pre>
 rotateX() = rotateX( &lt;angle&gt; )
-```
+</pre>
 
-###### **rotateY():** This is the same as rotate3d(0, 1, 0, &lt;angle&gt;). 
+**rotateY():** This is the same as rotate3d(0, 1, 0, &lt;angle&gt;). 
 The syntax of rotateY is given below:
 
-```
+<pre>
 rotateY() = rotateY( &lt;angle&gt; )
-```
+</pre>
 
-###### **rotateZ():** The same as rotate3d(0, 0, 1, &lt;angle&gt;) 
+**rotateZ():** The same as rotate3d(0, 0, 1, &lt;angle&gt;) 
 (which is also the same as rotate( &lt;angle&gt; ). 
 
 The syntax of rotateZ is given below:
 
-```
+<pre>
 rotateZ() = rotateZ( &lt;angle&gt; )
-```
+</pre>
 
-###### **perspective():** It defines the distance between the z=0 plane and the user in order to give to the 3D-positioned element some perspective. 
+**perspective():** It defines the distance between the z=0 plane and the user in order to give to the 3D-positioned element some perspective. 
 
 The syntax of perspective is given below:
 
-```
+<pre>
 perspective() = perspective( &lt;length&gt; )
-```
+</pre>
 
-##### Example:
+<h4>Example:</h4>
 
 <pre>
 &lt;!DOCTYPE html&gt;
@@ -7510,7 +7504,7 @@ z&#34;&gt;translateZ(200px)&lt;/div&gt;
 &lt;/html&gt;
 </pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 62. 3d transform functions ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -7523,7 +7517,7 @@ z&#34;&gt;translateZ(200px)&lt;/div&gt;
 
 3D transform functions.
 
-### CSS TRANSITIONS PROPERTIES
+<h2>CSS TRANSITIONS PROPERTIES</h2>
 
 CSS transition property is a property for defining CSS transitions
 that com- bines the four transition properties into one single
@@ -7531,7 +7525,7 @@ property. The transition property combines the following properties
 such as transition-property, transition-duration,
 transition-timing-function, and transition-delay.
 
-##### Example:
+<h4>Example:</h4>
 
 <pre>
 &lt;!DOCTYPE html&gt;
@@ -7568,7 +7562,7 @@ background-color: beige;
 &lt;/html&gt;
 </pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 63. css transition properties ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -7581,9 +7575,9 @@ background-color: beige;
 
 CSS transition properties.
 
-### CHAPTER SUMMARY
+<h2>CHAPTER SUMMARY</h2>
 
-###### In this chapter, we have read about many properties of CSS in brief with examples 
+In this chapter, we have read about many properties of CSS in brief with examples 
 so that it makes clear to understand the syntax of how to write code in CSS. The next 
 chapter is about the most important concept in CSS named CSS Selectors. 
 
@@ -7597,11 +7591,11 @@ chapter is about the most important concept in CSS named CSS Selectors.
 </p>
 <!-- ![](./images/image006.png){width="3.6393208661417322in" height="0.9622911198600175in"}  -->
 
-## CHAPTER 3
+<h2>CHAPTER 3
 
-### CSS Selectors
+<h2>CSS Selectors</h2>
 
-### IN THIS CHAPTER
+<h2>IN THIS CHAPTER</h2>
 
 -   Introduction
 
@@ -7621,7 +7615,7 @@ can select any of the properties like classes, id, or tag names using
 the selector. The code can have various classes, but only unique id in
 it.
 
-### INTRODUCTION
+<h2>INTRODUCTION</h2>
 
 Here is the list of the most common and well-supported CSS selectors.
 There are many more, but these are the ones you should know well.
@@ -7691,11 +7685,11 @@ Let's have the example of each of the
 selectors with simple explanations, and the numbering can be changed
 from the above given selectors:
 
-### [UNIVERSAL SELECTOR (&#42;)]
+<h2>[UNIVERSAL SELECTOR (&#42;)]</h2>
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -7722,9 +7716,9 @@ quis fermentum nulla.
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 64. universal selectors (*) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -7737,11 +7731,11 @@ quis fermentum nulla.
 
 Universal selector (&#42;).
 
-#### [UNIVERSAL SELECTOR (elements )]
+<h3>[UNIVERSAL SELECTOR (elements )]</h3>
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -7769,9 +7763,9 @@ quis fermentum nulla.
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~ 65. Universal Selectors (p, div, h1, aside, section, article) ~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -7784,13 +7778,13 @@ quis fermentum nulla.
 
 Universal selector (elements/tags).
 
-## LOGICAL COMBINATIONS SELECTORS
+<h2>LOGICAL COMBINATIONS SELECTORS
 
-#### [LOGICAL COMBINATIONS SELECTORS ( :not )]
+<h3>[LOGICAL COMBINATIONS SELECTORS ( :not )]</h3>
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -7821,9 +7815,9 @@ consequat turpis eros a erat. Cras blandit vehicula arcu ac porta.
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 66. Logical Selectors (:not) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -7836,13 +7830,13 @@ consequat turpis eros a erat. Cras blandit vehicula arcu ac porta.
 
 Logical selectors ( :not ).
 
-## ATTRIBUTE SELECTORS
+<h2>ATTRIBUTE SELECTORS
 
-#### [ATTRIBUTE SELECTORS ( .classname )
+<h3>[ATTRIBUTE SELECTORS ( .classname )</h3>
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -7876,9 +7870,9 @@ consequat turpis eros a erat. Cras blandit vehicula arcu ac porta.
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 67.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -7891,24 +7885,24 @@ consequat turpis eros a erat. Cras blandit vehicula arcu ac porta.
 
 Attribute selectors (.classname).
 
-#### [ATTRIBUTE SELECTORS ( id)]
+<h3>[ATTRIBUTE SELECTORS ( id)]</h3>
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
-```
+</pre>
 
-#### brightness()
+<h3>brightness()</h3>
 
-###### The brightness() function is used to adjust an image's brightness. 
+The brightness() function is used to adjust an image's brightness.
 
 The syntax of the brightness() function is as follows:
 
-```
+<pre>
 brightness() = brightness( &#91; &lt;number&gt; &#124; &lt;percentage&gt; &#93; )
-```
+</pre>
 
 Explanation: The brightness() function accepts a number or also per-
 centage as its argument. It determines the brightness level of the
@@ -7922,7 +7916,7 @@ appear more or less bright. It requires an argument to be passed to
 it. It determines the brightness level that is applied to the image.
 The argument can be either a % value or a number.
 
-##### Example:
+<h4>Example:</h4>
 
 <pre>
 &lt;!DOCTYPE html&gt;
@@ -7980,7 +7974,7 @@ p {
 &lt;/html&gt;
 </pre>
 
-###### The output of the above code is given below:
+<h5>The output of the above code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 68.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -7993,7 +7987,7 @@ p {
 
 CSS function ( :blur() ).
 
-#### calc()
+<h3>calc()</h3>
 
 The CSS calc() function allows the use of calculations within CSS
 prop- erty values. The calc() can be used in place of other unit types
@@ -8001,9 +7995,9 @@ when setting widths, heights, angles, frequencies, etc. The exact
 value that the browser uses will be a result of the calculation
 performed by the calc() function.
 
-##### Example:
+<h4>Example:</h4>
 
-```
+</pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -8038,9 +8032,9 @@ property values. &lt;/h1&gt;
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the above code is given below:
+<h5>The output of the above code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 69.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -8053,29 +8047,29 @@ property values. &lt;/h1&gt;
 
 CSS function ( :calc () ).
 
-#### circle()
+<h3>circle()</h3>
 
-###### The circle() is a basic shape value that is the part of the CSS shapes mod- ule. Basic shapes such as circle() can be used as a value for properties such as shape-outside to control the flow of content (code) around the element and clip-path to clip the element's contents to the basic shape. It means that you have text flowing around the element in the shape of a circle, has an image clipped to the shape of a circle. 
+The circle() is a basic shape value that is the part of the CSS shapes mod- ule. Basic shapes such as circle() can be used as a value for properties such as shape-outside to control the flow of content (code) around the element and clip-path to clip the element's contents to the basic shape. It means that you have text flowing around the element in the shape of a circle, has an image clipped to the shape of a circle. 
 
 The syntax of the circle() function is as follows:
 
-```
+<pre>
 circle() = circle( &#91;&lt;shape-radius&gt;&#93;? &#91;at &lt;position&gt;&#93;? )
-```
+</pre>
 
-###### How to Position the Circle
+<h5>How to Position the Circle</h5>
 
 You can specify a position for the circle by various radius argument
 with a valid CSS position. It specifies the circle's center. It just
 separates the radius and the position like this:
 
-```
+</pre>
 shape-outside: circle(100px at 10px 150px);
-```
+</pre>
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -8141,9 +8135,9 @@ Vitae justoeget magna fermentum iaculis.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 70.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -8156,9 +8150,9 @@ Vitae justoeget magna fermentum iaculis.&lt;/p&gt;
 
 CSS function ( :circle() ).
 
-##### Another example:
+<h4>Another example:</h4>
 
-```
+</pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -8212,9 +8206,9 @@ Vitae justo eget magna fermentum iaculis.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 71.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -8227,9 +8221,9 @@ Vitae justo eget magna fermentum iaculis.&lt;/p&gt;
 
 CSS function ( :circle() ).
 
-##### Another example:
+<h4>Another example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -8283,9 +8277,9 @@ Vitae justo eget magna fermentum iaculis.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 72.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -8298,19 +8292,19 @@ Vitae justo eget magna fermentum iaculis.&lt;/p&gt;
 
 CSS function ( :circle() ).
 
-#### contrast()
+<h3>contrast()</h3>
 
-###### The CSS contrast() is used with the filter property to adjust the contrast of an image. The contrast() requires an argument to be passed to it. It deter- mines the contrast level that's applied to the image. The argument can be either a % value or a number. 
+The CSS contrast() is used with the filter property to adjust the contrast of an image. The contrast() requires an argument to be passed to it. It deter- mines the contrast level that's applied to the image. The argument can be either a % value or a number. 
 
 The syntax of the contrast() function is as follows:
 
-```
+</pre>
 contrast() = contrast( &#91; &lt;number&gt; &#124; &lt;percentage&gt; &#93; )
-```
+</pre>
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -8365,9 +8359,9 @@ the contrast on given image. &lt;/h3&gt;
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 73.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -8380,7 +8374,7 @@ the contrast on given image. &lt;/h3&gt;
 
 CSS function ( :contrast() ).
 
-#### counter()
+<h3>counter()</h3>
 
 The counter() allows you to display the counter that was generated by
 the element. Each element has a collection of multiple counters that
@@ -8402,13 +8396,13 @@ is formatted in the indi- cated style (decimal by default).
 
 The syntax of the counter() function is as follows:
 
-```
+</pre>
 counter( &lt;ident&gt; &#91;, &#91; &lt;counter-style&gt; &#124; none &#93; &#93;? )
-```
+</pre>
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -8435,11 +8429,11 @@ content: counter(myCounter) &#34;. &#34;; counter-increment: myCounter;
 &lt;h3&gt; The counter() enables to display the counter that has been
 generated by an element. &lt;/h3&gt;
 &lt;section&gt;
-```
+</pre>
 
 The list of programming is given below:
 
-```
+</pre>
 &lt;p&gt;HTML&lt;/p&gt;
 &lt;p&gt;PHP&lt;/p&gt;
 &lt;p&gt;JavaScript&lt;/p&gt;
@@ -8448,9 +8442,9 @@ The list of programming is given below:
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 74.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -8463,7 +8457,7 @@ The list of programming is given below:
 
 CSS function ( :counter() ).
 
-#### counters()
+<h3>counters()</h3>
 
 The counters() enables you to display nested counters that have been
 gen- erated by an element and its parent/s.
@@ -8484,14 +8478,14 @@ style (decimal by default).
 
 The syntax of the counters() function is as follows:
 
-```
+<pre>
 counters( &lt;ident&gt;, &lt;string&gt; &#91;, &#91; &lt;counter-style&gt; &#124; none &#93;
 &#93;? )
-```
+</pre>
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -8571,9 +8565,9 @@ have been generated by an element and its parent/s. &lt;/h3&gt;
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 75.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -8586,7 +8580,7 @@ have been generated by an element and its parent/s. &lt;/h3&gt;
 
 CSS function ( :counters() ).
 
-#### cubic-bezier()
+<h3>cubic-bezier()</h3>
 
 The cubic-bezier() can be used with the transition timing function
 prop- erty to control how a transition will change speed over its
@@ -8598,9 +8592,9 @@ the transition-timing-function property. Some of the other various
 easing functions include ease-in, ease-out, linear, etc. However, the
 cubic-bezier() can be used to provide your own custom curve.
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -8637,9 +8631,9 @@ custom cubic Bézier curve.
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 76.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -8652,7 +8646,7 @@ custom cubic Bézier curve.
 
 CSS function (cubic-bezier() ).
 
-#### drop-shadow()
+<h3>drop-shadow()</h3>
 
 It uses the drop-shadow() to apply a drop-shadow effect to an image.
 The CSS drop-shadow() is used with the filter property to add a
@@ -8663,9 +8657,9 @@ composited below the image.
 The CSS drop-shadow() accepts multiple arguments that determine the
 drop shadow's offset, its blur, and its color.
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -8725,9 +8719,9 @@ alt=&#34;Sample image&#34;&gt;
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 77.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -8740,20 +8734,20 @@ alt=&#34;Sample image&#34;&gt;
 
 CSS function ( :drop-shadow() ).
 
-#### ellipse()
+<h3>ellipse()</h3>
 
-###### The ellipse() function is a CSS basic shape value that's part of the CSS shapes module. The basic shapes such as ellipse() can be used as a value for properties such as shape-outside to control the f low of content (code) around the element, and clip-path to clip the element's contents to the basic shape. It means you can have text f lowing around the ele- ment in the shape of an ellipse, have an image clipped to the shape of an ellipse, etc. 
+The ellipse() function is a CSS basic shape value that's part of the CSS shapes module. The basic shapes such as ellipse() can be used as a value for properties such as shape-outside to control the f low of content (code) around the element, and clip-path to clip the element's contents to the basic shape. It means you can have text f lowing around the ele- ment in the shape of an ellipse, have an image clipped to the shape of an ellipse, etc. 
 
 The syntax of the ellipse() function is as follows:
 
-```
+<pre>
 ellipse() = ellipse( &#91;&lt;shape-radius&gt;{2}&#93;? &#91;at
 &lt;position&gt;&#93;? )
-```
+</pre>
 
-###### The syntax for &lt;position&gt; is:
+<h5>The syntax for &lt;position&gt; is:</h5>
 
-```
+<pre>
 &lt;position&gt; = &#91;
 &#91; left &#124; center &#124; right &#124; top &#124; bottom &#124; &lt;length- percentage&gt;
 &#93;
@@ -8765,11 +8759,11 @@ center &#124; bottom &#124; &lt;length-percentage&gt; &#93;
 &&
 &#91; center &#124; &#91; top &#124; bottom &#93; &lt;length-percentage&gt;? &#93;
 &#93;
-```
+</pre>
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -8856,9 +8850,9 @@ Vitae juso eget magna fermentum iaculis.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 78.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -8871,9 +8865,9 @@ Vitae juso eget magna fermentum iaculis.&lt;/p&gt;
 
 CSS function ( : ellipse () ).
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -8944,9 +8938,9 @@ Vitae justo egetm magna fermentum iaculis.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-#### filter()
+<h3>filter()</h3>
 
 The filter() function is used to apply a filter to an image. The
 filter() func- tion allows you to apply filters to images. It's
@@ -8963,9 +8957,9 @@ The filter functions that it accepts are the same as those accepted by
 the filter property. You can provide multiple filter functions if
 required.
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -9001,9 +8995,9 @@ image.&lt;/h2&gt;
 &lt;/section&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 79.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -9016,7 +9010,7 @@ image.&lt;/h2&gt;
 
 CSS function ( filter() ).
 
-#### grayscale()
+<h3>grayscale()</h3>
 
 Use the grayscale() function to convert an image to grayscale. The CSS
 grayscale() is used with the filter property to convert an image to
@@ -9030,9 +9024,9 @@ The syntax of the grayscale() function is as follows:
 
 grayscale() = grayscale( &#91; &lt;number&gt; &#124; &lt;percentage&gt; &#93; )
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -9087,9 +9081,9 @@ line-height: 2; font-size:20px
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 80.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -9102,7 +9096,7 @@ line-height: 2; font-size:20px
 
 CSS function ( grayscale() ).
 
-#### hsl()
+<h3>hsl()</h3>
 
 The hsl() function can be used to provide a color value when using
 CSS. It allows to specify that value by specifying the hue,
@@ -9135,9 +9129,9 @@ methodical way.
 
 3.  Adjust the lightness
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -9195,9 +9189,9 @@ Cras facilisis mauris sit amet venenatis aliquet. Suspendisse potent.
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 81.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -9210,7 +9204,7 @@ Cras facilisis mauris sit amet venenatis aliquet. Suspendisse potent.
 
 CSS function ( HSL() ).
 
-#### hsla()
+<h3>hsla()</h3>
 
 The CSS hsla() can be used to add transparency to a color when using
 the HSL model. It allows to specify a color value by specifying the
@@ -9227,13 +9221,13 @@ value, which provides the alpha channel.
 
 Here's an example:
 
-```
+<pre>
 hsla(30, 100%, 50%, 0.5);
-```
+</pre>
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -9294,9 +9288,9 @@ Cras facilisis mauris sit amet venenatis aliquet. Suspendisse potent.
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 82.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -9309,9 +9303,9 @@ Cras facilisis mauris sit amet venenatis aliquet. Suspendisse potent.
 
 CSS function ( hsla() ).
 
-#### hue-rotate()
+<h3>hue-rotate()</h3>
 
-###### Use the hue-rotate() to apply a hue rotation on an image. The CSS hue- 
+Use the hue-rotate() to apply a hue rotation on an image. The CSS hue- 
 rotate() is used with the filter property to apply a hue rotation to an image. 
 Where you specify an angle around the color circle that the input samples will 
 be adjusted by. The hue-rotate() requires an argument to tell it how much to 
@@ -9319,9 +9313,9 @@ rotate the hue by.
 
 The syntax of the hue-rotate() function is as follows:
 
-```
+<pre>
 hue-rotate() = hue-rotate( &#91; &lt;angle&gt; &#124; &lt;zero&gt; &#93;? )
-```
+</pre>
 
 How Does Hue Rotation Work?
 
@@ -9331,9 +9325,9 @@ model is considered to be more intuitive than the RGB model because,
 the HSL model allows to select a base hue, and then adjust its
 saturation and lightness as desired.
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -9383,9 +9377,9 @@ line-height: 2; font-size:20px
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 83.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -9398,7 +9392,7 @@ line-height: 2; font-size:20px
 
 CSS function ( hue-rotate() ).
 
-#### inset()
+<h3>inset()</h3>
 
 The inset() is a CSS basic shape value that is part of the CSS shapes
 mod- ule. The shapes such as inset() can be used as a value for
@@ -9406,9 +9400,9 @@ properties such as shape-outside to control the flow of content around
 the element and clip- path to clip the element's contents to the basic
 shape.
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -9474,9 +9468,9 @@ Vitae justo eget magna fermentum iaculis.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 84.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -9489,7 +9483,7 @@ Vitae justo eget magna fermentum iaculis.&lt;/p&gt;
 
 CSS function ( inset() ).
 
-#### linear-gradient()
+<h3>linear-gradient()</h3>
 
 The linear-gradient() function allows to create a linear-gradient
 using CSS. CSS gradients allow to apply multiple background colors to
@@ -9515,9 +9509,9 @@ specify with an angle value (e.g., 45deg, 90deg, and 180deg) or with
 the keywords for specifying the angle (such as to top, to bottom, to
 top left, etc).
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -9583,9 +9577,9 @@ gradient using CSS.&lt;/h2&gt;
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the ode is given below:
+<h5>The output of the ode is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 85.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -9598,7 +9592,7 @@ gradient using CSS.&lt;/h2&gt;
 
 CSS function linear-gradient().
 
-#### matrix()
+<h3>matrix()</h3>
 
 The CSS matrix() can be used with CSS transforms to style elements in
 a two-dimensional space.
@@ -9606,9 +9600,9 @@ a two-dimensional space.
 The matrix() is an alternative to the two-dimensional transform func-
 tions rotate(), skew(), scale(), and translate().
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -9662,9 +9656,9 @@ function = transform: matrix(0.707107, 0.707107, -0.707107, 0.707107,
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 86.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -9677,7 +9671,7 @@ function = transform: matrix(0.707107, 0.707107, -0.707107, 0.707107,
 
 CSS function- matrix().
 
-#### matrix3d()
+<h3>matrix3d()</h3>
 
 The CSS matrix3d() can be used with CSS transforms to style elements
 in a three-dimensional space. The matrix3d() is an alternative to the
@@ -9685,9 +9679,9 @@ three- dimensional transform functions rotate3d(), rotateX(),
 rotateY(), rotateZ(), translate3d(), translateZ(), scale3d(),
 scaleZ(), and perspective().
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -9740,9 +9734,9 @@ function = transform: matrix(0.707107, 0.707107, -0.707107, 0.707107,
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 87.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -9755,7 +9749,7 @@ function = transform: matrix(0.707107, 0.707107, -0.707107, 0.707107,
 
 CSS function-matrix3d().
 
-#### opacity()
+<h3>opacity()</h3>
 
 Use the opacity() function to make an image partially or completely
 trans- parent. The opacity() is used with the filter property to apply
@@ -9764,9 +9758,9 @@ argument to be passed to it. Also, it determines the proportion of the
 transparency that's applied to the image. The argument can be either a
 value or a number.
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 <!DOCTYPE html&gt;
 <html&gt;
 <head&gt;
@@ -9821,9 +9815,9 @@ value or a number.
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 88.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -9836,9 +9830,9 @@ value or a number.
 
 CSS function-opacity().
 
-#### perspective()
+<h3>perspective()</h3>
 
-###### The perspective() function defines the distance between the z=0 plane and the user in order to give the 3D-positioned element some perspective. 
+The perspective() function defines the distance between the z=0 plane and the user in order to give the 3D-positioned element some perspective. 
 
 The perspective() function works like this:
 
@@ -9849,9 +9843,9 @@ The argument is also specified as a length value (e.g., 1px, 1vw,
 etc). The greater the length, the less pronounced the "3D effect" will
 be.
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -9914,9 +9908,9 @@ Image &lt;/p&gt;
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 89.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -9929,7 +9923,7 @@ Image &lt;/p&gt;
 
 CSS function ( perspective() ).
 
-#### radial-gradient()
+<h3>radial-gradient()</h3>
 
 The radial-gradient() function allows to create a radial gradient
 using CSS.
@@ -9937,9 +9931,9 @@ using CSS.
 CSS gradients allow to apply multiple background colors to an element
 that blend from one color to the next.
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -10001,10 +9995,9 @@ bottom right, yellow, red) &lt;/p&gt;
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
-
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 90.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -10017,7 +10010,7 @@ bottom right, yellow, red) &lt;/p&gt;
 
 CSS Function (radial-gradient() () )
 
-#### repeating-linear-gradient()
+<h3>repeating-linear-gradient()</h3>
 
 The CSS repeating-linear-gradient() allows to create a linear gradient
 that repeats over and over again infinitely in both directions. The
@@ -10057,9 +10050,9 @@ The following keywords specify to point the gradient-line given below:
 
 -   color-stop
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -10131,10 +10124,9 @@ orange, gold 15%, orange 30%)
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
-
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 91.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -10147,9 +10139,9 @@ orange, gold 15%, orange 30%)
 
 CSS function (repeating-linear -gradient() () ).
 
-#### repeating-radial-gradient()
+<h3>repeating-radial-gradient()</h3>
 
-###### The CSS repeating-radial-gradient() allows to create a radial gradient that 
+The CSS repeating-radial-gradient() allows to create a radial gradient that 
 repeats over and over again. CSS gradients allow you to apply mul- tiple bg colors to 
 an element that blend from single color to the next. Repeating radial gradients are 
 gradients where the color stops are repeated infinitely. Radial gradients have a 
@@ -10159,14 +10151,14 @@ of the gradient as well as the size and shape.
 **Syntax:** This function uses the same syntax as the
 radial-gradient() function, which is as follows:
 
-```
+<pre>
 &lt;radial-gradient&gt; = radial-gradient(
 &#91; &#91; &lt;shape&gt; &#124;&#124; &lt;size&gt; &#93; &#91; at &lt;position&gt; &#93;?, &#124; at
 &lt;position&gt;,
 &#93;?
 &lt;color-stop&gt; &#91;, &lt;color-stop&gt; &#93;+
 )
-```
+</pre>
 
 The repeating-radial-gradient() function accepts the following values:
 
@@ -10201,9 +10193,9 @@ The repeating-radial-gradient() function accepts the following values:
 
     -   center
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -10290,10 +10282,9 @@ at 25px 35px, orange 15%, gold 40%)&lt;/p&gt;
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
-
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 92.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -10306,7 +10297,7 @@ at 25px 35px, orange 15%, gold 40%)&lt;/p&gt;
 
 CSS function (repeating-radial -gradient() ).
 
-#### rgb()
+<h3>rgb()</h3>
 
 The rgb() function can be used to provide a value when using CSS. It
 allows to specify an RGB color value by specifying the red, green, and
@@ -10322,17 +10313,17 @@ blue hues, respectively.
 Each of the three values can be provided as an integer or as a
 percentage.
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 RGB(255,0,0) RGB(100%,0%,0%)
-```
+</pre>
 
 We can use the property on any element.
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -10419,10 +10410,9 @@ using CSS&lt;/h2&gt;
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
-
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 93.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -10435,7 +10425,7 @@ using CSS&lt;/h2&gt;
 
 CSS function (RGB () ).
 
-#### rotate()
+<h3>rotate()</h3>
 
 The CSS rotate() is used to rotate elements in two-dimensional space.
 The rotate() rotates an element based on the angle that you provide as
@@ -10450,9 +10440,9 @@ There are various properties used in rotate such as:
 
 3.  Turns
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -10528,10 +10518,9 @@ two-dimensional space.&lt;/h2&gt;
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
-
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 94.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -10544,26 +10533,26 @@ two-dimensional space.&lt;/h2&gt;
 
 CSS function (rotate() ).
 
-#### rotate3d()
+<h3>rotate3d()</h3>
 
-###### The rotate3d() function is used to rotate elements in three-dimensional space. 
+The rotate3d() function is used to rotate elements in three-dimensional space. 
 The rotate3d() function rotates the element along the x, y, and z axes using the angle 
 provided as an argument.
 
 The syntax of the rotate3d() function is as follows:
 
-```
+<pre>
 rotate3d() = rotate3d( &lt;number&gt;, &lt;number&gt;, &lt;number&gt;,
 &lt;angle&gt; ).
-```
+</pre>
 
 The first three parameters describe the &#91;x, y, z&#93; direction vectors.
 The fourth parameter specifies the angle to be used. It works like
 this:
 
-```
+<pre>
 rotate3d(x, y, z, a)
-```
+</pre>
 
 -   x: It describes the x-coordinate of the vector denoting the axis of
     rotation.
@@ -10588,9 +10577,9 @@ rotate3d(x, y, z, a)
 
 -   turn: It is turns. There is one turn in a circle.
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;html&gt;
 &lt;head&gt;
 &lt;style&gt;
@@ -10654,10 +10643,9 @@ three-dimensional space.&lt;/h2&gt;
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
-
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 95.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -10670,9 +10658,9 @@ three-dimensional space.&lt;/h2&gt;
 
 CSS function (rotate3d () ).
 
-#### rotateX()
+<h3>rotateX()</h3>
 
-###### The CSS rotateX() is used to rotate elements around the x-axis in three- 
+The CSS rotateX() is used to rotate elements around the x-axis in three- 
 dimensional space. The rotateX() is used in 3D-transforms. It's used with the 
 transform property to rotate an element around the x-axis. It can be used in 
 other rotation functions such as rotateY(), rotateZ() to rotate the element 
@@ -10680,9 +10668,9 @@ around the y and z axes if required.
 
 The syntax of the rotateX() function is as follows:
 
-```
+<pre>
 rotateX() = rotateX( &lt;angle&gt; )
-```
+</pre>
 
 The angle can be represented with the following unit identifiers:
 
@@ -10691,17 +10679,17 @@ The angle can be represented with the following unit identifiers:
 -   rad
 -   turn
 
-#### rotateY()
+<h3>rotateY()</h3>
 
-###### The CSS rotateY() is used to rotate elements around the x-axis in three-
+The CSS rotateY() is used to rotate elements around the x-axis in three-
  dimensional space. The rotateY() function is used in 3D-transforms. It is used 
 with the transform property to rotate an element around the x-axis. 
 
 The syntax of the rotateY() function is as follows:
 
-```
+<pre>
 rotateY() = rotateY( &lt;angle&gt; )
-```
+</pre>
 
 The angle can be represented with any of the following identifiers:
 
@@ -10710,16 +10698,16 @@ The angle can be represented with any of the following identifiers:
 -   rad
 -   turn
 
-#### rotateZ()
+<h3>rotateZ()</h3>
 
-###### The CSS rotateZX() function is used to rotate elements around the x-axis in three-dimensional 
+The CSS rotateZX() function is used to rotate elements around the x-axis in three-dimensional 
 space. The rotateZ() is used in 3D-transforms. It's used with the transform property to rotate an element around the y-axis. 
 
 The syntax of the rotateZ() function is as follows:
 
-```
+<pre>
 rotateZ() = rotateZ( &lt;angle&gt; )
-```
+</pre>
 
 The angle can be represented with any of the following identifiers:
 
@@ -10730,7 +10718,7 @@ The angle can be represented with any of the following identifiers:
 
 Example of rotateX(), rotateY(), rotateZ():
 
-```
+<pre>
 &lt;html&gt;
 &lt;head&gt;
 &lt;style&gt;
@@ -10818,10 +10806,9 @@ z-axis in a three-dimensional space.&lt;/h2&gt;
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
-
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 96.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -10834,20 +10821,20 @@ z-axis in a three-dimensional space.&lt;/h2&gt;
 
 CSS function (rotateX(), rotateY (), rotateZ() ).
 
-#### saturate()
+<h3>saturate()</h3>
 
-###### The saturate() function is used to adjust the saturation of an image. This 
+The saturate() function is used to adjust the saturation of an image. This 
 function is used with the filter to adjust the saturation levels in an image. 
 
 The syntax of the saturate() function is as follows:
 
-```
+<pre>
 saturate() = saturate( &#91; &lt;number&gt; &#124; &lt;percentage&gt; &#93; )
-```
+</pre>
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -10896,10 +10883,9 @@ padding-top: 20px; font-size:20px
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
-
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 97.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -10912,7 +10898,7 @@ padding-top: 20px; font-size:20px
 
 CSS function ( saturate() ).
 
-#### scale()
+<h3>scale()</h3>
 
 The CSS scale() is used to scale elements in two-dimensional space.
 The scale() scales an element based on the number that provides as an
@@ -10926,13 +10912,13 @@ or both. The scale() function works like this:
 
 The syntax of the scale() function is as follows:
 
-```
+<pre>
 scale() = scale( &lt;number&gt; &#91;, &lt;number&gt; &#93;? )
-```
+</pre>
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -10976,10 +10962,9 @@ two-dimensional space. &lt;/h2&gt;
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
-
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 98.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -10992,7 +10977,7 @@ two-dimensional space. &lt;/h2&gt;
 
 CSS function ( scale() ).
 
-#### scale3d()
+<h3>scale3d()</h3>
 
 The scale3d() is used to scale elements in three-dimensional space.
 The scale3d() scales an element based on the numbers that provide an
@@ -11004,13 +10989,13 @@ functions:
 scalex(), scaleY(), scaleZ(), and scale().
 The syntax of the scale3d() function is as follows:
 
-```
+<pre>
 scale3d() = scale3d( &lt;number&gt;, &lt;number&gt;, &lt;number&gt; )
-```
+</pre>
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -11055,10 +11040,9 @@ three-dimensional space. &lt;/h2&gt;
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
-
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 99.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -11071,20 +11055,20 @@ three-dimensional space. &lt;/h2&gt;
 
 CSS function ( scale3d() ).
 
-#### scaleX()
+<h3>scaleX()</h3>
 
-###### The CSS scaleX() is used to scale elements in two-dimensional space along the x-axis. 
+The CSS scaleX() is used to scale elements in two-dimensional space along the x-axis. 
 The scaleX() scales an element based on the number/s that pro- vide an argument.
 
 The syntax of the scaleX() function is as follows:
 
-```
+<pre>
 scaleX() = scaleX( &lt;number&gt; )
-```
+</pre>
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -11136,10 +11120,9 @@ alt=&#34;Sample image&#34;&gt;
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
-
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 100.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -11152,18 +11135,16 @@ alt=&#34;Sample image&#34;&gt;
 
 CSS function (scaleX()).
 
-#### scaleY()
+<h3>scaleY()</h3>
 
-###### The CSS scaleY() is used to scale elements in two-dimensional space along the x-axis. The scaleY() scales an element based on the number/s that provide an argument. The syntax of the scaleY() function is as
+The CSS scaleY() is used to scale elements in two-dimensional space along the x-axis. The scaleY() scales an element based on the number/s that provide an argument. The syntax of the scaleY() function is as
 follows:
 
-```
-scaleY () = scaleY ( &lt;number&gt; )
-```
+<pre>scaleY () = scaleY ( &lt;number&gt; )</pre>
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -11213,9 +11194,9 @@ alt=&#34;Sample image&#34;&gt;
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
+<h5>The output of the code is given below:</h5>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 101.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -11229,17 +11210,17 @@ alt=&#34;Sample image&#34;&gt;
 
 CSS function (scaleY()).
 
-#### scaleZ()
+<h3>scaleZ()</h3>
 
-###### The CSS scaleZ () is used to scale elements in two-dimensional space along the x-axis. The scaleZ() scales an element based on the number/s that pro- vide an argument. The syntax of the scaleZ () function is as follows: 
+The CSS scaleZ () is used to scale elements in two-dimensional space along the x-axis. The scaleZ() scales an element based on the number/s that pro- vide an argument. The syntax of the scaleZ () function is as follows: 
 
-```
+<pre>
 scaleZ () = scaleZ ( &lt;number&gt; )
-```
+</pre>
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -11296,10 +11277,9 @@ alt=&#34;Sample image&#34;&gt;
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
-
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 102.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -11312,7 +11292,7 @@ alt=&#34;Sample image&#34;&gt;
 
 CSS function (scaleZ()).
 
-#### skew()
+<h3>skew()</h3>
 
 The CSS skew() function is used to skew elements in two-dimensional
 space. The skew() element performs a shear transformation (also known
@@ -11329,9 +11309,9 @@ The skew() function works like this:
 
 -   skew(ax, ay)
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -11404,10 +11384,9 @@ two-dimensional space. &lt;/h2&gt;
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
-
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 103.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -11420,22 +11399,22 @@ two-dimensional space. &lt;/h2&gt;
 
 CSS function (skew()).
 
-#### skewX()
+<h3>skewX()</h3>
 
-###### The skewX() element performs a shear transformation (also known as a shear mapping or a transvection), which displaces each point of an ele- ment by a given angle along the x-axis. 
+The skewX() element performs a shear transformation (also known as a shear mapping or a transvection), which displaces each point of an ele- ment by a given angle along the x-axis. 
 
 The skewX() function works like this:
 
-```
+<pre>
 skewX(a)
-```
+</pre>
 
 The skewX() function accepts one argument which specifies the angle of
 the skew for the x-axis. It can be any valid angle value.
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -11486,10 +11465,9 @@ two-dimensional space along the x-axis. &lt;/h2&gt;
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
-```
+</pre>
 
-###### The output of the code is given below:
-
+<h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 104.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -11502,9 +11480,9 @@ two-dimensional space along the x-axis. &lt;/h2&gt;
 
 CSS function (skewX()).
 
-### CHAPTER SUMMARY
+<h2>CHAPTER SUMMARY</h2>
 
-###### In this chapter, we saw various built-in methods like attr(), RGB(), rgba(), and so on. These functions have their own unique functionality and prop- erties. So next chapter is about CSS plugins. 
+In this chapter, we saw various built-in methods like attr(), RGB(), rgba(), and so on. These functions have their own unique functionality and prop- erties. So next chapter is about CSS plugins. 
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 06.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -11516,11 +11494,13 @@ CSS function (skewX()).
 </p>
 <!-- ![](./images/image6.png){width="3.6393208661417322in" height="0.9622911198600175in"}  -->
 
-CHAPTER 5
-
-# CSS Plugins
-
-### [IN THIS CHAPTER]
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h1>CHAPTER 5</h1>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2>CSS Plugins</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2>[IN THIS CHAPTER]</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 -   Introduction
 -   Various CSS Plugins Based on PostCSS
@@ -11555,7 +11535,7 @@ PostCSS will take your existing CSS file and convert it to JavaScript
 readable data, then the JavaScript plugins will make the modifications
 and PostCSS will return the modified version of the original file.
 
-## VARIOUS CSS PLUGINS PostCSS BASED
+<h2>VARIOUS CSS PLUGINS PostCSS BASED
 
 There are various plugins available in the market as given below:
 
@@ -11570,13 +11550,13 @@ There are various plugins available in the market as given below:
 9.  PostCSS
 10. PostCSS-modules
 
-### AUTOPREFIXER
+<h2>AUTOPREFIXER</h2>
 
-###### Autoprefixer uses the data based on the latest browser popularity that supports to apply prefixes for you. You can try the interactive demo of Autoprefixer. 
+Autoprefixer uses the data based on the latest browser popularity that supports to apply prefixes for you. You can try the interactive demo of Autoprefixer. 
 
 You can write any CSS rules without vendor prefixes as given below:
 
-```
+<pre>
 .container {
 box-shadow: 0 0 10px #cecece; transition: all .5s;
 }
@@ -11585,7 +11565,7 @@ color: red;
 }
 .section a{ display: flex;
 }
-```
+</pre>
 
 Write Pure CSS
 Working with Autoprefixer is simple, you need to forget about vendor
@@ -11605,12 +11585,12 @@ Autoprefixer will produce the code for old browsers. Autoprefixer
 changes CSS indenta- tion to create a nice visual cascade of prefixes
 if the CSS is uncompressed.
 
-```
+<pre>
 a {
 -webkit-box-sizing: border-box;
 -moz-box-sizing: border-box; box-sizing: border-box;
 }
-```
+</pre>
 
 The output with Autoprefixer will be like this (you can check the
 Autoprefixers code online using, <https://tools.webdevpuneet.com/>
@@ -11623,7 +11603,7 @@ Autoprefixers code online using, <https://tools.webdevpuneet.com/>
 -   Autoprefixer: v9.7.6
 -   Browsers: last 4 version
 
-```
+<pre>
 &#42;/
 .container {
 -webkit-box-shadow: 0 0 10px #cecece;
@@ -11637,7 +11617,7 @@ color: red;
 .section a{
 display: -webkit-box; display: -ms-flexbox; display: flex;
 }
-```
+</pre>
 
 The thing is that some CSS properties will display differently in dif-
 ferent browsers, and you want every site visitor to have a predictable
@@ -11669,13 +11649,13 @@ Autoprefixer. The process is the same as installing Sass, only you
 install three packages at once. You can install so many at once you'd
 like, each separated by a space as
 
-```
+<pre>
 &#36; npm install autoprefixer postcss postcss-cli -g
-```
+</pre>
 
-###### Once npm has downloaded and installed the packages, need to go back into package.json and add a script for npm to run, just like when you installed Sass. Add a new script named "prefix" after the "sass"s script: 
+Once npm has downloaded and installed the packages, need to go back into package.json and add a script for npm to run, just like when you installed Sass. Add a new script named "prefix" after the "sass"s script: 
 
-```
+<pre>
 {
 &#34;name&#34;: &#34;abc&#34;,
 &#34;version&#34;: &#34;1.0.0&#34;, &#34;description&#34;: abc&#34;, &#34;main&#34;:
@@ -11686,12 +11666,12 @@ css -w &#45;-style compressed&#34;, &#34;prefix&#34;:
 &#34;author&#34;: &#34;&#34;,
 &#34;license&#34;: &#34;ISC&#34;,
 }
-```
+</pre>
 
-###### And inside the script need to tell npm to use the new postcss package 
+And inside the script need to tell npm to use the new postcss package 
 you just installed and also where to find your compiled CSS file:
 
-```
+<pre>
 {
 &#34;name&#34;: &#34;abc&#34;,
 &#34;version&#34;: &#34;1.0.0&#34;, &#34;description&#34;: &#34;abc&#34;, &#34;main&#34;:
@@ -11703,14 +11683,13 @@ css -w &#45;-style compressed&#34;,
 &#34;author&#34;: &#34;&#34;,
 &#34;license&#34;: &#34;ISC&#34;,
 }
-```
+</pre>
 
-###### After that you need to instruct npm which package to use and where to 
-
+After that you need to instruct npm which package to use and where to 
 find the CSS file, to use Autoprefixer by implementing -- use flag
 followed by Autoprefixer as given below:
 
-```
+<pre>
 {
 &#34;name&#34;: &#34;abc&#34;,
 &#34;version&#34;: &#34;1.0.0&#34;,
@@ -11722,11 +11701,11 @@ compressed&#34;,
 &#34;author&#34;: &#34;&#34;,
 &#34;license&#34;: &#34;ISC&#34;,
 }
-```
+</pre>
 
-###### And then, finally, you need to instruct it where to put new, prefixed, CSS sheet as given below: 
+<h5>And then, finally, you need to instruct it where to put new, prefixed, CSS sheet as given below:</h5>
 
-```
+<pre>
 {
 &#34;name&#34;: &#34;abc&#34;,
 &#34;version&#34;: &#34;1.0.0&#34;, &#34;description&#34;: &#34;abc&#34;, &#34;main&#34;:
@@ -11739,21 +11718,21 @@ css -w &#45;-style compressed&#34;,
 &#34;author&#34;: &#34;&#34;,
 &#34;license&#34;: &#34;ISC&#34;,
 }
-```
+</pre>
 
-###### Now your prefixing script is complete.
+<h5>Now your prefixing script is complete</h5>
 
 Add a new key named browserslist as given below:
 
-```
+<pre>
 {
 &#34;browserslist&#34;:
 }
-```
+</pre>
 
-#### And then give browserslist a value of last four versions : 
+<h3>And then give browserslist a value of last four versions:</h3>
 
-```
+<pre>
 &#34;name&#34;: &#34;joeblow&#34;,
 &#34;version&#34;: &#34;1.0.0&#34;,
 &#34;description&#34;: &#34;Joe Blow&#39;s web
@@ -11768,19 +11747,19 @@ compressed&#34;,
 &#34;license&#34;: &#34;ISC&#34;,
 &#34;browserslist&#34;: &#34;last 4 versions&#34;
 }
-```
+</pre>
 
 
-###### Now you are ready to autoprefix CSS! Let's move into the terminal and 
-run the prefix script:
+<h5>Now you are ready to autoprefix CSS! Let's move into the terminal and 
+run the prefix script:</h5>
 
-```
+<pre>
 &#36; npm run prefix
-```
+</pre>
 
-###### Take a look at the new, prefixed, CSS in your CSS file, a new block will be added: 
+<h5>Take a look at the new, prefixed, CSS in your CSS file, a new block will be added:</h5>
 
-```
+<pre>
 .section {
 background: #15DEA5; height: 10rem; display: -webkit-box; display:
 -ms-flexbox; display: flex;
@@ -11789,7 +11768,7 @@ background: #15DEA5; height: 10rem; display: -webkit-box; display:
 -ms-flex-wrap: wrap; flex-wrap: wrap;
 width: 100%;
 }
-```
+</pre>
 
 Now our website will display properly and uniformly across all compatible browsers.
 
@@ -11827,7 +11806,7 @@ project.
 -   Upsides: prefixes perfectly to what you support, final CSS is cache-
     able, handles tricky fallbacks (e.g., flexbox).
 
-#### CSSnext
+<h3>CSSnext</h3>
 
 PostCSS is a new tool that makes easy to develop JavaScript plugins
 that transform styles. This opens up a new world of possibilities for
@@ -11844,7 +11823,7 @@ to use the prefixes yourself when writing CSS.
 
 To give you an example, let's say you have the following CSS styles:
 
-```
+<pre>
 :root {
 &#45;-text: pink;
 &#45;-bg-color: #FFEC31;
@@ -11859,11 +11838,11 @@ whiteness(25%)); &#64;apply(&#45;-flex-center);
 .warn {
 &#64;apply(&#45;-flex-center);
 }
-```
+</pre>
 
-###### cssnext will transform the styles into this:
+<h5>cssnext will transform the styles into this:</h5>
 
-```
+<pre>
 .box {
 background-color: #F9EC31; color: rgb(255, 64, 159); display:
 -webkit-box; display: -ms-flexbox; display: flex;
@@ -11873,7 +11852,7 @@ margin: auto;
 display: -webkit-box; display: -ms-flexbox; display: flex; margin:
 auto;
 }
-```
+</pre>
 
 This plugin is the Babel of CSS, it allows you to use modern CSS
 features and at the same time takes care of translating them into CSS that is
@@ -11886,7 +11865,7 @@ more digestible for older browsers:
 
 -   allows you to use nesting, like in Sass.
 
-#### CSSnano
+<h3>CSSnano</h3>
 
 cssnano minifies and compresses your CSS. It removes whitespace,
 elimi- nates duplicate rules, outdated vendor prefixes, comments, and
@@ -11898,19 +11877,19 @@ PostCSS, the PostCSS-CLI, cssnext, and cssnano
 
 Using npm:
 
-```
+<pre>
 &#36; npm install &#45;-save-dev postcss postcss-cli postcss- cssnext
 cssnano
-```
+</pre>
 
-###### Or through Yarn command:
+<h5>Or through Yarn command:</h5>
 
-```
+<pre>
 &#36; yarn add postcss postcss-cli postcss-cssnext cssnano
 &#45;-dev
-```
+</pre>
 
-###### Using the PostCSS-CLI 
+<h5>Using the PostCSS-CLI</h5>
 
 You use the PostCSS command line (cmd) interface by giving the input,
 output files, and PostCSS plugin(s) to use. It specifies the plugins
@@ -11918,55 +11897,55 @@ with the -- use flag, the output file with the -- output flag, and the
 input file is pro- vided last without any flags using the below
 command:
 
-```
+<pre>
 &#36; postcss &#45;-use postcss-cssnext &#45;-use cssnano &#45;-output
 styles-out.css styles.css
-```
+</pre>
 
-###### You can use the PostCSS CLI in watch mode, to listen for changes to the input file using the below command: 
+<h5>You can use the PostCSS CLI in watch mode, to listen for changes to the input file using the below command:</h5>
 
-```
+<pre>
 &#36; postcss &#45;-use postcss-cssnext &#45;-use cssnano &#45;-output
 styles-out.css styles.css &#45;-watch
-```
+</pre>
 
-###### You can specify more fine-grained configuration options in a json con- figuration file to specify the config file with the -- config flag: 
+<h5>You can specify more fine-grained configuration options in a json con- figuration file to specify the config file with the -- config flag:</h5>
 
-```
+<pre>
 &#36; postcss &#45;-config postcss-config.json
-```
+</pre>
 
-###### Your config file will look like this:
+<h5>Your config file will look like this:</h5>
 
-```
+<pre>
 {
 &#34;use&#34;: &#91;&#34;postcss-cssnext&#34;, &#34;cssnano&#34;&#93;,
 &#34;input&#34;: &#34;styles.css&#34;, &#34;output&#34;:
 &#34;styles-out.css&#34;
 }
-```
+</pre>
 
-###### npm Script
+<h5>npm Script</h5>
 
 To make your workflow run smooth, simply set up a postcss script in
 your project's package.json file:
 
-```
+<pre>
 &#34;scripts&#34;: {
 &#34;postcss&#34;: &#34;postcss &#45;-use postcss-cssnext &#45;-use cssnano &#45;-output
 styles-out.css styles.css&#34;
 }
-```
+</pre>
 
-###### Now all you have to do is run the following command: 
+<h5>Now all you have to do is run the following command:</h5>
 
-&#36; npm run postcss
+<pre>&#36; npm run postcss</pre>
 
-#### PreCSS
+<h3>PreCSS</h3>
 
-###### It will let you use Sass-like markup and staged CSS features in CSS. This is the given example: 
+<h5>It will let you use Sass-like markup and staged CSS features in CSS. This is the given example:</h5>
 
-```
+<pre>
 &#36;blue: #056ef0;
 &#36;column: 200px;
 .menu {
@@ -11974,17 +11953,17 @@ width: calc(4 &#42; &#36;column);
 }
 .menu_link { background: &#36;blue; width: &#36;column;
 }
-```
+</pre>
 
-###### The result will be like this:
+<h5>The result will be like this:</h5>
 
-```
+<pre>
 .menu {
 width: calc(4 &#42; 200px);
 }
 .menu_link { background: #056ef0; width: 200px;
 }
-```
+</pre>
 
 It combines Sass-like syntactical suga like
 variables, conditionals, and iterators, with emerging CSS features,
@@ -11993,11 +11972,11 @@ sets.
 
 Usage
 
-You can add PreCSS to your build tool:
+<h5>You can add PreCSS to your build tool:</h5>
 
-```
+<pre>
 &#36; npm install precss &#45;-save-dev
-```
+</pre>
 
 Other Various Plugins
 
@@ -12006,92 +11985,92 @@ It has powered by the following plugins (in this order):
 -   postcss-extend-rule: You can add this PostCSS Extend Rule to your
     project:
 
-```
+<pre>
 &#36; npm install postcss postcss-extend-rule
 &#45;-save-dev
-```
+</pre>
 
-###### Use PostCSS Extend Rule to process your CSS:
+<h5>Use PostCSS Extend Rule to process your CSS:</h5>
 
-```
+<pre>
 const postcssExRule = require(&#39;postcss- extend-rule&#39;);
 postcssExRule.process(CSS_CODE /&#42;, processOptions, pluginOptions
 &#42;/);
-```
+</pre>
 
-###### There are various Options available in this plugins. 
+<h5>There are various Options available in this plugins.</h5>
 
 The name option determines the at-rule name being used to extend
 selectors. By default, this name is extend, meaning &#64;extend rules are
 parsed.
 
-```
+<pre>
 postcssExtend({ name: &#39;postcss-extend&#39; })
-```
+</pre>
 
-###### If the name option were changed to, say, postcss-extend, then only &#64;postcss-extend at-rules would be parsed. 
+<h5>If the name option were changed to, say, postcss-extend, then only &#64;postcss-extend at-rules would be parsed.</h5>
 
-```
+<pre>
 main {
 &#64;postcss-extend.some-rule;
 }
-```
+</pre>
 
-###### postcss-advanced-variables: Its variables let you use Sass-like vari-
-ables, conditionals, and iterators in CSS.
+<h5>postcss-advanced-variables: Its variables let you use Sass-like vari-
+ables, conditionals, and iterators in CSS.</h5>
 
 You can add PostCSS advanced variables to your build tool:
 
-```
+<pre>
 &#36; npm install postcss-advanced-variables
 &#45;-save-dev
-```
+</pre>
 
-###### You can add PostCSS to your build tool:
+<h5>You can add PostCSS to your build tool:</h5>
 
-```
+<pre>
 &#36; npm install postcss &#45;-save-dev
-```
+</pre>
 
-###### Use PostCSS advanced variables as a plugin:
+<h5>Use PostCSS advanced variables as a plugin:</h5>
 
-```
+<pre>
 postcss(&#91;
 require(&#39;postcss-advanced-variables&#39;)(/&#42; options
 &#42;/)
 &#93;).process(YOUR_CSS);
-```
+</pre>
 
-###### postcss-preset-env: It lets us to convert modern CSS into something that most browsers can understand, determining the polyfills need based on targeted browsers or runtime environments.
+<h5>postcss-preset-env: It lets us to convert modern CSS into something that most browsers can understand, determining the polyfills need based on targeted browsers or runtime environments.</h5>
 
-```
+<pre>
 &#36; npm install postcss-preset-env
-```
+</pre>
 
-###### You can add PostCSS Preset Env into your project:
+<h5>You can add PostCSS Preset Env into your project:</h5>
 
-```
+<pre>
 &#36; npm install postcss-preset-env &#45;-save-dev (run this command in the
 terminal)
-```
+</pre>
 
-###### Now use PostCSS Preset Env to process your CSS as given below: 
+<h5>Now use PostCSS Preset Env to process your CSS as given below:</h5>
 
-```
+<pre>
 const postCSSPresetEnv = require(&#39;postcss- preset-env&#39;);
 postCSSPresetEnv.process(YOUR_CSS /&#42;, processOptions, pluginOptions
 &#42;/);
-```
+</pre>
 
-###### Various Options
+<h5>Various Options</h5>
 
 1.  **stage:** This option determines which CSS features to polyfill,
     based on the stability in the process of becoming implemented web
     standards.
 
-```
+<pre>
 postcssPresetEnv({ stage: 0 })
-```
+</pre>
 
 This stage can be 0 (experimental) through 4 (stable), or false. By
 setting stage to false will disable all polyfill. This would be useful
@@ -12132,38 +12111,38 @@ You can use these IDs just by importing them in the code.
     will be passed to it automatically. It specifying the autoprefixer
     option enables passing additional options into autoprefixer.
 
-```
+<pre>
 postcssPresetEnv({ autoprefixer: { grid: true }
 })
-```
+</pre>
 
-###### postcss at-root: The &#64;at-root causes one or more rules to be emitted at the root of a document, rather than nested beneath their parent selectors:
+<h5>postcss at-root: The &#64;at-root causes one or more rules to be emitted at the root of a document, rather than nested beneath their parent selectors:</h5>
 
-```
+<pre>
 .section {
 &#8230;
 &#64;at-root{
 . div {&#8230;}
 }
 }
-```
+</pre>
 
-###### The result will be as given below:
+<h5>The result will be as given below:</h5>
 
-```
+<pre>
 .child { &#8230; }
 .parent { &#8230; }
-```
+</pre>
 
-###### How to use it in code:
+<h5>How to use it in code:</h5>
 
-```
+<pre>
 postcss(&#91; require(&#39;postcss-atroot&#39;)() &#93;)
-```
+</pre>
 
-###### postcss-property-lookup:PostCSS plugin that allows referencing property values without a variable, similar to Stylus.
+<h5>postcss-property-lookup:PostCSS plugin that allows referencing property values without a variable, similar to Stylus.</h5>
 
-```
+<pre>
 .section {
 margin-left: 20px;
 margin-right: &#64;margin-left; color: red;
@@ -12175,13 +12154,13 @@ margin-left: 20px; margin-right: 20px; color: red;
 background: red url(&#39;test.png&#39;); line-height: 1.5;
 font-size: 1.5em;
 }
-```
+</pre>
 
-###### How to use in code:
+<h5>How to use in code:</h5>
 
-```
+<pre>
 postcss(&#91; require(&#39;postcss-property-lookup&#39;) &#93;)
-```
+</pre>
 
 -   postcss-nested
 
@@ -12189,9 +12168,9 @@ Install Plugin
 
 -   Step 1:
 
-```
+<pre>
 &#36; npm install &#45;-save-dev postcss postcss-nested
-```
+</pre>
 
 -   Step 2: Check your existing project for PostCSS config: postcss.con-
     fig.js in the project root, "postcss" section in package.json or
@@ -12202,32 +12181,32 @@ this plugin in settings.
 
 -   Step 3: Add the plugin to plugins list:
 
-```
+<pre>
 module.exports = { plugins: &#91;
 &#43; require(&#39;postcss-nested&#39;), require(&#39;autoprefixer&#39;)
 &#93;
 }
-```
+</pre>
 
-###### There are various options available:
+<h5>There are various options available:</h5>
 
 1.  bubble: By default, plugin will bubble only the &#64;media and @
     supports at-rules. You can add custom at-rules to list by bubble
     option:
 
-```
+<pre>
 postcss(&#91; require(&#39;postcss-nested&#39;)({ bubble: &#91;&#39;phone&#39;&#93; }) &#93;)
-```
+</pre>
 
-###### unwrap: By default, plugin will unwrap the &#64;font-face, &#64;keyframes, and &#64;document at-rules. You can add custom at-rules to the list by unwrap option:
+<h5>unwrap: By default, plugin will unwrap the &#64;font-face, &#64;keyframes, and &#64;document at-rules. You can add custom at-rules to the list by unwrap option:</h5>
 
-```
+<pre>
 postcss(&#91; require(&#39;postcss-nested&#39;)({ unwrap: &#91;&#39;phone&#39;&#93; }) &#93;)
-```
+</pre>
 
-##### Example:
+<h4>Example:</h4>
 
-```
+<pre>
 /&#42; Enter your CSS code &#42;/ a {
 color: white; &#64;phone {
 color: black;
@@ -12240,38 +12219,38 @@ color: white;
 &#64;phone {
 color: black;
 }
-```
+</pre>
 
-###### preserveEmpty
+<h5>preserveEmpty</h5>
 
 By default, plugin will strip out any empty selector generated by
 interme- diate nesting levels. You can set preserveEmpty to true to
 preserve them.
 
-```
+<pre>
 .a {
 .b {
 color: black;
 }
 }
-```
+</pre>
 
-###### It will be compiled as:
+<h5>It will be compiled as:</h5>
 
-```
+<pre>
 a.  { }
 a.  .b {
 color: black;
 }
-```
+</pre>
 
-###### You can install postcss-nested using the command. 
+<h5>You can install postcss-nested using the command.</h5>
 
-```
+<pre>
 &#36; npm i postcss-nested
-```
+</pre>
 
-### STYLELINT
+<h2>STYLELINT</h2>
 
 It is a mighty, modern CSS linter that helps to enforce consistency
 and avoid errors in your stylesheets.
@@ -12281,9 +12260,9 @@ Installing Stylelint
 First, ensure you have stylelint installed. It is an npm package which
 can be installed by running the following command:
 
-```
+<pre>
 &#36; npm install -g stylelint
-```
+</pre>
 
 Usage
 After you have stylelint installed, you will want to create a
@@ -12300,19 +12279,19 @@ the present working directory. If any of your config file is not in
 the present working directory, you can pass it along when run
 stylelint with the config option.
 
-```
+<pre>
 stylelint &#34;&#42;&#42;/&#42;.scss&#34; &#45;-config foo/bar/.stylelintrc.json
-```
+</pre>
 
-###### If you want to use stylelint with npm-scripts, use the below command: 
+<h5>If you want to use stylelint with npm-scripts, use the below command:</h5>
 
-```
+<pre>
 &#36; npm install stylelint -D
-```
+</pre>
 
-#### PostCSS ASSETS
+<h3>PostCSS ASSETS</h3>
 
-###### A PostCSS Assets is an asset manager for CSS. It isolates stylesheets from environmental changes, gets image sizes and inlines files. 
+<h5>A PostCSS Assets is an asset manager for CSS. It isolates stylesheets from environmental changes, gets image sizes and inlines files.</h5>
 
 Installation:
 
@@ -12331,8 +12310,8 @@ Installation of gulp-postcss:
 
 *Basic*
 
-###### The configuration is loaded by own from postcss.config.js as described here, so 
-you don't have to specify any options. 
+<h5>The configuration is loaded by own from postcss.config.js as described here, so 
+you don't have to specify any options.</h5>
 
 <pre>
 var postcss = require(&#39;gulp-postcss&#39;); var gulp = require(&#39;gulp&#39;);
@@ -12342,7 +12321,7 @@ gulp.task(&#39;css&#39;, function () { return gulp.src(&#39;./src/&#42;.css&#39;
 });
 </pre>
 
-###### Passing plugins directly using gulp:
+<h5>Passing plugins directly using gulp:</h5>
 
 <pre>
 var postcss = require(&#39;gulp-postcss&#39;); var gulp = require(&#39;gulp&#39;);
@@ -12357,7 +12336,7 @@ return gulp.src(&#39;./src/&#42;.css&#39;)
 });
 </pre>
 
-###### Grunt
+<h5>Grunt</h5>
 
 Now we will explain how to create a Gruntfile and install and use
 Grunt plugins. Once you are familiar with that process, you can
@@ -12367,13 +12346,13 @@ install this plu- gin with this command:
 &#36; npm install grunt-postcss &#45;-save-dev
 </pre>
 
-###### Once the plugin has been installed, then may enable inside Gruntfile with this line of JavaScript:
+<h5>Once the plugin has been installed, then may enable inside Gruntfile with this line of JavaScript:</h5>
 
 <pre>
 grunt.loadNpmTasks(&#39;grunt-postcss&#39;);
 </pre>
 
-###### How to use the plugins in the code:
+<h5>How to use the plugins in the code:</h5>
 
 <pre>
 &#36; npm install grunt-postcss pixrem autoprefixer cssnano
@@ -12431,7 +12410,7 @@ font-family: &#34;Alice&#34;;
 }
 </pre>
 
-###### Installation: You can add Font Magician to your build tool: 
+<h5>Installation: You can add Font Magician to your build tool:</h5>
 
 <pre>
 &#36; npm install postcss postcss-font-magician &#45;-save-dev
@@ -12455,14 +12434,14 @@ You can do installation by using the below libraries:
 &#36; npm install &#45;-global gulp
 </pre>
 
-###### You can also install dependencies:
+<h5>You can also install dependencies:</h5>
 
 <pre>
 &#36; npm install &#45;-save-dev gulp gulp-postcss gulp- sourcemaps
 autoprefixer lost
 </pre>
 
-###### Now create a gulpfile.js with the following code: 
+<h5>Now create a gulpfile.js with the following code:</h5>
 
 <pre>
 var gulp = require(&#39;gulp&#39;),
@@ -12484,7 +12463,7 @@ gulp.watch(paths.cssSource + &#39;&#42;&#42;/&#42;.css&#39;, &#91;&#39;styles&#3
 gulp.task(&#39;default&#39;, &#91;&#39;styles&#39;&#93;);
 </pre>
 
-###### At last run gulp.
+<h5>At last run gulp.</h5>
 
 -   Grunt: First, you have to install NodeJs then install Grunt using
     this command:
@@ -12493,14 +12472,14 @@ gulp.task(&#39;default&#39;, &#91;&#39;styles&#39;&#93;);
 &#36; npm install &#45;-global grunt-cli
 </pre>
 
-###### Install dev dependencies:
+<h5>Install dev dependencies:</h5>
 
 <pre>
 &#36; npm install &#45;-save-dev grunt grunt-postcss grunt-autoprefixer
 grunt-contrib-watch lost
 </pre>
 
-###### Create a Gruntfile.js with the following code:
+<h5>Create a Gruntfile.js with the following code:</h5>
 
 <pre>
 module.exports = function(grunt) { grunt.initConfig({
@@ -12530,7 +12509,7 @@ grunt.registerTask(&#39;default&#39;, &#91;&#39;watch&#39;&#93;);
 };
 </pre>
 
-###### Brunch: First, you install NodeJS then install Brunch using this command:
+<h5>Brunch: First, you install NodeJS then install Brunch using this command:</h5>
 
 <pre>
 &#36; npm install -g brunch
@@ -12538,25 +12517,25 @@ grunt.registerTask(&#39;default&#39;, &#91;&#39;watch&#39;&#93;);
 
 Create a new Brunch project brunch new
 
-###### Install PostCSS:
+<h5>Install PostCSS:</h5>
 
 <pre>
 &#36; npm install &#45;-save postcss-brunch
 </pre>
 
-###### Install Autoprefixer:
+<h5>Install Autoprefixer:</h5>
 
 <pre>
 &#36; npm install &#45;-save autoprefixer
 </pre>
 
-###### Install Lost:
+<h5>Install Lost:</h5>
 
 <pre>
 &#36; npm install &#45;-save lost
 </pre>
 
-###### Update brunch-config.coffee
+<h5>Update brunch-config.coffee</h5>
 
 This will be file of export given below:
 
@@ -12571,7 +12550,7 @@ processors: &#91; require(&#39;autoprefixer&#39;)(), require(&#39;lost&#39;)
 &#93;
 </pre>
 
-###### Now run the brunch using this command:
+<h5>Now run the brunch using this command:</h5>
 
 brunch watch
 
@@ -12585,7 +12564,7 @@ There are also various options to install this plugin:
 
 -   Meteor
 
-#### PostCSS 
+<h3>PostCSS</h3>
 
 PostCSS plugin generates spritesheets from your stylesheets.
 
@@ -12648,9 +12627,9 @@ examples listed below:
 
 We discuss some of the plugins in brief.
 
-### POSTCSS-MODULES ( CSS MODULES )
+<h2>POSTCSS-MODULES ( CSS MODULES )</h2>
 
-###### A CSS Module is a CSS file in which all class and animation names are scoped locally by default. All URLs (url(&#8230;)) and &#64;imports are in module request format (./xxx and . ./xxx means relative, xxx and xxx/yyy means in modules folder, i. e. in node_modules). 
+<h5>A CSS Module is a CSS file in which all class and animation names are scoped locally by default. All URLs (url(&#8230;)) and &#64;imports are in module request format (./xxx and . ./xxx means relative, xxx and xxx/yyy means in modules folder, i. e. in node_modules).</h5>
 
 CSS Modules compile to a low-level interchange format called ICSS or
 Interoperable CSS but are written like normal CSS files:
@@ -12661,7 +12640,7 @@ Interoperable CSS but are written like normal CSS files:
 }
 </pre>
 
-###### When importing the CSS Module from a JS Module, it exports an object with all mappings from local names to global names. 
+<h5>When importing the CSS Module from a JS Module, it exports an object with all mappings from local names to global names.</h5>
 
 <pre>
 import styles from &#34;./style.css&#34;;
@@ -12670,7 +12649,7 @@ import styles from &#34;./style.css&#34;;
 &#43; &#39;&#34;&gt;&#39;;
 </pre>
 
-###### Naming (localsConvention)
+<h5>Naming (localsConvention)</h5>
 
 For local class names camelCase naming is recommended:
 
@@ -12697,7 +12676,7 @@ Features
 -   Explicit dependencies.
 -   No global scope.
 
-#### CSS MarqueeMenu PLUGIN
+<h3>CSS MarqueeMenu PLUGIN</h3>
 
 It is a type of animation effect used in developing web pages for
 getting attractive text or image scrolling in vertical or horizontal
@@ -12707,7 +12686,7 @@ Note: You can download the CSS MarqueeMenu plugin in the working
 folder and include the required files in the head section of the HTML
 code.
 
-##### Example:
+<h4>Example:</h4>
 
 <pre>
 &lt;!DOCTYPE html&gt;
@@ -12746,7 +12725,7 @@ typekit.net/zhq0vyf.css&#34;&gt;
 &lt;/html&gt;
 </pre>
 
-### Style.css
+<h2>Style.css</h2>
 
 <pre>
 #42;,
@@ -12899,7 +12878,7 @@ weight:900;font-stretch:normal;
 }
 </pre>
 
-###### Another example:
+<h5>Another example:</h5>
 
 <pre>
 &lt;!DOCTYPE html&gt;
@@ -13021,12 +13000,14 @@ s
 
 CSS MarqueeMenu plugin.
 
-### CHAPTER SUMMARY
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2>CHAPTER SUMMARY</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 In this chapter, we looked at various CSS plugins. It improves the
 coding functionality by adding these to your plugins.
 
-# Appraisal
+<h3>Appraisal</h3>
 
 If you want to be a front end developer, you should have a good qual-
 ity book, which makes you the developer from scratch to advance. We
@@ -13089,7 +13070,7 @@ at once. CSS is easy to learn and understand and provides a robust
 command over view- ing an HTML document. Often CSS is combined with
 markup languages, that is, HTML or XHTML.
 
-### HOW CASCADING STYLE SHEETS WORK
+<h2>HOW CASCADING STYLE SHEETS WORK</h2>
 
 Cascading Style Sheet has a completely different approach to a web
 page style and layout. Every time an HTML document is viewed in a
@@ -13118,7 +13099,7 @@ There are various types of CSS such as:
 
 -   Import CSS (link tag)
 
-### [WHY SHOULD SOMEONE LEARN CSS?]
+<h2>[WHY SHOULD SOMEONE LEARN CSS?]</h2>
 
 -   It is must to learn the language for web development.
 
@@ -13139,7 +13120,7 @@ There are various types of CSS such as:
 -   If you learn and understand, you can learn and work with many
     CSS-based frameworks like Bootstrap.
 
-### [PROPERTIES OF CSS]
+<h2>[PROPERTIES OF CSS]</h2>
 
 -   Knowledge of CSS and HTML is essential if anyone wants to pursue a
     career in web design professionally.
@@ -13219,7 +13200,9 @@ In CSS, you can use various CSS properties such as:
 </p>
 <!-- ![](./images/image6.png){width="3.6393208661417322in" height="0.9622911198600175in"}  -->
 
-# Bibliography
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2>Bibliography</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 1.  HTML & CSS --
     [https://www.w3.org/standards/webdesign/htmlcss](https://www.w3.org/),
@@ -13462,7 +13445,9 @@ Bibliography ■ **419**
 </p>
 <!-- ![](./images/image6.png){width="3.6393208661417322in" height="0.9622911198600175in"}  -->
 
-# Index
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2>Index</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 A
 
