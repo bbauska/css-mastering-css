@@ -11,82 +11,71 @@
   style="width:5in" />
 </p>
 
-Mastering CSS
+<h2>Mastering CSS</h2>
 
-Cascading Style Sheets (CSS) is an open-source programming language
+<p>Cascading Style Sheets (CSS) is an open-source programming language
 used in website building and HTML templates that integrates all
 relevant information re- lated to web page displays. CSS is used to
 format the look and structure of a web page, as well as to set design
 features such as basic layout, colors, and fonts. CSS allows for
 continuity between different web pages on the website and makes web-
-page development easier and faster.
+page development easier and faster.</p>
 
-This book has been created to help readers understand and learn the
+<p>This book has been created to help readers understand and learn the
 concepts of CSS. It discusses the fundamental concepts of CSS,
 including its properties and functions, and guides the reader through
-creating websites with it.
+creating websites with it.</p>
 
-**Key Features:**
+<h3>Key Features:</h3>
 
--   Examines the fundamentals of CSS, values, selectors, and queries
+<ul>
+  <li>Examines the fundamentals of CSS, values, selectors, and queries</li>
+  <li>Discusses its application in modern web development to help readers to quickly advance 
+    the necessary information</li>
+  <li>Explores animations, grids, flexboxes, masking, filtering, and compositing using CSS</li>
+</ul>
 
--   Discusses its application in modern web development to help readers
-    to quickly advance the necessary information
+<b><i>Mastering CSS</i></b> is a valuable resource for anyone who wants to create a website. 
+After finishing this book, readers will quickly build their website with absolute ease, even 
+if they were utterly oblivious to it before.
 
--   Explores animations, grids, flexboxes, masking, filtering, and com-
-    positing using CSS
+<h3>About the Series</h3>
 
-***Mastering CSS*** is a valuable resource for anyone who wants to
-create a website. Af- ter finishing this book, readers will quickly
-build their website with absolute ease, even if they were utterly
-oblivious to it before.
+<p>The <i>Mastering Computer Science</i> covers a wide range of topics, spanning programming 
+languages as well as modern-day technologies and frame- works. The series has a special focus 
+on beginner-level content, and is pre- sented in an easy-to-understand manner, comprising:</p>
 
-<h2>About the Series</h2>
+<ul>
+  <li>Crystal-clear text, spanning various topics sorted by relevance,</li>
+  <li>Special focus on practical exercises, with numerous code samples and programs,</li>
+  <li>A guided approach to programming, with step-by-step tutorials for the absolute beginners,</li>
+  <li>Keen emphasis on real-world utility of skills, thereby cutting the redundant and seldom-used 
+  concepts and focusing instead of industry-prevalent coding paradigm,</li>
+  <li>A wide range of references and resources, to help both beginner and intermediate-level 
+  developers gain the most out of the books.</li>
+</ul>
 
-The *Mastering Computer Science* covers a wide range of topics,
-spanning programming languages as well as modern-day technologies and
-frame- works. The series has a special focus on beginner-level
-content, and is pre- sented in an easy-to-understand manner,
-comprising:
-
--   Crystal-clear text, spanning various topics sorted by relevance,
-
--   Special focus on practical exercises, with numerous code samples and
-    programs,
-
--   A guided approach to programming, with step-by-step tutorials for
-    the absolute beginners,
-
--   Keen emphasis on real-world utility of skills, thereby cutting the
-    redundant and seldom-used concepts and focusing instead of indus-
-    try-prevalent coding paradigm,
-
--   A wide range of references and resources, to help both beginner and
-    intermediate-level developers gain the most out of the books.
-
-*Mastering Computer Science* series of books start from the core
+<p><i>Mastering Computer Science</i> series of books start from the core
 concepts, and then quickly move on to industry-standard coding
 practices, to help learners gain efficient and crucial skills in as
 little time as possible. The books assume no prior knowledge of
 coding, so even the absolute newbie coders can benefit from this
-series.
+series.</p>
 
-*Mastering Computer Science* series is edited by Sufyan bin Uzayr, a
-writer and educator with over a decade of experience in the computing
-field.
+<p><i>Mastering Computer Science</i> series is edited by Sufyan bin Uzayr, a writer and educator 
+with over a decade of experience in the computing field.</p>
 
-For more information about this series, please visit:
-[https://www.rout-](https://www.routledge.com/Mastering-Computer-Science/book-series/MCS)
-[ledge.com/Mastering-Computer-Science/book-series/MCS](https://www.routledge.com/Mastering-Computer-Science/book-series/MCS)
+<p>For more information about this series, please visit:
+<a href="https://www.rout-](https://www.routledge.com/Mastering-Computer-Science/book-series/MCS">ledge.com/Mastering-Computer-Science/book-series/MCS</a>.</p>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h1>Mastering CSS</h1>
+<h2>Mastering CSS</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2>A Beginner's Guide</h2>
+<h3>A Beginner's Guide</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h3>Edited by</h3>
+<h4>Edited by</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-Sufyan bin Uzayr
+<h5>Sufyan bin Uzayr</h5>
 
 <!-- ![](./images/image004.png){width="1.154154636920385in" height="0.4114577865266842in"} -->
 <!-- ![](./images/image005.png){width="1.7452154418197725in" height="0.26031167979002623in"} -->
@@ -104,10 +93,10 @@ Sufyan bin Uzayr
   alt="CRC Press is an imprint of the Taylor &amp; Francis Gropu, an informa business." />
 <p style="clear: both;">
 
-First Edition published 2024 by CRC Press
+<h4>First Edition published 2024 by CRC Press</h4>
 
-2385 NW Executive Center Drive, Suite 320, Boca Raton, FL 33431
-and by CRC Press
+<h4>2385 NW Executive Center Drive, Suite 320, Boca Raton, FL 33431</h4>
+<h5>and by CRC Press</h5>
 
 2 Park Square, Milton Park, Abingdon, Oxon, OX14 4RN
 
@@ -115,69 +104,32 @@ and by CRC Press
 
 © 2024 Sufyan bin Uzayr
 
-Reasonable efforts have been made to publish reliable data and
+<p>Reasonable efforts have been made to publish reliable data and
 information, but the author and publisher cannot assume responsibility
 for the validity of all materials or the consequences of their use.
 The authors and publishers have attempted to trace the copyright
 holders of all material reproduced in this publication and apologize
 to copyright holders if permission to publish in this form has not
 been obtained. If any copyright material has not been acknowledged
-please write and let us know so we may rectify in any future reprint.
+please write and let us know so we may rectify in any future reprint.</p>
 
-Except as permitted under U.S. Copyright Law, no part of this book may
+<p>Except as permitted under U.S. Copyright Law, no part of this book may
 be reprinted, reproduced, transmitted, or utilized in any form by any
 electronic, mechanical, or other means, now known or hereafter
 invented, including photocopying, microfilming, and recording, or in
 any information storage or retrieval system, without written
-permission from the publishers.
+permission from the publishers.</p>
 
-For permission to photocopy or use material electronically from this
-work, access [www.copyright.com](https://www.copyright.com/) or
+<p>For permission to photocopy or use material electronically from this
+work, access <a href="www.copyright.com">https://www.copyright.com/</a> or
 contact the Copyright Clearance Center, Inc. (CCC), 222 Rosewood
 Drive, Danvers, MA 01923, 978-750-8400. For works that are not
 available on CCC please contact
-[mpkbookspermissions@tandf.](mailto:mpkbookspermissions@tandf.co.uk)
-[co.uk](mailto:mpkbookspermissions@tandf.co.uk)
+<a href="mpkbookspermissions@tandf.co.uk">mailto:mpkbookspermissions@tandf.co.uk</a>.</p>
 
-*Trademark notice*: Product or corporate names may be trademarks or
-registered trademarks and are used only for identification and
-explanation without intent to infringe.
-
-**Library of Congress Cataloging‑in‑Publication Data**
-
-Names: Bin Uzayr, Sufyan, editor.
-
-Title: Mastering CSS : a beginner's guide / edited by Sufyan bin
+<p>Title: Mastering CSS : a beginner's guide / edited by Sufyan bin
 Uzayr. Description: First edition. &#124; Boca Raton : CRC Press, 2024. &#124;
-Series:
-
-Mastering computer science &#124; Includes bibliographical references and
-index.
-
-Identifiers: LCCN 2023004868 (print) &#124; LCCN 2023004869 (ebook) &#124;
-ISBN 9781032414355 (hardback) &#124; ISBN 9781032414324 (paperback) &#124;
-ISBN
-
-9781003358060 (ebook)
-
-Subjects: LCSH: Cascading style sheets. &#124; Web sites&#45;-Design. &#124; Web
-site development.
-
-Classification: LCC TK5105.888 .M3656 2024 (print) &#124; LCC TK5105.888
-(ebook) &#124; DDC 006.7/4&#45;-dc23/eng/20230406
-
-LC record available at <https://lccn.loc.gov/2023004868>
-
-LC ebook record available at <https://lccn.loc.gov/2023004869>
-
-ISBN: 9781032414355 (hbk)
-ISBN: 9781032414324 (pbk)
-ISBN: 9781003358060 (ebk)
-DOI: [10.1201/ 9781003358060](https://doi.org/10.1201/9781003358060)
-
-Typeset in Minion
-by KnowledgeWorks Global Ltd.
-*For Mom*
+Series:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 06. Taylor & Francis logo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -192,21 +144,15 @@ by KnowledgeWorks Global Ltd.
 <h2>Contents</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
-[About the Editor, xv](#about-the-editor) [Acknowledgments,
-xvi](#acknowledgments)
-[Zeba Academy -- Mastering Computer Science,
-xvii](#zeba-academy-mastering-computer-science)
-[CHAPTER 1 ■ CSS: Introduction](#CHAPTER_1:_CSS:_Introduction)
+[CHAPTER 1 CSS: Introduction](#CHAPTER_1:_CSS:_Introduction)
 
-[DIFFERENT TYPES OF CSS YOU CAN USE
-14](#different-types-of-css-you-can-use)
+[DIFFERENT TYPES OF CSS YOU CAN USE 14](#different-types-of-css-you-can-use)
 
 [CSS CLASSES 19](#css-classes)
 
 [CSS IDs 20](#css-ids)
 
-[WHAT IS THE DIFFERENCE BETWEEN ID AND CLASS?
-20](#what-is-the-difference-between-id-and-class)
+[WHAT IS THE DIFFERENCE BETWEEN ID AND CLASS? 20](#what-is-the-difference-between-id-and-class)
 
 [CSS DIVISION 21](#css-division)
 
@@ -264,13 +210,11 @@ xvii](#zeba-academy-mastering-computer-science)
 
 [METHOD 2: USING &#64;IMPORT AT-RULES 42](#method-2-using-import-at-rules)
 
-[METHOD 3: USING THE &lt;link\ELEMENT
-42](#method-3-using-the-link-element)
+[METHOD 3: USING THE &lt;link\ELEMENT 42](#method-3-using-the-link-element)
 
 [DIFFERENT MEDIA TYPES 42](#different-media-types)
 
-[MEDIA QUESTIONS AND RESPONSIVE WEB DESIGN
-43](#media-questions-and-responsive-web-design)
+[MEDIA QUESTIONS AND RESPONSIVE WEB DESIGN 43](#media-questions-and-responsive-web-design)
 
 [MEDIA QUERIES 43](#media-queries)
 
@@ -312,8 +256,7 @@ xvii](#zeba-academy-mastering-computer-science)
 
 [CSS MARGIN PROPERTIES 116](#css-margin-properties)
 
-[CSS MULTI-COLUMN LAYOUT PROPERTIES
-120](#css-multi-column-layout-properties)
+[CSS MULTI-COLUMN LAYOUT PROPERTIES 120](#css-multi-column-layout-properties)
 
 [CSS OUTLINE PROPERTIES 134](#css-outline-properties)
 
@@ -345,13 +288,11 @@ xvii](#zeba-academy-mastering-computer-science)
 
 [LOGICAL COMBINATIONS SELECTORS 181](#logical-combinations-selectors)
 
-[LOGICAL COMBINATIONS SELECTORS ( :not )
-181](#logical-combinations-selectors-not)
+[LOGICAL COMBINATIONS SELECTORS ( :not ) 181](#logical-combinations-selectors-not)
 
 [ATTRIBUTE SELECTORS 183](#attribute-selectors)
 
-[ATTRIBUTE SELECTORS ( .classname )
-183](#attribute-selectors-.classname)
+[ATTRIBUTE SELECTORS ( .classname ) 183](#attribute-selectors-.classname)
 
 [ATTRIBUTE SELECTORS ( id) 184](#_bookmark236)
 
@@ -444,9 +385,9 @@ xvii](#zeba-academy-mastering-computer-science)
 [GRID-STRUCTURAL SELECTORS (:nth-col()) 254](#Cover)
 
 [CHAPTER SUMMARY 256](#Cover)
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 [CHAPTER 4 ■ CSS Functions 257](#Cover)
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 [INTRODUCTION 257](#Cover)
 
 [BASICS OF CSS FUNCTIONS 258](#Cover)
@@ -544,27 +485,23 @@ xvii](#zeba-academy-mastering-computer-science)
 
 [CHAPTER 5 ■ CSS Plugins 375](#CHAPTER_5:_CSS_Plugins)
 
-[VARIOUS CSS PLUGINS PostCSS BASED
-376](#various-css-plugins-postcss-based)
+[VARIOUS CSS PLUGINS PostCSS BASED 376](#various-css-plugins-postcss-based)
 
 [AUTOPREFIXER 376](#autoprefixer)
 
 [Write Pure CSS 377](#Write_Pure_CSS)
 
-[Installing Autoprefixer in Your Project Folder
-378](#Installing_Autoprefixer_in_Your_Project_)
+[Installing Autoprefixer in Your Project Folder 378](#Installing_Autoprefixer_in_Your_Project_)
 
 [When Does It Run? 381](#_bookmark326)
 
-[What is the Difference Between Autoprefixer and -Prefix-Free?
-382](#What_is_the_Difference_Between_Autoprefi)
+[What is the Difference Between Autoprefixer and -Prefix-Free? 382](#What_is_the_Difference_Between_Autoprefi)
 
 [CSSnext 382](#cssnext)
 
 [CSSnano 384](#cssnano)
 
-[Installing PostCSS, the PostCSS-CLI, cssnext, and cssnano
-384](#Installing_PostCSS,_the_PostCSS-CLI,_css)
+[Installing PostCSS, the PostCSS-CLI, cssnext, and cssnano 384](#Installing_PostCSS,_the_PostCSS-CLI,_css)
 
 [Using the PostCSS-CLI 384](#using-the-postcss-cli)
 
@@ -621,100 +558,7 @@ xvii](#zeba-academy-mastering-computer-science)
 [INDEX, 421](#index)
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2>About the Editor</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-**Sufyan bin Uzayr** is a writer, coder, and entrepreneur having over
-a decade of experience in the industry. He has authored several books
-in the past, pertaining to a diverse range of topics, ranging from
-History to Computers/IT.
-
-Sufyan is the Director of Parakozm, a multinational IT company spe-
-cializing in EdTech solutions. He also runs Zeba Academy, an online
-learning and teaching vertical with a focus on STEM fields.
-
-Sufyan specializes in a wide variety of technologies such as
-JavaScript, Dart, WordPress, Drupal, Linux, and Python. He holds
-multiple degrees, including ones in Management, IT, Literature, and
-Political Science.
-
-Sufyan is a digital nomad, dividing his time between four countries.
-He has lived and taught in universities and educational institutions
-around the globe. Sufyan takes a keen interest in technology,
-politics, literature, history, and sports, and in his spare time, he
-enjoys teaching coding and English to young students.
-
-Learn more at [sufyanism.com](https://sufyanism.com/)
-
-**xv**
-
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2>Acknowledgments</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-There are many people who deserve being on this page because this book
-would not have come into existence without their support. That said,
-some names deserve a special mention, and I am genuinely grateful to:
-
--   My parents, for everything they have done for me.
-
--   The Parakozm team, especially Divya Sachdeva, Jaskiran Kaur, and
-    Simran Rao, for offering great amounts of help and assistance during
-    the book-writing process.
-
--   The CRC team, especially Sean Connelly and Danielle Zarfati, for
-    ensuring that the book's content, layout, formatting, and everything
-    else remain perfect throughout.
-
--   Reviewers of this book, for going through the manuscript and pro-
-    viding their insight and feedback.
-
--   Typesetters, cover designers, printers, and everyone else, for their
-    part in the development of this book.
-
--   All the folks associated with Zeba Academy, either directly or indi-
-    rectly, for their help and support.
-
--   The programming community in general, and the web development
-    community in particular, for all their hard work and efforts.
-
-<h4>Sufyan bin Uzayr</h4>
-
-**xvi**
-
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>Zeba Academy -- Mastering Computer Science</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-The "Mastering Computer Science" series of books are authored by the
-Zeba Academy team members, led by Sufyan bin Uzayr, consisting of:
-
--   Divya Sachdeva
-
--   Jaskiran Kaur
-
--   Simran Rao
-
--   Aruqqa Khateib
-
--   Suleymen Fez
-
--   Ibbi Yasmin
-
--   Alexander Izbassar
-
-Zeba Academy is an EdTech venture that develops courses and content
-for learners primarily in STEM fields, and offers educational
-consulting and mentorship to learners and educators worldwide.
-
-Additionally, Zeba Academy is actively engaged in running IT Schools
-in the CIS countries, and is currently working in partnership with
-numerous universities and institutions.
-
-For more info, please visit
-[https://zeba.academy](https://zeba.academy/)
-
-**xvii**
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 06. Taylor & Francis logo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -730,54 +574,49 @@ CHAPTER 1
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>CSS</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-*Introduction*
+<p><i>Introduction</i></p>
 
 <h2>IN THIS CHAPTER</h2>
+<ul>
+  <li>Introduction</li>
+  <li>History</li>
+  <li>Version of CSS</li>
+  <li>Basic HTML</li>
+  <li>Types of CSS</li>
+  <li>Various Properties (Classes, Id, Divisions)</li>
+</ul>
 
--   Introduction
-
--   History
-
--   Version of CSS
-
--   Basic HTML
-
--   Types of CSS
-
--   Various Properties (Classes, Id, Divisions)
-
-In this chapter, we will learn about CSS (Cascading Style Sheets), its
+<p>In this chapter, we will learn about CSS (Cascading Style Sheets), its
 fun- damental concepts, versions, syntax, and how we can link our HTML
 page with CSS files. The other concepts like modules, selectors, ids,
 borders, attributes, tables, form, colors, etc. will also be covered
-in this whole les- son. So let's get started with the basics of CSS.
-
+in this whole les- son. So let's get started with the basics of CSS.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>INTRODUCTION</h2>
-
-A document is usually a text file created using tag language -- HTML is the common 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p>A document is usually a text file created using tag language -- HTML is the common 
 markup language, but you can also merge with other tag lan- guages such as SVG or XML. It 
 is presenting a document to other user means converting it into a form used by your 
 audience. The other browsers, such as Firefox, Chrome, or Edge, are designed
 to deliver text by a view, for example, on a computer screen,
-projector, or printer.
+projector, or printer.</p>
 
-Cascading Style Sheets (CSS) is a programming language that integrates
+<p>Cascading Style Sheets (CSS) is a programming language that integrates
 all relevant information related to web page displays. CSS defines the
 style and format of a website or page, including layout, colors,
 fonts, padding (space around each element), and more. Along with HTML
 and Javascript, CSS forms the basis of how the Internet works. All
 three standards and specifications are also maintained by the World
-Wide Web Consortium (W3C).
+Wide Web Consortium (W3C).</p>
 
-CSS can be used to create a very basic text style -- for example, to
+<p>CSS can be used to create a very basic text style -- for example, to
 change the color and size of titles and links. It can be used to build
 a structure, for example, to convert a single column of text into a
 structure with the main content area and a different bar for related
-information. It can be used for effects such as animation.
-
+information. It can be used for effects such as animation.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>HISTORY</h2>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 CSS is highly regarded by the Norwegian Håkon Wium Lie, who in 1994
 wanted to create a standard style sheet for the World Wide Web. The
 first website Lie tried for CSS is the Arena web browser. Since its
@@ -814,9 +653,9 @@ evolving language. Web standards are a topic close to Lie's heart.
 Since the introduction of CSS, he has appealed to major technology
 players like Microsoft and other browsers to support the standard web
 standards and continue to improve.
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>WHY DO WE NEED CSS?</h2>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 First, applying CSS ensures that your web pages are consistent. If
 your website has 100 pages, now imagine that you have to enter a code
 to define title sizes, layout, and other display data and combine all
@@ -828,8 +667,9 @@ CSS also makes that possible. Using CSS brings flexibility where
 needed, but it is flexible enough to be able to make changes to an
 individual page or a section.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>WHY DO WE USE CSS?</h2>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 For a website to work properly, it must have a fast download time.
 Nowadays, people usually wait a few seconds for a website to load.
 Therefore, it is important to ensure a fast pace. For companies
@@ -859,54 +699,56 @@ You can change the location of the HTML tag
 with the help of CSS. You can set things as an image on any part of a
 web page as needed.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>[DIFFERENT VERSION OF CSS]</h2>
-
--   **CSS1 and CSS2 (no longer applicable)** -- Released from W3C as a
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<ul>
+  <li><b>CSS1 and CSS2 (no longer applicable)</b> -- Released from W3C as a
     recommendation in December 1996. This version defines the CSS
     language and the visual formatting model for all HTML tags. These
     were the two versions of CSS that are no longer updated or
-    maintained.
-
--   **CSS2.1 (recommended)** -- W3C recommendation in May 1998 and built
+    maintained.</li>
+  <li><b>CSS2.1 (recommended)</b> -- W3C recommendation in May 1998 and built
     on CSS1. This version adds support for specific media style sheets,
     for example, audio printers and devices, downloadable fonts, object
     layouts, and tables. This version has fixed many bugs and prob- lems
-    in CSS2 and is now the official, recommended version of CSS.
-
--   **CSS3** -- CSS3 became a W3C recommendation in June 1999 and was
+    in CSS2 and is now the official, recommended version of CSS.</li>
+  <li><b>CSS3</b> -- CSS3 became a W3C recommendation in June 1999 and was
     built on older versions of CSS. It is divided into texts called
     Modules, and here each module has new extension features defined in
     CSS2. These versions build in CSS2.1, adding new functionality and
     main- taining background compliance. Some features are still being
     tested and may change in the future. Use this with caution, as it
-    may cause problems with your site.
+    may cause problems with your site.</li>
+</ul>
+<p>CSS3 is the latest standard for CSS earlier versions (CSS2). The main
+differences between CSS2 and CSS3 are as follows:</p>
 
-CSS3 is the latest standard for CSS earlier versions (CSS2). The main
-differences between CSS2 and CSS3 are as follows:
-
--   Media Queries
--   Namespaces
--   Selectors Level 3
--   Color
--   CSS4 has never become an official version.
-
+<ul>
+  <li>Media Queries</li>
+  <li>Namespaces</li>
+  <li>Selectors Level 3</li>
+  <li>Color</li>
+  <li>CSS4 has never become an official version.</li>
+</ul>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>MAJOR DIFFERENCES BETWEEN CSS, CSS2, AND CSS3</h2>
-
-CSS was originally released in 1996 and contains features to add font
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p>CSS was originally released in 1996 and contains features to add font
 lay- outs such as typeface and text color emphasis, background, and
 other fea- tures. CSS2 was released in 1998 with additional styles for
 other media types to be used to design page layouts. CSS3 was released
 in 1999 and presentation style structures were added to
-it, allowing you to create a pre- sentation from documents.
+it, allowing you to create a pre- sentation from documents.</p>
 
-With CSS3, designers can now use special fonts, such as those found on
+<p>With CSS3, designers can now use special fonts, such as those found on
 Google Fonts and Typecast. Previously, with CSS and CSS2, designers
 could only use "secure web fonts" to ensure 100% use of fonts that
-would always show the same throughout the machine.
-
+would always show the same throughout the machine.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>CSS SPECIFICATION</h2>
-
-All web-level technologies (HTML, CSS, JavaScript, etc.) are defined
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p>All web-level technologies (HTML, CSS, JavaScript, etc.) are defined
 in large documents called specifications (or "specs"), published by
 stan- dard organizations (such as W3C, WHATWG, ECMA, or Khronos) and
 describe accurately how those technologies should behave. CSS is no
@@ -914,8 +756,8 @@ other -- it is developed by an internal W3C team called the CSS
 Working Group. This group is made up of representatives of browser
 vendors and other companies interested in CSS. There are also other
 people, known as invited experts, who act as independent voices;
-affiliated with the member organization.
->
+affiliated with the member organization.</p>
+
 New CSS features are developed by the CSS Working Group some- times
 because a specific browser is interested in a specific skill,
 sometimes because web designers and developers request a feature, and
@@ -934,7 +776,9 @@ However, it is worth knowing that these features exist and to
 understand the relationship between the CSS
 you are using, browser support (see below), and details.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>CSS MODULES</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 As there are many things you can style using CSS, the language is
 divided into modules. You will see a reference to these modules as
@@ -956,7 +800,9 @@ some- thing about HTML, then it is good; if not, let's have a brief
 introduction to HTML and how to link a CSS file with HTML for changing
 styles.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>BASIC HTML</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 The following section provides an introduction to HTML. We cannot
 imagine web pages and the World Wide Web without HTML. It is the
@@ -993,7 +839,9 @@ The header tag represents a web document header that you can tag
 &lt;/head&gt;. It has parts of the title inside. For example, &lt;title&gt;
 This will be your webpage title. &lt;/li&gt;&gt;.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 Body Section
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 It represents the body of a web document that usually contains titles,
 text, and sections. Topics start with &lt;title&gt; and end with
@@ -1093,13 +941,17 @@ to know where we can use it.
 -   FrontPage, Dreamweaver, and many other development tools sup- port
     HTML.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>STARTING WITH A SPECIFIC HTML</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 HTML and CSS are two methods of tags (code), with their own unique syntax. There is a difference between the two. You can think of HTML as a page layout, while CSS gives HTML its own style. 
 
 HTML = structure CSS = style
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>LINKING YOUR HTML AND CSS FILES</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Before we can write CSS, we have to go back to HTML. You need to write a new line to link the HTML file and CSS file together. So, open the HTML file and add the provided line "&lt;link href =" style.css "rel =" stylesheet "type =" text / CSS "/&gt;". Your file code looks like this, 
 
@@ -1176,7 +1028,9 @@ recommended. CSS texts can be created in any text editor, such as Text
 Editor on Mac or Notepad for Windows, as well as many other free also
 paid options that you can download.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>HOW DOES CSS WORK?</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 CSS contains the rules and values that a web browser can use in the
 content of a web page to better display its content. For example, you
@@ -1190,7 +1044,9 @@ file -- such as setting body font in blue and section font in green.
 In this case, the effective rule will be the category font, because it
 is much clearer than the body font.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>CSS SYNTAX</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 Now move on to the original CSS. The first thing we do is make the paragraph content a different color. So the type or paste into your style file.css. 
 
@@ -1251,23 +1107,23 @@ h2 {
   color: black;
 }
 </pre>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>INHERITANCE CSS</h2>
-
-When you nest an element inside another, the nested element inherits
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p>When you nest an element inside another, the nested element inherits
 the properties assigned to the containing element. Unless you change
 the val- ues of the inner items independently. For instance, a font
 declared in the body is inherited by all text in the file,
 regardless of the item it contains, unless you declare another font
-for a particular nested item.
+for a particular nested item.</p>
 
 <h4>Sample:</h4>
 
 <pre>body {font-family: Verdana, serif;}</pre>
 
-All text in the HTML file will now be set to the Verdana font family.
+<p>All text in the HTML file will now be set to the Verdana font family.
 If you want to format certain text with another font like h1 or
-paragraph, you can do the following.
+paragraph, you can do the following.</p>
 
 <h4>Sample:</h4>
 
@@ -1278,16 +1134,16 @@ sans-serif;}
 
 <h2>COMMENT TAGS</h2>
 
-Comments can be used to explain why you're adding certain selectors to
+<p>Comments can be used to explain why you're adding certain selectors to
 your CSS file. To help others who might see your file or remember what
 we thought at a later date. You can add comments that would be ignored
 by browsers as given below:
 /&#42; This is a comment &#42;/ starts with / (slash), followed by &#42;
 (asterisk), fol- lowed by the comment, followed by the closing tag
 immediately after the opening tag &#42; (asterisks) followed by /
-(slash).
-Merge selectors.
-You can combine items in a single selector as follows.
+(slash).</p>
+<p>Merge selectors.</p>
+<p>You can combine items in a single selector as follows.</p>
 
 <h4>Sample:</h4>
 
@@ -1299,42 +1155,42 @@ font-family: Georgia, sans Serif;
 }
 </pre>
 
-As you can look on the code above, we've grouped all the header ele-
+<p>As you can look on the code above, we've grouped all the header ele-
 ments into a single selector. Each one is separated by a comma. The
 final result of the above code will set all headers to green and to
 the specified font. If the user doesn't have the first font we
-declared, they will go for another sans-serif font.
+declared, they will go for another sans-serif font.</p>
 
 <h2>DIFFERENT TYPES OF CSS YOU CAN USE</h2>
 
-There are three ways to write CSS for a web page. You have to decide which one is better for you, but we recommend using an External Style Sheet, which is the third type we'll learn today. 
+<p>There are three ways to write CSS for a web page. You have to decide which one is better for you, but we recommend using an External Style Sheet, which is the third type we'll learn today.</p>
 
-Here are three ways to use CSS:
+<p>Here are three ways to use CSS:</p>
+<ol type="1"
+  <li><b>Inline styles:</b> It is placed inside HTML elements.</li>
+  <li><b>Internal styles:</b> It is placed in the &lt;head&gt; tag section of the
+    web page you are writing.</li>
+  <li><b>External Styles:</b> It is placed in the External Style Sheet, which
+    is a separate page that links to the web page (recommended).</li>
+</ol>
 
-1.  **Inline styles:** It is placed inside HTML elements.
-
-2.  **Internal styles:** It is placed in the &lt;head&gt; tag section of the
-    web page you are writing.
-
-3.  **External Styles:** It is placed in the External Style Sheet, which
-    is a separate page that links to the web page (recommended).
-
-An explanation of CSS methods is given below:
-
--   **External style sheet:** The external CSS file can be created using
+<p>An explanation of CSS methods is given below:</p>
+<ul>
+  <li><b>External style sheet:</b> The external CSS file can be created using
     any text or HTML editor like "Notepad" or "Dreamweaver." A CSS file
     contains no HTML elements tags, only CSS. Now save it with the .css
     file extension. You can link the file externally by keeping that one
     of the following links in the head section of each (X)HTML file that
-    you want to style with CSS file.
+    you want to style with CSS file.</li>
+</ul>
 
 <pre>
 &lt;link type=&#34;text/css&#34; rel=&#34;stylesheet&#34; href=&#34;Path To
 stylesheet.css&#34; /&gt;
 </pre>
 
-You can also use the &#64;import method like &lt;style type=&#34;text/css&#34;&gt;
-&#64;import url(&#39;Path_to stylesheet. css&#39;) &lt;/style&gt;.
+<p>You can also use the &#64;import method like &lt;style type=&#34;text/css&#34;&gt;
+&#64;import url(&#39;Path_to stylesheet. css&#39;) &lt;/style&gt;.</p>
 
 <h4>Example:</h4>
 
@@ -1399,20 +1255,19 @@ h1 {
   padding: 50px;
 }
 </pre>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 08.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 08. the html for an internal stylesheet ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image008.png?raw=true"
-  alt="."
-  title=""
+  alt="The HTML for an internal stylesheet."
+  title="The HTML for an internal stylesheet"
   style="width:3.4in" />
 </p>
 <!-- ![](./images/image008.png){width="3.4790616797900262in" height="1.3331244531933508in"}  -->
 
-The external style sheet.
+<h4>The external style sheet.</h4>
 
-**Internal style sheet:** It is a way you are simply placing that CSS code within the &lt;head&gt; and &lt;/head&gt; tags of each HTML file you want to style with the CSS. The format is shown in the example below:
+<p><b>Internal style sheet:</b> It is a way you are simply placing that CSS code within the &lt;head&gt; and &lt;/head&gt; tags of each HTML file you want to style with the CSS. The format is shown in the example below:</p>
 
 <pre>
 lt;html&gt;
@@ -1427,11 +1282,10 @@ CSS Content Goes Here
 &lt;/html&gt;
 </pre>
 
-With the above method, each HTML file contains the CSS styling code
-needed to style the page. That means any changes you want to make to a
-page, will have to be made to all. The method can be good if you need
-to style only a page, or if you want other pages to have varying
-styles.
+<p>With the above method, each HTML file contains the CSS styling code needed to style the 
+page. That means any changes you want to make to a page, will have to be made to all. The 
+method can be good if you need to style only a page, or if you want other pages to have 
+varying styles.</p>
 
 <h4>Example:</h4>
 
@@ -1468,20 +1322,21 @@ h1 {
 &lt;/body&gt;
 &lt;html&gt;
 </pre>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 09.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~ 09. the html for an internal stylesheet, again ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image009.png?raw=true"
-  alt="."
-  title=""
+  alt="The HTML for an internal stylesheet, again."
+  title="The HTML for an internal stylesheet, again"
   style="width:3.2in" />
 </p>
 <!-- ![](./images/image009.png){width="3.2265616797900263in" height="1.2395833333333333in"}  -->
 
-The internal style sheet.
+<h4>The internal style sheet.</h4>
 
-**Inline styles:** It is a defeat purpose of using CSS in the first place. Inline styles are defined well in the HTML file alongside the ele- ment you want to style. It may appear in the queue, next to the CSS text.
+<p><b>Inline styles:</b> It is a defeat purpose of using CSS in the first place. Inline styles 
+are defined well in the HTML file alongside the ele- ment you want to style. It may appear in 
+the queue, next to the CSS text.</p>
 
 <pre>
 &lt;div style=&#34;background-color: yellow&#34;&gt; This is inline text
@@ -1509,45 +1364,43 @@ max-width:600px; max-width: auto;&#34;&gt;
 &lt;/body&gt;
 &lt;html&gt;
 </pre>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 10.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 10. This is an example of Simple CSS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image010.png?raw=true"
-  alt="."
-  title=""
+  alt="This is an example of Simple CSS."
+  title="This is an example of Simple CSS"
   style="width:3.6in" />
 </p>
 <!-- ![](./images/image010.png){width="3.6140780839895013in" height="1.35in"}  -->
 
-The inline style sheet.
+<h4>The inline style sheet.</h4>
 
-External style sheets contain CSS
+<p>External style sheets contain CSS
 instructions, and these are special files, and have a .css file
 extension. If an external style sheet is installed on any web page,
-the CSS file will control its sound and appearance.
+the CSS file will control its sound and appearance.</p>
 
-Using an external style sheet, all your HTML files are linked to a
+<p>Using an external style sheet, all your HTML files are linked to a
 single CSS file to format the pages. This means that if you need to
 change the design of all your pages, you only need to edit one .css
 file to make general changes to your entire website. Here are a few
-reasons why this is better.
+reasons why this is better.</p>
+<ul>
+  <li>Easier Maintenance</li>
+  <li>Reduced File Size</li>
+  <li>Reduced Bandwidth</li>
+  <li>Improved Flexibility</li>
+</ul>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3>CSS CLASSES</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p>The class selector lets you style elements in the same HTML element differently. It's similar 
+to what I mentioned in the introduction about inline styles. Except for classes, the style can be 
+overwritten by changing the style sheets. You can use the same class selector over and over in an 
+HTML file.</p>
 
--   Easier Maintenance
--   Reduced File Size
--   Reduced Bandwidth
--   Improved Flexibility
-
-<h2>CSS CLASSES</h2>
-
-The class selector lets you style elements in the same HTML element
-dif- ferently. It's similar to what I mentioned in the introduction
-about inline styles. Except for classes, the style can be overwritten
-by changing the style sheets. You can use the same class selector over
-and over in an HTML file.
-
-To put it more simply, the sentence you are reading is defined in my
-CSS file with the following.
+<p>To put it more simply, the sentence you are reading is defined in my CSS file with the following.</p>
 
 <h4>Sample:</h4>
 
@@ -1558,12 +1411,12 @@ p
 }
 </pre>
 
-It's pretty simple, but let's say we want to change the word "sentence" to green bold text and leave the rest of the sentence untouched. You would do the following to my HTML file. 
+<p>It's pretty simple, but let's say we want to change the word "sentence" to green bold text 
+and leave the rest of the sentence untouched. You would do the following to my HTML file.</p>
 
-&lt;p&gt; In simple terms, this &lt;span class="text"&gt; You can write your
-sen- tence here &lt;/span&gt; in my CSS file you are reading, it is
-formatted as fol- lows. &lt;/p&gt; Then you add the following style
-selector to my CSS file:
+<p>&lt;p&gt; In simple terms, this &lt;span class="text"&gt; You can write your sentence here 
+&lt;/span&gt; in my CSS file you are reading, it is formatted as follows. &lt;/p&gt; Then you 
+add the following style selector to my CSS file:</p>
 
 <pre>
 .text
@@ -1572,14 +1425,19 @@ selector to my CSS file:
   color: #008080; font-weight: bold;
 }
 </pre>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>CSS IDs</h3>
-
-IDs are similar to classes. Suppose once a specific id has been declared, it cannot be used again within the same HTML file. We commonly use IDs to style the layout elements of a page that will only be needed once, whereas we use classes to style text and such that may be declared various times. The main container for the page is defined by the following example: 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p>IDs are similar to classes. Suppose once a specific id has been declared, it cannot be used 
+again within the same HTML file. We commonly use IDs to style the layout elements of a page 
+that will only be needed once, whereas we use classes to style text and such that may be 
+declared various times. The main container for the page is defined by the following example:</p>
 
 <pre>&lt;div id=&#34;container&#34;&gt;</pre>
 
-It is everything within my document is inside this division. &lt;/div&gt;. You have chosen the id selector for the "container" division over a class because you only need to use it one time within this file. Then in my CSS file, you will have the following example: 
+<p>It is everything within my document is inside this division. &lt;/div&gt;. You have chosen the 
+id selector for the "container" division over a class because you only need to use it one time 
+within this file. Then in my CSS file, you will have the following example:</p>
 
 <pre>
 #container { width: 60%; margin: auto; padding: 10px;
@@ -1587,24 +1445,21 @@ It is everything within my document is inside this division. &lt;/div&gt;. You h
 }
 </pre>
 
-You will get notice that the id selector should begin with a (#)
-number sign instead of a (.) period, as the class selector does.
-
+<p>You will get notice that the id selector should begin with a (#) number sign instead of a 
+(.) period, as the class selector does.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>WHAT IS THE DIFFERENCE BETWEEN ID AND CLASS?</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p>We use IDs and Classes to target a particular HTML element to render differently from other 
+similar elements via CSS, but what is the difference?</p>
 
-We use IDs and Classes to target a particular HTML element to render
-differently from other similar elements via CSS, but what is the
-difference?
-
-Ids are of the "Unique" type:
-
--   Only one ID can be set for each Item.
-
--   The ID should only be used within a page.
-
-You should use the id when you have only one element on the page that
-you want to render. Your code cannot pass the validation test, which
-is important for web developers.
+<h3>Ids are of the "Unique" type:</h3>
+<ul>
+  <li>Only one ID can be set for each Item.</li>
+  <li>The ID should only be used within a page.</li>
+</ul>
+<p>You should use the id when you have only one element on the page that you want to render. Your 
+code cannot pass the validation test, which is important for web developers.</p>
 
 <h4>Sample:</h4>
 
@@ -1612,16 +1467,16 @@ is important for web developers.
 &lt;div id=&#34;main-header&#34;&gt; text &lt;/div&gt;
 </pre>
 
-<h2>CSS DIVISION</h2>
+<h3>CSS DIVISION</h3>
 
-Previously, you've learned the basics of CSS, how syntax works, and a
+<p>Previously, you've learned the basics of CSS, how syntax works, and a
 little bit about classes and ids here. We'll now take a short break
 from CSS and focus on the HTML side of using it. Sections are
 block-level HTML ele- ments used to describe sections of an HTML file.
 A section can contain all the parts that make up your website,
 including additional sections, spans, images, text, etc. You define a
 section within an HTML file by placing the following between &lt;body&gt;
-&lt;/body&gt;.
+&lt;/body&gt;.</p>
 
 <h4>Sample:</h4>
 
@@ -1631,7 +1486,7 @@ section within an HTML file by placing the following between &lt;body&gt;
 &lt;/body&gt;
 </pre>
 
-<h5>You will most likely want to add some style to it. You can do this in the example below:</h5>
+<p>You will most likely want to add some style to it. You can do this in the example below:</p>
 
 <pre>
 &lt;div id="container"&gt; Site content go here &lt;/div&gt; The CSS file
@@ -1643,55 +1498,50 @@ contains:
 }
 </pre>
 
-Now everything in this section will be formatted according to the
-"container" style rule I defined in my CSS
-file. A split creates a line break by default. You can use both
-classes and sections of your website.
+<p>Now everything in this section will be formatted according to the "container" style rule I 
+defined in my CSS file. A split creates a line break by default. You can use both classes and 
+sections of your website.</p>
 
-<h2>HOW TO USE CSS PROPERTIES</h2>
+<h3>HOW TO USE CSS PROPERTIES</h3>
 
-CSS layouts are used to apply styles to structured documents, such as
-those created in HTML or XML. CSS layouts are specified at the CSS
-level. Each property has a set of some possible values. Some
-properties can affect the type of element, while others apply only to
-certain groups of elements. The style sheet consists of a list
-of rules. Each rule or set of rule contains one or more selectors, as
-well as a declaration block.
+<p>CSS layouts are used to apply styles to structured documents, such as those created in HTML 
+or XML. CSS layouts are specified at the CSS level. Each property has a set of some possible 
+values. Some properties can affect the type of element, while others apply only to certain 
+groups of elements. The style sheet consists of a list of rules. Each rule or set of rule 
+contains one or more selectors, as well as a declaration block.</p>
 
-CSS features are used within the ad with the corresponding value.
+<p>CSS features are used within the ad with the corresponding value.</p>
 
 <h4>Example:</h4>
 
 <pre>
 section {
-padding: 20px; margin: 20px;
-background-color: cornsilk; border: 6px solid gold;
+  padding: 20px; margin: 20px;
+  background-color: cornsilk; border: 6px solid gold;
 }
 h1 {
-color: coral;
+  color: coral;
 }
 p {
-color: orange;
+  color: orange;
 }
 a:link, a:visited {
-color: dark orange;
+  color: dark orange;
 }
 a:hover {
-color: orangered;
+  color: orangered;
 }
 </pre>
 
-Let's discuss various CSS properties in short. We have a separate
-chap- ter for each of the properties.
+<p>Let's discuss various CSS properties in short. We have a separate chapter for each of the properties.</p>
 
-<h2>CSS COLORS</h2>
+<h3>CSS COLORS</h3>
 
-Colors are specified using predefined color names, RGB, HEX, HSL,
-RGBA, HSLA values.
+<p>Colors are specified using predefined color names, RGB, HEX, HSL, RGBA, HSLA values.</p>
 
-<h5>Names</h5>
+<h4>Names</h4>
 
-In CSS, a color can be specified by using a pre-defined color name, such as,
+<p>In CSS, a color can be specified by using a pre-defined color name, such as,</p>
 
 1.  Tomato
 2.  Orange
@@ -1702,9 +1552,9 @@ In CSS, a color can be specified by using a pre-defined color name, such as,
 7.  Violet
 8.  LightGray
 
-<h5>List of Color Values</h5>
+<h4>List of Color Values</h4>
 
-Here's a list of color values that can be used with CSS.
+<p>Here's a list of color values that can be used with CSS.</p>
 
 -   Named Colors
 -   transparent Keyword
@@ -1720,8 +1570,7 @@ Here's a list of color values that can be used with CSS.
 -   hwb() Function
 -   System Colors
 
-Here is the complete list of names of colors that are supported by all
-browsers given below:
+<p>Here is the complete list of names of colors that are supported by all browsers given below:</p>
 
 1.  Alice blue
 2.  antique white
@@ -1747,31 +1596,31 @@ browsers given below:
 22. Indigo
 23. Ivory
 
-<h2>RGB COLOR</h2>
+<h4>RGB COLOR</h4>
 
-There are different colors that add a different atmosphere to various
+<p>There are different colors that add a different atmosphere to various
 designs. The right choice of colors can make designs and creations
 look clean, aesthetic, and modern. But the bad colors can make a
 project difficult for users to interact with because it will look not
-attractive to others.
+attractive to others.</p>
 
-The color of the border (border), background (background color), or
+<p>The color of the border (border), background (background color), or
 foreground (color) -- the text decorations on the page have a huge
-impact, so you have to put some effort into getting them right.
+impact, so you have to put some effort into getting them right.</p>
 
-CSS lets you use a wide variety of different
+<p>CSS lets you use a wide variety of different
 colors and color systems. They range from named colors to hexagonal
-colors, RGB() colors, hsl col- ors, and more.
+colors, RGB() colors, hsl col- ors, and more.</p>
 
-<h5>How to Use RGB Colors in HTML</h5>
+<h4>How to Use RGB Colors in HTML</h4>
 
-The easiest way to apply color to your HTML elements is to write your
+<p>The easiest way to apply color to your HTML elements is to write your
 HTML in a .html file. Then, in that file, simply associate your .css
-style sheet with all the colors and styles you specify.
+style sheet with all the colors and styles you specify.</p>
 
-It makes code easier to read and removes any considered best practice
+<p>It makes code easier to read and removes any considered best practice
 concerns. We can have an about.html file with some HTML code like
-this:
+this:</p>
 
 <h4>Example:</h4>
 
@@ -1813,23 +1662,22 @@ fames ac turpis egestas. &lt;/h2&gt;
 &lt;/body&gt;
 &lt;html&gt;
 </pre>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 11.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 11. Use of RGB in CSS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image011.png?raw=true"
-  alt="."
-  title=""
+  alt="Use of RGB in CSS."
+  title="Use of RGB in CSS"
   style="width:4.4in" />
 </p>
 <!-- ![](./images/image011.png){width="4.4240791776028in" height="1.828124453193351in"}  -->
 
-Use of RGB in CSS.
+<h4>Use of RGB in CSS.</h4>
 
-<h5>These are the common color user in CSS, you can change its value to create a new color.</h5>
+<p>These are the common color user in CSS, you can change its value to create a new color.</p>
 
 <pre>
-**Color Value in RGB Color Name**
+<b>Color Value in RGB Color Name</b>
 RGB(0, 255, 255)
 RGB(0, 0, 0)
 RGB(0, 0, 255)
@@ -1850,12 +1698,11 @@ RGB(255, 255, 0)
 olive purple red silver teal white yellow
 </pre>
 
-<h5>Extended Color Keywords</h5>
+<h4>Extended Color Keywords</h4>
 
-The following table lists the color keywords defined in the CSS3
-specification.
+<p>The following table lists the color keywords defined in the CSS3 specification.</p>
 
-**Color Name RGB Value**
+<p><b>Color Name RGB Value</b></p>
 
 <pre>
 aliceblue antique white aqua aquamarine azure
@@ -2037,39 +1884,39 @@ RGB(255, 255, 0)
 RGB(139, 205, 50)
 </pre>
 
-<h2>DIFFERENT TYPES OF SELECTORS</h2>
+<h3>DIFFERENT TYPES OF SELECTORS</h3>
 
-There are many different selectors. The examples above use item
-selectors that select all items of a given type. But we can also make
-more specific choices. Here are some of the common types of selectors:
+<p>There are many different selectors. The examples above use item selectors that select all items 
+of a given type. But we can also make more specific choices. Here are some of the common types of 
+selectors:</p>
 
-<h5>Selector Name</h5>
-
--   The CSS element selector: This element selector selects HTML ele-
-    ments based on the element name.
+<h3>Selector Name</h3>
+<ul>
+  <li>The CSS element selector: This element selector selects HTML elements based on the element name.</li>
+</ul>
 
 <h4>Syntax:</h4>
 
-<pre>
-&lt;p&gt;
-</pre>
+<pre>&lt;p&gt;</pre>
 
--   The CSS id selector: The selector id uses the id attribute of an
+<ul>
+  <li>The CSS id selector: The selector id uses the id attribute of an
     element to select a particular element. The id is unique in a single
     page, so the id is used to select a unique element. To select a
     particular element with an id, write a hash (#) symbol, followed by
-    the id of the element.
+    the id of the element.</li>
+</ul>
 
 <h4>Syntax:</h4>
 
-<pre>
-&lt;p id=&#34;my-id&#34;&gt; or &lt;a id=&#34;my-id&#34;&gt;
-</pre>
+<pre>&lt;p id=&#34;my-id&#34;&gt; or &lt;a id=&#34;my-id&#34;&gt;</pre>
 
--   The CSS class selector: The selector class selects HTML elements
+<ul>
+  <li>The CSS class selector: The selector class selects HTML elements
     with a specific class attribute. To select these elements with a
     particular class, write a dot (.) character, followed by the class
-    name.
+    name.</li>
+</ul>
 
 <h4>Syntax:</h4>
 
@@ -2078,8 +1925,9 @@ more specific choices. Here are some of the common types of selectors:
 &lt;a class=&#34;my-class&#34;&gt; Add Some text&lt;/a&gt;
 </pre>
 
--   Attribute selector: The elements on the page with the particular
-    attribute.
+<ul>
+  <li>Attribute selector: The elements on the page with the particular attribute.</li>
+</ul>
 
 <h4>Syntax:</h4>
 
@@ -2087,45 +1935,43 @@ more specific choices. Here are some of the common types of selectors:
 &lt;img src=&#34;myimage.png&#34;/&gt;
 </pre>
 
--   The CSS universal selector: The universal (&#42;) selects all HTML ele-
-    ments on the page. To select these elements with a specific class,
-    write an asterisk (&#42;) character, followed by the tag name.
+<ul>
+  <li>The CSS universal selector: The universal (&#42;) selects all HTML elements on the page. To 
+  select these elements with a specific class, write an asterisk (&#42;) character, followed by 
+  the tag name.</li>
+</ul>
 
 <h4>Syntax:</h4>
 
-<pre>
-&#42;
-</pre>
+<pre>&#42;</pre>
 
 <h4>Example:</h4>
 
 <pre>
 {
-font-size: 20px:
-color: blue;
+  font-size: 20px:
+  color: blue;
 }
 </pre>
 
--   The CSS grouping selector: The grouping selector selects every ele-
-    ment with the same style definitions. Now, look at the following
-    code (the h1, h2, and p elements have the same style definitions).
-
--   Pseudo-class selector: The specified elements, but only when in a
-    cer- tain state. (For instance, when a cursor hovers over a link.)
+<ul>
+  <li>The CSS grouping selector: The grouping selector selects every element with the same style 
+    definitions. Now, look at the following code (the h1, h2, and p elements have the same style 
+    definitions).</li>
+  <li>Pseudo-class selector: The specified elements, but only when in a certain state. (For instance, 
+    when a cursor hovers over a link.)</li>
+</ul>
 
 <h4>Syntax:</h4>
 
-<pre>
-a:hover
-</pre>
+<pre>a:hover</pre>
 
-selects &lt;a&gt;, works when the mouse pointer is hovering over the link.
+<p>selects &lt;a&gt;, works when the mouse pointer is hovering over the link.</p>
 
 <h2>CSS BACKGROUND</h2>
 
-The background property allows to control the background of the
-element. It is a property, which means that it allows to write what
-would be multiple CSS properties in one.
+<p>The background property allows to control the background of the element. It is a property, 
+which means that it allows to write what would be multiple CSS properties in one.</p>
 
 <h4>Example:</h4>
 
@@ -2142,8 +1988,7 @@ red; /&#42; color &#42;/
 }
 </pre>
 
-There are eight other properties available under the background given
-below:
+<p>There are eight other properties available under the background given below:</p>
 
 -   background-repeat
 -   background-attachment
@@ -2154,12 +1999,11 @@ below:
 -   background-size
 -   background-origin
 
-You can use any of the combinations of these properties that you love
-to use, in almost any order
+<p>You can use any of the combinations of these properties that you love to use, in almost any order.</p>
 
 <h2>MULTIPLE BACKGROUNDS</h2>
 
-CSS3 added support for various backgrounds, which layer over the top of each other. Any property related to the backgrounds can take a comma (,) separated list, like this: 
+<p>CSS3 added support for various backgrounds, which layer over the top of each other. Any property related to the backgrounds can take a comma (,) separated list, like this:</p>
 
 <pre>
 .tagname {
@@ -2170,7 +2014,8 @@ repeat-x, no-repeat;
 
 <h2>CSS BORDER</h2>
 
-The border property is a syntax in CSS that accepts multiple values for drawing a line around the element it is applied to: 
+<p>The border property is a syntax in CSS that accepts multiple values for drawing a line around 
+the element it is applied to:</p>
 
 <pre>
 .container{
@@ -2181,17 +2026,15 @@ width: 200px;
 
 <h5>Border</h5>
 
-The border property accepts more than one of the following values in
-combination:
+<p>The border property accepts more than one of the following values in combination:</p>
 
-border-width: It defines the thickness of the border.
+<p>border-width: It defines the thickness of the border.</p>
 
 -   thin
 -   medium
 -   thick
 
-border-style: It specifies the type of the line drawn around the
-element, including:
+<p><b>border-style</b>: It specifies the type of the line drawn around the element, including:</p>
 
 -   dotted -- It defines a dotted border.
 -   dashed -- It defines a dashed border.
@@ -2485,7 +2328,7 @@ rules, applies to certain types of media.
 
 The &#64;media rule is used to define different style rules for different media in a single style sheet. It is followed by a comma separated list of media types and a CSS declaration block containing targeted media style rules. 
 
-**Example:** The style tells the browser to display body content in 14
+<b>Example:</b> The style tells the browser to display body content in 14
 pixels Arial font on the screen, but when printing it will be in Times
 font 12 points.
 
@@ -3112,7 +2955,7 @@ animation-fill-mode: none &#124; backwards &#124; forwards
 </pre>
 
 The following table defines the values of this property: 
-**Value Description**
+<b>Value Description</b>
 
 none The animation will not apply to the target before or after it is
 executing. forwards After the animation ends, the animation will apply
@@ -3229,11 +3072,11 @@ transform: translateY(-800px) rotate(360deg); opacity: 0;
 <h5>The output of the code is given below:</h5>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 12.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 12. Animated Background ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image012.png?raw=true"
-  alt="."
-  title=""
+  alt="Animated Background."
+  title="Animated Background"
   style="width:4.2in" />
 </p>
 <!-- ![](./images/image012.png){width="4.265624453193351in" height="1.9554155730533684in"}  -->
@@ -3270,11 +3113,11 @@ background-color: red; animation-name: example; animation-duration:
 <h5>The output of the code is given below:</h5>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 13.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 13. CSS Animation ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image013.png?raw=true"
-  alt="."
-  title=""
+  alt="CSS Animation."
+  title="CSS Animation"
   style="width:1.5in" />
 </p>
 <!-- ![](./images/image013.png){width="1.518228346456693in" height="1.518228346456693in"}  -->
@@ -3328,11 +3171,11 @@ align-items: center; justify-content: center; border-radius:20px
 <h5>The output of the code is given below:</h5>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 14.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 14. CSS Animation example ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image014.png?raw=true"
-  alt="."
-  title=""
+  alt="CSS Animation example."
+  title="CSS Animation example"
   style="width:1.5in" />
 </p>
 <!-- ![](./images/image014.png){width="1.518228346456693in" height="1.096353893263342in"}  -->
@@ -3423,11 +3266,11 @@ background-clip: content-box;
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 15.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 15. CSS Background Clip ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image015.png?raw=true"
-  alt="."
-  title=""
+  alt="CSS Background Clip."
+  title="CSS Background Clip"
   style="width:4.0in" />
 </p>
 <!-- ![](./images/image015.png){width="4.098958880139983in" height="3.3645833333333335in"}  -->
@@ -3474,11 +3317,11 @@ align-items: center; justify-content: center;
 <h5>The output of the code is given below:</h5>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 16.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 16. CSS Background image ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image016.png?raw=true"
-  alt="."
-  title=""
+  alt="CSS Background image."
+  title="CSS Background image"
   style="width:4.1in" />
 </p>
 <!-- ![](./images/image016.png){width="4.1015551181102365in" height="1.9817705599300088in"}  -->
@@ -3524,11 +3367,11 @@ background-origin: content-box;
 <h5>The output of the code is given below:</h5>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 17.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 17. CSS Background origin  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image017.png?raw=true"
-  alt="."
-  title=""
+  alt="CSS Background origin."
+  title="CSS Background origin"
   style="width:2.4in" />
 </p>
 <!-- ![](./images/image017.png){width="2.4609372265966756in" height="2.0053116797900263in"}  -->
@@ -3571,11 +3414,11 @@ background-origin: padding-box ;
 <h5>The output of the code is given below:</h5>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 18.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 18. CSS Background origin, again ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image018.png?raw=true"
-  alt="."
-  title=""
+  alt="CSS Background origin, again."
+  title="CSS Background origin, again"
   style="width:2.8in" />
 </p>
 <!-- ![](./images/image018.png){width="2.8255205599300086in" height="2.266874453193351in"}  -->
@@ -3629,11 +3472,11 @@ background-position: 50% center;
 <h5>The output of the code is given below:</h5>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 19.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 19. CSS Background Position, 50% center ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image019.png?raw=true"
-  alt="."
-  title=""
+  alt="CSS Background Position, 50% center."
+  title="CSS Background Position, 50% center"
   style="width:2.5in" />
 </p>
 <!-- ![](./images/image019.png){width="2.5in" height="0.4349989063867017in"}  -->
@@ -3682,11 +3525,11 @@ background-repeat: repeat-y;
 <h5>The output of the code is given below:</h5>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 20.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 20. CSS Background Repeat - repeat-y ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image020.png?raw=true"
-  alt="."
-  title=""
+  alt="CSS Background Repeat - repeat-y."
+  title="CSS Background Repeat - repeat-y"
   style="width:2.4in" />
 </p>
 <!-- ![](./images/image020.png){width="2.4609372265966756in" height="2.4609372265966756in"}  -->
@@ -3726,11 +3569,11 @@ background-repeat: repeat-x;
 <h5>The output of the code is given below:</h5>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 21.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 21. CSS Background Repeat - repeat-x ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image021.png?raw=true"
-  alt="."
-  title=""
+  alt="CSS Background Repeat - repeat-x."
+  title="CSS Background Repeat - repeat-x"
   style="width:2.2in" />
 </p>
 <!-- ![](./images/image021.png){width="2.2708333333333335in" height="2.2708333333333335in"}  -->
@@ -3786,11 +3629,11 @@ background-size: cover;
 <h5>The output of the code is given below:</h5>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 22.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 22. CSS Background Size - Contain & Cover ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image022.png?raw=true"
-  alt="."
-  title=""
+  alt="CSS Background Size - Contain &amp; Cover."
+  title="CSS Background Size - Contain &amp; Cover"
   style="width:3.6in" />
 </p>
 <!-- ![](./images/image022.png){width="3.6093744531933507in" height="1.815in"}  -->
@@ -3837,11 +3680,11 @@ justify-content: center; align-items: center; font-size: 32px;
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 23.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 23. CSS Border ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image023.png?raw=true"
-  alt="."
-  title=""
+  alt="CSS Border."
+  title="CSS Border"
   style="width:2.7in" />
 </p>
 <!-- ![](./images/image023.png){width="2.7343744531933507in" height="2.7343744531933507in"}  -->
@@ -3909,11 +3752,11 @@ individually in the order top, right, bottom, and left.&lt;/p&gt;&lt;/div&gt;
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 24.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 24. CSS Border Property - Width ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image024.png?raw=true"
-  alt="."
-  title=""
+  alt="CSS Border Property - Width."
+  title="CSS Border Property - Width"
   style="width:3.5in" />
 </p>
 <!-- ![](./images/image024.png){width="3.5833366141732284in" height="2.1848950131233598in"}  -->
@@ -3982,11 +3825,11 @@ voluptate aliquam nihil, eveniet aliquid culpa officia aut!
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 25.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 25. CSS Border Property - Left, Bottom, Right, Top ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image025.png?raw=true"
-  alt="."
-  title=""
+  alt="CSS Border Property - Left, Bottom, Right, Top."
+  title="CSS Border Property - Left, Bottom, Right, Top"
   style="width:3.5in" />
 </p>
 <!-- ![](./images/image025.png){width="3.5187489063867017in" height="4.55in"}  -->
@@ -4098,11 +3941,11 @@ voluptate aliquam nhil, eveniet aliquid culpa officia aut! .&lt;/p&gt;
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 26.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~ 26. CSS Border Bottom Property - Left, Bottom, Right, Top ~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image026.png?raw=true"
-  alt="."
-  title=""
+  alt="CSS Border Bottom Property - Left, Bottom, Right, Top."
+  title="CSS Border Bottom Property - Left, Bottom, Right, Top"
   style="width:3.4in" />
 </p>
 <!-- ![](./images/image026.png){width="3.4499978127734034in" height="4.925in"}  -->
@@ -4198,11 +4041,11 @@ amet consectetur adipisicing elit.esentium optio, eaque rerum!&lt;/h1&gt;
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 27.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 27. CSS Various Border style ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image027.png?raw=true"
-  alt="."
-  title=""
+  alt="CSS Various Border style."
+  title="CSS Various Border style"
   style="width:2.9in" />
 </p>
 <!-- ![](./images/image027.png){width="2.9249989063867017in" height="5.31in"}  -->
@@ -4244,11 +4087,11 @@ border-image: url(&#34;/images-1.jpg&#34;) 30 30 round;
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 28.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 28. CSS border-image Property ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image028.png?raw=true"
-  alt="."
-  title=""
+  alt="CSS border-image Property."
+  title="CSS border-image Property"
   style="width:2.4in" />
 </p>
 <!-- ![](./images/image028.png){width="2.4524989063867015in" height="1.4625in"}  -->
@@ -4299,11 +4142,11 @@ color: black;
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 29.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 29. CSS Color Property ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image029.png?raw=true"
-  alt="."
-  title=""
+  alt="CSS Color Property."
+  title="CSS Color Property"
   style="width:2.5in" />
 </p>
 <!-- ![](./images/image029.png){width="2.5396872265966755in" height="0.945in"}  -->
@@ -4352,11 +4195,11 @@ color:rgb(100, 149, 237)
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 30.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 30. CSS Color Property (RGB) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image030.png?raw=true"
-  alt="."
-  title=""
+  alt="CSS Color Property (RGB)."
+  title="CSS Color Property (RGB)"
   style="width:3.0in" />
 </p>
 <!-- ![](./images/image030.png){width="3.06in" height="0.945in"}  -->
@@ -4430,11 +4273,11 @@ color code (rgba(11, 156, 49, 0.2). &lt;/h1&gt; &lt;br&gt;
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 31.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 31. CSS Color Property (RGBA) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image031.png?raw=true"
-  alt="."
-  title=""
+  alt="CSS Color Property (RGBA)."
+  title="CSS Color Property (RGBA)"
   style="width:3.1in" />
 </p>
 <!-- ![](./images/image031.png){width="3.1049978127734033in" height="2.8575in"}  -->
@@ -4486,11 +4329,11 @@ color:#b22222
 
 <h5>The output of the code given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 32.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 32. CSS Color Property (HEX) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image032.png?raw=true"
-  alt="."
-  title=""
+  alt="CSS Color Property (HEX)."
+  title="CSS Color Property (HEX)"
   style="width:2.8in" />
 </p>
 <!-- ![](./images/image032.png){width="2.88in" height="0.9449989063867017in"}  -->
@@ -4536,11 +4379,11 @@ height=&#34;200px&#34;&gt;
 <h5>The output of the code is given below:</h5>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 33.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 33. CSS Color Opacity Property ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image033.png?raw=true"
-  alt="."
-  title=""
+  alt="CSS Color Opacity Property."
+  title="CSS Color Opacity Property"
   style="width:2.4in" />
 </p>
 <!-- ![](./images/image033.png){width="2.489165573053368in" height="2.0058333333333334in"}  -->
@@ -4591,11 +4434,11 @@ height=&#34;200px&#34;&gt;
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 34.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 34. CSS Dimension Property - Height, Width ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image034.png?raw=true"
-  alt="."
-  title=""
+  alt="CSS Dimension Property - Height, Width."
+  title="CSS Dimension Property - Height, Width"
   style="width:1.6in" />
 </p>
 <!-- ![](./images/image034.png){width="1.6396872265966753in" height="3.6196872265966755in"}  -->
@@ -4658,11 +4501,11 @@ height=&#34;200px&#34;&gt;
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 35.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 35. CSS Dimension Property - Max-Height, Max-Width ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image035.png?raw=true"
-  alt="."
-  title=""
+  alt="CSS Dimension Property - Max-Height, Max-Width."
+  title="CSS Dimension Property - Max-Height, Max-Width"
   style="width:4.0in" />
 </p>
 <!-- ![](./images/image035.png){width="4.088541119860017in" height="1.75in"}  -->
@@ -4752,11 +4595,11 @@ your code &lt;/p&gt;
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 36.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 36. CSS Content Property ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image036.png?raw=true"
-  alt="."
-  title=""
+  alt="CSS Content Property."
+  title="CSS Content Property"
   style="width:3.5in" />
 </p>
 <!-- ![](./images/image036.png){width="3.550025153105862in" height="0.8843744531933508in"}  -->
@@ -4858,11 +4701,11 @@ list-style-type: none;
 
 <h5>The output of the code given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 37.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 37. CSS Counter Reset Property ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image037.png?raw=true"
-  alt="."
-  title=""
+  alt="CSS Counter Reset Property."
+  title="CSS Counter Reset Property"
   style="width:3.0in" />
 </p>
 <!-- ![](./images/image037.png){width="3.015in" height="1.0462489063867018in"}  -->
@@ -4948,11 +4791,11 @@ font-weight: bold; font-size: 3em; text-align: center;
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 38.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 38. CSS Flexbox Layout ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image038.png?raw=true"
-  alt="."
-  title=""
+  alt="CSS Flexbox Layout."
+  title="CSS Flexbox Layout"
   style="width:3.3in" />
 </p>
 <!-- ![](./images/image038.png){width="3.3020833333333335in" height="1.9791666666666667in"}  -->
@@ -5229,7 +5072,7 @@ CSS list-style-type property.
 
 Here you will get various values of list-style-type property.
 
-**Value Description**
+<b>Value Description</b>
 
 disc circle square
 
@@ -7178,7 +7021,7 @@ transform: none &#124; &lt;transform-function&gt; &#91; &lt;transform- function&
 These are grouped by 2D (two-dimensional) and 3D (three-dimen- sional)
 functions.
 
-**matrix():** It specifies a 2D transformation in the form of a matrix
+<b>matrix():</b> It specifies a 2D transformation in the form of a matrix
 of the six values a-f.
 
 The syntax of matrix is given below:
