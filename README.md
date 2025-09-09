@@ -6271,17 +6271,17 @@ border-collapse: separate &#124; collapse &#124; initial &#124; inherit
 &lt;html&gt;
 &lt;head&gt;
 &lt;style&gt;
-.demo_container{ width:400px; margin:0 auto;
-text-align: center; justify-content: center; align-items: center;
+.demo_container { width:400px; margin:0 auto;
+  text-align: center; justify-content: center; align-items: center;
 }
 .table-1 {
-border-collapse: collapse;
+  border-collapse: collapse;
 }
 table .table-2 {
-border-collapse: collapse;
+  border-collapse: collapse;
 }
 table, th, td {
-border: 1px solid black;
+  border: 1px solid black;
 }
 &lt;/style&gt;
 &lt;/style&gt;
@@ -6296,7 +6296,7 @@ border: 1px solid black;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Alax&lt;/td&gt;
-&lt;td&gt;<alax@example.com&lt;/td&gt;
+&lt;td&gt;&lt;alax@example.com&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Joy&lt;/td&gt;
