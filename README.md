@@ -2710,19 +2710,20 @@ number of times an animation cycle should play before stopping.</p>
 
 <pre>animation-iteration-count: number &#124; infinite &#124; initial &#124; inherit</pre>
 
-animation-direction property: The animation-direction CSS prop- erty specifies 
-whether the animation should be played in reverse on alternate cycles or not.
+<p><b>animation-direction</b> property: The animation-direction CSS property specifies 
+whether the animation should be played in reverse on alternate cycles or not.</p>
 
-The syntax of this property is given as:
+<p>The syntax of this property is given as:</p>
 
 <pre>
 animation-direction: normal &#124; reverse &#124; alternate
 &#124; alternate-reverse &#124; initial &#124; inherit
 </pre>
 
-animation-fill-mode property: The animation-fill-mode property defines how a CSS animation should apply styles to the target before and after it is executing.
+<p><b>animation-fill-mode</b> property: The animation-fill-mode property defines how a CSS animation should 
+apply styles to the target before and after it is executing.</p>
 
-The syntax of this property is given as:
+<p>The syntax of this property is given as:</p>
 
 <pre>
 animation-fill-mode: none &#124; backwards &#124; forwards
@@ -2730,37 +2731,37 @@ animation-fill-mode: none &#124; backwards &#124; forwards
 &#124; both &#124; initial &#124; inherit
 </pre>
 
-The following table defines the values of this property: 
-<b>Value Description</b>
+<p>The following table defines the values of this property:</p>
 
-none The animation will not apply to the target before or after it is
+<p><b>Value Description</b></p>
+
+<p><b>none</b>: The animation will not apply to the target before or after it is
 executing. forwards After the animation ends, the animation will apply
-the values for the time the animation ended.
+the values for the time the animation ended.</p>
 
-backwards The animation will apply the values defined in the keyframe
+<p><b>backwards</b>: The animation will apply the values defined in the keyframe
 that will start the 1st iteration of the animation, during the period
 defined by the property. Either the values of the from keyframe or to
-those of the to keyframe.
+those of the to keyframe.</p>
 
-animation-play-state property: The animation-play-state property specifies whether an animation is playing or paused.
+<p><b>animation-play-state</b> property: The animation-play-state property specifies whether an 
+animation is playing or paused.</p>
 
-The syntax of this property is given as:
+<p>The syntax of this property is given as:</p>
 
 <pre>
 animation-play-state: paused &#124; running &#124; initial
 &#124; inherit
 </pre>
-
-2.  initial: It sets the property to its
-    default value.
-
-3.  inherit: If it specifies, the associated element takes the
-    calculated value of its parent element's animation property.
-
+<ol type="1" start="2">
+  <li><b>initial</b>: It sets the property to its default value.</li>
+  <li><b>inherit</b>: If it specifies, the associated element takes the calculated value of its 
+    parent element's animation property.</li>
+</ol>
 <h2>THE &#64;KEYFRAMES RULE</h2>
 
-When we specify CSS styles inside the &#64;keyframes rule, the animation
-will change from the current style to new style at certain times.
+<p>When we specify CSS styles inside the &#64;keyframes rule, the animation
+will change from the current style to new style at certain times.</p>
 
 <h4>Example:</h4>
 
@@ -2770,60 +2771,60 @@ will change from the current style to new style at certain times.
 &lt;title\Title &lt;/title&gt;
 &lt;style&gt;
 &#42; { margin: 0;
-padding: 0;
+  padding: 0;
 }
 .banner-text { width: 100%;
-position: absolute; z-index: 1;
+  position: absolute; z-index: 1;
 }
 .banner-text h2 { text-align: center; color: #fff;
-font-size: 50px; margin-top: 20%;
+  font-size: 50px; margin-top: 20%;
 }
 .animation-area { background: #fdc830;
-background: -webkit-linear-gradient(to right, #f37335, #fdc830);
-background: linear-gradient(to right, #f37335, #fdc830);
-width: 100%; height: 100vh;
+  background: -webkit-linear-gradient(to right, #f37335, #fdc830);
+  background: linear-gradient(to right, #f37335, #fdc830);
+  width: 100%; height: 100vh;
 }
 .box-area {
-position: absolute; top: 0;
-left: 0;
-width: 100%;
-height: 100%; overflow: hidden;
+  position: absolute; top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; overflow: hidden;
 }
 .box-area li { position: absolute; display: block; list-style: none;
-width: 25px; height: 25px;
-background: rgba(255, 255, 255, 0.2); animation: animate 20s linear
-infinite; bottom: -150px;
+  width: 25px; height: 25px;
+  background: rgba(255, 255, 255, 0.2); animation: animate 20s linear
+  infinite; bottom: -150px;
 }
 .box-area li:nth-child(1) { left: 86%;
-width: 80px; height: 80px;
-animation-delay: 0s;
+  width: 80px; height: 80px;
+  animation-delay: 0s;
 }
 .box-area li:nth-child(2) { left: 12%;
-width: 30px; height: 30px;
-animation-delay: 1.5s; animation-duration: 10s;
+  width: 30px; height: 30px;
+  animation-delay: 1.5s; animation-duration: 10s;
 }
 .box-area li:nth-child(3) { left: 70%;
-width: 100px; height: 100px;
-animation-delay: 5.5s;
+  width: 100px; height: 100px;
+  animation-delay: 5.5s;
 }
 .box-area li:nth-child(4) { left: 42%;
-width: 150px; height: 150px; animation-delay: 0s;
-animation-duration: 15s;
+  width: 150px; height: 150px; animation-delay: 0s;
+  animation-duration: 15s;
 }
 .box-area li:nth-child(5) { left: 65%;
-width: 40px; height: 40px;
-animation-delay: 0s;
+  width: 40px; height: 40px;
+  animation-delay: 0s;
 }
 .box-area li:nth-child(6) { left: 15%;
-width: 110px; height: 110px;
-animation-delay: 3.5s;
+  width: 110px; height: 110px;
+  animation-delay: 3.5s;
 }
 &#64;keyframes animate { 0% {
-transform: translateY(0) rotate(0deg); opacity: 1;
+  transform: translateY(0) rotate(0deg); opacity: 1;
 }
-100% {
-transform: translateY(-800px) rotate(360deg); opacity: 0;
-}
+  100% {
+  transform: translateY(-800px) rotate(360deg); opacity: 0;
+  }
 }
 &lt;/style&gt;
 &lt;/head&gt;
@@ -2846,7 +2847,6 @@ transform: translateY(-800px) rotate(360deg); opacity: 0;
 </pre>
 
 <h5>The output of the code is given below:</h5>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 12. Animated Background ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2857,7 +2857,7 @@ transform: translateY(-800px) rotate(360deg); opacity: 0;
 </p>
 <!-- ![](./images/image012.png){width="4.265624453193351in" height="1.9554155730533684in"}  -->
 
-CSS animation property.
+<p><b>CSS animation</b> property.</p>
 
 <h4>Another example:</h4>
 
@@ -2867,14 +2867,14 @@ CSS animation property.
 &lt;head&gt;
 &lt;style&gt;
 .container { display:Flex; width: 200px; height: 200px;
-background-color: red; animation-name: example; animation-duration:
-4s; text-align: center; align-items: center; margin:0 auto;
+  background-color: red; animation-name: example; animation-duration:
+  4s; text-align: center; align-items: center; margin:0 auto;
 }
 &#64;keyframes example {
-| &gt; 0% | {background-color:          | rgb(248,    | 169,  | &gt; 169);} |
-| &gt; 25%   | {background-color:          | rgb(197,    | 197,  | &gt; 92);}  |
-| &gt; 50%   | {background-color:          | rgb(118,    | 118,  | &gt; 193);} |
-| &gt; 100%   | {background-color:          | rgb(135,    | 245,  | &gt; 135);} |
+  | &gt; 0% | {background-color:          | rgb(248,    | 169,  | &gt; 169);} |
+  | &gt; 25%   | {background-color:          | rgb(197,    | 197,  | &gt; 92);}  |
+  | &gt; 50%   | {background-color:          | rgb(118,    | 118,  | &gt; 193);} |
+  | &gt; 100%   | {background-color:          | rgb(135,    | 245,  | &gt; 135);} |
 }
 &lt;/style&gt;
 &lt;/head&gt;
@@ -2887,7 +2887,6 @@ background-color: red; animation-name: example; animation-duration:
 </pre>
 
 <h5>The output of the code is given below:</h5>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 13. CSS Animation ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2898,10 +2897,10 @@ background-color: red; animation-name: example; animation-duration:
 </p>
 <!-- ![](./images/image013.png){width="1.518228346456693in" height="1.518228346456693in"}  -->
 
-CSS animation property (second example).
+<p>CSS <b>animation</b> property (second example).</p>
 
-Now in the below example, we are going to use animation with its prop- erties that we discussed
-above. 
+<p>Now in the below example, we are going to use animation with its prop- erties that we discussed
+above.</p>
 
 <pre>
 &lt;!DOCTYPE html&gt;
@@ -2909,27 +2908,27 @@ above.
 &lt;head&gt;
 &lt;style&gt;
 .demo_container{
-text-align: center;
+  text-align: center;
 }
 .parent { display: flex;
-align-items: center; justify-content: center;
+  align-items: center; justify-content: center;
 }
 .child {
-width: 100px; height: 100px;
-background-color: rgb(111, 207, 236); position: relative;
-animation-name: demo;
-animation-duration: 4s; animation-delay: 2s; display: flex;
-align-items: center; justify-content: center; border-radius:20px
+  width: 100px; height: 100px;
+  background-color: rgb(111, 207, 236); position: relative;
+  animation-name: demo;
+  animation-duration: 4s; animation-delay: 2s; display: flex;
+  align-items: center; justify-content: center; border-radius:20px
 }
 &#64;keyframes demo {
-0% { background-color: rgb(234, 141, 141); left:
--100px; top: 0px; }
-25% { background-color: rgb(212, 212, 156); left: 200px; top: 0px; }
-50% { background-color: rgb(103, 103, 186); left: 200px; top: 200px; }
-75% { background-color: rgb(141, 230, 141); left:
--100px; top: 200px;}
-100% { background-color: rgb(199, 99, 99); left:
--100px; top: 0px; }
+  0% { background-color: rgb(234, 141, 141); left:
+  -100px; top: 0px; }
+  25% { background-color: rgb(212, 212, 156); left: 200px; top: 0px; }
+  50% { background-color: rgb(103, 103, 186); left: 200px; top: 200px; }
+  75% { background-color: rgb(141, 230, 141); left:
+  -100px; top: 200px;}
+  100% { background-color: rgb(199, 99, 99); left:
+  -100px; top: 0px; }
 }
 &lt;/style&gt;
 &lt;/head&gt;
@@ -2945,7 +2944,6 @@ align-items: center; justify-content: center; border-radius:20px
 </pre>
 
 <h5>The output of the code is given below:</h5>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 14. CSS Animation example ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2956,39 +2954,42 @@ align-items: center; justify-content: center; border-radius:20px
 </p>
 <!-- ![](./images/image014.png){width="1.518228346456693in" height="1.096353893263342in"}  -->
 
-CSS animation property (third example).
+<p>CSS <b>animation</b> property (third example).</p>
 
 <h2>CSS BACKGROUND PROPERTIES</h2>
 
-The background is a shorthand property for setting a single back- ground property, 
-that is, background-image, background-position, background-size, background-repeat, background-attachment, back- ground-origin, background-clip, and background-color in a 
-single declaration.
+<p>The background is a shorthand property for setting a single back- ground property, 
+that is, background-image, background-position, background-size, background-repeat, 
+background-attachment, back- ground-origin, background-clip, and background-color in a 
+single declaration.</p>
 
-The syntax of this property is given as:
+<p>The <b>syntax</b> of this property is given as:</p>
 
 <pre>
 background: &#91; the image position/size repeat attachment the origin
 clip color &#93; &#124; initial &#124; inherit
 </pre>
 
-background-attachment property: The background-attachment CSS property defines whether the background image scrolls with the document or remains fixed to the viewing area. The syntax of this property is given as:
+<p><b>background-attachment</b> property: The background-attachment CSS property defines 
+whether the background image scrolls with the document or remains fixed to the viewing 
+area. The syntax of this property is given as:</p>
 
-<pre>
-background-attachment: scroll &#124; fixed &#124; initial &#124; inherit.
-</pre>
+<pre>background-attachment: scroll &#124; fixed &#124; initial &#124; inherit.</pre>
 
-background-color property: The background-color property sets the background color of an element. You can set the color of the background either through a color value or the keyword transparent.
+<p><b>background-color</b> property: The background-color property sets the background color of an 
+element. You can set the color of the background either through a color value or the keyword transparent.</p>
 
-The background of any element is the whole size of the element,
-including padding and border (not the margin). See the box model. The
-syntax of this property is given as:
+<p>The <b>background</b> of any element is the whole size of the element, including <b>padding</b> 
+and <b>border</b> (not the margin). See the box model. The syntax of this property is given as:</p>
 
 <pre>
 background-color: color &#124; transparent &#124; initial
 &#124; inherit
 </pre>
 
-background-clip property: The background-clip property specifies whether an element's background, either the color or image, extends it's border or not. The syntax of this property is given as:
+<p><b>background-clip</b> property: The background-clip property specifies whether an element's 
+background, either the color or image, extends it's border or not. The syntax of this property 
+is given as:</p>
 
 <pre>
 background-clip: border-box &#124; padding-box &#124; content-box &#124; initial
@@ -3005,17 +3006,17 @@ background-clip: border-box &#124; padding-box &#124; content-box &#124; initial
 &lt;title&gt;Example of CSS3 Background Clipping&lt;/ title&gt;
 &lt;style&gt;
 .box {
-width: 200px; height: 100px; padding: 10px;
-border: 2px dashed #333; background: rgb(140, 190, 202);
+  width: 200px; height: 100px; padding: 10px;
+  border: 2px dashed #333; background: rgb(140, 190, 202);
 }
 .clip1 {
-background-clip: border-box;
+  background-clip: border-box;
 }
 .clip2 {
-background-clip: padding-box;
+  background-clip: padding-box;
 }
 .clip3 {
-background-clip: content-box;
+  background-clip: content-box;
 }
 &lt;/style&gt;
 &lt;/head&gt;
@@ -3051,15 +3052,13 @@ background-clip: content-box;
 </p>
 <!-- ![](./images/image015.png){width="4.098958880139983in" height="3.3645833333333335in"}  -->
 
-CSS background clip.
+<p>CSS background clip.</p>
 
-background-image property: The background-image property sets the background image for an element. It is often more good to use the shorthand background property.
+<p><b>background-image</b> property: The background-image property sets the background image for an element. It is often more good to use the shorthand background property.</p>
 
-The syntax of the property is given as:
+<p>The syntax of the property is given as:</p>
 
-<pre>
-background-image: url &#124; none &#124; initial &#124; inherit
-</pre>
+<pre>background-image: url &#124; none &#124; initial &#124; inherit</pre>
 
 <h4>Example:</h4>
 
@@ -3068,15 +3067,15 @@ background-image: url &#124; none &#124; initial &#124; inherit
 &lt;html&gt;
 &lt;head&gt;
 &lt;style&gt;
-.demo_container{
-text-align: center;
+.demo_container {
+  text-align: center;
 }
 .parent { display: flex;
-align-items: center; justify-content: center;
-background-image: url(&#34;/images-1.jpg&#34;);
+  align-items: center; justify-content: center;
+  background-image: url(&#34;/images-1.jpg&#34;);
 }
 .child { height:100vh; display: flex;
-align-items: center; justify-content: center;
+  align-items: center; justify-content: center;
 }
 &lt;/style&gt;
 &lt;/head&gt;
@@ -3091,7 +3090,6 @@ align-items: center; justify-content: center;
 </pre>
 
 <h5>The output of the code is given below:</h5>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 16. CSS Background image ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -3102,9 +3100,11 @@ align-items: center; justify-content: center;
 </p>
 <!-- ![](./images/image016.png){width="4.1015551181102365in" height="1.9817705599300088in"}  -->
 
-CSS background image.
+<p>CSS background image.</p>
 
-background-origin property: The background-origin CSS property specifies the positioning area of the background, that is, the posi- tion of the origin of an image specified using the background-image property. The syntax of this property is given as:
+<p><b>background-origin</b> property: The background-origin CSS property specifies the 
+positioning area of the background, that is, the position of the origin of an image 
+specified using the background-image property. The syntax of this property is given as:</p>
 
 <pre>
 background-origin: border-box &#124; padding-box &#124; content-box &#124; initial
@@ -3113,19 +3113,19 @@ background-origin: border-box &#124; padding-box &#124; content-box &#124; initi
 &lt;html&gt;
 &lt;head&gt;
 &lt;style&gt;
-.demo_container{
-text-align: center;
+.demo_container {
+  text-align: center;
 }
 .parent { height:500px;
-display: flex;
-align-items: center; justify-content: center;
+  display: flex;
+  align-items: center; justify-content: center;
 }
 .child {
-width: 500px; height:400px;
-padding: 10px;
-border: 6px dashed #333; background: url(&#34;/images-1.jpg&#34;) no-repeat;
-background-size: cover;
-background-origin: content-box;
+  width: 500px; height:400px;
+  padding: 10px;
+  border: 6px dashed #333; background: url(&#34;/images-1.jpg&#34;) no-repeat;
+  background-size: cover;
+  background-origin: content-box;
 }
 &lt;/style&gt;
 &lt;/head&gt;
@@ -3141,7 +3141,6 @@ background-origin: content-box;
 </pre>
 
 <h5>The output of the code is given below:</h5>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 17. CSS Background origin  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -3152,7 +3151,7 @@ background-origin: content-box;
 </p>
 <!-- ![](./images/image017.png){width="2.4609372265966756in" height="2.0053116797900263in"}  -->
 
-CSS background origin.
+<p>CSS background origin.</p>
 
 <h4>Padding box example:</h4>
 
@@ -3161,18 +3160,18 @@ CSS background origin.
 &lt;html&gt;
 &lt;head&gt;
 &lt;style&gt;
-.demo_container{
-text-align: center;
+.demo_container {
+  text-align: center;
 }
 .parent { height:500px;
-display: flex;
-align-items: center; justify-content: center;
+  display: flex;
+  align-items: center; justify-content: center;
 }
 .child {
-width: 500px; height:400px;
-border: 6px dashed #333; background: url(&#34;/images-1.jpg&#34;) no-repeat;
-background-size: cover;
-background-origin: padding-box ;
+  width: 500px; height:400px;
+  border: 6px dashed #333; background: url(&#34;/images-1.jpg&#34;) no-repeat;
+  background-size: cover;
+  background-origin: padding-box ;
 }
 &lt;/style&gt;
 &lt;/head&gt;
@@ -3188,7 +3187,6 @@ background-origin: padding-box ;
 </pre>
 
 <h5>The output of the code is given below:</h5>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 18. CSS Background origin, again ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -3199,16 +3197,17 @@ background-origin: padding-box ;
 </p>
 <!-- ![](./images/image018.png){width="2.8255205599300086in" height="2.266874453193351in"}  -->
 
-CSS background origin -- padding box.
-
-1.  background-position property: The background-position property sets
+<p>CSS background origin -- padding box.</p>
+<ol type="1">
+  <li>background-position property: The background-position property sets
     the initial position (i.e., origin) of the element's background
     image. It is often more good to use the shorthand background
-    property.
+    property.</li>
+</ol>
 
-Its default value is : 0% 0%.
+<p>Its default value is : 0% 0%.</p>
 
-The syntax of this property is given as:
+<p>The syntax of this property is given as:</p>
 
 <pre>
 background-position: &#91; percentage &#124; length &#124; left
@@ -3222,15 +3221,15 @@ background-position: &#91; percentage &#124; length &#124; left
 &lt;html&gt;
 &lt;head&gt;
 &lt;style&gt;
-.demo_container{
-text-align: center;
+.demo_container {
+  text-align: center;
 }
 .parent { display: flex;
-align-items: center; justify-content: center;
+  align-items: center; justify-content: center;
 }
 .child {
-border: 6px dashed #333; background: url(&#34;/images-1.jpg&#34;) no-repeat;
-background-position: 50% center;
+  border: 6px dashed #333; background: url(&#34;/images-1.jpg&#34;) no-repeat;
+  background-position: 50% center;
 }
 &lt;/style&gt;
 &lt;/head&gt;
@@ -3246,7 +3245,6 @@ background-position: 50% center;
 </pre>
 
 <h5>The output of the code is given below:</h5>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 19. CSS Background Position, 50% center ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -3257,11 +3255,13 @@ background-position: 50% center;
 </p>
 <!-- ![](./images/image019.png){width="2.5in" height="0.4349989063867017in"}  -->
 
-CSS background position.
+<p>CSS background position.</p>
 
-background-repeat property: The background-repeat CSS property specifies whether the background image is repeated or tiled after it has been sized and positioned. It is often good to use the shorthand background property.
+<p><b>background-repeat</b> property: The background-repeat CSS property specifies whether 
+the background image is repeated or tiled after it has been sized and positioned. It is 
+often good to use the shorthand background property.</p>
 
-The syntax of the property is given as:
+<p>The syntax of the property is given as:</p>
 
 <pre>
 background-repeat: repeat &#124; repeat-x &#124; repeat-y &#124; no-repeat &#124;
@@ -3275,15 +3275,15 @@ initial &#124; inherit
 &lt;html&gt;
 &lt;head&gt;
 &lt;style&gt;
-.demo_container{
-text-align: center;
+.demo_container {
+  text-align: center;
 }
 .parent { display: flex;
-align-items: center; justify-content: center;
+  align-items: center; justify-content: center;
 }
 .child { width:500px; height:500px;
-border: 6px dashed #333; background: url(&#34;/images-1.jpg&#34;) no-repeat;
-background-repeat: repeat-y;
+  border: 6px dashed #333; background: url(&#34;/images-1.jpg&#34;) no-repeat;
+  background-repeat: repeat-y;
 }
 &lt;/style&gt;
 &lt;/head&gt;
@@ -3299,7 +3299,6 @@ background-repeat: repeat-y;
 </pre>
 
 <h5>The output of the code is given below:</h5>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 20. CSS Background Repeat - repeat-y ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -3310,7 +3309,7 @@ background-repeat: repeat-y;
 </p>
 <!-- ![](./images/image020.png){width="2.4609372265966756in" height="2.4609372265966756in"}  -->
 
-CSS background repeat(y).
+<p>CSS background repeat(y).</p>
 
 <h4>Another example:</h4>
 
@@ -3319,15 +3318,15 @@ CSS background repeat(y).
 &lt;html&gt;
 &lt;head&gt;
 &lt;style&gt;
-.demo_container{
-text-align: center;
+.demo_container {
+  text-align: center;
 }
 .parent { display: flex;
-align-items: center; justify-content: center;
+  align-items: center; justify-content: center;
 }
 .child { width:500px; height:500px;
-border: 6px dashed #333; background: url(&#34;/images-1.jpg&#34;) no-repeat;
-background-repeat: repeat-x;
+  border: 6px dashed #333; background: url(&#34;/images-1.jpg&#34;) no-repeat;
+  background-repeat: repeat-x;
 }
 &lt;/style&gt;
 &lt;/head&gt;
@@ -3343,7 +3342,6 @@ background-repeat: repeat-x;
 </pre>
 
 <h5>The output of the code is given below:</h5>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 21. CSS Background Repeat - repeat-x ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -3354,11 +3352,11 @@ background-repeat: repeat-x;
 </p>
 <!-- ![](./images/image021.png){width="2.2708333333333335in" height="2.2708333333333335in"}  -->
 
-CSS background repeat(x).
+<p>CSS background repeat(x).</p>
 
-background-size property: The background-size property defines the size of the background images.
+<p><b>background-size</b> property: The background-size property defines the size of the background images.</p>
 
-The syntax of the property is given as:
+<p>The syntax of the property is given as:</p>
 
 <pre>
 background-size: length attribute&#124; percentage attribute&#124; auto
@@ -3373,19 +3371,19 @@ attribute&#124; inherit attribute
 &lt;html&gt;
 &lt;head&gt;
 &lt;style&gt;
-.demo_container{
-text-align: center;
+.demo_container {
+  text-align: center;
 }
 .parent { display: flex;
-align-items: center; justify-content: center;
+  align-items: center; justify-content: center;
 }
 .child-1 { width:500px; height:500px;
-border: 6px dashed #333; background: url(&#34;/images-1.jpg&#34;) no-repeat;
-background-size: contain;
+  border: 6px dashed #333; background: url(&#34;/images-1.jpg&#34;) no-repeat;
+  background-size: contain;
 }
 .child-2 { width:500px; height:500px;
-border: 6px dashed #333; background: url(&#34;/images-1.jpg&#34;) no-repeat;
-background-size: cover;
+  border: 6px dashed #333; background: url(&#34;/images-1.jpg&#34;) no-repeat;
+  background-size: cover;
 }
 &lt;/style&gt;
 &lt;/head&gt;
@@ -3403,7 +3401,6 @@ background-size: cover;
 </pre>
 
 <h5>The output of the code is given below:</h5>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 22. CSS Background Size - Contain & Cover ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -3414,13 +3411,15 @@ background-size: cover;
 </p>
 <!-- ![](./images/image022.png){width="3.6093744531933507in" height="1.815in"}  -->
 
-CSS background size -- contained cover and full cover.
+<p>CSS background size -- contained cover and full cover.</p>
 
 <h2>CSS BORDER PROPERTIES</h2>
 
-The border property sets the width, style, and color for all four sides of an element's border. It is a shorthand property for setting the individual border properties, that is, border-width, border-style, and border-color in a single declaration.
+<p>The <b>border</b> property sets the width, style, and color for all four sides of an 
+element's border. It is a shorthand property for setting the individual border properties, 
+that is, border-width, border-style, and border-color in a single declaration.</p>
 
-The syntax of the property is given as:
+<p>The syntax of the property is given as:</p>
 
 <pre>
 border: &#91; border-width border-style border-color &#93; &#124; initial &#124;
@@ -3434,14 +3433,14 @@ inherit
 &lt;html&gt;
 &lt;head&gt;
 &lt;style&gt;
-.demo_container{
-text-align: center; display: flex;
-justify-content: center; align-items: center;
+.demo_container {
+  text-align: center; display: flex;
+  justify-content: center; align-items: center;
 }
 .child-1 { width:500px; height:500px;
-border: 5px solid rgb(209, 21, 21);
-background-color: rgb(226, 230, 12); color:white;
-justify-content: center; align-items: center; font-size: 32px;
+  border: 5px solid rgb(209, 21, 21);
+  background-color: rgb(226, 230, 12); color:white;
+  justify-content: center; align-items: center; font-size: 32px;
 }
 &lt;/style&gt;
 &lt;/head&gt;
@@ -3465,19 +3464,16 @@ justify-content: center; align-items: center; font-size: 32px;
 </p>
 <!-- ![](./images/image023.png){width="2.7343744531933507in" height="2.7343744531933507in"}  -->
 
-CSS border property.
+<p>CSS border property.</p>
 
-border-width property: The border-width CSS property is a short-
-hand property for setting a singleborder width property, that is, 
-border-top-width, border-right-width, border-bottom-width, and 
-border-left-width in a single declaration. The syntax of this property 
-is given as:
+<p><b>border-width</b> property: The border-width CSS property is a short-hand property for 
+setting a singleborder width property, that is, border-top-width, border-right-width, 
+border-bottom-width, and border-left-width in a single declaration. The syntax of this 
+property is given as:</p>
 
-<pre>
-border-width : &#91; thin &#124; medium &#124; thick &#124; length &#93;
-</pre>
+<pre>border-width : &#91; thin &#124; medium &#124; thick &#124; length &#93;</pre>
 
-1 to 4 values &#124; inherit
+<p>1 to 4 values &#124; inherit</p>
 
 <h4>Example:</h4>
 
@@ -3487,23 +3483,23 @@ border-width : &#91; thin &#124; medium &#124; thick &#124; length &#93;
 &lt;head&gt;
 &lt;style&gt;
 .demo_container{ width:500px; margin:0 auto;
-text-align: center; justify-content: center; align-items: center;
+  text-align: center; justify-content: center; align-items: center;
 }
 p.one {
-border-color: rgb(221, 104, 104); border-style: solid;
-border-width: 2px;
+  border-color: rgb(221, 104, 104); border-style: solid;
+  border-width: 2px;
 }
 p.two {
-border-color: rgb(193, 221, 90); border-style: solid;
-border-width: 2px 5px;
+  border-color: rgb(193, 221, 90); border-style: solid;
+  border-width: 2px 5px;
 }
 p.three {
-border-color: rgb(93, 231, 109); border-style: solid;
-border-width: 2px 5px 7px;
+  border-color: rgb(93, 231, 109); border-style: solid;
+  border-width: 2px 5px 7px;
 }
 p.four {
-border-color: rgb(212, 106, 241); border-style: solid;
-border-width: medium 5px thick 5px;
+  border-color: rgb(212, 106, 241); border-style: solid;
+  border-width: medium 5px thick 5px;
 }
 &lt;/style&gt;
 &lt;/head&gt;
@@ -3537,9 +3533,12 @@ individually in the order top, right, bottom, and left.&lt;/p&gt;&lt;/div&gt;
 </p>
 <!-- ![](./images/image024.png){width="3.5833366141732284in" height="2.1848950131233598in"}  -->
 
-CSS border property-width.
+<p>CSS border property-width.</p>
 
-border-bottom property: The border-bottom CSS property sets the width, style, and color of the bottom border of an element. It is a property for setting the individual bottom border properties, that is, border-bottom-width, border-bottom-style, and border-bottom- color at once. The syntax of this property is given as:
+<p>><b>border-bottom</b> property: The border-bottom CSS property sets the width, style, 
+and color of the bottom border of an element. It is a property for setting the individual 
+bottom border properties, that is, border-bottom-width, border-bottom-style, and 
+border-bottom- color at once. The syntax of this property is given as:</p>
 
 <pre>
 border-bottom: &#91; border-bottom-width border- bottom-style
@@ -3554,19 +3553,19 @@ border-bottom-color &#93; &#124; initial &#124; inherit
 &lt;head&gt;
 &lt;style&gt;
 .demo_container{ width:400px; margin:0 auto;
-text-align: center; justify-content: center; align-items: center;
+  text-align: center; justify-content: center; align-items: center;
 }
 .text-1 {
-border-left: 4px solid #ee2525;
+  border-left: 4px solid #ee2525;
 }
-.text-2{
-border-right: 3px solid #26e126;
+.text-2 {
+  border-right: 3px solid #26e126;
 }
-.text-3{
-border-top: 4px solid #d42323;
+.text-3 {
+  border-top: 4px solid #d42323;
 }
-.text-4{
-border-bottom: 3px solid #24d024;
+.text-4 {
+  border-bottom: 3px solid #24d024;
 }
 &lt;/style&gt;
 &lt;/head&gt;
@@ -3610,13 +3609,14 @@ voluptate aliquam nihil, eveniet aliquid culpa officia aut!
 </p>
 <!-- ![](./images/image025.png){width="3.5187489063867017in" height="4.55in"}  -->
 
-CSS border property -- left, bottom, right, top.
+<p>CSS <b>border</b> property -- left, bottom, right, top.</p>
 
-border-bottom-color property: The border-bottom color property sets the color of an element's bottom border individually. However, in other cases the shorthand properties like border color or border bottom are more convenient to use and preferable. The syntax of this property is given as:
+<p><b>border-bottom-color</b> property: The border-bottom color property sets the color of 
+an element's bottom border individually. However, in other cases the shorthand properties 
+like border color or border bottom are more convenient to use and preferable. The syntax 
+of this property is given as:</p>
 
-<pre>
-border-bottom-color: color &#124; transparent &#124; inherit
-</pre>
+<pre>border-bottom-color: color &#124; transparent &#124; inherit</pre>
 
 <h4>Example:</h4>
 
@@ -3626,22 +3626,22 @@ border-bottom-color: color &#124; transparent &#124; inherit
 &lt;head&gt;
 &lt;style&gt;
 .demo_container{ width:400px; margin:0 auto;
-text-align: center; justify-content: center; align-items: center;
+  text-align: center; justify-content: center; align-items: center;
 }
 .text-1 {
-border-style: solid;
-border-bottom-color: #d83838;
+  border-style: solid;
+  border-bottom-color: #d83838;
 }
-.text-2{
-border-style: solid;
-border-left-color: #aec730;
+.text-2 {
+  border-style: solid;
+  border-left-color: #aec730;
 }
-.text-3{
-border-style: solid;
-border-right-color: #e12424;
+.text-3 {
+  border-style: solid;
+  border-right-color: #e12424;
 }
-.text-4{
-border-style: solid; border-top-color: #ffaa00;
+.text-4 {
+  border-style: solid; border-top-color: #ffaa00;
 }
 &lt;/style&gt;
 &lt;/head&gt;
@@ -3673,9 +3673,10 @@ voluptate aliquam nihil, eveniet aliquid culpa officia aut!
 &lt;/html&gt;
 </pre>
 
-1.  border-bottom-left-radius property: The border-bottom-left-radius
-    property sets the rounded shape for the "bottom-left" corner of an
-    element border box.
+<ol type="1" start="1">
+  <li><b>border-bottom-left-radius</b> property: The border-bottom-left-radius property sets 
+  the rounded shape for the "bottom-left" corner of an element border box.</li>
+</ol>
 
 <h4>Example:</h4>
 
@@ -3684,16 +3685,16 @@ voluptate aliquam nihil, eveniet aliquid culpa officia aut!
 &lt;html&gt;
 &lt;head&gt;
 &lt;style&gt;
-.demo_container{ width:400px; margin:0 auto;
-text-align: center; justify-content: center; align-items: center;
+.demo_container { width:400px; margin:0 auto;
+  text-align: center; justify-content: center; align-items: center;
 }
 .text-1 {
-border-style: solid;
-border-bottom-left-radius: 20px;
+  border-style: solid;
+  border-bottom-left-radius: 20px;
 }
-.text-2{
-border-style: solid;
-border-bottom-right-radius: 20px;
+.text-2 {
+  border-style: solid;
+  border-bottom-right-radius: 20px;
 }
 &lt;/style&gt;
 &lt;/head&gt;
@@ -3726,11 +3727,13 @@ voluptate aliquam nhil, eveniet aliquid culpa officia aut! .&lt;/p&gt;
 </p>
 <!-- ![](./images/image026.png){width="3.4499978127734034in" height="4.925in"}  -->
 
-CSS border bottom left property -- left, right.
+<p>CSS <b>border bottom left</b> property -- left, right.</p>
 
-border-bottom-style property: The border-bottom style property sets the style of an element's bottom border individually. However, in other cases the shorthand properties like border style or border bot- tom are more convenient to use and preferable.
+<p><b>border-bottom-style</b> property: The border-bottom style property sets the style of 
+an element's bottom border individually. However, in other cases the shorthand properties 
+like border style or border bot- tom are more convenient to use and preferable.</p>
 
-The syntax of this property is given as:
+<p>The syntax of this property is given as:</p>
 
 <pre>
 border-bottom-style: none &#124; hidden &#124; dashed &#124; dotted &#124;solid &#124;
@@ -3744,35 +3747,35 @@ double &#124; groove &#124; ridge &#124; inset &#124; outset &#124; initial &#12
 &lt;html&gt;
 &lt;head&gt;
 &lt;style&gt;
-.demo_container{ width:400px; margin:0 auto;
-text-align: center; justify-content: center; align-items: center;
+.demo_container { width:400px; margin:0 auto;
+  text-align: center; justify-content: center; align-items: center;
 }
 .none {
-border-bottom-style: none;
+  border-bottom-style: none;
 }
 .dotted {
-border-bottom-style: dotted;
+  border-bottom-style: dotted;
 }
 .dashed {
-border-bottom-style: dashed;
+  border-bottom-style: dashed;
 }
 .solid {
-border-bottom-style: solid;
+  border-bottom-style: solid;
 }
 .double {
-border-bottom-style: double;
+  border-bottom-style: double;
 }
 .groove {
-border-bottom-style: groove;
+  border-bottom-style: groove;
 }
 .ridge {
-border-bottom-style: ridge;
+  border-bottom-style: ridge;
 }
 .inset {
-border-bottom-style: inset;
+  border-bottom-style: inset;
 }
 .outset {
-border-bottom-style: outset;
+  border-bottom-style: outset;
 }
 &lt;/style&gt;
 &lt;/style&gt;
@@ -3826,12 +3829,12 @@ amet consectetur adipisicing elit.esentium optio, eaque rerum!&lt;/h1&gt;
 </p>
 <!-- ![](./images/image027.png){width="2.9249989063867017in" height="5.31in"}  -->
 
-CSS various border style.
+<p>CSS various border style.</p>
 
-border-image property: The border-image CSS property speci- fies how an image is to be used in 
-place of the border styles. This is a property for setting border-image-source, border-image-width, 
-border-image-slice, border-image-outset, and border- image-repeat properties at once. The syntax 
-of this property is given as:
+<p><b>border-image</b> property: The border-image CSS property speci- fies how an image 
+is to be used in place of the border styles. This is a property for setting border-image-source, 
+border-image-width, border-image-slice, border-image-outset, and border- image-repeat properties 
+at once. The syntax of this property is given as:</p>
 
 <pre>
 border-image: &#91; source slice width outset repeat &#93;
@@ -3875,15 +3878,15 @@ border-image: &#91; source slice width outset repeat &#93;
 </p>
 <!-- ![](./images/image028.png){width="2.4524989063867015in" height="1.4625in"}  -->
 
-CSS border-image property.
+<p>CSS border-image property.</p>
 
 <h2>CSS COLOR PROPERTIES</h2>
 
-The CSS color feature sets the color of the text element content. All modern web browsers 
+<p>The CSS color feature sets the color of the text element content. All modern web browsers 
 support different colors to maintain a colorful display. In CSS, colors can be represented 
 in several ways and even use a color word such as "color: blue." However, this method only
 supports names for cer- tain colors. Therefore, in CSS, other advanced methods are used to 
-display colors such as RGB, HSL, HEX, etc.
+display colors such as RGB, HSL, HEX, etc.</p>
 
 <h4>Example:</h4>
 
@@ -3900,7 +3903,7 @@ color:red
 color: black;
 }
 .c2 {
-#color:green
+&pound;color:green
 }
 &lt;/style&gt;
 &lt;/style&gt;
@@ -3933,9 +3936,9 @@ color: black;
 
 <h5>RGB Colors</h5>
 
-RGB is a combination of three colors (red, green, and blue) which are used in all computer 
+<p><b>RGB</b> is a combination of three colors (red, green, and blue) which are used in all computer 
 programs to display colors. As we know, these are the basic colors, and by combining them, 
-we can find any color that appears in the color spectrum.
+we can find any color that appears in the color spectrum.</p>
 
 <h4>Example:</h4>
 
@@ -3944,15 +3947,15 @@ we can find any color that appears in the color spectrum.
 &lt;html&gt;
 &lt;head&gt;
 &lt;style&gt;
-.demo_container{ width:400px;
-margin:0 auto;
-text-align: center; justify-content: center; align-items: center;
+.demo_container { width:400px;
+  margin:0 auto;
+  text-align: center; justify-content: center; align-items: center;
 }
-.c1{
-color: rgb(205, 92, 92) ;
+.c1 {
+  color: rgb(205, 92, 92) ;
 }
 .c2 {
-color:rgb(100, 149, 237)
+  color:rgb(100, 149, 237)
 }
 &lt;/style&gt;
 &lt;/style&gt;
@@ -3981,9 +3984,9 @@ color:rgb(100, 149, 237)
 </p>
 <!-- ![](./images/image030.png){width="3.06in" height="0.945in"}  -->
 
-<h4>CSS color property (RGB).</h4>
+<p>CSS color property <b>(RGB)</b>.</p>
 
-<h5>RGBA Colors</h5>
+<p><b>RGBA</b> Colors</p>
 
 <p>In CSS, RGBA is also a color display format with Alpha extension. The structure of this 
 color work is given below:</p>
@@ -5073,22 +5076,22 @@ right, margin-bottom, and margin-left.
 &lt;html&gt;
 &lt;head&gt;
 &lt;style&gt;
-.demo_container{ width:600px; margin:0 auto;
-text-align: center; justify-content: center; border: 2px solid black;
-align-items: center;
+.demo_container { width:600px; margin:0 auto;
+  text-align: center; justify-content: center; border: 2px solid black;
+  align-items: center;
 }
 .text-1 {
-border:1px solid red ; margin-top: 25px;
+  border:1px solid red ; margin-top: 25px;
 }
-.text-2{
-border:1px solid red ; margin-right: 20px ;
+.text-2 {
+  border:1px solid red ; margin-right: 20px ;
 }
-.text-3{
-border:1px solid red ; margin-bottom: 20px;
+.text-3 {
+  border:1px solid red ; margin-bottom: 20px;
 }
-.text-4{
-border:1px solid red ;
-margin-left: 30px ;
+.text-4 {
+  border:1px solid red ;
+  margin-left: 30px ;
 }
 &lt;/style&gt;
 &lt;/head&gt;
@@ -5132,18 +5135,16 @@ aliquam nihil, eveniet aliquid culpa officia aut!
 </p>
 <!-- ![](./images/image044.png){width="4.4128116797900265in" height="3.5521872265966756in"}  -->
 
-CSS margin -- property (margin-top, margin-right, margin-bottom,
-margin-left).
+<p>CSS margin -- property (margin-top, margin-right, margin-bottom, margin-left).</p>
 
 <h2>[CSS MULTI-COLUMN LAYOUT PROPERTIES]</h2>
 
-CSS3 column-count property: The column count property defines the number of columns in a multi-column element.
+<p>CSS3 <b>column-count</b> property: The column count property defines the number of columns in 
+a multi-column element.</p>
 
-The syntax of this Property is given as:
+<p>The syntax of this Property is given as:</p>
 
-<pre>
-column-count: number &#124; auto &#124; initial &#124; inherit
-</pre>
+<pre>column-count: number &#124; auto &#124; initial &#124; inherit</pre>
 
 <h4>Example:</h4>
 
@@ -5223,25 +5224,23 @@ ornare purus.&lt;/p&gt;
 </p>
 <!-- ![](./images/image045.png){width="2.9006211723534556in" height="2.7056244531933507in"}  -->
 
-CSS3 column-count property.
+<p>CSS3 column-count property.</p>
 
-The column count property is as follows:
-
-1.  number It specifies the number of columns in the multi-col- umn
+<p>The <b>column count</b> property is as follows:</p>
+<ol type="1" start="1">
+  <li><b>number</b>: It specifies the number of columns in the multi-col- umn
     element. If the column width is also set to a non auto value, it may
-    indicate the maximum allowed number of columns.
-
-2. auto It is determined by other CSS properties, like column- width.
-    This is the default value.
-
-3.  CSS3 column-fill property: The column-fill CSS property specifies
+    indicate the maximum allowed number of columns.</li>
+  <li><b>auto</b>: It is determined by other CSS properties, like column- width.
+    This is the default value.</li>
+  <li>CSS3 <b>column-fill</b> property: The column-fill CSS property specifies
     how the column lengths in a multi-column element are affected by the
     content flow. Contents in a multi-column layout are either bal-
     anced, which means that contents in all columns will have the same
     height or, just take up the room as much as the content needed, when
-    using the value auto.
-
-The syntax of this Property is given as:
+    using the value auto.</li>
+</ol>
+<p>The syntax of this Property is given as:</p>
 
 <pre>
 column-fill: auto &#124; balance &#124; initial &#124; inherit
@@ -5256,7 +5255,7 @@ column-fill: auto &#124; balance &#124; initial &#124; inherit
 &lt;meta charset=&#34;utf-8&#34;&gt;
 &lt;title&gt;Example of CSS3 column-fill Property&lt;/ title&gt;
 &lt;style&gt; p.columns {
-column-count: 4; column-fill: auto;
+  column-count: 4; column-fill: auto;
 }
 &lt;/style&gt;
 &lt;/head&gt;
@@ -5326,17 +5325,15 @@ condimentum ornare purus.&lt;/p&gt;
 </p>
 <!-- ![](./images/image046.png){width="4.42125in" height="1.17in"}  -->
 
-CSS column-fill property.
+<p>CSS column-fill property.</p>
 
-column-gap property: The column-gap CSS property specifies the gap in the columns 
+<p><b>column-gap</b> property: The column-gap CSS property specifies the gap in the columns 
 in a multi-column element. If there is a column rule between the columns, it appear in 
-the middle of the gap.
+the middle of the gap.</p>
 
-The syntax of the property is given as:
+<p>The syntax of the property is given as:</p>
 
-<pre>
-column-gap: length &#124; normal &#124; initial &#124; inherit
-</pre>
+<pre>column-gap: length &#124; normal &#124; initial &#124; inherit</pre>
 
 <h4>Example:</h4>
 
@@ -5423,10 +5420,12 @@ ornare purus.&lt;/p&gt;
 
 <h5>The output of the code is given below:</h5>
 
-2.  column-rule property: The column-rule CSS property specifies a
+<ol type="1" start="2">
+  <li><b>column-rule</b> property: The column-rule CSS property specifies a
     straight line, "rule," to be drawn between each column. It is a
     prop- erty for setting the individual properties, that is,
-    column-rule-width, column-rule-style, and column-rule-color at once.
+    column-rule-width, column-rule-style, and column-rule-color at once.</li>
+</ol>
 
 <pre>
 column-rule: &#91; column-rule-width column-rule-style column-rule-color
@@ -5443,8 +5442,8 @@ column-rule: &#91; column-rule-width column-rule-style column-rule-color
 &lt;title&gt;Example of CSS3 column-rule Property
 &lt;/title&gt;
 &lt;style&gt; p {
-column-count: 3; column-gap: 100px;
-column-rule: 2px solid red;
+  column-count: 3; column-gap: 100px;
+  column-rule: 2px solid red;
 }
 &lt;/style&gt;
 &lt;/head&gt;
@@ -5525,20 +5524,22 @@ condimentum ornare purus.&lt;/p&gt;
 </p>
 <!-- ![](./images/image047.png){width="4.091145013123359in" height="1.2005205599300088in"}  -->
 
-CSS column-rule property.
+<p>CSS <b>column-rule</b> property.</p>
 
-column-rule-width property: The column-rule width property sets the width of the rule drawn between columns in a multi-column layout.
+<p><b>column-rule-width</b> property: The column-rule width property sets the width of the 
+rule drawn between columns in a multi-column layout.</p>
 
-The syntax of this property is given as:
+<p>The syntax of this property is given as:</p>
 
 <pre>
 column-rule-width: length &#124; medium &#124; thin &#124; thick
 &#124; initial &#124; inherit
 </pre>
 
-column-rule-style property: This Property sets the style of the rule set between columns in a multi-column layout.
+<p><b>column-rule-style</b> property: This Property sets the style of the rule set between columns 
+in a multi-column layout.</p>
 
-The syntax of this property is given as:
+<p>The syntax of this property is given as:</p>
 
 <pre>
 column-rule-style: none &#124; hidden &#124;dashed &#124;dotted
@@ -5546,13 +5547,12 @@ column-rule-style: none &#124; hidden &#124;dashed &#124;dotted
 &#124; initial &#124; inherit
 </pre>
 
-column-rule-color property: The column-rule-color property sets the color of all the rules drawn between columns in a multi-column layout.
+<p><b>column-rule-color</b> property: The column-rule-color property sets the color of all 
+the rules drawn between columns in a multi-column layout.</p>
 
-The syntax of this property is given as:
+<p>The syntax of this property is given as:</p>
 
-<pre>
-column-rule-color: color &#124; initial &#124; inherit
-</pre>
+<pre>column-rule-color: color &#124; initial &#124; inherit</pre>
 
 <h4>Example:</h4>
 
@@ -5563,9 +5563,9 @@ column-rule-color: color &#124; initial &#124; inherit
 &lt;meta charset=&#34;utf-8&#34;&gt;
 &lt;title&gt; &lt;/title&gt;
 &lt;style&gt; p {
-column-count: 3; column-gap: 100px;
-column-rule-color: red; column-rule-width: 2px; column-rule-style:
-solid;
+  column-count: 3; column-gap: 100px;
+  column-rule-color: red; column-rule-width: 2px; column-rule-style:
+  solid;
 }
 &lt;/style&gt;
 &lt;/head&gt;
@@ -5652,13 +5652,13 @@ quis, condimentum ornare purus.&lt;/p&gt;
 </p>
 <!-- ![](./images/image048.png){width="4.415624453193351in" height="1.2909372265966754in"}  -->
 
-CSS various column property.
+<p>CSS various column property.</p>
 
 <h2>[CSS OUTLINE PROPERTIES]</h2>
 
-outline property: The outline property sets the width, style, and color for all four sides of an element's outline. It is a property for set- ting the individual outline, that is, outline-width, outline-style, and outline-color in a single declaration.
+<p><b>outline</b> property: The outline property sets the width, style, and color for all four sides of an element's outline. It is a property for set- ting the individual outline, that is, outline-width, outline-style, and outline-color in a single declaration.</p>
 
-The syntax of this property is given as:
+<p>The syntax of this property is given as:</p>
 
 <pre>
 outline: &#91; outline-width outline-style outline- color &#93; &#124; initial
@@ -5720,21 +5720,21 @@ Duis bibendum metus arcu.
 </p>
 <!-- ![](./images/image049.png){width="3.7734372265966756in" height="1.61in"}  -->
 
-CSS outline property.
+<p>CSS outline property.</p>
 
-outline-width property: The outline-width CSS property sets the width of the outline of an element. However, in many cases the shorthand CSS properties outline is more convenient to use and preferable.
+<p><b>outline-width</b> property: The outline-width CSS property sets the width of the outline of an element. However, in many cases the shorthand CSS properties outline is more convenient to use and preferable.</p>
 
-The syntax of the property is given as:
+<p>The syntax of the property is given as:</p>
 
 <pre>
 outline-width: thin &#124; medium &#124; thick &#124; length &#124; initial &#124; inherit
 </pre>
 
-outline-style property: The outline style property sets style of the outline of 
+<p><b>outline-style</b> property: The outline style property sets style of the outline of 
 an element. However, in many cases the shorthand prop- erties outline is more convenient 
-to use and preferable.
+to use and preferable.</p>
 
-The syntax of this property is given as:
+<p>The syntax of this property is given as:</p>
 
 <pre>
 outline-style: none &#124; dotted &#124; dashed &#124; double &#124; groove &#124; ridge
@@ -5750,17 +5750,17 @@ outline-style: none &#124; dotted &#124; dashed &#124; double &#124; groove &#12
 &lt;meta charset=&#34;utf-8&#34;&gt;
 &lt;title&gt; &lt;/title&gt;
 &lt;style&gt;
-.demo_container{ width:500px; margin:0 auto;
-text-align: center; justify-content: center; align-items: center;
+.demo_container { width:500px; margin:0 auto;
+  text-align: center; justify-content: center; align-items: center;
 }
 p.one {
-outline-style: dotted; outline-width: thick;
+  outline-style: dotted; outline-width: thick;
 }
 p.two {
-outline-style: dotted; outline-width: medium;
+  outline-style: dotted; outline-width: medium;
 }
 p.three {
-outline-color: red; outline-style: dotted; outline-width: thin ;
+  outline-color: red; outline-style: dotted; outline-width: thin ;
 }
 &lt;/style&gt;
 &lt;/head&gt;
@@ -5809,14 +5809,14 @@ metus arcu.
 </p>
 <!-- ![](./images/image050.png){width="4.125in" height="3.465in"}   -->
 
-CSS various outline property.
+<p>CSS various outline property.</p>
 
 <h2>CSS PADDING</h2>
 
-The padding CSS property sets the margin on all four sides of the element. It is a 
-property used for padding-top, padding-right, padding-bottom, and padding-left properties.
+<p>The <b>padding</b> CSS property sets the margin on all four sides of the element. It is a 
+property used for padding-top, padding-right, padding-bottom, and padding-left properties.</p>
 
-The syntax of this property is given as:
+<p>The syntax of this property is given as:</p>
 
 <pre>
 padding : &#91; length &#124; percentage &#124; auto &#93; 1 to 4 values
@@ -5830,23 +5830,23 @@ padding : &#91; length &#124; percentage &#124; auto &#93; 1 to 4 values
 &lt;html&gt;
 &lt;head&gt;
 &lt;style&gt;
-.demo_container{ width:600px; margin:0 auto;
-text-align: center; justify-content: center; border:1px solid red ;
-align-items: center;
+.demo_container { width:600px; margin:0 auto;
+  text-align: center; justify-content: center; border:1px solid red ;
+  align-items: center;
 }
 .text-1 {
-border-style: solid;
-padding: 25px;
+  border-style: solid;
+  padding: 25px;
 }
-.text-2{
-border-style: solid;
-padding: 20px 20px 20px 20px;
+.text-2 {
+  border-style: solid;
+  padding: 20px 20px 20px 20px;
 }
-.text-3{
-border-style: solid; padding: 30px 30px;
+.text-3 {
+  border-style: solid; padding: 30px 30px;
 }
-.text-4{
-border-style: solid; padding: 30px 0px 30px 0px ;
+.text-4 {
+  border-style: solid; padding: 30px 0px 30px 0px ;
 }
 &lt;/style&gt;
 &lt;/head&gt;
@@ -5877,22 +5877,17 @@ nihil, eveniet aliquid culpa aut!. &lt;/p&gt;&lt;br&gt;
 &lt;/html&gt;
 </pre>
 
-This notation can take one, two, three, or four whitespace-separated
-values.
+<p>This notation can take one, two, three, or four whitespace-separated values.</p>
+<ol type="1">
+  <li>If we set one value, then margin applies to all four sides.</li>
+  <li>If we set two values, then a value applies to the top and bottom, and the second value 
+    applies to the right and left sides.</li>
+  <li>If we set three values, then values apply to the top, horizontal (i.e., right and left), 
+    and bottom sides.</li>
+  <li>If we set four values, then values apply to the top, right, bottom, left sides in that 
+    order.</li>
 
-1.  If we set one value, then margin applies to all four sides.
-
-2.  If we set two values, then a value applies to the top and bottom,
-    and the second value applies to the right and left sides.
-
-3.  If we set three values, then values apply to the top, horizontal
-    (i.e., right and left), and bottom sides.
-
-4.  If we set four values, then values apply to the top, right, bottom,
-    left sides in that order.
-
-Instead of padding, you can use other various margin-top, padding-
-right, padding-bottom, padding-left.
+<p>Instead of padding, you can use other various margin-top, padding-right, padding-bottom, padding-left.</p>
 
 <h4>Example:</h4>
 
@@ -5901,21 +5896,21 @@ right, padding-bottom, padding-left.
 &lt;html&gt;
 &lt;head&gt;
 &lt;style&gt;
-.demo_container{ width:600px; margin:0 auto;
-text-align: center; justify-content: center; border: 2px solid black;
-align-items: center;
+.demo_container { width:600px; margin:0 auto;
+  text-align: center; justify-content: center; border: 2px solid black;
+  align-items: center;
 }
 .text-1 {
-border:1px solid red ; padding-top: 25px;
+  border:1px solid red ; padding-top: 25px;
 }
-.text-2{
-border:1px solid red ; padding-right: 20px ;
+.text-2 {
+  border:1px solid red ; padding-right: 20px ;
 }
-.text-3{
-border:1px solid red ; padding-bottom: 20px;
+.text-3 {
+ border:1px solid red ; padding-bottom: 20px;
 }
-.text-4{
-border:1px solid red ; padding-left: 30px ;
+.text-4 {
+  border:1px solid red ; padding-left: 30px ;
 }
 &lt;/style&gt;
 &lt;/head&gt;
@@ -5951,7 +5946,10 @@ nihil, eveniet culpa officia aut! .&lt;/p&gt;&lt;br&gt;
 
 <h2>[CSS PRINT PROPERTIES]</h2>
 
-page-break-after property: The page-break-after CSS property inserts page breaks after an element when printing a document. This property applies to block-level elements that generate a box. It won't apply on an empty &lt;p&gt; that won't generate a box. The syntax of this Property is given as:
+<p><b>page-break-after</b> property: The page-break-after CSS property inserts page breaks 
+after an element when printing a document. This property applies to block-level elements 
+that generate a box. It won't apply on an empty &lt;p&gt; that won't generate a box. The 
+syntax of this Property is given as:</p>
 
 <pre>
 page-break-after: auto &#124; always &#124; avoid &#124; left &#124; right &#124; initial
@@ -5968,9 +5966,9 @@ page-break-after: auto &#124; always &#124; avoid &#124; left &#124; right &#124
 &lt;title&gt;Example of page-break-after property
 &lt;/title&gt;
 &lt;style&gt;
-&#64;media print{
-p.footnotes {
-page-break-after: always; text-align: center;
+&#64;media print {
+  p.footnotes {
+  page-break-after: always; text-align: center;
 }
 }
 &lt;/style&gt;
@@ -6016,29 +6014,27 @@ dictum fermentum ipsum arcu et tellus.&lt;/p&gt;
 </p>
 <!-- ![](./images/image051.png){width="4.101561679790026in" height="2.598957786526684in"}  -->
 
-page-break-after property.
-
-I.  We have two more properties in the print section, they are:
-    page-break-before property
-
-II. page-break-inside property
-
+<p><b>page-break-after</b> property.</p>
+<ol type="I">
+  <li>We have two more properties in the print section, they are:<br>
+    page-break-before property</li>
+  <li>page-break-inside property</li>
+</ol>
 <h2>[CSS TABLE PROPERTIES]</h2>
-
-1.  border-collapse property: The border-collapse CSS property specifies
+<ol type="1">
+  <li><b>border-collapse</b> property: The border-collapse CSS property specifies
     whether the cell borders of a table are collapsed in a single border
     or separated as usual. There are two distinct models for setting
     borders on table cells in CSS.
+    <ul>
+	  <li>Separated border model</li>
+      <li>Collapsing border model</li>
+	</ul>
+</ol>
 
-    -   Separated border model
+<p>The syntax of this property is given as:</p>
 
-    -   Collapsing border model
-
-The syntax of this property is given as:
-
-<pre>
-border-collapse: separate &#124; collapse &#124; initial &#124; inherit
-</pre>
+<pre>border-collapse: separate &#124; collapse &#124; initial &#124; inherit</pre>
 
 <h4>Example:</h4>
 
@@ -6109,15 +6105,15 @@ table, th, td {
 </p>
 <!-- ![](./images/image052.png){width="2.7890616797900263in" height="2.2031244531933507in"} -->
 
-CSS border collapse -- with and without.
+<p>CSS border collapse -- with and without.</p>
 
-border-spacing property: The border-spacing CSS property sets the spacing between the borders of adjacent cells using the border model. If the border model is used, the property is ignored. Here see the border-collapse property.
+<p><b>border-spacing</b> property: The border-spacing CSS property sets the spacing between 
+the borders of adjacent cells using the border model. If the border model is used, the 
+property is ignored. Here see the border-collapse property.</p>
 
-The syntax of this property is given as:
+<p>The syntax of this property is given as:</p>
 
-<pre>
-border-spacing: &#91; length &#93; 1 or 2 values &#124; initial &#124; inherit
-</pre>
+<pre>border-spacing: &#91; length &#93; 1 or 2 values &#124; initial &#124; inherit</pre>
 
 <h4>Example:</h4>
 
@@ -6126,20 +6122,20 @@ border-spacing: &#91; length &#93; 1 or 2 values &#124; initial &#124; inherit
 &lt;html&gt;
 &lt;head&gt;
 &lt;style&gt;
-.demo_container{ width:400px; margin:0 auto;
-text-align: center; justify-content: center; align-items: center;
+.demo_container { width:400px; margin:0 auto;
+  text-align: center; justify-content: center; align-items: center;
 }
 table {
 }
 border-collapse: separate;
 table, th, td {
-border: 1px solid black;
+  border: 1px solid black;
 }
 table.one {
-border-spacing: 25px;
+  border-spacing: 25px;
 }
 table.two {
-border-spacing: 10px 20px;
+  border-spacing: 10px 20px;
 }
 &lt;/style&gt;
 &lt;/style&gt;
@@ -6185,13 +6181,13 @@ both horizontal and vertical border spacing.&lt;/p&gt;
 </p>
 <!-- ![](./images/image053.png){width="2.46125in" height="2.527707786526684in"}  -->
 
-CSS border-spacing property.
+<p>CSS <b>border-spacing</b> property.</p>
 
-caption-side property: The caption-side CSS property sets the verti- 
-cal position of the table caption box. To align caption text horizontally 
-within the caption box, use the text-align property.
+<p><b>caption-side</b> property: The caption-side CSS property sets the vertical position of 
+the table caption box. To align caption text horizontally within the caption box, use the 
+text-align property.</p>
 
-The syntax of this property is given as:
+<p>The syntax of this property is given as:</p>
 
 <pre>
 caption-side: top &#124; bottom &#124; initial &#124; inherit
@@ -6204,27 +6200,27 @@ caption-side: top &#124; bottom &#124; initial &#124; inherit
 &lt;html&gt;
 &lt;head&gt;
 &lt;style&gt;
-.demo_container{ width:400px; margin:0 auto;
-text-align: center; justify-content: center; align-items: center;
+.demo_container { width:400px; margin:0 auto;
+  text-align: center; justify-content: center; align-items: center;
 }
 table {
 }
 border-collapse: separate; width:100%
 table, th, td {
-border: 1px solid black;
+  border: 1px solid black;
 }
 table.one {
-border-spacing: 25px;
+  border-spacing: 25px;
 }
 table.two {
-border-spacing: 10px 20px;
+  border-spacing: 10px 20px;
 }
 caption.one {
-caption-side: bottom; font-size: 24px;
-border-bottom: 1px purple solid; padding: 20px
+  caption-side: bottom; font-size: 24px;
+  border-bottom: 1px purple solid; padding: 20px
 }
 caption.two { caption-side: top; font-size: 24px;
-border-bottom: 1px purple solid; padding: 20px
+  border-bottom: 1px purple solid; padding: 20px
 }
 &lt;/style&gt;
 &lt;/style&gt;
@@ -6270,25 +6266,22 @@ border-bottom: 1px purple solid; padding: 20px
 </p>
 <!-- ![](./images/image054.png){width="2.0587489063867017in" height="2.2190616797900264in"}  -->
 
-CSS caption property.
+<p>CSS caption property.</p>
 
-empty-cells property: The empty-cells CSS property shows or hides borders and 
+<p><b>empty-cells</b> property: The empty-cells CSS property shows or hides borders and 
 backgrounds of table cells that have no visible content. A non-breaking space (&nbsp;) 
-is considered as a visible content.
+is considered as a visible content.</p>
 
-The syntax of this property is given as:
+<p>The syntax of this property is given as:</p>
 
-<pre>
-empty-cells: show &#124; hide &#124; initial &#124; inherit
-</pre>
+<pre>empty-cells: show &#124; hide &#124; initial &#124; inherit</pre>
 
-The description values are as follows:
-
-i.  show It is borders and backgrounds that are drawn around empty cells
-    like normal cells. This is the default value.
-
-ii. hide There are no borders or backgrounds drawn around empty cells.
-
+<p>The description values are as follows:</p>
+<ol type="i">
+  <li><b>show</b>: It is borders and backgrounds that are drawn around empty cells
+    like normal cells. This is the default value.</li>
+  <li><b>hide</b>: There are no borders or backgrounds drawn around empty cells.</li>
+</ol>
 <h4>Example:</h4>
 
 <pre>
@@ -6296,27 +6289,27 @@ ii. hide There are no borders or backgrounds drawn around empty cells.
 &lt;html&gt;
 &lt;head&gt;
 &lt;style&gt;
-.demo_container{ width:400px; margin:0 auto;
-text-align: center;
-justify-content: center; align-items: center;
+.demo_container { width:400px; margin:0 auto;
+  text-align: center;
+  justify-content: center; align-items: center;
 }
 table {
-border-collapse: separate; width:100%
+  border-collapse: separate; width:100%
 }
 table, th, td {
-border: 1px solid black;
+  border: 1px solid black;
 }
 table.one {
-border-spacing: 25px;
+  border-spacing: 25px;
 }
 table.two {
-border-spacing: 10px 20px;
+  border-spacing: 10px 20px;
 }
 table.one {
-empty-cells: show;
+  empty-cells: show;
 }
 table.two {
-empty-cells: hide;
+  empty-cells: hide;
 }
 &lt;/style&gt;
 &lt;/style&gt;
@@ -6366,15 +6359,15 @@ empty-cells: hide;
 </p>
 <!-- ![](./images/image055.png){width="2.8541655730533684in" height="2.9296872265966756in"}  -->
 
-CSS empty-cell property.
+<p>CSS <b>empty-cell</b> property.</p>
 
 <h2>[CSS TEXT PROPERTIES]</h2>
 
-text-align property and text-align-all property: The text-decoration property is 
+<p><b>text-align</b> property and text-align-all property: The text-decoration property is 
 aproperty forsettingtext-decoration-line, text-decoration- style, and text-decoration-
-color in one declaration.
+color in one declaration.</p>
 
-The syntax of text-align is given as:
+<p>The syntax of text-align is given as:</p>
 
 <pre>
 text-align: start &#124; end &#124; right &#124; left &#124; center &#124; justify &#124;
@@ -6395,15 +6388,15 @@ match-parent
 &lt;html&gt;
 &lt;head&gt;
 &lt;style&gt;
-.demo_container{ width:600px; margin:0 auto;
-text-align: center; justify-content: center; border:1px solid red ;
-align-items: center;
+.demo_container { width:600px; margin:0 auto;
+  text-align: center; justify-content: center; border:1px solid red ;
+  align-items: center;
 }
 .div1 {
-border: 10px solid gold; text-align: center;
+  border: 10px solid gold; text-align: center;
 }
 .div2 {
-border: 10px solid green; text-align: center;
+  border: 10px solid green; text-align: center;
 }
 &lt;/style&gt;
 &lt;/head&gt;
@@ -6457,58 +6450,49 @@ architecto voluptate aliquam nhil, eveniet aliquid culpa officia aut!
 </p>
 <!-- ![](./images/image056.png){width="4.429686132983377in" height="4.494374453193351in"}  -->
 
-CSS text-align and text-align-all property.
+<p>CSS <b>text-align</b> and <b>text-align-all</b> property.</p>
 
-CSS text-decoration property: The text-decoration property is a property for 
+<p>CSS <b>text-decoration</b> property: The text-decoration property is a property for 
 setting text-decoration-line, text-decoration-style, and text-decoration-color in one 
-declaration.
+declaration.</p>
 
-The syntax of the text-decoration is given as:
+<p>The syntax of the text-decoration is given as:</p>
 
 <pre>
 text-decoration: &lt;text-decoration-line&gt; &#124;&#124; &lt;text-
 decoration-style&gt; &#124;&#124; &lt;text-decoration-color&gt;
 </pre>
 
-Here are some possible values under &lt;text-decoration-line&gt;
+<p>Here are some possible values under &lt;text-decoration-line&gt;</p>
+<ol type="1">
+  <li><b>none</b>: It is neither produces nor inhibits text decoration.</li>
+  <li>>b>underline</b>: Each line of text is underlined.</li>
+  <li><b>overline</b>: In each line of text has a line over it.</li>
+  <li><b>line-through</b>: In each line of text has a line through the middle.</li>
+  <li><b>blink</b>: The text blinks means the alternates between visible and invisible.</li>
+</ol>
 
-1.  none: It is neither produces nor inhibits text decoration.
-
-2. underline: Each line of text is underlined.
-
-3. overline: In each line of text has a line over it.
-
-4. line-through: In each line of text has a line through the middle.
-
-5.  blink: The text blinks means the alternates between visible and
-    invisible.
-
-Here are some possible values under &lt;text-decoration-style&gt;
-
-1.  solid: It is a solid line.
-
-2. wavy: It is a wavy line.
-
-3. dotted: It is a dotted line.
-
-4. dashed: It is a line consisting of dashes.
-
-5.  double: It is a double solid line.
-
-Here are some possible values under &lt;text-decoration-color&gt;
-
-I.  initial: It represents the value specified as the property&#39;s ini-
-    tial value.
-
-II. inherit: It represents the calculated value of the property on the
-    element's parent.
-
-III. unset: It is a value that acts as either initial, depending on
+<p>Here are some possible values under &lt;text-decoration-style&gt;</p>
+<ol type="1" start="1">
+  <li>solid: It is a solid line.</li>
+  <li>wavy: It is a wavy line.</li>
+  <li>dotted: It is a dotted line.</li>
+  <li>dashed: It is a line consisting of dashes.</li>
+  <li>double: It is a double solid line.</li>
+</ol>
+<p>Here are some possible values under &lt;text-decoration-color&gt;</p>
+<ol type="I">
+  <li><b>initial</b>: It represents the value specified as the property&#39;s ini-
+    tial value.</li>
+  <li><b>inherit</b>: It represents the calculated value of the property on the
+    element's parent.</li>
+  <li><b>unset</b>: It is a value that acts as either initial, depending on
      whether the property is inherited or not. This means that it sets
      all properties to the parent value if they are inheritable or to
-     the initial value if not inheritable.
+     the initial value if not inheritable.</li>
+</ol>
 
-1.  CSS text-decoration property.
+<p>CSS <b>text-decoration</b> property.</p>
 
 <h4>Example:</h4>
 
@@ -6517,22 +6501,22 @@ III. unset: It is a value that acts as either initial, depending on
 &lt;html&gt;
 &lt;head&gt;
 &lt;style&gt;
-.demo_container{ width:600px; margin:0 auto;
-justify-content: center; align-items: center;
+.demo_container { width:600px; margin:0 auto;
+  justify-content: center; align-items: center;
 }
-.div1 &gt;h3{
-text-align: center;
-text-decoration: underline;
-text-decoration-color: yellowgreen; font-size: 28px;
+.div1 &gt;h3 {
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: yellowgreen; font-size: 28px;
 }
-.div2 &gt; h3{
-text-align: center;
-text-decoration: underline; text-decoration-color: green; font-size:
-28px;
+.div2 &gt; h3 {
+  text-align: center;
+  text-decoration: underline; text-decoration-color: green; font-size:
+  28px;
 }
 .div3 &gt;h3 {
-font-size: 28px; text-align: center;
-text-decoration-line: underline; text-decoration-style: wavy;
+  font-size: 28px; text-align: center;
+  text-decoration-line: underline; text-decoration-style: wavy;
 }
 &lt;/style&gt;
 &lt;/head&gt;
@@ -6585,9 +6569,10 @@ fuga praesentium optio, eaque rerum!&lt;/h1&gt;
 </p>
 <!-- ![](./images/image057.png){width="3.1171872265966756in" height="2.565in"}  -->
 
-CSS text-decoration property.
-
-2.  CSS text-orientation property.
+<p>CSS <b>text-decoration</b> property.</p>
+<ol type="1" start="2">
+  <li>CSS text-orientation property.</li>
+</ol>
 
 <h4>Example:</h4>
 
@@ -6596,21 +6581,21 @@ CSS text-decoration property.
 &lt;html&gt;
 &lt;head&gt;
 &lt;style&gt;
-.demo_container{ width:600px; margin:0 auto;
-justify-content: center; align-items: center;
+.demo_container { width:600px; margin:0 auto;
+  justify-content: center; align-items: center;
 }
 p {
-writing-mode: vertical-rl; font-size: 2em;
-float: left;
+  writing-mode: vertical-rl; font-size: 2em;
+  float: left;
 }
 .mixed {
-text-orientation: mixed;
+  text-orientation: mixed;
 }
 .upright {
-text-orientation: upright;
+  text-orientation: upright;
 }
 .sideways {
-text-orientation: sideways;
+  text-orientation: sideways;
 }
 &lt;/style&gt;
 &lt;/head&gt;
@@ -6636,11 +6621,12 @@ text-orientation: sideways;
 </p>
 <!-- ![](./images/image058.png){width="1.1446806649168855in" height="2.2921872265966754in"}  -->
 
-CSS text-orientation property.
-
-3.  CSS text-overflow property: It specifies how text should be treated
+<p>CSS <b>text-orientation</b> property.</p>
+<ol type="1" start="3">
+  <li>CSS <b>text-overflow</b> property: It specifies how text should be treated
     when it has been clipped due to it being too large to fit within its
-    containing block.
+    containing block.</li>
+</ol>
 
 <h4>Example:</h4>
 
@@ -6649,14 +6635,14 @@ CSS text-orientation property.
 &lt;html&gt;
 &lt;head&gt;
 &lt;style&gt;
-.demo_container{ width:600px; margin:0 auto;
-justify-content: center; align-items: center;
+.demo_container { width:600px; margin:0 auto;
+  justify-content: center; align-items: center;
 }
 .text-1 { width: 16em;
-overflow: hidden; white-space: nowrap; background: gold;
+  overflow: hidden; white-space: nowrap; background: gold;
 }
-.text-2{
-text-overflow: ellipsis;
+.text-2 {
+  text-overflow: ellipsis;
 }
 &lt;/style&gt;
 &lt;/head&gt;
@@ -6693,13 +6679,14 @@ fuga praesentium optio, eaque rerum!&lt;/h1&gt;
 </p>
 <!-- ![](./images/image059.png){width="4.101561679790026in" height="1.0in"}  -->
 
-CSS text-overflow property.
-
-4.  CSS text-shadow property: The text-shadow
+<p>CSS <b>text-overflow</b> property.</p>
+<ol type="1" start="4">
+  <li>CSS <b>text-shadow</b> property: The text-shadow
     property is used for applying shadow effects to text. You can also
     use text-shadow to apply drop-shadows, outer glows, and other shadow
     effects to text. This property accepts a list of values. Each item
-    in the list can have two, three, or four values.
+    in the list can have two, three, or four values.</li>
+</ol>
 
 <h4>Example:</h4>
 
@@ -6708,22 +6695,21 @@ CSS text-overflow property.
 &lt;html&gt;
 &lt;head&gt;
 &lt;style&gt;
-.demo_container{ width:600px; margin:0 auto;
-justify-content: center; align-items: center;
+.demo_container { width:600px; margin:0 auto;
+  justify-content: center; align-items: center;
 }
 .text-1 {
-text-shadow: 2px 2px 5px red; font-size: 30px;
+  text-shadow: 2px 2px 5px red; font-size: 30px;
 }
-.text-2{
-text-shadow: 2px 2px red; font-size: 30px;
+.text-2 {
+  text-shadow: 2px 2px red; font-size: 30px;
 }
-.text-3{
-text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff; font-size: 30px;
+.text-3 {
+  text-shadow: 0 0 3px #ff0000, 0 0 5px #0000ff; font-size: 30px;
 }
-.text-4{
-color: white;
-text-shadow: 1px 1px 2px black, 0 0 25px blue,
-0 0 5px darkblue; font-size: 30px;
+.text-4 {
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue; font-size: 30px;
 }
 &lt;/style&gt;
 &lt;/head&gt;
@@ -6760,49 +6746,47 @@ You are learning CSS.
 </p>
 <!-- ![](./images/image060.png){width="1.8697911198600174in" height="1.518228346456693in"}  -->
 
-CSS text-shadow property.
+<p>CSS text-shadow property.</p>
 
 <h2>CSS TRANSFORM PROPERTIES</h2>
 
-The transform property is used to transform an element in two-dimen-
-sional (2D) or thre-dimensional (3D) spaces. For example, rotate
-elements, scale them, skew them, and more.
+<p>The <b>transform</b> property is used to transform an element in two-dimensional (2D) or 
+three-dimensional (3D) spaces. For example, rotate elements, scale them, skew them, and more.</p>
 
 <h5>2D Transform Functions</h5>
 
-The transform property accepts a list of "transform functions" as
+<p>The <b>transform</b> property accepts a list of "transform functions" as
 values. These functions have names such as scale(), rotate(), skew(),
 etc, which take parameters to determine the level of transformation (e.g., the
-angle to rotate an element).
-The syntax of transform is given below:
+angle to rotate an element).</p>
+
+<p>The syntax of transform is given below:</p>
 
 <pre>
 transform: none &#124; &lt;transform-function&gt; &#91; &lt;transform- function&gt;
 &#93;
 </pre>
 
-These are grouped by 2D (two-dimensional) and 3D (three-dimen- sional)
-functions.
+<p>These are grouped by 2D (two-dimensional) and 3D (three-dimen- sional) functions.</p>
 
-<b>matrix():</b> It specifies a 2D transformation in the form of a matrix
-of the six values a-f.
+<p><b>matrix():</b> It specifies a 2D transformation in the form of a matrix of the six values a-f.</p>
 
-The syntax of matrix is given below:
+<p>The syntax of matrix is given below:</p>
 
 <pre>matrix() = matrix( &lt;number&gt; &#91;,&lt;number&gt; &#93;{5,5} )</pre>
 
-**translate():** It moves the position of the element. It specifies a 2D trans- 
-lation by the vector &#91;x, y&#93;, where tx is the first translation-value parameter 
-and y is the optional second translation-value parameter. 
+<p><b>translate()</b>: It moves the position of the element. It specifies a 2D translation by the 
+vector &#91;x, y&#93;, where tx is the first translation-value parameter and y is the optional 
+second translation-value parameter.</p>
 
-The syntax of translate is given below:
+<p>The syntax of translate is given below:</p>
 
 <pre>translate( &lt;translation-value&gt;&#91;, &lt;translation-value&gt;&#93;? )</pre>
 
-**translateX():** It moves the element horizontally. It specifies a transla-
-tion by the given amount in the X direction. 
+<p><b>translateX():</b> It moves the element horizontally. It specifies a translation by the 
+given amount in the X direction.</p>
 
-The syntax of translateX is given below:
+<p>The syntax of translateX is given below:</p>
 
 <pre>translateX( &lt;translation-value&gt; )</pre>
 
@@ -8996,15 +8980,15 @@ line-height: 2; font-size:20px
 </p>
 <!-- ![](./images/image083.png){width="4.265624453193351in" height="3.38in"}  -->
 
-CSS function ( hue-rotate() ).
+<p>CSS function <b>( hue-rotate() )</b>.
 
 <h3>inset()</h3>
 
-The inset() is a CSS basic shape value that is part of the CSS shapes
+<p>The inset() is a CSS basic shape value that is part of the CSS shapes
 mod- ule. The shapes such as inset() can be used as a value for
 properties such as shape-outside to control the flow of content around
 the element and clip- path to clip the element's contents to the basic
-shape.
+shape.</p>
 
 <h4>Example:</h4>
 
@@ -9087,33 +9071,33 @@ Vitae justo eget magna fermentum iaculis.&lt;/p&gt;
 </p>
 <!-- ![](./images/image084.png){width="4.265624453193351in" height="2.6433333333333335in"}  -->
 
-CSS function ( inset() ).
+<p>CSS function <b>( inset() )</b>.</p>
 
 <h3>linear-gradient()</h3>
 
-The linear-gradient() function allows to create a linear-gradient
+<p>The linear-gradient() function allows to create a linear-gradient
 using CSS. CSS gradients allow to apply multiple background colors to
-an ele- ment that blend from one color to the next.
+an ele- ment that blend from one color to the next.</p>
 
-To create a linear-gradient, use the linear-gradient() as a value to
+<p>To create a linear-gradient, use the linear-gradient() as a value to
 any property that accepts images (such as background-image,
 background, or border-image properties). Linear-gradients use these
-properties to build an image of the specified gradient.
+properties to build an image of the specified gradient.</p>
 
-These are gradients that run in a straight line. Linear-gradients can
+<p>These are gradients that run in a straight line. Linear-gradients can
 go in any direction such as up, down, sideways, 50 degrees, 73
-degrees, or any other angle you like.
+degrees, or any other angle you like.</p>
 
-These gradients are created by establishing an axis called the
+<p>These gradients are created by establishing an axis called the
 gradient line. The color stops are placed along that gradient to
-create a gradient that runs between each color.
+create a gradient that runs between each color.</p>
 
-How to Set the Angle of a Gradient
+<p>How to Set the Angle of a Gradient</p>
 
-You can also set the angle so that it runs along that angle. You can
+<p>You can also set the angle so that it runs along that angle. You can
 specify with an angle value (e.g., 45deg, 90deg, and 180deg) or with
 the keywords for specifying the angle (such as to top, to bottom, to
-top left, etc).
+top left, etc).</p>
 
 <h4>Example:</h4>
 
@@ -9123,38 +9107,38 @@ top left, etc).
 &lt;head&gt;
 &lt;style&gt;
 &#42; { padding:0; margin:0;
-box-sizing: border-box;
+  box-sizing: border-box;
 }
-.demo_container{ padding:20px; width:900px;
-margin:0 auto;
-justify-content: center; align-items: center;
+.demo_container { padding:20px; width:900px;
+  margin:0 auto;
+  justify-content: center; align-items: center;
 }
-.row{
-display: flex;
-flex-direction:row;
+.row {
+  display: flex;
+  flex-direction:row;
 }
-.col{
-height:100px; width:100%
+.col {
+  height:100px; width:100%
 }
 .image-1 {
-background: linear-gradient(purple, yellow); color: white;
-padding: 30px; height: 300px;
+  background: linear-gradient(purple, yellow); color: white;
+  padding: 30px; height: 300px;
 }
 .image-2 {
-background: linear-gradient(to bottom right, purple, yellow);
-color: white; padding: 30px; height: 300px;
+  background: linear-gradient(to bottom right, purple, yellow);
+  color: white; padding: 30px; height: 300px;
 }
-.image-3{
-background: linear-gradient(to right, red 5%, green 0%, yellow 5%);
-color: white; padding: 30px; height: 300px;
+.image-3 {
+  background: linear-gradient(to right, red 5%, green 0%, yellow 5%);
+  color: white; padding: 30px; height: 300px;
 }
-.image-4{
-background: linear-gradient(to right, red, green, yellow);
-color: white; padding: 30px; height: 300px;
+.image-4 {
+  background: linear-gradient(to right, red, green, yellow);
+  color: white; padding: 30px; height: 300px;
 }
-p{
-line-height: 2; font-size:20px;
-margin-bottom:30px
+p {
+  line-height: 2; font-size:20px;
+  margin-bottom:30px
 }
 &lt;/style&gt;
 &lt;/head&gt;
@@ -9196,15 +9180,15 @@ gradient using CSS.&lt;/h2&gt;
 </p>
 <!-- ![](./images/image085.png){width="4.096353893263342in" height="4.143228346456693in"}  -->
 
-CSS function linear-gradient().
+<p>CSS function <b>linear-gradient()</b>.</p>
 
 <h3>matrix()</h3>
 
-The CSS matrix() can be used with CSS transforms to style elements in
-a two-dimensional space.
+<p>The CSS matrix() can be used with CSS transforms to style elements in
+a two-dimensional space.</p>
 
-The matrix() is an alternative to the two-dimensional transform func-
-tions rotate(), skew(), scale(), and translate().
+<p>The matrix() is an alternative to the two-dimensional transform func-
+tions rotate(), skew(), scale(), and translate().</p>
 
 <h4>Example:</h4>
 
@@ -9279,11 +9263,11 @@ CSS function- matrix().
 
 <h3>matrix3d()</h3>
 
-The CSS matrix3d() can be used with CSS transforms to style elements
+<p>The CSS matrix3d() can be used with CSS transforms to style elements
 in a three-dimensional space. The matrix3d() is an alternative to the
 three- dimensional transform functions rotate3d(), rotateX(),
 rotateY(), rotateZ(), translate3d(), translateZ(), scale3d(),
-scaleZ(), and perspective().
+scaleZ(), and perspective().</p>
 
 <h4>Example:</h4>
 
@@ -9353,16 +9337,16 @@ function = transform: matrix(0.707107, 0.707107, -0.707107, 0.707107,
 </p>
 <!-- ![](./images/image087.png){width="4.429693788276466in" height="1.8618744531933509in"}  -->
 
-CSS function-matrix3d().
+<p>CSS <b>function-matrix3d()</b>.</p>
 
 <h3>opacity()</h3>
 
-Use the opacity() function to make an image partially or completely
+<p>Use the opacity() function to make an image partially or completely
 trans- parent. The opacity() is used with the filter property to apply
 transpar- ency to the samples in an image. The opacity() requires an
 argument to be passed to it. Also, it determines the proportion of the
 transparency that's applied to the image. The argument can be either a
-value or a number.
+value or a number.</p>
 
 <h4>Example:</h4>
 
@@ -9371,41 +9355,41 @@ value or a number.
 <html&gt;
 <head&gt;
 &lt;style&gt;
- body {
- padding:0; margin:0;
- box-sizing: border-box; background: gold;
+body {
+  padding:0; margin:0;
+  box-sizing: border-box; background: gold;
+}
+.demo_container { padding:20px; width:900px; margin:0 auto;
+  justify-content: center; align-items: center;
+}
+.row {
+  display: flex; flex-wrap:wrap;
  }
- .demo_container{ padding:20px; width:900px; margin:0 auto;
- justify-content: center; align-items: center;
- }
- .row{
- display: flex; flex-wrap:wrap ;
- }
- .box-1{
- transform-origin: 0 0; padding: 20px;
- width: 300px; height:300px;
- background-color: green; filter: opacity(10%); color: white;
- font-family: sans-serif;
- }
- .box-2{
- transform-origin: 0 0; padding: 20px;
- width: 300px; height:300px;
- background-color: green; filter: opacity(40%); color: white;
- font-family: sans-serif;
- }
- .box-3{
- transform-origin: 0 0; padding: 20px;
- width: 300px; height:300px;
- background-color: green; filter: opacity(70%); color: white;
- font-family: sans-serif;
- }
- .box-4{
- transform-origin: 0 0; padding: 20px;
- width: 300px;
- height:300px;
- background-color: green; filter: opacity(90%); color: white;
- font-family: sans-serif;
- }
+.box-1 {
+  transform-origin: 0 0; padding: 20px;
+  width: 300px; height:300px;
+  background-color: green; filter: opacity(10%); color: white;
+  font-family: sans-serif;
+}
+ .box-2 {
+  transform-origin: 0 0; padding: 20px;
+  width: 300px; height:300px;
+  background-color: green; filter: opacity(40%); color: white;
+  font-family: sans-serif;
+}
+.box-3 {
+  transform-origin: 0 0; padding: 20px;
+  width: 300px; height:300px;
+  background-color: green; filter: opacity(70%); color: white;
+  font-family: sans-serif;
+}
+ .box-4 {
+  transform-origin: 0 0; padding: 20px;
+  width: 300px;
+  height:300px;
+  background-color: green; filter: opacity(90%); color: white;
+  font-family: sans-serif;
+}
 &lt;/style&gt;
 &lt;/head&gt;
 &lt;body&gt;
@@ -9434,20 +9418,21 @@ value or a number.
 </p>
 <!-- ![](./images/image088.png){width="3.7734372265966756in" height="2.9947911198600177in"}  -->
 
-CSS function-opacity().
+<p>CSS <b>function-opacity()</b>.</p>
 
 <h3>perspective()</h3>
 
-The perspective() function defines the distance between the z=0 plane and the user in order to give the 3D-positioned element some perspective. 
+<p>The perspective() function defines the distance between the z=0 plane and the user in order to 
+give the 3D-positioned element some perspective.</p>
 
-The perspective() function works like this:
+<p>The perspective() function works like this:</p>
 
-perspective(l)
+<p>perspective(l)</p>
 
-The l parameter specifies the distance from the ones to the z=0 plane.
+<p>The l parameter specifies the distance from the ones to the z=0 plane.
 The argument is also specified as a length value (e.g., 1px, 1vw,
 etc). The greater the length, the less pronounced the "3D effect" will
-be.
+be.</p>
 
 <h4>Example:</h4>
 
@@ -9457,34 +9442,34 @@ be.
 &lt;head&gt;
 &lt;style&gt;
 &#42; { padding:0; margin:0;
-box-sizing: border-box;
+  box-sizing: border-box;
 }
-.demo_container{ padding:20px; width:800px; margin:0 auto;
-justify-content: center; align-items: center;
+.demo_container { padding:20px; width:800px; margin:0 auto;
+  justify-content: center; align-items: center;
 }
-img{
-width:100%; height:250px;
+img {
+  width:100%; height:250px;
 }
-.row{
-display: flex;
+.row {
+  display: flex;
 }
-.col{
-width:80%
+.col {
+  width:80%
 }
 .image-1 {
-transform: perspective(400px) rotateY(70deg); width:100px;
-height:100px
+  transform: perspective(400px) rotateY(70deg); width:100px;
+  height:100px
 }
 .image-2 {
-transform: perspective(200px) rotateY(60deg); width:100px;
-height:100px
+  transform: perspective(200px) rotateY(60deg); width:100px;
+  height:100px
 }
 .image-3 {
-transform: perspective(130px) rotateY(-60deg); width:100px;
-height:100px
+  transform: perspective(130px) rotateY(-60deg); width:100px;
+  height:100px
 }
-p{
-line-height: 2; font-size:20px
+p {
+  line-height: 2; font-size:20px
 }
 &lt;/style&gt;
 &lt;/head&gt;
@@ -9527,15 +9512,14 @@ Image &lt;/p&gt;
 </p>
 <!-- ![](./images/image089.png){width="4.426874453193351in" height="2.896874453193351in"}  -->
 
-CSS function ( perspective() ).
+<p>CSS function <b>( perspective() )</b>.</p>
 
 <h3>radial-gradient()</h3>
 
-The radial-gradient() function allows to create a radial gradient
-using CSS.
+<p>The <b>radial-gradient()</b> function allows to create a radial gradient using CSS.</p>
 
-CSS gradients allow to apply multiple background colors to an element
-that blend from one color to the next.
+<p>CSS gradients allow to apply multiple background colors to an element that blend from one 
+color to the next.</p>
 
 <h4>Example:</h4>
 
@@ -9614,47 +9598,42 @@ bottom right, yellow, red) &lt;/p&gt;
 </p>
 <!-- ![](./images/image090.png){width="4.429687226596675in" height="4.1315616797900265in"}  -->
 
-CSS Function (radial-gradient() () )
+<p>CSS Function <b>(radial-gradient() () )</b></p>
 
 <h3>repeating-linear-gradient()</h3>
 
-The CSS repeating-linear-gradient() allows to create a linear gradient
-that repeats over and over again infinitely in both directions. The
-gradients allow to apply multiple background colors to an element that
-blend from
+<p>The CSS repeating-linear-gradient() allows to create a linear gradient that repeats over 
+and over again infinitely in both directions. The gradients allow to apply multiple 
+background colors to an element that blend from.</p>
 
-one color to the next. These gradients are linear gradients where the
-color stops are repeated infinitely in both directions. It is
-repeating linear gra- dients work the same way that (are
-non-repeating) linear gradients work.
+<p>one color to the next. These gradients are linear gradients where the color stops are 
+repeated infinitely in both directions. It is repeating linear gra- dients work the same 
+way that (are non-repeating) linear gradients work.</p>
 
-Syntax: The repeating-linear-gradient() function accepts the following
-values:
+<p>Syntax: The <b>repeating-linear-gradient()</b> function accepts the following values:</p>
 
--   angle: It specifies an angle for the direction of the gradient. For
-    example, 45deg.
+<ul>
+  <li><b>angle</b>: It specifies an angle for the direction of the gradient. For example, 45deg.</li>
+</ul>
 
-The following keywords specify to point the gradient-line given below:
+<p>The following keywords specify to point the gradient-line given below:</p>
 
--   to top
+<ul>
+  <li>to top</li>
+  <li>to right</li>
+  <li>to bottom</li>
+  <li>to left</li>
+</ul>
 
--   to right
+<p>The following keywords specify to point the gradient-line given below:</p>
 
--   to bottom
-
--   to left
-
-The following keywords specify to point the gradient-line given below:
-
--   to top left
-
--   to top right
-
--   to bottom right
-
--   to bottom left
-
--   color-stop
+<ul>
+  <li>to top left</li>
+  <li>to top right</li>
+  <li>to bottom right</li>
+  <li>to bottom left</li>
+  <li>color-stop</li>
+</ul>
 
 <h4>Example:</h4>
 
@@ -9664,42 +9643,42 @@ The following keywords specify to point the gradient-line given below:
 &lt;head&gt;
 &lt;style&gt;
 &#42; { padding:0; margin:0;
-box-sizing: border-box;
+  box-sizing: border-box;
 }
-.demo_container{ padding:20px; width:900px; margin:0 auto;
-justify-content: center; align-items: center;
+.demo_container { padding:20px; width:900px; margin:0 auto;
+  justify-content: center; align-items: center;
 }
-.row{
-display: flex;
-flex-direction:row;
+.row {
+  display: flex;
+  flex-direction:row;
 }
-.col{
-height:100px; width:100%
+.col {
+  height:100px; width:100%
 }
 .image-1 {
-background: repeating-linear-gradient(gold 15%,
-orange 30%);
-color: white; padding: 30px; height: 300px;
+  background: repeating-linear-gradient(gold 15%,
+  orange 30%);
+  color: white; padding: 30px; height: 300px;
 }
 .image-2 {
-background: repeating-linear-gradient(to top right, gold 16%, orange
-30%);
-color: white; padding: 30px; height: 300px;
+  background: repeating-linear-gradient(to top right, gold 16%, orange
+  30%);
+  color: white; padding: 30px; height: 300px;
 }
-.image-3{
-background: repeating-linear-gradient(to top right, orange, gold 16%,
-orange 30%);
-color: white; padding: 30px; height: 300px;
+.image-3 {
+  background: repeating-linear-gradient(to top right, orange, gold 16%,
+  orange 30%);
+  color: white; padding: 30px; height: 300px;
 }
-.image-4{
-background: repeating-linear-gradient(155deg, gold, gold 50px, orange
-60px, orange 120px);
-color: white;
-padding: 30px; height: 300px;
+.image-4 {
+  background: repeating-linear-gradient(155deg, gold, gold 50px, orange
+  60px, orange 120px);
+  color: white;
+  padding: 30px; height: 300px;
 }
-p{
-line-height: 2; font-size:20px;
-margin-bottom:30px
+p {
+  line-height: 2; font-size:20px;
+  margin-bottom:30px
 }
 &lt;/style&gt;
 &lt;/head&gt;
@@ -9743,19 +9722,19 @@ orange, gold 15%, orange 30%)
 </p>
 <!-- ![](./images/image091.png){width="4.429687226596675in" height="4.474687226596675in"}  -->
 
-CSS function (repeating-linear -gradient() () ).
+<p>CSS function <b>(repeating-linear -gradient() () )</b>.</p>
 
-<h3>repeating-radial-gradient()</h3>
+<p><b>repeating-radial-gradient()</b></p>
 
-The CSS repeating-radial-gradient() allows to create a radial gradient that 
+<p>The CSS repeating-radial-gradient() allows to create a radial gradient that 
 repeats over and over again. CSS gradients allow you to apply mul- tiple bg colors to 
 an element that blend from single color to the next. Repeating radial gradients are 
 gradients where the color stops are repeated infinitely. Radial gradients have a 
 circular or elliptical shape. When creating a radial gradient, indicate the center 
 of the gradient as well as the size and shape.
 
-**Syntax:** This function uses the same syntax as the
-radial-gradient() function, which is as follows:
+<p><b>Syntax</b>: This function uses the same syntax as the <b>radial-gradient()</b> 
+function, which is as follows:</p>
 
 <pre>
 &lt;radial-gradient&gt; = radial-gradient(
@@ -9766,38 +9745,29 @@ radial-gradient() function, which is as follows:
 )
 </pre>
 
-The repeating-radial-gradient() function accepts the following values:
-
--   shape: It specifies the shape of the gradient. It can be either
-    circle or ellipse.
-
--   size: It specifies the size of the ending shape. The values are
-    given below:
-
-    -   closest side
-
-    -   farthest side
-
-    -   closest corner
-
-    -   farthest corner
-
-    -   length (for circles)
-
-    -   &#91;length &#124; percentage&#93; (for ellipses)
-
--   position: it specifies where the gradient should be located. The
-    values are given below:
-
-    -   top
-
-    -   right
-
-    -   bottom
-
-    -   left
-
-    -   center
+<p>The <b>repeating-radial-gradient()</b> function accepts the following values:</p>
+<ul>
+  <li><b>shape</b>: It specifies the shape of the gradient. It can be either circle or ellipse.</li>
+  <li><b>size</b>: It specifies the size of the ending shape. The values are given below:
+    <ul>
+	  <li>closest side</li>
+	  <li>farthest side</li>
+	  <li>closest corner</li>
+	  <li>farthest corner</li>
+	  <li>length (for circles)</li>
+	  <li>&#91;length &#124; percentage&#93; (for ellipses)</li>
+    </ul>
+  </li>
+  <li>position: it specifies where the gradient should be located. The values are given below:
+    <ul>
+      <li>top</li>
+      <li>right</li>
+      <li>bottom</li>
+      <li>left</li>
+      <li>center</li>
+    </ul>
+  </li>
+</ul>
 
 <h4>Example:</h4>
 
@@ -9807,53 +9777,53 @@ The repeating-radial-gradient() function accepts the following values:
 &lt;head&gt;
 &lt;style&gt;
 &#42; { padding:0; margin:0;
-box-sizing: border-box;
+  box-sizing: border-box;
 }
-.demo_container{ padding:20px; width:900px; margin:0 auto;
-justify-content: center; align-items: center;
+.demo_container { padding:20px; width:900px; margin:0 auto;
+  justify-content: center; align-items: center;
 }
-.row{
-display: flex; flex-wrap: wrap;
-flex-direction: row;
+.row {
+  display: flex; flex-wrap: wrap;
+  flex-direction: row;
 }
 .col{ width:50%
 }
-p{
-height:50px
+p {
+  height:50px
 }
 .image-1 {
-background: repeating-radial-gradient(ellipse, green 20%, lime 40%) ;
-color: white; padding: 30px; height: 300px;
+  background: repeating-radial-gradient(ellipse, green 20%, lime 40%) ;
+  color: white; padding: 30px; height: 300px;
 }
 .image-2 {
-background: repeating-radial-gradient(circle, green 20%, lime 40%);
-color: white;
-padding: 30px; height: 300px;
+  background: repeating-radial-gradient(circle, green 20%, lime 40%);
+  color: white;
+  padding: 30px; height: 300px;
 }
-.image-3{
-background:repeating-radial-gradient(circle at top left, green 30%,
-lime 40%);
-color: white; padding: 30px; height: 300px;
+.image-3 {
+  background:repeating-radial-gradient(circle at top left, green 30%,
+  lime 40%);
+  color: white; padding: 30px; height: 300px;
 }
-.image-4{
-background: repeating-radial-gradient(circle at top left, lightgreen
-10%, green 45%, lime 60%);
-color: white; padding: 30px; height: 300px;
+.image-4 {
+  background: repeating-radial-gradient(circle at top left, lightgreen
+  10%, green 45%, lime 60%);
+  color: white; padding: 30px; height: 300px;
 }
-.image-5{
-background: repeating-radial-gradient(circle at top left, lime, green
-30%, lime 40%);
-color: white; padding: 30px; height: 300px;
+.image-5 {
+  background: repeating-radial-gradient(circle at top left, lime, green
+  30%, lime 40%);
+  color: white; padding: 30px; height: 300px;
 }
-.image-6{
-background: repeating-radial-gradient(closest- side at 25px 35px,
-orange 25%, gold 40%);
-background-size:50px 50px; height: 200px;
-color: white; padding: 30px; height: 300px;
+.image-6 {
+  background: repeating-radial-gradient(closest- side at 25px 35px,
+  orange 25%, gold 40%);
+  background-size:50px 50px; height: 200px;
+  color: white; padding: 30px; height: 300px;
 }
-p{
-line-height: 2; font-size:20px;
-margin-bottom:30px
+p {
+  line-height: 2; font-size:20px;
+  margin-bottom:30px
 }
 &lt;/style&gt;
 &lt;/head&gt;
@@ -9901,23 +9871,22 @@ at 25px 35px, orange 15%, gold 40%)&lt;/p&gt;
 </p>
 <!-- ![](./images/image092.png){width="4.265624453193351in" height="5.893332239720035in"}  -->
 
-CSS function (repeating-radial -gradient() ).
+<p>CSS function <b>(repeating-radial -gradient() )</b>.</p>
 
 <h3>rgb()</h3>
 
-The rgb() function can be used to provide a value when using CSS. It
+<p>The <b>rgb()</b> function can be used to provide a value when using CSS. It
 allows to specify an RGB color value by specifying the red, green, and
-blue channels directly.
+blue channels directly.</p>
 
-RGB (stands for Red, Green, Blue) is a color model in which red,
-green, and blue light can be added together to reproduce a color.
+</p><b>RGB (stands for Red, Green, Blue)</b> is a color model in which red,
+green, and blue light can be added together to reproduce a color.</p>
 
-The RGB() accepts the RGB value as a parameter. The RGB function is
+<p>The <b>RGB()</b> accepts the RGB value as a parameter. The RGB function is
 provided as comma-separated three values. It provides red, green, and
-blue hues, respectively.
+blue hues, respectively.</p>
 
-Each of the three values can be provided as an integer or as a
-percentage.
+<p>Each of the three values can be provided as an integer or as a percentage.</p>
 
 <h4>Example:</h4>
 
@@ -9925,7 +9894,7 @@ percentage.
 RGB(255,0,0) RGB(100%,0%,0%)
 </pre>
 
-We can use the property on any element.
+<p>We can use the property on any element.</p>
 
 <h4>Example:</h4>
 
@@ -9935,55 +9904,55 @@ We can use the property on any element.
 &lt;head&gt;
 &lt;style&gt;
 &#42; { padding:0; margin:0;
-box-sizing: border-box;
+  box-sizing: border-box;
 }
-.demo_container{ padding:20px; width:900px; margin:0 auto;
-justify-content: center; align-items: center;
+.demo_container { padding:20px; width:900px; margin:0 auto;
+  justify-content: center; align-items: center;
 }
-.row{
-display: flex; flex-wrap: wrap;
-flex-direction: row;
+.row {
+  display: flex; flex-wrap: wrap;
+  flex-direction: row;
 }
 .col{ width:50%
 }
-p{
-height:50px
+p {
+  height:50px
 }
 .image-1 {
-background: RGB(255,69,0); color: white;
-padding: 30px; height: 100px;
+  background: RGB(255,69,0); color: white;
+  padding: 30px; height: 100px;
 }
 .image-2 {
-background: RGB(0,255,0); color: white;
-padding: 30px; height: 100px;
+  background: RGB(0,255,0); color: white;
+  padding: 30px; height: 100px;
 }
-.image-3{
-background: RGB(0,0,128); color: white;
-padding: 30px; height: 100px;
+.image-3 {
+  background: RGB(0,0,128); color: white;
+  padding: 30px; height: 100px;
 }
-.image-4{
-background: RGB(128,128,0); color: white;
-padding: 30px; height: 100px;
+.image-4 {
+  background: RGB(128,128,0); color: white;
+  padding: 30px; height: 100px;
 }
-.image-5{
-background: RGB(255,0,0); color: white;
-padding: 30px; height: 100px;
+.image-5 {
+  background: RGB(255,0,0); color: white;
+  padding: 30px; height: 100px;
 }
-.image-6{
-background: RGB(128,0,128); height: 100px;
-color: white; padding: 30px;
+.image-6 {
+  background: RGB(128,0,128); height: 100px;
+  color: white; padding: 30px;
 }
-.image-7{
-background: RGB(255,0,70); height: 100px;
-color: white; padding: 30px;
+.image-7 {
+  background: RGB(255,0,70); height: 100px;
+  color: white; padding: 30px;
 }
-.image-8{
-background: RGB(230,255,0); height: 100px;
-color: white; padding: 30px;
+.image-8 {
+  background: RGB(230,255,0); height: 100px;
+  color: white; padding: 30px;
 }
-p{
-line-height: 2; font-size:24px;
-margin-bottom:10px
+p {
+  line-height: 2; font-size:24px;
+  margin-bottom:10px
 }
 &lt;/style&gt;
 &lt;/head&gt;
@@ -10029,22 +9998,21 @@ using CSS&lt;/h2&gt;
 </p>
 <!-- ![](./images/image093.png){width="4.429692694663167in" height="3.3975in"}  -->
 
-CSS function (RGB () ).
+<p>CSS function <b>(RGB () )</b>.</p>
 
 <h3>rotate()</h3>
 
-The CSS rotate() is used to rotate elements in two-dimensional space.
+<p>The CSS <b>rotate()</b> is used to rotate elements in two-dimensional space.
 The rotate() rotates an element based on the angle that you provide as
-an argument. You can also provide the angle using any valid CSS angle
-value.
+an argument. You can also provide the angle using any valid CSS angle value.</p>
 
-There are various properties used in rotate such as:
+<p>There are various properties used in rotate such as:</p>
 
-1.  Degrees
-
-2.  Gradians
-
-3.  Turns
+<ol>
+  <li>Degrees</li>
+  <li>Gradians</li>
+  <li>Turns</li>
+</ol>
 
 <h4>Example:</h4>
 
@@ -10054,48 +10022,48 @@ There are various properties used in rotate such as:
 &lt;head&gt;
 &lt;style&gt;
 &#42; { padding:0; margin:0;
-box-sizing: border-box;
+  box-sizing: border-box;
 }
 .demo_container{ padding:20px; width:900px; margin:0 auto;
-justify-content: center; align-items: center;
+  justify-content: center; align-items: center;
 }
-.row{
-display: flex; flex-wrap: wrap;
-flex-direction: row;
+.row {
+  display: flex; flex-wrap: wrap;
+  flex-direction: row;
 }
 .col{ width:50%
 }
-p{
-height:50px
+p {
+  height:50px
 }
 .image-1 {
-background: RGB(255,69,0); color: white;
-padding: 30px; height: 50px; width:100px
+  background: RGB(255,69,0); color: white;
+  padding: 30px; height: 50px; width:100px
 }
 .image-2 {
-background: RGB(0,255,0); transform: rotate(15deg); color: white;
-padding: 30px; height: 50px; width:100px
+  background: RGB(0,255,0); transform: rotate(15deg); color: white;
+  padding: 30px; height: 50px; width:100px
 }
-.image-3{
-transform: rotate(20grad); background: rgb(230,255,0); color: white;
-padding: 30px; height: 50px; width:100px
+.image-3 {
+  transform: rotate(20grad); background: rgb(230,255,0); color: white;
+  padding: 30px; height: 50px; width:100px
 }
-.image-4{
-background: RGB(128,128,0); transform: rotate(.4turn); color: white;
-padding: 30px; height: 50px; width:100px
+.image-4 {
+  background: RGB(128,128,0); transform: rotate(.4turn); color: white;
+  padding: 30px; height: 50px; width:100px
 }
-.image-5{
-background: #ff0000; transform: rotate(-15deg); color: white;
-padding: 30px; height: 50px; width: 100px
+.image-5 {
+  background: #ff0000; transform: rotate(-15deg); color: white;
+  padding: 30px; height: 50px; width: 100px
 }
-.image-6{
-background: RGB(128,0,128); transform-origin: 90% 90%; transform:
-rotate(15deg);
-height: 50px; width:100px; color: white; padding: 30px;
+.image-6 {
+  background: RGB(128,0,128); transform-origin: 90% 90%; transform:
+  rotate(15deg);
+  height: 50px; width:100px; color: white; padding: 30px;
 }
-p{
-line-height: 2; font-size:24px;
-margin-bottom:10px
+p {
+  line-height: 2; font-size:24px;
+  margin-bottom:10px
 }
 &lt;/style&gt;
 &lt;/head&gt;
@@ -10137,51 +10105,38 @@ two-dimensional space.&lt;/h2&gt;
 </p>
 <!-- ![](./images/image094.png){width="4.429687226596675in" height="2.2725in"}  -->
 
-CSS function (rotate() ).
+<p>CSS function <b>(rotate() )</b>.</p>
 
 <h3>rotate3d()</h3>
 
-The rotate3d() function is used to rotate elements in three-dimensional space. 
+<p>The <b>rotate3d()</b> function is used to rotate elements in three-dimensional space. 
 The rotate3d() function rotates the element along the x, y, and z axes using the angle 
-provided as an argument.
+provided as an argument.</p>
 
-The syntax of the rotate3d() function is as follows:
+<p>The syntax of the rotate3d() function is as follows:</p>
 
 <pre>
 rotate3d() = rotate3d( &lt;number&gt;, &lt;number&gt;, &lt;number&gt;,
 &lt;angle&gt; ).
 </pre>
 
-The first three parameters describe the &#91;x, y, z&#93; direction vectors.
-The fourth parameter specifies the angle to be used. It works like
-this:
+<p>The first three parameters describe the &#91;x, y, z&#93; direction vectors.
+The fourth parameter specifies the angle to be used. It works like this:</p>
 
-<pre>
-rotate3d(x, y, z, a)
-</pre>
+<pre>rotate3d(x, y, z, a)</pre>
 
--   x: It describes the x-coordinate of the vector denoting the axis of
-    rotation.
-
--   y: It describes the y-coordinate of the vector denoting the axis of
-    rotation.
-
--   z: It describes the z-coordinate of the vector denoting the axis of
-    rotation.
-
--   a: It represents the angle of the rotation. A positive results in a
-    clock- wise rotation, and a negative results in a counter-clockwise
-    rotation.
-
--   deg: It represents as degrees. There are 360 degrees of angle in a
-    full circle.
-
--   grad: It is gradians, also known as "gons" or "grades." There are
-    400 gradians in a whole circle.
-
--   rad: It is radians. There are 2Ï€ radians in a circle.
-
--   turn: It is turns. There is one turn in a circle.
+<ul>
+  <li>x: It describes the x-coordinate of the vector denoting the axis of rotation.</li>
+  <li>y: It describes the y-coordinate of the vector denoting the axis of rotation.</li>
+  <li>z: It describes the z-coordinate of the vector denoting the axis of rotation.</li>
+  <li>a: It represents the angle of the rotation. A positive results in a clockwise rotation, 
+    and a negative results in a counter-clockwise rotation.</li>
+  <li>deg: It represents as degrees. There are 360 degrees of angle in a full circle.</li>
+  <li>grad: It is gradians, also known as "gons" or "grades." There are 400 gradians in a 
+    whole circle.</li>
+  <li>rad: It is radians. There are 2Ï€ radians in a circle.</li>
+  <li>turn: It is turns. There is one turn in a circle.</li>
+</ul>
 
 <h4>Example:</h4>
 
@@ -10190,41 +10145,41 @@ rotate3d(x, y, z, a)
 &lt;head&gt;
 &lt;style&gt;
 &#42; { padding:0; margin:0;
-box-sizing: border-box;
+  box-sizing: border-box;
 }
-.demo_container{ padding:20px; width:900px; margin:0 auto;
-justify-content: center; align-items: center;
+.demo_container { padding:20px; width:900px; margin:0 auto;
+  justify-content: center; align-items: center;
 }
-.row{
-display: flex; flex-wrap: wrap;
-flex-direction: row;
-.col{ width:50%
+.row {
+  display: flex; flex-wrap: wrap;
+  flex-direction: row;
+  .col{ width:50%
 }
-p{
-height:50px
+p {
+  height:50px
 }
 .image-1 {
-background: RGB(255,69,0); color: white;
-padding: 30px;
-height: 50px; width:100px
+  background: RGB(255,69,0); color: white;
+  padding: 30px;
+  height: 50px; width:100px
 }
 .image-2 {
-background: RGB(0,255,0); transform: rotate3d(1, 0, 0, 60deg);
-color: white; padding: 30px; height: 50px; width:100px
+  background: RGB(0,255,0); transform: rotate3d(1, 0, 0, 60deg);
+  color: white; padding: 30px; height: 50px; width:100px
 }
-.image-4{
-background: RGB(128,128,0); transform: rotate3d(1, 5, 1, 60deg);
-color: white;
-padding: 30px; height: 50px; width:100px
+.image-4 {
+  background: RGB(128,128,0); transform: rotate3d(1, 5, 1, 60deg);
+  color: white;
+  padding: 30px; height: 50px; width:100px
 }
-.image-5{
-background: RGB(255,0,0);
-transform: rotate3d(1, -5, 1, -60deg); color: white;
-padding: 30px; height: 50px; width:100px
+.image-5 {
+  background: RGB(255,0,0);
+  transform: rotate3d(1, -5, 1, -60deg); color: white;
+  padding: 30px; height: 50px; width:100px
 }
-p{
-line-height: 2; font-size:24px;
-margin-bottom:10px
+p {
+  line-height: 2; font-size:24px;
+  margin-bottom:10px
 }
 &lt;/style&gt;
 &lt;/head&gt;
@@ -10262,114 +10217,114 @@ three-dimensional space.&lt;/h2&gt;
 </p>
 <!-- ![](./images/image095.png){width="4.42969050743657in" height="1.845in"}  -->
 
-CSS function (rotate3d () ).
+<p>CSS function <b>(rotate3d () )</b>.</p>
 
 <h3>rotateX()</h3>
 
-The CSS rotateX() is used to rotate elements around the x-axis in three- 
+<p>The CSS rotateX() is used to rotate elements around the x-axis in three- 
 dimensional space. The rotateX() is used in 3D-transforms. It's used with the 
 transform property to rotate an element around the x-axis. It can be used in 
 other rotation functions such as rotateY(), rotateZ() to rotate the element 
-around the y and z axes if required. 
+around the y and z axes if required.</p>
 
-The syntax of the rotateX() function is as follows:
+<p>The syntax of the rotateX() function is as follows:</p>
 
-<pre>
-rotateX() = rotateX( &lt;angle&gt; )
-</pre>
+<pre>rotateX() = rotateX( &lt;angle&gt; )</pre>
 
-The angle can be represented with the following unit identifiers:
+<p>The <b>angle</b> can be represented with the following unit identifiers:</p>
 
--   deg
--   grad
--   rad
--   turn
+<ul>
+  <li>deg</li>
+  <li>grad</li>
+  <li>rad</li>
+  <li>turn</li>
+</ul>
 
 <h3>rotateY()</h3>
 
-The CSS rotateY() is used to rotate elements around the x-axis in three-
- dimensional space. The rotateY() function is used in 3D-transforms. It is used 
-with the transform property to rotate an element around the x-axis. 
+<p>The CSS rotateY() is used to rotate elements around the x-axis in three-dimensional space. The 
+rotateY() function is used in 3D-transforms. It is used with the transform property to rotate an 
+element around the x-axis.</p>
 
-The syntax of the rotateY() function is as follows:
+<p>The syntax of the rotateY() function is as follows:</p>
 
-<pre>
-rotateY() = rotateY( &lt;angle&gt; )
-</pre>
+<pre>rotateY() = rotateY( &lt;angle&gt; )</pre>
 
-The angle can be represented with any of the following identifiers:
+<p>The <b>angle</b> can be represented with any of the following identifiers:</p>
 
--   deg
--   grad
--   rad
--   turn
+<ul>
+  <li>deg</li>
+  <li>grad</li>
+  <li>rad</li>
+  <li>turn</li>
+</ul>
 
 <h3>rotateZ()</h3>
 
-The CSS rotateZX() function is used to rotate elements around the x-axis in three-dimensional 
-space. The rotateZ() is used in 3D-transforms. It's used with the transform property to rotate an element around the y-axis. 
+<p>The CSS rotateZX() function is used to rotate elements around the x-axis in three-dimensional 
+space. The rotateZ() is used in 3D-transforms. It's used with the transform property to rotate an 
+element around the y-axis.</p>
 
-The syntax of the rotateZ() function is as follows:
+<p>The syntax of the rotateZ() function is as follows:</p>
 
-<pre>
-rotateZ() = rotateZ( &lt;angle&gt; )
-</pre>
+<pre>rotateZ() = rotateZ( &lt;angle&gt; )</pre>
 
-The angle can be represented with any of the following identifiers:
+<p>The angle can be represented with any of the following identifiers:</p>
+<ul>
+  <li>deg</li>
+  <li>grad</li>
+  <li>rad</li>
+  <li>turn</li>
+</ul>
 
--   deg
--   grad
--   rad
--   turn
-
-Example of rotateX(), rotateY(), rotateZ():
+<p>Example of rotateX(), rotateY(), rotateZ():</p>
 
 <pre>
 &lt;html&gt;
 &lt;head&gt;
 &lt;style&gt;
 &#42; { padding:0; margin:0;
-box-sizing: border-box;
+  box-sizing: border-box;
 }
 .demo_container{ padding:20px; width:900px; margin:0 auto;
 justify-content: center; align-items: center;
 }
-.row{
-display: flex; flex-wrap: wrap;
-flex-direction: row;
+.row {
+  display: flex; flex-wrap: wrap;
+  flex-direction: row;
 }
 .col{ width:50%
 }
-p{
-height:50px
+p {
+  height:50px
 }
 .image-1 {
-background: RGB(255,69,0); transform: rotateX(10deg); color: white;
-padding: 10px; height: 50px; width:100px
+  background: RGB(255,69,0); transform: rotateX(10deg); color: white;
+  padding: 10px; height: 50px; width:100px
 }
 .image-2 {
-background: RGB(0,255,0); transform: rotateX(-60deg);
-color: white; height: 50px; width:100px; padding: 10px;
+  background: RGB(0,255,0); transform: rotateX(-60deg);
+  color: white; height: 50px; width:100px; padding: 10px;
 }
 .image-3 {
-background: RGB(255,69,0); transform: rotateY(10deg); color: white;
-padding: 10px; height: 50px; width:100px
+  background: RGB(255,69,0); transform: rotateY(10deg); color: white;
+  padding: 10px; height: 50px; width:100px
 }
 .image-4 {
-background: RGB(0,255,0); transform: rotateY(-60deg); color: white;
-height: 50px; width:100px; padding: 10px;
+  background: RGB(0,255,0); transform: rotateY(-60deg); color: white;
+  height: 50px; width:100px; padding: 10px;
 }
 .image-5 {
-background: RGB(255,69,0); transform: rotateZ(10deg); color: white;
-padding: 10px; height: 50px; width:100px
+  background: RGB(255,69,0); transform: rotateZ(10deg); color: white;
+  padding: 10px; height: 50px; width:100px
 }
 .image-6 {
-background: RGB(0,255,0); transform: rotateZ(-60deg); color: white;
-height: 50px; width:100px; padding: 10px;
+  background: RGB(0,255,0); transform: rotateZ(-60deg); color: white;
+  height: 50px; width:100px; padding: 10px;
 }
-p{
-line-height: 2; font-size:24px;
-margin-bottom:10px
+p {
+  line-height: 2; font-size:24px;
+  margin-bottom:10px
 }
 &lt;/style&gt;
 &lt;/head&gt;
@@ -10425,18 +10380,16 @@ z-axis in a three-dimensional space.&lt;/h2&gt;
 </p>
 <!-- ![](./images/image096.png){width="4.101561679790026in" height="4.789061679790026in"}  -->
 
-CSS function (rotateX(), rotateY (), rotateZ() ).
+<p>CSS function <b>rotateX(), rotateY (), rotateZ()</b>.</p>
 
 <h3>saturate()</h3>
 
-The saturate() function is used to adjust the saturation of an image. This 
-function is used with the filter to adjust the saturation levels in an image. 
+<p>The <b>saturate()</b> function is used to adjust the saturation of an image. This 
+function is used with the filter to adjust the saturation levels in an image.</p>
 
-The syntax of the saturate() function is as follows:
+<p>The syntax of the saturate() function is as follows:</p>
 
-<pre>
-saturate() = saturate( &#91; &lt;number&gt; &#124; &lt;percentage&gt; &#93; )
-</pre>
+<pre>saturate() = saturate( &#91; &lt;number&gt; &#124; &lt;percentage&gt; &#93; )</pre>
 
 <h4>Example:</h4>
 
@@ -10446,27 +10399,27 @@ saturate() = saturate( &#91; &lt;number&gt; &#124; &lt;percentage&gt; &#93; )
 &lt;head&gt;
 &lt;style&gt;
 &#42; { padding:0; margin:0;
-box-sizing: border-box;
+  box-sizing: border-box;
 }
 .demo_container{ padding:20px; width:800px; margin:0 auto;
-justify-content: center; align-items: center;
+  justify-content: center; align-items: center;
 }
-img{
-width:100%; height:250px;
+img {
+  width:100%; height:250px;
 }
-.row{
-display: flex;
+.row {
+  display: flex;
 }
 .col{ width:100%
 }
 .image-1 {
-filter: saturate(700%);
+  filter: saturate(700%);
 }
 .image-2 {
-filter: saturate(2.5);
+  filter: saturate(2.5);
 }
-p{
-padding-top: 20px; font-size:20px
+p {
+  padding-top: 20px; font-size:20px
 }
 &lt;/style&gt;
 &lt;/head&gt;
@@ -10502,25 +10455,24 @@ padding-top: 20px; font-size:20px
 </p>
 <!-- ![](./images/image097.png){width="4.429687226596675in" height="3.5775in"}  -->
 
-CSS function ( saturate() ).
+<p>CSS function <b>saturate()</b>.</p>
 
 <h3>scale()</h3>
 
-The CSS scale() is used to scale elements in two-dimensional space.
-The scale() scales an element based on the number that provides as an
-argu- ment. You can scale in the direction of the x-axis, the y-axis,
-or both. The scale() function works like this:
+<p>The CSS <b>scale()</b> is used to scale elements in two-dimensional space. The scale() scales 
+an element based on the number that provides as an argu- ment. You can scale in the direction of 
+the x-axis, the y-axis, or both. The scale() function works like this:</p>
 
--   scale(sx) or
--   scale(sx, sy)
--   scale(sx) or
--   scale(sx, sy)
+<ul>
+  <li>scale(sx) or</li>
+  <li>scale(sx, sy)</li>
+  <li>scale(sx) or</li>
+  <li>scale(sx, sy)</li>
+</ul>
 
-The syntax of the scale() function is as follows:
+<p>The syntax of the scale() function is as follows:</p>
 
-<pre>
-scale() = scale( &lt;number&gt; &#91;, &lt;number&gt; &#93;? )
-</pre>
+<pre>scale() = scale( &lt;number&gt; &#91;, &lt;number&gt; &#93;? )</pre>
 
 <h4>Example:</h4>
 
@@ -10530,26 +10482,26 @@ scale() = scale( &lt;number&gt; &#91;, &lt;number&gt; &#93;? )
 &lt;head&gt;
 &lt;style&gt;
 &#42; { padding:0; margin:0;
-box-sizing: border-box;
+  box-sizing: border-box;
 }
-.demo_container{ padding:20px; width:800px; margin:0 auto;
-justify-content: center; align-items: center;
+.demo_container { padding:20px; width:800px; margin:0 auto;
+  justify-content: center; align-items: center;
 }
-img{
-width:100%; height:250px;
+img {
+  width:100%; height:250px;
 }
-.row{
-display: flex;
+.row {
+  display: flex;
 }
-.col{
-width:100%
+.col {
+  width:100%
 }
 .image-1 {
-transform-origin: top left; transform: scale(2); width:100%;
-height:250px;
+  transform-origin: top left; transform: scale(2); width:100%;
+  height:250px;
 }
-p{
-padding-top: 20px; font-size:20px
+p {
+  padding-top: 20px; font-size:20px
 }
 &lt;/style&gt;
 &lt;/head&gt;
@@ -10581,23 +10533,20 @@ two-dimensional space. &lt;/h2&gt;
 </p>
 <!-- ![](./images/image098.png){width="3.609381014873141in" height="4.154791119860017in"}  -->
 
-CSS function ( scale() ).
+<p>CSS function <b>scale()</b>.</p>
 
 <h3>scale3d()</h3>
 
-The scale3d() is used to scale elements in three-dimensional space.
-The scale3d() scales an element based on the numbers that provide an
-argu- ment. It specifies a 3D scale operation using the &#91;sx,sy,sz&#93;
-scaling vector described by three parameters. The scale3d() function
-is a three-dimen- sional primitive, with the following derived
-functions:
+<p>The <b>scale3d()</b> is used to scale elements in three-dimensional space. The scale3d() scales 
+an element based on the numbers that provide an argu- ment. It specifies a 3D scale operation using 
+the &#91;sx,sy,sz&#93; scaling vector described by three parameters. The scale3d() function is a 
+three-dimensional primitive, with the following derived functions:</p>
 
-scalex(), scaleY(), scaleZ(), and scale().
-The syntax of the scale3d() function is as follows:
+<p><b>scalex(), scaleY(), scaleZ()</b>, and <b>scale()</b>.</p>
 
-<pre>
-scale3d() = scale3d( &lt;number&gt;, &lt;number&gt;, &lt;number&gt; )
-</pre>
+<p>The syntax of the scale3d() function is as follows:</p>
+
+<pre>scale3d() = scale3d( &lt;number&gt;, &lt;number&gt;, &lt;number&gt; )</pre>
 
 <h4>Example:</h4>
 
@@ -10609,25 +10558,25 @@ scale3d() = scale3d( &lt;number&gt;, &lt;number&gt;, &lt;number&gt; )
 &#42; { padding:0; margin:0;
 box-sizing: border-box;
 }
-.demo_container{ padding:20px; margin:0 auto;
-justify-content: center; align-items: center;
+.demo_container { padding:20px; margin:0 auto;
+  justify-content: center; align-items: center;
 }
-.row{
-display: flex;
+.row {
+  display: flex;
 }
-.col{
-width:100%
+.col {
+  width:100%
 }
 .image-1 {
-transform-origin: top left; transform: scale3d(3, 3, 1);
-width:50%; height:100px;
+  transform-origin: top left; transform: scale3d(3, 3, 1);
+  width:50%; height:100px;
 }
 .image-2 {
-transform: scale3d(3, 3, 1); width:10%;
-height:100px;
+  transform: scale3d(3, 3, 1); width:10%;
+  height:100px;
 }
-p{
-padding-top: 20px; font-size:20px
+p {
+  padding-top: 20px; font-size:20px
 }
 &lt;/style&gt;
 &lt;/head&gt;
@@ -10659,18 +10608,16 @@ three-dimensional space. &lt;/h2&gt;
 </p>
 <!-- ![](./images/image099.png){width="4.429687226596675in" height="1.0434372265966754in"}  -->
 
-CSS function ( scale3d() ).
+<p>CSS function <b>scale3d()</b>.</p>
 
 <h3>scaleX()</h3>
 
-The CSS scaleX() is used to scale elements in two-dimensional space along the x-axis. 
-The scaleX() scales an element based on the number/s that pro- vide an argument.
+<p>The CSS scaleX() is used to scale elements in two-dimensional space along the x-axis. 
+The scaleX() scales an element based on the number/s that pro- vide an argument.</p>
 
-The syntax of the scaleX() function is as follows:
+<p>The syntax of the scaleX() function is as follows:</p>
 
-<pre>
-scaleX() = scaleX( &lt;number&gt; )
-</pre>
+<pre>scaleX() = scaleX( &lt;number&gt; )</pre>
 
 <h4>Example:</h4>
 
@@ -10680,29 +10627,29 @@ scaleX() = scaleX( &lt;number&gt; )
 &lt;head&gt;
 &lt;style&gt;
 &#42; { padding:0; margin:0;
-box-sizing: border-box;
+  box-sizing: border-box;
 }
 .demo_container{ width:800px; padding:20px; margin:0 auto;
-justify-content: center; align-items: center;
+  justify-content: center; align-items: center;
 }
-.row{
-display: flex; flex-wrap: wrap;
-flex-direction: column;
+.row {
+  display: flex; flex-wrap: wrap;
+  flex-direction: column;
 }
-.col{ width:50%
+.col { width:50%
 }
 .image-1 { width:200px; height:200px;
 }
 .image-2 {
-transform-origin: top left; transform: scaleX(4); width:200px;
-height:200px;
+  transform-origin: top left; transform: scaleX(4); width:200px;
+  height:200px;
 }
-.image-3{
-transform: scaleX(1); width:200px;
-height:200px;
+.image-3 {
+  transform: scaleX(1); width:200px;
+  height:200px;
 }
 p{
-padding-top: 20px; font-size:20px
+  padding-top: 20px; font-size:20px
 }
 &lt;/style&gt;
 &lt;/head&gt;
@@ -10739,12 +10686,13 @@ alt=&#34;Sample image&#34;&gt;
 </p>
 <!-- ![](./images/image100.png){width="4.41in" height="4.364998906386702in"}  -->
 
-CSS function (scaleX()).
+<p>CSS function (scaleX()).</p>
 
 <h3>scaleY()</h3>
 
-The CSS scaleY() is used to scale elements in two-dimensional space along the x-axis. The scaleY() scales an element based on the number/s that provide an argument. The syntax of the scaleY() function is as
-follows:
+<p>The CSS <b>scaleY()</b> is used to scale elements in two-dimensional space along the 
+x-axis. The scaleY() scales an element based on the number/s that provide an argument. 
+The syntax of the scaleY() function is as follows:</p>
 
 <pre>scaleY () = scaleY ( &lt;number&gt; )</pre>
 
@@ -10761,24 +10709,24 @@ box-sizing: border-box;
 .demo_container{ width:800px; padding:20px; margin:0 auto;
 justify-content: center; align-items: center;
 }
-.row{
-display: flex; flex-wrap: wrap;
-flex-direction: row;
+.row {
+  display: flex; flex-wrap: wrap;
+  flex-direction: row;
 }
 .col{ width:50%
 }
 .image-1 { width:200px; height:200px;
 }
 .image-2 {
-transform-origin: top right; transform: ScaleY(2);
-width:200px; height:200px;
+  transform-origin: top right; transform: ScaleY(2);
+  width:200px; height:200px;
 }
-.image-3{
-transform: ScaleY(3); width:200px; float:right;
-height:200px;
+.image-3 {
+  transform: ScaleY(3); width:200px; float:right;
+  height:200px;
 }
-p{
-padding-top: 20px; font-size:20px
+p {
+  padding-top: 20px; font-size:20px
 }
 &lt;/style&gt;
 &lt;/head&gt;
@@ -10803,7 +10751,6 @@ alt=&#34;Sample image&#34;&gt;
 </pre>
 
 <h5>The output of the code is given below:</h5>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 101. The scaleY() Function ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -10814,15 +10761,15 @@ alt=&#34;Sample image&#34;&gt;
 </p>
 <!-- ![](./images/image101.png){width="4.429687226596675in" height="5.146874453193351in"}  -->
 
-CSS function (scaleY()).
+<p>CSS function (scaleY()).</p>
 
 <h3>scaleZ()</h3>
 
-The CSS scaleZ () is used to scale elements in two-dimensional space along the x-axis. The scaleZ() scales an element based on the number/s that pro- vide an argument. The syntax of the scaleZ () function is as follows: 
+<p>The CSS <b>scaleZ()</b> is used to scale elements in two-dimensional space along the 
+x-axis. The scaleZ() scales an element based on the number/s that pro- vide an argument. 
+The syntax of the scaleZ () function is as follows:</p>
 
-<pre>
-scaleZ () = scaleZ ( &lt;number&gt; )
-</pre>
+<pre>scaleZ () = scaleZ ( &lt;number&gt; )</pre>
 
 <h4>Example:</h4>
 
@@ -10832,31 +10779,31 @@ scaleZ () = scaleZ ( &lt;number&gt; )
 &lt;head&gt;
 &lt;style&gt;
 &#42; { padding:0; margin:0;
-box-sizing: border-box;
+  box-sizing: border-box;
 }
-.demo_container{ width:800px; padding:20px; margin:0 auto;
-justify-content: center; align-items: center;
+.demo_container { width:800px; padding:20px; margin:0 auto;
+  justify-content: center; align-items: center;
 }
-.row{
-display: flex; flex-wrap: wrap;
-flex-direction: row;
+.row {
+  display: flex; flex-wrap: wrap;
+  flex-direction: row;
 }
 .col{ width:50%
 }
 .image-1 { width:200px; height:200px;
 }
 .image-2 {
-transform-origin: top right;
-transform: perspective(250px) scaleZ(2) rotateX(45deg);
-width:200px; height:200px;
+  transform-origin: top right;
+  transform: perspective(250px) scaleZ(2) rotateX(45deg);
+  width:200px; height:200px;
 }
-.image-3{
-transform: perspective(250px) scaleZ(2) rotateX(45deg);
-width:200px; float:right;
-height:200px;
+.image-3 {
+  transform: perspective(250px) scaleZ(2) rotateX(45deg);
+  width:200px; float:right;
+  height:200px;
 }
-p{
-padding-top: 20px; font-size:20px
+p {
+  padding-top: 20px; font-size:20px
 }
 &lt;/style&gt;
 &lt;/head&gt;
@@ -10896,24 +10843,23 @@ alt=&#34;Sample image&#34;&gt;
 </p>
 <!-- ![](./images/image102.png){width="4.429687226596675in" height="2.939061679790026in"}  -->
 
-CSS function (scaleZ()).
+<p>CSS function (scaleZ()).</p>
 
 <h3>skew()</h3>
 
-The CSS skew() function is used to skew elements in two-dimensional
-space. The skew() element performs a shear transformation (also known
-as a shear mapping or a transvection), which displaces each point of
-an element by a given angle in each direction.
+<p>The CSS skew() function is used to skew elements in two-dimensional space. The skew() 
+element performs a shear transformation (also known as a shear mapping or a transvection), 
+which displaces each point of an element by a given angle in each direction.</p>
 
-Skewing an element is kind of like taking the points of an element,
-and pushing or pulling them in different directions, based on a given
-angle.
+<p>Skewing an element is kind of like taking the points of an element, and pushing or pulling them 
+in different directions, based on a given angle.</p>
 
-The skew() function works like this:
+<p>The <b>skew()</b> function works like this:</p>
 
--   skew(ax) or
-
--   skew(ax, ay)
+<ul>
+  <li>skew(ax) or</li>
+  <li>skew(ax, ay)</li>
+</ul>
 
 <h4>Example:</h4>
 
@@ -10925,43 +10871,43 @@ The skew() function works like this:
 &#42; { padding:0; margin:0;
 box-sizing: border-box;
 }
-.demo_container{ width:800px; padding:20px; margin:0 auto;
-justify-content: center; align-items: center;
+.demo_container { width:800px; padding:20px; margin:0 auto;
+  justify-content: center; align-items: center;
 }
-.row{
-display: flex; flex-wrap: wrap;
-flex-direction: row;
+.row {
+  display: flex; flex-wrap: wrap;
+  flex-direction: row;
 }
 .col{ width:50%
 }
 .image-1 { width:200px; height:200px;
 }
 .image-2 {
-transform-origin: top left; transform: skew(10deg, 0); width:200px;
-height:200px;
+  transform-origin: top left; transform: skew(10deg, 0); width:200px;
+  height:200px;
 }
-.image-3{
-transform-origin: top left; transform: skew(0, 10deg);
-width:200px; height:200px;
+.image-3 {
+  transform-origin: top left; transform: skew(0, 10deg);
+  width:200px; height:200px;
 }
-.image-3{
-transform-origin: top left; transform: skew(0, 10deg);
-width:200px; height:200px;
+.image-3 {
+  transform-origin: top left; transform: skew(0, 10deg);
+  width:200px; height:200px;
 }
-.image-4{
-transform-origin: top left; transform: skew(10deg, 10deg);
-width:200px; height:200px;
+.image-4 {
+  transform-origin: top left; transform: skew(10deg, 10deg);
+  width:200px; height:200px;
 }
-.image-5{
-transform-origin: bottom left; transform: skew(-10deg, -10deg);
-width:200px; height:200px;
+.image-5 {
+  transform-origin: bottom left; transform: skew(-10deg, -10deg);
+  width:200px; height:200px;
 }
-.image-6{
-transform: skew(-10deg, -10deg); width:200px;
-height:200px;
+.image-6 {
+  transform: skew(-10deg, -10deg); width:200px;
+  height:200px;
 }
-p{
-padding-top: 20px; font-size:20px
+p {
+  padding-top: 20px; font-size:20px
 }
 &lt;/style&gt;
 &lt;/head&gt;
@@ -11003,20 +10949,20 @@ two-dimensional space. &lt;/h2&gt;
 </p>
 <!-- ![](./images/image103.png){width="4.101567147856518in" height="3.875in"}  -->
 
-CSS function (skew()).
+<p>CSS function <b>skew()<b>.</p>
 
 <h3>skewX()</h3>
 
-The skewX() element performs a shear transformation (also known as a shear mapping or a transvection), which displaces each point of an ele- ment by a given angle along the x-axis. 
+<p>The <b>skewX()</b> element performs a shear transformation (also known as a shear mapping 
+or a transvection), which displaces each point of an ele- ment by a given angle along the 
+x-axis.</p>
 
-The skewX() function works like this:
+<p>The <b>skewX()</b> function works like this:</p>
 
-<pre>
-skewX(a)
-</pre>
+<pre>skewX(a)</pre>
 
-The skewX() function accepts one argument which specifies the angle of
-the skew for the x-axis. It can be any valid angle value.
+<p>The <b>skewX()</b> function accepts one argument which specifies the angle of the skew for the 
+x-axis. It can be any valid angle value.</p>
 
 <h4>Example:</h4>
 
@@ -11026,29 +10972,29 @@ the skew for the x-axis. It can be any valid angle value.
 &lt;head&gt;
 &lt;style&gt;
 &#42; { padding:0; margin:0;
-box-sizing: border-box;
+  box-sizing: border-box;
 }
 .demo_container{ width:800px; padding:20px; margin:0 auto;
-justify-content: center; align-items: center;
+  justify-content: center; align-items: center;
 }
-.row{
-display: flex; flex-wrap: wrap;
-flex-direction: row;
+.row {
+  display: flex; flex-wrap: wrap;
+  flex-direction: row;
 }
-.col{ width:50%
+.col { width:50%
 }
 .image-1 { width:200px; height:200px;
 }
 .image-2 {
-transform-origin: top left; transform: skewX(10deg); width:200px;
-height:200px;
+  transform-origin: top left; transform: skewX(10deg); width:200px;
+  height:200px;
 }
 .image-3 {
-transform-origin: top left; transform: skewX(-10deg); width:200px;
-height:200px;
+  transform-origin: top left; transform: skewX(-10deg); width:200px;
+  height:200px;
 }
-p{
-padding-top: 20px; font-size:20px
+p {
+  padding-top: 20px; font-size:20px
 }
 &lt;/style&gt;
 &lt;/head&gt;
@@ -11072,7 +11018,6 @@ two-dimensional space along the x-axis. &lt;/h2&gt;
 &lt;/body&gt;
 &lt;/html&gt;
 </pre>
-
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 104. the skewX() Function ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -11084,12 +11029,11 @@ two-dimensional space along the x-axis. &lt;/h2&gt;
 </p>
 <!-- ![](./images/image104.png){width="4.421245625546806in" height="3.1640616797900263in"}  -->
 
-CSS function (skewX()).
+<p>CSS function (skewX()).</p>
 
 <h2>CHAPTER SUMMARY</h2>
 
-In this chapter, we saw various built-in methods like attr(), RGB(), rgba(), and so on. These functions have their own unique functionality and prop- erties. So next chapter is about CSS plugins. 
-
+<p>In this chapter, we saw various built-in methods like attr(), RGB(), rgba(), and so on. These functions have their own unique functionality and prop- erties. So next chapter is about CSS plugins.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 06. Taylor & Francis logo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -11099,7 +11043,6 @@ In this chapter, we saw various built-in methods like attr(), RGB(), rgba(), and
   style="width:3.6in" />
 </p>
 <!-- ![](./images/image6.png){width="3.6393208661417322in" height="0.9622911198600175in"}  -->
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h1>CHAPTER 5</h1>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -11107,77 +11050,74 @@ In this chapter, we saw various built-in methods like attr(), RGB(), rgba(), and
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>[IN THIS CHAPTER]</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<ul>
+  <li>Introduction</li>
+  <li>Various CSS Plugins Based on PostCSS</li>
+  <li>Autoprefixer</li>
+  <li>CSSnext</li>
+  <li>CSS MarqueeMenu Plugin</li>
+</ul>
 
--   Introduction
--   Various CSS Plugins Based on PostCSS
--   Autoprefixer
--   CSSnext
--   CSS MarqueeMenu Plugin
+<p>In the last chapter, we studied about CSS functions. In this chapter, we will discuss some 
+plugins that are based on CSS and also work with JavaScript or any other programming language. 
+So PostCSS plays a major role in it. All other plugins are defined in PostCSS. PostCSS is a
+versatile tool that allows to transform CSS styles using JavaScript plugins. Its flexibility 
+lies in the way it is built. The core of PostCSS is a Node.js module that you can install 
+using npm, it has over 200 plugins that you can choose to use in your project. PostCSS is a 
+framework for developing various CSS tools. It can be used to develop template languages like 
+Sass and LESS. PostCSS consists of a CSS parser that generates an abstract syntax tree.</p>
 
-In the last chapter, we studied about CSS functions. In this chapter,
-we will discuss some plugins that are based on CSS and also work with
-JavaScript or any other programming language. So PostCSS plays a major
-role in it. All other plugins are defined in PostCSS. PostCSS is a
-versatile tool that allows to transform CSS styles using JavaScript
-plugins. Its flexibility lies in the way it is built. The core of
-PostCSS is a Node.js module that you can install using npm, it has
-over 200 plugins that you can choose to use in your project. PostCSS
-is a framework for developing various CSS tools. It can be used to
-develop template languages like Sass and LESS. PostCSS consists of a
-CSS parser that generates an abstract syntax tree.
+<p>We also have pre- and post-processing scripts that run before an item is saved. The difference 
+between the two is that the pre-processing scripts run before the value checking and validation 
+rules are completed, and the postprocessing scripts run after these processes.</p>
 
-We also have pre- and post-processing scripts that run before an item
-is saved. The difference between the two is that the pre-processing
-scripts run before the value checking and validation rules are
-completed, and the postprocessing scripts run after these processes.
+<p>PostCSS is neither preprocessor nor postprocessor, as various PostCSS plugins can fall into 
+one or both of these categories; it's entirely up to you what you make of it. With PostCSS, you 
+don't have to learn another syntax like Sass or LESS; you can start using it immediately.</p>
 
-PostCSS is neither preprocessor nor
-postprocessor, as various PostCSS plugins can fall into one or both of
-these categories; it's entirely up to you what you make of it. With
-PostCSS, you don't have to learn another syntax like Sass or LESS; you
-can start using it immediately.
+<p>PostCSS will take your existing CSS file and convert it to JavaScript readable data, then 
+the JavaScript plugins will make the modifications and PostCSS will return the modified 
+version of the original file.</p>
 
-PostCSS will take your existing CSS file and convert it to JavaScript
-readable data, then the JavaScript plugins will make the modifications
-and PostCSS will return the modified version of the original file.
+<h2>VARIOUS CSS PLUGINS PostCSS BASED</h2>
 
-<h2>VARIOUS CSS PLUGINS PostCSS BASED
-
-There are various plugins available in the market as given below:
-
-1.  Autoprefixer
-2.  CSSnext
-3.  CSSNano
-4.  PreCSS
-5.  StyleLint
-6.  PostCSS Assets
-7.  Font Magician
-8.  Lost Grid
-9.  PostCSS
-10. PostCSS-modules
+<p>There are various plugins available in the market as given below:</p>
+<ol type="1" start="1">
+  <li>Autoprefixer</li>
+  <li>CSSnext</li>
+  <li>CSSNano</li>
+  <li>PreCSS</li>
+  <li>StyleLint</li>
+  <li>PostCSS Assets</li>
+  <li>Font Magician</li>
+  <li>Lost Grid</li>
+  <li>PostCSS</li>
+  <li>PostCSS-modules</li>
+</ol>
 
 <h2>AUTOPREFIXER</h2>
 
-Autoprefixer uses the data based on the latest browser popularity that supports to apply prefixes for you. You can try the interactive demo of Autoprefixer. 
+<p><b>Autoprefixer</b> uses the data based on the latest browser popularity that supports to apply 
+prefixes for you. You can try the interactive demo of Autoprefixer.</p>
 
-You can write any CSS rules without vendor prefixes as given below:
+<p>You can write any CSS rules without vendor prefixes as given below:</p>
 
 <pre>
 .container {
-box-shadow: 0 0 10px #cecece; transition: all .5s;
+  box-shadow: 0 0 10px #cecece; transition: all .5s;
 }
-p{
-color: red;
+p {
+  color: red;
 }
 .section a{ display: flex;
 }
 </pre>
 
 Write Pure CSS
-Working with Autoprefixer is simple, you need to forget about vendor
-pre- fixes and write normal CSS according to the latest W3C specs. You
-do not need a special language (like Sass, Less) or remember where you
-must use mixins.
+
+<p>Working with Autoprefixer is simple, you need to forget about vendor prefixes and write normal CSS 
+according to the latest W3C specs. You do not need a special language (like Sass, Less) or remember 
+where you must use mixins.</p>
 
 Autoprefixer supports selectors (such as :fullscreen & ::selection),
 unit function (calc()), at-rules (@support & &#64;keyframes) and with
@@ -11198,68 +11138,66 @@ a {
 }
 </pre>
 
-The output with Autoprefixer will be like this (you can check the
-Autoprefixers code online using, <https://tools.webdevpuneet.com/>
-[css-autoprefixer/](https://tools.webdevpuneet.com/)):
-/&#42;
+<p>The output with Autoprefixer will be like this (you can check the Autoprefixers code online using, 
+<a href="https://tools.webdevpuneet.com/">css-autoprefixer/</a>:/&#42;</p>
 
-&#42; Prefixed by:
+<p>&#42; Prefixed by:</p>
 
--   PostCSS: v7.0.29,
--   Autoprefixer: v9.7.6
--   Browsers: last 4 version
+<ul>
+  <li>PostCSS: v7.0.29,</li>
+  <li>Autoprefixer: v9.7.6</li>
+  <li>Browsers: last 4 version</li>
+</ul>
 
 <pre>
 &#42;/
 .container {
--webkit-box-shadow: 0 0 10px #cecece;
-box-shadow: 0 0 10px #cecece;
--webkit-transition: all .5s;
--o-transition: all .5s; transition: all .5s;
+  -webkit-box-shadow: 0 0 10px #cecece;
+  box-shadow: 0 0 10px #cecece;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s; transition: all .5s;
 }
-p{
-color: red;
+p {
+  color: red;
 }
-.section a{
-display: -webkit-box; display: -ms-flexbox; display: flex;
+.section a {
+  display: -webkit-box; display: -ms-flexbox; display: flex;
 }
 </pre>
 
-The thing is that some CSS properties will display differently in dif-
-ferent browsers, and you want every site visitor to have a predictable
-and accurate experience. For older, more established properties, such
-as a bor- der or border, there is nothing to worry about; they have
-been standard- ized and work across browsers. But newer features like
-grid or flexbox are not so simple.
+<p>The thing is that some CSS properties will display differently in different browsers, and 
+you want every site visitor to have a predictable and accurate experience. For older, more 
+established properties, such as a border or border, there is nothing to worry about; they 
+have been standard- ized and work across browsers. But newer features like grid or flexbox 
+are not so simple.</p>
 
-The vendors that make your browsers, like Google and Mozilla, don't
-want to wait for cool new things to be standardized before implement-
-ing them. Instead, they create their own version and add a prefix that
-differentiates it from other browsers' implementations. The new prop-
-erty will be standardized and work the same across all browsers,
-elimi- nating the need for prefixes. Until then, you must use vendor
-prefixes in your code.
+<p>The vendors that make your browsers, like Google and Mozilla, don't want to wait for cool 
+new things to be standardized before implementing them. Instead, they create their own version 
+and add a prefix that differentiates it from other browsers' implementations. The new property 
+will be standardized and work the same across all browsers, elimi- nating the need for prefixes. 
+Until then, you must use vendor prefixes in your code.</p>
 
-"Autoprefixer" is a plugin that can save us from the monotony of
+<p>"Autoprefixer" is a plugin that can save us from the monotony of</p>
 
--webkit- and -moz-. It does exactly sounds like: it automatically adds
+<p>-webkit- and -moz-. It does exactly sounds like: it automatically adds
 pre- fixes to your CSS. All you have to do is supply it using a CSS
-sheet that will read it and add vendor prefixes if necessary.
+sheet that will read it and add vendor prefixes if necessary.</p>
 
-Installing
-Autoprefixer in Your Project Folder
+<p>Installing Autoprefixer in Your Project Folder</p>
 
-Open a terminal in VS code and use npm to install it, well as postcss
+<p>Open a terminal in VS code and use npm to install it, well as postcss
 and its companion postcss-cli, the command-line tool you'll use to run
 Autoprefixer. The process is the same as installing Sass, only you
 install three packages at once. You can install so many at once you'd
-like, each separated by a space as
+like, each separated by a space as;</p>
 
 <pre>
 &#36; npm install autoprefixer postcss postcss-cli -g
 </pre>
 
-Once npm has downloaded and installed the packages, need to go back into package.json and add a script for npm to run, just like when you installed Sass. Add a new script named "prefix" after the "sass"s script: 
+<p>Once npm has downloaded and installed the packages, need to go back into package.json 
+and add a script for npm to run, just like when you installed Sass. Add a new script 
+named "prefix" after the "sass"s script:</p>
 
 <pre>
 {
@@ -11274,8 +11212,8 @@ css -w &#45;-style compressed&#34;, &#34;prefix&#34;:
 }
 </pre>
 
-And inside the script need to tell npm to use the new postcss package 
-you just installed and also where to find your compiled CSS file:
+<p>And inside the script need to tell npm to use the new postcss package 
+you just installed and also where to find your compiled CSS file:</p>
 
 <pre>
 {
@@ -11291,9 +11229,9 @@ css -w &#45;-style compressed&#34;,
 }
 </pre>
 
-After that you need to instruct npm which package to use and where to 
+<p>After that you need to instruct npm which package to use and where to 
 find the CSS file, to use Autoprefixer by implementing -- use flag
-followed by Autoprefixer as given below:
+followed by Autoprefixer as given below:</p>
 
 <pre>
 {
@@ -11328,11 +11266,11 @@ css -w &#45;-style compressed&#34;,
 
 <h5>Now your prefixing script is complete</h5>
 
-Add a new key named browserslist as given below:
+<p>Add a new key named browserslist as given below:</p>
 
 <pre>
 {
-&#34;browserslist&#34;:
+  &#34;browserslist&#34;:
 }
 </pre>
 
@@ -11356,12 +11294,9 @@ compressed&#34;,
 </pre>
 
 
-<h5>Now you are ready to autoprefix CSS! Let's move into the terminal and 
-run the prefix script:</h5>
+<h5>Now you are ready to autoprefix CSS! Let's move into the terminal and run the prefix script:</h5>
 
-<pre>
-&#36; npm run prefix
-</pre>
+<pre>&#36; npm run prefix</pre>
 
 <h5>Take a look at the new, prefixed, CSS in your CSS file, a new block will be added:</h5>
 
@@ -11389,45 +11324,40 @@ in which to use for prefixing if you'd like,
 but I'd argue that Autoprefixer is easier, does a better job, and you
 don't need both.
 
-What is the
-Difference Between Autoprefixer and -Prefix-Free?
+<p>What is the Difference Between Autoprefixer and -Prefix-Free?</p>
 
--Prefix-free is a client-side JavaScript library. It is included on
-your page as an additional request. It runs, finds all the CSS it can
-find, figures out what prefixes may be needed, and injects that new
-CSS onto the page after the CSS it finds.
+<p><b>-Prefix-free</b> is a client-side JavaScript library. It is included on your page as 
+an additional request. It runs, finds all the CSS it can find, figures out what prefixes may 
+be needed, and injects that new CSS onto the page after the CSS it finds.</p>
 
--   Downsides: extra request, flash-of-un-prefixed-styles, not cached, a
-    few styles it can't do (e.g., filter).
+<ul>
+  <li><b>Downsides</b>: extra request, flash-of-un-prefixed-styles, not cached, a few styles 
+    it can't do (e.g., filter).</li>
+  <li><b>Upsides</b>: smaller CSS, only injects prefixes current browser needs.</li>
+</ul>
 
--   Upsides: smaller CSS, only injects prefixes current browser needs.
+<p>Autoprefixer processes your CSS server-side. At least, that's how we're doing it because 
+that seems to be the canonical source for the project.</p>
 
-Autoprefixer processes your CSS server-side. At least, that's how
-we're doing it because that seems to be the canonical source for the
-project.
-
--   Downsides: larger CSS (but not as big as "just prefixing
-    everything").
-
--   Upsides: prefixes perfectly to what you support, final CSS is cache-
-    able, handles tricky fallbacks (e.g., flexbox).
+<ul>
+  <li><b>Downsides</b>: larger CSS (but not as big as "just prefixing everything").</li>
+  <li><b>Upsides</b>: prefixes perfectly to what you support, final CSS is cacheable, handles 
+    tricky fallbacks (e.g., flexbox).</li>
+</ul>
 
 <h3>CSSnext</h3>
 
-PostCSS is a new tool that makes easy to develop JavaScript plugins
-that transform styles. This opens up a new world of possibilities for
-new plugins that make working with CSS easier and easier. The post
-introduces two popular PostCSS plugins: cssnext and cssnano.
+<p>PostCSS is a new tool that makes easy to develop JavaScript plugins that transform styles. This 
+opens up a new world of possibilities for new plugins that make working with CSS easier and easier. 
+The post introduces two popular PostCSS plugins: cssnext and cssnano.</p>
 
-cssnext lets you use the future of CSS today. You can use features
-that are not supported in all browsers, such as CSS variables and CSS
-color functions. cssnext transforms your styles to work in all
-browsers. In other words, cssnext allows to write styles with real CSS
-syntax instead of another preprocessor syntax. cssnext will
-automatically add vendor pre- fixes to your styles, so you dont have
-to use the prefixes yourself when writing CSS.
+<p>cssnext lets you use the future of CSS today. You can use features that are not supported in all 
+browsers, such as CSS variables and CSS color functions. cssnext transforms your styles to work in 
+all browsers. In other words, cssnext allows to write styles with real CSS syntax instead of another 
+preprocessor syntax. cssnext will automatically add vendor pre- fixes to your styles, so you dont 
+have to use the prefixes yourself when writing CSS.</p>
 
-To give you an example, let's say you have the following CSS styles:
+<p>To give you an example, let's say you have the following CSS styles:</p>
 
 <pre>
 :root {
@@ -11460,9 +11390,9 @@ auto;
 }
 </pre>
 
-This plugin is the Babel of CSS, it allows you to use modern CSS
+<p>This plugin is the Babel of CSS, it allows you to use modern CSS
 features and at the same time takes care of translating them into CSS that is
-more digestible for older browsers:
+more digestible for older browsers:</p>
 
 -   adds prefixes using Autoprefixer (so if you use this you don't need
     to use Autoprefixer directly).
@@ -11473,15 +11403,14 @@ more digestible for older browsers:
 
 <h3>CSSnano</h3>
 
-cssnano minifies and compresses your CSS. It removes whitespace,
-elimi- nates duplicate rules, outdated vendor prefixes, comments, and
-performs a lot of other optimizations. Both cssnext and cssnano can be
-configured to work according to specific needs.
+<p>cssnano minifies and compresses your CSS. It removes whitespace, eliminates duplicate rules, 
+outdated vendor prefixes, comments, and performs a lot of other optimizations. Both cssnext and 
+cssnano can be configured to work according to specific needs.</p>
 
-Installing
-PostCSS, the PostCSS-CLI, cssnext, and cssnano
+<p>Installing<br>
+PostCSS, the PostCSS-CLI, cssnext, and cssnano</p>
 
-Using npm:
+<p>Using npm:</p>
 
 <pre>
 &#36; npm install &#45;-save-dev postcss postcss-cli postcss- cssnext
@@ -11497,25 +11426,25 @@ cssnano
 
 <h5>Using the PostCSS-CLI</h5>
 
-You use the PostCSS command line (cmd) interface by giving the input,
-output files, and PostCSS plugin(s) to use. It specifies the plugins
-with the -- use flag, the output file with the -- output flag, and the
-input file is pro- vided last without any flags using the below
-command:
+<p>You use the PostCSS command line (cmd) interface by giving the input, output files, and PostCSS 
+plugin(s) to use. It specifies the plugins with the -- use flag, the output file with the -- output 
+flag, and the input file is pro- vided last without any flags using the below command:</p>
 
 <pre>
 &#36; postcss &#45;-use postcss-cssnext &#45;-use cssnano &#45;-output
 styles-out.css styles.css
 </pre>
 
-<h5>You can use the PostCSS CLI in watch mode, to listen for changes to the input file using the below command:</h5>
+<h5>You can use the PostCSS CLI in watch mode, to listen for changes to the input file using 
+the below command:</h5>
 
 <pre>
 &#36; postcss &#45;-use postcss-cssnext &#45;-use cssnano &#45;-output
 styles-out.css styles.css &#45;-watch
 </pre>
 
-<h5>You can specify more fine-grained configuration options in a json con- figuration file to specify the config file with the -- config flag:</h5>
+<h5>You can specify more fine-grained configuration options in a json con- figuration file to 
+specify the config file with the -- config flag:</h5>
 
 <pre>
 &#36; postcss &#45;-config postcss-config.json
