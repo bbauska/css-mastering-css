@@ -98,38 +98,32 @@ with over a decade of experience in the computing field.</p>
 <h4>2385 NW Executive Center Drive, Suite 320, Boca Raton, FL 33431</h4>
 <h5>and by CRC Press</h5>
 
-2 Park Square, Milton Park, Abingdon, Oxon, OX14 4RN
+<h5>2 Park Square, Milton Park, Abingdon, Oxon, OX14 4RN</h5>
 
-*CRC Press is an imprint of Taylor & Francis Group, LLC*
+<h5><i>CRC Press is an imprint of Taylor & Francis Group, LLC</i></h5>
 
-© 2024 Sufyan bin Uzayr
+<h5>© 2024 Sufyan bin Uzayr</h5>
 
-<p>Reasonable efforts have been made to publish reliable data and
-information, but the author and publisher cannot assume responsibility
-for the validity of all materials or the consequences of their use.
-The authors and publishers have attempted to trace the copyright
-holders of all material reproduced in this publication and apologize
-to copyright holders if permission to publish in this form has not
-been obtained. If any copyright material has not been acknowledged
-please write and let us know so we may rectify in any future reprint.</p>
+<p>Reasonable efforts have been made to publish reliable data and information, but the author and 
+publisher cannot assume responsibility for the validity of all materials or the consequences of 
+their use. The authors and publishers have attempted to trace the copyright holders of all material 
+reproduced in this publication and apologize to copyright holders if permission to publish in this 
+form has not been obtained. If any copyright material has not been acknowledged please write and 
+let us know so we may rectify in any future reprint.</p>
 
-<p>Except as permitted under U.S. Copyright Law, no part of this book may
-be reprinted, reproduced, transmitted, or utilized in any form by any
-electronic, mechanical, or other means, now known or hereafter
-invented, including photocopying, microfilming, and recording, or in
-any information storage or retrieval system, without written
-permission from the publishers.</p>
+<p>Except as permitted under U.S. Copyright Law, no part of this book may be reprinted, reproduced, 
+transmitted, or utilized in any form by any electronic, mechanical, or other means, now known or 
+hereafter invented, including photocopying, microfilming, and recording, or in any information 
+storage or retrieval system, without written permission from the publishers.</p>
 
-<p>For permission to photocopy or use material electronically from this
-work, access <a href="www.copyright.com">https://www.copyright.com/</a> or
-contact the Copyright Clearance Center, Inc. (CCC), 222 Rosewood
-Drive, Danvers, MA 01923, 978-750-8400. For works that are not
-available on CCC please contact
+<p>For permission to photocopy or use material electronically from this work, access 
+<a href="www.copyright.com">https://www.copyright.com/</a> or contact the Copyright 
+Clearance Center, Inc. (CCC), 222 Rosewood Drive, Danvers, MA 01923, 978-750-8400. 
+For works that are not available on CCC please contact
 <a href="mpkbookspermissions@tandf.co.uk">mailto:mpkbookspermissions@tandf.co.uk</a>.</p>
 
-<p>Title: Mastering CSS : a beginner's guide / edited by Sufyan bin
-Uzayr. Description: First edition. &#124; Boca Raton : CRC Press, 2024. &#124;
-Series:</p>
+<p>Title: Mastering CSS : a beginner's guide / edited by Sufyan bin Uzayr. Description: First 
+edition. &#124; Boca Raton : CRC Press, 2024. &#124; Series:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 06. Taylor & Francis logo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -139,424 +133,228 @@ Series:</p>
   style="width:3.6in" />
 </p>
 <!-- ![](./images/image006.png){width="3.6393208661417322in" height="0.9622911198600175in"}  -->
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>Contents</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
 [CHAPTER 1 CSS: Introduction](#CHAPTER_1:_CSS:_Introduction)
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 [DIFFERENT TYPES OF CSS YOU CAN USE 14](#different-types-of-css-you-can-use)
-
 [CSS CLASSES 19](#css-classes)
-
 [CSS IDs 20](#css-ids)
-
 [WHAT IS THE DIFFERENCE BETWEEN ID AND CLASS? 20](#what-is-the-difference-between-id-and-class)
-
 [CSS DIVISION 21](#css-division)
-
 [HOW TO USE CSS PROPERTIES 21](#_bookmark82)
-
 [CSS COLORS 22](#css-colors)
-
 [Names 22](#names)
-
 [List of Color Values 23](#list-of-color-values)
-
 [RGB COLOR 24](#rgb-color)
-
 [How to Use RGB Colors in HTML 25](#how-to-use-rgb-colors-in-html)
-
 [Extended Color Keywords 27](#extended-color-keywords)
-
 [DIFFERENT TYPES OF SELECTORS 30](#different-types-of-selectors)
-
 [Selector Name 30](#selector-name)
-
 [CSS BACKGROUND 31](#_bookmark98)
-
 [MULTIPLE BACKGROUNDS 32](#multiple-backgrounds)
-
 [CSS BORDER 33](#css-border)
-
 [Border 33](#border)
-
 [CSS BORDER WIDTH AND COLOR 34](#css-border-width-and-color)
-
 [CSS MARGINS 34](#css-margins)
-
 [CSS PADDING 35](#css-padding)
-
 [CSS BOX MODEL 35](#_bookmark109)
-
 [CSS TABLES 36](#css-tables)
-
 [CSS FONTS 36](#css-fonts)
-
 [CSS TEXT 37](#css-text)
-
 [CSS FUNCTIONS 37](#css-functions)
-
 [WHY FLEXBOX? 40](#why-flexbox)
-
 [CSS FLEXBOX 40](#css-flexbox)
-
 [CSS MEDIA TYPES 41](#css-media-types)
-
 [INTRODUCTION TO MEDIA TYPES 41](#introduction-to-media-types)
-
 [METHOD 1: USING &#64;MEDIA AT-RULES 41](#method-1-using-media-at-rules)
-
 [METHOD 2: USING &#64;IMPORT AT-RULES 42](#method-2-using-import-at-rules)
-
 [METHOD 3: USING THE &lt;link\ELEMENT 42](#method-3-using-the-link-element)
-
 [DIFFERENT MEDIA TYPES 42](#different-media-types)
-
 [MEDIA QUESTIONS AND RESPONSIVE WEB DESIGN 43](#media-questions-and-responsive-web-design)
-
 [MEDIA QUERIES 43](#media-queries)
-
 [BENEFITS YOU MAY KNOW 44](#benefits-you-may-know)
-
 [CSS CONS 45](#css-cons)
-
 [CHAPTER SUMMARY 46](#chapter-summary)
-
-[CHAPTER 2 ■ CSS Properties 47](#CHAPTER_2:_CSS_Properties)
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+[CHAPTER 2 CSS Properties 47](#CHAPTER_2:_CSS_Properties)
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 [CSS LAYOUTS (PROPERTIES) 50](#_bookmark138)
-
 [CSS RULES 51](#css-rules)
-
 [THE &#64;KEYFRAMES RULE 54](#the-keyframes-rule)
-
 [CSS BACKGROUND PROPERTIES 60](#css-background-properties)
-
 [CSS BORDER PROPERTIES 72](#css-border-properties)
-
 [CSS COLOR PROPERTIES 87](#css-color-properties)
-
 [RGB Colors 88](#rgb-colors)
-
 [RGBA Colors 89](#_bookmark165)
-
 [CSS HEX Colors 91](#_bookmark167)
-
 [CSS DIMENSION PROPERTIES 94](#css-dimension-properties)
-
 [CSS GENERATED CONTENT PROPERTIES 99](#css-generated-content-properties)
-
 [CSS FLEXIBLE BOX LAYOUT 103](#css-flexible-box-layout)
-
 [CSS FONT PROPERTIES 106](#css-font-properties)
-
 [CSS LIST PROPERTIES 110](#css-list-properties)
-
 [CSS MARGIN PROPERTIES 116](#css-margin-properties)
-
 [CSS MULTI-COLUMN LAYOUT PROPERTIES 120](#css-multi-column-layout-properties)
-
 [CSS OUTLINE PROPERTIES 134](#css-outline-properties)
-
 [CSS PADDING 139](#css-padding-1)
-
 [CSS PRINT PROPERTIES 142](#css-print-properties)
-
 [CSS TABLE PROPERTIES 144](#css-table-properties)
-
 [CSS TEXT PROPERTIES 154](#css-text-properties)
-
 [CSS TRANSFORM PROPERTIES 164](#css-transform-properties)
-
 [2D Transform Functions 164](#css-transform-properties)
-
 [3D Transform Functions 169](#d-transform-functions-1)
-
 [CSS TRANSITIONS PROPERTIES 173](#css-transitions-properties)
-
 [CHAPTER SUMMARY 175](#chapter-summary-1)
-
-[CHAPTER 3 ■ CSS Selectors 177](#CHAPTER_3:_CSS_Selectors)
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+[CHAPTER 3 CSS Selectors 177](#CHAPTER_3:_CSS_Selectors)
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 [INTRODUCTION 177](#introduction-1)
-
 [UNIVERSAL SELECTOR (&#42;) 179](#universal-selector)
-
 [UNIVERSAL SELECTOR (elements ) 180](#universal-selector-elements)
-
 [LOGICAL COMBINATIONS SELECTORS 181](#logical-combinations-selectors)
-
 [LOGICAL COMBINATIONS SELECTORS ( :not ) 181](#logical-combinations-selectors-not)
-
 [ATTRIBUTE SELECTORS 183](#attribute-selectors)
-
 [ATTRIBUTE SELECTORS ( .classname ) 183](#attribute-selectors-.classname)
-
 [ATTRIBUTE SELECTORS ( id) 184](#_bookmark236)
-
 [ATTRIBUTE SELECTORS (&#91;&#93;) 186](#Cover)
-
 [ATTRIBUTE SELECTORS ( &#91;attr="value"&#93; ) 187](#Cover)
-
 [ATTRIBUTE SELECTORS ( &#91;attr="value"&#93; case-sensitive) 189](#Cover)
-
 [ATTRIBUTE SELECTORS (&#91;foo&#126;="bar"&#93;) 190](#Cover)
-
 [ATTRIBUTE SELECTORS ( &#91; foo&#94;="bar" &#93; ) 192](#Cover)
-
 [ATTRIBUTE SELECTORS ( &#91; foo&#36;="bar" &#93; ) 193](#Cover)
-
 [ATTRIBUTE SELECTORS ( &#91; foo&#42;="bar" &#93; ) 195](#Cover)
-
 [ATTRIBUTE SELECTORS ( &#91; foo&#124;="bar" &#93; ) 198](#Cover)
-
 [PSEUDO-CLASSES 199](#Cover)
-
 [PSEUDO-CLASSES (:dir(ltr) or :dir(rtl)) 199](#Cover)
-
 [PSEUDO-CLASSES (:any-link) 201](#Cover)
-
 [PSEUDO-CLASSES (:link) 203](#Cover)
-
 [PSEUDO-CLASSES (:target) 205](#Cover)
-
 [PSEUDO-CLASSES (:scope) 207](#Cover)
-
 [PSEUDO-CLASSES (:target) 208](#Cover)
-
 [PSEUDO-CLASSES (:hover) 210](#Cover)
-
 [PSEUDO-CLASSES (:focus) 212](#Cover)
-
 [PSEUDO-CLASSES (:enabled and :disabled) 214](#Cover)
-
 [PSEUDO-CLASSES (:read-only and :read-write) 215](#Cover)
-
 [PSEUDO-CLASSES (:placeholder-shown) 218](#Cover)
-
 [PSEUDO-CLASSES (:default) 219](#Cover)
-
 [PSEUDO-CLASSES (:checked) 221](#Cover)
-
 [PSEUDO-CLASSES (:indeterminate) 223](#Cover)
-
 [PSEUDO-CLASSES (:valid and :invalid) 225](#Cover)
-
 [PSEUDO-CLASSES (:in-range and :out-of-range) 227](#Cover)
-
 [PSEUDO-CLASSES (:required) 229](#Cover)
-
 [PSEUDO-CLASSES (:optional) 230](#Cover)
-
 [PSEUDO-CLASSES ( :root) 232](#Cover)
-
 [PSEUDO-CLASSES (:empty) 233](#Cover)
-
 [PSEUDO-CLASSES (:blank) 234](#Cover)
-
 [PSEUDO-CLASSES (:nth-child) 236](#Cover)
-
 [PSEUDO-CLASSES (:nth-last-child) 237](#Cover)
-
 [PSEUDO-CLASSES (:first-child) 239](#Cover)
-
 [PSEUDO-CLASSES (:only-child) 240](#Cover)
-
 [PSEUDO-CLASSES (:nth-of-type(odd) 241](#Cover)
-
 [PSEUDO-CLASSES (:nth-of-type(odd or even) 243](#Cover)
-
 [PSEUDO-CLASSES (:first-of-type, nth-of-type,](#Cover)
-
 [nth-last-of-type(3)) 244](#Cover)
-
 [COMBINATORS SELECTORS 246](#Cover)
-
 [COMBINATORS SELECTORS (E F) 246](#Cover)
-
 [COMBINATORS SELECTORS (E \F) 248](#Cover)
-
 [COMBINATORS SELECTORS (E + F) 250](#Cover)
-
 [GENERAL SIBLING SELECTOR (&#126;) 252](#Cover)
-
 [GRID-STRUCTURAL SELECTORS (:nth-col()) 254](#Cover)
-
 [CHAPTER SUMMARY 256](#Cover)
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-[CHAPTER 4 ■ CSS Functions 257](#Cover)
+[CHAPTER 4 CSS Functions 257](#Cover)
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 [INTRODUCTION 257](#Cover)
-
 [BASICS OF CSS FUNCTIONS 258](#Cover)
-
 [attr() 258](#Cover)
-
 [Usage of attr() 259](#Cover)
-
 [blur() 262](#Cover)
-
 [brightness() 264](#brightness)
-
 [calc() 266](#_bookmark240)
-
 [circle() 268](#circle)
-
 [How to Position the Circle 268](#how-to-position-the-circle)
-
 [contrast() 275](#contrast)
-
 [counter() 277](#counter)
-
 [counters() 279](#counters)
-
 [cubic-bezier() 283](#cubic-bezier)
-
 [drop-shadow() 284](#drop-shadow)
-
 [ellipse() 287](#ellipse)
-
 [filter() 293](#_bookmark257)
-
 [grayscale() 295](#_bookmark259)
-
 [hsl() 298](#hsl)
-
 [How to Pick a Color 299](#How_to_Pick_a_Color)
-
 [hsla() 301](#_bookmark265)
-
 [hue-rotate() 305](#hue-rotate)
-
 [How Does Hue Rotation Work? 305](#How_Does_Hue_Rotation_Work?)
-
 [inset() 307](#inset)
-
 [linear-gradient() 310](#linear-gradient)
-
-[How to Set the Angle of a Gradient
-310](#How_to_Set_the_Angle_of_a_Gradient)
-
+[How to Set the Angle of a Gradient 310](#How_to_Set_the_Angle_of_a_Gradient)
 [matrix() 313](#matrix)
-
 [matrix3d() 316](#matrix3d)
-
 [opacity() 318](#opacity)
-
 [perspective() 321](#perspective)
-
 [radial-gradient() 323](#radial-gradient)
-
 [repeating-linear-gradient() 326](#_bookmark285)
-
 [repeating-radial-gradient() 330](#repeating-radial-gradient)
-
 [rgb() 335](#_bookmark289)
-
 [rotate() 339](#_bookmark291)
-
 [rotate3d() 343](#rotate3d)
-
 [rotateX() 346](#rotatex)
-
 [rotateY() 347](#rotatey)
-
 [rotateZ() 347](#rotatez)
-
 [saturate() 352](#saturate)
-
 [scale() 354](#scale)
-
 [scale3d() 357](#scale3d)
-
 [scaleX() 359](#scalex)
-
 [scaleY() 361](#scaleY())
-
 [scaleZ() 364](#scaleZ())
-
 [skew() 367](#skew)
-
 [skewX() 371](#skewx)
-
 [CHAPTER SUMMARY 373](#_bookmark315)
-
-[CHAPTER 5 ■ CSS Plugins 375](#CHAPTER_5:_CSS_Plugins)
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+[CHAPTER 5 CSS Plugins 375](#CHAPTER_5:_CSS_Plugins)
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 [VARIOUS CSS PLUGINS PostCSS BASED 376](#various-css-plugins-postcss-based)
-
 [AUTOPREFIXER 376](#autoprefixer)
-
 [Write Pure CSS 377](#Write_Pure_CSS)
-
 [Installing Autoprefixer in Your Project Folder 378](#Installing_Autoprefixer_in_Your_Project_)
-
 [When Does It Run? 381](#_bookmark326)
-
 [What is the Difference Between Autoprefixer and -Prefix-Free? 382](#What_is_the_Difference_Between_Autoprefi)
-
 [CSSnext 382](#cssnext)
-
 [CSSnano 384](#cssnano)
-
 [Installing PostCSS, the PostCSS-CLI, cssnext, and cssnano 384](#Installing_PostCSS,_the_PostCSS-CLI,_css)
-
 [Using the PostCSS-CLI 384](#using-the-postcss-cli)
-
 [npm Script 385](#npm-script)
-
 [PreCSS 385](#precss)
-
 [Usage 386](#_bookmark338)
-
 [Other Various Plugins 386](#Other_Various_Plugins)
-
 [Various Options 387](#various-options)
-
 [Install Plugin 389](#Install_Plugin)
-
 [preserveEmpty 391](#preserveempty)
-
 [STYLELINT 391](#stylelint)
-
 [Installing Stylelint 391](#Installing_Stylelint)
-
 [Usage 391](#Usage)
-
 [PostCSS ASSETS 392](#postcss-assets)
-
 [Gulp (gulp-postcss) 392](#Gulp_(gulp-postcss))
-
 [Basic 392](#grunt)
-
 [Grunt 393](#grunt)
-
 [FONT MAGICIAN 394](#font-magician)
-
 [LOST GRID 395](#lost-grid)
-
 [PostCSS 398](#postcss)
-
 [Features 398](#_bookmark364)
-
 [POSTCSS-MODULES ( CSS MODULES ) 399](#postcss-modules-css-modules)
-
 [Naming (localsConvention) 400](#naming-localsconvention)
-
 [Features 400](#Features)
-
 [CSS MarqueeMenu PLUGIN 400](#_bookmark370)
-
 [CHAPTER SUMMARY 410](#chapter-summary-3)
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 [APPRAISAL, 411](#appraisal)
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 [BIBLIOGRAPHY, 417](#bibliography)
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 [INDEX, 421](#index)
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>Zeba Academy -- Mastering Computer Science</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -568,15 +366,14 @@ Series:</p>
   style="width:3.6in" />
 </p>
 <!-- ![](./images/image006.png){width="3.6393208661417322in" height="0.9622911198600175in"}  -->
-
-CHAPTER 1
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2>CHAPTER 1</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>CSS</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p><i>Introduction</i></p>
 
-<h2>IN THIS CHAPTER</h2>
+<h3>IN THIS CHAPTER</h3>
 <ul>
   <li>Introduction</li>
   <li>History</li>
@@ -617,30 +414,30 @@ information. It can be used for effects such as animation.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>HISTORY</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-CSS is highly regarded by the Norwegian Håkon Wium Lie, who in 1994
+<p>CSS is highly regarded by the Norwegian Håkon Wium Lie, who in 1994
 wanted to create a standard style sheet for the World Wide Web. The
 first website Lie tried for CSS is the Arena web browser. Since its
 initial cre- ation, Lie has gone on to co-produce versions of CSS-1,
 CS-S2, and RFC 2318 with Tim Berners-Lee and Robert Cailliau. In its
 first decade of exis- tence (1994--2004), CSS in all its clarity
 became a web standard that had a significant impact on the look of the
-World Wide Web as we know it now. CSS3 was released in 1999.
+World Wide Web as we know it now. CSS3 was released in 1999.</p>
 
-CSS is one of the three core technologies used on the web (the other
+<p>CSS is one of the three core technologies used on the web (the other
 two being HTML and JavaScript). CSS stands for Cascading Style
 Spreadsheets -- the links are actually in terms "cascading" and
 "style" with cascading describing how one style can go from one to
-another.
+another.</p>
 
-One of the various benefits of CSS is that more than a single style
+<p>One of the various benefits of CSS is that more than a single style
 can be used within a single HTML document. CSS is used to define what
 HTML code will look like on a website. Although HTML (Hypertext Markup
 Language) is used to create content, including text, CSS changes the
 way a web page will look. Thus, depending on the data they want to
 display, the developer may choose to have a page with other tabs
-running at the top of the page or on the side.
+running at the top of the page or on the side.</p>
 
-Alternatively, some developers may choose to use titles and subtitle
+<p>Alternatively, some developers may choose to use titles and subtitle
 styles to ensure that words appear on the page or alter or redesign
 the existing web page. Perhaps the best way to describe what CSS does
 is to explain that the page would like to be free to use CSS. Without
@@ -652,53 +449,51 @@ far from being created and as a result, it is a continu- ously
 evolving language. Web standards are a topic close to Lie's heart.
 Since the introduction of CSS, he has appealed to major technology
 players like Microsoft and other browsers to support the standard web
-standards and continue to improve.
+standards and continue to improve.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>WHY DO WE NEED CSS?</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-First, applying CSS ensures that your web pages are consistent. If
+<p>First, applying CSS ensures that your web pages are consistent. If
 your website has 100 pages, now imagine that you have to enter a code
 to define title sizes, layout, and other display data and combine all
 the content each time you want to produce a new web page. Also,
 imagine having a 100- page site and being able to change one of them
-while keeping everything the same.
+while keeping everything the same.</p>
 
-CSS also makes that possible. Using CSS brings flexibility where
+<p>CSS also makes that possible. Using CSS brings flexibility where
 needed, but it is flexible enough to be able to make changes to an
-individual page or a section.
-
+individual page or a section.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>WHY DO WE USE CSS?</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-For a website to work properly, it must have a fast download time.
+<p>For a website to work properly, it must have a fast download time.
 Nowadays, people usually wait a few seconds for a website to load.
 Therefore, it is important to ensure a fast pace. For companies
 looking to ensure fast and smooth website information, CSS becomes key
-to their success.
+to their success.</p>
 
-CSS is easy to maintain due to the short maintenance time. This is
+<p>CSS is easy to maintain due to the short maintenance time. This is
 because single-line code conversion affects the entire web page. Also,
-if upgrades are needed, make a small effort.
+if upgrades are needed, make a small effort.</p>
 
-You would not find many good and easy-to-use websites. One thing that
+<p>You would not find many good and easy-to-use websites. One thing that
 is common to all of these websites is the consistency of construction.
 CSS empowers developers to ensure that style features are applied
-consistently across every few web pages.
+consistently across every few web pages.</p>
 
-Due to its fast speed and easy maintenance, CSS saves a lot of time
+<p>Due to its fast speed and easy maintenance, CSS saves a lot of time
 and effort in the web development process due to its fast loading
 time. Here, a little time ensures the good performance of the
-designer.
+designer.</p>
 
-People use different smart devices to view a particular website. It
+<p>People use different smart devices to view a particular website. It
 can be a smartphone, PC, or laptop. For this purpose, websites are
 required to be compatible with the device. CSS ensures smooth
-operation by providing better alignment.
+operation by providing better alignment.</p>
 
-You can change the location of the HTML tag
+<p>You can change the location of the HTML tag
 with the help of CSS. You can set things as an image on any part of a
-web page as needed.
-
+web page as needed.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>[DIFFERENT VERSION OF CSS]</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -758,7 +553,7 @@ vendors and other companies interested in CSS. There are also other
 people, known as invited experts, who act as independent voices;
 affiliated with the member organization.</p>
 
-New CSS features are developed by the CSS Working Group some- times
+<p>New CSS features are developed by the CSS Working Group some- times
 because a specific browser is interested in a specific skill,
 sometimes because web designers and developers request a feature, and
 because the Working Group has identified a requirement. CSS is
@@ -766,92 +561,87 @@ constantly evolving, with new features available. However, the
 important thing about CSS is that everyone works hard so that they
 never change things in a way that can break old websites. A website
 built in 2000 that used the limited CSS that existed then, should
-still be used in the browser today!
+still be used in the browser today!</p>
 
-As a newcomer to CSS, you may find the CSS specification too great --
+<p>As a newcomer to CSS, you may find the CSS specification too great --
 it is intended for developers to apply feature support to user agents,
 not for web developers to learn to understand CSS. Many experienced
 developers would prefer to look at MDN documents or other courses.
 However, it is worth knowing that these features exist and to
 understand the relationship between the CSS
-you are using, browser support (see below), and details.
-
+you are using, browser support (see below), and details.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>CSS MODULES</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-As there are many things you can style using CSS, the language is
+<p>As there are many things you can style using CSS, the language is
 divided into modules. You will see a reference to these modules as
 user explore MDN. Many text pages are organized around a specific
 module. For exam- ple, you can refer to the MDN reference in the
 Background and Boundaries module to find out what its purpose is with
-the properties and features it contains
+the properties and features it contains.</p>
 
-In this section, you do not need to worry much
+<p>In this section, you do not need to worry much
 about how CSS is cre- ated; however, it may be easier to get
 information if, for example, you know that a certain place may be
 found among other things, therefore, it is almost in the same
-situation.
+situation.</p>
 
-For example, let's go back to the Background and Borders module -- you
+<p>For example, let's go back to the Background and Borders module -- you
 may think it makes sense that background color and border color struc-
 tures are defined in this module. And you will be right. If you know
 some- thing about HTML, then it is good; if not, let's have a brief
 introduction to HTML and how to link a CSS file with HTML for changing
-styles.
-
+styles.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>BASIC HTML</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-The following section provides an introduction to HTML. We cannot
+<p>The following section provides an introduction to HTML. We cannot
 imagine web pages and the World Wide Web without HTML. It is the
 language most used to write web pages. It represents Hyper-Text
 Mark-up Language. You should know that any link found on web pages is
 usually called Hypertext, and the mark refers to the tag or page
 layout in such a way that the text in the webpage list is displayed in
 the correct format. The purpose of developing HTML was to understand
-the structure of any text: title, body, content, or categories.
+the structure of any text: title, body, content, or categories.</p>
 
-So, basically, HTML provides a structured format to display the
+<p>So, basically, HTML provides a structured format to display the
 content of web pages. It is very simple and easy to understand. In the
 early nine- ties, it was developed by Tim Berners-Lee and later went
 through many changes and modifications. HTML 5 is the latest version
-of Html.
+of HTML.</p>
 
-You know that HTML is a simple language that can use many tags to
+<p>You know that HTML is a simple language that can use many tags to
 format content. All tags are enclosed within angular brackets
 &lt;tagname&gt;. With the exception of a few tags, most tags start with
-angular tags and end with corresponding angular tags.
+angular tags and end with corresponding angular tags.</p>
 
-&lt;! DocType Html\defines the document type and version of Html. The
+<p>&lt;! DocType Html\defines the document type and version of Html. The
 Html code starts just after the &lt;html&gt; angular marker and ends with
-&lt;/html&gt; not seen in the screenshot above.
+&lt;/html&gt; not seen in the screenshot above.</p>
 
-It usually has two major parts, namely the head and the body. Each 
-category has its set of requirements related
+<p>It usually has two major parts, namely the head and the body. Each 
+category has its set of requirements related 
 to requirements. You will get various sections in HTML structure.
-Let's discuss each.
-Head Section
-
-The header tag represents a web document header that you can tag
+Let's discuss each.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3>Head Section</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p>The header tag represents a web document header that you can tag
 &lt;head&gt; and &lt;link&gt; with. It starts with &lt;head&gt; and ends with
 &lt;/head&gt;. It has parts of the title inside. For example, &lt;title&gt;
-This will be your webpage title. &lt;/li&gt;&gt;.
-
+This will be your webpage title. &lt;/li&gt;&gt;.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-Body Section
+<h3>Body Section</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-It represents the body of a web document that usually contains titles,
+<p>It represents the body of a web document that usually contains titles,
 text, and sections. Topics start with &lt;title&gt; and end with
 &lt;/title&gt;. Among these tags, the content can be labeled as "this is
-the first topic."
+the first topic."</p>
 
-The paragraph will start with &lt;p&gt; and end with &lt;/p&gt;. The content
+<p>The paragraph will start with &lt;p&gt; and end with &lt;/p&gt;. The content
 of the section should be written between these angular characters. The
 basic Html code shown below in the overview section is used to create
-a simple Html page.
+a simple Html page.</p>
 
 <pre>
 &lt;!DOCTYPE html&gt;
@@ -865,95 +655,81 @@ a simple Html page.
 &lt;/html&gt;
 </pre>
 
-There are various elements we can add to our HTML code; let's take a
-look.
-
--   HTML headings are elements defined by tags &lt;h1&gt; to &lt;h6&gt; where
-
-&lt;h1&gt; defines the important tag and &lt;h6&gt; defines the less important
+<p>There are various elements we can add to our HTML code; let's take a look.</p>
+<ul>
+  <li>HTML headings are elements defined by tags &lt;h1&gt; to &lt;h6&gt; where</li>
+</ul>
+<p>&lt;h1&gt; defines the important tag and &lt;h6&gt; defines the less important
 tag. The HTML section is an HTML element that will be defined using
-the &lt;p&gt; tag.
-
--   HTML images are a feature of HTML and are defined by the &lt;img&gt;
+the &lt;p&gt; tag.</p>
+<ul>
+  <li>HTML images are a feature of HTML and are defined by the &lt;img&gt;
     tag, and need to specify attributes such as image src, alt means
-    other text, width, and height.
-
--   HTML lists are elements and are defined using &lt;ul&gt; or &lt;ol&gt; tags
-    where &lt;ul&gt; is a random list and &lt;ol&gt; has an ordered list.
-
--   The HTML table is part of the HTML and can be defined using tag
-
+    other text, width, and height.</li>
+  <li>HTML lists are elements and are defined using &lt;ul&gt; or &lt;ol&gt; tags
+    where &lt;ul&gt; is a random list and &lt;ol&gt; has an ordered list.</li>
+  <li>The HTML table is part of the HTML and can be defined using tag</li>
+</ul>
 <pre>&lt;table&gt; and tag lines &lt;tr&gt; and tag cells &lt;td&gt;.</pre>
-
--   HTML links are elements, and can be defined using the &lt;a&gt; tag and
+<ul>
+  <li>HTML links are elements, and can be defined using the &lt;a&gt; tag and
     sample code below:
-
-    -   The HTML attribute style can be used with a combination of any
-        elements such as &lt;p&gt;.
-
-    -   In HTML, we use the lang attribute, we can say the language of a
+  <ul>
+    <li>The HTML attribute style can be used with a combination of any elements such as &lt;p&gt;.</li>
+    <li>In HTML, we use the lang attribute, we can say the language of a
         document using the &lt;html&gt; tag and the language defined using
-        the lang attribute.
-
-    -   In HTML, we can use the formatting elements to format the doc-
-        ument and we can define special text features that have a
-        special meaning. HTML elements like &lt;b&gt; bold, &lt;i&gt; by
-        italics.
-
-    -   In HTML, we can highlight specific text in a document using the
-
+        the lang attribute.</li>
+    <li>In HTML, we can use the formatting elements to format the document and we can define 
+	  special text features that have a special meaning. HTML elements like &lt;b&gt; bold, 
+	  &lt;i&gt; by italics.</li>
+    <li>In HTML, we can highlight specific text in a document using the</li>
+  </ul>
+</ul>
 <pre>&lt;mark&gt; feature to highlight text included in the &lt;mark&gt; element.</pre>
-
--   In HTML, we can define a text as the text above using the &lt;sup&gt;
+<ul>
+  <li>In HTML, we can define a text as the text above using the &lt;sup&gt;
 element in the HTML document so that the text embedded in the
-&lt;sup&gt; element becomes larger text.
+&lt;sup&gt; element becomes larger text.</li>
+</ul>
 
-The &lt;!DOCTYPE&gt; represents the document type and helps browsers to
+<p>The &lt;!DOCTYPE&gt; represents the document type and helps browsers to
 display web pages correctly. It appears once, at the top of the page
 (before any of the HTML tags). The &lt;!DOCTYPE&gt; declaration is not
 case sensitive. Wherever the web is, it is HTML. HTML usage is
 distributed across all devices. Here is the list of features of HTML
-to know where we can use it.
-
--   Browsers like Chrome, Firefox, and Safari all use HTML to render
-    content on the web for better display.
-
--   Various mobile browsers like Opera, Firefox Focus, Microsoft Edge,
+to know where we can use it.</p>
+<ul>
+  <li>Browsers like Chrome, Firefox, and Safari all use HTML to render
+    content on the web for better display.</li>
+  <li>Various mobile browsers like Opera, Firefox Focus, Microsoft Edge,
     Dolphin, and Puffin all use HTML to better present and visualize
-    online content on mobile phones.
-
--   Various smart devices are embedded with HTML functions to better
-    browse and navigate during their operations.
-
--   HTML supports the first channel verification method on any web page
-    to stop unwanted traffic.
-
--   HTML accepts great content but gives the same visibility to smaller
-    screen devices and larger screen devices.
-
--   HTML supports a variety of colors, formats, and layouts.
-
--   HTML uses templates that make website design easy.
-
--   The HTML and XML syntax are very similar, so it is easy to work
-    between the two domains.
-
--   FrontPage, Dreamweaver, and many other development tools sup- port
-    HTML.
-
+    online content on mobile phones.</li>
+  <li>Various smart devices are embedded with HTML functions to better
+    browse and navigate during their operations.</li>
+  <li>HTML supports the first channel verification method on any web page
+    to stop unwanted traffic.</li>
+  <li>HTML accepts great content but gives the same visibility to smaller
+    screen devices and larger screen devices.</li>
+  <li>HTML supports a variety of colors, formats, and layouts.</li>
+  <li>HTML uses templates that make website design easy.</li>
+  <li>The HTML and XML syntax are very similar, so it is easy to work between the two domains.</li>
+  <li>FrontPage, Dreamweaver, and many other development tools support HTML.</li>
+</ul>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>STARTING WITH A SPECIFIC HTML</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p>HTML and CSS are two methods of tags (code), with their own unique syntax. There is a 
+difference between the two. You can think of HTML as a page layout, while CSS gives HTML 
+its own style.</p>
 
-HTML and CSS are two methods of tags (code), with their own unique syntax. There is a difference between the two. You can think of HTML as a page layout, while CSS gives HTML its own style. 
-
-HTML = structure CSS = style
-
+<p>HTML = structure CSS = style</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>LINKING YOUR HTML AND CSS FILES</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-Before we can write CSS, we have to go back to HTML. You need to write a new line to link the HTML file and CSS file together. So, open the HTML file and add the provided line "&lt;link href =" style.css "rel =" stylesheet "type =" text / CSS "/&gt;". Your file code looks like this, 
+<p>Before we can write CSS, we have to go back to HTML. You need to write a new line to link 
+the HTML file and CSS file together. So, open the HTML file and add the provided line 
+"&lt;link href =" style.css "rel =" stylesheet "type =" text / CSS "/&gt;". Your file code 
+looks like this,</p>
 
 <pre>
 &lt;!DOCTYPE html&gt;
@@ -992,7 +768,6 @@ h1 {
 &lt;/body&gt;
 &lt;html&gt;
 </pre>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 07. This is an example of Simple CSS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -1003,17 +778,17 @@ h1 {
 </p>
 <!-- ![](./images/image007.png){width="3.6140627734033246in" height="1.5131244531933508in"}  -->
 
-Example of simple CSS.
+<p>Example of simple CSS.</p>
 
-Above line of code links a new CSS file to your HTML file. Let's split
-it: the href attribute specifies the link associated with the CSS
-file. We'll get to the links later, for now, just make sure that
-style.css file is in the same folder as
-index.html file. The rel attribute tells your browser that this is a
-style sheet. The attribute type tells the browser that the linked file
-should be translated as CSS syntax.
+<p>Above line of code links a new CSS file to your HTML file. Let's split it: the href attribute 
+specifies the link associated with the CSS file. We'll get to the links later, for now, just make 
+sure that style.css file is in the same folder as index.html file. The rel attribute tells your 
+browser that this is a style sheet. The attribute type tells the browser that the linked file
+should be translated as CSS syntax.</p>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>HOW CSS AND HTML WORK TOGETHER</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 CSS is only concerned with web page layout, while page content is
 defined using marker language such as HTML. The separation of style
@@ -1132,7 +907,7 @@ p {font-family: Tahoma, serif;}, h1 {font- family: Georgia,
 sans-serif;}
 </pre>
 
-<h2>COMMENT TAGS</h2>
+<h3>COMMENT TAGS</h3>
 
 <p>Comments can be used to explain why you're adding certain selectors to
 your CSS file. To help others who might see your file or remember what
@@ -1160,13 +935,15 @@ ments into a single selector. Each one is separated by a comma. The
 final result of the above code will set all headers to green and to
 the specified font. If the user doesn't have the first font we
 declared, they will go for another sans-serif font.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>DIFFERENT TYPES OF CSS YOU CAN USE</h2>
-
-<p>There are three ways to write CSS for a web page. You have to decide which one is better for you, but we recommend using an External Style Sheet, which is the third type we'll learn today.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p>There are three ways to write CSS for a web page. You have to decide which one is better for 
+you, but we recommend using an External Style Sheet, which is the third type we'll learn today.</p>
 
 <p>Here are three ways to use CSS:</p>
-<ol type="1"
+
+<ol type="1">
   <li><b>Inline styles:</b> It is placed inside HTML elements.</li>
   <li><b>Internal styles:</b> It is placed in the &lt;head&gt; tag section of the
     web page you are writing.</li>
@@ -1555,47 +1332,47 @@ a:hover {
 <h4>List of Color Values</h4>
 
 <p>Here's a list of color values that can be used with CSS.</p>
-
--   Named Colors
--   transparent Keyword
--   CS current color Keyword
--   3-Digit Hex Codes
--   4-Digit Hex Codes
--   6-Digit Hex Codes
--   CSS 8-Digit Hex Codes
--   RGB() Function
--   rgba() Function
--   HSL() Function
--   hsla() Function
--   hwb() Function
--   System Colors
-
+<ul>
+  <li>Named Colors</li>
+  <li>transparent Keyword</li>
+  <li>CS current color Keyword</li>
+  <li>3-Digit Hex Codes</li>
+  <li>4-Digit Hex Codes</li>
+  <li>6-Digit Hex Codes</li>
+  <li>CSS 8-Digit Hex Codes</li>
+  <li>RGB() Function</li>
+  <li>rgba() Function</li>
+  <li>HSL() Function</li>
+  <li>hsla() Function</li>
+  <li>hwb() Function</li>
+  <li>System Colors</li>
+</ul>
 <p>Here is the complete list of names of colors that are supported by all browsers given below:</p>
-
-1.  Alice blue
-2.  antique white
-3.  Aqua
-4.  Aquamarine
-5.  Azure
-6.  Beige
-7.  Bisque
-8.  Black
-9.  dark orchid
-10. DarkRed
-11. DarkSalmon
-12. dark turquoise
-13. DarkViolet
-14. DeepPink
-15. DeepSkyBlue
-16. Fuchsia
-17. Gainsboro
-18. GhostWhite
-19. Gold
-20. HotPink
-21. Indian
-22. Indigo
-23. Ivory
-
+<ol type="1">
+  <li>Alice blue</li>
+  <li>antique white</li>
+  <li>Aqua</li>
+  <li>Aquamarine</li>
+  <li>Azure</li>
+  <li>Beige</li>
+  <li>Bisque</li>
+  <li>Black</li>
+  <li>dark orchid</li>
+  <li>DarkRed</li>
+  <li>DarkSalmon</li>
+  <li>dark turquoise</li>
+  <li>DarkViolet</li>
+  <li>DeepPink</li>
+  <li>DeepSkyBlue</li>
+  <li>Fuchsia</li>
+  <li>Gainsboro</li>
+  <li>GhostWhite</li>
+  <li>Gold</li>
+  <li>HotPink</li>
+  <li>Indian</li>
+  <li>Indigo</li>
+  <li>Ivory</li>
+</ol>
 <h4>RGB COLOR</h4>
 
 <p>There are different colors that add a different atmosphere to various
@@ -2029,36 +1806,32 @@ width: 200px;
 <p>The border property accepts more than one of the following values in combination:</p>
 
 <p>border-width: It defines the thickness of the border.</p>
-
--   thin
--   medium
--   thick
-
+<ul>
+  <li>thin</li>
+  <li>medium</li>
+  <li>thick</li>
+</ul>
 <p><b>border-style</b>: It specifies the type of the line drawn around the element, including:</p>
-
--   dotted -- It defines a dotted border.
--   dashed -- It defines a dashed border.
--   solid -- It defines a solid border.
--   double -- It defines a double border.
--   groove -- It defines a 3D grooved border. The effect depends on the
-    border-color value.
--   ridge -- It defines a 3D ridged border. The effect depends on the
-    bor- der-color value.
--   inset -- It defines a 3D inset border. The effect depends on the
-    border- color value.
--   outset -- It defines a 3D outset border. The effect depends on the
-    bor- der-color value.
--   none -- It defines no border.
--   hidden -- It defines a hidden border.
-
-border-color: It specifies the color of the border and accepts all valid color values.
+<ul>
+  <li>dotted -- It defines a dotted border.</li>
+  <li>dashed -- It defines a dashed border.</li>
+  <li>solid -- It defines a solid border.</li>
+  <li>double -- It defines a double border.</li>
+  <li>groove -- It defines a 3D grooved border. The effect depends on the border-color value.</li>
+  <li>ridge -- It defines a 3D ridged border. The effect depends on the border-color value.</li>
+  <li>inset -- It defines a 3D inset border. The effect depends on the border-color value.</li>
+  <li>outset -- It defines a 3D outset border. The effect depends on the border-color value.</li>
+  <li>none -- It defines no border.</li>
+  <li>hidden -- It defines a hidden border.</li>
+</ul>
+<p><b>border-color</b>: It specifies the color of the border and accepts all valid color values.</p>
 
 <h2>CSS BORDER WIDTH AND COLOR</h2>
 
-The border-width property defines the width of the four borders. The
+<p>The border-width property defines the width of the four borders. The
 width can also be set as a specific size (such as in px, pt, cm, em,
 etc.) or by using the three pre-defined values such as thin, medium,
-or thick.
+or thick.</p>
 
 <h4>Example:</h4>
 
@@ -2069,107 +1842,101 @@ p.one {
 }
 </pre>
 
-The border color property is used to define the color of the four
-borders.
+<p>The <b>border-color</b> property is used to define the color of the four borders.</p>
 
-The color can be set by:
-
--   name -- It specifies a color name, like "red."
--   HEX -- It specifies a HEX value, like "#ff0000."
--   RGB -- It specifies an RGB value, like "rgb(255,0,0)."
--   HSL -- It specifies an HSL value, like "hsl(0, 90%, 50%)."
--   Transparent
-
+<p>The color can be set by:</p>
+<ul>
+  <li>name -- It specifies a color name, like "red."</li>
+  <li>HEX -- It specifies a HEX value, like "#ff0000."</li>
+  <li>RGB -- It specifies an RGB value, like "rgb(255,0,0)."</li>
+  <li>HSL -- It specifies an HSL value, like "hsl(0, 90%, 50%)."</li>
+  <li>Transparent</li>
+</ul>
 <h2>CSS MARGINS</h2>
 
-CSS genetic features are used to create space around elements, without
+<p>CSS genetic features are used to create space around elements, without
 any defined parameters. With CSS, you have full control over margins.
 There are features for setting the margin for each element of the
 element such as top, right, bottom, and left. CSS has features that
-specify a margin for each element:
-
--   margin-top
--   margin-right
--   margin-bottom
--   margin-left
-
-All genetic features can have the following values:
-
--   default -- The browser calculates limit.
--   length -- It specifies margin in px, pt, cm, etc.
--   &#37; -- It specifies margin in% of the width of the content.
--   inheritance -- it specifies that the margin should inherit from the parent.
-
+specify a margin for each element:</p>
+<ul>
+  <li>margin-top</li>
+  <li>margin-right</li>
+  <li>margin-bottom</li>
+  <li>margin-left</li>
+</ul>
+<p>All genetic features can have the following values:</p>
+<ul>
+  <li>default -- The browser calculates limit.</li>
+  <li>length -- It specifies margin in px, pt, cm, etc.</li>
+  <li>&#37; -- It specifies margin in% of the width of the content.</li>
+  <li>inheritance -- it specifies that the margin should inherit from the parent.</li>
+</ul>
 <h2>CSS PADDING</h2>
 
-CSS finishing features are used to generate space near element
+<p>CSS finishing features are used to generate space near element
 content, within any defined parameters. With CSS, you have complete
 control over the pads. There are pads setup properties on each side of
 the element (top, right, bottom, and left). CSS has paddling
-specifications for each element of the element:
+specifications for each element of the element:</p>
 
--   padding-top
--   padding-right
--   padding-floor
--   padding-left
+<ul>
+  <li>padding-top</li>
+  <li>padding-right</li>
+  <li>padding-floor</li>
+  <li>padding-left</li>
+</ul>
 
-All completion buildings may have the following values:
+<p>All completion buildings may have the following values:</p>
 
--   length -- It specifies padding in px, pt, cm, etc.
--   % -- It specifies padding in% of the width
-    of the content.
--   inheritance -- It specifies that padding should inherit from the
-    parent element.
+<ul>
+  <li>length -- It specifies padding in px, pt, cm, etc.</li>
+  <li>% -- It specifies padding in% of the width of the content.</li>
+  <li>inheritance -- It specifies that padding should inherit from the parent element.</li>
+</ul>
 
 <h2>CSS BOX MODEL</h2>
 
-This model is a box that wraps everything HTML contains: margins, bor-
+<p>This model is a box that wraps everything HTML contains: margins, bor-
 ders, padding, and original content. In CSS, the term "box model" is
-used when referring to design and structure.
+used when referring to design and structure.</p>
 
-Description of different parts:
-
--   Content -- The contents of the box, in which the text and images
-    appear.
--   Padding -- It clears the area around the content. The padding is
-    obvious.
--   Border -- A border around padding and content.
--   Margin -- It can clear an area outside of the border. The margin is
-    clear.
-
+<p>Description of different parts:</p>
+<ul>
+  <li>Content -- The contents of the box, in which the text and images appear.</li>
+  <li>Padding -- It clears the area around the content. The padding is obvious.</li>
+  <li>Border -- A border around padding and content.</li>
+  <li>Margin -- It can clear an area outside of the border. The margin is clear.</li>
+</ul>
 <h2>CSS TABLES</h2>
 
-The table in CSS is used to apply various style elements to HTML Table
-ele- ments to organize data in rows and columns or in a more complex
-format. Tables are used in communication and research data analysis.
-The table layout in CSS can be used to display table layouts. This
-feature is used pri- marily to set the algorithm used to edit
-&lt;table&gt; cells, rows, and columns.
+<p>The <b>table</b> in CSS is used to apply various style elements to HTML Table elements to 
+organize data in rows and columns or in a more complex format. Tables are used in communication 
+and research data analysis. The table layout in CSS can be used to display table layouts. This
+feature is used pri- marily to set the algorithm used to edit &lt;table&gt; cells, rows, and 
+columns.</p>
 
-Border: Used to specify parameters in a table.
+<p><b>Border</b>: Used to specify parameters in a table.</p>
 
 <h4>Syntax:</h4>
 
-border: table_width table_color;
+<p><b>border</b>: table_width table_color;</p>
 
 <h2>CSS FONTS</h2>
 
-The four sides of an element can be set side by side such as
+<p>The four sides of an element can be set side b<p>y side such as
 margin-top, margin-right, margin-bottom, margin-left, padding-top,
 padding-right, padding-bottom, and padding-left are the
 self-explanatory properties you can use. You can set the following
-font properties of an element:
-
--   The font family property is used to change the writing of a font.
--   The font style property is used to make a font italic or oblique.
--   The font variant property is used to create a small-caps effect.
--   The font weight property is used to increase or decrease how bold
-    light a font appears.
--   The font size property is used to increase or decrease the size of a
-    font.
--   The font property is used to specify the number of other font
-    properties.
-
+font properties of an element:</p>
+<ul>
+  <li>The font family property is used to change the writing of a font.</li>
+  <li>The font style property is used to make a font italic or oblique.</li>
+  <li>The font variant property is used to create a small-caps effect.</li>
+  <li>The font weight property is used to increase or decrease how bold light a font appears.</li>
+  <li>The font size property is used to increase or decrease the size of a font.</li>
+  <li>The font property is used to specify the number of other font properties.</li>
+</ul>
 <h2>[CSS TEXT]</h2>
 
 -   The property color is used to set the color of a text.
@@ -2191,20 +1958,20 @@ font properties of an element:
 
 <h2>CSS FUNCTIONS</h2>
 
-CSS functions are used as a number of different CSS structures. For
+<p>CSS functions are used as a number of different CSS structures. For
 exam- ple, you can use RGB () function to assign a color value
 (similar to the color: RGB (205, 0, 215)), the attr () function to
 retrieve the HTML attri- bute value. Many functions are used in CSS
 conversion. For example, a rotating function () could be used to
 rotate an element, a scale () function could be used to resize an
-object, and a translate() function can be used to move an element.
+object, and a translate() function can be used to move an element.</p>
 
-There are other useful functions, such as a circle () to attach an
+<p>There are other useful functions, such as a circle () to attach an
 object to a circle or to create a circle for text to flow around, as
 well as a counting function () that can be used to give a calculated
-value to a plot.
+value to a plot.</p>
 
-Here is a list of CSS functions in CSS3.
+<p>Here is a list of CSS functions in CSS3.</p>
 
 -   attr()
 -   blur()
@@ -2263,12 +2030,12 @@ Here is a list of CSS functions in CSS3.
 
 <h2>WHY FLEXBOX?</h2>
 
-For a long time, the only reliable browser-compatible tools available
+<p>For a long time, the only reliable browser-compatible tools available
 for creating layouts were features such as floats and positioning.
-These work, but in some ways they are limited and frustrating.
+These work, but in some ways they are limited and frustrating.</p>
 
-The following building designs are difficult or impossible to achieve
-with such tools in any form of simple, flexible approach:
+<p>The following building designs are difficult or impossible to achieve
+with such tools in any form of simple, flexible approach:</p>
 
 -   Vertically centering a block element of content inside its parent.
 
@@ -2280,20 +2047,20 @@ with such tools in any form of simple, flexible approach:
 
 <h2>CSS FLEXBOX</h2>
 
-The flexbox CSS layout allows you to easily format HTML. Flexbox makes
+<p>The <b>flexbox</b> CSS layout allows you to easily format HTML. Flexbox makes
 it easy to direct objects horizontally and horizontally using lines
 and col- umns. Items will "change" into different sizes to fill the
-space. It makes responsive design easier.
+space. It makes responsive design easier.</p>
 
-CSS flexbox is ideal for standard website design or your application.
+<p><b>CSS flexbox</b> is ideal for standard website design or your application.
 It is easy to read, supports all modern browsers, and does not take
 much time to get the basics right. By the end of this same section,
-you will be ready to start using flexbox for your web projects.
+you will be ready to start using flexbox for your web projects.</p>
 
-Flexbox is a 1D layout for arranging objects in rows or columns. Items
-are flexible to fill in the blanks or to shrink into smaller spaces.
+<p>Flexbox is a 1D layout for arranging objects in rows or columns. Items
+are flexible to fill in the blanks or to shrink into smaller spaces.</p>
 
-The flex container properties are:
+<p>The flex container properties are:</p>
 
 -   flex-direction
 -   flex-wrap
@@ -2306,31 +2073,33 @@ The flex container properties are:
 
 <h2>INTRODUCTION TO MEDIA TYPES</h2>
 
-One of the most important features of stylesheets is that you can
+<p>One of the most important features of stylesheets is that you can
 specify different style sheets for different types of media. This is a
 good way to cre- ate Web pages ready for printer -- It just provides a
-separate style sheet for the "print" media type.
+separate style sheet for the "print" media type.</p>
 
-Some CSS features are for media only. For example, the page sorting
+<p>Some CSS features are for media only. For example, the page sorting
 feature only applies to pages with pages. There are other few things
 that can be shared by different media types, but they may require
 different val- ues for that feature. The font size feature, for
 example, can be used for screen and print media, but probably at
-different values.
+different values.</p>
 
-Documentation often requires a large font on a computer screen com-
+<p>Documentation often requires a large font on a computer screen com-
 pared to paper for better reading, and sans-serif fonts are considered
 easy to read on screen, while serif fonts are famous for printing. It
 is therefore necessary to clarify that a style sheet, or set of style
-rules, applies to certain types of media.
+rules, applies to certain types of media.</p>
 
 <h2>METHOD 1: USING &#64;MEDIA AT-RULES</h2>
 
-The &#64;media rule is used to define different style rules for different media in a single style sheet. It is followed by a comma separated list of media types and a CSS declaration block containing targeted media style rules. 
+<p>The <b>&#64;media rule</b> is used to define different style rules for different media in a 
+single style sheet. It is followed by a comma separated list of media types and a CSS 
+declaration block containing targeted media style rules.</p>
 
-<b>Example:</b> The style tells the browser to display body content in 14
+<p><b>Example:</b> The style tells the browser to display body content in 14
 pixels Arial font on the screen, but when printing it will be in Times
-font 12 points.
+font 12 points.</p>
 
 <pre>
 &#64;media screen { body {
@@ -2349,9 +2118,9 @@ font 12 points.
 
 <h2>METHOD 2: USING &#64;IMPORT AT-RULES</h2>
 
-The &#64;import rule is another way to specify specific media style
+<p>The &#64;import rule is another way to specify specific media style
 details -- It just specifies comma separated media types after the URL
-of the imported style sheets.
+of the imported style sheets.</p>
 
 <h4>Example:</h4>
 
@@ -2364,7 +2133,8 @@ print.css&#34;) print; div {
 
 <h3>METHOD 3: USING THE &lt;link&gt; ELEMENT</h3>
 
-The media attribute in the &lt;link&gt; feature is used to specify targeted media on an external style sheet within an HTML document.
+<p>The media attribute in the &lt;link&gt; feature is used to specify targeted media on an 
+external style sheet within an HTML document.</p>
  
 <pre>
 &lt;link rel = &#34;stylesheet&#34; href = &#34;css / common.css&#34; media =
@@ -2376,9 +2146,8 @@ The media attribute in the &lt;link&gt; feature is used to specify targeted medi
 
 <h2>DIFFERENT MEDIA TYPES</h2>
 
-The following lists the various media types that are used to target
-various types of devices such as printers, devices, computer screens,
-etc.
+<p>The following lists the various media types that are used to target various types of devices 
+such as printers, devices, computer screens, etc.</p>
 
 -   all: It is used for all media-type devices.
 -   aural: It is used for speech and sound synthesizers.
@@ -2396,22 +2165,22 @@ etc.
 -   tv: It is used for television-type devices with low resolution,
     color, limited scrollability screens, and sound available.
 
-<h2>MEDIA QUESTIONS AND RESPONSIVE WEB DESIGN
+<h2>MEDIA QUESTIONS AND RESPONSIVE WEB DESIGN</h2>
 
-Media queries allow to customize the presentation of web pages to a
+<p>Media queries allow to customize the presentation of web pages to a
 spe- cific range of devices such as mobile phones, tablets, desktops,
 etc., with- out change in markups. A media query contains media type
 and zero or more expressions such as the type and conditions of
 certain media features such as device width or screen resolution.
-Here's a simple example of a typical media query for standard devices.
+Here's a simple example of a typical media query for standard devices.</p>
 
 <h2>MEDIA QUERIES</h2>
 
-Responsive design was able to emerge due to media query. The definition of Media Queries Level 3 was Candidate Recommendations in 2009, which means it was considered ready for implementation in browsers. Media queries allow us to create a series of tests and apply CSS by choosing to customize the page style to the user's needs. 
+<p>Responsive design was able to emerge due to media query. The definition of Media Queries Level 3 was Candidate Recommendations in 2009, which means it was considered ready for implementation in browsers. Media queries allow us to create a series of tests and apply CSS by choosing to customize the page style to the user's needs.</p>
 
-For example, the following media quiz questions to see if the current
+<p>For example, the following media quiz questions to see if the current
 web page is displayed as screen media (so it is not a printed
-document) and the viewing area is 800 pixels wide. CSS selector
+document) and the viewing area is 800 pixels wide. CSS selector;</p>
 
 <pre>
 .container will only be used if these two are true.
@@ -2453,7 +2222,7 @@ document) and the viewing area is 800 pixels wide. CSS selector
 
 <h2>BENEFITS YOU MAY KNOW</h2>
 
-Let's learn more about CSS benefits such as:
+<p>Let's learn more about CSS benefits such as:</p>
 
 1.  One of the main benefits of CSS is that CSS is very useful for
     Digital Marketing purposes where every promotion of your web page
@@ -2494,9 +2263,8 @@ Let's learn more about CSS benefits such as:
 
 <h2>CSS CONS</h2>
 
-There are a few drops while using CSS. One has to be aware of these
-bad sit- uations in order to know and take care of them while
-designing a website.
+<p>There are a few drops while using CSS. One has to be aware of these bad situations in order to 
+know and take care of them while designing a website.</p>
 
 1.  Confusion due to too many CSS levels: Beginners are at high risk in
     this regard. They may be confused when choosing to read CSS as there
@@ -2515,16 +2283,18 @@ designing a website.
     As a result of testing developer compatibility in different
     browsers, their workload is growing.
 
-All in all, we can say that if you like web development, try learning
+<p>All in all, we can say that if you like web development, try learning
 HTML and CSS. For device compatibility, read the Bootstrap framework.
 While you may see some disadvantages of CSS, many of the benefits are
 counter- productive and make sure your web development process is
-smooth and efficient.
+smooth and efficient.</p>
 
 <h2>CHAPTER SUMMARY</h2>
 
-Here we have covered all the basic concepts of CSS that everyone can use to make their pages attractive. So important thing for working with CSS is just only practice, once you start practicing it, you will get to the point eas- ily. Then in the coming chapter, you will learn CSS properties that make your work so easy. 
-
+<p>Here we have covered all the basic concepts of CSS that everyone can use to make their pages 
+attractive. So important thing for working with CSS is just only practice, once you start 
+practicing it, you will get to the point eas- ily. Then in the coming chapter, you will learn 
+CSS properties that make your work so easy.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h1>CHAPTER 2</h1>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -2539,23 +2309,23 @@ Here we have covered all the basic concepts of CSS that everyone can use to make
 -   CSS Background Properties
 -   CSS Border Properties
 
-In the last chapter, we learned about the basics of CSS, its history,
+<p>In the last chapter, we learned about the basics of CSS, its history,
 types, versions, and other properties such as how to add CSS on
 classes, id, commenting out code, basic HTML, and linking HTML with
 CSS. Now here we are going to discuss various important properties of
 CSS such as display, positioning, border, grid, flex height, width,
-color, font, and so on.
+color, font, and so on.</p>
 
-You style HTML elements via CSS properties. Different HTML ele- ments
+<p>You style HTML elements via CSS properties. Different HTML ele- ments
 may have different CSS layouts to set. CSS layouts can be organized
 into CSS rules. CSS rule binds a set of CSS layouts together, and
 applies all the elements to HTML elements that match the CSS rule.
 This document will include both CSS layouts and CSS rules in more
-detail.
+detail.</p>
 
-In CSS, there are various properties; below you will get the list of
+<p>In CSS, there are various properties; below you will get the list of
 all attributes and then we separate those properties into different
-sections.
+sections.</p>
 
 DOI:
 
@@ -2835,49 +2605,51 @@ DOI:
 
 <h2>CSS LAYOUTS (PROPERTIES)</h2>
 
-The CSS feature is used to set the style of HTML objects. The CSS layout consists of two parts, the name of the property and the value of the prop- erty. Property value included between two (""quotes). 
+<p>The CSS feature is used to set the style of HTML objects. The CSS layout consists of two 
+parts, the name of the property and the value of the prop- erty. Property value included 
+between two (""quotes).</p>
 
-CSS style styles are part of the HTML object.
-Here are a few examples:
+<p>CSS style styles are part of the HTML object.</p>
 
-&lt;div style = &#34;border: 1px solid black; font size: 18px; &#34;&gt; Style
-is an attribute of division tag &lt;/div&gt;
+<p>Here are a few examples:</p>
 
-In this example, two CSS features are used in the div feature: border and font size structures. 
+<p>&lt;div style = &#34;border: 1px solid black; font size: 18px; &#34;&gt; Style 
+is an attribute of division tag &lt;/div&gt;</p>
 
-The CSS layout declaration contains the layout name and layout value.
-The name of the structure comes first, then the colon, then the value.
-Here a common pattern for the following CSS property-value is given
-below:
+<p>In this example, two CSS features are used in the div feature: border and font size structures.</p>
 
-Property-name: property-value
+<p>The CSS layout declaration contains the layout name and layout value.</p>
+<p>The name of the structure comes first, then the colon, then the value.</p>
+<p>Here a common pattern for the following CSS property-value is given below:</p>
 
-If you specify more than one CSS property, each word -- the cooked value is divided into a semicolon as follows: 
+<p>Property-name: property-value</p>
+
+<p>If you specify more than one CSS property, each word -- the cooked value is divided into a semicolon as follows:</p>
 
 <pre>property1: property-value; property2: property-value;</pre>
 
-The final local declaration does not have to end with a semicolon, but
+<p>The final local declaration does not have to end with a semicolon, but
 it makes it easy to add more CSS features without forgetting to add
 that extra semicolon. There are many CSS features that you can specify
 in different HTML elements. These CSS layouts are covered in their
-text.
+text.</p>
 
 <h2>CSS RULES</h2>
 
-CSS rule is a set of one or more CSS elements to be applied to one or
+<p>CSS rule is a set of one or more CSS elements to be applied to one or
 more targeted HTML elements. CSS rule contains a CSS selector and a
 set of CSS layouts. The CSS selector determines which HTML elements
 should be targeted by the CSS rule. CSS features specify what styles
-of HTML objects are intended.
+of HTML objects are intended.</p>
 
-This example creates a CSS rule that governs all div features, as well
+<p>This example creates a CSS rule that governs all div features, as well
 as a set of CSS locations and font size for target objects. The part
 of the CSS selector CSS rule is the front part {. In the above
 example, it is part of the div of the CSS rule. CSS layouts are listed
 within the block {&#8230;}. CSS rules must be specified within the style
-element or within the external CSS file.
+element or within the external CSS file.</p>
 
-Here is an example of CSS rule:
+<p>Here is an example of CSS rule:</p>
 
 <pre>
 div {
@@ -2885,31 +2657,36 @@ div {
 }
 </pre>
 
-The following section consists of the complete list of standard CSS properties belonging to the latest CSS3 specifications. All the properties are grouped into categories given below: 
-
--   CSS animation properties: The animation property is a CSS property
+<p>The following section consists of the complete list of standard CSS properties belonging to the 
+latest CSS3 specifications. All the properties are grouped into categories given below:</p>
+<ul>
+  <li>CSS animation properties: The animation property is a CSS property
     for animation-name, animation-duration, animation-direction,
     animation-timing-function, animation-delay, animation-iteration-
     count, animation-fill-mode, and animation-play-state. Here is the
-    default value of the animation property:
+    default value of the animation property:</li>
+</ul>
 
-<pre>
-none 0 ease 0 1 with normal none running
-</pre>
+<pre>none 0 ease 0 1 with normal none running</pre>
 
-It applies to all elements, before and ::after (other pseudo-elements). The following table describes the values of animation property. 
-
-1.  animation-name property: The animation-name CSS property defines the
+<p>It applies to all elements, before and ::after (other pseudo-elements). The following table 
+describes the values of animation property.</p>
+<ol type="1"
+  <li>animation-name property: The animation-name CSS property defines the
     name of &#64;keyframes defined animations that should be applied to the
-    selected element. The syntax of the property is given below:
+    selected element. The syntax of the property is given below:</li>
+</ol>
+<p><b>animation-name</b>: keyframe name &#124; none &#124; initial &#124; inherit</p>
 
-animation-name: keyframe name &#124; none &#124; initial &#124; inherit
+<p><b>animation-duration</b> property: The animation-duration CSS property defines the number of 
+seconds or milliseconds animation must take to complete one cycle. The syntax of this property 
+is given as:</p>
 
-animation-duration property: The animation-duration CSS property defines the number of seconds or milliseconds animation must take to complete one cycle. The syntax of this property is given as:
+<p><b>animation-duration</b>: time &#124; initial &#124; inherit</p>
 
-animation-duration: time &#124; initial &#124; inherit
-
-animation-timing-function property: : The animation-timing- function CSS property specifies how a CSS animation should prog- ress over the duration of each cycle. The syntax of this property is given as:
+<p><b>animation-timing-function</b> property: The animation-timing- function CSS property 
+specifies how a CSS animation should prog- ress over the duration of each cycle. The syntax 
+of this property is given as:</p>
 
 <pre>
 animation-timing-function: linear &#124; ease &#124; ease-in
@@ -2918,21 +2695,20 @@ animation-timing-function: linear &#124; ease &#124; ease-in
 inherit
 </pre>
 
-animation-delay: It specifies a delay before the animation will start. The animation-delay CSS property defines when the animation will start. The value of this property can be specified in seconds (s) or milliseconds (ms).
+<p><b>animation-delay</b>: It specifies a delay before the animation will start. The 
+animation-delay CSS property defines when the animation will start. The value of this 
+property can be specified in seconds (s) or milliseconds (ms).</p>
 
-The syntax of this property is given as:
+<p>The syntax of this property is given as:</p>
 
-<pre>
-animation-delay: time &#124; initial &#124; inherit
-</pre>
+<pre>animation-delay: time &#124; initial &#124; inherit</pre>
 
-animation-iteration-count property: The animation iteration count property defines the number of times an animation cycle should play before stopping.
+<p><b>animation-iteration-count</b> property: The animation iteration count property defines the 
+number of times an animation cycle should play before stopping.</p>
 
-The syntax of this property is given as:
+<p>The syntax of this property is given as:</p>
 
-<pre>
-animation-iteration-count: number &#124; infinite &#124; initial &#124; inherit
-</pre>
+<pre>animation-iteration-count: number &#124; infinite &#124; initial &#124; inherit</pre>
 
 animation-direction property: The animation-direction CSS prop- erty specifies 
 whether the animation should be played in reverse on alternate cycles or not.
