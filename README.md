@@ -9224,9 +9224,9 @@ value or a number.</p>
 <h4>Example:</h4>
 
 <pre>
-<!DOCTYPE html&gt;
-<html&gt;
-<head&gt;
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
 &lt;style&gt;
 body {
   padding:0; margin:0;
