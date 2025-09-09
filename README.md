@@ -4052,7 +4052,10 @@ amet consectetur adipisicing elit.esentium optio, eaque rerum!&lt;/h1&gt;
 
 CSS various border style.
 
-border-image property: The border-image CSS property speci- fies how an image is to be used in place of the border styles. This is a property for setting border-image-source, border-image- width, border-image-slice, border-image-outset, and border- image-repeat properties at once. The syntax of this property is given as:
+border-image property: The border-image CSS property speci- fies how an image is to be used in 
+place of the border styles. This is a property for setting border-image-source, border-image-width, 
+border-image-slice, border-image-outset, and border- image-repeat properties at once. The syntax 
+of this property is given as:
 
 <pre>
 border-image: &#91; source slice width outset repeat &#93;
@@ -4067,12 +4070,12 @@ border-image: &#91; source slice width outset repeat &#93;
 &lt;head&gt;
 &lt;style&gt;
 .demo_container{ width:400px; margin:0 auto;
-text-align: center; justify-content: center; align-items: center;
+  text-align: center; justify-content: center; align-items: center;
 }
 .box {
-width: 300px; height: 150px;
-border: 15px solid transparent;
-border-image: url(&#34;/images-1.jpg&#34;) 30 30 round;
+  width: 300px; height: 150px;
+  border: 15px solid transparent;
+  border-image: url(&#34;/images-1.jpg&#34;) 30 30 round;
 }
 &lt;/style&gt;
 &lt;/style&gt;
@@ -4100,12 +4103,11 @@ CSS border-image property.
 
 <h2>CSS COLOR PROPERTIES</h2>
 
-The CSS color feature sets the color of the text element content. All
-mod- ern web browsers support different colors to maintain a colorful
-display. In CSS, colors can be represented in several ways and even
-use a color word such as "color: blue." However, this method only
-supports names for cer- tain colors. Therefore, in CSS, other advanced
-methods are used to display colors such as RGB, HSL, HEX, etc.
+The CSS color feature sets the color of the text element content. All modern web browsers 
+support different colors to maintain a colorful display. In CSS, colors can be represented 
+in several ways and even use a color word such as "color: blue." However, this method only
+supports names for cer- tain colors. Therefore, in CSS, other advanced methods are used to 
+display colors such as RGB, HSL, HEX, etc.
 
 <h4>Example:</h4>
 
@@ -4151,14 +4153,13 @@ color: black;
 </p>
 <!-- ![](./images/image029.png){width="2.5396872265966755in" height="0.945in"}  -->
 
-CSS color property (color).
+<h4>CSS color property (color).</h4>
 
 <h5>RGB Colors</h5>
 
-RGB is a combination of three colors (red, green, and blue) which are
-used in all computer programs to display colors. As we know, these are
-the basic colors, and by combining them, we can find any color that
-appears in the color spectrum.
+RGB is a combination of three colors (red, green, and blue) which are used in all computer 
+programs to display colors. As we know, these are the basic colors, and by combining them, 
+we can find any color that appears in the color spectrum.
 
 <h4>Example:</h4>
 
@@ -4204,21 +4205,19 @@ color:rgb(100, 149, 237)
 </p>
 <!-- ![](./images/image030.png){width="3.06in" height="0.945in"}  -->
 
-CSS color property (RGB).
+<h4>CSS color property (RGB).</h4>
 
 <h5>RGBA Colors</h5>
 
-In CSS, RGBA is also a color display format with Alpha extension. The
-structure of this color work is given below:
+<p>In CSS, RGBA is also a color display format with Alpha extension. The structure of this 
+color work is given below:</p>
 
-<pre>
-rgba (Red, Green, Blue, Alpha)
-</pre>
+<pre>rgba (Red, Green, Blue, Alpha)</pre>
 
-In this work, Alpha is used to express color blurring. In CSS opacity, the area 
-is used to set the color brightness and its width is between 0.0 and 1.0, where 0.0 
-stands for absolute transparency and 1.0 represents absolute opaque. You will understand 
-better in the example provided. 
+<p>In this work, Alpha is used to express color blurring. In CSS opacity, the area is used to 
+set the color brightness and its width is between 0.0 and 1.0, where 0.0 stands for absolute 
+transparency and 1.0 represents absolute opaque. You will understand better in the example 
+provided.</p>
 
 <pre>
 &lt;!DOCTYPE html&gt;
@@ -4226,26 +4225,25 @@ better in the example provided.
 &lt;head&gt;
 &lt;style&gt;
 .demo_container{ width:400px; margin:0 auto;
-text-align: center; justify-content: center; align-items: center;
+  text-align: center; justify-content: center; align-items: center;
 }
 .c1{ rgba(11, 156, 49, 0.2)
-background-color: ;
+  background-color: ;
 }
 .c2 {
-background-color: RGBA(11, 156, 49, 0.4)
+  background-color: RGBA(11, 156, 49, 0.4)
 ;
 }
 .c3 {
-background-color: rgba(11, 156, 49, 0.6)
+  background-color: rgba(11, 156, 49, 0.6)
 ;
 }
 .c4 {
-| background-color: RGBA(11,156,49,0.8)
+  | background-color: RGBA(11,156,49,0.8)
 ;
 }
-
 .c5{
-background-color: rgba(11, 156, 49, 1) ;
+  background-color: rgba(11, 156, 49, 1) ;
 }
 &lt;/style&gt;
 &lt;/style&gt;
@@ -4273,28 +4271,25 @@ color code (rgba(11, 156, 49, 0.2). &lt;/h1&gt; &lt;br&gt;
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 31. CSS Color Property (RGBA) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 31. CSS color Property (RGBA) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image031.png?raw=true"
-  alt="CSS Color Property (RGBA)."
-  title="CSS Color Property (RGBA)"
+  alt="CSS color Property (RGBA)."
+  title="CSS color Property (RGBA)"
   style="width:3.1in" />
 </p>
 <!-- ![](./images/image031.png){width="3.1049978127734033in" height="2.8575in"}  -->
 
-CSS color property (RGBA).
+<h4>CSS color property (RGBA).</h4>
 
 <h5>CSS HEX Colors</h5>
 
-CSS colors can also be defined by hexadecimal values, which is another
-way of representing colors. In CSS, it is the most common way to
-define color using hexadecimal values with a "#"
-symbol such as #RRGGBB. Although, R, G, B codes red, green, and blue,
-respectively.
+<p>CSS colors can also be defined by hexadecimal values, which is another way of representing 
+colors. In CSS, it is the most common way to define color using hexadecimal values with a "#"
+symbol such as #RRGGBB. Although, R, G, B codes red, green, and blue, respectively.</p>
 
-Hexadecimal numbers with a combination of 0-9 and A-F are used to
-represent color in CSS. Some examples of HEX basic colors are given
-below.
+<p>Hexadecimal numbers with a combination of 0-9 and A-F are used to represent color in CSS. 
+Some examples of HEX basic colors are given below.</p>
 
 <pre>
 &lt;!DOCTYPE html&gt;
@@ -4302,14 +4297,14 @@ below.
 &lt;head&gt;
 &lt;style&gt;
 .demo_container{ width:400px; margin:0 auto;
-text-align: center; justify-content: center; align-items: center;
-color:red
+  text-align: center; justify-content: center; align-items: center;
+  color:red
 }
 .c1{
-color: #6495ed ;
+  color: #6495ed ;
 }
 .c2 {
-color:#b22222
+  color:#b22222
 }
 &lt;/style&gt;
 &lt;/style&gt;
@@ -4338,13 +4333,12 @@ color:#b22222
 </p>
 <!-- ![](./images/image032.png){width="2.88in" height="0.9449989063867017in"}  -->
 
-CSS color property (HEX).
+<h4>CSS color property (HEX).</h4>
 
-opacity property: The opacity property specifies the transparency of an element. The syntax of this property is given as:
+<p><b>opacity property</b>: The opacity property specifies the transparency of an element. The 
+syntax of this property is given as:</p>
 
-<pre>
-opacity: alphavalue &#124; initial &#124; inherit
-</pre>
+<pre>opacity: alphavalue &#124; initial &#124; inherit</pre>
 
 <h4>Example:</h4>
 
@@ -4353,15 +4347,15 @@ opacity: alphavalue &#124; initial &#124; inherit
 &lt;html&gt;
 &lt;head&gt;
 &lt;style&gt;
-.demo_container{ width:400px; margin:0 auto;
-text-align: center; justify-content: center; align-items: center;
+.demo_container { width:400px; margin:0 auto;
+  text-align: center; justify-content: center; align-items: center;
 }
-.c1{
-opacity: 0.4;
+.c1 {
+  opacity: 0.4;
 }
-img{
-background-image: url(&#39;/images-1.jpg&#39;); width: &#34;300px&#34;;
-height: &#34;300px&#34;; opacity: 0.5;
+img {
+  background-image: url(&#39;/images-1.jpg&#39;); width: &#34;300px&#34;;
+  height: &#34;300px&#34;; opacity: 0.5;
 }
 &lt;/style&gt;
 &lt;/style&gt;
@@ -4377,28 +4371,26 @@ height=&#34;200px&#34;&gt;
 </pre>
 
 <h5>The output of the code is given below:</h5>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 33. CSS Color Opacity Property ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 33. CSS color opacity Property ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image033.png?raw=true"
-  alt="CSS Color Opacity Property."
-  title="CSS Color Opacity Property"
+  alt="CSS color opacity Property."
+  title="CSS color opacity Property"
   style="width:2.4in" />
 </p>
 <!-- ![](./images/image033.png){width="2.489165573053368in" height="2.0058333333333334in"}  -->
 
-CSS color opacity property.
+<h4>CSS color opacity property.</h4>
 
-<h2>[CSS DIMENSION PROPERTIES]</h2>
+<h3>[CSS DIMENSION PROPERTIES]</h3>
 
-height property: The height CSS property specifies the height of the content area of an element. The content area does not include pad- ding, borders, or margins.
+<p><b>height property</b>: The height CSS property specifies the height of the content area of 
+an element. The content area does not include pad- ding, borders, or margins.</p>
 
-The syntax of this property is given as:
+<p>The syntax of this property is given as:</p>
 
-<pre>
-height: length &#124; percentage &#124; auto &#124; initial &#124; inherit
-</pre>
+<pre>height: length &#124; percentage &#124; auto &#124; initial &#124; inherit</pre>
 
 <h4>Example:</h4>
 
@@ -4411,12 +4403,12 @@ height: length &#124; percentage &#124; auto &#124; initial &#124; inherit
 text-align: center; justify-content: center; align-items: center;
 }
 .c1{
-background-color: palevioletred; height: 200px;
-width:300px;
+  background-color: palevioletred; height: 200px;
+  width:300px;
 }
 img{
-background-image: url(&#39;/images-1.jpg&#39;); width: 300px;
-height: 300px;
+  background-image: url(&#39;/images-1.jpg&#39;); width: 300px;
+  height: 300px;
 }
 &lt;/style&gt;
 &lt;/style&gt;
@@ -4434,26 +4426,25 @@ height=&#34;200px&#34;&gt;
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~ 34. CSS Dimension Property - Height, Width ~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~ 34. CSS dimension Property - height, width ~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image034.png?raw=true"
-  alt="CSS Dimension Property - Height, Width."
-  title="CSS Dimension Property - Height, Width"
+  alt="CSS dimension Property - height, width."
+  title="CSS dimension Property - height, width"
   style="width:1.6in" />
 </p>
 <!-- ![](./images/image034.png){width="1.6396872265966753in" height="3.6196872265966755in"}  -->
 
-CSS dimension property -- height, width.
-
-1.  max-height and max-width property: The max-height CSS property
+<h4>CSS dimension property -- height, width.</h4>
+<ol type="1">
+  <li>max-height and max-width property: The max-height CSS property
     specifies the maximum height of the content area of an element. This
-    maximum height does not include padding, borders, or margins.
+    maximum height does not include padding, borders, or margins.</li>
+</ol>
+<p>The <b>max-width</b> property defines the max width of the content area of an
+element. This maximum width does not include padding, bor- ders, or margins.</p>
 
-The max-width property defines the max width of the content area of an
-element. This maximum width does not include padding, bor- ders, or
-margins
-
-The syntax of this property is given as:
+<p>The syntax of this property is given as:</p>
 
 <pre>
 max-height: length &#124; percentage &#124; none &#124; initial
@@ -4462,9 +4453,7 @@ max-height: length &#124; percentage &#124; none &#124; initial
 
 <h5>The syntax of this property is given as:</h5>
 
-<pre>
-max-width: length &#124; percentage &#124; none &#124; initial &#124; inherit
-</pre>
+<pre>max-width: length &#124; percentage &#124; none &#124; initial &#124; inherit</pre>
 
 <h4>Example:</h4>
 
@@ -4473,16 +4462,16 @@ max-width: length &#124; percentage &#124; none &#124; initial &#124; inherit
 &lt;html&gt;
 &lt;head&gt;
 &lt;style&gt;
-.demo_container{ width:500px; height:500px; margin:0 auto;
-text-align: center; justify-content: center; align-items: center;
+.demo_container { width:500px; height:500px; margin:0 auto;
+  text-align: center; justify-content: center; align-items: center;
 }
-.c1{
-background-color: palevioletred; max-height: 300px;
-max-width:300px;
+.c1 {
+  background-color: palevioletred; max-height: 300px;
+  max-width:300px;
 }
-img{
-background-image: url(&#39;/images-1.jpg&#39;); max-height: 200px;
-max-width:300px;
+img {
+  background-image: url(&#39;/images-1.jpg&#39;); max-height: 200px;
+  max-width:300px;
 }
 &lt;/style&gt;
 &lt;/style&gt;
@@ -4501,24 +4490,24 @@ height=&#34;200px&#34;&gt;
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~ 35. CSS Dimension Property - Max-Height, Max-Width ~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 35. CSS dimension Property - max-height, max-width ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image035.png?raw=true"
-  alt="CSS Dimension Property - Max-Height, Max-Width."
-  title="CSS Dimension Property - Max-Height, Max-Width"
+  alt="CSS dimension Property - max-height, max-width."
+  title="CSS dimension Property - max-height, max-width"
   style="width:4.0in" />
 </p>
 <!-- ![](./images/image035.png){width="4.088541119860017in" height="1.75in"}  -->
 
-CSS dimension property -- max-height, max-width.
+<p>CSS <b>dimension</b> property -- max-height, max-width.</p>
 
-min-height property: The min-height CSS property specifies the minimum height of the content area of an element. This minimum height does not include padding, borders, or margins.
+<p><b>min-height</b> property: The min-height CSS property specifies the minimum height of the 
+content area of an element. This minimum height does not include padding, borders, or 
+margins.</p>
 
-The syntax of this property is given as:
+<p>The syntax of this property is given as:</p>
 
-<pre>
-min-height: length &#124; percentage &#124; initial &#124; inherit
-</pre>
+<pre>min-height: length &#124; percentage &#124; initial &#124; inherit</pre>
 
 <h4>Example:</h4>
 
@@ -4527,16 +4516,16 @@ min-height: length &#124; percentage &#124; initial &#124; inherit
 &lt;html&gt;
 &lt;head&gt;
 &lt;style&gt;
-.demo_container{ width:800px; height:500px; margin:0 auto;
-text-align: center; justify-content: center; align-items: center;
+.demo_container { width:800px; height:500px; margin:0 auto;
+  text-align: center; justify-content: center; align-items: center;
 }
-.c1{
-background-color: palevioletred; min-height: 200px;
-min-width:200px;
+.c1 {
+  background-color: palevioletred; min-height: 200px;
+  min-width:200px;
 }
-img{
-background-image: url(&#39;/images-1.jpg&#39;); min-height: 200px;
-min-width:200px;
+img {
+  background-image: url(&#39;/images-1.jpg&#39;); min-height: 200px;
+  min-width:200px;
 }
 &lt;/style&gt;
 &lt;/style&gt;
@@ -4554,7 +4543,9 @@ height=&#34;200px&#34;&gt;
 
 <h2>[CSS GENERATED CONTENT PROPERTIES]</h2>
 
-content property: The content CSS property is used in combination with the ::before and ::after pseudo-elements to generate content in an element. The syntax of this property is given as:
+<p><b>content</b> property: The content CSS property is used in combination with the 
+<b>::before</b> and <b>::after</b> pseudo-elements to generate content in an element. 
+The syntax of this property is given as:</p>
 
 <pre>
 content: normal &#124; none &#124; counter &#124; string &#124; url(url) &#124;
@@ -4569,15 +4560,15 @@ no-close-quote &#124; initial &#124; inherit
 &lt;html&gt;
 &lt;head&gt;
 &lt;style&gt;
-.demo_container{ width:800px;
-height:500px; margin:0 auto;
-text-align: center; justify-content: center; align-items: center;
+.demo_container { width:800px;
+  height:500px; margin:0 auto;
+  text-align: center; justify-content: center; align-items: center;
 }
-.before::before{ content: &#34;Hi! &#34;; display: inline;
-background-color: rgb(211, 81, 81);
+.before::before { content: &#34;Hi! &#34;; display: inline;
+  background-color: rgb(211, 81, 81);
 }
-.after::after{ content: &#34;Bye! &#34;; display: inline;
-background-color: rgb(224, 79, 79);
+.after::after { content: &#34;Bye! &#34;; display: inline;
+  background-color: rgb(224, 79, 79);
 }
 &lt;/style&gt;
 &lt;/style&gt;
@@ -4595,20 +4586,22 @@ your code &lt;/p&gt;
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 36. CSS Content Property ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 36. CSS content Property ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image036.png?raw=true"
-  alt="CSS Content Property."
-  title="CSS Content Property"
+  alt="CSS content Property."
+  title="CSS content Property"
   style="width:3.5in" />
 </p>
 <!-- ![](./images/image036.png){width="3.550025153105862in" height="0.8843744531933508in"}  -->
 
-CSS content property.
+<p>CSS content property.</p>
 
-quotes property: The quotes CSS property specifies the quotation marks for the embedded quotations. The quotes characters specified for this property are used for the open-quote and close-quote values of the content property.
+<p><b>quotes</b> property: The quotes CSS property specifies the quotation marks for the embedded 
+quotations. The quotes characters specified for this property are used for the <b>open-quote</b> 
+and <b>close-quote</b> values of the content property.</p>
 
-The syntax of this property is given as:
+<p>The syntax of this property is given as:</p>
 
 <pre>
 quotes: &#91;string string&#93;one or more pairs &#124; none
@@ -4622,17 +4615,17 @@ quotes: &#91;string string&#93;one or more pairs &#124; none
 &lt;html&gt;
 &lt;head&gt;
 &lt;style&gt;
-.demo_container{ width:800px; height:500px; margin:0 auto;
-text-align: center; justify-content: center; align-items: center;
+.demo_container { width:800px; height:500px; margin:0 auto;
+  text-align: center; justify-content: center; align-items: center;
 }
-q{
-quotes: &#39;&#91;&#39; &#39;&#93;&#39; &#39;&#34;&#39; &#39;&#34;&#39;;
+q {
+  quotes: &#39;&#91;&#39; &#39;&#93;&#39; &#39;&#34;&#39; &#39;&#34;&#39;;
 }
 .q::before {
-content: open-quote;
+  content: open-quote;
 }
 .q::after {
-content: close-quote;
+  content: close-quote;
 }
 &lt;/style&gt;
 &lt;/style&gt;
@@ -4650,9 +4643,11 @@ before every paragraph in your code &lt;q&gt; embedded qutations &lt;/q&gt;
 &lt;/html&gt;
 </pre>
 
-counter-reset property: The counter-reset CSS property is used in combination with the counter-increment property for creating auto- incrementing counters, and with the content property to display the generated counter values.
+<p><b>counter-reset</b> property: The counter-reset CSS property is used in combination with the 
+<b>counter-increment</b> property for creating <b>auto-incrementing</b> counters, and with the 
+content property to display the generated counter values.</p>
 
-The syntax of the property is given as:
+<p>The syntax of the property is given as:</p>
 
 <pre>
 counter-reset: &#91; identifier integer &#93;1 or more pairs &#124; none &#124;
@@ -4666,22 +4661,22 @@ initial &#124; inherit
 &lt;html&gt;
 &lt;head&gt;
 &lt;style&gt;
-.demo_container{ width:800px; height:500px; margin:0 auto;
-text-align: center; justify-content: center; align-items: center;
+.demo_container { width:800px; height:500px; margin:0 auto;
+  text-align: center; justify-content: center; align-items: center;
 }
 h1 {
 }
 counter-reset: category;
 .before::before {
-counter-increment: section;
-content: &#34;Section &#34; counter(section) &#34;. &#34;;
+  counter-increment: section;
+  content: &#34;Section &#34; counter(section) &#34;. &#34;;
 }
 .after::before {
-counter-increment: category; content: counter(section) &#34;.&#34;
-counter(category) &#34; &#34;;
+  counter-increment: category; content: counter(section) &#34;.&#34;
+  counter(category) &#34; &#34;;
 }
-li{
-list-style-type: none;
+li {
+  list-style-type: none;
 }
 &lt;/style&gt;
 &lt;/style&gt;
@@ -4701,27 +4696,25 @@ list-style-type: none;
 
 <h5>The output of the code given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 37. CSS Counter Reset Property ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 37. CSS counter reset Property ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image037.png?raw=true"
-  alt="CSS Counter Reset Property."
-  title="CSS Counter Reset Property"
+  alt="CSS counter reset Property."
+  title="CSS counter reset Property"
   style="width:3.0in" />
 </p>
 <!-- ![](./images/image037.png){width="3.015in" height="1.0462489063867018in"}  -->
 
-CSS counter-reset property.
+<p>CSS counter-reset Property.</p>
 
 <h2>CSS FLEXIBLE BOX LAYOUT</h2>
 
-The alignment-content feature changes the behavior of the flex-wrap
-structure. Aligns dynamic lines. Used to specify alignment between
-lines within a flexible container. This feature describes how each
-flexible line is aligned within the flexbox and only works if the
-flex-wrap: wrap is used, that is, when multiple flexbox lines are
-present.
->
-List of content alignment items:
+<p>The <b>alignment-content</b> feature changes the behavior of the flex-wrap structure. Aligns 
+dynamic lines. Used to specify alignment between lines within a flexible container. This feature 
+describes how each flexible line is aligned within the flexbox and only works if the flex-wrap: 
+wrap is used, that is, when multiple flexbox lines are present.</p>
+
+<p>List of content alignment items:</p>
 
 1.  center : In this, the items are positioned at the center of the flex
     container.
@@ -4749,7 +4742,7 @@ List of content alignment items:
 8.  Inherit : If specified, the element takes the calculated value of
     its par- ent element's align-content property.
 
-The syntax of this property is given as:
+<p>The syntax of this property is given as:</p>
 
 <pre>
 align-content: center &#124; flex-start &#124; flex-end &#124; space- between &#124;
@@ -4800,16 +4793,16 @@ font-weight: bold; font-size: 3em; text-align: center;
 </p>
 <!-- ![](./images/image038.png){width="3.3020833333333335in" height="1.9791666666666667in"}  -->
 
-CSS Flexible Layout.
+<p>CSS Flexible Layout.</p>
 
-<h2>CSS FONT PROPERTIES</h2>
+<h3>CSS FONT PROPERTIES</h3>
 
-The font property sets the style, variant, boldness, line-height, and the font 
-family for an element's text content. It is a property for setting the individ- ual 
+<p>The <b>font</b> property sets the style, variant, boldness, line-height, and the font 
+family for an element's text content. It is a property for setting the individual 
 font properties, that is, font-style, font-variant, font-weight, font-size, line-height, 
-and font-family in a single declaration.
+and font-family in a single declaration.</p>
 
-The syntax of the property is given as:
+<p>The syntax of the property is given as:</p>
 
 <pre>
 font: &#91; font-style font-variant line-height font- family &#93; &#124;
@@ -4824,14 +4817,14 @@ caption &#124; icon &#124; menu &#124; message-box &#124; small-caption &#124; s
 &lt;html&gt;
 &lt;head&gt;
 &lt;style&gt;
-.demo_container{ width:800px; height:500px; margin:0 auto;
-text-align: center; justify-content: center; align-items: center;
+.demo_container { width:800px; height:500px; margin:0 auto;
+  text-align: center; justify-content: center; align-items: center;
 }
-.before{
-font: bold 2.5em &#34;Times New Roman&#34;, Times, serif;
+.before {
+  font: bold 2.5em &#34;Times New Roman&#34;, Times, serif;
 }
-.after{
-font: normal 1.2em Arial, Helvetica, sans-serif;
+.after {
+  font: normal 1.2em Arial, Helvetica, sans-serif;
 }
 &lt;/style&gt;
 &lt;/style&gt;
@@ -4849,19 +4842,19 @@ font ( font: bold 2.5em &#34;Times New Roman&#34;, Times, serif; ) &lt;/p&gt;
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 39.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 39. CSS font style Property ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image039.png?raw=true"
-  alt="."
-  title=""
+  alt="CSS font style Property."
+  title="CSS font style Property"
   style="width:2.6in" />
 </p>
 <!-- ![](./images/image039.png){width="2.626874453193351in" height="0.8268744531933508in"}  -->
 
-CSS font style property.
+<p>CSS font style property.</p>
 
-font-size property: The font-size CSS property sets the font size for the element's 
-text content. The syntax of the property is given as:
+<p><b>font-size</b> property: The font-size CSS property sets the font size for the element's 
+text content. The syntax of the property is given as:</p>
 
 <pre>
 font-size: xx-small &#124; x-small &#124; small &#124; medium &#124; large &#124; x-large
@@ -4879,29 +4872,29 @@ inherit
 .demo_container{ width:400px; margin:0 auto;
 text-align: center; justify-content: center; align-items: center;
 }
-.a{
-font-size: xx-small
+.a {
+  font-size: xx-small
 }
-.b{
-font-size: x-small
+.b {
+  font-size: x-small
 }
-.c{
-font-size: small
+.c {
+  font-size: small
 }
-.d{
-font-size: medium
+.d {
+  font-size: medium
 }
-.e{
-font-size: x-large
+.e {
+  font-size: x-large
 }
-.f{
-font-size: xx-large
+.f {
+  font-size: xx-large
 }
-.g{
-font-size: smaller
+.g {
+  font-size: smaller
 }
-.h{
-font-size: larger
+.h {
+  font-size: larger
 }
 &lt;/style&gt;
 &lt;/head&gt;
@@ -4929,32 +4922,34 @@ font-size: smaller ) &lt;/p&gt;
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 40.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 40. CSS font size Property ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image040.png?raw=true"
-  alt="."
-  title=""
+  alt="CSS font size Property."
+  title="CSS font size Property"
   style="width:2.9in" />
 </p>
 <!-- ![](./images/image040.png){width="2.9446872265966753in" height="3.2231244531933507in"}  -->
 
-CSS font size property.
-
-1.  font-size-adjust property: The CSS feature of the font size
+<p>CSS font size property.</p>
+<ol type="1">
+  <li>font-size-adjust property: The CSS feature of the font size
     adjustment specifies that the font size should be selected based on
-    lowercase characters than uppercase.
-
-If the original font family selection mentioned by the author is not
+    lowercase characters than uppercase.</li>
+</ol>
+<p>If the original font family selection mentioned by the author is not
 available when font back occurs, that may result in a large or small
 font size. The font size change feature is a way to keep text readings
 in such a state. It does this by adjusting the font size so that the x
-length is the same regardless of the font used.
+length is the same regardless of the font used.</p>
 
 <h2>[CSS LIST PROPERTIES]</h2>
 
-list-style property: The list-style CSS property defines the display style for list items. It is a shorthand property for setting the indi- vidual list properties, that is, list-style-type, list-style-position, and list-style-image in a single declaration.
+<p><b>list-style property</b>: The list-style CSS property defines the display style for list 
+items. It is a shorthand property for setting the indi- vidual list properties, that is, 
+list-style-type, list-style-position, and list-style-image in a single declaration.</p>
 
-The syntax of the property is given as:
+<p>The syntax of the property is given as:</p>
 
 <pre>
 list-style: &#91; list-style-type list-style-position list-style-image &#93;
@@ -4968,14 +4963,14 @@ list-style: &#91; list-style-type list-style-position list-style-image &#93;
 &lt;html&gt;
 &lt;head&gt;
 &lt;style&gt;
-.demo_container{ width:400px; margin:0 auto;
-text-align: center; justify-content: center; align-items: center;
+.demo_container { width:400px; margin:0 auto;
+  text-align: center; justify-content: center; align-items: center;
 }
 ul {
 }
 list-style: circle inside;
 ol {
-list-style: upper-latin outside;
+  list-style: upper-latin outside;
 }
 &lt;/style&gt;
 &lt;/head&gt;
@@ -5000,19 +4995,19 @@ list-style: upper-latin outside;
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 41.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 41. Unorder List (Inside) & Ordered List (Outside) ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image041.png?raw=true"
-  alt="."
-  title=""
+  alt="Unorder List (Inside) & Ordered List (Outside)."
+  title="Unorder List (Inside) & Ordered List (Outside)"
   style="width:2.3in" />
 </p>
 <!-- ![](./images/image041.png){width="2.3146872265966754in" height="1.6509372265966755in"}  -->
 
-CSS list-style property.
+<p>CSS list-style property.</p>
 
-list-style-type property: The list-style-type CSS property specifies the type of 
-marker for the list-items.
+<p><b>list-style-type</b> property: The list-style-type CSS property specifies the type of 
+marker for the list-items.</p>
 
 <pre>
 list-style-type: disc &#124; circle &#124; square &#124; decimal&#124; lower-roman &#124;
@@ -5031,11 +5026,11 @@ upper-roman &#124; lower-greek &#124; lower-latin &#124; upper-latin &#124; geor
 .demo_container{ width:400px; margin:0 auto;
 }
 ol {
-list-style-type: decimal-leading-zero
-inside;
+  list-style-type: decimal-leading-zero
+  inside;
 }
 ul {
-list-style-type: square;
+  list-style-type: square;
 }
 &lt;/style&gt;
 &lt;/head&gt;
@@ -5059,80 +5054,72 @@ list-style-type: square;
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 42.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 42. CSS list-style-type Property ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image042.png?raw=true"
-  alt="."
-  title=""
+  alt="CSS list-style-type Property."
+  title="CSS list-style-type Property"
   style="width:2.7in" />
 </p>
 <!-- ![](./images/image042.png){width="2.789054024496938in" height="2.1197911198600177in"}  -->
 
-CSS list-style-type property.
+<p>CSS list-style-type property.</p>
 
-Here you will get various values of list-style-type property.
+<p>Here you will get various values of list-style-type property.</p>
 
 <b>Value Description</b>
 
-disc circle square
+<p>disc circle square</p>
+<p>The marker is a filled circle.</p>
+<p>The marker is a filled hollow circle.</p>
+<p>decimal The marker is as a decimal number Beginning with 1.</p>
+<p>decimal-leading-zero The marker is as a decimal number</p>
+</p>Padded by initial zero</p>
 
-The marker is a filled circle.
+<p>For example, 01, 02, 03, &#8230; 10, 11</p>
 
-The marker is a filled hollow circle.
+<p>lower-greek The marker is a lowercase Greek letters alpha, beta, gamma, &#8230;</p>
 
-decimal The marker is as a decimal number Beginning with 1.
+<p>For example, α, β, γ, &#8230;</p>
 
-decimal-leading-zero The marker is as a decimal number
+<p>upper-roman The marker is as uppercase Roman numerals</p>
 
-Padded by initial zero
+<p>For example, I, II, III, IV, V, &#8230;</p>
 
-For example, 01, 02, 03, &#8230; 10, 11
+<p><b>lower-roman</b>: The marker is as lowercase Roman numerals</p>
 
-lower-greek The marker is a lowercase Greek letters alpha, beta,
-gamma, &#8230;
+<p>For example, i, ii, iii, iv, v, &#8230;</p>
 
-For example, α, β, γ, &#8230;
+<p><b>lower-greek</b>: The marker is as lowercase Greek letters alpha, beta, gamma, &#8230;</p>
 
-upper-roman The marker is as uppercase Roman numerals
+<p>For example, α, β, γ, &#8230;</p>
 
-For example, I, II, III, IV, V, &#8230;
+<p><b>lower-Latin</b>: The marker is as lowercase Latin letters For example, a, b, c, &#8230; z</p>
 
-lower-roman The marker is as lowercase Roman numerals
+<p><b>upper-Latin</b>: The marker is as uppercase Latin letters</p>
 
-For example, i, ii, iii, iv, v, &#8230;
+<p>For example, A, B, C, &#8230; Z</p>
 
-lower-greek The marker is as lowercase Greek letters alpha, beta,
-gamma, &#8230;
+<p><b>lower-alpha</b>: The marker is as uppercase Latin letters For example, a, b, c, &#8230; z</p>
 
-For example, α, β, γ, &#8230;
+<p><b>upper-alpha</b>: The marker is as uppercase Latin letters</p>
 
-lower-Latin The marker is as lowercase Latin letters For example, a,
-b, c, &#8230; z
+<p>For example, A, B, C, &#8230; Z</p>
 
-upper-Latin The marker is as uppercase Latin letters
+<p><b>Armenian</b>: The marker is as traditional Armenian numbering such as</p>
 
-For example, A, B, C, &#8230; Z
+<p>For example, ayb/ayp, ben/pen, gim/keem, &#8230;</p>
 
-lower-alpha The marker is as uppercase Latin letters For example, a,
-b, c, &#8230; z
+<p><b>Georgian</b>: The marker is as traditional of the Georgian numbering</p>
 
-upper-alpha The marker is as uppercase Latin letters
+<p>For example, an, ban, gan, &#8230; he, tan, in &#8230;</p>
 
-For example, A, B, C, &#8230; Z
+<p><b>list-style-image</b> property: The list-style-image property specifies an image to be 
+used as a list-item marker.</p>
 
-Armenian The marker is as traditional Armenian numbering such as
+<p>The syntax of the property is given as:</p>
 
-For example, ayb/ayp, ben/pen, gim/keem, &#8230;
-
-Georgian The marker is as traditional of the Georgian numbering
-
-For example, an, ban, gan, &#8230; he, tan, in &#8230;
-
-list-style-image property: The list-style-image property specifies an image to be used as a list-item marker.
-
-The syntax of the property is given as:
-
-such as URL &#124; none &#124; initial &#124; inherit
+<p>such as URL &#124; none &#124; initial &#124; inherit</p>
 
 <h4>Example:</h4>
 
@@ -5144,7 +5131,7 @@ such as URL &#124; none &#124; initial &#124; inherit
 .demo_container{ width:400px; margin:0 auto;
 }
 ul {
-list-style-image: url(&#34;/images-1.jpg&#34;);
+  list-style-image: url(&#34;/images-1.jpg&#34;);
 }
 &lt;/style&gt;
 &lt;/head&gt;
@@ -5161,11 +5148,11 @@ list-style-image: url(&#34;/images-1.jpg&#34;);
 &lt;/html&gt;
 </pre>
 
-list-style-position property: The list-style-position CSS property defines the position of the list-item marker with respect to the list item's block box. The syntax of this property is given as:
+<p><b>ist-style-position</b> property: The list-style-position CSS property defines the position 
+of the list-item marker with respect to the list item's block box. The syntax of this property 
+is given as:</p>
 
-<pre>
-list-style-position: inside &#124; outside &#124; initial &#124; inherit
-</pre>
+<pre>list-style-position: inside &#124; outside &#124; initial &#124; inherit</pre>
 
 <h4>Example:</h4>
 
@@ -5174,16 +5161,16 @@ list-style-position: inside &#124; outside &#124; initial &#124; inherit
 &lt;html&gt;
 &lt;head&gt;
 &lt;style&gt;
-.demo_container{ width:400px; margin:0 auto;
+.demo_container { width:400px; margin:0 auto;
 }
 ol {
 }
 list-style-position: inside;
 ul {
-list-style-position: outside;
+  list-style-position: outside;
 }
-ol li, ul li{
-background: #d8bfd8;
+ol li, ul li {
+  background: #d8bfd8;
 }
 &lt;/style&gt;
 &lt;/head&gt;
@@ -5208,23 +5195,23 @@ background: #d8bfd8;
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 43.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 43. CSS list-style-position Property ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image043.png?raw=true"
-  alt="."
-  title=""
+  alt="CSS list-style-position Property."
+  title="CSS list-style-position Property"
   style="width:2.9in" />
 </p>
 <!-- ![](./images/image043.png){width="2.984583333333333in" height="2.3183333333333334in"}  -->
 
-CSS list-style-position property.
+<p>CSS list-style-position property.</p>
 
-<h2>CSS MARGIN PROPERTIES</h2>
+<h3>CSS MARGIN PROPERTIES</h3>
 
-The margin property sets the margin on all four sides of the element. It is a 
-shorthand property for margin-top, margin-right, margin-bottom, and margin-left property. 
+<p>The <b>margin</b> property sets the margin on all four sides of the element. It is a 
+shorthand property for margin-top, margin-right, margin-bottom, and margin-left property.</p>
 
-The syntax of this property is given as:
+<p>The syntax of this property is given as:</p>
 
 <pre>
 margin: &#91; length &#124; percentage &#124; auto &#93; 1 to 4 values
@@ -5239,8 +5226,8 @@ margin: &#91; length &#124; percentage &#124; auto &#93; 1 to 4 values
 &lt;head&gt;
 &lt;style&gt;
 .demo_container{ width:600px; margin:0 auto;
-text-align: center; justify-content: center; border:1px solid red ;
-align-items: center;
+  text-align: center; justify-content: center; border:1px solid red ;
+  align-items: center;
 }
 .text-1 {
 border-style: solid;
@@ -5360,11 +5347,11 @@ aliquam nihil, eveniet aliquid culpa officia aut!
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 44.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~ 44. CSS Margin Property (margin-right,top,bottom,left) ~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image044.png?raw=true"
-  alt="."
-  title=""
+  alt="CSS Margin Property (margin-right,top,bottom,left)."
+  title="CSS Margin Property (margin-right,top,bottom,left)"
   style="width:4.4in" />
 </p>
 <!-- ![](./images/image044.png){width="4.4128116797900265in" height="3.5521872265966756in"}  -->
@@ -5451,11 +5438,11 @@ ornare purus.&lt;/p&gt;
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 45.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 45. CSS Various Border Width ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image045.png?raw=true"
-  alt="."
-  title=""
+  alt="CSS Various Border Width."
+  title="CSS Various Border Width"
   style="width:2.9in" />
 </p>
 <!-- ![](./images/image045.png){width="2.9006211723534556in" height="2.7056244531933507in"}  -->
@@ -5554,11 +5541,11 @@ condimentum ornare purus.&lt;/p&gt;
 
 <h5>The output of the code given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 46.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 46. CSS column-fill Property ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image046.png?raw=true"
-  alt="."
-  title=""
+  alt="CSS column-fill Property."
+  title="CSS column-fill Property"
   style="width:4.4in" />
 </p>
 <!-- ![](./images/image046.png){width="4.42125in" height="1.17in"}  -->
@@ -5753,11 +5740,11 @@ condimentum ornare purus.&lt;/p&gt;
 
 <h5>The output of the code given is below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 47.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 47. CSS column-rule Property ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image047.png?raw=true"
-  alt="."
-  title=""
+  alt="CSS column-rule Property."
+  title="CSS column-rule Property"
   style="width:4.0in" />
 </p>
 <!-- ![](./images/image047.png){width="4.091145013123359in" height="1.2005205599300088in"}  -->
@@ -5880,11 +5867,11 @@ quis, condimentum ornare purus.&lt;/p&gt;
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 48.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~ 48. CSS3 column-rule-width,column-rule-color,column-rule-style Property ~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image048.png?raw=true"
-  alt="."
-  title=""
+  alt="CSS3 column-rule-width,column-rule-color,column-rule-style Property."
+  title="CSS3 column-rule-width,column-rule-color,column-rule-style Property"
   style="width:4.4in" />
 </p>
 <!-- ![](./images/image048.png){width="4.415624453193351in" height="1.2909372265966754in"}  -->
@@ -5948,11 +5935,11 @@ Duis bibendum metus arcu.
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 49.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 49. CSS outline Property ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image049.png?raw=true"
-  alt="."
-  title=""
+  alt="CSS outline Property."
+  title="CSS outline Property"
   style="width:3.7in" />
 </p>
 <!-- ![](./images/image049.png){width="3.7734372265966756in" height="1.61in"}  -->
@@ -6037,11 +6024,11 @@ metus arcu.
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 50.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 50. CSS outline-width Property ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image050.png?raw=true"
-  alt="."
-  title=""
+  alt="CSS outline-width Property."
+  title="CSS outline-width Property"
   style="width:4.1in" />
 </p>
 <!-- ![](./images/image050.png){width="4.125in" height="3.465in"}   -->
@@ -6244,11 +6231,11 @@ dictum fermentum ipsum arcu et tellus.&lt;/p&gt;
 
 <h5>The result of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 51.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 51. CSS page-break-after Property ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image051.png?raw=true"
-  alt="."
-  title=""
+  alt="CSS page-break-after Property."
+  title="CSS page-break-after Property"
   style="width:4.1in" />
 </p>
 <!-- ![](./images/image051.png){width="4.101561679790026in" height="2.598957786526684in"}  -->
@@ -6337,11 +6324,11 @@ border: 1px solid black;
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 52.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~ 52. CSS Border Collapse - With/Without ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image052.png?raw=true"
-  alt="."
-  title=""
+  alt="CSS Border Collapge - With/Without."
+  title="CSS Border Collapge - With/Without"
   style="width:2.7in" />
 </p>
 <!-- ![](./images/image052.png){width="2.7890616797900263in" height="2.2031244531933507in"} -->
@@ -6413,11 +6400,11 @@ both horizontal and vertical border spacing.&lt;/p&gt;
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 53.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 53. CSS Border-spacing Property ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image053.png?raw=true"
-  alt="."
-  title=""
+  alt="CSS Border-spacing Property."
+  title="CSS Border-spacing Property"
   style="width:2.4in" />
 </p>
 <!-- ![](./images/image053.png){width="2.46125in" height="2.527707786526684in"}  -->
@@ -6498,11 +6485,11 @@ border-bottom: 1px purple solid; padding: 20px
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 54.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 54. CSS caption Property ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image054.png?raw=true"
-  alt="."
-  title=""
+  alt="CSS caption Property."
+  title="CSS caption Property"
   style="width:2.0in" />
 </p>
 <!-- ![](./images/image054.png){width="2.0587489063867017in" height="2.2190616797900264in"}  -->
@@ -6594,11 +6581,11 @@ empty-cells: hide;
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 55.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 55. CSS empty-cell Property ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image055.png?raw=true"
-  alt="."
-  title=""
+  alt="CSS empty-cell Property."
+  title="CSS empty-cell Property"
   style="width:2.8in" />
 </p>
 <!-- ![](./images/image055.png){width="2.8541655730533684in" height="2.9296872265966756in"}  -->
@@ -6685,11 +6672,11 @@ architecto voluptate aliquam nhil, eveniet aliquid culpa officia aut!
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 56.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 56. CSS text-align Property ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image056.png?raw=true"
-  alt="."
-  title=""
+  alt="CSS text-align Property."
+  title="CSS text-align Property"
   style="width:4.4in" />
 </p>
 <!-- ![](./images/image056.png){width="4.429686132983377in" height="4.494374453193351in"}  -->
@@ -6813,11 +6800,11 @@ fuga praesentium optio, eaque rerum!&lt;/h1&gt;
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 57.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~ 57. CSS text-decoration-color/line/style Property ~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image057.png?raw=true"
-  alt="."
-  title=""
+  alt="CSS text-decoration-color/line/style Property."
+  title="CSS text-decoration-color/line/style Property"
   style="width:3.1in" />
 </p>
 <!-- ![](./images/image057.png){width="3.1171872265966756in" height="2.565in"}  -->
@@ -6864,11 +6851,11 @@ text-orientation: sideways;
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 58.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 58. CSS text-orienation Property ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image058.png?raw=true"
-  alt="."
-  title=""
+  alt="CSS text-orientation Property."
+  title="CSS text-orientation Property"
   style="width:1.1in" />
 </p>
 <!-- ![](./images/image058.png){width="1.1446806649168855in" height="2.2921872265966754in"}  -->
@@ -6921,11 +6908,11 @@ fuga praesentium optio, eaque rerum!&lt;/h1&gt;
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 59.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 59. CSS text-overflow Property ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image059.png?raw=true"
-  alt="."
-  title=""
+  alt="CSS text-overflow Property."
+  title="CSS text-overflow Property"
   style="width:4.1in" />
 </p>
 <!-- ![](./images/image059.png){width="4.101561679790026in" height="1.0in"}  -->
@@ -6988,11 +6975,11 @@ You are learning CSS.
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 60. css text-shadow property ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 60. CSS text-shadow Property ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image060.png?raw=true"
-  alt="CSS text-shadow property."
-  title="CSS text-shadow property"
+  alt="CSS text-shadow Property."
+  title="CSS text-shadow Property"
   style="width:1.8in" />
 </p>
 <!-- ![](./images/image060.png){width="1.8697911198600174in" height="1.518228346456693in"}  -->
@@ -7194,11 +7181,11 @@ box8&#34;&gt;rotate(-45deg)&lt;/div&gt;
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 61. 2d transform functions ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 61. 2d transform Functions ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image061.png?raw=true"
-  alt="2d transform functions."
-  title="2d transform functions"
+  alt="2d transform Functions."
+  title="2d transform Functions"
   style="width:4.4in" />
 </p>
 <!-- ![](./images/image061.png){width="4.429687226596675in" height="2.041874453193351in"}  -->
@@ -7349,11 +7336,11 @@ z&#34;&gt;translateZ(200px)&lt;/div&gt;
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 62. 3d transform functions ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 62. 3d transform Functions ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image062.png?raw=true"
-  alt="3d transform functions."
-  title="3d transform functions"
+  alt="3d transform Functions."
+  title="3d transform Functions"
   style="width:4.4in" />
 </p>
 <!-- ![](./images/image062.png){width="4.426909448818898in" height="1.2375in"}  -->
@@ -7407,7 +7394,7 @@ background-color: beige;
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 63. css transition properties ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 63. CSS transition Properties ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image063.png?raw=true"
   alt="CSS transition Properties."
@@ -7425,11 +7412,11 @@ so that it makes clear to understand the syntax of how to write code in CSS. The
 chapter is about the most important concept in CSS named CSS Selectors. 
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 06.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 06. Taylor & Francis logo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image006.png?raw=true"
-  alt="."
-  title=""
+  alt="Taylor & Francis logo."
+  title="Taylor & Francis logo"
   style="width:3.6in" />
 </p>
 <!-- ![](./images/image006.png){width="3.6393208661417322in" height="0.9622911198600175in"}  -->
@@ -7819,11 +7806,11 @@ p {
 
 <h5>The output of the above code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 68.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 68. The blur() Function ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image068.png?raw=true"
-  alt="."
-  title=""
+  alt="The blur() Function."
+  title="The blur() Function"
   style="width:4.4in" />
 </p>
 <!-- ![](./images/image068.png){width="4.429687226596675in" height="3.5775in"}  -->
@@ -7879,11 +7866,11 @@ property values. &lt;/h1&gt;
 
 <h5>The output of the above code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 69.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 69. The calc() Function ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image069.png?raw=true"
-  alt="."
-  title=""
+  alt="The calc() Function."
+  title="The calc() Function"
   style="width:4.2in" />
 </p>
 <!-- ![](./images/image069.png){width="4.265624453193351in" height="0.9208333333333333in"}  -->
@@ -7982,11 +7969,11 @@ Vitae justoeget magna fermentum iaculis.&lt;/p&gt;
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 70.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 70. The circle() Function ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image070.png?raw=true"
-  alt="."
-  title=""
+  alt="The circle() Function."
+  title="The circle() Function"
   style="width:4.1in" />
 </p>
 <!-- ![](./images/image070.png){width="4.101581364829396in" height="2.5208333333333335in"}  -->
@@ -8053,11 +8040,11 @@ Vitae justo eget magna fermentum iaculis.&lt;/p&gt;
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 71.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 71. The circle() Function ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image071.png?raw=true"
-  alt="."
-  title=""
+  alt="The circle() Function."
+  title="The circle() Function"
   style="width:4.1in" />
 </p>
 <!-- ![](./images/image071.png){width="4.101573709536308in" height="2.4166666666666665in"}  -->
@@ -8124,11 +8111,11 @@ Vitae justo eget magna fermentum iaculis.&lt;/p&gt;
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 72.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 72. The clip-path:circle() Property ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image072.png?raw=true"
-  alt="."
-  title=""
+  alt="The clip-path:circle() Property."
+  title="The clip-path:circle() Property"
   style="width:4.4in" />
 </p>
 <!-- ![](./images/image072.png){width="4.429687226596675in" height="1.665in"}  -->
@@ -8206,11 +8193,11 @@ the contrast on given image. &lt;/h3&gt;
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 73.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 73. The contrast() Function ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image073.png?raw=true"
-  alt="."
-  title=""
+  alt="The contrast() Function."
+  title="The contrast() Function"
   style="width:4.4in" />
 </p>
 <!-- ![](./images/image073.png){width="4.429687226596675in" height="3.3046872265966756in"}  -->
@@ -8289,11 +8276,11 @@ The list of programming is given below:
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 74.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 74. The counter() Function ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image074.png?raw=true"
-  alt="."
-  title=""
+  alt="The counter() Function."
+  title="The counter() Function"
   style="width:4.4in" />
 </p>
 <!-- ![](./images/image074.png){width="4.429721128608924in" height="0.5625in"}  -->
@@ -8412,11 +8399,11 @@ have been generated by an element and its parent/s. &lt;/h3&gt;
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 75.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 75. The counter() Function ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image075.png?raw=true"
-  alt="."
-  title=""
+  alt="The counter() Function."
+  title="The counter() Function"
   style="width:4.4in" />
 </p>
 <!-- ![](./images/image075.png){width="4.429687226596675in" height="3.16125in"}  -->
@@ -8478,11 +8465,11 @@ custom cubic Bézier curve.
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 76.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 76. The cubic-bezier() Function ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image076.png?raw=true"
-  alt="."
-  title=""
+  alt="The cubic-bezier() Function."
+  title="The cubic-bezier() Function"
   style="width:4.4in" />
 </p>
 <!-- ![](./images/image076.png){width="4.429680664916885in" height="1.0349989063867016in"}  -->
@@ -8566,11 +8553,11 @@ alt=&#34;Sample image&#34;&gt;
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 77.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 77. The contrast() Function ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image077.png?raw=true"
-  alt="."
-  title=""
+  alt="The contrast() Function."
+  title="The contrast() Function"
   style="width:4.4in" />
 </p>
 <!-- ![](./images/image077.png){width="4.407188320209974in" height="3.42in"}  -->
@@ -8697,11 +8684,11 @@ Vitae juso eget magna fermentum iaculis.&lt;/p&gt;
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 78.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 78. The ellipse() Function ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image078.png?raw=true"
-  alt="."
-  title=""
+  alt="The ellipse() Function."
+  title="The ellipse() Function"
   style="width:4.4in" />
 </p>
 <!-- ![](./images/image078.png){width="4.429687226596675in" height="4.32in"}  -->
@@ -8842,11 +8829,11 @@ image.&lt;/h2&gt;
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 79.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 79. The filter() Function ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image079.png?raw=true"
-  alt="."
-  title=""
+  alt="The filter() Function."
+  title="The filter() Function"
   style="width:4.4in" />
 </p>
 <!-- ![](./images/image079.png){width="4.409998906386702in" height="1.7325in"}  -->
@@ -8928,11 +8915,11 @@ line-height: 2; font-size:20px
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 80.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 80. The grayscale() Function ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image080.png?raw=true"
-  alt="."
-  title=""
+  alt="The grayscale() Function."
+  title="The grayscale() Function"
   style="width:4.4in" />
 </p>
 <!-- ![](./images/image080.png){width="4.429687226596675in" height="3.5325in"}  -->
@@ -9036,11 +9023,11 @@ Cras facilisis mauris sit amet venenatis aliquet. Suspendisse potent.
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 81.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 81. The hsl() Function ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image081.png?raw=true"
-  alt="."
-  title=""
+  alt="The hsl() Function."
+  title="The hsl() Function"
   style="width:3.6in" />
 </p>
 <!-- ![](./images/image081.png){width="3.6093744531933507in" height="3.6483333333333334in"}  -->
@@ -9135,11 +9122,11 @@ Cras facilisis mauris sit amet venenatis aliquet. Suspendisse potent.
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 82.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 82. The hsla() Function ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image082.png?raw=true"
-  alt="."
-  title=""
+  alt="The hsla() Function."
+  title="The hsla() Function"
   style="width:4.1in" />
 </p>
 <!-- ![](./images/image082.png){width="4.101561679790026in" height="4.145833333333333in"}  -->
@@ -9224,11 +9211,11 @@ line-height: 2; font-size:20px
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 83.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 83. The hue-rotate() Function ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image083.png?raw=true"
-  alt="."
-  title=""
+  alt="The hue-rotate() Function."
+  title="The hue-rotate() Function"
   style="width:4.2in" />
 </p>
 <!-- ![](./images/image083.png){width="4.265624453193351in" height="3.38in"}  -->
@@ -9315,11 +9302,11 @@ Vitae justo eget magna fermentum iaculis.&lt;/p&gt;
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 84.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 84. The inset() Function ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image084.png?raw=true"
-  alt="."
-  title=""
+  alt="The inset() Function."
+  title="The inset() Function"
   style="width:4.2in" />
 </p>
 <!-- ![](./images/image084.png){width="4.265624453193351in" height="2.6433333333333335in"}  -->
@@ -9424,11 +9411,11 @@ gradient using CSS.&lt;/h2&gt;
 
 <h5>The output of the ode is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 85.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 85. The contrast() Function ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image085.png?raw=true"
-  alt="."
-  title=""
+  alt="The contrast() Function."
+  title="The contrast() Function"
   style="width:4.0in" />
 </p>
 <!-- ![](./images/image085.png){width="4.096353893263342in" height="4.143228346456693in"}  -->
@@ -9503,11 +9490,11 @@ function = transform: matrix(0.707107, 0.707107, -0.707107, 0.707107,
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 86.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 86. The matrix() Function ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image086.png?raw=true"
-  alt="."
-  title=""
+  alt="The matrix() Function."
+  title="The matrix() Function"
   style="width:4.4in" />
 </p>
 <!-- ![](./images/image086.png){width="4.429687226596675in" height="2.559374453193351in"}  -->
@@ -9581,11 +9568,11 @@ function = transform: matrix(0.707107, 0.707107, -0.707107, 0.707107,
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 87.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 87. The matrix3d() Function ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image087.png?raw=true"
-  alt="."
-  title=""
+  alt="The matrix3d() Function."
+  title="The matrix3d() Function"
   style="width:4.4in" />
 </p>
 <!-- ![](./images/image087.png){width="4.429693788276466in" height="1.8618744531933509in"}  -->
@@ -9662,11 +9649,11 @@ value or a number.
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 88.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 88. The matrix3d() Function, again ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image088.png?raw=true"
-  alt="."
-  title=""
+  alt="The matrix3d() Function, again."
+  title="The matrix3d() Function, again"
   style="width:3.7in" />
 </p>
 <!-- ![](./images/image088.png){width="3.7734372265966756in" height="2.9947911198600177in"}  -->
@@ -9755,11 +9742,11 @@ Image &lt;/p&gt;
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 89.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 89. The perspective() Function ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image089.png?raw=true"
-  alt="."
-  title=""
+  alt="The perspective() Function."
+  title="The perspective() Function"
   style="width:4.4in" />
 </p>
 <!-- ![](./images/image089.png){width="4.426874453193351in" height="2.896874453193351in"}  -->
@@ -9842,11 +9829,11 @@ bottom right, yellow, red) &lt;/p&gt;
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 90.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 90. The radial-gradient() Function ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image090.png?raw=true"
-  alt="."
-  title=""
+  alt="The radial-gradient() Function."
+  title="The radial-gradient() Function"
   style="width:4.4in" />
 </p>
 <!-- ![](./images/image090.png){width="4.429687226596675in" height="4.1315616797900265in"}  -->
@@ -9971,11 +9958,11 @@ orange, gold 15%, orange 30%)
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 91.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 91. The repeating-linear-gradient() Function ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image091.png?raw=true"
-  alt="."
-  title=""
+  alt="The repeating-linear-gradient() Function."
+  title="The repeating-linear-gradient() Function"
   style="width:4.4in" />
 </p>
 <!-- ![](./images/image091.png){width="4.429687226596675in" height="4.474687226596675in"}  -->
@@ -10129,11 +10116,11 @@ at 25px 35px, orange 15%, gold 40%)&lt;/p&gt;
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 92.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~ 92. The repeating-radial-gradient() Function, again ~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image092.png?raw=true"
-  alt="."
-  title=""
+  alt="The repeating-radial-gradient() Function, again."
+  title="The repeating-radial-gradient() Function, again"
   style="width:4.2in" />
 </p>
 <!-- ![](./images/image092.png){width="4.265624453193351in" height="5.893332239720035in"}  -->
@@ -10257,11 +10244,11 @@ using CSS&lt;/h2&gt;
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 93.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 93. The rgb() Function ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image093.png?raw=true"
-  alt="."
-  title=""
+  alt="The rgb() Function."
+  title="The rgb() Function"
   style="width:4.4in" />
 </p>
 <!-- ![](./images/image093.png){width="4.429692694663167in" height="3.3975in"}  -->
@@ -10365,11 +10352,11 @@ two-dimensional space.&lt;/h2&gt;
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 94.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 94. The rotate() Function ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image094.png?raw=true"
-  alt="."
-  title=""
+  alt="The rotate() Function."
+  title="The rotate() Function"
   style="width:4.4in" />
 </p>
 <!-- ![](./images/image094.png){width="4.429687226596675in" height="2.2725in"}  -->
@@ -10490,11 +10477,11 @@ three-dimensional space.&lt;/h2&gt;
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 95.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 95. The rotate3d() Function ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image095.png?raw=true"
-  alt="."
-  title=""
+  alt="The rotate3d() Function."
+  title="The rotate3d() Function"
   style="width:4.4in" />
 </p>
 <!-- ![](./images/image095.png){width="4.42969050743657in" height="1.845in"}  -->
@@ -10653,11 +10640,11 @@ z-axis in a three-dimensional space.&lt;/h2&gt;
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 96.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 96. The rotateX() Function ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image096.png?raw=true"
-  alt="."
-  title=""
+  alt="The rotateX() Function."
+  title="The rotateX() Function"
   style="width:4.1in" />
 </p>
 <!-- ![](./images/image096.png){width="4.101561679790026in" height="4.789061679790026in"}  -->
@@ -10730,11 +10717,11 @@ padding-top: 20px; font-size:20px
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 97.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 97. The saturate() Function ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image097.png?raw=true"
-  alt="."
-  title=""
+  alt="The saturate() Function."
+  title="The saturate() Function"
   style="width:4.4in" />
 </p>
 <!-- ![](./images/image097.png){width="4.429687226596675in" height="3.5775in"}  -->
@@ -10809,11 +10796,11 @@ two-dimensional space. &lt;/h2&gt;
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 98.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 98. The scale() Function ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image098.png?raw=true"
-  alt="."
-  title=""
+  alt="The scale() Function."
+  title="The scale() Function"
   style="width:3.6in" />
 </p>
 <!-- ![](./images/image098.png){width="3.609381014873141in" height="4.154791119860017in"}  -->
@@ -10887,11 +10874,11 @@ three-dimensional space. &lt;/h2&gt;
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 99.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 99. The scale3d() Function ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image099.png?raw=true"
-  alt="."
-  title=""
+  alt="The scale3d() Function."
+  title="The scale3d() Function"
   style="width:4.4in" />
 </p>
 <!-- ![](./images/image099.png){width="4.429687226596675in" height="1.0434372265966754in"}  -->
@@ -10967,11 +10954,11 @@ alt=&#34;Sample image&#34;&gt;
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 100.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 100. The scaleX() Function ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image100.png?raw=true"
-  alt="."
-  title=""
+  alt="The scaleX() Function."
+  title="The scaleX() Function"
   style="width:4.4in" />
 </p>
 <!-- ![](./images/image100.png){width="4.41in" height="4.364998906386702in"}  -->
@@ -11042,11 +11029,11 @@ alt=&#34;Sample image&#34;&gt;
 <h5>The output of the code is given below:</h5>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 101.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 101. The scaleY() Function ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image101.png?raw=true"
-  alt="."
-  title=""
+  alt="The scaleY() Function."
+  title="The scaleY() Function"
   style="width:4.4in" />
 </p>
 <!-- ![](./images/image101.png){width="4.429687226596675in" height="5.146874453193351in"}  -->
@@ -11124,11 +11111,11 @@ alt=&#34;Sample image&#34;&gt;
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 102.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 102. the scaleZ() Function ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image102.png?raw=true"
-  alt="."
-  title=""
+  alt="The scaleZ() Function."
+  title="The scaleZ() Function"
   style="width:4.4in" />
 </p>
 <!-- ![](./images/image102.png){width="4.429687226596675in" height="2.939061679790026in"}  -->
@@ -11231,11 +11218,11 @@ two-dimensional space. &lt;/h2&gt;
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 103.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 103. The skew() Function ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image103.png?raw=true"
-  alt="."
-  title=""
+  alt="The skew() Function."
+  title="The skew() Function"
   style="width:4.1in" />
 </p>
 <!-- ![](./images/image103.png){width="4.101567147856518in" height="3.875in"}  -->
@@ -11312,11 +11299,11 @@ two-dimensional space along the x-axis. &lt;/h2&gt;
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 104.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 104. the skewX() Function ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image104.png?raw=true"
-  alt="."
-  title=""
+  alt="The skewX() Function."
+  title="The skewX() Function"
   style="width:4.4in" />
 </p>
 <!-- ![](./images/image104.png){width="4.421245625546806in" height="3.1640616797900263in"}  -->
@@ -11328,11 +11315,11 @@ CSS function (skewX()).
 In this chapter, we saw various built-in methods like attr(), RGB(), rgba(), and so on. These functions have their own unique functionality and prop- erties. So next chapter is about CSS plugins. 
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 06.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 06. Taylor & Francis logo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image006.png?raw=true"
-  alt="."
-  title=""
+  alt="Taylor & Francis logo."
+  title="Taylor & Francis logo"
   style="width:3.6in" />
 </p>
 <!-- ![](./images/image6.png){width="3.6393208661417322in" height="0.9622911198600175in"}  -->
@@ -12670,11 +12657,11 @@ transform: translate3d(var(&#45;-move-final), 0,
 </pre>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 105.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 105. Stratos Font Family ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image105.png?raw=true"
-  alt="."
-  title=""
+  alt="Stratos Font Family."
+  title="Stratos Font Family"
   style="width:4.4in" />
 </p>
 <!-- ![](./images/image105.png){width="4.429687226596675in" height="1.5328116797900262in"}  -->
@@ -12832,11 +12819,11 @@ s
 </pre>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 106.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 106. Menu Effect, Marquee Menu Effect ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image106.png?raw=true"
-  alt="."
-  title=""
+  alt="Menu Effect, Marquee Menu Effect."
+  title="Menu Effect, Marquee Menu Effect"
   style="width:4.4in" />
 </p>
 <!-- ![](./images/image106.png){width="4.4259241032370955in" height="0.2784372265966754in"}  -->
@@ -13034,11 +13021,11 @@ In CSS, you can use various CSS properties such as:
     printed version of your web pages.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 06.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 06. Taylor & Francis logo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image006.png?raw=true"
-  alt="."
-  title=""
+  alt="Taylor & Francis logo."
+  title="Taylor & Francis logo"
   style="width:3.6in" />
 </p>
 <!-- ![](./images/image6.png){width="3.6393208661417322in" height="0.9622911198600175in"}  -->
@@ -13279,11 +13266,11 @@ Bibliography ■ **419**
     accessed on May 25, 2022.
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~ 06.  ~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 06. Taylor & Francis logo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image006.png?raw=true"
-  alt="."
-  title=""
+  alt="Taylor & Francis logo."
+  title="Taylor & Francis logo"
   style="width:3.6in" />
 </p>
 <!-- ![](./images/image6.png){width="3.6393208661417322in" height="0.9622911198600175in"}  -->
