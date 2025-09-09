@@ -9132,7 +9132,7 @@ function = transform: matrix(0.707107, 0.707107, -0.707107, 0.707107,
 </p>
 <!-- ![](./images/image086.png){width="4.429687226596675in" height="2.559374453193351in"}  -->
 
-CSS function- matrix().
+<p>CSS function <b>matrix3d()</b>.</p>
 
 <h3>matrix3d()</h3>
 
@@ -9150,50 +9150,50 @@ scaleZ(), and perspective().</p>
 &lt;head&gt;
 &lt;style&gt;
 &#42; { padding:0; margin:0;
-box-sizing: border-box;
+  box-sizing: border-box;
 }
 .demo_container{ padding:20px; width:900px; margin:0 auto;
-justify-content: center; align-items: center;
+  justify-content: center; align-items: center;
 }
-.matrix-1{
-transform-origin: 0 0; padding: 20px;
-width: 300px; height:300px; background: lime green; color: white;
-font-family: sans-serif;
+.matrix-1 {
+  transform-origin: 0 0; padding: 20px;
+  width: 300px; height:300px; background: lime green; color: white;
+  font-family: sans-serif;
 }
 .matrix-2 {
-transform-origin: 0 0;
-transform: matrix3d(0.583333, 0.186887, 0.9044,
-0, -0.52022, 0.833333, 0.186887, 0, -0.623773,
--0.52022, 0.583333, 0, 0, 0, 0, 1); padding:
-20px;
-width: 300px; height:250px; background: lime green; color: white;
-font-family: sans-serif;
+  transform-origin: 0 0;
+  transform: matrix3d(0.583333, 0.186887, 0.9044,
+  0, -0.52022, 0.833333, 0.186887, 0, -0.623773,
+  -0.52022, 0.583333, 0, 0, 0, 0, 1); padding:
+  20px;
+  width: 300px; height:250px; background: lime green; color: white;
+  font-family: sans-serif;
 }
-.row{
-display: flex;
+.row {
+  display: flex;
 }
-.col{
-width:100%
+.col {
+  width:100%
 }
 &lt;/style&gt;
 &lt;/head&gt;
 &lt;body&gt;
 &lt;div class=&#34;demo_container&#34;&gt;
-&lt;h1&gt;The CSS matrix3d() function can be used with CSS transforms to
-style elements in a three- dimensional space.&lt;/h1&gt;
-&lt;div class=&#34;row&#34;&gt;
-&lt;div class=&#34;col&#34;&gt;
-&lt;div class=&#34;matrix-1&#34;&gt; Scaled and moved with&lt;code&gt;matrix()
-function = transform: matrix(0.707107, 0.707107, -0.707107, 0.707107,
-150, 0);&lt;/code&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class=&#34;col&#34;&gt;
-&lt;div class=&#34;matrix-2&#34;&gt; Scaled and moved with
-&lt;code&gt;matrix() function = transform: matrix(2, 0, 0, 2, 0, 0);
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/code&gt;
-&lt;/div&gt;
+  &lt;h1&gt;The CSS matrix3d() function can be used with CSS transforms to
+  style elements in a three- dimensional space.&lt;/h1&gt;
+  &lt;div class=&#34;row&#34;&gt;
+    &lt;div class=&#34;col&#34;&gt;
+      &lt;div class=&#34;matrix-1&#34;&gt; Scaled and moved with&lt;code&gt;matrix()
+        function = transform: matrix(0.707107, 0.707107, -0.707107, 0.707107,
+        150, 0);&lt;/code&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;col&#34;&gt;
+        &lt;div class=&#34;matrix-2&#34;&gt; Scaled and moved with
+          &lt;code&gt;matrix() function = transform: matrix(2, 0, 0, 2, 0, 0);
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/code&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;/html&gt;
