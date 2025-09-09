@@ -10822,7 +10822,7 @@ two-dimensional space. &lt;/h2&gt;
 </p>
 <!-- ![](./images/image103.png){width="4.101567147856518in" height="3.875in"}  -->
 
-<p>CSS function <b>skew()<b>.</p>
+<p>CSS function <b>skew()</b>.</p>
 
 <h3>skewX()</h3>
 
@@ -10891,6 +10891,7 @@ two-dimensional space along the x-axis. &lt;/h2&gt;
 &lt;/body&gt;
 &lt;/html&gt;
 </pre>
+
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 104. the skewX() Function ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -10902,11 +10903,12 @@ two-dimensional space along the x-axis. &lt;/h2&gt;
 </p>
 <!-- ![](./images/image104.png){width="4.421245625546806in" height="3.1640616797900263in"}  -->
 
-<p>CSS function (skewX()).</p>
+<p>CSS function <b>(skewX())</b>.</p>
 
 <h2>CHAPTER SUMMARY</h2>
 
-<p>In this chapter, we saw various built-in methods like attr(), RGB(), rgba(), and so on. These functions have their own unique functionality and prop- erties. So next chapter is about CSS plugins.</p>
+<p>In this chapter, we saw various built-in methods like attr(), RGB(), rgba(), and so on. These 
+functions have their own unique functionality and prop- erties. So next chapter is about CSS plugins.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 06. Taylor & Francis logo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -10930,7 +10932,7 @@ two-dimensional space along the x-axis. &lt;/h2&gt;
   <li>CSSnext</li>
   <li>CSS MarqueeMenu Plugin</li>
 </ul>
-
+<br>
 <p>In the last chapter, we studied about CSS functions. In this chapter, we will discuss some 
 plugins that are based on CSS and also work with JavaScript or any other programming language. 
 So PostCSS plays a major role in it. All other plugins are defined in PostCSS. PostCSS is a
@@ -11006,13 +11008,13 @@ if the CSS is uncompressed.
 
 <pre>
 a {
--webkit-box-sizing: border-box;
--moz-box-sizing: border-box; box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box; box-sizing: border-box;
 }
 </pre>
 
 <p>The output with Autoprefixer will be like this (you can check the Autoprefixers code online using, 
-<a href="https://tools.webdevpuneet.com/">css-autoprefixer/</a>:/&#42;</p>
+<a href="https://tools.webdevpuneet.com/">css-autoprefixer</a>:/&#42;</p>
 
 <p>&#42; Prefixed by:</p>
 
@@ -11267,12 +11269,11 @@ have to use the prefixes yourself when writing CSS.</p>
 features and at the same time takes care of translating them into CSS that is
 more digestible for older browsers:</p>
 
--   adds prefixes using Autoprefixer (so if you use this you don't need
-    to use Autoprefixer directly).
-
--   allows you to use CSS variables.
-
--   allows you to use nesting, like in Sass.
+<ul>
+  <li>adds prefixes using Autoprefixer (so if you use this you don't need to use Autoprefixer directly).</li>
+  <li>allows you to use CSS variables.</li>
+  <li>allows you to use nesting, like in Sass.</li>
+</ul>
 
 <h3>CSSnano</h3>
 
@@ -11319,9 +11320,7 @@ styles-out.css styles.css &#45;-watch
 <h5>You can specify more fine-grained configuration options in a json con- figuration file to 
 specify the config file with the -- config flag:</h5>
 
-<pre>
-&#36; postcss &#45;-config postcss-config.json
-</pre>
+<pre>&#36; postcss &#45;-config postcss-config.json</pre>
 
 <h5>Your config file will look like this:</h5>
 
@@ -11340,8 +11339,8 @@ package.json file:</p>
 
 <pre>
 &#34;scripts&#34;: {
-&#34;postcss&#34;: &#34;postcss &#45;-use postcss-cssnext &#45;-use cssnano &#45;-output
-styles-out.css styles.css&#34;
+  &#34;postcss&#34;: &#34;postcss &#45;-use postcss-cssnext &#45;-use cssnano &#45;-output
+  styles-out.css styles.css&#34;
 }
 </pre>
 
@@ -11357,7 +11356,7 @@ styles-out.css styles.css&#34;
 &#36;blue: #056ef0;
 &#36;column: 200px;
 .menu {
-width: calc(4 &#42; &#36;column);
+  width: calc(4 &#42; &#36;column);
 }
 .menu_link { background: &#36;blue; width: &#36;column;
 }
@@ -11405,9 +11404,9 @@ postcssExRule.process(CSS_CODE /&#42;, processOptions, pluginOptions
 
 <h5>There are various Options available in this plugins.</h5>
 
-The name option determines the at-rule name being used to extend
+<p>The name option determines the at-rule name being used to extend
 selectors. By default, this name is extend, meaning &#64;extend rules are
-parsed.
+parsed.</p>
 
 <pre>postcssExtend({ name: &#39;postcss-extend&#39; })</pre>
 
@@ -11816,6 +11815,7 @@ beautiful grids that can be easily used without spending much time
 with customization.</p>
 
 <p>You can do installation by using the below libraries:</p>
+
 <ul>
   <li><b>Gulp</b>: First, you have to install NodeJs then install gulp globally using the 
     below command:</li>
@@ -11903,7 +11903,7 @@ grunt.registerTask(&#39;default&#39;, &#91;&#39;watch&#39;&#93;);
 &#36; npm install -g brunch
 </pre>
 
-Create a new Brunch project brunch new
+<p>Create a new Brunch project brunch new.</p>
 
 <h5>Install PostCSS:</h5>
 
@@ -11925,7 +11925,7 @@ Create a new Brunch project brunch new
 
 <h5>Update brunch-config.coffee</h5>
 
-This will be file of export given below:
+<p>This will be file of export given below:</p>
 
 <pre>
 exports.config = files:
@@ -11940,55 +11940,54 @@ processors: &#91; require(&#39;autoprefixer&#39;)(), require(&#39;lost&#39;)
 
 <h5>Now run the brunch using this command:</h5>
 
-brunch watch
+<p>brunch watch</p>
 
-There are also various options to install this plugin:
+<p>There are also various options to install this plugin:</p>
 
--   Stylus
-
--   JavaScript
-
--   Webpack
-
--   Meteor
+<ul>
+  <li>Stylus</li>
+  <li>JavaScript</li>
+  <li>Webpack</li>
+  <li>Meteor</li>
+</ul>
 
 <h3>PostCSS</h3>
 
-PostCSS plugin generates spritesheets from your stylesheets.
+<p>PostCSS plugin generates spritesheets from your stylesheets.</p>
 
-It is a software development tool that uses JavaScript-based plugins
+<p>It is a software development tool that uses JavaScript-based plugins
 to automate routine CSS operations. It was previously designed by
 Andrey Sitnik with the idea carrying its origin in his front-end work
-for Evil Martians.
+for Evil Martians.</p>
 
-It is a framework to develop CSS tools. It can also be used to develop
-a template language such as Sass and LESS.
+<p>It is a framework to develop CSS tools. It can also be used to develop
+a template language such as Sass and LESS.</p>
 
-The PostCSS has core components which are given as below:
+<p>The PostCSS has core components which are given as below:</p>
 
 -   CSS parser generates an abstract syntax tree.
 -   It is a set of classes that comprise the tree.
 -   CSS generator generates a line for the object tree.
 -   Code map generator for the changes made.
 
-Features
+<p>Features</p>
 
-Plugins are small programs working with a tree of objects. After the
+<p>Plugins are small programs working with a tree of objects. After the
 core transforms the CSS string into a tree of objects, the plugins
 parse and modify the tree. Then PostCSS will generate a new CSS string
 for the tree changed by the plugin. PostCSS & its plugins are written
 in JavaScript and installed through npm, which offers an API for
-various low-level JavaScript operations.
+various low-level JavaScript operations.</p>
 
-There are official tools that allow you to
+<p>There are official tools that allow you to
 use PostCSS with build systems such as Webpack, Gulp, and Grunt. A
 console interface is also available. Browserify or Webpack can use to
 open PostCSS in a browser. PostCSS plugins perform a variety of CSS
 processing tasks, from parsing and sort- ing properties to
-minification.
+minification.</p>
 
-A full list of plugins can be found at postcss.parts with some
-examples listed below:
+<p>A full list of plugins can be found at postcss.parts with some
+examples listed below:</p>
 
 -   Autoprefixer for adding and deleting browser prefixes. CSS modules
     for isolating CSS selectors and organizing code. It comes as part of
@@ -12013,14 +12012,16 @@ examples listed below:
 -   postcss-assets, postcss-inline-svg, and postcss-sprites for working
     with graphics.
 
-We discuss some of the plugins in brief.
+<p>We discuss some of the plugins in brief.</p>
 
 <h2>POSTCSS-MODULES ( CSS MODULES )</h2>
 
-<h5>A CSS Module is a CSS file in which all class and animation names are scoped locally by default. All URLs (url(&#8230;)) and &#64;imports are in module request format (./xxx and . ./xxx means relative, xxx and xxx/yyy means in modules folder, i. e. in node_modules).</h5>
+<p>A CSS Module is a CSS file in which all class and animation names are scoped locally 
+by default. All URLs (url(&#8230;)) and &#64;imports are in module request format (./xxx 
+and . ./xxx means relative, xxx and xxx/yyy means in modules folder, i. e. in node_modules).</p>
 
-CSS Modules compile to a low-level interchange format called ICSS or
-Interoperable CSS but are written like normal CSS files:
+<p>CSS Modules compile to a low-level interchange format called ICSS or
+Interoperable CSS but are written like normal CSS files:</p>
 
 <pre>
 /&#42; style.css &#42;/
@@ -12028,7 +12029,7 @@ Interoperable CSS but are written like normal CSS files:
 }
 </pre>
 
-<h5>When importing the CSS Module from a JS Module, it exports an object with all mappings from local names to global names.</h5>
+<p>When importing the CSS Module from a JS Module, it exports an object with all mappings from local names to global names.</p>
 
 <pre>
 import styles from &#34;./style.css&#34;;
@@ -12039,12 +12040,12 @@ import styles from &#34;./style.css&#34;;
 
 <h5>Naming (localsConvention)</h5>
 
-For local class names camelCase naming is recommended:
+<p>For local class names camelCase naming is recommended:</p>
 
-Type: String &#124; (originalClassName: string, generatedClassName:
-string, inputFile: string) =&gt; className: string Default: null
+<p>Type: String &#124; (originalClassName: string, generatedClassName:
+string, inputFile: string) =&gt; className: string Default: null</p>
 
-Style of exported classnames, the keys in your json.
+<p>Style of exported classnames, the keys in your json.</p>
 
 1.  camelCase' - {String}: The class names should be camelized.
 
@@ -12057,7 +12058,7 @@ Style of exported classnames, the keys in your json.
 4.  'dashesOnly'- {String}- It is dashes in class names that will be
     camelized.
 
-Features
+<p>Features</p>
 
 -   Modular and reusable CSS.
 -   No more conflicts.
@@ -12066,13 +12067,13 @@ Features
 
 <h3>CSS MarqueeMenu PLUGIN</h3>
 
-It is a type of animation effect used in developing web pages for
+<p>It is a type of animation effect used in developing web pages for
 getting attractive text or image scrolling in vertical or horizontal
-directions.
+directions.</p>
 
-Note: You can download the CSS MarqueeMenu plugin in the working
+<p>Note: You can download the CSS MarqueeMenu plugin in the working
 folder and include the required files in the head section of the HTML
-code.
+code.</p>
 
 <h4>Example:</h4>
 
@@ -12213,7 +12214,6 @@ transform: translate3d(var(&#45;-move-final), 0,
 }
 }
 </pre>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 105. Stratos Font Family ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -12391,13 +12391,12 @@ CSS MarqueeMenu plugin.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>CHAPTER SUMMARY</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-In this chapter, we looked at various CSS plugins. It improves the
-coding functionality by adding these to your plugins.
+<p>In this chapter, we looked at various CSS plugins. It improves the
+coding functionality by adding these to your plugins.</p>
 
 <h3>Appraisal</h3>
 
-If you want to be a front end developer, you should have a good qual-
+<p>If you want to be a front end developer, you should have a good qual-
 ity book, which makes you the developer from scratch to advance. We
 believe, nowadays the development is on the peek. You might have seen
 that many biggest companies start their work from scratch by
@@ -12408,15 +12407,15 @@ CSS, JavaScript, and many more. You can now extend their functionality
 by using the third parties packages. Second, the world of technology
 is constantly changing. With the growing demand of technologies to
 provide the effective code product, various companies introduce all
-the new technologies.
+the new technologies.</p>
 
-To make or look at your website, we use HTML with CSS. Basically, CSS
-is used to design any page or website.
+<p>To make or look at your website, we use HTML with CSS. Basically, CSS
+is used to design any page or website.</p>
 
-CSS makes the front end of a website clean and it also creates a great
+<p>CSS makes the front end of a website clean and it also creates a great
 user experience. Without CSS, websites could be less attractive to
 others. In addition to layout and format, CSS is only responsible for
-font color and so on.
+font color and so on.</p>
 
 -   CSS helps to keep the informational content of a document separate.
 
@@ -12430,7 +12429,7 @@ font color and so on.
         purposes.
 
 
-Your website may have thousands of pages that
+<p>Your website may have thousands of pages that
 look similar. With CSS, you store style information in common files
 that everyone can share. When a user displays a web page, the browser
 loads the style along with the content of the page. When a user prints
@@ -12443,9 +12442,9 @@ provides some ways to specify style. For example, in HTML you can use
 the &lt;b&gt; tag to make text bold, and in its &lt;body&gt; tag you can
 specify the background color of the page. When you use CSS, you
 usually avoid using these HTML style fea- tures, so all of your
-document's styling information is in one place.
+document's styling information is in one place.</p>
 
-CSS stands for Cascading Style Sheets. It is a language used to
+<p>CSS stands for Cascading Style Sheets. It is a language used to
 stylize a web page. Also, changing the look and layout of a web page
 using it is absolutely simple. You can also control how a website
 appears on different screens of different devices such as mobile
@@ -12456,20 +12455,20 @@ specific HTML element. However, a single CSS can be redirected to
 multiple web pages, allowing you to change the look of multiple pages
 at once. CSS is easy to learn and understand and provides a robust
 command over view- ing an HTML document. Often CSS is combined with
-markup languages, that is, HTML or XHTML.
+markup languages, that is, HTML or XHTML.</p>
 
 <h2>HOW CASCADING STYLE SHEETS WORK</h2>
 
-Cascading Style Sheet has a completely different approach to a web
+<p>Cascading Style Sheet has a completely different approach to a web
 page style and layout. Every time an HTML document is viewed in a
 browser, the content comes with style information. Basically, the HTML
 file contains the content of a page and the style sheet contains
 information about the style of a page. Therefore, the main purpose of
 Cascade Style Sheets is to allow elements to appear in the HTML
 document. And these specified standards guide how content will be
-executed.
+executed.</p>
 
-There are various versions of CSS such as:
+<p>There are various versions of CSS such as:</p>
 
 -   CSS1
 
@@ -12477,7 +12476,7 @@ There are various versions of CSS such as:
 
 -   CSS3
 
-There are various types of CSS such as:
+<p>There are various types of CSS such as:</p>
 
 -   Embedded CSS
 
@@ -12526,7 +12525,7 @@ There are various types of CSS such as:
     and JavaScript becomes clearer once we know some of the basics of
     CSS and HTML.
 
-In CSS, you can use various CSS properties such as:
+<p>In CSS, you can use various CSS properties such as:</p>
 
 -   CSS Color Codes: It is a color picker, color charts, and code
     examples all in one page. It includes hex values, RGB, color names,
@@ -12587,7 +12586,6 @@ In CSS, you can use various CSS properties such as:
   style="width:3.6in" />
 </p>
 <!-- ![](./images/image6.png){width="3.6393208661417322in" height="0.9622911198600175in"}  -->
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>Bibliography</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
