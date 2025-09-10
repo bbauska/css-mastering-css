@@ -136,63 +136,58 @@ edition. &#124; Boca Raton : CRC Press, 2024. &#124; Series:</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>Contents</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2>Chapter 1: CSS Introduction</h2>
-<h3><a href="#ch1-1">Different Types of CSS You Can Use</a></h3>
-<h3><a href="#ch1-2">CSS Classes</a></h3>
-<h3><a href="#ch1-3">CSS IDs</a></h3>
-<h3><a href="#ch1-4">CSS Difference Between ID and Class</a></h3>
-<h3><a href="#ch1-5">CSS Division</a></h3>
-<h3><a href="#ch1-6">CSS Colors</a></h3>
-<h3><a href="#ch1-7">Names</a></h3>
+<h2><a href="#ch1">Chapter 1: CSS Introduction</a></h2>
+<h3><a href="#css-types">Different Types of CSS You Can Use</a></h3>
+<h3><a href="#css-classes">CSS Classes</a></h3>
+<h3><a href="#css-ids">CSS IDs</a></h3>
+<h3><a href="#css-diff-between-id-and-class">CSS Difference Between ID and Class</a></h3>
+<h3><a href="#css-division">CSS Division</a></h3>
+<h3><a href="#css-color">CSS Colors</a></h3>
+<h3><a href="#names">Names</a></h3>
+<h3><a href="#color-values">List of Color Values</a></h3>
+<h3><a href="#rgb-color">RGB Color</a></h3>
+<h3><a href="#how-to-use-rgb-colors">How to Use RGB Colors in HTML</a></h3>
+<h3><a href="#extended-color-keywords">Extended Color Keywords</a></h3>
+<h3><a href="#different-type-of-selectors">Different Types of Selectors</a></h3>
+<h3><a href="#selector-name">Selector Name</a></h3>
+<h3><a href="#css-background">CSS Background</a></h3>
+<h3><a href="#multiple-background">Multiple Backgrounds</a></h3>
+<h3><a href="#css-border">CSS Border</a></h3>
+<h3><a href="#border">Border</a></h3>
+<h3><a href="#css-border-width-and-color">CSS Border Width and Color</a></h3>
+<h3><a href="#css-margins">CSS Margins</a></h3>
+<h3><a href="#css-padding">CSS Padding</a></h3>
+<h3><a href="#css-box-model">CSS Box Model</a></h3>
+<h3><a href="#css-tables">CSS Tables</a></h3>
+<h3><a href="#css-fonts">CSS Fonts</a></h3>
+<h3><a href="css-text">CSS Text</a></h3>
 
-[CHAPTER 1 CSS: Introduction](#CHAPTER_1:_CSS:_Introduction)
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-[DIFFERENT TYPES OF CSS YOU CAN USE 14](#different-types-of-css-you-can-use)
-[CSS CLASSES 19](#css-classes)
-[CSS IDs 20](#css-ids)
+<h3><a href="#css-functions">CSS Functions</a></h3>
+<h3><a href="#why-flexbox">Why Flexbox?</a></h3>
+<h3><a href="#css-flexbox">CSS Flexbox</a></h3>
+<h3><a href="#css-media-types">CSS Media Types</a></h3>
+<h3><a href="#intro-media-types">Intro to Media Types</a></h3>
 
-[WHAT IS THE DIFFERENCE BETWEEN ID AND CLASS? 20](#what-is-the-difference-between-id-and-class)
-[CSS DIVISION 21](#css-division)
-[HOW TO USE CSS PROPERTIES 21](#css-how-properties)
-[CSS COLORS 22](#css-colors)
-[Names 22](#names)
-
-[List of Color Values 23](#list-of-color-values)
-[RGB COLOR 24](#rgb-color)
-[How to Use RGB Colors in HTML 25](#how-to-use-rgb-colors-in-html)
-[Extended Color Keywords 27](#extended-color-keywords)
-
-[DIFFERENT TYPES OF SELECTORS 30](#different-types-of-selectors)
-[Selector Name 30](#selector-name)
-
-[CSS BACKGROUND 31](#css-background)
-[MULTIPLE BACKGROUNDS 32](#multiple-backgrounds)
-[CSS BORDER 33](#css-border)
-[Border 33](#border)
-[CSS BORDER WIDTH AND COLOR 34](#css-border-width-and-color)
-[CSS MARGINS 34](#css-margins)
-[CSS PADDING 35](#css-padding)
-[CSS BOX MODEL 35](#_bookmark109)
-[CSS TABLES 36](#css-tables)
-[CSS FONTS 36](#css-fonts)
-[CSS TEXT 37](#css-text)
-
-[CSS FUNCTIONS 37](#css-functions)
-[WHY FLEXBOX? 40](#why-flexbox)
-[CSS FLEXBOX 40](#css-flexbox)
-
-[CSS MEDIA TYPES 41](#css-media-types)
-[INTRODUCTION TO MEDIA TYPES 41](#introduction-to-media-types)
+<h3><a href=""></a></h3>
 [METHOD 1: USING &#64;MEDIA AT-RULES 41](#method-1-using-media-at-rules)
+<h3><a href=""></a></h3>
 [METHOD 2: USING &#64;IMPORT AT-RULES 42](#method-2-using-import-at-rules)
+<h3><a href=""></a></h3>
 [METHOD 3: USING THE &lt;link\ELEMENT 42](#method-3-using-the-link-element)
+<h3><a href=""></a></h3>
 [DIFFERENT MEDIA TYPES 42](#different-media-types)
+<h3><a href=""></a></h3>
 
 [MEDIA QUESTIONS AND RESPONSIVE WEB DESIGN 43](#media-questions-and-responsive-web-design)
+<h3><a href=""></a></h3>
 [MEDIA QUERIES 43](#media-queries)
+<h3><a href=""></a></h3>
 [BENEFITS YOU MAY KNOW 44](#benefits-you-may-know)
+<h3><a href=""></a></h3>
 [CSS CONS 45](#css-cons)
+<h3><a href=""></a></h3>
 [CHAPTER SUMMARY 46](#chapter-summary)
+<h3><a href=""></a></h3>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 [CHAPTER 2 CSS Properties 47](#CHAPTER_2:_CSS_Properties)
