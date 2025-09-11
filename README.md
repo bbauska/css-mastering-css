@@ -11,8 +11,9 @@
   style="width:5in" />
 </p>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>Mastering CSS</h2>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Cascading Style Sheets (CSS) is an open-source programming language
 used in website building and HTML templates that integrates all
 relevant information re- lated to web page displays. CSS is used to
@@ -793,29 +794,25 @@ specifies the link associated with the CSS file. We'll get to the links later, f
 sure that style.css file is in the same folder as index.html file. The rel attribute tells your 
 browser that this is a style sheet. The attribute type tells the browser that the linked file
 should be translated as CSS syntax.</p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>HOW CSS AND HTML WORK TOGETHER</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-CSS is only concerned with web page layout, while page content is
+<p>CSS is only concerned with web page layout, while page content is
 defined using marker language such as HTML. The separation of style
 and content has various advantages, among them improved accessibility,
-and more control over web design.
+and more control over web design.</p>
 
-CSS documents are used to define a web page
+<p>CSS documents are used to define a web page
 style, then linked to an HTML document (or document in a different tag
 language) that con- tains the content and layout of the page. Setting
 the style directly to the HTML document is possible but not
 recommended. CSS texts can be created in any text editor, such as Text
 Editor on Mac or Notepad for Windows, as well as many other free also
-paid options that you can download.
-
+paid options that you can download.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>HOW DOES CSS WORK?</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-CSS contains the rules and values that a web browser can use in the
+<p>CSS contains the rules and values that a web browser can use in the
 content of a web page to better display its content. For example, you
 can use to define that the body part of a page has a blue background,
 that the text is displayed in a white Helvetica font with a size of
@@ -825,17 +822,17 @@ step in a CSS document is the winner -- unless the first rule is very
 clear. For example, you might have two rules for your conflicting CSS
 file -- such as setting body font in blue and section font in green.
 In this case, the effective rule will be the category font, because it
-is much clearer than the body font.
-
+is much clearer than the body font.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>CSS SYNTAX</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-Now move on to the original CSS. The first thing we do is make the paragraph content a different color. So the type or paste into your style file.css. 
+<p>Now move on to the original CSS. The first thing we do is make the paragraph content a 
+different color. So the type or paste into your style file.css.</p>
 
 <pre>p { color: blue; }</pre>
 
-This looks different from the code in the HTML file because it is a dif- ferent syntax. I will add a white area and cut into that code as follows: 
+<p>This looks different from the code in the HTML file because it is a dif- ferent syntax. 
+I will add a white area and cut into that code as follows:</p>
 
 <pre>
 p {
@@ -843,14 +840,14 @@ p {
 }
 </pre>
 
-Both of the above examples are exactly the same about your browser.
+<p>Both of the above examples are exactly the same about your browser.</p>
 
-But developers often write CSS as the latest example to differentiate
+<p>But developers often write CSS as the latest example to differentiate
 styles. CSS is a rule-based language -- defines rules by specifying
 groups of styles to be applied to specific objects or groups of
 objects on your webpage. For example, you may decide that a major
 topic on your page is shown as a red flag. The following code shows a
-simple CSS rule.
+simple CSS rule.</p>
 
 <pre>
 p {
@@ -858,29 +855,27 @@ p {
 }
 </pre>
 
--   For example, the CSS rule opens with a selector.
-
--   Selects the HTML element that will style it. In this case, we style
-    the first-level titles (&lt;p&gt;).
-
--   Then we have a set of twisted pieces {}.
-
--   Inside the instruments, there will be one or more announcements,
+<ul>
+  <li>For example, the CSS rule opens with a selector.</li>
+  <li>Selects the HTML element that will style it. In this case, we style
+    the first-level titles (&lt;p&gt;).</li>
+  <li>Then we have a set of twisted pieces {}.</li>
+  <li>Inside the instruments, there will be one or more announcements,
     which take the form of the goods and pairs of values. It specifies
     the location (color in the example above) before the colon and the
-    value of the property after the colon (red for example).
-
--   This example contains two declarations, one color and one font size.
+    value of the property after the colon (red for example).</li>
+  <li>This example contains two declarations, one color and one font size.
     Each pair specifies the location of the element (s) we select (&lt;p&gt;
     in this case), and then the value we would like to give the
-    structure.
+    structure.</li>
+</ul>
 
-CSS layouts have different valid values, depending on the specified
+<p>CSS layouts have different valid values, depending on the specified
 format. In our example, we have a color package, which can take on
 different color values. We also have a font size structure. This
-structure can take units of various sizes as a value.
+structure can take units of various sizes as a value.</p>
 
-The CSS style sheet will contain many such rules, written in sequence.
+<p>The CSS style sheet will contain many such rules, written in sequence.</p>
 
 <pre>
 p {
@@ -960,6 +955,7 @@ you, but we recommend using an External Style Sheet, which is the third type we'
 </ol>
 
 <p>An explanation of CSS methods is given below:</p>
+
 <ul>
   <li><b>External style sheet:</b> The external CSS file can be created using
     any text or HTML editor like "Notepad" or "Dreamweaver." A CSS file
@@ -986,9 +982,9 @@ lt;head&gt;
 &lt;/head&gt;
 &lt;body&gt;
 </pre>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>or,</h2>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <pre>
 lt;head&gt;
 &lt;title&gt; Title &lt;title&gt;
@@ -1161,16 +1157,15 @@ max-width:600px; max-width: auto;&#34;&gt;
 
 <h4>The inline style sheet.</h4>
 
-<p>External style sheets contain CSS
-instructions, and these are special files, and have a .css file
-extension. If an external style sheet is installed on any web page,
-the CSS file will control its sound and appearance.</p>
+<p>External style sheets contain CSS instructions, and these are special files, and have a 
+.css file extension. If an external style sheet is installed on any web page, the CSS file 
+will control its sound and appearance.</p>
 
-<p>Using an external style sheet, all your HTML files are linked to a
-single CSS file to format the pages. This means that if you need to
-change the design of all your pages, you only need to edit one .css
-file to make general changes to your entire website. Here are a few
-reasons why this is better.</p>
+<p>Using an external style sheet, all your HTML files are linked to a single CSS file to 
+format the pages. This means that if you need to change the design of all your pages, you 
+only need to edit one .css file to make general changes to your entire website. Here are 
+a few reasons why this is better.</p>
+
 <ul>
   <li>Easier Maintenance</li>
   <li>Reduced File Size</li>
@@ -1243,6 +1238,7 @@ similar elements via CSS, but what is the difference?</p>
   <li>Only one ID can be set for each Item.</li>
   <li>The ID should only be used within a page.</li>
 </ul>
+
 <p>You should use the id when you have only one element on the page that you want to render. Your 
 code cannot pass the validation test, which is important for web developers.</p>
 
@@ -1251,17 +1247,15 @@ code cannot pass the validation test, which is important for web developers.</p>
 <pre>
 &lt;div id=&#34;main-header&#34;&gt; text &lt;/div&gt;
 </pre>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>CSS DIVISION</h3>
-
-<p>Previously, you've learned the basics of CSS, how syntax works, and a
-little bit about classes and ids here. We'll now take a short break
-from CSS and focus on the HTML side of using it. Sections are
-block-level HTML ele- ments used to describe sections of an HTML file.
-A section can contain all the parts that make up your website,
-including additional sections, spans, images, text, etc. You define a
-section within an HTML file by placing the following between &lt;body&gt;
-&lt;/body&gt;.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p>Previously, you've learned the basics of CSS, how syntax works, and a little bit about 
+classes and ids here. We'll now take a short break from CSS and focus on the HTML side of 
+using it. Sections are block-level HTML ele- ments used to describe sections of an HTML file.
+A section can contain all the parts that make up your website, including additional sections, 
+spans, images, text, etc. You define a section within an HTML file by placing the following 
+between &lt;body&gt; &lt;/body&gt;.</p>
 
 <h4>Sample:</h4>
 
@@ -1287,8 +1281,9 @@ contains:
 defined in my CSS file. A split creates a line break by default. You can use both classes and 
 sections of your website.</p>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>HOW TO USE CSS PROPERTIES</h3>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>CSS layouts are used to apply styles to structured documents, such as those created in HTML 
 or XML. CSS layouts are specified at the CSS level. Each property has a set of some possible 
 values. Some properties can affect the type of element, while others apply only to certain 
@@ -1381,31 +1376,29 @@ a:hover {
   <li>Indigo</li>
   <li>Ivory</li>
 </ol>
+
 <h4>RGB COLOR</h4>
 
-<p>There are different colors that add a different atmosphere to various
-designs. The right choice of colors can make designs and creations
-look clean, aesthetic, and modern. But the bad colors can make a
-project difficult for users to interact with because it will look not
+<p>There are different colors that add a different atmosphere to various designs. The right 
+choice of colors can make designs and creations look clean, aesthetic, and modern. But the 
+bad colors can make a project difficult for users to interact with because it will look not
 attractive to others.</p>
 
-<p>The color of the border (border), background (background color), or
-foreground (color) -- the text decorations on the page have a huge
-impact, so you have to put some effort into getting them right.</p>
+<p>The color of the border (border), background (background color), or foreground (color) 
+-- the text decorations on the page have a huge impact, so you have to put some effort into 
+getting them right.</p>
 
-<p>CSS lets you use a wide variety of different
-colors and color systems. They range from named colors to hexagonal
-colors, RGB() colors, hsl col- ors, and more.</p>
+<p>CSS lets you use a wide variety of different colors and color systems. They range from 
+named colors to hexagonal colors, RGB() colors, hsl col- ors, and more.</p>
 
 <h4>How to Use RGB Colors in HTML</h4>
 
-<p>The easiest way to apply color to your HTML elements is to write your
-HTML in a .html file. Then, in that file, simply associate your .css
-style sheet with all the colors and styles you specify.</p>
+<p>The easiest way to apply color to your HTML elements is to write your HTML in a .html 
+file. Then, in that file, simply associate your .css style sheet with all the colors and 
+styles you specify.</p>
 
-<p>It makes code easier to read and removes any considered best practice
-concerns. We can have an about.html file with some HTML code like
-this:</p>
+<p>It makes code easier to read and removes any considered best practice concerns. We can 
+have an about.html file with some HTML code like this:</p>
 
 <h4>Example:</h4>
 
@@ -1669,15 +1662,18 @@ RGB(255, 255, 0)
 RGB(139, 205, 50)
 </pre>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>DIFFERENT TYPES OF SELECTORS</h3>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>There are many different selectors. The examples above use item selectors that select all items 
 of a given type. But we can also make more specific choices. Here are some of the common types of 
 selectors:</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>Selector Name</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <ul>
-  <li>The CSS element selector: This element selector selects HTML elements based on the element name.</li>
+  <li>The CSS element selector: This element selector selects HTML elements based on the 
+    element name.</li>
 </ul>
 
 <h4>Syntax:</h4>
@@ -1685,11 +1681,10 @@ selectors:</p>
 <pre>&lt;p&gt;</pre>
 
 <ul>
-  <li>The CSS id selector: The selector id uses the id attribute of an
-    element to select a particular element. The id is unique in a single
-    page, so the id is used to select a unique element. To select a
-    particular element with an id, write a hash (#) symbol, followed by
-    the id of the element.</li>
+  <li>The CSS id selector: The selector id uses the id attribute of an element to select a 
+    particular element. The id is unique in a single page, so the id is used to select a 
+	unique element. To select a particular element with an id, write a hash (#) symbol, 
+	followed by the id of the element.</li>
 </ul>
 
 <h4>Syntax:</h4>
@@ -1750,9 +1745,9 @@ selectors:</p>
 <pre>a:hover</pre>
 
 <p>selects &lt;a&gt;, works when the mouse pointer is hovering over the link.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>CSS BACKGROUND</h2>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>The background property allows to control the background of the element. It is a property, 
 which means that it allows to write what would be multiple CSS properties in one.</p>
 
@@ -1760,50 +1755,53 @@ which means that it allows to write what would be multiple CSS properties in one
 
 <pre>
 body {
-background:
-URL(sweettexture.jpg) /&#42; image &#42;/
-top center / 200px 200px /&#42; position / size &#42;/ no-repeat /&#42; repeat
-&#42;/
-fixed /&#42; attachment &#42;/
-padding-box /&#42; origin &#42;/
-content-box /&#42; clip &#42;/
-red; /&#42; color &#42;/
+  background:
+  URL(sweettexture.jpg) /&#42; image &#42;/
+  top center / 200px 200px /&#42; position / size &#42;/ no-repeat /&#42; repeat
+  &#42;/
+  fixed /&#42; attachment &#42;/
+  padding-box /&#42; origin &#42;/
+  content-box /&#42; clip &#42;/
+  red; /&#42; color &#42;/
 }
 </pre>
 
 <p>There are eight other properties available under the background given below:</p>
+<ul>
+  <li>background-repeat</li>
+  <li>background-attachment</li>
+  <li>background-image</li>
+  <li>background-clip</li>
+  <li>background-color</li>
+  <li>background-position</li>
+  <li>background-size</li>
+  <li>background-origin</li>
+</ul>
 
--   background-repeat
--   background-attachment
--   background-image
--   background-clip
--   background-color
--   background-position
--   background-size
--   background-origin
-
-<p>You can use any of the combinations of these properties that you love to use, in almost any order.</p>
-
+<p>You can use any of the combinations of these properties that you love to use, in almost 
+any order.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>MULTIPLE BACKGROUNDS</h2>
-
-<p>CSS3 added support for various backgrounds, which layer over the top of each other. Any property related to the backgrounds can take a comma (,) separated list, like this:</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p>CSS3 added support for various backgrounds, which layer over the top of each other. Any 
+property related to the backgrounds can take a comma (,) separated list, like this:</p>
 
 <pre>
 .tagname {
-background: URL(image1.jpg), URL(image2.jpg) black; background-repeat:
-repeat-x, no-repeat;
+  background: URL(image1.jpg), URL(image2.jpg) black; background-repeat:
+  repeat-x, no-repeat;
 }
 </pre>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>CSS BORDER</h2>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>The border property is a syntax in CSS that accepts multiple values for drawing a line around 
 the element it is applied to:</p>
 
 <pre>
-.container{
-border: 3px solid red; height: 200px;
-width: 200px;
+.container {
+  border: 3px solid red; height: 200px;
+  width: 200px;
 }
 </pre>
 
@@ -1812,12 +1810,15 @@ width: 200px;
 <p>The border property accepts more than one of the following values in combination:</p>
 
 <p>border-width: It defines the thickness of the border.</p>
+
 <ul>
   <li>thin</li>
   <li>medium</li>
   <li>thick</li>
 </ul>
+
 <p><b>border-style</b>: It specifies the type of the line drawn around the element, including:</p>
+
 <ul>
   <li>dotted -- It defines a dotted border.</li>
   <li>dashed -- It defines a dashed border.</li>
@@ -1830,14 +1831,14 @@ width: 200px;
   <li>none -- It defines no border.</li>
   <li>hidden -- It defines a hidden border.</li>
 </ul>
+
 <p><b>border-color</b>: It specifies the color of the border and accepts all valid color values.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>CSS BORDER WIDTH AND COLOR</h2>
-
-<p>The <b>border-width</b> property defines the width of the four borders. The
-width can also be set as a specific size (such as in px, pt, cm, em,
-etc.) or by using the three pre-defined values such as thin, medium,
-or thick.</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p>The <b>border-width</b> property defines the width of the four borders. The width can also 
+be set as a specific size (such as in px, pt, cm, em, etc.) or by using the three pre-defined 
+values such as thin, medium, or thick.</p>
 
 <b><per<h4>Example:</h4>
 
@@ -1851,6 +1852,7 @@ p.one {
 <p>The <b>border-color</b> property is used to define the color of the four borders.</p>
 
 <p>The color can be set by:</p>
+
 <ul>
   <li>name -- It specifies a color name, like "red."</li>
   <li>HEX -- It specifies a HEX value, like "#ff0000."</li>
@@ -1858,13 +1860,14 @@ p.one {
   <li>HSL -- It specifies an HSL value, like "hsl(0, 90%, 50%)."</li>
   <li>Transparent</li>
 </ul>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>CSS MARGINS</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p>CSS genetic features are used to create space around elements, without any defined 
+parameters. With CSS, you have full control over margins. There are features for setting the 
+margin for each element of the element such as top, right, bottom, and left. CSS has features 
+that specify a margin for each element:</p>
 
-<p>CSS genetic features are used to create space around elements, without
-any defined parameters. With CSS, you have full control over margins.
-There are features for setting the margin for each element of the
-element such as top, right, bottom, and left. CSS has features that
-specify a margin for each element:</p>
 <ul>
   <li>margin-top</li>
   <li>margin-right</li>
@@ -1878,13 +1881,13 @@ specify a margin for each element:</p>
   <li>&#37; -- It specifies margin in% of the width of the content.</li>
   <li>inheritance -- it specifies that the margin should inherit from the parent.</li>
 </ul>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>CSS PADDING</h2>
-
-<p>CSS finishing features are used to generate space near element
-content, within any defined parameters. With CSS, you have complete
-control over the pads. There are pads setup properties on each side of
-the element (top, right, bottom, and left). CSS has paddling
-specifications for each element of the element:</p>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p>CSS finishing features are used to generate space near element content, within any defined 
+parameters. With CSS, you have complete control over the pads. There are pads setup properties 
+on each side of the element (top, right, bottom, and left). CSS has paddling specifications 
+for each element of the element:</p>
 
 <ul>
   <li>padding-top</li>
@@ -1900,9 +1903,9 @@ specifications for each element of the element:</p>
   <li>% -- It specifies padding in% of the width of the content.</li>
   <li>inheritance -- It specifies that padding should inherit from the parent element.</li>
 </ul>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>CSS BOX MODEL</h2>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>This model is a box that wraps everything HTML contains: margins, bor-
 ders, padding, and original content. In CSS, the term "box model" is
 used when referring to design and structure.</p>
@@ -1914,8 +1917,9 @@ used when referring to design and structure.</p>
   <li>Border -- A border around padding and content.</li>
   <li>Margin -- It can clear an area outside of the border. The margin is clear.</li>
 </ul>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>CSS TABLES</h2>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>The <b>table</b> in CSS is used to apply various style elements to HTML Table elements to 
 organize data in rows and columns or in a more complex format. Tables are used in communication 
 and research data analysis. The table layout in CSS can be used to display table layouts. This
@@ -1927,9 +1931,9 @@ columns.</p>
 <h4>Syntax:</h4>
 
 <p><b>border</b>: table_width table_color;</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>CSS FONTS</h2>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>The four sides of an element can be set side by side such as
 <b>margin-top</b>, <b>margin-right</b>, <b>margin-bottom</b>, <b>margin-left</b>, <b>padding-top</b>,
 <b>padding-right</b>, <b>padding-bottom</b>, and <b>padding-left</b> are the
@@ -1945,7 +1949,9 @@ font properties of an element:</p>
   <li>The font <b>property</b> is used to specify the number of other font properties.</li>
 </ul>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>CSS TEXT</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 -   The property <b>color</b> is used to set the color of a text.
 -   The property <b>direction</b> is used to set the text direction.
@@ -1964,7 +1970,9 @@ font properties of an element:</p>
     of text.
 -   The <b>text-shadow</b> property is used to set text shadow around a text.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>CSS FUNCTIONS</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <p>CSS functions are used as a number of different CSS structures. For
 exam- ple, you can use RGB () function to assign a color value
@@ -2036,7 +2044,9 @@ value to a plot.</p>
 -   URL()
 -   var()
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>WHY FLEXBOX?</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <p>For a long time, the only reliable browser-compatible tools available
 for creating layouts were features such as floats and positioning.
@@ -2053,7 +2063,9 @@ with such tools in any form of simple, flexible approach:</p>
 -   Making all columns in a multiple-column layout with the same height
     even if it contains a different amount of content.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>CSS FLEXBOX</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <p>The <b>flexbox</b> CSS layout allows you to easily format HTML. Flexbox makes
 it easy to direct objects horizontally and horizontally using lines
@@ -2077,9 +2089,11 @@ are flexible to fill in the blanks or to shrink into smaller spaces.</p>
 -   align-items
 -   align-content
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>CSS MEDIA TYPES
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>INTRODUCTION TO MEDIA TYPES</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <p>One of the most important features of stylesheets is that you can
 specify different style sheets for different types of media. This is a
@@ -2099,7 +2113,9 @@ easy to read on screen, while serif fonts are famous for printing. It
 is therefore necessary to clarify that a style sheet, or set of style
 rules, applies to certain types of media.</p>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>METHOD 1: USING &#64;MEDIA AT-RULES</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <p>The <b>&#64;media rule</b> is used to define different style rules for different media in a 
 single style sheet. It is followed by a comma separated list of media types and a CSS 
@@ -2123,9 +2139,9 @@ font 12 points.</p>
 }
 }
 </pre>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>METHOD 2: USING &#64;IMPORT AT-RULES</h2>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>The &#64;import rule is another way to specify specific media style
 details -- It just specifies comma separated media types after the URL
 of the imported style sheets.</p>
@@ -2151,9 +2167,9 @@ external style sheet within an HTML document.</p>
 &lt;link rel = &#34;stylesheet&#34; href = &#34;css / print.css&#34; media =
 &#34;print&#34;&gt;
 </pre>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>DIFFERENT MEDIA TYPES</h2>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>The following lists the various media types that are used to target various types of devices 
 such as printers, devices, computer screens, etc.</p>
 
@@ -2173,8 +2189,9 @@ such as printers, devices, computer screens, etc.</p>
 -   tv: It is used for television-type devices with low resolution,
     color, limited scrollability screens, and sound available.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>MEDIA QUESTIONS AND RESPONSIVE WEB DESIGN</h2>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Media queries allow to customize the presentation of web pages to a
 spe- cific range of devices such as mobile phones, tablets, desktops,
 etc., with- out change in markups. A media query contains media type
@@ -2182,8 +2199,9 @@ and zero or more expressions such as the type and conditions of
 certain media features such as device width or screen resolution.
 Here's a simple example of a typical media query for standard devices.</p>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>MEDIA QUERIES</h2>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Responsive design was able to emerge due to media query. The definition of Media Queries Level 3 was Candidate Recommendations in 2009, which means it was considered ready for implementation in browsers. Media queries allow us to create a series of tests and apply CSS by choosing to customize the page style to the user's needs.</p>
 
 <p>For example, the following media quiz questions to see if the current
@@ -2227,9 +2245,9 @@ document) and the viewing area is 800 pixels wide. CSS selector;</p>
   /&#42; styles &#42;/
 }
 </pre>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>BENEFITS YOU MAY KNOW</h2>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Let's learn more about CSS benefits such as:</p>
 
 1.  One of the main benefits of CSS is that CSS is very useful for
@@ -2268,9 +2286,9 @@ document) and the viewing area is 800 pixels wide. CSS selector;</p>
 7.  CSS saves a lot of time and effort in the web development process
     due to fast loading time. Here, a little time ensures the good
     performance of the designer.
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>CSS CONS</h2>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>There are a few drops while using CSS. One has to be aware of these bad situations in order to 
 know and take care of them while designing a website.</p>
 
@@ -2291,9 +2309,9 @@ HTML and CSS. For device compatibility, read the Bootstrap framework.
 While you may see some disadvantages of CSS, many of the benefits are
 counter- productive and make sure your web development process is
 smooth and efficient.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>CHAPTER SUMMARY</h2>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Here we have covered all the basic concepts of CSS that everyone can use to make their pages 
 attractive. So important thing for working with CSS is just only practice, once you start 
 practicing it, you will get to the point eas- ily. Then in the coming chapter, you will learn 
@@ -2304,6 +2322,7 @@ CSS properties that make your work so easy.</p>
 <h2>CSS Properties</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>IN THIS CHAPTER</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 -   Introduction
 -   CSS Layouts (Properties)
@@ -2601,8 +2620,9 @@ DOI:
 272. writing-mode
 273. z-index
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>CSS LAYOUTS (PROPERTIES)</h2>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>The CSS feature is used to set the style of HTML objects. The CSS layout consists of two 
 parts, the name of the property and the value of the prop- erty. Property value included 
 between two (""quotes).</p>
@@ -2634,8 +2654,9 @@ that extra semicolon. There are many CSS features that you can specify
 in different HTML elements. These CSS layouts are covered in their
 text.</p>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>CSS RULES</h2>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>CSS rule is a set of one or more CSS elements to be applied to one or
 more targeted HTML elements. CSS rule contains a CSS selector and a
 set of CSS layouts. The CSS selector determines which HTML elements
@@ -2955,9 +2976,9 @@ above.</p>
 <!-- ![](./images/image014.png){width="1.518228346456693in" height="1.096353893263342in"}  -->
 
 <p>CSS <b>animation</b> property (third example).</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>CSS BACKGROUND PROPERTIES</h2>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>The background is a shorthand property for setting a single back- ground property, 
 that is, background-image, background-position, background-size, background-repeat, 
 background-attachment, back- ground-origin, background-clip, and background-color in a 
@@ -3413,8 +3434,9 @@ attribute&#124; inherit attribute
 
 <p>CSS background size -- contained cover and full cover.</p>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>CSS BORDER PROPERTIES</h2>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>The <b>border</b> property sets the width, style, and color for all four sides of an 
 element's border. It is a shorthand property for setting the individual border properties, 
 that is, border-width, border-style, and border-color in a single declaration.</p>
@@ -3880,7 +3902,9 @@ border-image: &#91; source slice width outset repeat &#93;
 
 <p>CSS border-image property.</p>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>CSS COLOR PROPERTIES</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <p>The CSS color feature sets the color of the text element content. All modern web browsers 
 support different colors to maintain a colorful display. In CSS, colors can be represented 
@@ -4320,7 +4344,9 @@ height=&#34;200px&#34;&gt;
 &lt;/html&gt;
 </pre>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>CSS GENERATED CONTENT PROPERTIES</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <p><b>content</b> property: The content CSS property is used in combination with the 
 <b>::before</b> and <b>::after</b> pseudo-elements to generate content in an element. 
@@ -4486,7 +4512,9 @@ li {
 
 <p>CSS counter-reset Property.</p>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>CSS FLEXIBLE BOX LAYOUT</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <p>The <b>alignment-content</b> feature changes the behavior of the flex-wrap structure. Aligns 
 dynamic lines. Used to specify alignment between lines within a flexible container. This feature 
@@ -4712,7 +4740,9 @@ font size. The font size change feature is a way to keep text readings
 in such a state. It does this by adjusting the font size so that the x
 length is the same regardless of the font used.</p>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>CSS LIST PROPERTIES</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <p><b>list-style property</b>: The list-style CSS property defines the display style for list 
 items. It is a shorthand property for setting the indi- vidual list properties, that is, 
@@ -5126,9 +5156,9 @@ aliquam nihil, eveniet aliquid culpa officia aut!
 <!-- ![](./images/image044.png){width="4.4128116797900265in" height="3.5521872265966756in"}  -->
 
 <p>CSS margin -- property (margin-top, margin-right, margin-bottom, margin-left).</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>CSS MULTI-COLUMN LAYOUT PROPERTIES</h2>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>CSS3 <b>column-count</b> property: The column count property defines the number of columns in 
 a multi-column element.</p>
 
@@ -5643,9 +5673,9 @@ quis, condimentum ornare purus.&lt;/p&gt;
 <!-- ![](./images/image048.png){width="4.415624453193351in" height="1.2909372265966754in"}  -->
 
 <p>CSS various column property.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>CSS OUTLINE PROPERTIES</h2>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p><b>outline</b> property: The outline property sets the width, style, and color for all four sides of an element's outline. It is a property for set- ting the individual outline, that is, outline-width, outline-style, and outline-color in a single declaration.</p>
 
 <p>The syntax of this property is given as:</p>
@@ -5800,9 +5830,9 @@ metus arcu.
 <!-- ![](./images/image050.png){width="4.125in" height="3.465in"}   -->
 
 <p>CSS various outline property.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>CSS PADDING</h2>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>The <b>padding</b> CSS property sets the margin on all four sides of the element. It is a 
 property used for padding-top, padding-right, padding-bottom, and padding-left properties.</p>
 
@@ -5934,7 +5964,9 @@ nihil, eveniet culpa officia aut! .&lt;/p&gt;&lt;br&gt;
 &lt;/html&gt;
 </pre>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>CSS PRINT PROPERTIES</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <p><b>page-break-after</b> property: The page-break-after CSS property inserts page breaks 
 after an element when printing a document. This property applies to block-level elements 
@@ -6013,7 +6045,9 @@ dictum fermentum ipsum arcu et tellus.&lt;/p&gt;
   <li>page-break-inside property</li>
 </ol>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>CSS TABLE PROPERTIES</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <ol type="1">
   <li><b>border-collapse</b> property: The border-collapse CSS property specifies
@@ -6355,7 +6389,9 @@ table.two {
 
 <p>CSS <b>empty-cell</b> property.</p>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>CSS TEXT PROPERTIES</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <p><b>text-align</b> property and text-align-all property: The text-decoration property is 
 aproperty forsettingtext-decoration-line, text-decoration- style, and text-decoration-
@@ -6745,7 +6781,9 @@ You are learning CSS.
 
 <p>CSS text-shadow property.</p>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>CSS TRANSFORM PROPERTIES</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <p>The <b>transform</b> property is used to transform an element in two-dimensional (2D) or 
 three-dimensional (3D) spaces. For example, rotate elements, scale them, skew them, and more.</p>
@@ -7078,7 +7116,9 @@ body { font-family: sans-serif; }
 
 <p>3D transform functions.</p>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>CSS TRANSITIONS PROPERTIES</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <p>CSS transition property is a property for defining CSS transitions
 that com- bines the four transition properties into one single
@@ -7136,7 +7176,9 @@ transition-timing-function, and transition-delay.</p>
 
 <p>CSS transition properties.</p>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>CHAPTER SUMMARY</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <p>In this chapter, we have read about many properties of CSS in brief with examples 
 so that it makes clear to understand the syntax of how to write code in CSS. The next 
@@ -7151,11 +7193,13 @@ chapter is about the most important concept in CSS named CSS Selectors.</p>
 </p>
 <!-- ![](./images/image006.png){width="3.6393208661417322in" height="0.9622911198600175in"}  -->
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>CHAPTER 3
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>CSS Selectors</h2>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>IN THIS CHAPTER</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 -   Introduction
 
@@ -7174,9 +7218,9 @@ have another important CSS: Selector. The selector means that the user
 can select any of the properties like classes, id, or tag names using
 the selector. The code can have various classes, but only unique id in
 it.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>INTRODUCTION</h2>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Here is the list of the most common and well-supported CSS selectors.
 There are many more, but these are the ones you should know well.</p>
 
@@ -7243,9 +7287,9 @@ There are many more, but these are the ones you should know well.</p>
 
 <p>Let's have the example of each of the selectors with simple explanations, 
 and the numbering can be changed from the above given selectors:</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>UNIVERSAL SELECTOR (&#42;)</h2>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h4>Example:</h4>
 
 <pre>
@@ -7337,8 +7381,9 @@ div {
 
 <p>Universal selector <b>(elements/tags)</b>.</p>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>LOGICAL COMBINATIONS SELECTORS</h2>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>LOGICAL COMBINATIONS SELECTORS <b>( :not )</b></h3>
 
 <h4>Example:</h4>
@@ -7389,7 +7434,9 @@ p:not(div,h1) { background-color: yellow;
 
 <p>Logical selectors <b>( :not )</b>.</p>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>ATTRIBUTE SELECTORS</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <p>ATTRIBUTE SELECTORS <b>( .classname )</b></p>
 
@@ -10903,10 +10950,13 @@ two-dimensional space along the x-axis. &lt;/h2&gt;
 
 <p>CSS function <b>(skewX())</b>.</p>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>CHAPTER SUMMARY</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 <p>In this chapter, we saw various built-in methods like attr(), RGB(), rgba(), and so on. These 
-functions have their own unique functionality and prop- erties. So next chapter is about CSS plugins.</p>
+functions have their own unique functionality and prop- erties. So next chapter is about CSS 
+plugins.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 06. Taylor & Francis logo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -10952,8 +11002,9 @@ don't have to learn another syntax like Sass or LESS; you can start using it imm
 the JavaScript plugins will make the modifications and PostCSS will return the modified 
 version of the original file.</p>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>VARIOUS CSS PLUGINS PostCSS BASED</h2>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>There are various plugins available in the market as given below:</p>
 <ol type="1" start="1">
   <li>Autoprefixer</li>
@@ -10968,8 +11019,9 @@ version of the original file.</p>
   <li>PostCSS-modules</li>
 </ol>
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>AUTOPREFIXER</h2>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p><b>Autoprefixer</b> uses the data based on the latest browser popularity that supports to apply 
 prefixes for you. You can try the interactive demo of Autoprefixer.</p>
 
@@ -11642,9 +11694,9 @@ color: black;
 <h5>You can install postcss-nested using the command.</h5>
 
 <pre>&#36; npm i postcss-nested</pre>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>STYLELINT</h2>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>It is a mighty, modern CSS linter that helps to enforce consistency and avoid errors 
 in your stylesheets.</p>
 
@@ -11997,9 +12049,9 @@ parsing and sorting properties to minification.</p>
 </ul>
 
 <p>We discuss some of the plugins in brief.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>POSTCSS-MODULES ( CSS MODULES )</h2>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>A CSS Module is a CSS file in which all class and animation names are scoped locally 
 by default. All URLs (url(&#8230;)) and &#64;imports are in module request format (./xxx 
 and . ./xxx means relative, xxx and xxx/yyy means in modules folder, i. e. in node_modules).</p>
@@ -12093,9 +12145,9 @@ typekit.net/zhq0vyf.css&#34;&gt;
 &lt;/body&gt;
 &lt;/html&gt;
 </pre>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>Style.css</h2>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <pre>
 #42;,
 &#42;::after,
@@ -12436,9 +12488,9 @@ multiple web pages, allowing you to change the look of multiple pages
 at once. CSS is easy to learn and understand and provides a robust
 command over view- ing an HTML document. Often CSS is combined with
 markup languages, that is, HTML or XHTML.</p>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>HOW CASCADING STYLE SHEETS WORK</h2>
-
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>Cascading Style Sheet has a completely different approach to a web
 page style and layout. Every time an HTML document is viewed in a
 browser, the content comes with style information. Basically, the HTML
@@ -12466,7 +12518,9 @@ executed.</p>
 
 -   Import CSS (link tag)
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>WHY SHOULD SOMEONE LEARN CSS?</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 -   It is must to learn the language for web development.
 
@@ -12487,7 +12541,9 @@ executed.</p>
 -   If you learn and understand, you can learn and work with many
     CSS-based frameworks like Bootstrap.
 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>PROPERTIES OF CSS</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
 -   Knowledge of CSS and HTML is essential if anyone wants to pursue a
     career in web design professionally.
