@@ -14,18 +14,15 @@
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>Mastering CSS</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>Cascading Style Sheets (CSS) is an open-source programming language
-used in website building and HTML templates that integrates all
-relevant information re- lated to web page displays. CSS is used to
-format the look and structure of a web page, as well as to set design
-features such as basic layout, colors, and fonts. CSS allows for
-continuity between different web pages on the website and makes web-
-page development easier and faster.</p>
+<p>Cascading Style Sheets (CSS) is an open-source programming language used in website 
+building and HTML templates that integrates all relevant information re- lated to web page 
+displays. CSS is used to format the look and structure of a web page, as well as to set design
+features such as basic layout, colors, and fonts. CSS allows for continuity between different 
+web pages on the website and makes web-page development easier and faster.</p>
 
-<p>This book has been created to help readers understand and learn the
-concepts of CSS. It discusses the fundamental concepts of CSS,
-including its properties and functions, and guides the reader through
-creating websites with it.</p>
+<p>This book has been created to help readers understand and learn the concepts of CSS. It 
+discusses the fundamental concepts of CSS, including its properties and functions, and guides 
+the reader through creating websites with it.</p>
 
 <h3>Key Features:</h3>
 
@@ -77,7 +74,6 @@ with over a decade of experience in the computing field.</p>
 <h4>Edited by</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h5>Sufyan bin Uzayr</h5>
-
 <!-- ![](./images/image004.png){width="1.154154636920385in" height="0.4114577865266842in"} -->
 <!-- ![](./images/image005.png){width="1.7452154418197725in" height="0.26031167979002623in"} -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -97,6 +93,7 @@ with over a decade of experience in the computing field.</p>
 <h4>First Edition published 2024 by CRC Press</h4>
 
 <h4>2385 NW Executive Center Drive, Suite 320, Boca Raton, FL 33431</h4>
+
 <h5>and by CRC Press</h5>
 
 <h5>2 Park Square, Milton Park, Abingdon, Oxon, OX14 4RN</h5>
@@ -162,64 +159,55 @@ edition. &#124; Boca Raton : CRC Press, 2024. &#124; Series:</p>
 <h3><a href="#css-tables">CSS Tables</a></h3>
 <h3><a href="#css-fonts">CSS Fonts</a></h3>
 <h3><a href="css-text">CSS Text</a></h3>
-
 <h3><a href="#css-functions">CSS Functions</a></h3>
 <h3><a href="#why-flexbox">Why Flexbox?</a></h3>
 <h3><a href="#css-flexbox">CSS Flexbox</a></h3>
 <h3><a href="#css-media-types">CSS Media Types</a></h3>
 <h3><a href="#intro-media-types">Intro to Media Types</a></h3>
+<h3><a href=""></a></h3>
+  [METHOD 1: USING &#64;MEDIA AT-RULES 41](#method-1-using-media-at-rules)
+<h3><a href=""></a></h3>
+  [METHOD 2: USING &#64;IMPORT AT-RULES 42](#method-2-using-import-at-rules)
+<h3><a href=""></a></h3>
+  [METHOD 3: USING THE &lt;link\ELEMENT 42](#method-3-using-the-link-element)
+<h3><a href=""></a></h3>
+  [DIFFERENT MEDIA TYPES 42](#different-media-types)
+<h3><a href=""></a></h3>
+  [MEDIA QUESTIONS AND RESPONSIVE WEB DESIGN 43](#media-questions-and-responsive-web-design)
+<h3><a href=""></a></h3>
+  [MEDIA QUERIES 43](#media-queries)
+<h3><a href=""></a></h3>
+  [BENEFITS YOU MAY KNOW 44](#benefits-you-may-know)
+<h3><a href=""></a></h3>
+  [CSS CONS 45](#css-cons)
+<h3><a href=""></a></h3>
+  [CHAPTER SUMMARY 46](#chapter-summary)
 
 <h3><a href=""></a></h3>
-[METHOD 1: USING &#64;MEDIA AT-RULES 41](#method-1-using-media-at-rules)
-<h3><a href=""></a></h3>
-[METHOD 2: USING &#64;IMPORT AT-RULES 42](#method-2-using-import-at-rules)
-<h3><a href=""></a></h3>
-[METHOD 3: USING THE &lt;link\ELEMENT 42](#method-3-using-the-link-element)
-<h3><a href=""></a></h3>
-[DIFFERENT MEDIA TYPES 42](#different-media-types)
-<h3><a href=""></a></h3>
-
-[MEDIA QUESTIONS AND RESPONSIVE WEB DESIGN 43](#media-questions-and-responsive-web-design)
-<h3><a href=""></a></h3>
-[MEDIA QUERIES 43](#media-queries)
-<h3><a href=""></a></h3>
-[BENEFITS YOU MAY KNOW 44](#benefits-you-may-know)
-<h3><a href=""></a></h3>
-[CSS CONS 45](#css-cons)
-<h3><a href=""></a></h3>
-[CHAPTER SUMMARY 46](#chapter-summary)
-<h3><a href=""></a></h3>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 [CHAPTER 2 CSS Properties 47](#CHAPTER_2:_CSS_Properties)
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 [CSS LAYOUTS (PROPERTIES) 50](#properties)
 [CSS RULES 51](#css-rules)
 [THE &#64;KEYFRAMES RULE 54](#the-keyframes-rule)
-
 [CSS BACKGROUND PROPERTIES 60](#css-background-properties)
 [CSS BORDER PROPERTIES 72](#css-border-properties)
-
 [CSS COLOR PROPERTIES 87](#css-color-properties)
 [RGB Colors 88](#rgb-colors)
 [RGBA Colors 89](#rgba-colors)
 [CSS HEX Colors 91](#hex-colors)
-
 [CSS DIMENSION PROPERTIES 94](#css-dimension-properties)
 [CSS GENERATED CONTENT PROPERTIES 99](#css-generated-content-properties)
 [CSS FLEXIBLE BOX LAYOUT 103](#css-flexible-box-layout)
 [CSS FONT PROPERTIES 106](#css-font-properties)
-
 [CSS LIST PROPERTIES 110](#css-list-properties)
 [CSS MARGIN PROPERTIES 116](#css-margin-properties)
 [CSS MULTI-COLUMN LAYOUT PROPERTIES 120](#css-multi-column-layout-properties)
 [CSS OUTLINE PROPERTIES 134](#css-outline-properties)
 [CSS PADDING 139](#css-padding-1)
-
 [CSS PRINT PROPERTIES 142](#css-print-properties)
 [CSS TABLE PROPERTIES 144](#css-table-properties)
 [CSS TEXT PROPERTIES 154](#css-text-properties)
-
 [CSS TRANSFORM PROPERTIES 164](#css-transform-properties)
 [2D Transform Functions 164](#css-transform-properties)
 [3D Transform Functions 169](#d-transform-functions-1)
@@ -232,10 +220,8 @@ edition. &#124; Boca Raton : CRC Press, 2024. &#124; Series:</p>
 [INTRODUCTION 177](#introduction-1)
 [UNIVERSAL SELECTOR (&#42;) 179](#universal-selector)
 [UNIVERSAL SELECTOR (elements ) 180](#universal-selector-elements)
-
 [LOGICAL COMBINATIONS SELECTORS 181](#logical-combinations-selectors)
 [LOGICAL COMBINATIONS SELECTORS ( :not ) 181](#logical-combinations-selectors-not)
-
 [ATTRIBUTE SELECTORS 183](#attribute-selectors)
 [ATTRIBUTE SELECTORS ( .classname ) 183](#attribute-selectors-.classname)
 [ATTRIBUTE SELECTORS ( id) 184](#_bookmark236)
@@ -247,7 +233,6 @@ edition. &#124; Boca Raton : CRC Press, 2024. &#124; Series:</p>
 [ATTRIBUTE SELECTORS ( &#91; foo&#36;="bar" &#93; ) 193](#Cover)
 [ATTRIBUTE SELECTORS ( &#91; foo&#42;="bar" &#93; ) 195](#Cover)
 [ATTRIBUTE SELECTORS ( &#91; foo&#124;="bar" &#93; ) 198](#Cover)
-
 [PSEUDO-CLASSES 199](#Cover)
 [PSEUDO-CLASSES (:dir(ltr) or :dir(rtl)) 199](#Cover)
 [PSEUDO-CLASSES (:any-link) 201](#Cover)
@@ -277,15 +262,14 @@ edition. &#124; Boca Raton : CRC Press, 2024. &#124; Series:</p>
 [PSEUDO-CLASSES (:nth-of-type(odd) 241](#Cover)
 [PSEUDO-CLASSES (:nth-of-type(odd or even) 243](#Cover)
 [PSEUDO-CLASSES (:first-of-type, nth-of-type,](#Cover)
-
 [nth-last-of-type(3)) 244](#Cover)
 [COMBINATORS SELECTORS 246](#Cover)
 [COMBINATORS SELECTORS (E F) 246](#Cover)
 [COMBINATORS SELECTORS (E \F) 248](#Cover)
 [COMBINATORS SELECTORS (E + F) 250](#Cover)
-
 [GENERAL SIBLING SELECTOR (&#126;) 252](#Cover)
 [GRID-STRUCTURAL SELECTORS (:nth-col()) 254](#Cover)
+
 [CHAPTER SUMMARY 256](#Cover)
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 [CHAPTER 4 CSS Functions 257](#Cover)
@@ -336,6 +320,7 @@ edition. &#124; Boca Raton : CRC Press, 2024. &#124; Series:</p>
 [scaleZ() 364](#scaleZ())
 [skew() 367](#skew)
 [skewX() 371](#skewx)
+
 [CHAPTER SUMMARY 373](#_bookmark315)
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 [CHAPTER 5 CSS Plugins 375](#CHAPTER_5:_CSS_Plugins)
@@ -372,6 +357,7 @@ edition. &#124; Boca Raton : CRC Press, 2024. &#124; Series:</p>
 [Naming (localsConvention) 400](#naming-localsconvention)
 [Features 400](#Features)
 [CSS MarqueeMenu PLUGIN 400](#_bookmark370)
+
 [CHAPTER SUMMARY 410](#chapter-summary-3)
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 [APPRAISAL, 411](#appraisal)
@@ -439,67 +425,51 @@ information. It can be used for effects such as animation.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>HISTORY</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>CSS is highly regarded by the Norwegian Håkon Wium Lie, who in 1994
-wanted to create a standard style sheet for the World Wide Web. The
-first website Lie tried for CSS is the Arena web browser. Since its
-initial cre- ation, Lie has gone on to co-produce versions of CSS-1,
-CS-S2, and RFC 2318 with Tim Berners-Lee and Robert Cailliau. In its
-first decade of exis- tence (1994--2004), CSS in all its clarity
-became a web standard that had a significant impact on the look of the
-World Wide Web as we know it now. CSS3 was released in 1999.</p>
+<p>CSS is highly regarded by the Norwegian Håkon Wium Lie, who in 1994 wanted to create a 
+standard style sheet for the World Wide Web. The first website Lie tried for CSS is the Arena 
+web browser. Since its initial cre- ation, Lie has gone on to co-produce versions of CSS-1, 
+CS-S2, and RFC 2318 with Tim Berners-Lee and Robert Cailliau. In its first decade of existence 
+(1994--2004), CSS in all its clarity became a web standard that had a significant impact on the 
+look of the World Wide Web as we know it now. CSS3 was released in 1999.</p>
 
-<p>CSS is one of the three core technologies used on the web (the other
-two being HTML and JavaScript). CSS stands for Cascading Style
-Spreadsheets -- the links are actually in terms "cascading" and
-"style" with cascading describing how one style can go from one to
-another.</p>
+<p>CSS is one of the three core technologies used on the web (the other two being HTML and 
+JavaScript). CSS stands for Cascading Style Spreadsheets -- the links are actually in terms 
+"cascading" and "style" with cascading describing how one style can go from one to another.</p>
 
-<p>One of the various benefits of CSS is that more than a single style
-can be used within a single HTML document. CSS is used to define what
-HTML code will look like on a website. Although HTML (Hypertext Markup
-Language) is used to create content, including text, CSS changes the
-way a web page will look. Thus, depending on the data they want to
-display, the developer may choose to have a page with other tabs
-running at the top of the page or on the side.</p>
+<p>One of the various benefits of CSS is that more than a single style can be used within a 
+single HTML document. CSS is used to define what HTML code will look like on a website. Although 
+HTML (Hypertext Markup Language) is used to create content, including text, CSS changes the
+way a web page will look. Thus, depending on the data they want to display, the developer may 
+choose to have a page with other tabs running at the top of the page or on the side.</p>
 
-<p>Alternatively, some developers may choose to use titles and subtitle
-styles to ensure that words appear on the page or alter or redesign
-the existing web page. Perhaps the best way to describe what CSS does
-is to explain that the page would like to be free to use CSS. Without
-CSS web pages are clear and far from inspiring. Words
-scroll through the page and read hard. But, before CSS that was
-exactly what web pages looked like. The introduction of CSS is
-responsible in part for what the web looks like and feels today. And,
-far from being created and as a result, it is a continu- ously
-evolving language. Web standards are a topic close to Lie's heart.
-Since the introduction of CSS, he has appealed to major technology
-players like Microsoft and other browsers to support the standard web
-standards and continue to improve.</p>
+<p>Alternatively, some developers may choose to use titles and subtitle styles to ensure that 
+words appear on the page or alter or redesign the existing web page. Perhaps the best way to 
+describe what CSS does is to explain that the page would like to be free to use CSS. Without
+CSS web pages are clear and far from inspiring. Words scroll through the page and read hard. 
+But, before CSS that was exactly what web pages looked like. The introduction of CSS is
+responsible in part for what the web looks like and feels today. And, far from being created 
+and as a result, it is a continu- ously evolving language. Web standards are a topic close to 
+Lie's heart. Since the introduction of CSS, he has appealed to major technology players like 
+Microsoft and other browsers to support the standard web standards and continue to improve.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>WHY DO WE NEED CSS?</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>First, applying CSS ensures that your web pages are consistent. If
-your website has 100 pages, now imagine that you have to enter a code
-to define title sizes, layout, and other display data and combine all
-the content each time you want to produce a new web page. Also,
-imagine having a 100- page site and being able to change one of them
-while keeping everything the same.</p>
+<p>First, applying CSS ensures that your web pages are consistent. If your website has 100 pages, 
+now imagine that you have to enter a code to define title sizes, layout, and other display data 
+and combine all the content each time you want to produce a new web page. Also, imagine having a 
+100- page site and being able to change one of them while keeping everything the same.</p>
 
-<p>CSS also makes that possible. Using CSS brings flexibility where
-needed, but it is flexible enough to be able to make changes to an
-individual page or a section.</p>
+<p>CSS also makes that possible. Using CSS brings flexibility where needed, but it is flexible 
+enough to be able to make changes to an individual page or a section.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>WHY DO WE USE CSS?</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>For a website to work properly, it must have a fast download time.
-Nowadays, people usually wait a few seconds for a website to load.
-Therefore, it is important to ensure a fast pace. For companies
-looking to ensure fast and smooth website information, CSS becomes key
-to their success.</p>
+<p>For a website to work properly, it must have a fast download time. Nowadays, people usually 
+wait a few seconds for a website to load. Therefore, it is important to ensure a fast pace. For 
+companies looking to ensure fast and smooth website information, CSS becomes key to their success.</p>
 
-<p>CSS is easy to maintain due to the short maintenance time. This is
-because single-line code conversion affects the entire web page. Also,
-if upgrades are needed, make a small effort.</p>
+<p>CSS is easy to maintain due to the short maintenance time. This is because single-line code 
+conversion affects the entire web page. Also, if upgrades are needed, make a small effort.</p>
 
 <p>You would not find many good and easy-to-use websites. One thing that
 is common to all of these websites is the consistency of construction.
@@ -920,7 +890,9 @@ by browsers as given below:
 (asterisk), fol- lowed by the comment, followed by the closing tag
 immediately after the opening tag &#42; (asterisks) followed by /
 (slash).</p>
+
 <p>Merge selectors.</p>
+
 <p>You can combine items in a single selector as follows.</p>
 
 <h4>Sample:</h4>
@@ -928,8 +900,8 @@ immediately after the opening tag &#42; (asterisks) followed by /
 <pre>
 h1, h2, h3, h4, h5, h6
 {
-color: #009900;
-font-family: Georgia, sans Serif;
+  color: #009900;
+  font-family: Georgia, sans Serif;
 }
 </pre>
 
@@ -977,8 +949,8 @@ stylesheet.css&#34; /&gt;
 
 <pre>
 lt;head&gt;
-&lt;title&gt; Title &lt;title&gt;
-&lt;link type=&#34;text/CSS&#34; rel=&#34;stylesheet&#34; href=&#34;style.css&#34; /&gt;
+  &lt;title&gt; Title &lt;title&gt;
+  &lt;link type=&#34;text/CSS&#34; rel=&#34;stylesheet&#34; href=&#34;style.css&#34; /&gt;
 &lt;/head&gt;
 &lt;body&gt;
 </pre>
@@ -987,9 +959,9 @@ lt;head&gt;
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <pre>
 lt;head&gt;
-&lt;title&gt; Title &lt;title&gt;
-&lt;style type=&#34;text/css&#34;&gt; &#64;import url(&#39;Path of stylesheet.css&#39;)
-&lt;/style&gt;
+  &lt;title&gt; Title &lt;title&gt;
+  &lt;style type=&#34;text/css&#34;&gt; &#64;import url(&#39;Path of stylesheet.css&#39;)
+  &lt;/style&gt;
 &lt;/head&gt;
 &lt;body&gt;
 </pre>
@@ -1002,15 +974,15 @@ lt;head&gt;
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
-&lt;title&gt;This is page title.&lt;/title&gt;
-&lt;!&#45;- Here is the Internal Style &#45;-&gt;
-&lt;link href=&#34;./styless.css&#34; rel=&#34;stylesheet&#34;&gt;
+  &lt;title&gt;This is page title.&lt;/title&gt;
+  &lt;!&#45;- Here is the Internal Style &#45;-&gt;
+  &lt;link href=&#34;./styless.css&#34; rel=&#34;stylesheet&#34;&gt;
 &lt;/head&gt;
 &lt;body&gt;
 &lt;div class=&#34;container&#34;&gt;
-&lt;h1&gt; &lt;u&gt; The HTML for an internal stylesheet &lt;/u&gt; &lt;/h1&gt;
-&lt;h2&gt; This is a heading element &lt;/h2&gt;
-&lt;p&gt; This is a paragraph. &lt;/p&gt;
+  &lt;h1&gt; &lt;u&gt; The HTML for an internal stylesheet &lt;/u&gt; &lt;/h1&gt;
+  &lt;h2&gt; This is a heading element &lt;/h2&gt;
+  &lt;p&gt; This is a paragraph. &lt;/p&gt;
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;html&gt;
@@ -1053,11 +1025,11 @@ h1 {
 <pre>
 &lt;html&gt;
 &lt;head&gt;
-&lt;title&gt; Title - Webpage &lt;title&gt;
-&lt;style type=&#34;text/CSS&#34;&gt;
-&lt;body&gt;
-CSS Content Goes Here
-&lt;/style&gt;
+  &lt;title&gt; Title - Webpage &lt;title&gt;
+  &lt;style type=&#34;text/CSS&#34;&gt;
+  &lt;body&gt;
+  CSS Content Goes Here
+  &lt;/style&gt;
 &lt;/head&gt;
 &lt;body&gt;
 &lt;/html&gt;
@@ -1131,17 +1103,17 @@ the queue, next to the CSS text.</p>
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
-&lt;title&gt;This is page title.&lt;/title&gt;
+  &lt;title&gt;This is page title.&lt;/title&gt;
 &lt;/head&gt;
 &lt;body&gt;
-&lt;div class=&#34;container&#34; style=&#34; padding: 50px; border-radius: 20px;
-border: 1px solid black;
-max-width:600px; max-width: auto;&#34;&gt;
-&lt;h1&gt; &lt;u&gt; This is an example of Simple CSS &lt;/u&gt; &lt;/h1&gt;
-&lt;!&#45;- Here is the Inline Style &#45;-&gt;
-&lt;h2 style=&#34;color: red&#34;&gt; This is a heading element &lt;/h2&gt;
-&lt;p style=&#34;color: purple&#34;&gt; Hello world, this is a paragraph. &lt;/p&gt;
-&lt;/div&gt;
+  &lt;div class=&#34;container&#34; style=&#34; padding: 50px; border-radius: 20px;
+    border: 1px solid black;
+    max-width:600px; max-width: auto;&#34;&gt;
+    &lt;h1&gt; &lt;u&gt; This is an example of Simple CSS &lt;/u&gt; &lt;/h1&gt;
+    &lt;!&#45;- Here is the Inline Style &#45;-&gt;
+    &lt;h2 style=&#34;color: red&#34;&gt; This is a heading element &lt;/h2&gt;
+    &lt;p style=&#34;color: purple&#34;&gt; Hello world, this is a paragraph. &lt;/p&gt;
+  &lt;/div&gt;
 &lt;/body&gt;
 &lt;html&gt;
 </pre>
@@ -1261,7 +1233,7 @@ between &lt;body&gt; &lt;/body&gt;.</p>
 
 <pre>
 &lt;body&gt;
-&lt;div&gt; Site content go here &lt;/div&gt;
+  &lt;div&gt; Site content go here &lt;/div&gt;
 &lt;/body&gt;
 </pre>
 
@@ -1427,15 +1399,14 @@ h2 {
 &lt;/head&gt;
 &lt;body&gt;
 &lt;div class=&#34;container&#34;&gt;
-&lt;h1&gt; Use of RGB in CSS &lt;/h1&gt;
-&lt;h2&gt; Lorem ipsum sit amet, consectetur adipiscing elit. Quisque
-pulvinar lobortis turpis, ac imperdiet magna. Nulla pretium a sem a
-luctus. Pellentesque habitant morbi tristique senectus et et malesuada
-fames ac turpis egestas. &lt;/h2&gt;
+  &lt;h1&gt; Use of RGB in CSS &lt;/h1&gt;
+  &lt;h2&gt; Lorem ipsum sit amet, consectetur adipiscing elit. Quisque
+  pulvinar lobortis turpis, ac imperdiet magna. Nulla pretium a sem a
+  luctus. Pellentesque habitant morbi tristique senectus et et malesuada
+  fames ac turpis egestas. &lt;/h2&gt;
 
-&lt;h2&gt; Here we use rgb () - rgb(79, 72,
-70&#41; &lt;/h2&gt;
-
+  &lt;h2&gt; Here we use rgb () - rgb(79, 72,
+  70&#41; &lt;/h2&gt;
 &lt;/div&gt;
 &lt;/body&gt;
 &lt;html&gt;
@@ -1661,7 +1632,6 @@ RGB(245, 245, 245)
 RGB(255, 255, 0)
 RGB(139, 205, 50)
 </pre>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h3>DIFFERENT TYPES OF SELECTORS</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -3923,11 +3893,11 @@ display colors such as RGB, HSL, HEX, etc.</p>
 text-align: center; justify-content: center; align-items: center;
 color:red
 }
-.c1{
-color: black;
+.c1 {
+  color: black;
 }
 .c2 {
-&pound;color:green
+  &pound;color:green
 }
 &lt;/style&gt;
 &lt;/style&gt;
@@ -4027,10 +3997,10 @@ provided.</p>
 &lt;html&gt;
 &lt;head&gt;
 &lt;style&gt;
-.demo_container{ width:400px; margin:0 auto;
+.demo_container { width:400px; margin:0 auto;
   text-align: center; justify-content: center; align-items: center;
 }
-.c1{ rgba(11, 156, 49, 0.2)
+.c1 { rgba(11, 156, 49, 0.2)
   background-color: ;
 }
 .c2 {
@@ -4045,7 +4015,7 @@ provided.</p>
   | background-color: RGBA(11,156,49,0.8)
 ;
 }
-.c5{
+.c5 {
   background-color: rgba(11, 156, 49, 1) ;
 }
 &lt;/style&gt;
@@ -4099,11 +4069,11 @@ Some examples of HEX basic colors are given below.</p>
 &lt;html&gt;
 &lt;head&gt;
 &lt;style&gt;
-.demo_container{ width:400px; margin:0 auto;
+.demo_container { width:400px; margin:0 auto;
   text-align: center; justify-content: center; align-items: center;
   color:red
 }
-.c1{
+.c1 {
   color: #6495ed ;
 }
 .c2 {
@@ -4202,14 +4172,14 @@ an element. The content area does not include pad- ding, borders, or margins.</p
 &lt;html&gt;
 &lt;head&gt;
 &lt;style&gt;
-.demo_container{ width:300px; margin:0 auto;
-text-align: center; justify-content: center; align-items: center;
+.demo_container { width:300px; margin:0 auto;
+  text-align: center; justify-content: center; align-items: center;
 }
-.c1{
+.c1 {
   background-color: palevioletred; height: 200px;
   width:300px;
 }
-img{
+img {
   background-image: url(&#39;/images-1.jpg&#39;); width: 300px;
   height: 300px;
 }
@@ -5024,7 +4994,7 @@ margin: &#91; length &#124; percentage &#124; auto &#93; 1 to 4 values
 &lt;html&gt;
 &lt;head&gt;
 &lt;style&gt;
-.demo_container{ width:600px; margin:0 auto;
+.demo_container { width:600px; margin:0 auto;
   text-align: center; justify-content: center; border:1px solid red ;
   align-items: center;
 }
@@ -5032,14 +5002,14 @@ margin: &#91; length &#124; percentage &#124; auto &#93; 1 to 4 values
 border-style: solid;
 margin: 25px;
 }
-.text-2{
+.text-2 {
 border-style: solid;
 margin: 20px 20px 20px 20px;
 }
-.text-3{
+.text-3 {
 border-style: solid; margin: 30px 30px;
 }
-.text-4{
+.text-4 {
 border-style: solid; margin: 30px 0px 30px 0px ;
 }
 &lt;/style&gt;
@@ -5365,7 +5335,7 @@ the middle of the gap.</p>
 &lt;title&gt;Example of CSS3 column-gap Property
 &lt;/title&gt;
 &lt;style&gt; p {
-column-count: 3; column-gap: 15px;
+  column-count: 3; column-gap: 15px;
 }
 &lt;/style&gt;
 &lt;/head&gt;
@@ -5695,13 +5665,13 @@ outline: &#91; outline-width outline-style outline- color &#93; &#124; initial
 &lt;title&gt; &lt;/title&gt;
 &lt;style&gt;
 .demo_container{ width:500px; margin:0 auto;
-text-align: center; justify-content: center; align-items: center;
+  text-align: center; justify-content: center; align-items: center;
 }
 p.one {
-outline: 5px solid #ff0000;
+  outline: 5px solid #ff0000;
 }
 p.two {
-color: #00ff00; outline: 5px solid;
+  color: #00ff00; outline: 5px solid;
 }
 &lt;/style&gt;
 &lt;/head&gt;
@@ -5990,8 +5960,8 @@ page-break-after: auto &#124; always &#124; avoid &#124; left &#124; right &#124
 &lt;style&gt;
 &#64;media print {
   p.footnotes {
-  page-break-after: always; text-align: center;
-}
+    page-break-after: always; text-align: center;
+  }
 }
 &lt;/style&gt;
 &lt;/head&gt;
@@ -7447,7 +7417,7 @@ p:not(div,h1) { background-color: yellow;
 &lt;html&gt;
 &lt;head&gt;
 &lt;style&gt;
-.demo_container{ width:600px; margin:0 auto;
+.demo_container { width:600px; margin:0 auto;
   text-align: center; justify-content: center; align-items: center;
 }
 p.p1 {
@@ -7530,7 +7500,7 @@ The argument can be either a % value or a number.</p>
 &#42; { padding:0; margin:0;
   box-sizing: border-box;
 }
-.demo_container{ padding:20px; width:800px; margin:0 auto;
+.demo_container { padding:20px; width:800px; margin:0 auto;
   justify-content: center; align-items: center;
 }
 img {
@@ -7747,7 +7717,7 @@ separates the radius and the position like this:</p>
 &#42; { padding:0; margin:0;
   box-sizing: border-box;
 }
-.demo_container{ width:800px; margin:0 auto;
+.demo_container { width:800px; margin:0 auto;
   justify-content: center; align-items: center;
 }
 .section-1 { float: left; width: 200px; height: 150px;
@@ -7875,7 +7845,7 @@ applied to the image. The argument can be either a % value or a number.</p>
 &#42; { padding:0; margin:0;
   box-sizing: border-box;
 }
-.demo_container{ padding:20px; width:800px; margin:0 auto;
+.demo_container { padding:20px; width:800px; margin:0 auto;
   justify-content: center; align-items: center;
 }
 img {
@@ -8163,7 +8133,7 @@ cubic-bezier() can be used to provide your own custom curve.</p>
 &#42; { padding:0; margin:0;
   box-sizing: border-box;
 }
-.demo_container{ padding:20px; width:800px; margin:0 auto;
+.demo_container { padding:20px; width:800px; margin:0 auto;
   justify-content: center; align-items: center;
 }
 .ease {
@@ -8668,7 +8638,7 @@ methodical way.</p>
 &#42; { padding:0; margin:0;
   box-sizing: border-box;
 }
-.demo_container{ padding:20px; width:800px; margin:0 auto;
+.demo_container { padding:20px; width:800px; margin:0 auto;
   justify-content: center; align-items: center;
 }
 img {
@@ -9119,7 +9089,7 @@ tions rotate(), skew(), scale(), and translate().</p>
 &#42; { padding:0; margin:0;
   box-sizing: border-box;
 }
-.demo_container{ padding:20px; width:900px; margin:0 auto;
+.demo_container { padding:20px; width:900px; margin:0 auto;
   justify-content: center; align-items: center;
 }
 .matrix-1 {
@@ -9197,7 +9167,7 @@ scaleZ(), and perspective().</p>
 &#42; { padding:0; margin:0;
   box-sizing: border-box;
 }
-.demo_container{ padding:20px; width:900px; margin:0 auto;
+.demo_container { padding:20px; width:900px; margin:0 auto;
   justify-content: center; align-items: center;
 }
 .matrix-1 {
@@ -9449,35 +9419,35 @@ color to the next.</p>
 &#42; { padding:0; margin:0;
 box-sizing: border-box;
 }
-.demo_container{ padding:20px; width:900px; margin:0 auto;
-justify-content: center; align-items: center;
+.demo_container { padding:20px; width:900px; margin:0 auto;
+  justify-content: center; align-items: center;
 }
-.row{
-display: flex;
-flex-direction:row;
+.row {
+  display: flex;
+  flex-direction:row;
 }
-.col{
-height:100px; width:100%
+.col {
+  height:100px; width:100%
 }
 .image-1 {
-background: radial-gradient(yellow, red); color: white;
-padding: 30px; height: 300px;
+  background: radial-gradient(yellow, red); color: white;
+  padding: 30px; height: 300px;
 }
 .image-2 {
-background: radial-gradient(ellipse, black, lime);
-color: white; padding: 30px; height: 300px;
+  background: radial-gradient(ellipse, black, lime);
+  color: white; padding: 30px; height: 300px;
 }
-.image-3{
-background: radial-gradient(circle, black, lime);
-color: white; padding: 30px; height: 300px;
+.image-3 {
+  background: radial-gradient(circle, black, lime);
+  color: white; padding: 30px; height: 300px;
 }
-.image-4{
-background: radial-gradient(at bottom right, yellow, red);
-color: white; padding: 30px; height: 300px;
+.image-4 {
+  background: radial-gradient(at bottom right, yellow, red);
+  color: white; padding: 30px; height: 300px;
 }
-p{
-line-height: 2; font-size:20px;
-margin-bottom:30px
+p {
+  line-height: 2; font-size:20px;
+  margin-bottom:30px
 }
 &lt;/style&gt;
 &lt;/head&gt;
@@ -9704,7 +9674,7 @@ function, which is as follows:</p>
   display: flex; flex-wrap: wrap;
   flex-direction: row;
 }
-.col{ width:50%
+.col { width:50%
 }
 p {
   height:50px
@@ -9831,7 +9801,7 @@ RGB(255,0,0) RGB(100%,0%,0%)
   display: flex; flex-wrap: wrap;
   flex-direction: row;
 }
-.col{ width:50%
+.col { width:50%
 }
 p {
   height:50px
@@ -9942,14 +9912,14 @@ an argument. You can also provide the angle using any valid CSS angle value.</p>
 &#42; { padding:0; margin:0;
   box-sizing: border-box;
 }
-.demo_container{ padding:20px; width:900px; margin:0 auto;
+.demo_container { padding:20px; width:900px; margin:0 auto;
   justify-content: center; align-items: center;
 }
 .row {
   display: flex; flex-wrap: wrap;
   flex-direction: row;
 }
-.col{ width:50%
+.col { width:50%
 }
 p {
   height:50px
@@ -10204,14 +10174,14 @@ element around the y-axis.</p>
 &#42; { padding:0; margin:0;
   box-sizing: border-box;
 }
-.demo_container{ padding:20px; width:900px; margin:0 auto;
+.demo_container { padding:20px; width:900px; margin:0 auto;
 justify-content: center; align-items: center;
 }
 .row {
   display: flex; flex-wrap: wrap;
   flex-direction: row;
 }
-.col{ width:50%
+.col { width:50%
 }
 p {
   height:50px
@@ -10319,7 +10289,7 @@ function is used with the filter to adjust the saturation levels in an image.</p
 &#42; { padding:0; margin:0;
   box-sizing: border-box;
 }
-.demo_container{ padding:20px; width:800px; margin:0 auto;
+.demo_container { padding:20px; width:800px; margin:0 auto;
   justify-content: center; align-items: center;
 }
 img {
@@ -10328,7 +10298,7 @@ img {
 .row {
   display: flex;
 }
-.col{ width:100%
+.col { width:100%
 }
 .image-1 {
   filter: saturate(700%);
@@ -10474,7 +10444,7 @@ three-dimensional primitive, with the following derived functions:</p>
 &lt;head&gt;
 &lt;style&gt;
 &#42; { padding:0; margin:0;
-box-sizing: border-box;
+  box-sizing: border-box;
 }
 .demo_container { padding:20px; margin:0 auto;
   justify-content: center; align-items: center;
@@ -10547,7 +10517,7 @@ The scaleX() scales an element based on the number/s that pro- vide an argument.
 &#42; { padding:0; margin:0;
   box-sizing: border-box;
 }
-.demo_container{ width:800px; padding:20px; margin:0 auto;
+.demo_container { width:800px; padding:20px; margin:0 auto;
   justify-content: center; align-items: center;
 }
 .row {
@@ -10566,7 +10536,7 @@ The scaleX() scales an element based on the number/s that pro- vide an argument.
   transform: scaleX(1); width:200px;
   height:200px;
 }
-p{
+p {
   padding-top: 20px; font-size:20px
 }
 &lt;/style&gt;
@@ -10622,16 +10592,16 @@ The syntax of the scaleY() function is as follows:</p>
 &lt;head&gt;
 &lt;style&gt;
 &#42; { padding:0; margin:0;
-box-sizing: border-box;
+  box-sizing: border-box;
 }
-.demo_container{ width:800px; padding:20px; margin:0 auto;
-justify-content: center; align-items: center;
+.demo_container { width:800px; padding:20px; margin:0 auto;
+  justify-content: center; align-items: center;
 }
 .row {
   display: flex; flex-wrap: wrap;
   flex-direction: row;
 }
-.col{ width:50%
+.col { width:50%
 }
 .image-1 { width:200px; height:200px;
 }
@@ -10706,7 +10676,7 @@ The syntax of the scaleZ () function is as follows:</p>
   display: flex; flex-wrap: wrap;
   flex-direction: row;
 }
-.col{ width:50%
+.col { width:50%
 }
 .image-1 { width:200px; height:200px;
 }
@@ -10787,7 +10757,7 @@ in different directions, based on a given angle.</p>
 &lt;head&gt;
 &lt;style&gt;
 &#42; { padding:0; margin:0;
-box-sizing: border-box;
+  box-sizing: border-box;
 }
 .demo_container { width:800px; padding:20px; margin:0 auto;
   justify-content: center; align-items: center;
@@ -10796,7 +10766,7 @@ box-sizing: border-box;
   display: flex; flex-wrap: wrap;
   flex-direction: row;
 }
-.col{ width:50%
+.col { width:50%
 }
 .image-1 { width:200px; height:200px;
 }
@@ -10892,7 +10862,7 @@ x-axis. It can be any valid angle value.</p>
 &#42; { padding:0; margin:0;
   box-sizing: border-box;
 }
-.demo_container{ width:800px; padding:20px; margin:0 auto;
+.demo_container { width:800px; padding:20px; margin:0 auto;
   justify-content: center; align-items: center;
 }
 .row {
@@ -11034,7 +11004,7 @@ prefixes for you. You can try the interactive demo of Autoprefixer.</p>
 p {
   color: red;
 }
-.section a{ display: flex;
+.section a { display: flex;
 }
 </pre>
 
@@ -11126,14 +11096,14 @@ named "prefix" after the "sass"s script:</p>
 
 <pre>
 {
-&#34;name&#34;: &#34;abc&#34;,
-&#34;version&#34;: &#34;1.0.0&#34;, &#34;description&#34;: abc&#34;, &#34;main&#34;:
-&#34;index.js&#34;, &#34;scripts&#34;: {
-&#34;sass&#34;: &#34;sass ./sass/main.scss:./public/css/style.
-css -w &#45;-style compressed&#34;, &#34;prefix&#34;:
-},
-&#34;author&#34;: &#34;&#34;,
-&#34;license&#34;: &#34;ISC&#34;,
+  &#34;name&#34;: &#34;abc&#34;,
+  &#34;version&#34;: &#34;1.0.0&#34;, &#34;description&#34;: abc&#34;, &#34;main&#34;:
+  &#34;index.js&#34;, &#34;scripts&#34;: {
+    &#34;sass&#34;: &#34;sass ./sass/main.scss:./public/css/style.
+    css -w &#45;-style compressed&#34;, &#34;prefix&#34;:
+  },
+  &#34;author&#34;: &#34;&#34;,
+  &#34;license&#34;: &#34;ISC&#34;,
 }
 </pre>
 
@@ -11176,16 +11146,16 @@ followed by Autoprefixer as given below:</p>
 
 <pre>
 {
-&#34;name&#34;: &#34;abc&#34;,
-&#34;version&#34;: &#34;1.0.0&#34;, &#34;description&#34;: &#34;abc&#34;, &#34;main&#34;:
-&#34;index.js&#34;, &#34;scripts&#34;: {
-&#34;sass&#34;: &#34;sass ./sass/main.scss:./public/css/style.
-css -w &#45;-style compressed&#34;,
-&#34;prefix&#34;: &#34;postcss ./public/css/style.css &#45;-use autoprefixer -d
-./public/css/prefixed/&#34;
-},
-&#34;author&#34;: &#34;&#34;,
-&#34;license&#34;: &#34;ISC&#34;,
+  &#34;name&#34;: &#34;abc&#34;,
+  &#34;version&#34;: &#34;1.0.0&#34;, &#34;description&#34;: &#34;abc&#34;, &#34;main&#34;:
+  &#34;index.js&#34;, &#34;scripts&#34;: {
+    &#34;sass&#34;: &#34;sass ./sass/main.scss:./public/css/style.
+    css -w &#45;-style compressed&#34;,
+    &#34;prefix&#34;: &#34;postcss ./public/css/style.css &#45;-use autoprefixer -d
+    ./public/css/prefixed/&#34;
+  },
+  &#34;author&#34;: &#34;&#34;,
+  &#34;license&#34;: &#34;ISC&#34;,
 }
 </pre>
 
@@ -11207,10 +11177,10 @@ css -w &#45;-style compressed&#34;,
 &#34;description&#34;: &#34;Joe Blow&#39;s web
 portfolio&#34;, &#34;main&#34;: &#34;index.js&#34;,
 &#34;scripts&#34;: {
-&#34;sass&#34;: &#34;sass ./sass/main.scss:./public/css/style. css -w &#45;-style
-compressed&#34;,
-&#34;prefix&#34;: &#34;postcss ./public/css/style.css &#45;-use autoprefixer -d
-./public/css/prefixed/&#34;
+  &#34;sass&#34;: &#34;sass ./sass/main.scss:./public/css/style. css -w &#45;-style
+  compressed&#34;,
+  &#34;prefix&#34;: &#34;postcss ./public/css/style.css &#45;-use autoprefixer -d
+  ./public/css/prefixed/&#34;
 },
 &#34;author&#34;: &#34;&#34;,
 &#34;license&#34;: &#34;ISC&#34;,
@@ -11227,27 +11197,25 @@ compressed&#34;,
 
 <pre>
 .section {
-background: #15DEA5; height: 10rem; display: -webkit-box; display:
--ms-flexbox; display: flex;
--webkit-box-align: center;
--ms-flex-align: center; align-items: center;
--ms-flex-wrap: wrap; flex-wrap: wrap;
-width: 100%;
+  background: #15DEA5; height: 10rem; display: -webkit-box; display:
+  -ms-flexbox; display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center; align-items: center;
+  -ms-flex-wrap: wrap; flex-wrap: wrap;
+  width: 100%;
 }
 </pre>
 
-Now our website will display properly and uniformly across all compatible browsers.
+<p>Now our website will display properly and uniformly across all compatible browsers.</p>
 
-When Does It Run?
+<p>When Does It Run?</p>
 
-Autoprefixer is the very last thing that runs when processing your
+<p>Autoprefixer is the very last thing that runs when processing your
 CSS. So if you use Sass, LESS, or Stylus, that will process first,
 then Autoprefixer. You are still free to use a preprocessor add-on
-(e.g., Compass, LESSHat, etc.)
-
-in which to use for prefixing if you'd like,
+(e.g., Compass, LESSHat, etc.) in which to use for prefixing if you'd like,
 but I'd argue that Autoprefixer is easier, does a better job, and you
-don't need both.
+don't need both.</p>
 
 <p>What is the Difference Between Autoprefixer and -Prefix-Free?</p>
 
@@ -11754,8 +11722,8 @@ you don't have to specify any options.</h5>
 <pre>
 var postcss = require(&#39;gulp-postcss&#39;); var gulp = require(&#39;gulp&#39;);
 gulp.task(&#39;css&#39;, function () { return gulp.src(&#39;./src/&#42;.css&#39;)
-.pipe(postcss())
-.pipe(gulp.dest(&#39;./dest&#39;));
+  .pipe(postcss())
+  .pipe(gulp.dest(&#39;./dest&#39;));
 });
 </pre>
 
@@ -11766,11 +11734,11 @@ var postcss = require(&#39;gulp-postcss&#39;); var gulp = require(&#39;gulp&#39;
 var autoprefixer = require(&#39;autoprefixer&#39;);
 var cssnano = require(&#39;cssnano&#39;);
 gulp.task(&#39;css&#39;, function () { var plugins = &#91;
-autoprefixer({browsers: &#91;&#39;last 1 version&#39;&#93;}), cssnano()
-&#93;;
-return gulp.src(&#39;./src/&#42;.css&#39;)
-.pipe(postcss(plugins))
-.pipe(gulp.dest(&#39;./dest&#39;));
+  autoprefixer({browsers: &#91;&#39;last 1 version&#39;&#93;}), cssnano()
+  &#93;;
+  return gulp.src(&#39;./src/&#42;.css&#39;)
+  .pipe(postcss(plugins))
+  .pipe(gulp.dest(&#39;./dest&#39;));
 });
 </pre>
 
@@ -12267,34 +12235,34 @@ a:hover, a:focus {
 &ht=tk&f=24537.24538.24539.24540.24547.38192.38197.381
 98.38199.38200&a=1494256&app=typekit&e=css&#34;);
 &#64;font-face {
-font-family:&#34;sofia-pro&#34;;
-src:url(&#34;https://use.typekit.net/af/0c5f71/00000000000
-000003b9b1aa0/27/l?primer=7cdcb44be4a7db8877ffa5c0007b
-8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3&#34;)
-format(&#34;woff2&#34;),url(&#34;https://use.typekit.net/af/0c5f71
-/00000000000000003b9b1aa0/27/d?primer=7cdcb44be4a7db88
-77ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n 9&v=3&#34;)
-format(&#34;woff&#34;),url(&#34;https://use.typekit.net/
-af/0c5f71/00000000000000003b9b1aa0/27/a?primer=7cdcb44
-be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9
-191&fvd=n9&v=3&#34;) format(&#34;opentype&#34;);
-font-display:auto;font-style:normal;font-
-weight:900;font-stretch:normal;
+  font-family:&#34;sofia-pro&#34;;
+  src:url(&#34;https://use.typekit.net/af/0c5f71/00000000000
+  000003b9b1aa0/27/l?primer=7cdcb44be4a7db8877ffa5c0007b
+  8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3&#34;)
+  format(&#34;woff2&#34;),url(&#34;https://use.typekit.net/af/0c5f71
+  /00000000000000003b9b1aa0/27/d?primer=7cdcb44be4a7db88
+  77ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n 9&v=3&#34;)
+  format(&#34;woff&#34;),url(&#34;https://use.typekit.net/
+  af/0c5f71/00000000000000003b9b1aa0/27/a?primer=7cdcb44
+  be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9
+  191&fvd=n9&v=3&#34;) format(&#34;opentype&#34;);
+  font-display:auto;font-style:normal;font-
+  weight:900;font-stretch:normal;
 }
 &#64;font-face {
-font-family:&#34;sofia-pro&#34;;
-src:url(&#34;https://use.typekit.net/af/5dd13e/00000000000
-000003b9b1a9f/27/l?primer=7cdcb44be4a7db8877ffa5c0007b
-8dd865b3bbc383831fe2ea177f62257a9191&fvd=i9&v=3&#34;)
-format(&#34;woff2&#34;),url(&#34;https://use.typekit.net/af/5dd13e
-/00000000000000003b9b1a9f/27/d?primer=7cdcb44be4a7db88
-77ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i 9&v=3&#34;)
-format(&#34;woff&#34;),url(&#34;https://use.typekit.net/
-af/5dd13e/00000000000000003b9b1a9f/27/a?primer=7cdcb44
-be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9
-191&fvd=i9&v=3&#34;) format(&#34;opentype&#34;);
-font-display:auto;font-style:italic;font-
-weight:900;font-stretch:normal;
+  font-family:&#34;sofia-pro&#34;;
+  src:url(&#34;https://use.typekit.net/af/5dd13e/00000000000
+  000003b9b1a9f/27/l?primer=7cdcb44be4a7db8877ffa5c0007b
+  8dd865b3bbc383831fe2ea177f62257a9191&fvd=i9&v=3&#34;)
+  format(&#34;woff2&#34;),url(&#34;https://use.typekit.net/af/5dd13e
+  /00000000000000003b9b1a9f/27/d?primer=7cdcb44be4a7db88
+  77ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i 9&v=3&#34;)
+  format(&#34;woff&#34;),url(&#34;https://use.typekit.net/
+  af/5dd13e/00000000000000003b9b1a9f/27/a?primer=7cdcb44
+  be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9
+  191&fvd=i9&v=3&#34;) format(&#34;opentype&#34;);
+  font-display:auto;font-style:italic;font-
+  weight:900;font-stretch:normal;
 }
 </pre>
 
@@ -12316,31 +12284,31 @@ infinite, hover, menu, navigation&#34; /&gt;
 &lt;link rel=&#34;shortcut icon&#34; href=&#34;favicon.ico&#34;&gt;
 &lt;style&gt;
 &#42;{box-sizing: border-box;margin: 0}body{overflow-x:
-hidden;}.content{padding-left: 20px;padding-bottom: 30px}h1{margin:
-50px 0 20px;font-family: roboto} p{margin-bottom: 20px}
-.marquee {
-&#45;-pos-x: 0; width: 100vw; display: flex;
-overflow-x: hidden;
-}
-.marquee row {
-45;-translateX: calc(var(&#45;-pos-x) &#42; 1px); flex-shrink: 0;
-n-width: 100vw; display: flex;
-stify-content: space-around;
-ansform: translateX(var(&#45;-translateX));
-marquee&#45;-text {
-background-color: #89ff91;
-}
-.marquee item&#45;-text { margin: 0;
-font-size: 65px; margin:. 2em. 4em;
-}
-.marquee&#45;-nezuko { background-color: pink;
-}
-.marquee item&#45;-nezuko {
-&#45;-height: calc(100px + 50px &#42; ((var(&#45;-viewport)
-&#45; 375) / 1065));
-height: var(&#45;-height);
-margin: calc(0.1 &#42; var(&#45;-height)) calc(0.3 &#42; var(&#45;-height));
-}
+  hidden;}.content{padding-left: 20px;padding-bottom: 30px}h1{margin:
+  50px 0 20px;font-family: roboto} p{margin-bottom: 20px}
+  .marquee {
+    &#45;-pos-x: 0; width: 100vw; display: flex;
+    overflow-x: hidden;
+  }
+  .marquee row {
+  45;-translateX: calc(var(&#45;-pos-x) &#42; 1px); flex-shrink: 0;
+  n-width: 100vw; display: flex;
+  stify-content: space-around;
+  ansform: translateX(var(&#45;-translateX));
+  marquee&#45;-text {
+    background-color: #89ff91;
+  }
+  .marquee item&#45;-text { margin: 0;
+    font-size: 65px; margin:. 2em. 4em;
+  }
+  .marquee&#45;-nezuko { background-color: pink;
+  }
+  .marquee item&#45;-nezuko {
+    &#45;-height: calc(100px + 50px &#42; ((var(&#45;-viewport)
+    &#45; 375) / 1065));
+    height: var(&#45;-height);
+    margin: calc(0.1 &#42; var(&#45;-height)) calc(0.3 &#42; var(&#45;-height));
+  }
 &lt;/style&gt;
 &lt;/head&gt;
 &lt;body&gt;
@@ -12354,53 +12322,53 @@ text&#34; data-clone=&#34;5&#34;&gt; CSS Marquee Menu Effect / &lt;/p&gt;
 &lt;script&gt;
 const marqueeArr = document.querySelectorAll (&#39;.marquee&#39;);
 marqueeArr.forEach(marquee =&gt; {
-const marqueeRow = marquee.querySelector (&#39;.marquee row&#39;);
-const marqueeItem = marqueeRow.querySelector (&#39;.marquee item&#39;);
-const cloneNum = Number(marqueeItem.
-getAttributeNode(&#39;data-clone&#39;).value); for (let i = 1; i &lt;
-cloneNum; i++) {
-const clone = marqueeItem.cloneNode(true);
-marqueeRow.appendChild(clone);
-}
-for (let i = 0; i &lt; 2; i++) {
-const clone = marqueeRow.cloneNode(true); marquee.appendChild(clone);
-}
-st marqueeMove = (dir) =&gt; {
-nst rows = marquee.querySelectorAll (&#39;.marquee row&#39;);
-st rowWidth = rows&#91;0&#93;.getBoundingClientRect(). width;
-let currentX = Number(getComputedStyle(marquee).
-getPropertyValue(&#39;&#45;-pos-x&#39;));
-let newX = 0; switch (dir) {
-case &#39;left&#39;:
-newX = currentX? (currentX - 1) : -rowWidth; (newX &lt; (-2 &#42;
-rowWidth)) && (newX =
--rowWidth);
-break; default:
-newX = currentX? (currentX + 1) : -rowWidth; (newX &gt; 0) && (newX =
--rowWidth);
-}
-marquee.style.setProperty(&#39;&#45;-pos-x&#39;, newX);
-};
-let speed = Number(marquee.getAttributeNode(&#39;data- speed&#39;).value);
-let direction = &#39;left&#39;;
-let marqueeInterval = setInterval(marqueeMove, speed, direction);
-marquee.onmouseenter = () =&gt; { clearInterval(marqueeInterval);
-}
-marquee.onmousemove = () =&gt; { clearInterval(marqueeInterval);
-}
-marquee.onmouseleave = () =&gt; { clearInterval(marqueeInterval);
-marqueeInterval = setInterval(marqueeMove, speed, direction);
-}
-let posY = 0;
-const changeDir = () =&gt; { clearInterval(marqueeInterval);
-let scrollTop = document.documentElement. scrollTop;
-direction = (scrollTop &gt; posY)? &#39;right&#39; : &#39;left&#39;;
-marqueeMove(direction);
-marqueeMove(direction);
-marqueeInterval = setInterval(marqueeMove, speed, direction);
-posY = scrollTop;
-};
-window.addEventListener(&#39;scroll&#39;, changeDir);
+  const marqueeRow = marquee.querySelector (&#39;.marquee row&#39;);
+  const marqueeItem = marqueeRow.querySelector (&#39;.marquee item&#39;);
+  const cloneNum = Number(marqueeItem.
+  getAttributeNode(&#39;data-clone&#39;).value); for (let i = 1; i &lt;
+  cloneNum; i++) {
+    const clone = marqueeItem.cloneNode(true);
+    marqueeRow.appendChild(clone);
+  }
+  for (let i = 0; i &lt; 2; i++) {
+    const clone = marqueeRow.cloneNode(true); marquee.appendChild(clone);
+  }
+  st marqueeMove = (dir) =&gt; {
+    nst rows = marquee.querySelectorAll (&#39;.marquee row&#39;);
+    st rowWidth = rows&#91;0&#93;.getBoundingClientRect(). width;
+    let currentX = Number(getComputedStyle(marquee).
+    getPropertyValue(&#39;&#45;-pos-x&#39;));
+    let newX = 0; switch (dir) {
+      case &#39;left&#39;:
+      newX = currentX? (currentX - 1) : -rowWidth; (newX &lt; (-2 &#42;
+      rowWidth)) && (newX =
+      -rowWidth);
+      break; default:
+      newX = currentX? (currentX + 1) : -rowWidth; (newX &gt; 0) && (newX =
+      -rowWidth);
+    }
+    marquee.style.setProperty(&#39;&#45;-pos-x&#39;, newX);
+  };
+  let speed = Number(marquee.getAttributeNode(&#39;data- speed&#39;).value);
+  let direction = &#39;left&#39;;
+  let marqueeInterval = setInterval(marqueeMove, speed, direction);
+  marquee.onmouseenter = () =&gt; { clearInterval(marqueeInterval);
+  }
+  marquee.onmousemove = () =&gt; { clearInterval(marqueeInterval);
+  }
+  marquee.onmouseleave = () =&gt; { clearInterval(marqueeInterval);
+  marqueeInterval = setInterval(marqueeMove, speed, direction);
+  }
+  let posY = 0;
+  const changeDir = () =&gt; { clearInterval(marqueeInterval);
+    let scrollTop = document.documentElement. scrollTop;
+    direction = (scrollTop &gt; posY)? &#39;right&#39; : &#39;left&#39;;
+    marqueeMove(direction);
+    marqueeMove(direction);
+    marqueeInterval = setInterval(marqueeMove, speed, direction);
+    posY = scrollTop;
+  };
+  window.addEventListener(&#39;scroll&#39;, changeDir);
 });
 s
 &lt;/script&gt;
@@ -12867,1046 +12835,3 @@ Bibliography ■ **419**
 </p>
 <!-- ![](./images/image6.png){width="3.6393208661417322in" height="0.9622911198600175in"}  -->
 
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h2>Index</h2>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-A
-
-Adjacent sibling selector, [250](#Cover) Animation-delay property,
-[52--53](#the-following-section-consists-of-the-complete-list-of-standard-css-properties-belonging-to-the-latest-css3-specifications.-all-the-properties-are-grouped-into-categories-given-below)
-
-Animation-direction property, [53](#_bookmark142)
-
-Animation-duration property,
-[52](#the-following-section-consists-of-the-complete-list-of-standard-css-properties-belonging-to-the-latest-css3-specifications.-all-the-properties-are-grouped-into-categories-given-below)
-
-Animation-fill-mode property, [53](#_bookmark142)
-
-Animation-iteration-count property, [53](#_bookmark142)
-
-Animation-name property,
-[52](#the-following-section-consists-of-the-complete-list-of-standard-css-properties-belonging-to-the-latest-css3-specifications.-all-the-properties-are-grouped-into-categories-given-below)
-
-Animation-play-state property, [53](#_bookmark142)
-
-Animation property,
-[52](#the-following-section-consists-of-the-complete-list-of-standard-css-properties-belonging-to-the-latest-css3-specifications.-all-the-properties-are-grouped-into-categories-given-below)
-
-Animation-timing-function property,
-[52](#the-following-section-consists-of-the-complete-list-of-standard-css-properties-belonging-to-the-latest-css3-specifications.-all-the-properties-are-grouped-into-categories-given-below)
-
-attr() function, [258--262](#Cover) Attribute selectors (&#91;&#93;),
-[186--187](#Cover)
-
-Attribute selectors ( &#91;attr="value"&#93; ), [187--188](#Cover)
-
-Attribute selectors ( &#91;attr="value"&#93; case- sensitive),
-[189--190](#Cover)
-
-Attribute selectors ( .classname ),
-[183--184](#the-output-of-the-code-is-given-below-50)
-
-Attribute selectors ( &#91; foo&#36;="bar" &#93; ), [193--195](#Cover)
-
-Attribute selectors ( &#91; foo&#42;="bar" &#93; ), [195--197](#Cover)
-
-Attribute selectors ( &#91; foo&#94;="bar" &#93; ), [192--193](#Cover)
-
-Attribute selectors ( &#91; foo&#124;="bar" &#93; ), [198--199](#Cover)
-
-Attribute selectors ( &#91; foo&#126;="bar"&#93;), [190--191](#Cover)
-
-Attribute selectors ( id), [184--186](#_bookmark235) Autoprefixer,
-[376](#_bookmark318)
-
-installation in project folder, [378--381](#_bookmark323) and
--prefix-free, [382](#_bookmark327)
-
-running of, [381--382](#_bookmark325)
-
-writing normal CSS, [377--378](#_bookmark321)
-
-B
-
-Background, [60](#css-background-properties)
-
-background-attachment property, [60](#css-background-properties)
-
-background-clip property, [60--62](#css-background-properties)
-
-background-color property, [60](#css-background-properties)
-
-background-image property,
-[62--63](#the-output-of-the-code-is-given-below-3)
-
-background-origin property,
-[64--66](#background-origin-property-the-background-origin-css-property-specifies-the-positioning-area-of-the-background-that-is-the-posi--tion-of-the-origin-of-an-image-specified-using-the-background-image-property.-the-syntax-of-this-property-is-given-as)
-background-position property,
-
-[66--67](#_bookmark149)
-
-background-repeat property,
-[68--70](#background-repeat-property-the-background-repeat-css-property-specifies-whether-the-background-image-is-repeated-or-tiled-after-it-has-been-sized-and-positioned.-it-is-often-good-to-use-the-shorthand-background-property.)
-
-background-size property, [70--72](#_bookmark151)
-
-Background property, [31--32](#syntax-2)
-
-multiple backgrounds, [32](#example-7) Benefits of CSS,
-[44--45](#_bookmark130) blur() function, [262--263](#Cover) Body
-section of HTML, [7--8](#Body_Section) Border, [33--34](#css-border)
-
-width and color, [34](#_bookmark104)
-
-Border-collapse property, [144--146](#_bookmark203)
-
-Border properties, [72](#_bookmark152)
-
-border-bottom property,
-[76--78](#border-bottom-property-the-border-bottom-css-property-sets-the-width-style-and-color-of-the-bottom-border-of-an-element.-it-is-a-property-for-setting-the-individual-bottom-border-properties-that-is-border-bottom-width-border-bottom-style-and-border-bottom--color-at-once.-the-syntax-of-this-property-is-given-as)
-border-bottom-color property,
-
-[78--80](#the-output-of-the-code-is-given-below-13)
-
-border-bottom-left-radius property, [80--82](#_bookmark157)
-
-border-bottom-style property,
-[82--85](#the-output-of-the-code-is-given-below-14)
-
-border-image property, [85--86](#_bookmark159)
-
-border-width property,
-[74--75](#border-width-property-the-border-width-css-property-is-a-short--hand-property-for-setting-a-singleborder-width-property-that-is-border-top-width-border-right-width-border-bottom-width-and-border-left-width-in-a-single-declaration.-the-syntax-of-this-property-is-given-as)
-
-Border-spacing property,
-[147--148](#border-spacing-property-the-border-spacing-css-property-sets-the-spacing-between-the-borders-of-adjacent-cells-using-the-border-model.-if-the-border-model-is-used-the-property-is-ignored.-here-see-the-border-collapse-property.)
-
-Box model, [35--36](#_bookmark107)
-
-brightness() function, [264--266](#brightness)
-
-Brunch, [397--398](#_bookmark361)
-
-Bubble option, [390](#_bookmark345)
-
-**421**
-
-C
-
-calc() function, [258](#Cover), [266--268](#_bookmark239)
-
-camelCase naming,
-[400](#when-importing-the-css-module-from-a-js-module-it-exports-an-object-with-all-mappings-from-local-names-to-global-names.)
-
-Caption-side property,
-[149--151](#caption-side-property-the-caption-side-css-property-sets-the-verti--cal-position-of-the-table-caption-box.-to-align-caption-text-horizon--tally-within-the-caption-box-use-the-text-align-property.)
-Cascading Style Sheets, [412--413](#_bookmark373) circle() function,
-[258](#Cover), [268--274](#_bookmark241)
-
-Class, [19--20](#_bookmark75)
-
-ID and, [20--21](#_bookmark77)
-
-Color properties, [87](#the-output-of-the-code-is-given-below-16)
-
-CSS HEX colors, [91--94](#_bookmark166) RGB colors,
-[88--89](#_bookmark162)
-
-RGBA colors, [89--91](#_bookmark164)
-
-Colors, [22](#_bookmark83)
-
-list of color values, [23--24](#_bookmark86) names,
-[22--23](#_bookmark83)
-
-picking, [299--301](#How_to_Pick_a_Color)
-
-Column-count property,
-[120--123](#the-output-of-the-code-is-given-below-30)
-
-Column-fill property,
-[123--126](#the-output-of-the-code-is-given-below-31)
-
-Column-gap property, [126--128](#the-output-of-the-code-given-below-2)
-
-Column-rule-color property, [131--134](#_bookmark195)
-
-Column-rule property, [128--131](#_bookmark194)
-
-Column-rule-style property, [131](#_bookmark195)
-
-Column-rule-width property, [131](#_bookmark195) Combinators selectors
-(E + F), [250--252](#Cover) Combinators selectors (E &gt; F),
-[248--250](#Cover) Combinators selectors (E F), [246--248](#Cover)
-Comment tags, [13](#_bookmark69)
-
-Cons of CSS, [45--46](#_bookmark132)
-
-Content properties, CSS generated, [99--100](#_bookmark173)
-counter-reset property, [102--103](#_bookmark176)
-
-quotes property,
-[101--102](#quotes-property-the-quotes-css-property-specifies-the-quotation-marks-for-the-embedded-quotations.-the-quotes-characters-specified-for-this-property-are-used-for-the-open-quote-and-close-quote-values-of-the-content-property.)
-
-contrast() function, [275--277](#contrast)
-
-counter() function,
-[277--279](#the-output-of-the-code-is-given-below-55)
-
-Counter-reset property, [102--103](#_bookmark176)
-
-counters() function, [279--282](#_bookmark248)
-
-CSS2, [4--5](#_bookmark48)
-
-CSS3, [4--5](#_bookmark48)
-
-cssnano, [384](#cssnano)
-
-cssnext, installing, [384](#cssnano)
-
-installing, [384](#cssnano)
-
-npm script, [385](#_bookmark334)
-
-postcss, installing, [384](#cssnano)
-
-postcss-CLI, installing, [384](#cssnano)
-
-postcss-CLI, using, [384--385](#cssnano)
-
-cssnext, [382--384](#_bookmark327)
-
-installing, [384](#cssnano)
-
-cubic-bezier() function, [283--284](#cubic-bezier)
-
-D
-
-Dimension properties, [94](#_bookmark169)
-
-height property, [94--96](#_bookmark169)
-
-max-height and max-height property,
-[96--98](#the-output-of-the-code-is-given-below-21)
-
-min-height property,
-[98--99](#the-output-of-the-code-is-given-below-22)
-
-Division, CSS, [21](#sample-4)
-
-drop-shadow() function, [284--287](#_bookmark252)
-
-E
-
-ellipse() function,
-[287--293](#the-output-of-the-code-is-given-below-59)
-
-Empty-cells property,
-[151--153](#the-output-of-the-code-is-given-below-38) External style
-sheet, [14--16](#different-types-of-css-you-can-use)
-
-F
-
-Features option, [387](#you-can-add-postcss-to-your-build-tool)
-
-filter() function, [293--295](#_bookmark256)
-
-Flexbox, [40](#why-flexbox)
-
-Flexible box layout, [103--105](#_bookmark177) Font Magician,
-[394--395](#_bookmark356)
-
-Font properties, [36](#_bookmark110), [106](#css-font-properties)
-
-font-size-adjust property, [109](#_bookmark182)
-
-font-size property, [107--109](#_bookmark181)
-
-Functions, [37--39](#css-text), [257](#Cover)
-
-attr() function, [258--262](#Cover)
-
-blur() function, [262--263](#Cover)
-
-brightness() function, [264--266](#brightness)
-
-calc() function, [266--268](#_bookmark239)
-
-circle() function, [268--274](#_bookmark241)
-
-contrast() function, [275--277](#contrast)
-
-counter() function,
-[277--279](#the-output-of-the-code-is-given-below-55)
-
-counters() function, [279--282](#_bookmark248)
-
-cubic-bezier() function, [283--284](#cubic-bezier)
-
-drop-shadow() function, [284--287](#_bookmark252)
-
-ellipse() function,
-[287--293](#the-output-of-the-code-is-given-below-59)
-
-filter() function, [293--295](#_bookmark256)
-
-grayscale() function, [295--298](#_bookmark258)
-
-hsl() function, [298--301](#the-output-of-the-code-is-given-below-62)
-
-hsla() function, [301--304](#_bookmark264)
-
-hue-rotate() function, [305--307](#hue-rotate)
-
-inset() function,
-[307--309](#the-output-of-the-code-is-given-below-65)
-linear-gradient() function,
-[310--313](#linear-gradient)
-matrix() function, [313--315](#the-output-of-the-ode-is-given-below)
-matrix3d() function, [316--318](#matrix3d)
-opacity() function,
-[318--320](#the-output-of-the-code-is-given-below-68)
-perspective() function, [321--323](#perspective)
-radial-gradient() function,
-[323--326](#_bookmark282) repeating-linear-gradient() function,
-[326--330](#_bookmark284)
-repeating-radial-gradient() function,
-[330--335](#the-output-of-the-code-is-given-below-72)
-rgb() function, [335--339](#the-output-of-the-code-is-given-below-73)
-rotate() function, [339--343](#_bookmark290)
-rotate3d() function,
-[343--346](#the-output-of-the-code-is-given-below-75)
-rotatex() function, [346--347](#_bookmark294)
-rotatey() function, [347](#_bookmark296)
-rotatez() function, [347--351](#_bookmark296)
-saturate() function, [352--354](#saturate)
-scale() function,
-[354--356](#the-output-of-the-code-is-given-below-78)
-scale3d() function, [357--358](#scale3d)
-scaleX() function, [359--361](#scalex)
-scaleY() function, [361--364](#_bookmark307)
-scaleZ() function,
-[364--367](#the-output-of-the-code-is-given-below-82)
-
-skew() function, [367--370](#the-output-of-the-code-is-given-below-83)
-
-skewX() function, [371--373](#skewx)
-
-G
-
-General sibling selector (&#126;), [252--254](#Cover) Gradient, seting the
-angle of, [310--313](#linear-gradient) grayscale() function,
-[295--298](#_bookmark258)
-
-Grid-structural selectors (:nth-col()), [254--256](#Cover)
-
-Grunt, [393--394](#_bookmark354), [396--397](#_bookmark360)
-
-Gulp, [392--393](#_bookmark351), [395--396](#_bookmark358)
-
-H
-
-Head section of HTML, [6](#_bookmark54) Height property,
-[94--96](#_bookmark169)
-
-Hexadecimal numbers, [92](#_bookmark168)
-
-HEX colors, [91--94](#_bookmark166) History of CSS,
-[2--3](#_bookmark43) hsl() function,
-[298--301](#the-output-of-the-code-is-given-below-62)
-
-hsla() function, [301--304](#_bookmark264)
-
-HSL model, *see* [Hue Saturation Lightness](#_bookmark377)
-[model](#_bookmark377)
-
-HTML, [6](#_bookmark54), [9](#starting-with-a-specific-html),
-[412](#_bookmark373)
-
-body section, [7--8](#Body_Section)
-
-head section, [6](#_bookmark54)
-
-how CSS and HTML work together, [10--11](#_bookmark62)
-
-linking HTML and CSS files, [9--10](#starting-with-a-specific-html)
-RGB colors in, [25--27](#_bookmark90)
-
-hue-rotate() function, [305--307](#hue-rotate)
-
-Hue Saturation Lightness (HSL) model,
-[298](#the-output-of-the-code-is-given-below-62), [305](#hue-rotate)
-
-I
-
-IDs, [20](#_bookmark77)
-
-and class, difference between, [20--21](#_bookmark77)
-
-:indeterminate selector, [223--225](#Cover)
-
-Inherit, [54](#_bookmark143)
-
-Inheritance CSS, [12--13](#_bookmark67)
-
-Initial, [54](#_bookmark143)
-
-Inline styles, [14](#different-types-of-css-you-can-use),
-[17--18](#_bookmark74)
-
-:in-range, [227--228](#Cover)
-
-insertAfter key, [388](#_bookmark342)
-
-insertBefore key, [388](#_bookmark342)
-
-inset() function,
-[307--309](#the-output-of-the-code-is-given-below-65)
-
-Internal styles, [14](#different-types-of-css-you-can-use) Internal
-style sheet, [16--17](#_bookmark73)
-
-:invalid pseudo-class, [225--226](#Cover)
-
-K
-
-&#64;keyframes rule, [54--59](#_bookmark143)
-
-L
-
-Learning CSS, [413](#_bookmark374)
-
-linear-gradient() function, [310--313](#linear-gradient)
-
-List properties, [110](#css-list-properties)
-
-list-style property, [110--111](#css-list-properties)
-
-list-style-image property,
-[113--114](#here-you-will-get-various-values-of-list-style-type-property.)
-
-list-style-position property, [114--115](#_bookmark187)
-
-list-style-type property, [111--113](#_bookmark185) Logical
-combinations selectors ( :not ),
-
-[181--183](#_bookmark229)
-
-Lost Grid, [395](#_bookmark358)
-
-Brunch, [397--398](#_bookmark361)
-
-Grunt, [396--397](#_bookmark360)
-
-gulp, [395--396](#_bookmark358)
-
-M
-
-Margin properties, [116--120](#css-margin-properties)
-
-Margins, [34--35](#_bookmark104)
-
-MarqueeMenu plugin,
-[400--410](#when-importing-the-css-module-from-a-js-module-it-exports-an-object-with-all-mappings-from-local-names-to-global-names.)
-
-matrix() function, [313--315](#the-output-of-the-ode-is-given-below)
-
-matrix3d() function, [316--318](#matrix3d)
-
-Max-height and max-height property,
-[96--98](#the-output-of-the-code-is-given-below-21)
-
-Media queries, [43--44](#_bookmark127)
-
-Media types, [41](#css-media-types)
-
-different, [42--43](#_bookmark123)
-
-using &#64;import at-rules, [42](#_bookmark123) using &lt;link&gt; element,
-[42](#_bookmark123) using &#64;media at-rules, [41--42](#css-media-types)
-
-Min-height property,
-[98--99](#the-output-of-the-code-is-given-below-22)
-
-Modules, CSS, [5--6](#_bookmark51), [399--400](#_bookmark365)
-
-Multi-column layout properties,
-[120](#the-output-of-the-code-is-given-below-30) column-count
-property, [120--123](#the-output-of-the-code-is-given-below-30)
-
-column-fill property,
-[123--126](#the-output-of-the-code-is-given-below-31)
-
-column-gap property, [126--128](#the-output-of-the-code-given-below-2)
-
-column-rule property, [128--131](#_bookmark194)
-
-column-rule-color property, [131--134](#_bookmark195)
-
-column-rule-style property, [131](#_bookmark195)
-
-column-rule-width property, [131](#_bookmark195)
-
-Multiple backgrounds, [32](#example-7)
-
-N
-
-Naming (localsConvention),
-[400](#when-importing-the-css-module-from-a-js-module-it-exports-an-object-with-all-mappings-from-local-names-to-global-names.)
-Need for CSS, [3--4](#_bookmark45)
-
-npm script, [385](#_bookmark334)
-
-nth-of-type(n) selector, [243--244](#Cover)
-
-O
-
-opacity() function,
-[318--320](#the-output-of-the-code-is-given-below-68)
-
-Outline properties, [134--136](#_bookmark196)
-
-outline-style property,
-[136--138](#the-output-of-the-code-is-given-below-34)
-
-outline-width property,
-[136](#the-output-of-the-code-is-given-below-34)
-
-:out-of-range selector, [227--228](#Cover)
-
-P
-
-Padding, [35](#_bookmark107)
-
-Padding CSS property, [139--142](#css-padding-1) Page-break-after
-property, [142--144](#_bookmark201)
-
-perspective() function, [321--323](#perspective)
-
-Plugins, [375](#CHAPTER_5:_CSS_Plugins)
-
-Autoprefixer, [376](#_bookmark318)
-
-installation in project folder, [378--381](#_bookmark323)
-
-and -prefix-free, [382](#_bookmark327)
-
-running of, [381--382](#_bookmark325)
-
-writing normal CSS, [377--378](#_bookmark321) cssnano, [384](#cssnano)
-
-cssnext, installing, [384](#cssnano)
-
-installing, [384](#cssnano)
-
-npm script, [385](#_bookmark334)
-
-postcss, installing, [384](#cssnano)
-
-postcss-CLI, installing, [384](#cssnano)
-
-postcss-CLI, using, [384--385](#cssnano)
-
-cssnext, [382--384](#_bookmark327)
-
-features,
-[400](#when-importing-the-css-module-from-a-js-module-it-exports-an-object-with-all-mappings-from-local-names-to-global-names.)
-
-Font Magician, [394--395](#_bookmark356)
-
-Lost Grid, [395](#_bookmark358)
-
-Brunch, [397--398](#_bookmark361)
-
-Grunt, [396--397](#_bookmark360)
-
-gulp, [395--396](#_bookmark358)
-
-MarqueeMenu plugin,
-[400--410](#when-importing-the-css-module-from-a-js-module-it-exports-an-object-with-all-mappings-from-local-names-to-global-names.)
-
-naming (localsConvention),
-[400](#when-importing-the-css-module-from-a-js-module-it-exports-an-object-with-all-mappings-from-local-names-to-global-names.)
-
-PostCSS, [398](#_bookmark362)
-
-features, [398--399](#_bookmark362)
-
-PostCSS assets, [392](#_bookmark351)
-
-Grunt, [393--394](#_bookmark354)
-
-gulp (gulp-postcss), [392--393](#_bookmark351) PostCSS-modules ( CSS
-modules ),
-
-[399--400](#_bookmark365)
-
-PreCSS, [385](#_bookmark334)
-
-install plugin, [389--390](#the-result-will-be-as-given-below)
-
-preserveEmpty, [391](#preserveempty)
-
-usage, [386](#_bookmark337)
-
-various options, [386--389](#_bookmark337)
-
-stylelint, [391](#preserveempty)
-
-installing, [391](#preserveempty)
-
-usage, [391--392](#preserveempty)
-
-PostCSS, [398](#_bookmark362)
-
-features, [398--399](#_bookmark362)
-
-Postcss, installing, [384](#cssnano)
-
-PostCSS assets, [392](#_bookmark351)
-
-Grunt, [393--394](#_bookmark354)
-
-gulp (gulp-postcss), [392--393](#_bookmark351) Postcss-CLI
-
-installing, [384](#cssnano)
-
-using, [384--385](#cssnano)
-
-PostCSS-modules ( CSS modules ), [399--400](#_bookmark365) PreCSS,
-[385](#_bookmark334)
-
-install plugin, [389--390](#the-result-will-be-as-given-below)
-
-preserveEmpty, [391](#preserveempty)
-
-usage, [386](#_bookmark337)
-
-various options, [386--389](#_bookmark337)
-
--Prefix-free, Autoprefixer and,
-
-[382](#_bookmark327)
-
-preserveEmpty, [391](#preserveempty)
-
-Print properties, [142](#_bookmark201)
-
-page-break-after property, [142--144](#_bookmark201)
-
-Properties of CSS, [21--22](#sample-4),
-[47](#CHAPTER_2:_CSS_Properties), [413--415](#_bookmark374)
-
-background, [60](#css-background-properties)
-
-background-attachment property, [60](#css-background-properties)
-
-background-clip property, [60--62](#css-background-properties)
-
-background-color property, [60](#css-background-properties)
-background-image property,
-
-[62--63](#the-output-of-the-code-is-given-below-3)
-
-background-origin property,
-[64--66](#background-origin-property-the-background-origin-css-property-specifies-the-positioning-area-of-the-background-that-is-the-posi--tion-of-the-origin-of-an-image-specified-using-the-background-image-property.-the-syntax-of-this-property-is-given-as)
-
-background-position property, [66--67](#_bookmark149)
-
-background-repeat property,
-[68--70](#background-repeat-property-the-background-repeat-css-property-specifies-whether-the-background-image-is-repeated-or-tiled-after-it-has-been-sized-and-positioned.-it-is-often-good-to-use-the-shorthand-background-property.)
-
-background-size property, [70--72](#_bookmark151)
-
-border properties, [72](#_bookmark152)
-
-border-bottom property,
-[76--78](#border-bottom-property-the-border-bottom-css-property-sets-the-width-style-and-color-of-the-bottom-border-of-an-element.-it-is-a-property-for-setting-the-individual-bottom-border-properties-that-is-border-bottom-width-border-bottom-style-and-border-bottom--color-at-once.-the-syntax-of-this-property-is-given-as)
-border-bottom-color property,
-
-[78--80](#the-output-of-the-code-is-given-below-13)
-
-border-bottom-left-radius property, [80--82](#_bookmark157)
-
-border-bottom-style property,
-[82--85](#the-output-of-the-code-is-given-below-14)
-
-border-image property, [85--86](#_bookmark159)
-
-border-width property,
-[74--75](#border-width-property-the-border-width-css-property-is-a-short--hand-property-for-setting-a-singleborder-width-property-that-is-border-top-width-border-right-width-border-bottom-width-and-border-left-width-in-a-single-declaration.-the-syntax-of-this-property-is-given-as)
-
-color properties, [87](#the-output-of-the-code-is-given-below-16)
-
-CSS HEX colors, [91--94](#_bookmark166) RGB colors,
-[88--89](#_bookmark162)
-
-RGBA colors, [89--91](#_bookmark164)
-
-content properties, CSS generated, [99--100](#_bookmark173)
-
-counter-reset property, [102--103](#_bookmark176)
-
-quotes property,
-[101--102](#quotes-property-the-quotes-css-property-specifies-the-quotation-marks-for-the-embedded-quotations.-the-quotes-characters-specified-for-this-property-are-used-for-the-open-quote-and-close-quote-values-of-the-content-property.)
-
-dimension properties, [94](#_bookmark169)
-
-height property, [94--96](#_bookmark169)
-
-max-height and max-height property,
-[96--98](#the-output-of-the-code-is-given-below-21)
-
-min-height property,
-[98--99](#the-output-of-the-code-is-given-below-22) flexible box
-layout, [103--105](#_bookmark177) font properties,
-[106](#css-font-properties)
-
-font-size property, [107--109](#_bookmark181)
-
-font-size-adjust property, [109](#_bookmark182)
-
-&#64;keyframes rule, [54--59](#_bookmark143)
-
-layouts, [50--51](#_bookmark137)
-
-list properties, [110](#css-list-properties)
-
-list-style property, [110--111](#css-list-properties)
-
-list-style-image property,
-[113--114](#here-you-will-get-various-values-of-list-style-type-property.)
-list-style-position property,
-
-[114--115](#_bookmark187)
-
-list-style-type property, [111--113](#_bookmark185)
-
-margin properties, [116--120](#css-margin-properties)
-
-multi-column layout properties,
-[120](#the-output-of-the-code-is-given-below-30) column-count
-property, [120--123](#the-output-of-the-code-is-given-below-30)
-
-column-fill property,
-[123--126](#the-output-of-the-code-is-given-below-31)
-
-column-gap property, [126--128](#the-output-of-the-code-given-below-2)
-
-column-rule property, [128--131](#_bookmark194) column-rule-color
-property,
-
-[131--134](#_bookmark195)
-
-column-rule-style property, [131](#_bookmark195)
-
-column-rule-width property, [131](#_bookmark195)
-
-outline properties, [134--136](#_bookmark196)
-
-outline-style property,
-[136--138](#the-output-of-the-code-is-given-below-34)
-
-outline-width property,
-[136](#the-output-of-the-code-is-given-below-34)
-
-padding, [139--142](#css-padding-1)
-
-print properties, [142](#_bookmark201)
-
-page-break-after property, [142--144](#_bookmark201)
-
-rules, [51](#_bookmark139)
-
-animation-delay property,
-[52--53](#the-following-section-consists-of-the-complete-list-of-standard-css-properties-belonging-to-the-latest-css3-specifications.-all-the-properties-are-grouped-into-categories-given-below)
-
-animation-direction property, [53](#_bookmark142)
-
-animation-duration property,
-[52](#the-following-section-consists-of-the-complete-list-of-standard-css-properties-belonging-to-the-latest-css3-specifications.-all-the-properties-are-grouped-into-categories-given-below)
-
-animation-fill-mode property, [53](#_bookmark142)
-animation-iteration-count property,
-
-[53](#_bookmark142)
-
-animation-name property,
-[52](#the-following-section-consists-of-the-complete-list-of-standard-css-properties-belonging-to-the-latest-css3-specifications.-all-the-properties-are-grouped-into-categories-given-below)
-
-animation-play-state property, [53](#_bookmark142)
-animation-timing-function
-
-property,
-[52](#the-following-section-consists-of-the-complete-list-of-standard-css-properties-belonging-to-the-latest-css3-specifications.-all-the-properties-are-grouped-into-categories-given-below)
-
-inherit, [54](#_bookmark143)
-
-initial, [54](#_bookmark143)
-
-table properties, [144](#_bookmark203)
-
-border-collapse property, [144--146](#_bookmark203)
-
-border-spacing property,
-[147--148](#border-spacing-property-the-border-spacing-css-property-sets-the-spacing-between-the-borders-of-adjacent-cells-using-the-border-model.-if-the-border-model-is-used-the-property-is-ignored.-here-see-the-border-collapse-property.)
-
-caption-side property,
-[149--151](#caption-side-property-the-caption-side-css-property-sets-the-verti--cal-position-of-the-table-caption-box.-to-align-caption-text-horizon--tally-within-the-caption-box-use-the-text-align-property.)
-
-empty-cells property,
-[151--153](#the-output-of-the-code-is-given-below-38)
-
-text properties, [154](#css-text-properties)
-
-text-align property and text-align- all property,
-[154--156](#css-text-properties)
-
-text-decoration property,
-[156--159](#the-output-of-the-code-is-given-below-40)
-
-text-orientation property, [160--161](#_bookmark211)
-
-text-overflow property,
-[161--162](#the-output-of-the-code-is-given-below-42)
-
-text-shadow property, [163--164](#_bookmark213)
-
-transform properties, [164](#_bookmark214)
-
-3D transform functions, [169--173](#_bookmark217) 2D transform
-functions, [164--169](#_bookmark214)
-
-transitions properties,
-[173--174](#the-output-of-the-code-is-given-below-46)
-
-Pseudo-classes (:any-link), [201--203](#Cover)
-
-Pseudo-classes (:blank), [234--235](#Cover)
-
-Pseudo-classes (:checked), [221--223](#Cover)
-
-Pseudo-classes (:default), [219--221](#Cover) Pseudo-classes
-(:dir(ltr) or :dir(rtl)),
-
-[199--201](#Cover)
-
-Pseudo-classes (:empty), [233--234](#Cover) Pseudo-classes (:enabled
-and :disabled),
-
-[214--215](#Cover)
-
-Pseudo-classes (:first-child), [239--240](#Cover) Pseudo-classes
-(:first-of-type, nth-of-type,
-
-nth-last-of-type(3)), [244--246](#Cover)
-
-Pseudo-classes (:focus), [212--213](#Cover)
-
-Pseudo-classes (:hover), [210--212](#Cover) Pseudo-classes
-(:indeterminate),
-
-[223--225](#Cover)
-
-Pseudo-classes (:in-range and :out-of- range), [227--228](#Cover)
-
-Pseudo-classes (:link), [203--205](#Cover)
-
-Pseudo-classes (:nth-child), [236--237](#Cover) Pseudo-classes
-(:nth-last-child),
-
-[237--238](#Cover)
-
-Pseudo-classes (:nth-of-type(odd)), [241--242](#Cover)
-
-Pseudo-classes (:nth-of-type(odd or even)), [243--244](#Cover)
-
-Pseudo-classes (:only-child), [240--241](#Cover)
-
-Pseudo-classes (:optionaL), [230--231](#Cover) Pseudo-classes
-(:placeholder-shown),
-
-[218--219](#Cover)
-
-Pseudo-classes (:read-only and :read- write), [215--217](#Cover)
-
-Pseudo-classes (:required), [229--230](#Cover) Pseudo-classes (
-:root), [232--233](#Cover) Pseudo-classes (:scope), [207--208](#Cover)
-
-Pseudo-classes (:target), [205--207](#Cover),
-
-[208--210](#Cover)
-
-Pseudo-classes (:valid and :invalid), [225--226](#Cover)
-
-Q
-
-Quotes property,
-[101--102](#quotes-property-the-quotes-css-property-specifies-the-quotation-marks-for-the-embedded-quotations.-the-quotes-characters-specified-for-this-property-are-used-for-the-open-quote-and-close-quote-values-of-the-content-property.)
-
-R
-
-radial-gradient() function, [323--326](#_bookmark282)
-repeating-linear-gradient() function,
-
-[326--330](#_bookmark284)
-
-repeating-radial-gradient() function,
-[330--335](#the-output-of-the-code-is-given-below-72)
-
-RGB colors, [24](#_bookmark88), [88--89](#_bookmark162)
-
-extended color keywords, [27--30](#_bookmark92) in HTML,
-[25--27](#_bookmark90)
-
-rgb() function, [335--339](#the-output-of-the-code-is-given-below-73)
-
-RGBA colors, [89--91](#_bookmark164)
-
-:root selector, [232](#Cover)
-
-rotate() function, [339--343](#_bookmark290)
-
-rotate3d() function,
-[343--346](#the-output-of-the-code-is-given-below-75)
-
-rotatex() function, [346--347](#_bookmark294)
-
-rotatey() function, [347](#_bookmark296)
-
-rotatez() function, [347--351](#_bookmark296)
-
-Rules, [51](#_bookmark139)
-
-animation-delay property,
-[52--53](#the-following-section-consists-of-the-complete-list-of-standard-css-properties-belonging-to-the-latest-css3-specifications.-all-the-properties-are-grouped-into-categories-given-below)
-animation-direction property, [53](#_bookmark142)
-animation-duration property,
-[52](#the-following-section-consists-of-the-complete-list-of-standard-css-properties-belonging-to-the-latest-css3-specifications.-all-the-properties-are-grouped-into-categories-given-below)
-animation-fill-mode property, [53](#_bookmark142)
-animation-iteration-count property, [53](#_bookmark142)
-animation-name property,
-[52](#the-following-section-consists-of-the-complete-list-of-standard-css-properties-belonging-to-the-latest-css3-specifications.-all-the-properties-are-grouped-into-categories-given-below)
-animation-play-state property, [53](#_bookmark142)
-animation-timing-function property,
-[52]the-following-section-consists-of-the-complete-list-of-standard-css-properties-belonging-to-the-latest-cs-specifications.-all-the-properties-are-grouped-into-categories-given-below)
-inherit, [54](#_bookmark143)
-initial, [54](#_bookmark143)
-S
-saturate() function, [352--354](#saturate)
-scale() function, [257](#Cover),
-[354--356](#the-output-of-the-code-is-given-below-78)
-scale3d() function, [357--358](#scale3d)
-scaleX() function, [359--361](#scalex)
-scaleY() function, [361--364](#_bookmark307)
-scaleZ() function,
-[364--367](#the-output-of-the-code-is-given-below-82)
-Selectors, [177](#CHAPTER_3:_CSS_Selectors)
-attribute selectors (&#91;&#93;), [186--187](#Cover) attribute selectors (
-.classname ),
-[183--184](#the-output-of-the-code-is-given-below-50)
-attribute selectors ( &#91;attr="value"&#93; ), [187--188](#Cover)
-attribute selectors ( &#91;attr="value"&#93; case- sensitive),
-[189--190](#Cover)
-attribute selectors ( &#91; foo&#36;="bar" &#93; ), [193--195](#Cover)
-attribute selectors ( &#91; foo&#42;="bar" &#93; ), [195--197](#Cover)
-attribute selectors ( &#91; foo&#94;="bar" &#93; ), [192--193](#Cover)
-attribute selectors ( &#91; foo&#124;="bar" &#93; ), [198--199](#Cover)
-attribute selectors ( &#91; foo&#126;="bar"&#93;), [190--191](#Cover)
-attribute selectors ( id), [184--186](#_bookmark235) combinators
-selectors (E + F), [250--252](#Cover) combinators selectors (E &gt; F),
-[248--250](#Cover) combinators selectors (E F), [246--248](#Cover)
-general sibling selector (&#126;), [252--254](#Cover) grid-structural
-selectors (:nth-col()),
-[254--256](#Cover)
-logical combinations selectors ( :not ), [181--183](#_bookmark229)
-pseudo-classes (:any-link), [201--203](#Cover)
-pseudo-classes (:blank), [234--235](#Cover)
-pseudo-classes (:checked), [221--223](#Cover)
-pseudo-classes (:default), [219--221](#Cover) pseudo-classes
-(:dir(ltr) or :dir(rtl)),
-[199--201](#Cover)
-pseudo-classes (:empty), [233--234](#Cover) pseudo-classes (:enabled
-and :disabled),
-[214--215](#Cover)
-pseudo-classes (:first-child), [239--240](#Cover) pseudo-classes
-(:first-of-type, nth-
-of-type, nth-last-of-type(3)), [244--246](#Cover)
-pseudo-classes (:focus), [212--213](#Cover)
-pseudo-classes (:hover), [210--212](#Cover) pseudo-classes
-(:indeterminate),
-[223--225](#Cover)
-pseudo-classes (:in-range and :out-of- range), [227--228](#Cover)
-pseudo-classes (:link), [203--205](#Cover)
-pseudo-classes (:nth-child), [236--237](#Cover) pseudo-classes
-(:nth-last-child),
-[237--238](#Cover)
-pseudo-classes (:nth-of-type(odd or even), [243--244](#Cover)
-pseudo-classes (:nth-of-type(odd), [241--242](#Cover)
-pseudo-classes (:only-child), [240--241](#Cover)
-pseudo-classes (:optionaL), [230--231](#Cover) pseudo-classes
-(:placeholder-shown),
-[218--219](#Cover)
-pseudo-classes (:read-only and :read- write), [215--217](#Cover)
-pseudo-classes (:required), [229--230](#Cover) pseudo-classes (
-:root), [232--233](#Cover) pseudo-classes (:scope), [207--208](#Cover)
-pseudo-classes (:target), [205--207](#Cover),
-[208--210](#Cover)
-pseudo-classes (:valid and :invalid), [225--226](#Cover)
-types of, [30--31](#_bookmark94)
-universal selector (&#42;), [179--180](#_bookmark225) universal selector
-(elements),
-[180--181](#the-output-of-the-code-is-given-below-48)
-skew() function, [367--370](#the-output-of-the-code-is-given-below-83)
-skewX() function, [371--373](#skewx)
-Specification, CSS, [5](#_bookmark51)
-Stage option, [387](#you-can-add-postcss-to-your-build-tool)
-
-stylelint, [391](#preserveempty)
-installing, [391](#preserveempty)
-usage, [391--392](#preserveempty)
-Syntax, [11--12](#_bookmark64)
-T
-Table properties, [144](#_bookmark203)
-border-collapse property, [144--146](#_bookmark203)
-border-spacing property,
-[147--148](#border-spacing-property-the-border-spacing-css-property-sets-the-spacing-between-the-borders-of-adjacent-cells-using-the-border-model.-if-the-border-model-is-used-the-property-is-ignored.-here-see-the-border-collapse-property.)
-
-caption-side property,
-[149--151](#caption-side-property-the-caption-side-css-property-sets-the-verti--cal-position-of-the-table-caption-box.-to-align-caption-text-horizon--tally-within-the-caption-box-use-the-text-align-property.)
-
-empty-cells property,
-[151--153](#the-output-of-the-code-is-given-below-38) Tables in CSS,
-[36](#_bookmark110)
-Text, [37](#css-text)
-Text properties, [154](#css-text-properties)
-text-align property and text-align-all property,
-[154--156](#css-text-properties)
-text-decoration property,
-[156--159](#the-output-of-the-code-is-given-below-40)
-text-orientation property, [160--161](#_bookmark211)
-text-overflow property,
-[161--162](#the-output-of-the-code-is-given-below-42)
-text-shadow property, [163--164](#_bookmark213) 3D transform
-functions, [169--173](#_bookmark217) Transform properties,
-[164](#_bookmark214)
-3D transform functions, [169--173](#_bookmark217) 2D transform
-functions, [164--169](#_bookmark214)
-Transitions properties,
-[173--174](#the-output-of-the-code-is-given-below-46)
-translate() function, [257](#Cover)
-2D transform functions, [164--169](#_bookmark214) Types of CSS,
-[14--19](#different-types-of-css-you-can-use)
-U
-Universal selector (&#42;), [179--180](#_bookmark225) Universal selector
-(elements),
-[180--181](#the-output-of-the-code-is-given-below-48)
-Unwrap option, [390](#_bookmark345)
-V
-:valid selector, [225--226](#Cover) Versions of CSS, [4](#_bookmark48)
-W
-W3C, *see* [World Wide Web Consortium](#_bookmark378) Working of CSS,
-[11](#_bookmark64)
-World Wide Web Consortium (W3C), [2](#_bookmark43)
