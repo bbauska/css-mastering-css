@@ -1,3 +1,52 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~ index.html of https://github.com/bbauska/libraries-and-frameworks ~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ making https://libs-frames.bauska.org ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<head>
+  <meta charset="utf-8" />
+  <link rel="shortcut icon" type="image/jpg" href="./images/favicon.ico"/>
+
+  <!-- Facebook image must be at least 600x315px -->
+  <meta property="og:image" content="https://www.meta.bauska.org/images/image.jpg" />
+  <meta property="og:description" content="Mastering CSS." />
+  <meta property="og:site_name" content="Mastering CSS" />
+  <meta property="fb:admins" content="https://www.facebook.com/help/211813265517027/?helpref=uf_share" />
+
+  <!-- favicon images -->
+  <link rel="apple-touch-icon" sizes="57x57" href="/images/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/images/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/images/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/images/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/images/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/images/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/images/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/images/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/images/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+
+  <!-- viewport and seo -->
+  <meta name="title" content="Mastering CSS">
+  <meta name="description" content="Insane list of most popular libraries &amp; frameworks in 2025.">
+  <meta name="keywords" content="List of JavaScript libraries &amp; frameworks,List,of,JavaScript,
+    libraries,and,frameworks,Silus,Silus Gaming World,Gaming World,Gaming,World">
+  <meta name="robots" content="index, follow">
+  <meta name="language" content="English">
+  <meta name="author" content="Brian Bauska">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>Mastering CSS</title>
+  <link rel="canonical" href="https://mastering-css.bauska.org">
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h1 id="mastering-css">Mastering CSS</h1>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<cite>Don't forget to breath..</cite>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h1>CSS Mastering CSS</h1>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -10,7 +59,6 @@
   title="Title: Mastering CSS: A Beginner's Guide"
   style="width:5in" />
 </p>
-
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>Mastering CSS</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -12593,47 +12641,38 @@ executed.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>Bibliography</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-1.  HTML & CSS --
-    [https://www.w3.org/standards/webdesign/htmlcss](https://www.w3.org/),
-    accessed on May 16, 2022.
-
-2.  CSS -- [https://developer.mozilla.org/en-US/docs/Web/CSS,
-    accessed](https://developer.mozilla.org/) on May 16, 2022.
-
-3.  CSS Introduction --
-    [https://en.wikipedia.org/wiki/CSS](https://en.wikipedia.org/),
-    accessed on May 16, 2022.
-
-4.  HTMLand CSSBasic--
-    [https://www3.ntu.edu.sg/home/ehchua/programming/](https://www3.ntu.edu.sg/)
-    [webprogramming/HTML_CSS_Basics.html](https://www3.ntu.edu.sg/),
-    accessed on May 16, 2022.
-
-5.  CSS History --
-    [https://www.w3.org/Style/CSS20/history.html](https://www.w3.org/),
-    accessed on May 17, 2022.
-
-6.  CSS History --
-    [https://www.bu.edu/lernet/artemis/years/2020/projects/](https://www.bu.edu/)
-    [FinalPresentations/HTML/historyofcss.html](https://www.bu.edu/),
-    accessed on May 17, 2022.
-
-7.  History overview HTML --
-    [https://simplecss.eu/css-history-brief-overview.](https://simplecss.eu/)
-    [html](https://simplecss.eu/), accessed on May 17, 2022.
-
-8.  History CSS --
-    [https://css-tricks.com/look-back-history-css/](https://css-tricks.com/),
-    accessed on May 17, 2022.
-
-9.  CSS Syntax --
-    [https://www.w3schools.com/css/css_syntax.asp](https://www.w3schools.com/),
-    accessed on May 17, 2022.
-
-10. CSS Syntax --
-    [https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax](https://developer.mozilla.org/),
-    accessed on May 18, 2022.
+<ol type="1" start="1">
+  <li>HTML & CSS --<br>
+    <a href="https://www.w3.org/standards/webdesign/htmlcss">accessed on May 16, 2022</a>.</li>
+  <li>CSS --<br>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">accessed on May 16, 2022</a>.</li>
+  <li>CSS Introduction --<br>
+    <a href="https://en.wikipedia.org/wiki/CSS](https://en.wikipedia.org/">
+	accessed on May 16, 2022</a>.</li>
+  <li>HTMLand CSSBasic--<br>
+    <a href="https://www3.ntu.edu.sg/home/ehchua/programming/">https://www3.ntu.edu.sg/</a>
+	<a href="">webprogramming/HTML_CSS_Basics.html">https://www3.ntu.edu.sg/</a>,
+    accessed on May 16, 2022.</li>
+  <li>CSS History --<br>
+    <a href="https://www.w3.org/Style/CSS20/history.html">https://www.w3.org/</a>,
+    accessed on May 17, 2022.</li>
+  <li>CSS History --<br>
+    <a href="https://www.bu.edu/lernet/artemis/years/2020/projects/">https://www.bu.edu/</a>
+    <a href="https://www.bu.edu/">FinalPresentations/HTML/historyofcss.html</a>,
+    accessed on May 17, 2022.</li>
+  <li>History overview HTML --<br>
+    <a href="https://simplecss.eu/css-history-brief-overview.">https://simplecss.eu/</a>
+    <a href="https://simplecss.eu/">html</a>, accessed on May 17, 2022.</li>
+  <li>History CSS --<br>
+    <a href="https://css-tricks.com/look-back-history-css/">https://css-tricks.com/</a>,
+    accessed on May 17, 2022.</li>
+  <li>CSS Syntax --<br>
+    <a href="https://www.w3schools.com/css/css_syntax.asp">https://www.w3schools.com/</a>,
+    accessed on May 17, 2022.</li>
+  <li>CSS Syntax --<br>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax">https://developer.mozilla.org/</a>,
+    accessed on May 18, 2022.<li>
+</ol>
 
 11. CSS Rules --
     [https://learn.saylor.org/mod/book/view.php?id=36821&chapterid=](https://learn.saylor.org/)
@@ -12835,3 +12874,9 @@ Bibliography ■ **419**
 </p>
 <!-- ![](./images/image6.png){width="3.6393208661417322in" height="0.9622911198600175in"}  -->
 
+<footer>
+<h6>Create Date: 7/7/2025 12:00p<br>
+Last Editted: 9/16/2025 3:11a</h6>
+</footer>
+</body>
+</html>
