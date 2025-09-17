@@ -1,56 +1,5 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~ index.html of https://github.com/bbauska/libraries-and-frameworks ~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ making https://libs-frames.bauska.org ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<head>
-  <meta charset="utf-8" />
-  <link rel="shortcut icon" type="image/jpg" href="./images/favicon.ico"/>
-
-  <!-- Facebook image must be at least 600x315px -->
-  <meta property="og:image" content="https://www.meta.bauska.org/images/image.jpg" />
-  <meta property="og:description" content="Mastering CSS." />
-  <meta property="og:site_name" content="Mastering CSS" />
-  <meta property="fb:admins" content="https://www.facebook.com/help/211813265517027/?helpref=uf_share" />
-
-  <!-- favicon images -->
-  <link rel="apple-touch-icon" sizes="57x57" href="/images/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="/images/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="/images/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="/images/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="/images/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="/images/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="/images/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="/images/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192"  href="/images/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
-  <link rel="manifest" href="/manifest.json">
-
-  <!-- viewport and seo -->
-  <meta name="title" content="Mastering CSS">
-  <meta name="description" content="Insane list of most popular libraries &amp; frameworks in 2025.">
-  <meta name="keywords" content="List of JavaScript libraries &amp; frameworks,List,of,JavaScript,
-    libraries,and,frameworks,Silus,Silus Gaming World,Gaming World,Gaming,World">
-  <meta name="robots" content="index, follow">
-  <meta name="language" content="English">
-  <meta name="author" content="Brian Bauska">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-  <title>Mastering CSS</title>
-  <link rel="canonical" href="https://mastering-css.bauska.org">
-  <link rel="stylesheet" href="./css/styles.css">
-</head>
-<body>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<h1 id="mastering-css">Mastering CSS</h1>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<cite>Don't forget to breath..</cite>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h1>CSS Mastering CSS</h1>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!-- ![](./images/image001.jpeg){width="5.28125in" height="8.191903980752405in"}  -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~ 01. title: mastering css: a beginner's guide ~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -59,6 +8,7 @@
   title="Title: Mastering CSS: A Beginner's Guide"
   style="width:5in" />
 </p>
+<!-- ![](./images/image001.jpeg){width="5.28125in" height="8.191903980752405in"}  -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>Mastering CSS</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -122,8 +72,6 @@ with over a decade of experience in the computing field.</p>
 <h4>Edited by</h4>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h5>Sufyan bin Uzayr</h5>
-<!-- ![](./images/image004.png){width="1.154154636920385in" height="0.4114577865266842in"} -->
-<!-- ![](./images/image005.png){width="1.7452154418197725in" height="0.26031167979002623in"} -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~ 04/05. CRC Press Taylor & Francis Group ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <img class="displayed border"
@@ -137,6 +85,8 @@ with over a decade of experience in the computing field.</p>
   title="CRC Press is an imprint of the Taylor &amp; Francis Gropu, an informa business"
   alt="CRC Press is an imprint of the Taylor &amp; Francis Gropu, an informa business." />
 <p style="clear: both;">
+<!-- ![](./images/image004.png){width="1.154154636920385in" height="0.4114577865266842in"} -->
+<!-- ![](./images/image005.png){width="1.7452154418197725in" height="0.26031167979002623in"} -->
 
 <h4>First Edition published 2024 by CRC Press</h4>
 
@@ -667,7 +617,8 @@ of the section should be written between these angular characters. The
 basic Html code shown below in the overview section is used to create
 a simple Html page.</p>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre>
+&lt;!DOCTYPE html&gt;
 &lt;html lang=&#34;en&#34;&gt;
 &lt;meta charset=&#34;utf-8&#34;&gt;
 &lt;title&gt; Page Title &lt;/title&gt;
@@ -675,7 +626,8 @@ a simple Html page.</p>
 &lt;h1&gt; This is a Heading &lt;/h1&gt;
 &lt;p&gt; This is a paragraph &lt;/p&gt;
 &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;
+</pre>
 
 <p>There are various elements we can add to our HTML code; let's take a look.</p>
 
@@ -756,7 +708,8 @@ the HTML file and CSS file together. So, open the HTML file and add the provided
 "&lt;link href =" style.css "rel =" stylesheet "type =" text / CSS "/&gt;". Your file code 
 looks like this,</p>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre>
+&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
 &lt;title&gt;This is page title.&lt;/title&gt;
@@ -790,7 +743,8 @@ h1 {
   &lt;p style=&#34;color: purple&#34;&gt; Hello world, this is a paragraph. &lt;/p&gt;
 &lt;/div&gt;
 &lt;/body&gt;
-&lt;html&gt;</pre>
+&lt;html&gt;
+</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 07. This is an example of Simple CSS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -848,9 +802,11 @@ different color. So the type or paste into your style file.css.</p>
 <p>This looks different from the code in the HTML file because it is a dif- ferent syntax. 
 I will add a white area and cut into that code as follows:</p>
 
-<pre>p {
+<pre>
+p {
   color: blue;
-}</pre>
+}
+</pre>
 
 <p>Both of the above examples are exactly the same about your browser.</p>
 
@@ -861,9 +817,11 @@ objects on your webpage. For example, you may decide that a major
 topic on your page is shown as a red flag. The following code shows a
 simple CSS rule.</p>
 
-<pre>p {
+<pre>
+p {
   color: red; font-size: 5em;
-}</pre>
+}
+</pre>
 
 <ul>
   <li>For example, the CSS rule opens with a selector.</li>
@@ -887,12 +845,14 @@ structure can take units of various sizes as a value.</p>
 
 <p>The CSS style sheet will contain many such rules, written in sequence.</p>
 
-<pre>p {
+<pre>
+p {
   color: red; font-size: 5em;
 }
 h2 {
   color: black;
-}</pre>
+}
+</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>INHERITANCE CSS</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -913,8 +873,10 @@ paragraph, you can do the following.</p>
 
 <h4>Sample:</h4>
 
-<pre>p {font-family: Tahoma, serif;}, h1 {font- family: Georgia,
-sans-serif;}</pre>
+<pre>
+p {font-family: Tahoma, serif;}, h1 {font- family: Georgia,
+sans-serif;}
+</pre>
 
 <h3>COMMENT TAGS</h3>
 
@@ -933,11 +895,13 @@ immediately after the opening tag &#42; (asterisks) followed by /
 
 <h4>Sample:</h4>
 
-<pre>h1, h2, h3, h4, h5, h6
+<pre>
+h1, h2, h3, h4, h5, h6
 {
   color: #009900;
   font-family: Georgia, sans Serif;
-}</pre>
+}
+</pre>
 
 <p>As you can look on the code above, we've grouped all the header ele-
 ments into a single selector. Each one is separated by a comma. The
@@ -4243,13 +4207,11 @@ height=&#34;200px&#34;&gt;
 <!-- ![](./images/image034.png){width="1.6396872265966753in" height="3.6196872265966755in"}  -->
 
 <h4>CSS dimension property -- height, width.</h4>
-
 <ol type="1">
   <li>max-height and max-width property: The max-height CSS property
     specifies the maximum height of the content area of an element. This
     maximum height does not include padding, borders, or margins.</li>
 </ol>
-
 <p>The <b>max-width</b> property defines the max width of the content area of an
 element. This maximum width does not include padding, bor- ders, or margins.</p>
 
@@ -4320,7 +4282,8 @@ margins.</p>
 
 <h4>Example:</h4>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre>
+&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
 &lt;style&gt;
@@ -4346,10 +4309,13 @@ img {
 &lt;img src=&#34;/images-1.jpg&#34; alt=&#34;image&#34; width=&#34;200px&#34;
 height=&#34;200px&#34;&gt;
 &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;
+</pre>
+
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>CSS GENERATED CONTENT PROPERTIES</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
 <p><b>content</b> property: The content CSS property is used in combination with the 
 <b>::before</b> and <b>::after</b> pseudo-elements to generate content in an element. 
 The syntax of this property is given as:</p>
@@ -4362,7 +4328,8 @@ no-close-quote &#124; initial &#124; inherit
 
 <h4>Example:</h4>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre>
+&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
 &lt;style&gt;
@@ -4387,7 +4354,8 @@ in your code &lt;/p&gt;
 &lt;p class=&#34;after&#34;&gt; The text will be added before every paragraph in
 your code &lt;/p&gt;
 &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;
+</pre>
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4408,12 +4376,15 @@ and <b>close-quote</b> values of the content property.</p>
 
 <p>The syntax of this property is given as:</p>
 
-<pre>quotes: &#91;string string&#93;one or more pairs &#124; none
-&#124; initial &#124; inherit</pre>
+<pre>
+quotes: &#91;string string&#93;one or more pairs &#124; none
+&#124; initial &#124; inherit
+</pre>
 
 <h4>Example:</h4>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre>
+&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
 &lt;style&gt;
@@ -4442,7 +4413,8 @@ paragraph in your code with &lt;q&gt; embedded qutations&lt;/q&gt;&lt;/q&gt;
 before every paragraph in your code &lt;q&gt; embedded qutations &lt;/q&gt;
 &lt;/p&gt;
 &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;
+</pre>
 
 <p><b>counter-reset</b> property: The counter-reset CSS property is used in combination with the 
 <b>counter-increment</b> property for creating <b>auto-incrementing</b> counters, and with the 
@@ -4450,12 +4422,15 @@ content property to display the generated counter values.</p>
 
 <p>The syntax of the property is given as:</p>
 
-<pre>counter-reset: &#91; identifier integer &#93;1 or more pairs &#124; none &#124;
-initial &#124; inherit</pre>
+<pre>
+counter-reset: &#91; identifier integer &#93;1 or more pairs &#124; none &#124;
+initial &#124; inherit
+</pre>
 
 <h4>Example:</h4>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre>
+&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
 &lt;style&gt;
@@ -4489,7 +4464,8 @@ li {
 &lt;li&gt;B&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;
+</pre>
 
 <h5>The output of the code given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4503,9 +4479,11 @@ li {
 <!-- ![](./images/image037.png){width="3.015in" height="1.0462489063867018in"}  -->
 
 <p>CSS counter-reset Property.</p>
+
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>CSS FLEXIBLE BOX LAYOUT</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
 <p>The <b>alignment-content</b> feature changes the behavior of the flex-wrap structure. Aligns 
 dynamic lines. Used to specify alignment between lines within a flexible container. This feature 
 describes how each flexible line is aligned within the flexbox and only works if the flex-wrap: 
@@ -4530,12 +4508,15 @@ wrap is used, that is, when multiple flexbox lines are present.</p>
 
 <p>The syntax of this property is given as:</p>
 
-<pre>align-content: center &#124; flex-start &#124; flex-end &#124; space- between &#124;
-space-around &#124; stretch &#124; initial &#124; inherit</pre>
+<pre>
+align-content: center &#124; flex-start &#124; flex-end &#124; space- between &#124;
+space-around &#124; stretch &#124; initial &#124; inherit
+</pre>
 
 <h4>Example:</h4>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre>
+&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
 &lt;style&gt;
@@ -4562,7 +4543,8 @@ space-around &#124; stretch &#124; initial &#124; inherit</pre>
 &lt;li class=&#34;flex-item&#34;&gt;6&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;
+</pre>
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4586,13 +4568,16 @@ and font-family in a single declaration.</p>
 
 <p>The syntax of the property is given as:</p>
 
-<pre>font: &#91; font-style font-variant line-height font- family &#93; &#124;
+<pre>
+font: &#91; font-style font-variant line-height font- family &#93; &#124;
 caption &#124; icon &#124; menu &#124; message-box &#124; small-caption &#124; status-bar
-&#124; initial &#124; inherit</pre>
+&#124; initial &#124; inherit
+</pre>
 
 <h4>Example:</h4>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre>
+&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
 &lt;style&gt;
@@ -4615,7 +4600,8 @@ font ( font: bold 2.5em &#34;Times New Roman&#34;, Times, serif; ) &lt;/p&gt;
 &lt;p class=&#34;after&#34;&gt; The text will be in font
 ( font: normal 1.2em Arial, Helvetica, sans- serif; ) &lt;/p&gt;
 &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;
+</pre>
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4633,13 +4619,16 @@ font ( font: bold 2.5em &#34;Times New Roman&#34;, Times, serif; ) &lt;/p&gt;
 <p><b>font-size</b> property: The font-size CSS property sets the font size for the element's 
 text content. The syntax of the property is given as:</p>
 
-<pre>font-size: xx-small &#124; x-small &#124; small &#124; medium &#124; large &#124; x-large
+<pre>
+font-size: xx-small &#124; x-small &#124; small &#124; medium &#124; large &#124; x-large
 &#124; xx-large &#124; smaller &#124; larger &#124; length &#124; percentage &#124; initial &#124;
-inherit</pre>
+inherit
+</pre>
 
 <h4>Example:</h4>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre>
+&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
 &lt;style&gt;
@@ -4673,23 +4662,23 @@ inherit</pre>
 &lt;/style&gt;
 &lt;/head&gt;
 &lt;body&gt;
-  &lt;div class=&#34;demo_container&#34;&gt;
-  &lt;h1&gt; CSS Font Size Property &lt;/h1&gt;
-  &lt;p class=&#34;a&#34;&gt; The text will be in font ( font-size: xx-small )
-  &lt;/p&gt;
-  &lt;p class=&#34;b&#34;&gt; The text will be in font ( font-size: x-small )
-  &lt;/p&gt;
-  &lt;p class=&#34;c&#34;&gt; The text will be in font ( font-size: small ) &lt;/p&gt;
-  &lt;p class=&#34;d&#34;&gt; The text will be in font ( font-size: xx-small )
-  &lt;/p&gt;
-  &lt;p class=&#34;e&#34;&gt; The text will be in font ( font-size: x-large )
-  &lt;/p&gt;
-  &lt;p class=&#34;f&#34;&gt; The text will be in font ( font-size: xx-large )
-  &lt;/p&gt;
-  &lt;p class=&#34;g&#34;&gt; The text will be in font (
-  font-size: smaller ) &lt;/p&gt;
-  &lt;p class=&#34;h&#34;&gt; The text will be in font ( font-size: larger )
-  &lt;/p&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
+&lt;h1&gt; CSS Font Size Property &lt;/h1&gt;
+&lt;p class=&#34;a&#34;&gt; The text will be in font ( font-size: xx-small )
+&lt;/p&gt;
+&lt;p class=&#34;b&#34;&gt; The text will be in font ( font-size: x-small )
+&lt;/p&gt;
+&lt;p class=&#34;c&#34;&gt; The text will be in font ( font-size: small ) &lt;/p&gt;
+&lt;p class=&#34;d&#34;&gt; The text will be in font ( font-size: xx-small )
+&lt;/p&gt;
+&lt;p class=&#34;e&#34;&gt; The text will be in font ( font-size: x-large )
+&lt;/p&gt;
+&lt;p class=&#34;f&#34;&gt; The text will be in font ( font-size: xx-large )
+&lt;/p&gt;
+&lt;p class=&#34;g&#34;&gt; The text will be in font (
+font-size: smaller ) &lt;/p&gt;
+&lt;p class=&#34;h&#34;&gt; The text will be in font ( font-size: larger )
+&lt;/p&gt;
 &lt;/body&gt;
 &lt;/html&gt;
 </pre>
@@ -4718,21 +4707,26 @@ available when font back occurs, that may result in a large or small
 font size. The font size change feature is a way to keep text readings
 in such a state. It does this by adjusting the font size so that the x
 length is the same regardless of the font used.</p>
+
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>CSS LIST PROPERTIES</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
 <p><b>list-style property</b>: The list-style CSS property defines the display style for list 
 items. It is a shorthand property for setting the indi- vidual list properties, that is, 
 list-style-type, list-style-position, and list-style-image in a single declaration.</p>
 
 <p>The syntax of the property is given as:</p>
 
-<pre>list-style: &#91; list-style-type list-style-position list-style-image &#93;
-&#124; initial &#124; inherit</pre>
+<pre>
+list-style: &#91; list-style-type list-style-position list-style-image &#93;
+&#124; initial &#124; inherit
+</pre>
 
 <h4>Example:</h4>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre>
+&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
 &lt;style&gt;
@@ -4763,7 +4757,8 @@ ol {
 &lt;li&gt; Item 3 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;
+</pre>
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4781,14 +4776,17 @@ ol {
 <p><b>list-style-type</b> property: The list-style-type CSS property specifies the type of 
 marker for the list-items.</p>
 
-<pre>list-style-type: disc &#124; circle &#124; square &#124; decimal&#124; lower-roman &#124;
+<pre>
+list-style-type: disc &#124; circle &#124; square &#124; decimal&#124; lower-roman &#124;
 upper-roman &#124; lower-greek &#124; lower-latin &#124; upper-latin &#124; georgian
 &#124; lower-alpha
-&#124; upper-alpha &#124; none &#124; initial &#124; inherit</pre>
+&#124; upper-alpha &#124; none &#124; initial &#124; inherit
+</pre>
 
 <h4>Example:</h4>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre>
+&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
 &lt;style&gt;
@@ -4804,21 +4802,22 @@ ul {
 &lt;/style&gt;
 &lt;/head&gt;
 &lt;body&gt;
-  &lt;div class=&#34;demo_container&#34;&gt;
-  &lt;h2&gt; Unordered List ( decimal-leading-zero inside ) &lt;/h2&gt;
-  &lt;ul&gt;
-    &lt;li&gt; Item 1 &lt;/li&gt;
-    &lt;li&gt; Item 2 &lt;/li&gt;
-    &lt;li&gt; Item 3 &lt;/li&gt;
-  &lt;/ul&gt;
-  &lt;h2&gt; Ordered List ( square ) &lt;/h2&gt;
-  &lt;ol&gt;
-    &lt;li&gt; Item 1 &lt;/li&gt;
-    &lt;li&gt; Item 2 &lt;/li&gt;
-    &lt;li&gt; Item 3 &lt;/li&gt;
-  &lt;/ol&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
+&lt;h2&gt; Unordered List ( decimal-leading-zero inside ) &lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt; Item 1 &lt;/li&gt;
+&lt;li&gt; Item 2 &lt;/li&gt;
+&lt;li&gt; Item 3 &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt; Ordered List ( square ) &lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt; Item 1 &lt;/li&gt;
+&lt;li&gt; Item 2 &lt;/li&gt;
+&lt;li&gt; Item 3 &lt;/li&gt;
+&lt;/ol&gt;
 &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;
+</pre>
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4838,24 +4837,19 @@ ul {
 <b>Value Description</b>
 
 <p>disc circle square</p>
-
 <p>The marker is a filled circle.</p>
-
 <p>The marker is a filled hollow circle.</p>
-
-<p><b>decimal</b>: The marker is as a decimal number Beginning with 1.</p>
-
-<p><b>decimal-leading-zero</b>: The marker is as a decimal number</p>
-
+<p>decimal The marker is as a decimal number Beginning with 1.</p>
+<p>decimal-leading-zero The marker is as a decimal number</p>
 </p>Padded by initial zero</p>
 
 <p>For example, 01, 02, 03, &#8230; 10, 11</p>
 
-<p><b>lower-greek</b>: The marker is a lowercase Greek letters alpha, beta, gamma, &#8230;</p>
+<p>lower-greek The marker is a lowercase Greek letters alpha, beta, gamma, &#8230;</p>
 
 <p>For example, α, β, γ, &#8230;</p>
 
-<p><b>upper-roman</b>: The marker is as uppercase Roman numerals</p>
+<p>upper-roman The marker is as uppercase Roman numerals</p>
 
 <p>For example, I, II, III, IV, V, &#8230;</p>
 
@@ -4896,7 +4890,8 @@ used as a list-item marker.</p>
 
 <h4>Example:</h4>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre>
+&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
 &lt;style&gt;
@@ -4917,7 +4912,8 @@ ul {
 &lt;li&gt; Item 3 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;
+</pre>
 
 <p><b>ist-style-position</b> property: The list-style-position CSS property defines the position 
 of the list-item marker with respect to the list item's block box. The syntax of this property 
@@ -4927,7 +4923,8 @@ is given as:</p>
 
 <h4>Example:</h4>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre>
+&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
 &lt;style&gt;
@@ -4949,18 +4946,19 @@ ol li, ul li {
 &lt;h1&gt; CSS list-style-position Property &lt;/h1&gt;
 &lt;h2&gt; List Marker Positioned Inside &lt;/h2&gt;
 &lt;ol&gt;
-  &lt;li&gt; Item 1 &lt;/li&gt;
-  &lt;li&gt; Item 2 &lt;/li&gt;
-  &lt;li&gt; Item 3 &lt;/li&gt;
+&lt;li&gt; Item 1 &lt;/li&gt;
+&lt;li&gt; Item 2 &lt;/li&gt;
+&lt;li&gt; Item 3 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2&gt; List Marker Positioned Outside &lt;/h2&gt;
 &lt;ul&gt;
-  &lt;li&gt; Item 1 &lt;/li&gt;
-  &lt;li&gt; Item 2 &lt;/li&gt;
-  &lt;li&gt; Item 3 &lt;/li&gt;
+&lt;li&gt; Item 1 &lt;/li&gt;
+&lt;li&gt; Item 2 &lt;/li&gt;
+&lt;li&gt; Item 3 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;
+</pre>
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -4982,12 +4980,15 @@ shorthand property for margin-top, margin-right, margin-bottom, and margin-left 
 
 <p>The syntax of this property is given as:</p>
 
-<pre>margin: &#91; length &#124; percentage &#124; auto &#93; 1 to 4 values
-&#124; initial &#124; inherit</pre>
+<pre>
+margin: &#91; length &#124; percentage &#124; auto &#93; 1 to 4 values
+&#124; initial &#124; inherit
+</pre>
 
 <h4>Example:</h4>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre>
+&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
 &lt;style&gt;
@@ -4996,18 +4997,18 @@ shorthand property for margin-top, margin-right, margin-bottom, and margin-left 
   align-items: center;
 }
 .text-1 {
-  border-style: solid;
-  margin: 25px;
+border-style: solid;
+margin: 25px;
 }
 .text-2 {
-  border-style: solid;
-  margin: 20px 20px 20px 20px;
+border-style: solid;
+margin: 20px 20px 20px 20px;
 }
 .text-3 {
-  border-style: solid; margin: 30px 30px;
+border-style: solid; margin: 30px 30px;
 }
 .text-4 {
-  border-style: solid; margin: 30px 0px 30px 0px ;
+border-style: solid; margin: 30px 0px 30px 0px ;
 }
 &lt;/style&gt;
 &lt;/head&gt;
@@ -5036,26 +5037,30 @@ Veritatis obcaecati tenetur iure earum ut molestias architecto
 voluptate aliquam nihil, eveniet culpa officia aut!
 .&lt;/p&gt;&lt;br&gt;
 &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;
+</pre>
 
-<p>This notation can take one, two, three, or four whitespace-separated
-values.</p>
-<ol>
-  <li>If set one value, then margin applies to all four sides.</li>
-  <li>If you set two values, then first value applies to the top and
-    bottom, and the second value applies to the right and left side.</li>
-  <li>If set three values, then values apply to the top, horizontal (i.e.,
-    right and left) bottom side.</li>
-  <li>If set four values, then to the top, right, bottom, left side in the
-    same order.</li>
-</ol>
+This notation can take one, two, three, or four whitespace-separated
+values.
 
-<p>Instead of margin, you should use other various margin-top, margin-
-right, margin-bottom, and margin-left.</p>
+1.  If set one value, then margin applies to all four sides.
+
+2.  If you set two values, then first value applies to the top and
+    bottom, and the second value applies to the right and left side.
+
+3.  If set three values, then values apply to the top, horizontal (i.e.,
+    right and left) bottom side.
+
+4.  If set four values, then to the top, right, bottom, left side in the
+    same order.
+
+Instead of margin, you should use other various margin-top, margin-
+right, margin-bottom, and margin-left.
 
 <h4>Example:</h4>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre>
+&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
 &lt;style&gt;
@@ -5104,7 +5109,8 @@ Veritatis tenetur iure eius earum ut molestias architecto voluptate
 aliquam nihil, eveniet aliquid culpa officia aut!
 .&lt;/p&gt;&lt;br&gt;
 &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;
+</pre>
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5117,7 +5123,7 @@ aliquam nihil, eveniet aliquid culpa officia aut!
 </p>
 <!-- ![](./images/image044.png){width="4.4128116797900265in" height="3.5521872265966756in"}  -->
 
-<p><b>CSS margin</b> -- property (margin-top, margin-right, margin-bottom, margin-left).</p>
+<p>CSS margin -- property (margin-top, margin-right, margin-bottom, margin-left).</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>CSS MULTI-COLUMN LAYOUT PROPERTIES</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5130,7 +5136,8 @@ a multi-column element.</p>
 
 <h4>Example:</h4>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre>
+&lt;!DOCTYPE html&gt;
 &lt;html lang=&#34;en&#34;&gt;
 &lt;head&gt;
 &lt;meta charset=&#34;utf-8&#34;&gt;
@@ -5191,7 +5198,8 @@ eget lobortis. luctus sed justo vel. Nunc sit nulla eu est fringilla
 euismod sed orci. Sed massa lorem, blandit sed massa, condimentum
 ornare purus.&lt;/p&gt;
 &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;
+</pre>
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5207,7 +5215,6 @@ ornare purus.&lt;/p&gt;
 <p>CSS3 column-count property.</p>
 
 <p>The <b>column count</b> property is as follows:</p>
-
 <ol type="1" start="1">
   <li><b>number</b>: It specifies the number of columns in the multi-col- umn
     element. If the column width is also set to a non auto value, it may
@@ -5221,10 +5228,11 @@ ornare purus.&lt;/p&gt;
     height or, just take up the room as much as the content needed, when
     using the value auto.</li>
 </ol>
-
 <p>The syntax of this Property is given as:</p>
 
-<pre>column-fill: auto &#124; balance &#124; initial &#124; inherit</pre>
+<pre>
+column-fill: auto &#124; balance &#124; initial &#124; inherit
+</pre>
 
 <h4>Example:</h4>
 
@@ -5291,7 +5299,8 @@ risus eget. luctus justo vel auctor. Nunc sit amet nulla eu est
 fringilla euismod ac orci. Sed massa lorem, blandit sed quis,
 condimentum ornare purus.&lt;/p&gt;
 &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;
+</pre>
 
 <h5>The output of the code given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5316,7 +5325,8 @@ the middle of the gap.</p>
 
 <h4>Example:</h4>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre>
+&lt;!DOCTYPE html&gt;
 &lt;html lang=&#34;en&#34;&gt;
 &lt;head&gt;
 &lt;meta charset=&#34;utf-8&#34;&gt;
@@ -5393,7 +5403,8 @@ Aliquam luctus sed justo vel auctor. Nunc sit nulla eu est fringilla
 euismod sed orci. Sed massa lorem, blandit sed massa, condimentum
 ornare purus.&lt;/p&gt;
 &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;
+</pre>
 
 <h5>The output of the code is given below:</h5>
 
@@ -5404,12 +5415,15 @@ ornare purus.&lt;/p&gt;
     column-rule-width, column-rule-style, and column-rule-color at once.</li>
 </ol>
 
-<pre>column-rule: &#91; column-rule-width column-rule-style column-rule-color
-&#93; &#124; initial &#124; inherit</pre>
+<pre>
+column-rule: &#91; column-rule-width column-rule-style column-rule-color
+&#93; &#124; initial &#124; inherit
+</pre>
 
 <h4>Example:</h4>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre>
+&lt;!DOCTYPE html&gt;
 &lt;html lang=&#34;en&#34;&gt;
 &lt;head&gt;
 &lt;meta charset=&#34;utf-8&#34;&gt;
@@ -5484,7 +5498,8 @@ vel auctor. Nunc sit nulla eu est fringilla euismod sed ac. Sed
 massa lorem, blandit sed massa quis,
 condimentum ornare purus.&lt;/p&gt;
 &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;
+</pre>
 
 <h5>The output of the code given is below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5504,17 +5519,21 @@ rule drawn between columns in a multi-column layout.</p>
 
 <p>The syntax of this property is given as:</p>
 
-<pre>column-rule-width: length &#124; medium &#124; thin &#124; thick
-&#124; initial &#124; inherit</pre>
+<pre>
+column-rule-width: length &#124; medium &#124; thin &#124; thick
+&#124; initial &#124; inherit
+</pre>
 
 <p><b>column-rule-style</b> property: This Property sets the style of the rule set between columns 
 in a multi-column layout.</p>
 
 <p>The syntax of this property is given as:</p>
 
-<pre>column-rule-style: none &#124; hidden &#124;dashed &#124;dotted
+<pre>
+column-rule-style: none &#124; hidden &#124;dashed &#124;dotted
 &#124; solid &#124; double &#124; groove &#124; ridge &#124; inset &#124; outset
-&#124; initial &#124; inherit</pre>
+&#124; initial &#124; inherit
+</pre>
 
 <p><b>column-rule-color</b> property: The column-rule-color property sets the color of all 
 the rules drawn between columns in a multi-column layout.</p>
@@ -5525,7 +5544,8 @@ the rules drawn between columns in a multi-column layout.</p>
 
 <h4>Example:</h4>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre>
+&lt;!DOCTYPE html&gt;
 &lt;html lang=&#34;en&#34;&gt;
 &lt;head&gt;
 &lt;meta charset=&#34;utf-8&#34;&gt;
@@ -5606,7 +5626,8 @@ Aliquam luctus sed justo vel auctor. Nunc sit amet nulla eu est
 fringilla euismod sed ac orci. Sed massa lorem, blandit sed massa
 quis, condimentum ornare purus.&lt;/p&gt;
 &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;
+</pre>
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5627,12 +5648,15 @@ quis, condimentum ornare purus.&lt;/p&gt;
 
 <p>The syntax of this property is given as:</p>
 
-<pre>outline: &#91; outline-width outline-style outline- color &#93; &#124; initial
-&#124; inherit</pre>
+<pre>
+outline: &#91; outline-width outline-style outline- color &#93; &#124; initial
+&#124; inherit
+</pre>
 
 <h4>Example:</h4>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre>
+&lt;!DOCTYPE html&gt;
 &lt;html lang=&#34;en&#34;&gt;
 &lt;head&gt;
 &lt;meta charset=&#34;utf-8&#34;&gt;
@@ -5670,7 +5694,8 @@ Duis bibendum metus arcu.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;
+</pre>
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5689,7 +5714,9 @@ Duis bibendum metus arcu.
 
 <p>The syntax of the property is given as:</p>
 
-<pre>outline-width: thin &#124; medium &#124; thick &#124; length &#124; initial &#124; inherit</pre>
+<pre>
+outline-width: thin &#124; medium &#124; thick &#124; length &#124; initial &#124; inherit
+</pre>
 
 <p><b>outline-style</b> property: The outline style property sets style of the outline of 
 an element. However, in many cases the shorthand prop- erties outline is more convenient 
@@ -5697,12 +5724,15 @@ to use and preferable.</p>
 
 <p>The syntax of this property is given as:</p>
 
-<pre>outline-style: none &#124; dotted &#124; dashed &#124; double &#124; groove &#124; ridge
-&#124; inset &#124; outset &#124; initial &#124; inherit</pre>
+<pre>
+outline-style: none &#124; dotted &#124; dashed &#124; double &#124; groove &#124; ridge
+&#124; inset &#124; outset &#124; initial &#124; inherit
+</pre>
 
 <h4>Example:</h4>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre>
+&lt;!DOCTYPE html&gt;
 &lt;html lang=&#34;en&#34;&gt;
 &lt;head&gt;
 &lt;meta charset=&#34;utf-8&#34;&gt;
@@ -5753,7 +5783,8 @@ metus arcu.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;
+</pre>
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5775,12 +5806,15 @@ property used for padding-top, padding-right, padding-bottom, and padding-left p
 
 <p>The syntax of this property is given as:</p>
 
-<pre>padding : &#91; length &#124; percentage &#124; auto &#93; 1 to 4 values
-&#124; initial &#124; inherit</pre>
+<pre>
+padding : &#91; length &#124; percentage &#124; auto &#93; 1 to 4 values
+&#124; initial &#124; inherit
+</pre>
 
 <h4>Example:</h4>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre>
+&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
 &lt;style&gt;
@@ -5828,10 +5862,10 @@ sed odit fugiat iusto fuga praesentium optio, eaque rerum!&lt;/h1&gt;
 tenetur iure eius earum ut molestias architecto voluptate aliquam
 nihil, eveniet aliquid culpa aut!. &lt;/p&gt;&lt;br&gt;
 &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;
+</pre>
 
 <p>This notation can take one, two, three, or four whitespace-separated values.</p>
-
 <ol type="1">
   <li>If we set one value, then margin applies to all four sides.</li>
   <li>If we set two values, then a value applies to the top and bottom, and the second value 
@@ -5840,13 +5874,13 @@ nihil, eveniet aliquid culpa aut!. &lt;/p&gt;&lt;br&gt;
     and bottom sides.</li>
   <li>If we set four values, then values apply to the top, right, bottom, left sides in that 
     order.</li>
-</ol>
 
 <p>Instead of padding, you can use other various margin-top, padding-right, padding-bottom, padding-left.</p>
 
 <h4>Example:</h4>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre>
+&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
 &lt;style&gt;
@@ -5895,21 +5929,27 @@ sed odit fugiat iusto fuga praesentium optio, eaque rerum!&lt;/h1&gt;
 tenetur iure eius earum ut molestias architecto voluptate aliquam
 nihil, eveniet culpa officia aut! .&lt;/p&gt;&lt;br&gt;
 &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;
+</pre>
+
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>CSS PRINT PROPERTIES</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
 <p><b>page-break-after</b> property: The page-break-after CSS property inserts page breaks 
 after an element when printing a document. This property applies to block-level elements 
 that generate a box. It won't apply on an empty &lt;p&gt; that won't generate a box. The 
 syntax of this Property is given as:</p>
 
-<pre>page-break-after: auto &#124; always &#124; avoid &#124; left &#124; right &#124; initial
-&#124; inherit</pre>
+<pre>
+page-break-after: auto &#124; always &#124; avoid &#124; left &#124; right &#124; initial
+&#124; inherit
+</pre>
 
 <h4>Example:</h4>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre>
+&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
 &lt;meta charset=&#34;utf-8&#34;&gt;
@@ -5950,7 +5990,8 @@ Integer molestie, orci id gravida mollis, ante lectus bibendum enim,
 dictum fermentum ipsum arcu et tellus.&lt;/p&gt;
 &lt;p class=&#34;footnotes&#34;&gt;-: The End :-&lt;/p&gt;
 &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;
+</pre>
 
 <h5>The result of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5971,6 +6012,7 @@ dictum fermentum ipsum arcu et tellus.&lt;/p&gt;
   <li>page-break-before property</li>
   <li>page-break-inside property</li>
 </ol>
+
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>CSS TABLE PROPERTIES</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -5992,7 +6034,8 @@ dictum fermentum ipsum arcu et tellus.&lt;/p&gt;
 
 <h4>Example:</h4>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre>
+&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
 &lt;style&gt;
@@ -6015,36 +6058,37 @@ table, th, td {
 &lt;div class=&#34;demo_container&#34;&gt;
 &lt;h1&gt; CSS Border Collapse - With &lt;/h1&gt;
 &lt;table class=&#34;table-1&#34;&gt;
-  &lt;tr&gt;
-    &lt;th&gt;Name&lt;/th&gt;
-    &lt;th&gt;Email&lt;/th&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td&gt;Alax&lt;/td&gt;
-    &lt;td&gt;&lt;alax@example.com&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td&gt;Joy&lt;/td&gt;
-    &lt;td&gt;&lt;joy@example.com&lt;/td&gt;
-  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;Name&lt;/th&gt;
+&lt;th&gt;Email&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Alax&lt;/td&gt;
+&lt;td&gt;&lt;alax@example.com&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Joy&lt;/td&gt;
+&lt;td&gt;&lt;joy@example.com&lt;/td&gt;
+&lt;/tr&gt;
 &lt;/table&gt;
 &lt;h1&gt; CSS Border Collapse - Without &lt;/h1&gt;
 &lt;table class=&#34;table-2&#34;&gt;
-  &lt;tr&gt;
-    &lt;th&gt;Name&lt;/th&gt;
-    &lt;th&gt;Email&lt;/th&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td&gt;Alax&lt;/td&gt;
-    &lt;td&gt;&lt;alax@example.com&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td&gt;Joy&lt;/td&gt;
-    &lt;td&gt;&lt;joy@example.com&lt;/td&gt;
-  &lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;Name&lt;/th&gt;
+&lt;th&gt;Email&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Alax&lt;/td&gt;
+&lt;td&gt;&lt;alax@example.com&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Joy&lt;/td&gt;
+&lt;td&gt;&lt;joy@example.com&lt;/td&gt;
+&lt;/tr&gt;
 &lt;/table&gt;
 &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;
+</pre>
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -6312,9 +6356,11 @@ table.two {
 <!-- ![](./images/image055.png){width="2.8541655730533684in" height="2.9296872265966756in"}  -->
 
 <p>CSS <b>empty-cell</b> property.</p>
+
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>CSS TEXT PROPERTIES</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
 <p><b>text-align</b> property and text-align-all property: The text-decoration property is 
 aproperty forsettingtext-decoration-line, text-decoration- style, and text-decoration-
 color in one declaration.</p>
@@ -9738,7 +9784,8 @@ RGB(255,0,0) RGB(100%,0%,0%)
 
 <h4>Example:</h4>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre>
+&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
 &lt;style&gt;
@@ -9796,34 +9843,35 @@ p {
 &lt;/style&gt;
 &lt;/head&gt;
 &lt;body&gt;
-  &lt;div class=&#34;demo_container&#34;&gt;
-    &lt;h2&gt;The rgb() function can be used to provide a color value when
-    using CSS&lt;/h2&gt;
-    &lt;div class=&#34;row&#34;&gt;
-      &lt;div class=&#34;col&#34;&gt;
-        &lt;p&gt; rgb(255,69,0) &lt;/p&gt;
-        &lt;div class=&#34;image-1&#34;&gt; &lt;/div&gt;
-        &lt;p&gt; rgb(0,255,0) &lt;/p&gt;
-        &lt;div class=&#34;image-2&#34;&gt; &lt;/div&gt;
-        &lt;p&gt; rgb(0,0,128) &lt;/p&gt;
-        &lt;div class=&#34;image-3&#34;&gt; &lt;/div&gt;
-        &lt;p&gt; rgb(230,255,0) &lt;/p&gt;
-        &lt;div class=&#34;image-8&#34;&gt; &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;div class=&#34;col&#34;&gt;
-      &lt;p&gt; rgb(128,128,0) &lt;/p&gt;
-      &lt;div class=&#34;image-4&#34;&gt; &lt;/div&gt;
-      &lt;p&gt; rgb(255,0,0) &lt;/p&gt;
-      &lt;div class=&#34;image-5&#34;&gt; &lt;/div&gt;
-      &lt;p&gt; rgb(128,0,128)&lt;/p&gt;
-      &lt;div class=&#34;image-6&#34;&gt; &lt;/div&gt;
-      &lt;p&gt; rgb(255,0,70) &lt;/p&gt;
-      &lt;div class=&#34;image-7&#34;&gt; &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
+&lt;div class=&#34;demo_container&#34;&gt;
+&lt;h2&gt;The rgb() function can be used to provide a color value when
+using CSS&lt;/h2&gt;
+&lt;div class=&#34;row&#34;&gt;
+&lt;div class=&#34;col&#34;&gt;
+&lt;p&gt; rgb(255,69,0) &lt;/p&gt;
+&lt;div class=&#34;image-1&#34;&gt; &lt;/div&gt;
+&lt;p&gt; rgb(0,255,0) &lt;/p&gt;
+&lt;div class=&#34;image-2&#34;&gt; &lt;/div&gt;
+&lt;p&gt; rgb(0,0,128) &lt;/p&gt;
+&lt;div class=&#34;image-3&#34;&gt; &lt;/div&gt;
+&lt;p&gt; rgb(230,255,0) &lt;/p&gt;
+&lt;div class=&#34;image-8&#34;&gt; &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;col&#34;&gt;
+&lt;p&gt; rgb(128,128,0) &lt;/p&gt;
+&lt;div class=&#34;image-4&#34;&gt; &lt;/div&gt;
+&lt;p&gt; rgb(255,0,0) &lt;/p&gt;
+&lt;div class=&#34;image-5&#34;&gt; &lt;/div&gt;
+&lt;p&gt; rgb(128,0,128)&lt;/p&gt;
+&lt;div class=&#34;image-6&#34;&gt; &lt;/div&gt;
+&lt;p&gt; rgb(255,0,70) &lt;/p&gt;
+&lt;div class=&#34;image-7&#34;&gt; &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;
+</pre>
 
 <h5>The output of the code is given below:</h5>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -11679,7 +11727,8 @@ gulp.task(&#39;css&#39;, function () { return gulp.src(&#39;./src/&#42;.css&#39;
 
 <h5>Passing plugins directly using gulp:</h5>
 
-<pre>var postcss = require(&#39;gulp-postcss&#39;); var gulp = require(&#39;gulp&#39;);
+<pre>
+var postcss = require(&#39;gulp-postcss&#39;); var gulp = require(&#39;gulp&#39;);
 var autoprefixer = require(&#39;autoprefixer&#39;);
 var cssnano = require(&#39;cssnano&#39;);
 gulp.task(&#39;css&#39;, function () { var plugins = &#91;
@@ -11688,7 +11737,8 @@ gulp.task(&#39;css&#39;, function () { var plugins = &#91;
   return gulp.src(&#39;./src/&#42;.css&#39;)
   .pipe(postcss(plugins))
   .pipe(gulp.dest(&#39;./dest&#39;));
-});</pre>
+});
+</pre>
 
 <h5>Grunt</h5>
 
@@ -11704,7 +11754,8 @@ install this plu- gin with this command:</p>
 
 <h5>How to use the plugins in the code:</h5>
 
-<pre>&#36; npm install grunt-postcss pixrem autoprefixer cssnano
+<pre>
+&#36; npm install grunt-postcss pixrem autoprefixer cssnano
 grunt.initConfig({ postcss: {
   options: {
     map: true, // inline sourcemaps
@@ -11724,7 +11775,8 @@ grunt.initConfig({ postcss: {
     src: &#39;css/&#42;.css&#39;
   }
 }
-});</pre>
+});
+</pre>
 
 <p>FONT MAGICIAN</p>
 <p>Font Magician is a PostCSS plugin that magically generates all of your
@@ -11734,13 +11786,16 @@ grunt.initConfig({ postcss: {
 
 <p>Just use the font and font-family properties as if they were magic.</p>
 
-<pre>body {
+<pre>
+body {
   font-family: &#34;Alice&#34;;
-}</pre>
+}
+</pre>
 
 <p>The output will be,</p>
 
-<pre>&#64;font-face {
+<pre>
+&#64;font-face {
   font-family: &#34;Alice&#34;; font-style: normal; font-weight: 400;
   src: local(&#34;Alice&#34;), local(&#34;Alice-Regular&#34;),
   url(&#34;<http://fonts.gstatic.com/s/alice/v7/>
@@ -11754,12 +11809,15 @@ grunt.initConfig({ postcss: {
 }
 body {
   font-family: &#34;Alice&#34;;
-}</pre>
+}
+</pre>
 
 <h5>Installation: You can add Font Magician to your build tool:</h5>
 
-<pre>&#36; npm install postcss postcss-font-magician &#45;-save-dev
-yarn add postcss postcss-font-magician &#45;-dev</pre>
+<pre>
+&#36; npm install postcss postcss-font-magician &#45;-save-dev
+yarn add postcss postcss-font-magician &#45;-dev
+</pre>
 
 <p>LOST GRID</p>
 
@@ -11783,12 +11841,15 @@ with customization.</p>
 
 <h5>You can also install dependencies:</h5>
 
-<pre>&#36; npm install &#45;-save-dev gulp gulp-postcss gulp- sourcemaps
-autoprefixer lost</pre>
+<pre>
+&#36; npm install &#45;-save-dev gulp gulp-postcss gulp- sourcemaps
+autoprefixer lost
+</pre>
 
 <h5>Now create a gulpfile.js with the following code:</h5>
 
-<pre>var gulp = require(&#39;gulp&#39;),
+<pre>
+var gulp = require(&#39;gulp&#39;),
 postcss = require(&#39;gulp-postcss&#39;), sourcemaps =
 require(&#39;gulp-sourcemaps&#39;), autoprefixer =
 require(&#39;autoprefixer&#39;), lost = require(&#39;lost&#39;);
@@ -11804,7 +11865,8 @@ gulp.task(&#39;styles&#39;, function() {
   .pipe(gulp.dest(paths.cssDestination));
 });
 gulp.watch(paths.cssSource + &#39;&#42;&#42;/&#42;.css&#39;, &#91;&#39;styles&#39;&#93;);
-gulp.task(&#39;default&#39;, &#91;&#39;styles&#39;&#93;);</pre>
+gulp.task(&#39;default&#39;, &#91;&#39;styles&#39;&#93;);
+</pre>
 
 <h5>At last run gulp.</h5>
 
@@ -11816,12 +11878,15 @@ gulp.task(&#39;default&#39;, &#91;&#39;styles&#39;&#93;);</pre>
 
 <h5>Install dev dependencies:</h5>
 
-<pre>&#36; npm install &#45;-save-dev grunt grunt-postcss grunt-autoprefixer
-grunt-contrib-watch lost</pre>
+<pre>
+&#36; npm install &#45;-save-dev grunt grunt-postcss grunt-autoprefixer
+grunt-contrib-watch lost
+</pre>
 
 <h5>Create a Gruntfile.js with the following code:</h5>
 
-<pre>module.exports = function(grunt) { grunt.initConfig({
+<pre>
+module.exports = function(grunt) { grunt.initConfig({
   postcss: { options: {
     map: true, processors: &#91;
     require(&#39;lost&#39;)
@@ -11845,38 +11910,49 @@ grunt.loadNpmTasks(&#39;grunt-postcss&#39;);
 grunt.loadNpmTasks(&#39;grunt-autoprefixer&#39;);
 grunt.loadNpmTasks(&#39;grunt-contrib-watch&#39;);
 grunt.registerTask(&#39;default&#39;, &#91;&#39;watch&#39;&#93;);
-};</pre>
+};
+</pre>
 
 <h5>Brunch: First, you install NodeJS then install Brunch using this command:</h5>
 
-<pre>&#36; npm install -g brunch</pre>
+<pre>
+&#36; npm install -g brunch
+</pre>
 
 <p>Create a new Brunch project brunch new.</p>
 
 <h5>Install PostCSS:</h5>
 
-<pre>&#36; npm install &#45;-save postcss-brunch</pre>
+<pre>
+&#36; npm install &#45;-save postcss-brunch
+</pre>
 
 <h5>Install Autoprefixer:</h5>
 
-<pre>&#36; npm install &#45;-save autoprefixer</pre>
+<pre>
+&#36; npm install &#45;-save autoprefixer
+</pre>
 
 <h5>Install Lost:</h5>
 
-<pre>&#36; npm install &#45;-save lost</pre>
+<pre>
+&#36; npm install &#45;-save lost
+</pre>
 
 <h5>Update brunch-config.coffee</h5>
 
 <p>This will be file of export given below:</p>
 
-<pre>exports.config = files:
+<pre>
+exports.config = files:
 javascripts: joinTo: &#39;app.js&#39;
 stylesheets: joinTo: &#39;app.css&#39;
 templates:
 joinTo: &#39;app.js&#39;
 plugins: postcss:
 processors: &#91; require(&#39;autoprefixer&#39;)(), require(&#39;lost&#39;)
-&#93;</pre>
+&#93;
+</pre>
 
 <h5>Now run the brunch using this command:</h5>
 
@@ -11949,17 +12025,21 @@ and . ./xxx means relative, xxx and xxx/yyy means in modules folder, i. e. in no
 <p>CSS Modules compile to a low-level interchange format called ICSS or Interoperable CSS but are 
 written like normal CSS files:</p>
 
-<pre>/&#42; style.css &#42;/
+<pre>
+/&#42; style.css &#42;/
 .className { color: green;
-}</pre>
+}
+</pre>
 
 <p>When importing the CSS Module from a JS Module, it exports an object with all mappings from 
 local names to global names.</p>
 
-<pre>import styles from &#34;./style.css&#34;;
+<pre>
+import styles from &#34;./style.css&#34;;
 // import { className } from &#34;./style.css&#34;; element.innerHTML =
 &#39;&lt;div class=&#34;&#39; + styles.className
-&#43; &#39;&#34;&gt;&#39;;</pre>
+&#43; &#39;&#34;&gt;&#39;;
+</pre>
 
 <h5>Naming (localsConvention)</h5>
 
@@ -11995,7 +12075,8 @@ files in the head section of the HTML code.</p>
 
 <h4>Example:</h4>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre>
+&lt;!DOCTYPE html&gt;
 &lt;html lang=&#34;en&#34; class=&#34;no-js&#34;&gt;
 &lt;head&gt;
 &lt;meta charset=&#34;UTF-8&#34; /&gt;
@@ -12028,11 +12109,13 @@ typekit.net/zhq0vyf.css&#34;&gt;
 &lt;/nav&gt;
 &lt;/main&gt;
 &lt;/body&gt;
-&lt;/html&gt;</pre>
+&lt;/html&gt;
+</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>Style.css</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<pre>#42;,
+<pre>
+#42;,
 &#42;::after,
 &#42;::before {
   box-sizing: border-box;
@@ -12127,7 +12210,8 @@ a:hover, a:focus {
   100% {
     transform: translate3d(var(&#45;-move-final), 0,
   }
-}</pre>
+}
+</pre>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 105. Stratos Font Family ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -12144,7 +12228,8 @@ a:hover, a:focus {
 
 <p>After that you will get this code on the page given below:</p>
 
-<pre>&#64;import url(&#34;https://p.typekit.net/p.css?s=1&k=zhq0vyf
+<pre>
+&#64;import url(&#34;https://p.typekit.net/p.css?s=1&k=zhq0vyf
 &ht=tk&f=24537.24538.24539.24540.24547.38192.38197.381
 98.38199.38200&a=1494256&app=typekit&e=css&#34;);
 &#64;font-face {
@@ -12176,11 +12261,13 @@ a:hover, a:focus {
   191&fvd=i9&v=3&#34;) format(&#34;opentype&#34;);
   font-display:auto;font-style:italic;font-
   weight:900;font-stretch:normal;
-}</pre>
+}
+</pre>
 
 <h5>Another example:</h5>
 
-<pre>&lt;!DOCTYPE html&gt;
+<pre>
+&lt;!DOCTYPE html&gt;
 &lt;html lang=&#34;en&#34; class=&#34;no-js&#34;&gt;
 &lt;head&gt;
 &lt;meta charset=&#34;UTF-8&#34; /&gt;
@@ -12284,7 +12371,9 @@ marqueeArr.forEach(marquee =&gt; {
 s
 &lt;/script&gt;
 
-&lt;/html&gt;</pre>
+&lt;/html&gt;
+</pre>
+
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 106. Menu Effect, Marquee Menu Effect ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -12300,8 +12389,8 @@ CSS MarqueeMenu plugin.
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>CHAPTER SUMMARY</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p>In this chapter, we looked at various CSS plugins. It improves the coding functionality by 
-adding these to your plugins.</p>
+<p>In this chapter, we looked at various CSS plugins. It improves the
+coding functionality by adding these to your plugins.</p>
 
 <h3>Appraisal</h3>
 
@@ -12326,24 +12415,25 @@ user experience. Without CSS, websites could be less attractive to
 others. In addition to layout and format, CSS is only responsible for
 font color and so on.</p>
 
-<ul>
-  <li>CSS helps to keep the informational content of a document separate.</li>
-  <li>It also helps us in various ways such as:
-    <ul>
-	  <li>It is used to avoid duplication.</li>
-	  <li>It can take care of maintenance well.</li>
-	  <li>It is the same content with different styles for different purposes.</li>
-	</ul>
-</ul>
+-   CSS helps to keep the informational content of a document separate.
+
+-   It also helps us in various ways such as:
+
+    -   It is used to avoid duplication.
+
+    -   It can take care of maintenance well.
+
+    -   It is the same content with different styles for different
+        purposes.
+
 
 <p>Your website may have thousands of pages that
 look similar. With CSS, you store style information in common files
 that everyone can share. When a user displays a web page, the browser
 loads the style along with the content of the page. When a user prints
 a webpage, you can provide infor- mation about a different style that
-makes the printed page easy to read.</p>
-
-<p>In general, HTML is used to describe the content of a document, not
+makes the printed page easy to read.
+In general, HTML is used to describe the content of a document, not
 its style; you use CSS to determine its style, not its content. Of
 course, there are various exceptions to the rule, and HTML also
 provides some ways to specify style. For example, in HTML you can use
@@ -12357,9 +12447,8 @@ stylize a web page. Also, changing the look and layout of a web page
 using it is absolutely simple. You can also control how a website
 appears on different screens of different devices such as mobile
 phones, desktops, and tablets. You must have a thorough understanding
-of style sheet language to use it properly.</p>
-
-<p>You can set the font, color, and size for an entire web page or a
+of style sheet language to use it properly.
+You can set the font, color, and size for an entire web page or a
 specific HTML element. However, a single CSS can be redirected to
 multiple web pages, allowing you to change the look of multiple pages
 at once. CSS is easy to learn and understand and provides a robust
@@ -12379,20 +12468,22 @@ executed.</p>
 
 <p>There are various versions of CSS such as:</p>
 
-<ul>
-  <li>CSS1</li>
-  <li>CSS2</li>
-  <li>CSS3</li>
-</ul>
+-   CSS1
+
+-   CSS2
+
+-   CSS3
 
 <p>There are various types of CSS such as:</p>
 
-<ul>
-  <li>Embedded CSS</li>
-  <li>Inline CSS</li>
-  <li>External CSS</li>
-  <li>Import CSS (link tag)</li>
-</ul>
+-   Embedded CSS
+
+-   Inline CSS
+
+-   External CSS
+
+-   Import CSS (link tag)
+
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>WHY SHOULD SOMEONE LEARN CSS?</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -12500,39 +12591,47 @@ executed.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h2>Bibliography</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<ol type="1" start="1">
-  <li><a href="https://www.w3.org/standards/webdesign/htmlcss">
-    HTML &amp; CSS</a>--<br>
-	accessed on May 16, 2022.</li>
-  <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">
-    CSS</a>--<br>
-	accessed on May 16, 2022.</li>
-  <li><a href="https://en.wikipedia.org/wiki/CSS](https://en.wikipedia.org/">
-	CSS Introduction</a>--<br>
-	accessed on May 16, 2022.</li>
-  <li><a href="https://www3.ntu.edu.sg/home/ehchua/programming/">
-	HTML and CSS Basic</a>--<br>
-	<a href="https://www3.ntu.edu.sg/">
-	Web Programming/HTML CSS Basics</a>--<br>
-	accessed on May 16, 2022.</li>
-  <li><a href="https://www.w3.org/Style/CSS20/history.html">
-    CSS History</a>--<br>
-    accessed on May 17, 2022.</li>
-  <li><a href="https://www.bu.edu/lernet/artemis/years/2020/projects/">
-    CSS History</a>--<br>
-    <a href="https://www.bu.edu/">Final Presentations/HTML</a>--<br>
-    accessed on May 17, 2022.</li>
-  <li><a href="https://simplecss.eu/css-history-brief-overview">
-	History Overview HTML</a>--<br>
-    <a href="https://simplecss.eu/">HTML</a>--<br>
-	accessed on May 17, 2022.</li>
-  <li><a href="https://css-tricks.com/look-back-history-css/">History CSS</a>--<br>
-    accessed on May 17, 2022.</li>
-  <li><a href="https://www.w3schools.com/css/css_syntax.asp">CSS Syntax</a>--<br>
-    accessed on May 17, 2022.</li>
-  <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax">CSS Syntax</a>--<br>
-    accessed on May 18, 2022.<li>
-</ol>
+
+1.  HTML & CSS --
+    [https://www.w3.org/standards/webdesign/htmlcss](https://www.w3.org/),
+    accessed on May 16, 2022.
+
+2.  CSS -- [https://developer.mozilla.org/en-US/docs/Web/CSS,
+    accessed](https://developer.mozilla.org/) on May 16, 2022.
+
+3.  CSS Introduction --
+    [https://en.wikipedia.org/wiki/CSS](https://en.wikipedia.org/),
+    accessed on May 16, 2022.
+
+4.  HTMLand CSSBasic--
+    [https://www3.ntu.edu.sg/home/ehchua/programming/](https://www3.ntu.edu.sg/)
+    [webprogramming/HTML_CSS_Basics.html](https://www3.ntu.edu.sg/),
+    accessed on May 16, 2022.
+
+5.  CSS History --
+    [https://www.w3.org/Style/CSS20/history.html](https://www.w3.org/),
+    accessed on May 17, 2022.
+
+6.  CSS History --
+    [https://www.bu.edu/lernet/artemis/years/2020/projects/](https://www.bu.edu/)
+    [FinalPresentations/HTML/historyofcss.html](https://www.bu.edu/),
+    accessed on May 17, 2022.
+
+7.  History overview HTML --
+    [https://simplecss.eu/css-history-brief-overview.](https://simplecss.eu/)
+    [html](https://simplecss.eu/), accessed on May 17, 2022.
+
+8.  History CSS --
+    [https://css-tricks.com/look-back-history-css/](https://css-tricks.com/),
+    accessed on May 17, 2022.
+
+9.  CSS Syntax --
+    [https://www.w3schools.com/css/css_syntax.asp](https://www.w3schools.com/),
+    accessed on May 17, 2022.
+
+10. CSS Syntax --
+    [https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax](https://developer.mozilla.org/),
+    accessed on May 18, 2022.
 
 11. CSS Rules --
     [https://learn.saylor.org/mod/book/view.php?id=36821&chapterid=](https://learn.saylor.org/)
@@ -12662,6 +12761,8 @@ executed.</p>
     [https://www.quackit.com/css/tutorial/css](https://www.quackit.com/)\_font.cfm,
     accessed on May 24, 2022.
 
+Bibliography ■ **419**
+
 40. CSS Tutorial --
     [https://www.w3schools.com/css/default.asp](https://www.w3schools.com/)
     accessed on, accessed on May 24, 2022.
@@ -12732,9 +12833,3 @@ executed.</p>
 </p>
 <!-- ![](./images/image6.png){width="3.6393208661417322in" height="0.9622911198600175in"}  -->
 
-<footer>
-<h6>Create Date: 7/7/2025 12:00p<br>
-Last Editted: 9/16/2025 3:11a</h6>
-</footer>
-</body>
-</html>
